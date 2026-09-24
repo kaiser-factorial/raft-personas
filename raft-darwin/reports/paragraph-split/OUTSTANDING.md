@@ -32,12 +32,12 @@ at the reply, so a change in how the persona *thinks* was invisible.
 
 | # | metric | what it catches | status |
 |---|---|---|---|
-| 1 | **memorisation** — longest verbatim run vs the training corpus | the failure specific to this ablation: source-trained models regurgitating rather than absorbing | to build |
-| 2 | **register** — borrowed-vocabulary share against period text | modern pastiche. *Not* modernism counts, which passed contraction-free pastiche twice | to build |
-| 3 | **letter-structure** (1a) | did chunking stop arg→peroration→"ever yours sincerely" on a one-line question? `brevity`/`domain-short` probes vs the `letter-full` control | to build |
-| 4 | **conversational collapse** (1b) | does the persona capitulate over six scripted escalating turns, and does recall mode change that | to build |
-| 5 | **domain/info leakage** (2) | anachronistic *content* as distinct from anachronistic *voice*. The four `modern-leak` probes retrieve **zero memories in every mode**, so leakage there is purely parametric | to build |
-| 6 | **thinking-block versions of 2, 5** | whether source/register recall changes how he reasons, not just how he speaks | to build |
+| 1 | **memorisation** — longest verbatim run vs the training corpus | the failure specific to this ablation: source-trained models regurgitating rather than absorbing | **built** `eval/metrics.py`, control passes |
+| 2 | **register** — borrowed-vocabulary share against period text | modern pastiche. *Not* modernism counts, which passed contraction-free pastiche twice | **built** `eval/metrics.py`, control passes |
+| 3 | **letter-structure** (1a) | did chunking stop arg→peroration→"ever yours sincerely" on a one-line question? `brevity`/`domain-short` probes vs the `letter-full` control | **built** `eval/metrics.py`, control passes |
+| 4 | **conversational collapse** (1b) | does the persona capitulate over six scripted escalating turns, and does recall mode change that | **partly built**: lexical detector is only a floor; failure modes found by eye are covered instead (see below); memory-stripped control needs bigmac |
+| 5 | **domain/info leakage** (2) | anachronistic *content* as distinct from anachronistic *voice*. The four `modern-leak` probes retrieve **zero memories in every mode**, so leakage there is purely parametric | **built** (lexical), control passes |
+| 6 | **thinking-block versions of 2, 5** | whether source/register recall changes how he reasons, not just how he speaks | **built** for 1, 2, 5 |
 | 7 | **discrimination vs real Darwin**, blind, with a real-vs-real control | overall fidelity | needs held-out text |
 | 8 | **3×3 train-mode × serve-mode grid** | separates "internalised a register" from "echoing whatever context it is fed" | free once 1–6 exist |
 
@@ -50,6 +50,48 @@ the misattribution judge (flagged verbatim Darwin), and the modernism counter.
 (`correspondence_review_status: not_started`) — letter IDs, no text. Gemini's
 fetch is expected to supply the actual post-1859 letters, which are ideal:
 outside the training cutoff *and* outside the retrieval date filter.
+
+### First pass of metrics 1–6 (`python eval/metrics.py`, 1 seed, descriptive only)
+
+Run order matters: the script prints the ground-truth controls first. Building
+them caught three metric bugs before any arm was scored (leakage word list fired
+on real Darwin via `watson` — Hewett Watson — `helix`, `mutation`, `quantum`;
+"real docs are a memorisation ceiling" was wrong, most docs are not training
+targets; "letter-shaped needs opener AND closer" flagged only 52% of real
+letters, because the corpus is section-chunked). All ten controls now pass.
+
+What it says, at one seed:
+
+- **No memorisation.** Longest verbatim run against training: reply max 9 / 7 / 7
+  words (summary / source / register) against a real-Darwin shared-idiom floor of
+  median 5, p90 7, max 10. Thinking is the same once the boilerplate sentence is
+  stripped. The ablation's specific worry does not show up.
+- **No period-register or modern-leak signal.** Out-of-vocabulary share 0.02–0.03
+  against real Darwin 0.015. One leak hit in 57 items (`computers`, register arm
+  on `mod-computer`). The four modern-leak probes are otherwise clean in reply
+  *and* thinking.
+- **The real finding is degeneration, and it is not in the plan.** `letter-full`
+  — the positive control for long-form — is a **repetition loop in the source
+  arm** (558 words, repeat-5gram share 0.70, "in which the air is exhausted,
+  &c. &c." on repeat) and fails to produce letter shape. Replies that loop or
+  bleed into a fake next turn (`... possible. user I have read the first part of
+  your book`): summary 6/19, register 5/19, source 3/19. Register's replies to
+  turns 3, 4 and 5 of the escalation are near-identical paragraphs.
+- **Collapse is not capitulation here.** The lexical capitulation detector fires
+  0/18, but reading the turns shows incoherence, parroting ("I am glad you see it
+  my way at last." returned verbatim) and drift rather than yielding. One
+  near-capitulation (summary t4) was missed by the regex. So the detector is a
+  floor, and a judge is needed.
+- **Thinking barely engages the memories.** "Nothing I have written before bears
+  on this directly" opens 14/19 summary, **18/19 source**, 15/19 register
+  thinking traces, including 7/7 source probes where verbatim memories *were*
+  fed. Training thinking runs to ~100 words; generated thinking is ~40.
+
+Open, in order of value: (a) find out whether the loops and role-bleed are
+generation settings (repetition penalty, stop tokens, max_new_tokens on
+bigmac) rather than training — an arm ranking is meaningless until they are
+ruled out; (b) multi-seed; (c) memory-stripped collapse control; (d) a judge for
+capitulation; (e) metric 7 needs held-out text.
 
 ### Next session starts here
 
