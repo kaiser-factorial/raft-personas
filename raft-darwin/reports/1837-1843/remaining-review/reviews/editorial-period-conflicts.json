@@ -1,0 +1,98 @@
+{
+  "review_id": "editorial-period-conflicts",
+  "model": "gpt-5.6-luna",
+  "scope": "All 476 expansion records; editorial footnotes screened for explicit composition-date possibilities outside 1837–1843 despite XML safe_within_period.",
+  "methodology": "Searched every editorial footnote for dates and dating language, then fully read the bodies and notes of substantive candidates. Historical publication, death, travel, and later-return dates were not treated as composition dates.",
+  "records_scanned": 476,
+  "full_read_ids": [
+    "DCP-LETT-631",
+    "DCP-LETT-13803"
+  ],
+  "conflicts": [
+    {
+      "letter_id": "DCP-LETT-631",
+      "original_xml_bounds": {
+        "earliest": "1841-07-01",
+        "latest": "1841-07-23",
+        "date_structure": "bounded_range"
+      },
+      "finding": "Genuine editorial-period conflict. The footnote says the letter might belong to any Shrewsbury visit from summer 1841 through November 1848, so the XML-safe July 1841 bound is not a complete composition-date possibility. The body’s Saturday/Shrewsbury close does not uniquely resolve the visit.",
+      "proposed_conservative_hold": "Retain raw XML bounds and mark date as unresolved; do not promote to exact July 1841. Consider an editorial possibility extending through November 1848 for chronology review, while keeping it outside the 1837–43 selection unless separately authorized.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-631",
+          "body_paragraph": 3,
+          "quote": "Believe me | My dear Sir | Yours very faithfully | Charles Darwin. Saturday"
+        },
+        {
+          "letter_id": "DCP-LETT-631",
+          "body_paragraph": 1,
+          "quote": "A few days since I was struck by the difference in aspect of a Cynoglossum"
+        }
+      ],
+      "footnote_evidence": "This letter might have been written during any Shrewsbury visit from the summer of 1841 to November 1848."
+    },
+    {
+      "letter_id": "DCP-LETT-13803",
+      "original_xml_bounds": {
+        "earliest": "1839-01-01",
+        "latest": "1839-12-30",
+        "date_structure": "bounded_range"
+      },
+      "finding": "No outside-period conflict. “Before end of 1839?” is an unresolved date within the XML year, and the footnote’s questionnaire timing is also within 1839. It does not license a pre-1837 or post-1843 composition date.",
+      "proposed_conservative_hold": "Retain the existing 1839 bound and uncertainty; do not replace it with an exact day or infer date from the later 1846 reference.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-13803",
+          "body_paragraph": 1,
+          "quote": "at pointer bitch belonging to Chas Wilkins Esq. Hay, Breconshire"
+        },
+        {
+          "letter_id": "DCP-LETT-13803",
+          "body_paragraph": 2,
+          "quote": "The breed had been in the family for generations"
+        }
+      ],
+      "footnote_evidence": "The date is conjectured from the date at which the Wilkins family adopted the name de Winton ... The information was probably for the chapters on variation under domestication."
+    }
+  ],
+  "screened_non_conflicts": [
+    {
+      "letter_id": "DCP-LETT-1147",
+      "reason": "1844 is a historical death date in a footnote, not a possible composition date."
+    },
+    {
+      "letter_id": "DCP-LETT-13805",
+      "reason": "Falconer’s 1847 return to India and 1843 memoir date contextualize the 1842–43 editorial range; neither supplies an outside composition possibility."
+    },
+    {
+      "letter_id": "DCP-LETT-13770H",
+      "reason": "The 1840–77 range is already represented in the ambiguous record and its footnote explains institutional endpoints; not XML-safe."
+    },
+    {
+      "letter_id": "DCP-LETT-13828",
+      "reason": "The 1842–45 or 1855–68 alternatives are already ambiguous_period, not safe_within_period."
+    },
+    {
+      "letter_id": "DCP-LETT-970",
+      "reason": "The 1882 upper bound is already ambiguous_period and footnote reasoning supports a post-July-1843 lower bound, not safe-period overreach."
+    }
+  ],
+  "issues": [
+    {
+      "severity": "high",
+      "letter_id": "DCP-LETT-631",
+      "issue": "XML July 1841 is narrower than the explicit editorial possibility through November 1848."
+    },
+    {
+      "severity": "low",
+      "letter_id": "DCP-LETT-13803",
+      "issue": "Questioned “before end of 1839?” remains within the selected period; it is uncertainty, not an outside-period conflict."
+    }
+  ],
+  "verdict": "One genuine safe-record editorial period conflict found (631); 13803 is a within-period uncertainty. Preserve raw metadata and maps; this report is advisory only.",
+  "quote_validation": {
+    "method": "Exact quote substrings checked against the fully read expansion records.",
+    "quote_errors": []
+  }
+}

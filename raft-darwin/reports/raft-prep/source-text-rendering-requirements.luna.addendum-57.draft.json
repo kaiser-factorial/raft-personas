@@ -1,0 +1,383 @@
+{
+  "artifact_type": "raft_formatting_requirements_addendum_candidate",
+  "addendum_id": "57",
+  "status": "candidate_requirements_only",
+  "scope": "Accepted 1856-1857 batch-34 only; no converter, export, accepted-ledger or source mutation.",
+  "provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-34.json",
+      "sha256": "3912305817a26ce168bfaa9f3a0523b553b559b3f97b2b480d7c82552748e1b5"
+    },
+    "parent_decision": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-34.json",
+      "sha256": "f6b4c85eac2e1a52ae5c92a96dadc4057a5c4d0c804a09c668aec329eb6174f3"
+    },
+    "accepted_ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-34.json",
+      "sha256": "439164fafd8972599d10a6f2c34a5e80d5b289c071f39fbfe85c02abbbc61e19"
+    },
+    "export_policy": {
+      "path": "docs/raft-export-content-policy.md",
+      "sha256": "c7220b8e79bf44f2ac9d98b61676471e72d2b9a5fb360b4590d6c0972a3f916d"
+    },
+    "snapshot_note": "Prepared from the accepted batch-34 files and preserved source projections available at preparation time."
+  },
+  "source_provenance": [
+    {
+      "letter_id": "DCP-LETT-2175",
+      "title": "To Hugh Falconer 23 November 1857",
+      "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2175.html",
+      "html_sha256": "90d7c504c3f2cfeeb00e11a28f56b9fe0bbf1fc62d7d2434500479e94c65c530",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2175.xml",
+      "xml_sha256": "48cb3ff16c9bdb7f397d1ab22f0ba7a704cf06e21b0b5126d1996c35773fd7f2",
+      "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2175.xml",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-2175.xml",
+      "xml_date_bounds": {
+        "earliest": "1857-11-23",
+        "latest": "1857-11-23"
+      }
+    },
+    {
+      "letter_id": "DCP-LETT-3509",
+      "title": "To Hugh Falconer 16 April [1856]1",
+      "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-3509.html",
+      "html_sha256": "3fa1f41574ca2fad66ce57990b2d4ebbb4fd4be8d8e82bdaec7ec008c09672df",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-3509.xml",
+      "xml_sha256": "d6e73bf9683c37c31408a7eaec955a4b555614cad8f96c93ea9c96a82e1d2ba5",
+      "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3509.xml",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-3509.xml",
+      "xml_date_bounds": {
+        "earliest": "1856-04-16",
+        "latest": "1856-04-16"
+      }
+    },
+    {
+      "letter_id": "DCP-LETT-1663",
+      "title": "To W. B. D. Mantell 10 April [1856]1",
+      "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1663.html",
+      "html_sha256": "445e13eae4d3c6b1a1a85a1b094e3ebce5f098099e8c3260405caeb126b41a7a",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1663.xml",
+      "xml_sha256": "5f06a3f4f6c98c273fcc73cca469df09fefea8a55110364cc4e672c9de949c85",
+      "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1663.xml",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-1663.xml",
+      "xml_date_bounds": {
+        "earliest": "1856-04-10",
+        "latest": "1856-04-10"
+      }
+    },
+    {
+      "letter_id": "DCP-LETT-1892",
+      "title": "To W. B. D. Mantell 5 June [1856–9]1",
+      "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1892.html",
+      "html_sha256": "f6cd87bf180350de80e27c20867994572990c7dc4e91979285d8762daf2d219d",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1892.xml",
+      "xml_sha256": "c1db4fb268f367bb06a947b7fa464d36c7a611e32145c7efc208d97312c003de",
+      "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1892.xml",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-1892.xml",
+      "xml_date_bounds": {
+        "earliest": "1856-06-05",
+        "latest": "1859-06-05"
+      }
+    },
+    {
+      "letter_id": "DCP-LETT-6520",
+      "title": "To Walter Baldock Durrant Mantell [before 10 April 1856]1",
+      "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-6520.html",
+      "html_sha256": "c0727b967a661034e4a1da46dd4c397aaf7c16843c0e36ca84573a4957372f70",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-6520.xml",
+      "xml_sha256": "50ddb2aca895b3892a43006c90a57f8ef26bb1a5a190e01e83980819f278ff3a",
+      "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6520.xml",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-6520.xml",
+      "xml_date_bounds": {
+        "earliest": "1809-01-01",
+        "latest": "1856-04-09"
+      }
+    },
+    {
+      "letter_id": "DCP-LETT-2073F",
+      "title": "To William Sharpey 9 April [1857]1",
+      "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2073F.html",
+      "html_sha256": "d8f40076f7eb395e7b14bc1709a46346af20c79658ae8c207c558756134e9f91",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2073F.xml",
+      "xml_sha256": "2b037c05154e9402da90a0c54d0a2f38ce67726fe4c472873787725a58f91f0b",
+      "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2073F.xml",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-2073F.xml",
+      "xml_date_bounds": {
+        "earliest": "1857-04-09",
+        "latest": "1857-04-09"
+      }
+    },
+    {
+      "letter_id": "DCP-LETT-2093F",
+      "title": "To William Sharpey 22 May [1857]1",
+      "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2093F.html",
+      "html_sha256": "42f8de363d9fb64ea3adde74d9c6e9d20fbde75a165aac589c091fe4883afd41",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2093F.xml",
+      "xml_sha256": "181e8f69910fef65d448d5b84bef4d48ea74d50ded8fe0ff8d73d683dea42c96",
+      "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2093F.xml",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-2093F.xml",
+      "xml_date_bounds": {
+        "earliest": "1857-05-22",
+        "latest": "1857-05-22"
+      }
+    },
+    {
+      "letter_id": "DCP-LETT-2100",
+      "title": "To William Sharpey 2 June [1857]1",
+      "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2100.html",
+      "html_sha256": "d59d637440fc2a7bdaf8e60accd9542e4e46767c7cd243f815c725e9bbe7a7e8",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2100.xml",
+      "xml_sha256": "686384af46151731eeb603ab996ff03814cb69790c2c96461dfac8c8c7311295",
+      "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2100.xml",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-2100.xml",
+      "xml_date_bounds": {
+        "earliest": "1857-06-02",
+        "latest": "1857-06-02"
+      }
+    },
+    {
+      "letter_id": "DCP-LETT-1962",
+      "title": "To P. H. Gosse 28 September [1856]",
+      "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1962.html",
+      "html_sha256": "a96c6c91bcc608c3543f7eebe9057da738d8f9da5f2082ee7643ba27671263a6",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1962.xml",
+      "xml_sha256": "7372e5e19ef0d6f2f3fe1eeda6ae66a782d1b60ffe1836d2d81bdeb4c5dff422",
+      "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1962.xml",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-1962.xml",
+      "xml_date_bounds": {
+        "earliest": "1856-09-28",
+        "latest": "1856-09-28"
+      }
+    },
+    {
+      "letter_id": "DCP-LETT-2082",
+      "title": "To P. H. Gosse 27 April [1857]1",
+      "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2082.html",
+      "html_sha256": "d386860a9715296e37b0398b14617bbb0b7e2fdc43ed62c30a9a88a31912b24e",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2082.xml",
+      "xml_sha256": "fab757c081672b9902ac3eaa8f00f2a252581bfff2ac04b6dc45dcf457184bf7",
+      "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2082.xml",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-2082.xml",
+      "xml_date_bounds": {
+        "earliest": "1857-04-27",
+        "latest": "1857-04-27"
+      }
+    },
+    {
+      "letter_id": "DCP-LETT-3791",
+      "title": "To Hugh Falconer [7 March 1857]1",
+      "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-3791.html",
+      "html_sha256": "2b715c764c90ed6fc625df8750db99f9be0dfb5e6d058bdd8f2f915557ff2c68",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-3791.xml",
+      "xml_sha256": "86f1088e75ec1dcb569d6eca88d7743ad2be35de921a4a121ef040c953520225",
+      "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3791.xml",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-3791.xml",
+      "xml_date_bounds": {
+        "earliest": "1857-03-07",
+        "latest": "1857-03-07"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "id": "r57-2175-enclosure",
+      "topic": "2175 complete eight-question authorial enclosure and cover/enclosure dates",
+      "requirement": "Preserve DCP-LETT-2175 as a copy of Darwin’s cover plus a separate complete enclosure. Keep the cover’s 23 November 1857 date distinct from the enclosure signature 22 November 1857; expose all eight numbered questions as Darwin-authored requested information, not as an answer or as Dickey/Buist testimony. The January 13 Buist routing note and nested 1843 Smith quotation remain apparatus/evidence and must stay outside RAFT content.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2175",
+          "body_paragraph": 1,
+          "quote": "You told me that you thought you could obtain information for me about the colours and markings of some Indian horses, from the very best authority, namely Col. E. Dickie. If you could interest him to oblige me with answers to the following questions, it would be conferring a very great kindness on me.",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]",
+          "quote_layer": "retained attributed body",
+          "source_html_sha256": "90d7c504c3f2cfeeb00e11a28f56b9fe0bbf1fc62d7d2434500479e94c65c530"
+        },
+        {
+          "letter_id": "DCP-LETT-2175",
+          "body_paragraph": 3,
+          "quote": "Would you be so kind as to send off my queries pretty soon, as time is precious.",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]",
+          "quote_layer": "retained attributed body",
+          "source_html_sha256": "90d7c504c3f2cfeeb00e11a28f56b9fe0bbf1fc62d7d2434500479e94c65c530"
+        }
+      ],
+      "source_layer_requirements": [
+        "Enclosure paragraphs are under div.enclosures/div.enclosure/p[1] through p[9], with the final paragraph literal signature C. Darwin Down, Nov. 22nd 1857. Keep this enclosure DOM scope separate from div.body-content and exclude footnotes/bibliography.",
+        "Do not treat the editorial footnote quoting Gwatkin or the January Buist note as a recovered incoming prompt or response."
+      ],
+      "enclosure_evidence": [
+        {
+          "source_record_id": "DCP-LETT-2175",
+          "source_html_sha256": "90d7c504c3f2cfeeb00e11a28f56b9fe0bbf1fc62d7d2434500479e94c65c530",
+          "quote": "1. Major Gwatkin in a letter published by Col. Hamilton Smith, speaking of the Kutch or Kahleawar breed of horses, says “Kutch is the country where the mares are bred; the sire is an Arab. They are generally greys or light duns, and almost invariably have the zebra-marks on the arms and thighs with list down the back.”3 I am very anxious to know what are the colours of the pure Kutch mares; for it seems very surprising that the offspring, begotten by Arab sires, which I believe are never dun, should be generally dun or grey and have a dorsal stripe and transverse zebra-like marks on the legs. These latter characteristics, I hear, are generally lost in the Scandinavian duns, when crossed with any other colour.",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/p[1]",
+          "source_layer": "retained authorial enclosure; footnote marker 3 is shown by the page text but footnote prose is excluded"
+        },
+        {
+          "source_record_id": "DCP-LETT-2175",
+          "source_html_sha256": "90d7c504c3f2cfeeb00e11a28f56b9fe0bbf1fc62d7d2434500479e94c65c530",
+          "quote": "8. What is the colour of the Dun or Cream or other colour, when accompanied by stripes in the foal, before first hair is shed? Are the stripes at this early age more or less conspicuous?4",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/p[8]",
+          "source_layer": "retained authorial enclosure; footnote marker 4 is shown by the page text but footnote prose is excluded"
+        }
+      ]
+    },
+    {
+      "id": "r57-mantell-mixed",
+      "topic": "Mantell mixed hands and answer chronology",
+      "requirement": "Keep DCP-LETT-6520 as a mixed document: Darwin questions occupy P1 and P3, while Mantell answers occupy P2 and P4-P6. Do not export it as a single-voice letter or use its broad before-10-April assignment to date every answer. DCP-LETT-1663 P5 is a contemporaneous Darwin fear that Mantell may not answer the beauty question, and DCP-LETT-1892 has four discrete possible years (1856, 1857, 1858, 1859); neither authorizes turning the later “Yes” into a precisely dated reply.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1663",
+          "body_paragraph": 5,
+          "quote": "Lastly, I fear you cannot answer my question whether the beau ideal of beauty amongst the less civilised natives (ie those least influenced by being accustomed to European faces) would agree with ours; viz whether we & they would pick out the same kind of beauty.— Forgive me if you can, & believe me,",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]",
+          "quote_layer": "retained attributed body",
+          "source_html_sha256": "445e13eae4d3c6b1a1a85a1b094e3ebce5f098099e8c3260405caeb126b41a7a"
+        },
+        {
+          "letter_id": "DCP-LETT-1892",
+          "body_paragraph": 2,
+          "quote": "I think that you were so kind as to answer fully all my previous questions.—",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]",
+          "quote_layer": "retained attributed body",
+          "source_html_sha256": "f6cd87bf180350de80e27c20867994572990c7dc4e91979285d8762daf2d219d"
+        }
+      ],
+      "source_layer_requirements": [
+        "6520 retained body uses source path data/raw/dcp/1844-1846/pages/DCP-LETT-6520.html and accepted prior-reading provenance; pin its mixed-author paragraph boundaries and do not infer receipt from page order.",
+        "The 1663 text contains a preserved artifact “obliged to for”; hold for evidence-based repair unless authoritative markup supports a correction."
+      ]
+    },
+    {
+      "id": "r57-3509-fraction-copy",
+      "topic": "3509 copy and rendered quarter-hour coach time",
+      "requirement": "Render the supplied contemporary copy DCP-LETT-3509 without changing its copy status. Preserve the body MathML fraction as a quarter hour and keep the instruction after the closing as attributed body text. Do not concatenate footnote material or convert later diary evidence into this letter.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-3509",
+          "body_paragraph": 5,
+          "quote": "There is a Coach from Golden Cross Charing Cross at 314 which would drop you at Farnboro’, 2 miles to this house.—",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]",
+          "quote_layer": "retained attributed body",
+          "source_html_sha256": "3fa1f41574ca2fad66ce57990b2d4ebbb4fd4be8d8e82bdaec7ec008c09672df"
+        }
+      ],
+      "special_markup": [
+        {
+          "source_html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-3509.html",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]/math[1]/mfrac[1]",
+          "literal_dom": "<math><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
+          "rendered_value": "one quarter",
+          "combined_body_value": "3 and one quarter",
+          "source_html_sha256": "3fa1f41574ca2fad66ce57990b2d4ebbb4fd4be8d8e82bdaec7ec008c09672df",
+          "literal_source_quote": "<p>There is a Coach from Golden Cross Charing Cross at 3<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> which would drop you at Farnboro’, 2 miles to this house.—</p>",
+          "literal_source_quote_note": "The retained body extraction used for quote checking renders the MathML as 314; the raw HTML quote and mfrac tokens are pinned here so export may render 3¼ without silently changing text."
+        }
+      ]
+    },
+    {
+      "id": "r57-forwarded-sabine",
+      "topic": "forwarded Sabine prompt missing",
+      "requirement": "Treat DCP-LETT-2073F as Darwin’s April 9 response/context about catalogues, candidates, and the Government Grant Committee. The body explicitly says a Sabine letter to Lyell was forwarded to Darwin, but that incoming letter and the separate note to the committee are not retained here. Keep this as a missing-input/access witness, never synthesize Sabine’s prompt or call the F suffix a fragment.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2073F",
+          "body_paragraph": 4,
+          "quote": "General Sabine in letter to Sir C. Lyell, forwarded to me, says I am on Government Grant Committee, of which I have never heard; & both wish me to attend at next meeting in respect to Mr Beckles grant.— This I cannot do, therefore I have written separate note, if you will be so kind as to read it to Committee.—",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]",
+          "quote_layer": "retained attributed body",
+          "source_html_sha256": "d8f40076f7eb395e7b14bc1709a46346af20c79658ae8c207c558756134e9f91"
+        }
+      ],
+      "missing_inputs": [
+        "Sabine to Lyell letter",
+        "Darwin separate committee note"
+      ]
+    },
+    {
+      "id": "r57-recommendation-audience",
+      "topic": "recommendation and audience changes",
+      "requirement": "Keep DCP-LETT-2093F and DCP-LETT-2100 as separate Darwin institutional recommendations. 2093F contains a conditional Prestwich recommendation and a counterfactual Lyell judgment; 2100 records a later Hooker report that Lindley was proposed and clarifies that Darwin’s earlier letter was read to Council although he thought it private. Preserve the shift in audience and recommendation; do not rewrite counterfactuals as endorsements by Lyell or Hooker.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2093F",
+          "body_paragraph": 1,
+          "quote": "If I had been on council, I think I would have proposed him, & in that case I shd. have got Lyell’s opinion & judgment, as the most capable judge living on such a subject;",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]",
+          "quote_layer": "retained attributed body",
+          "source_html_sha256": "42f8de363d9fb64ea3adde74d9c6e9d20fbde75a165aac589c091fe4883afd41"
+        },
+        {
+          "letter_id": "DCP-LETT-2100",
+          "body_paragraph": 2,
+          "quote": "Hooker tells me that my letter to you was read to the Council: I had thought that you had asked merely for my private opinion,—all that I said in that letter expressed my deliberate conviction, whatever that may be worth, but I am rather alarmed that I expressed myself dogmatically under the impression that I was writing to a private friend & not to a Body like the Council of the Royal Soc.y.",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]",
+          "quote_layer": "retained attributed body",
+          "source_html_sha256": "d59d637440fc2a7bdaf8e60accd9542e4e46767c7cd243f815c725e9bbe7a7e8"
+        }
+      ]
+    },
+    {
+      "id": "r57-gosse-experiments",
+      "topic": "Gosse actual versus proposed experiments",
+      "requirement": "Separate actual reports from requested experiments. DCP-LETT-1962 thanks Gosse for bald-pate information but says the actual coo is still to be heard; DCP-LETT-2082 reports Darwin’s freshwater hatchling/adhesion observations and asks Gosse to try an analogous sea-mollusc experiment. Do not substitute later memoir or publication material for Gosse’s missing answer, and keep Darwin’s hypothesis explicitly qualified.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1962",
+          "body_paragraph": 1,
+          "quote": "I thank you warmly for your extremely kind letter & for your information about the Bald-Pate, which is quite sufficient. When we meet I shall beg to hear the actual coo!",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]",
+          "quote_layer": "retained attributed body",
+          "source_html_sha256": "a96c6c91bcc608c3543f7eebe9057da738d8f9da5f2082ee7643ba27671263a6"
+        },
+        {
+          "letter_id": "DCP-LETT-2082",
+          "body_paragraph": 1,
+          "quote": "Whether this is so I do not know, & indeed do not believe it is so, but I found when there were many very young Molluscs in a small vessel with aquatic plants, amongst which I placed a dried Ducks foot, that the little barely visible shells often crawled over it, & that they adhered so firmly that they cd. not be shaken off,",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]",
+          "quote_layer": "retained attributed body",
+          "source_html_sha256": "d386860a9715296e37b0398b14617bbb0b7e2fdc43ed62c30a9a88a31912b24e"
+        },
+        {
+          "letter_id": "DCP-LETT-2082",
+          "body_paragraph": 2,
+          "quote": "try an analogous experiment with some sea-molluscs, especially any strictly littoral species,—hatching them in numbers in a smallish vessel",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]",
+          "quote_layer": "retained attributed body",
+          "source_html_sha256": "d386860a9715296e37b0398b14617bbb0b7e2fdc43ed62c30a9a88a31912b24e"
+        }
+      ]
+    },
+    {
+      "id": "r57-falconer-oral",
+      "topic": "oral manuscript input and later publication boundary",
+      "requirement": "Keep DCP-LETT-3791 scoped to an oral paragraph Falconer read from his paper, with Darwin’s explicitly hypothetical Owen reply. A later printed page is not the manuscript prompt, and DCP-LETT-3509’s invitation/coach logistics do not establish attendance. Export must preserve uncertainty and omit later editorial dating/publication apparatus.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-3791",
+          "body_paragraph": 1,
+          "quote": "I have been thinking over the remarkable paragraph you read to me out of your paper; and it occurs to me (though hardly worth mentioning to you) that what Owen might say in answer",
+          "dom_locator": "/html/body[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]",
+          "quote_layer": "retained attributed body",
+          "source_html_sha256": "2b715c764c90ed6fc625df8750db99f9be0dfb5e6d058bdd8f2f915557ff2c68"
+        }
+      ]
+    }
+  ],
+  "export_invariants": [
+    "Questions and answers contain only attributed retained letter body, excluding headers, addresses, datelines, footnotes, annotations, bibliography, navigation and later editorial summaries.",
+    "Do not invent missing cover letters, answers, manuscript passages, attendance or receipt. Keep composition, posting, receipt, reading and demonstrated knowledge separate.",
+    "Smooth only artifacts supported by retained MathML, authoritative transcript or manuscript evidence; otherwise retain a hold and record the artifact outside RAFT content.",
+    "Deduplicate mixed-source and reused accepted bodies; this addendum does not create or recount a relationship."
+  ],
+  "validation": {
+    "quote_method": "Literal substrings copied from period_review retained body paragraphs or literal source HTML/MathML; actual DOM locators recorded per quote.",
+    "quote_count": 12,
+    "all_quote_sources_loaded": true,
+    "requirements_only": true,
+    "existing_artifacts_preserved": true,
+    "literal_enclosure_evidence_count": 2,
+    "literal_special_markup_count": 1
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batch 13 source-text rendering, chronology, attribution, receipt and figure requirements only; candidate for root review. No converter, export, transcript, corpus, training or primary evidence changes.",
+  "primary_provenance": {
+    "batch": {
+      "reading": {
+        "path": "reports/1856-1857/review/parent-reading/batch-13.json",
+        "sha256": "a5e8ed85d1cfcff4519cd0b8f5c48d9607c811da8ea856ab0cd18325058ee786"
+      },
+      "decisions": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-13.json",
+        "sha256": "bf92a51c8a505e725c5936845bf46cffd1ad8c8eaeaf8b4a73b472d38c7d8221"
+      },
+      "ledger": {
+        "path": "data/annotations/periods/1856-1857/batch-13.json",
+        "sha256": "4d7c694a8ec0b4670bb3e166ec4e9afb9aa2fb4940b8dab4c318fafb2dea932f"
+      }
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1951"
+      ],
+      "case": "full September continuation, gar-pike figure, MathML and coastline qualification",
+      "requirement": "Render the complete surviving September 8 continuation, including the formerly treated-as-missing later pages. Preserve the actual gar-pike tail image at /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/div/img as an illustration of a reported juvenile tail, not quantitative evolutionary evidence. The fossil-wood passage contains a genuine 2½-foot MathML length at /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[17]/math and a four-inch diameter; retain the fragment wording and do not turn it into a forest or 212-foot tree. Dana’s cave classifications, bipolar counts and coastline habitat qualification remain attributed and uncertain; species distribution does not establish hemisphere of origin.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-1951",
+          "quote": "The only appearance of an organized remain that I any where saw, was a fragment of Carbonized wood",
+          "retained_body_scope": "retained P17; raw DOM p[17]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[17]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1951",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1951.html",
+          "html_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1951.xml",
+          "xml_sha256": "7b729a39ac17037cc4c3fb84715a4dc0b35807be48a895e8bbf10f1200432576"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1960",
+        "DCP-LETT-1951"
+      ],
+      "case": "Dana quotation as knowledge evidence and stale missing-section note",
+      "requirement": "Preserve DCP-LETT-1960 P6 as Darwin’s quotation of Dana’s September 8 P17, which demonstrates Darwin knowledge before the September 29 reply; it is a knowledge witness, not Dana target voice and not a new direct Darwin training prompt. Remove any availability hold based on the stale note that the 1951 section was missing: the full continuation is present in 1951. Keep Lubbock congratulations/pamphlet thanks distinct from the separate Diana wedding reference.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-1960",
+          "quote": "the letter which I received from you on the 8th Sept",
+          "retained_body_scope": "retained P6; raw DOM locator to be resolved programmatically from source body",
+          "dom_xpath": ""
+        },
+        {
+          "source_id": "DCP-LETT-1951",
+          "quote": "I received your most welcome letter a few days before the meeting",
+          "retained_body_scope": "retained P2; raw DOM p[2]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1960",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1960.html",
+          "html_sha256": "1903c8b1f7d6128b85ff22b0494d0dc80ffd7598a7af4b344f6817afd480326a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1960.xml",
+          "xml_sha256": "eac6ce3863854af56f6051f021fdc0f458d827322b8049d4391d57cbb2fe7257"
+        },
+        {
+          "letter_id": "DCP-LETT-1951",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1951.html",
+          "html_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1951.xml",
+          "xml_sha256": "7b729a39ac17037cc4c3fb84715a4dc0b35807be48a895e8bbf10f1200432576"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2083"
+      ],
+      "case": "35½-degree MathML and adopted South/north transposition",
+      "requirement": "Preserve the genuine 35½° MathML node at /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]/math; do not flatten it as 3512 or 35/12. Keep the source edition’s adopted South/north transposition as an apparatus-level correction, with Dana’s substantive claim bounded by his explicit lack of Antarctic facts and possible rather than certain subgeneric analogy. The Lyell Supplement sender correction identifies Dana as recipient context; it does not prove Darwin receipt timing.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-2083",
+          "quote": "Halicarcinus has a representative genus, (Hymenicus) at New Zealand",
+          "retained_body_scope": "retained P4; raw DOM p[4] with MathML",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2083",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2083.html",
+          "html_sha256": "36693b386cd18352650536a5e64feb0426b95682280c4bccf08d08e81d56de65",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2083.xml",
+          "xml_sha256": "0899638daa0a3348ccb41b9ed997545a35d6674d9a331cf2996a937cb7619859"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2020F"
+      ],
+      "case": "December 21 missing November prompt versus December 8 receipt and reply",
+      "requirement": "Keep 2020F P1–P5 as an unpaired answer to the missing November 28 Dana letter about libration/species, infertility and chemical elements. In P6–P8, the explicit “This morning” receipt identifies Dana’s December 8 note and supports the narrower cave-rat/embryology/negative-evidence reply; do not backdate that source into P1–P5. Preserve the supplied December 21 date, the F source extent (nine complete retained blocks), and the separate P9 pigeon request.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-2020F",
+          "quote": "This morning I have received your note of the 8th",
+          "retained_body_scope": "retained P6; raw DOM p[7]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2020F",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2020F.html",
+          "html_sha256": "6c96c0a0ce44f3459594553d29d19f31bd5299a98447a35ea7f468d970831664",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2020F.xml",
+          "xml_sha256": "f0ec03aa23494a16527c0cd226a1bd57a2617030db27b59a5c4c11bbe80cd427"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1964",
+        "DCP-LETT-1952"
+      ],
+      "case": "September 9 versus September 29 Bosquet drawing reports",
+      "requirement": "Keep 1964’s “received yesterday” Bosquet drawing report as a September 28 event implied by the September 29 letter, while preserving 1952’s separate September 9 acknowledgement of Bosquet’s letter and drawings. Do not force both references into one delivery or silently redate either source; distinct drawings or an editorial/date discrepancy remain possible.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-1964",
+          "quote": "Now the other day Bosquet of Maestricht sends me a perfect drawing",
+          "retained_body_scope": "retained P7; raw DOM p[7]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"
+        },
+        {
+          "source_id": "DCP-LETT-2020F",
+          "quote": "This morning I have received your note of the 8th",
+          "retained_body_scope": "retained P6; raw DOM p[7]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1964",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1964.html",
+          "html_sha256": "10fd8471d338a1e5d39e40acc9a63257d6f628764b2e5b9699dc04c04b714503",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1964.xml",
+          "xml_sha256": "658558a3c2ce81ed38dc43af687c7356926703f96781cfa7a28a006d2d68919d"
+        },
+        {
+          "letter_id": "DCP-LETT-1952",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1952.html",
+          "html_sha256": "cfe3aa0d32762fd556a121cb3a734fd33eebe8192a2e6207984474e9126f4aa5",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1952.xml",
+          "xml_sha256": "0e02ad2d6309d696c7c4f59b74e95885d285806a396bd23fb580ff2f782f425e"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Retained body paragraphs and raw DOM paths are separate coordinate systems; preserve both.",
+    "Keep quoted Dana voice, Darwin knowledge, annotations, apparatus, dispatch, receipt, reading and later corrections separately attributed.",
+    "Rendering requirements do not create relationship acceptance, training eligibility or knowledge activation."
+  ],
+  "notes": [
+    "The 1951 continuation is source-complete despite stale earlier missing-section notes.",
+    "The September 9 Bosquet witness and September 29 “yesterday” report remain distinct unresolved delivery possibilities."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/all_letters.jsonl",
+      "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+    },
+    {
+      "path": "reports/1856-1857/audit.jsonl",
+      "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+    }
+  ]
+}

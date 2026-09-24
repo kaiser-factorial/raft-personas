@@ -1,0 +1,579 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Batches 45–46 additive mixed-document source-text/date/voice/rendering requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "batches": {
+      "reports/1851-1855/review/parent-reading/batch-45.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-45.json",
+        "sha256": "1b138849e70478f838dc5e2f15c93074927313b9ed81ab53318a6f137114cb7d"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-45.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-45.json",
+        "sha256": "3082361ebc69dcd81540fa23a547e98a24d3a7c748e3df95616b598238b501d0"
+      },
+      "reports/1851-1855/review/parent-reading/batch-46.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-46.json",
+        "sha256": "5ef7048795e622c26f7916134c85fc85921072a99553223364ee774b28876e99"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-46.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-46.json",
+        "sha256": "a509ec395be787a6f9d6197532d868c8a7626fa4404e7b8f9e7a14f9bd712449"
+      }
+    },
+    "ledgers": {
+      "data/annotations/periods/1851-1855/batch-45.json": "ea838f27ff89a727a83c5462cdff8293cce770f897ea7c724c80eca388d0c57b",
+      "data/annotations/periods/1851-1855/batch-46.json": "c3ff02706dd5cb07ca291e7ef1b002e902a420011e19aeaa5a28481b8a4135ab"
+    },
+    "followup": "reports/1851-1855/review/followups/parker-1852-circular.primary.json",
+    "followup_sha256": "7192ae241be4c39a8ed2edc78a179e2f396200d2673f4b7e13ff16bbb9134837",
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1690"
+      ],
+      "case": "Blyth cover, Bashford report and damaged date layer",
+      "requirement": "Keep 1690 as a composite: Blyth’s cover and Bashford’s silkworm experiments are distinct voices, while Darwin’s later numbered or pencil questions are a separate undated layer. Preserve the garbled duplicated P4 text and the XML July 4–December 31 bounds; do not render the cover date as the date of every experimental block.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1690",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1690.html",
+          "source_html_sha256": "999438968b4fca96642cd5be974d9313a62f9fceb4285901aadb4773b8b92988",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1690.xml",
+          "xml_sha256": "70e580f1cea7b1e61ab593c785e28fb8867a386c0ca5e5d9e2bff9559860d7b1",
+          "verified_sent_date_constraints": [
+            {
+              "text": "[after 3 July 1855]",
+              "attributes": {
+                "notBefore": "1855-07-04",
+                "notAfter": "1855-12-31"
+              },
+              "lower": "1855-07-04",
+              "upper": "1855-12-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1855-07-04\" notAfter=\"1855-12-31\">[after 3 July 1855]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1690",
+          "body_paragraph": 1,
+          "quote": "Facts on the interbreeding of different races of Silkworms, by F. Bashford Esq",
+          "source_sha256": "999438968b4fca96642cd5be974d9313a62f9fceb4285901aadb4773b8b92988",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]",
+          "char_start": 0,
+          "char_end": 78
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1759A"
+      ],
+      "case": "Absent Darwin annotations section and missing prompt",
+      "requirement": "Retain 1759A’s answer to the missing October 5 Darwin note and the quoted pamphlet marginalia in footnote apparatus. The HTML has no separate CD-annotations section and the original annotation was not inspected; do not invent a full prompt or merge the pamphlet text into McAndrew’s voice.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1759A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1759A.html",
+          "source_html_sha256": "4f8a27f27b2af9fcf18e7660a4beef703c89664b89749efea53b405c8215158f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1759A.xml",
+          "xml_sha256": "431bb07111e7e4920056fb3cddb48cda1c01bad29da547629a27e138cdaca754",
+          "verified_sent_date_constraints": [
+            {
+              "text": "6 Oct 1855",
+              "attributes": {
+                "when": "1855-10-06"
+              },
+              "lower": "1855-10-06",
+              "upper": "1855-10-06",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-10-06\">6 Oct 1855</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1759A",
+          "body_paragraph": 1,
+          "quote": "your very kind note of yesterdays date",
+          "source_sha256": "4f8a27f27b2af9fcf18e7660a4beef703c89664b89749efea53b405c8215158f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 16,
+          "char_end": 54
+        },
+        {
+          "letter_id": "DCP-LETT-1759A",
+          "body_paragraph": 2,
+          "quote": "it has never been my lot to fall in with drift timber",
+          "source_sha256": "4f8a27f27b2af9fcf18e7660a4beef703c89664b89749efea53b405c8215158f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "char_start": 58,
+          "char_end": 111
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1657"
+      ],
+      "case": "Authorial book count versus apparatus reading log",
+      "requirement": "Preserve the author’s statement that two Miller books were read separately from apparatus naming three dated reading-log items. The Witness article was only reported orally and its date was requested; do not treat the later bibliographic identification as proof of possession or complete reading.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1657",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1657.html",
+          "source_html_sha256": "b8f637715bda514eee4b607338a8701bb05aded9e526d850ee46b02ddf5f51cc",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1657.xml",
+          "xml_sha256": "27053f89107fe714692804605486f618363ba2103af8bf0fc4a76e732385ef09",
+          "verified_sent_date_constraints": [
+            {
+              "text": "29 Mar [1855]",
+              "attributes": {
+                "when": "1855-03-29"
+              },
+              "lower": "1855-03-29",
+              "upper": "1855-03-29",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-03-29\">29 Mar [1855]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1657",
+          "body_paragraph": 1,
+          "quote": "They could not tell me at all the date of the Witness",
+          "source_sha256": "b8f637715bda514eee4b607338a8701bb05aded9e526d850ee46b02ddf5f51cc",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 329,
+          "char_end": 382
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1524",
+        "DCP-LETT-1525"
+      ],
+      "case": "Preserved enclosure and forwarding request",
+      "requirement": "Keep 1524’s request to address and post the enclosed 1525 as a same-author cover/enclosure relation. Preserve 1525 as available evidence of the July 23 book completion, while leaving delivery or forwarding unproved; it is not an incoming Galton prompt.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1524",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1524.html",
+          "source_html_sha256": "d5b6e621ae50ff9030b50fe4175052fbc3c47620f977c9c98d0192b46a52ffe6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1524.xml",
+          "xml_sha256": "20357ab69295d1e15d40f050cce692a78bfbf45f1469286585fef69d9c60ccb8",
+          "verified_sent_date_constraints": [
+            {
+              "text": "24 July [1853]",
+              "attributes": {
+                "when": "1853-07-24"
+              },
+              "lower": "1853-07-24",
+              "upper": "1853-07-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1853-07-24\">24 July [1853]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1525",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1525.html",
+          "source_html_sha256": "95d69e4e7f75c136bbabf40c231a12841db51e2f3101de19e4f8813e8ea5fc53",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1525.xml",
+          "xml_sha256": "eaf9ac3e07edbda51b21b3c237382cf21e9fbfaec1e739ea4319fe678a2285e4",
+          "verified_sent_date_constraints": [
+            {
+              "text": "24 July [1853]",
+              "attributes": {
+                "when": "1853-07-24"
+              },
+              "lower": "1853-07-24",
+              "upper": "1853-07-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1853-07-24\">24 July [1853]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1524",
+          "body_paragraph": 1,
+          "quote": "direct & post the enclosed letter to Mr Galton",
+          "source_sha256": "d5b6e621ae50ff9030b50fe4175052fbc3c47620f977c9c98d0192b46a52ffe6",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div/div[2]/p[2]",
+          "char_start": 44,
+          "char_end": 90
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-840"
+      ],
+      "case": "Observed versus inferred map lines in referee report",
+      "requirement": "Render 840 as a qualified referee report: mapped observations, inferred arches and uncertain lines remain distinct, with requested map keys and terminology corrections. Do not convert publication endorsement into certainty of all geological claims or import later printed changes.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-840",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-840.html",
+          "source_html_sha256": "d0d509ad7c48bf26764b0757b610460438b6b04905c0fa819fa94ccf07d8f0a7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-840.xml",
+          "xml_sha256": "a7b059f7c69fde64e66734742cde094ec0de8f580551402d584bf4c3381b5cc3",
+          "verified_sent_date_constraints": [
+            {
+              "text": "16 Mar [1852]",
+              "attributes": {
+                "when": "1852-03-16"
+              },
+              "lower": "1852-03-16",
+              "upper": "1852-03-16",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1852-03-16\">16 Mar [1852]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-840",
+          "body_paragraph": 2,
+          "quote": "it is not possible to discover which lines, & how far along each line, are the result of actual observation",
+          "source_sha256": "d0d509ad7c48bf26764b0757b610460438b6b04905c0fa819fa94ccf07d8f0a7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "char_start": 532,
+          "char_end": 639
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1782F"
+      ],
+      "case": "Complete book reading versus requested missing details",
+      "requirement": "Preserve that Darwin read the Souvenirs every word while still requesting the absent experimental details of Flourens’s third-generation hybrid claim and an unavailable horse pamphlet. Future journal sending remains prospective; do not use a complete reading statement to fill missing evidence.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1782F",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1782F.html",
+          "source_html_sha256": "cf41b3080cd2573ed905d4b6ea002393bb7cd1dd92bafd5b73435d8c2787d7c3",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1782F.xml",
+          "xml_sha256": "7233581fddcbdc10093cc508bfc89ac09f3aab6c8ea7bde0a3b31cd64c99cd4e",
+          "verified_sent_date_constraints": [
+            {
+              "text": "20 Nov [1855]",
+              "attributes": {
+                "when": "1855-11-20"
+              },
+              "lower": "1855-11-20",
+              "upper": "1855-11-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-11-20\">20 Nov [1855]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1782F",
+          "body_paragraph": 1,
+          "quote": "every word of which I have read with much interest",
+          "source_sha256": "cf41b3080cd2573ed905d4b6ea002393bb7cd1dd92bafd5b73435d8c2787d7c3",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 85,
+          "char_end": 135
+        },
+        {
+          "letter_id": "DCP-LETT-1782F",
+          "body_paragraph": 1,
+          "quote": "whether they were sterile with the pure species, or only sterile one hybrid with another.",
+          "source_sha256": "cf41b3080cd2573ed905d4b6ea002393bb7cd1dd92bafd5b73435d8c2787d7c3",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 785,
+          "char_end": 874
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1425F"
+      ],
+      "case": "Catalogue synopsis and collective memorial",
+      "requirement": "Keep 1425F as an incomplete catalogue synopsis plus collective memorial excerpt. Darwin is one listed signatory, which does not establish individual Charles authorship of the prose; do not convert the collective appeal or later annuity outcome into a Darwin-authored answer.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1425F",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1425F.html",
+          "source_html_sha256": "78dc66f23a6b1bdaa3f8b93b64851fda6c277d35341441469d4078b6b2d91de8",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1425F.xml",
+          "xml_sha256": "d675af1bd2c2eb81b1817c0bafe70a362a0e0d93af371996e755ef0b964881b5",
+          "verified_sent_date_constraints": [
+            {
+              "text": "May 1851",
+              "attributes": {
+                "notBefore": "1851-05-01",
+                "notAfter": "1851-05-31"
+              },
+              "lower": "1851-05-01",
+              "upper": "1851-05-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1851-05-01\" notAfter=\"1851-05-31\">May 1851</ns0:date>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1703"
+      ],
+      "case": "Stable hybrid observation and unknown later generation",
+      "requirement": "Preserve Salter’s observed Geum stability as “precisely the same as the first crop,” separately from the uncertain Epilobium generation and hypothetical reciprocal Linaria cross. Seed capsules are promised, not received; editorial variability and general infinite-generation claims are not body evidence.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1703",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1703.html",
+          "source_html_sha256": "03c1346ff0986fd6418c54856bbcea04020b9c760fa84ce0974461df5fd8e5dd",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1703.xml",
+          "xml_sha256": "5f3d7b93e494ce0f7382b61c9c15a88f4d2c726182a331c718c213e42bf11896",
+          "verified_sent_date_constraints": [
+            {
+              "text": "25 June 1855",
+              "attributes": {
+                "when": "1855-06-25"
+              },
+              "lower": "1855-06-25",
+              "upper": "1855-06-25",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-06-25\">25 June 1855</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1703",
+          "body_paragraph": 2,
+          "quote": "are precisely the same as the first crop",
+          "source_sha256": "03c1346ff0986fd6418c54856bbcea04020b9c760fa84ce0974461df5fd8e5dd",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]",
+          "char_start": 631,
+          "char_end": 671
+        },
+        {
+          "letter_id": "DCP-LETT-1703",
+          "body_paragraph": 4,
+          "quote": "may be only the 2d. generation or that of any other subsequent number.",
+          "source_sha256": "03c1346ff0986fd6418c54856bbcea04020b9c760fa84ce0974461df5fd8e5dd",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]",
+          "char_start": 222,
+          "char_end": 292
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1438F"
+      ],
+      "case": "Personal receipt versus Athenaeum custody and unstated month",
+      "requirement": "Keep Darwin’s personal receipt of Smith’s letter three days before July 4 distinct from the earlier Athenaeum postal arrival and the incoming letter dated the 8th with its month unstated. Preserve the twelve-line gap, removed signature and postscript; do not reconstruct the missing material or settle June as fact.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1438F",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1438F.html",
+          "source_html_sha256": "f6ffd707f3170bcc41248468ce654fe286790b7650090f403ac722e93a344a4d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1438F.xml",
+          "xml_sha256": "13432a3fd2748bb4184c27cde068f034dda7450adfc4effcc6897c813fbaf908",
+          "verified_sent_date_constraints": [
+            {
+              "text": "4 July [1851]",
+              "attributes": {
+                "when": "1851-07-04"
+              },
+              "lower": "1851-07-04",
+              "upper": "1851-07-04",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1851-07-04\">4 July [1851]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1438F",
+          "body_paragraph": 1,
+          "quote": "I received, only three days ago, your letter of the 8th addressed to the Athenæum.",
+          "source_sha256": "f6ffd707f3170bcc41248468ce654fe286790b7650090f403ac722e93a344a4d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 32,
+          "char_end": 114
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-13892"
+      ],
+      "case": "Broad questioned date and ambiguous recipient",
+      "requirement": "Retain 13892’s incomplete body, questioned Sharpey attribution and broad 1853–72 date window. The unnamed proposed man and lost list cannot be identified as Hooker from the summary; preserve the pronoun and recipient uncertainty.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-13892",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-13892.html",
+          "source_html_sha256": "5166bc62d0115dc49507b21a9ae97018c27636aae1f197d10c0bcc5f5fd08576",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-13892.xml",
+          "xml_sha256": "379c5ecca27812f74b4fcb9927ac384e51a7722b3b55c6ddd4e879bb4aeffa00",
+          "verified_sent_date_constraints": [
+            {
+              "text": "[1853–72?]",
+              "attributes": {
+                "notBefore": "1853-01-01",
+                "notAfter": "1872-12-31"
+              },
+              "lower": "1853-01-01",
+              "upper": "1872-12-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1853-01-01\" notAfter=\"1872-12-31\">[1853–72?]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-13892",
+          "body_paragraph": 1,
+          "quote": "but I will do so, if he is not on list.",
+          "source_sha256": "5166bc62d0115dc49507b21a9ae97018c27636aae1f197d10c0bcc5f5fd08576",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[1]",
+          "char_start": 0,
+          "char_end": 39
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1579A"
+      ],
+      "case": "Planned return, routing and reimbursement",
+      "requirement": "Keep 1579A’s finished collection separate from boxes not yet determined, planned carriage to the station, and the proposed reimbursement by postal order. “I will inform you when they are sent off” is future dispatch; do not render payment or shipment as completed.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1579A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1579A.html",
+          "source_html_sha256": "32bcf60410e29bdd1f0b6d2a12e7903287db43fb52f83942757e92beeb4aa9df",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1579A.xml",
+          "xml_sha256": "77ab059f292fa091c6c02a4aa1fa20581eb1c2db8f6187e329255385dd9bbfe2",
+          "verified_sent_date_constraints": [
+            {
+              "text": "22 Aug 1854",
+              "attributes": {
+                "when": "1854-08-22"
+              },
+              "lower": "1854-08-22",
+              "upper": "1854-08-22",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1854-08-22\">22 Aug 1854</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1579A",
+          "body_paragraph": 1,
+          "quote": "I will inform you when they are sent off",
+          "source_sha256": "32bcf60410e29bdd1f0b6d2a12e7903287db43fb52f83942757e92beeb4aa9df",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 279,
+          "char_end": 319
+        },
+        {
+          "letter_id": "DCP-LETT-1579A",
+          "body_paragraph": 1,
+          "quote": "The Boxes (I do not yet know whether 2 or 3 will be required)",
+          "source_sha256": "32bcf60410e29bdd1f0b6d2a12e7903287db43fb52f83942757e92beeb4aa9df",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 603,
+          "char_end": 664
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1480A"
+      ],
+      "case": "Recovered Parker circular question, supplemental only",
+      "requirement": "Preserve the recovered Parker interrogative as a separately identified supplemental question witness, with its exact DOM span and limited extent. It is not a separate DCP catalogue item and the original circular is unavailable; do not promote it to a normal transcript or change graph counts before supplemental admission. The quoted node includes later Campbell commentary; use the verified question substring endpoint, not the whole node. The corroborating Mill edition prints the question in an editorial headnote, followed by Mill’s own reply; neither is Darwin voice.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1480A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1480A.html",
+          "source_html_sha256": "126bd6c1914a9366d18016acfb812b4aeb3577986a1d17ca8abd06ff0b7c9c31",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1480A.xml",
+          "xml_sha256": "363c3a876739e1d460f168f94da72885293bcc1813a114d6e5a70709276dcc79",
+          "verified_sent_date_constraints": [
+            {
+              "text": "5 May [1852]",
+              "attributes": {
+                "when": "1852-05-05"
+              },
+              "lower": "1852-05-05",
+              "upper": "1852-05-05",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1852-05-05\">5 May [1852]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "supplemental_question_evidence": {
+        "primary_followup": "reports/1851-1855/review/followups/parker-1852-circular.primary.json",
+        "primary_followup_sha256": "7192ae241be4c39a8ed2edc78a179e2f396200d2673f4b7e13ff16bbb9134837",
+        "witness_id": "DCP-LETT-1480A::footnote-2::Parker-question",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[2]/div[2]/span",
+        "normalized_node_char_start": 10,
+        "normalized_node_char_end": 633,
+        "text_sha256": "fb85af9b42638077df7050fba1d0dc2a112ac4827b439946b6e0efbf8acfe1b5",
+        "corroborating_pdf": "data/raw/supplemental/parker-1852/mill-xxv-public-edition.pdf",
+        "corroborating_pdf_sha256": "f10508c4ef754f956d5e0049f186e2a93beb0a887273009d7ecf745bcf535f25",
+        "render_path": "data/raw/supplemental/parker-1852/mill-xxv-page110.png",
+        "render_sha256": "29eda2591981a2073bf4b911efe4b2bac5de26ab9fac9bcad026d324c9860bbc",
+        "extent": "Complete quoted interrogative only; circular salutation/introduction and original physical document not inspected."
+      }
+    }
+  ],
+  "coverage": {
+    "targets_and_contexts": "Twelve selected formatting cases from accepted batches 45–46. The accepted primary notes and ledgers retain the complete target/context readings; this requirements document does not independently repeat all source reading coverage.",
+    "direct_reply_pairs": 0,
+    "new_graph_edges": 0,
+    "supplemental_question": "DCP-LETT-1480A Parker question recovered, pending supplemental admission; no normal transcript or graph count change.",
+    "quote_checks_expected": 14
+  },
+  "notes": "Exact source evidence is checked against literal body blocks and unique DOM nodes where asserted. The Parker recovered question is separately identified supplemental evidence with limited quoted extent. Quote/DOM validation does not establish substantive prose truth or complete reading; voice, date, apparatus, missing sections, later annotations and physical custody remain separate.",
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/mixed-documents-bounds.batch-45-46.luna.json",
+      "sha256": "14a7c02df08a8605602d321d74aa99308b3be49579290bc2c31692df8275d78e"
+    }
+  ],
+  "primary_corrections": [
+    {
+      "description": "1438F gives an incoming letter dated the 8th, month unstated; corrected the draft phrase implying an eighth month."
+    },
+    {
+      "description": "Parker source node contains later editorial text. Verified exact normalized substring offsets and pinned the separately accepted recovery note, PDF and page image."
+    },
+    {
+      "description": "Exact body and unique raw DOM checks performed independently.",
+      "corrected_locators": []
+    }
+  ],
+  "primary_verification": {
+    "exact_body_quotes_checked": 14,
+    "unique_source_html_xml_pairs_checked": 13,
+    "all_primary_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "supplemental_question_substring_checked": true,
+    "basis": "Accepted primary full-source readings for 45–46, matched source hashes and explicit Parker recovery evidence. No automatic historical adjudication from quote checks."
+  },
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false
+  }
+}

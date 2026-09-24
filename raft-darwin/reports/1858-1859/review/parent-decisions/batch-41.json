@@ -1,0 +1,52 @@
+{
+  "batch_id": "batch-41",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-2359",
+      "source_kind": "Darwin public scientific article",
+      "voice": "Charles Darwin with attributed quotations where present",
+      "date_assessment": "[before 13 Nov 1858]",
+      "disposition": "prior_article_relationships_and_date_constraints_preserved",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2448",
+      "source_kind": "Darwin letter",
+      "voice": "Charles Darwin with attributed quotations where present",
+      "date_assessment": "6 Apr [1858]",
+      "disposition": "unpaired_darwin_grounding_candidate_with_forwarded_source_followup",
+      "training_export_ready": false
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-2448",
+      "kind": "forwarded_third_party_source_followup",
+      "description": "2421 Brewer→Gould exists on official DCP site but is outside fixed all_letters projection. Recover and independently admit as supplement; no invented incoming Gould wording or edge accepted in this packet.",
+      "candidate_id": "DCP-LETT-2421",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2448",
+          "body_paragraph": 1,
+          "quote": "you have so effectually & completely procured me an answer from the highest authority on the habit of your Cuckoo.",
+          "char_start": 83,
+          "char_end": 197,
+          "source_sha256": "6f2c0cadfddd624911505629885ff1b6edcd9127fcddbf681e6a3c35ebc63f60"
+        }
+      ]
+    }
+  ],
+  "previously_recorded_relationships": [
+    {
+      "letter_id": "DCP-LETT-2359",
+      "description": "Article relationships from current batches25 and34 retained once; this target appearance does not create a second article or recount its incoming sources."
+    }
+  ],
+  "summary": "Two targets, one new full reading and nine explicitly checked accepted primary reuses. No new ordinary edges. Brewer third-party recovery is separate bounded followup."
+}

@@ -1,0 +1,539 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Accepted 1856–1857 batch 04 source-text rendering requirements only; candidate for root review, no converter/export/transcript/training changes.",
+  "primary_provenance": {
+    "batch": {
+      "reading": {
+        "path": "reports/1856-1857/review/parent-reading/batch-04.json",
+        "sha256": "ed103002b60b0685cec813341f929935477d657771c5ed112fc3ea09e6242765"
+      },
+      "decisions": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-04.json",
+        "sha256": "2d711083dbe45d1a45dcc1de37edb2f0c5af948f2d5d7f0c809a5be8cfa3cdde"
+      }
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-04.json",
+      "sha256": "af630e5ac4fc6a64b87854da7ba402c4f2a35a526552636098ac16d173610216"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-2075"
+      ],
+      "case": "six MathML fractions, duplicate plain fallbacks, rows and arithmetic tension",
+      "requirement": "Preserve the six original MathML fractions in raw research provenance. Future clean transcript text must render each quantity once: 72/94, 62/94, 1/10, 1/7, 18/94 and 64/87. The plain 1/10 and 64/87 immediately following matching MathML are duplicate fallback text, not additional quantities; suppress duplication only in derived text, with provenance. Preserve dried/undried row associations and germination qualifications. Keep original above-1/7 and .140 tension without silently correcting the historical arithmetic; 924 miles uses an assumed current, not an observed journey.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2075",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2075.html",
+          "source_html_sha256": "ca5d0bacb2981e4746345caa0c8363aa9ad5a907c16081bff7550d3d5b62da3f",
+          "xml_sha256": "a842db4090bd0de7d31d40364a7d12c37c75f7fff574fcc2a2f3aeedee3be479",
+          "verified_xml_dates": [
+            {
+              "text": "12 Apr [1857]",
+              "attributes": {
+                "when": "1857-04-12"
+              },
+              "lower": "1857-04-12",
+              "upper": "1857-04-12",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-04-12\">12 Apr [1857]</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2075.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2075",
+          "body_paragraph": 5,
+          "quote": "7294 sunk under 10 days",
+          "char_start": 62,
+          "char_end": 85,
+          "source_sha256": "ca5d0bacb2981e4746345caa0c8363aa9ad5a907c16081bff7550d3d5b62da3f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2075",
+          "body_paragraph": 5,
+          "quote": "6294 sunk under 10 days",
+          "char_start": 226,
+          "char_end": 249,
+          "source_sha256": "ca5d0bacb2981e4746345caa0c8363aa9ad5a907c16081bff7550d3d5b62da3f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2075",
+          "body_paragraph": 20,
+          "quote": "1101/10 of all plants",
+          "char_start": 132,
+          "char_end": 153,
+          "source_sha256": "ca5d0bacb2981e4746345caa0c8363aa9ad5a907c16081bff7550d3d5b62da3f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[21]"
+        },
+        {
+          "letter_id": "DCP-LETT-2075",
+          "body_paragraph": 24,
+          "quote": "a little above 17 (.140)",
+          "char_start": 41,
+          "char_end": 65,
+          "source_sha256": "ca5d0bacb2981e4746345caa0c8363aa9ad5a907c16081bff7550d3d5b62da3f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[25]"
+        },
+        {
+          "letter_id": "DCP-LETT-2075",
+          "body_paragraph": 24,
+          "quote": "648764/87 is proportion of seeds",
+          "char_start": 188,
+          "char_end": 220,
+          "source_sha256": "ca5d0bacb2981e4746345caa0c8363aa9ad5a907c16081bff7550d3d5b62da3f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[25]"
+        },
+        {
+          "letter_id": "DCP-LETT-2075",
+          "body_paragraph": 8,
+          "quote": "Asparagus 22–23 85–86",
+          "char_start": 0,
+          "char_end": 21,
+          "source_sha256": "ca5d0bacb2981e4746345caa0c8363aa9ad5a907c16081bff7550d3d5b62da3f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[9]"
+        },
+        {
+          "letter_id": "DCP-LETT-2075",
+          "body_paragraph": 11,
+          "quote": "Heloscadium 1–2 21–22 & seeds above 90 days & germinated splendidly",
+          "char_start": 0,
+          "char_end": 67,
+          "source_sha256": "ca5d0bacb2981e4746345caa0c8363aa9ad5a907c16081bff7550d3d5b62da3f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[12]"
+        }
+      ],
+      "verified_mathml": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]/math[1]",
+          "numerator": "72",
+          "denominator": "94",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>72</mn><mn>94</mn></mfrac></math>",
+          "following_text": " sunk under 10 days—seven plants, however, floated ",
+          "duplicate_plain_fallback": null
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]/math[2]",
+          "numerator": "62",
+          "denominator": "94",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>62</mn><mn>94</mn></mfrac></math>",
+          "following_text": " sunk under 10 days, so that generally the drying had no great effect, but here comes the odd part sometimes it had great effect, thus",
+          "duplicate_plain_fallback": null
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[21]/math",
+          "numerator": "1",
+          "denominator": "10",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math>",
+          "following_text": "1/10 of all plants of a country will float when dryed 30 days ",
+          "duplicate_plain_fallback": "1/10"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[25]/math[1]",
+          "numerator": "1",
+          "denominator": "7",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math>",
+          "following_text": " (.140) of the plants of any country could be transported 924 miles & ",
+          "duplicate_plain_fallback": null
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[25]/math[2]",
+          "numerator": "18",
+          "denominator": "94",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>18</mn><mn>94</mn></mfrac></math>",
+          "following_text": " have floated above 28 days & ",
+          "duplicate_plain_fallback": null
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[25]/math[3]",
+          "numerator": "64",
+          "denominator": "87",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>64</mn><mn>87</mn></mfrac></math>",
+          "following_text": "64/87 is proportion of seeds which germinate after 28 days immersion.— & average of current in Atlantic is 33 miles per diem.—",
+          "duplicate_plain_fallback": "64/87"
+        }
+      ],
+      "verified_table_rows": [
+        {
+          "retained_body_paragraph": 6,
+          "literal_text": "Not dried Dryed"
+        },
+        {
+          "retained_body_paragraph": 7,
+          "literal_text": "floated floated"
+        },
+        {
+          "retained_body_paragraph": 8,
+          "literal_text": "Asparagus 22–23 85–86 (germinated excellently)"
+        },
+        {
+          "retained_body_paragraph": 9,
+          "literal_text": "Lychnis dioica 21–22 44–45"
+        },
+        {
+          "retained_body_paragraph": 10,
+          "literal_text": "Honeysuckle 3–4 21–22"
+        },
+        {
+          "retained_body_paragraph": 11,
+          "literal_text": "Heloscadium 1–2 21–22 & seeds above 90 days & germinated splendidly"
+        },
+        {
+          "retained_body_paragraph": 12,
+          "literal_text": "Not Dryed Dryed"
+        },
+        {
+          "retained_body_paragraph": 13,
+          "literal_text": "Barbery 20–21 40–41"
+        },
+        {
+          "retained_body_paragraph": 14,
+          "literal_text": "Viscaria oculata 2–3 30–31"
+        },
+        {
+          "retained_body_paragraph": 15,
+          "literal_text": "Dianthus 1–2 28–29"
+        },
+        {
+          "retained_body_paragraph": 16,
+          "literal_text": "Sweet Briar 2–3 21–22"
+        },
+        {
+          "retained_body_paragraph": 17,
+          "literal_text": "Juniper 12–13 38–39"
+        },
+        {
+          "retained_body_paragraph": 18,
+          "literal_text": "Nuts 0–1 60–70"
+        },
+        {
+          "retained_body_paragraph": 19,
+          "literal_text": "&c &c &c &c"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2053"
+      ],
+      "case": "Protean-genus underscoring encodes relative variability judgments",
+      "requirement": "Preserve Gray’s ranked underscoring of protean genera as part of his relative variability judgment, not a calibrated confidence score. Source footnote maps one/two/three underlines to italic/bold/small-cap representation; actual HTML uses underline/doubleUnderline spans and capitalized words. Preserve these distinctions and the explicit Salix/Populus poor-knowledge caveat. Separate undated Darwin markings remain outside Gray voice.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2053",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2053.html",
+          "source_html_sha256": "be447c106805c8bae72e71da6653150ce03155659c5ed7d18d34a256784e1ff1",
+          "xml_sha256": "bb34821b7b40ab3dcd29b8734845b3a866d1a08b0fe3f88a31353ac7c7b69d12",
+          "verified_xml_dates": [
+            {
+              "text": "16 Feb 1857",
+              "attributes": {
+                "when": "1857-02-16"
+              },
+              "lower": "1857-02-16",
+              "upper": "1857-02-16",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-02-16\">16 Feb 1857</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2053.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2053",
+          "body_paragraph": 16,
+          "quote": "have marked the worst by underscoring, according to their degree of badness.",
+          "char_start": 1005,
+          "char_end": 1081,
+          "source_sha256": "be447c106805c8bae72e71da6653150ce03155659c5ed7d18d34a256784e1ff1",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[17]"
+        },
+        {
+          "letter_id": "DCP-LETT-2053",
+          "body_paragraph": 16,
+          "quote": "(Salix & Populus, because not well known)",
+          "char_start": 707,
+          "char_end": 748,
+          "source_sha256": "be447c106805c8bae72e71da6653150ce03155659c5ed7d18d34a256784e1ff1",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[17]"
+        }
+      ],
+      "verified_apparatus": [
+        {
+          "letter_id": "DCP-LETT-2053",
+          "literal_text": "italics for one underline, bold type for two underlines, and small capitals for three underlines.",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[12]/div[2]",
+          "source_sha256": "be447c106805c8bae72e71da6653150ce03155659c5ed7d18d34a256784e1ff1"
+        }
+      ],
+      "verified_emphasis_examples": [
+        {
+          "taxon": "Ceanothus",
+          "underline_degree": 1,
+          "dom_class": "underline",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[17]/span[2]"
+        },
+        {
+          "taxon": "Vitis",
+          "underline_degree": 2,
+          "dom_class": "doubleUnderline",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[17]/span[1]"
+        },
+        {
+          "taxon": "VERNONIA",
+          "underline_degree": 3,
+          "rendering": "Capitalized literal text; three underlines according to source footnote",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[17]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2033"
+      ],
+      "case": "separate memorandum, possible Hooker interline, open date",
+      "requirement": "Separate Darwin’s main letter, enclosed methodological memorandum and possible Hooker interline by source layer. The memorandum is explicitly enclosed; the source does not establish that it was sent on a different occasion. Preserve after-January-20 dating with XML bounds January 21, 1857 to December 31, 1882, so no exact-day or automatic period admission. The memorandum asks for judgment and is not a completed Hooker answer.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2033",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2033.html",
+          "source_html_sha256": "c0a61e05ea87610fa7f08f9f4c09055035a7a94f83ff1f5e4955908ea675560d",
+          "xml_sha256": "4a84e06f9a202c92be669fe8fa0323019e7df654c259bcd71fee396f3fab62ef",
+          "verified_xml_dates": [
+            {
+              "text": "[after 20 Jan 1857]",
+              "attributes": {
+                "notBefore": "1857-01-21",
+                "notAfter": "1882-12-31"
+              },
+              "lower": "1857-01-21",
+              "upper": "1882-12-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1857-01-21\" notAfter=\"1882-12-31\">[after 20 Jan 1857]</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2033.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2033",
+          "body_paragraph": 6,
+          "quote": "Will you look at enclosed Memorandum & give me any light if you can.",
+          "char_start": 0,
+          "char_end": 68,
+          "source_sha256": "c0a61e05ea87610fa7f08f9f4c09055035a7a94f83ff1f5e4955908ea675560d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        }
+      ],
+      "verified_apparatus": [
+        {
+          "letter_id": "DCP-LETT-2033",
+          "literal_text": "‘American-’ has been interlined in pencil before ‘Irish’, possibly by Hooker.",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[11]/div[2]",
+          "source_sha256": "c0a61e05ea87610fa7f08f9f4c09055035a7a94f83ff1f5e4955908ea675560d"
+        }
+      ],
+      "verified_enclosure": [
+        {
+          "letter_id": "DCP-LETT-2033",
+          "literal_text": "You know how I work subjects",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div/p[2]",
+          "source_sha256": "c0a61e05ea87610fa7f08f9f4c09055035a7a94f83ff1f5e4955908ea675560d"
+        },
+        {
+          "letter_id": "DCP-LETT-2033",
+          "literal_text": "I see how infinitely vague all this is.",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div/p[3]",
+          "source_sha256": "c0a61e05ea87610fa7f08f9f4c09055035a7a94f83ff1f5e4955908ea675560d"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2074"
+      ],
+      "case": "undated Darwin note separate from Hooker response",
+      "requirement": "Keep Hooker’s botanical body distinct from the separate Darwin note/annotations appended to or associated with the source. The April 11 Hooker response contains qualified observations and an explicit inability to answer the Sonchus abundance question; Darwin’s chapter-organization note is not Hooker prose or automatically dated April 11.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2074",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2074.html",
+          "source_html_sha256": "452e8b0b0951beacd5abd1515c526c04d56cf0fab7e383d1be332b3f090c6c81",
+          "xml_sha256": "6340e62bba5daa778cd52f58211338cdbb03aef121d7c5cd39abe1d7a8aa477f",
+          "verified_xml_dates": [
+            {
+              "text": "[11 Apr 1857]",
+              "attributes": {
+                "when": "1857-04-11"
+              },
+              "lower": "1857-04-11",
+              "upper": "1857-04-11",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-04-11\">[11 Apr 1857]</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2074.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2074",
+          "body_paragraph": 9,
+          "quote": "I am sorry that I cannot at all answer the Sonchus question",
+          "char_start": 0,
+          "char_end": 59,
+          "source_sha256": "452e8b0b0951beacd5abd1515c526c04d56cf0fab7e383d1be332b3f090c6c81",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]"
+        }
+      ],
+      "verified_separate_note": [
+        {
+          "letter_id": "DCP-LETT-2074",
+          "literal_text": "I must introduce a discussion under Polymorphism",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[3]",
+          "source_sha256": "452e8b0b0951beacd5abd1515c526c04d56cf0fab7e383d1be332b3f090c6c81"
+        },
+        {
+          "letter_id": "DCP-LETT-2074",
+          "literal_text": "how little selection has to do",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[3]",
+          "source_sha256": "452e8b0b0951beacd5abd1515c526c04d56cf0fab7e383d1be332b3f090c6c81"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2099"
+      ],
+      "case": "within-letter self-correction and dispatch boundary",
+      "requirement": "Preserve the within-letter revision: Darwin first criticizes Hooker’s ranking, then corrects his own understanding after rereading. Keep the Sharpey letter as planned/written in later paragraphs without implying dispatch, and retain the separate missing Hooker medal letter.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2099",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2099.html",
+          "source_html_sha256": "8442c90c104ba5133f01548cf4889dce641c1d7229919be7b39101f338f6dce7",
+          "xml_sha256": "13e6f8760e8be42250531daad8ee9acee5fd66e3d2c1bedb305a702419d622fe",
+          "verified_xml_dates": [
+            {
+              "text": "2 June [1857]",
+              "attributes": {
+                "when": "1857-06-02"
+              },
+              "lower": "1857-06-02",
+              "upper": "1857-06-02",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-06-02\">2 June [1857]</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2099.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2099",
+          "body_paragraph": 3,
+          "quote": "the letter shall go in day or two.",
+          "char_start": 81,
+          "char_end": 115,
+          "source_sha256": "8442c90c104ba5133f01548cf4889dce641c1d7229919be7b39101f338f6dce7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-2099",
+          "body_paragraph": 11,
+          "quote": "In rereading your letter I see I have misunderstood one part",
+          "char_start": 7,
+          "char_end": 67,
+          "source_sha256": "8442c90c104ba5133f01548cf4889dce641c1d7229919be7b39101f338f6dce7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[12]"
+        },
+        {
+          "letter_id": "DCP-LETT-2099",
+          "body_paragraph": 12,
+          "quote": "I have written my letter to Sharpey",
+          "char_start": 0,
+          "char_end": 35,
+          "source_sha256": "8442c90c104ba5133f01548cf4889dce641c1d7229919be7b39101f338f6dce7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[13]"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "notes": "Primary source checks supplement accepted batch 04 readings. Original HTML/XML and historical records remain unchanged; these requirements do not implement conversion.",
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/parent-reading/batch-04.json",
+      "sha256": "ed103002b60b0685cec813341f929935477d657771c5ed112fc3ea09e6242765"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-decisions/batch-04.json",
+      "sha256": "2d711083dbe45d1a45dcc1de37edb2f0c5af948f2d5d7f0c809a5be8cfa3cdde"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-04.json",
+      "sha256": "af630e5ac4fc6a64b87854da7ba402c4f2a35a526552636098ac16d173610216"
+    },
+    {
+      "path": "reports/1856-1857/review/letters.jsonl",
+      "sha256": "d3feb27f178ebd638dd544ddb4ad84203da5d304d8c240dded25f60bb5827d94"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2075.html",
+      "sha256": "ca5d0bacb2981e4746345caa0c8363aa9ad5a907c16081bff7550d3d5b62da3f"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2053.html",
+      "sha256": "be447c106805c8bae72e71da6653150ce03155659c5ed7d18d34a256784e1ff1"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2033.html",
+      "sha256": "c0a61e05ea87610fa7f08f9f4c09055035a7a94f83ff1f5e4955908ea675560d"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2074.html",
+      "sha256": "452e8b0b0951beacd5abd1515c526c04d56cf0fab7e383d1be332b3f090c6c81"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2099.html",
+      "sha256": "8442c90c104ba5133f01548cf4889dce641c1d7229919be7b39101f338f6dce7"
+    }
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-29.draft.json",
+      "sha256": "d371cb99995c40aff3112e98f959894c804cbfd57584ed6b4efb75892fa12a90"
+    }
+  ],
+  "primary_corrections": [
+    "Raw duplicate fraction fallbacks are preserved as evidence but rendered only once in future derived prose.",
+    "Underscoring is Gray ranked badness/variability judgment, not a numeric confidence measure. Replaced irrelevant tree-sex quote with the explicit ranking statement.",
+    "2033 memorandum is enclosed, not proven separately transmitted at another time. Removed duplicated evidence.",
+    "Corrected 2099 self-correction locator from erroneous retained block 6 to actual block 11 and added planned-versus-written evidence.",
+    "Replaced generic locators with unique verified source paths and pinned actual separate-note/enclosure passages."
+  ],
+  "primary_verification": {
+    "exact_body_quotes_checked": 14,
+    "unique_source_html_xml_pairs_checked": 5,
+    "all_primary_and_input_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "mathml_fractions_verified": 6,
+    "duplicate_fallbacks_verified": 2,
+    "table_blocks_checked": 14,
+    "emphasis_examples_checked": 3,
+    "apparatus_locators_verified": 2,
+    "enclosure_and_separate_note_locators_verified": 4
+  }
+}

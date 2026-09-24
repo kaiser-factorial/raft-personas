@@ -1,0 +1,122 @@
+{
+  "status": "provisional_source_recovery_admission",
+  "scope": "Bounded recovery aid for DCP-LETT-2179, Richard Bishop to C. S. Bate, 3 December 1857, and scoped routing against Darwin’s DCP-LETT-2175F. No accepted ledger, current all_letters, packet or export mutation.",
+  "recovery_status": {
+    "html_available": false,
+    "xml_available": false,
+    "attempted_urls": [
+      "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2179.xml",
+      "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-2179.xml"
+    ],
+    "reason": "2179 is absent from preserved all_letters/packet source files and the current environment could not resolve the public and pinned-revision hosts. No synthetic HTML/XML or transcription was created.",
+    "expected_source_paths": {
+      "html": "reports/1856-1857/review/followups/bate-bishop-2179/DCP-LETT-2179.html",
+      "xml": "reports/1856-1857/review/followups/bate-bishop-2179/DCP-LETT-2179.xml"
+    },
+    "hashes": {
+      "html_sha256": null,
+      "xml_sha256": null
+    }
+  },
+  "metadata_from_pinned_csv": {
+    "id": "DCP-LETT-2179",
+    "sender": "Bishop, Richard",
+    "recipient": "Bate, C. S.",
+    "date": "3 Dec 1857",
+    "sorting_date": "1857-12-03",
+    "sender_address": "Plymouth",
+    "source": "DAR 160: 189",
+    "csv_record_number": 2380,
+    "csv_physical_line": 2380,
+    "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+    "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2179.xml",
+    "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-2179.xml"
+  },
+  "darwin_target": {
+    "id": "DCP-LETT-2175F",
+    "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2175F.html",
+    "source_html_sha256": "8184361c9b573c1abdea3ee473929e212c2ea560f022880f016d0e6844cd280f",
+    "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2175F.xml",
+    "xml_sha256": "620a7d6a8d43352b4b2c85538daeccabe5fb1f4a8e80f8a1d670913a1b85ae49",
+    "date": "29 Nov [1857]",
+    "voice": "Charles Darwin to C. S. Bate",
+    "body_scope": "P1 introduces a fact reported by Lubbock from a friend of Bate; P2 asks specific Balanus questions; P3 proposes forwarding the note to the friend. Footnote 11 identifies Bishop’s 3 December letter to Bate.",
+    "exact_source_evidence": [
+      {
+        "letter_id": "DCP-LETT-2175F",
+        "body_paragraph": 1,
+        "quote": "a fact, observed, I believe, by a friend of yours",
+        "source_sha256": "8184361c9b573c1abdea3ee473929e212c2ea560f022880f016d0e6844cd280f",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+        "dom_quote_verified": true
+      },
+      {
+        "letter_id": "DCP-LETT-2175F",
+        "body_paragraph": 2,
+        "quote": "Which was the species; if not known could I see a specimen of the kind.",
+        "source_sha256": "8184361c9b573c1abdea3ee473929e212c2ea560f022880f016d0e6844cd280f",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+        "dom_quote_verified": true
+      },
+      {
+        "letter_id": "DCP-LETT-2175F",
+        "body_paragraph": 3,
+        "quote": "Perhaps the simplest plan wd. be to forward this note to your friend",
+        "source_sha256": "8184361c9b573c1abdea3ee473929e212c2ea560f022880f016d0e6844cd280f",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+        "dom_quote_verified": true
+      }
+    ]
+  },
+  "scoped_routing_assessment": {
+    "route": "DCP-LETT-2179 -> DCP-LETT-2175F",
+    "relationship": "knowledge_or_forwarded_response_candidate",
+    "status": "candidate_only",
+    "assessment": "Bishop’s metadata places him as Richard Bishop writing to Bate on 3 December, not to Darwin. The accepted apparatus citation and the distinctive Balanus questions make this a plausible answer source routed through Bate, but the Bishop body is unavailable here. No receipt by Darwin, Bate forwarding event, or direct Darwin target may be assumed.",
+    "scope_hold": "If recovered and body-confirmed, compare Bishop’s answers only to the specific questions in 2175F P2; do not make Bishop a direct Darwin correspondent or pair the entire Darwin letter automatically.",
+    "evidence": [
+      {
+        "letter_id": "DCP-LETT-2175F",
+        "body_paragraph": 1,
+        "quote": "a fact, observed, I believe, by a friend of yours",
+        "source_sha256": "8184361c9b573c1abdea3ee473929e212c2ea560f022880f016d0e6844cd280f",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+        "dom_quote_verified": true
+      },
+      {
+        "letter_id": "DCP-LETT-2175F",
+        "body_paragraph": 2,
+        "quote": "Which was the species; if not known could I see a specimen of the kind.",
+        "source_sha256": "8184361c9b573c1abdea3ee473929e212c2ea560f022880f016d0e6844cd280f",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+        "dom_quote_verified": true
+      },
+      {
+        "letter_id": "DCP-LETT-2175F",
+        "body_paragraph": 3,
+        "quote": "Perhaps the simplest plan wd. be to forward this note to your friend",
+        "source_sha256": "8184361c9b573c1abdea3ee473929e212c2ea560f022880f016d0e6844cd280f",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+        "dom_quote_verified": true
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+      "sha256": "cbe31878e4557db7f1e96f4c1fccdfa3144a88b2e8f2dcbf7441f8d430d73f9a"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2175F.html",
+      "sha256": "8184361c9b573c1abdea3ee473929e212c2ea560f022880f016d0e6844cd280f"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2175F.xml",
+      "sha256": "620a7d6a8d43352b4b2c85538daeccabe5fb1f4a8e80f8a1d670913a1b85ae49"
+    }
+  ],
+  "notes": [
+    "DCP-LETT-2175F body, exclusions, metadata, apparatus, bibliography and scholarly material were inspected; no relevant figure is present.",
+    "The Bishop source requires fresh recovery before any source-specific summary or accepted relationship."
+  ]
+}

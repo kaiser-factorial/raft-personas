@@ -1,0 +1,225 @@
+{
+  "status": "provisional_readiness_draft",
+  "scope": "Formatting and source-fidelity requirements compiled from accepted primary reading, decisions and ledger for 1847-1850 batch-23. This draft creates no converter, transcript, corpus export or training data.",
+  "primary_provenance": {
+    "batch_id": "batch-23",
+    "reading_path": "reports/1847-1850/review/parent-reading/batch-23.json",
+    "reading_sha256": "0d77bae714bb571926a75056679ffa2160171e844f64ccee3022273462efdd60",
+    "decision_path": "reports/1847-1850/review/parent-decisions/batch-23.json",
+    "decision_sha256": "809cd5ff6ffda082a6ae9ff7f6187bd362fa7992a3bc4a918e1465bdefdddf75",
+    "ledger_path": "data/annotations/periods/1847-1850/batch-23.json",
+    "ledger_sha256": "5639fc4dafccc864bba217af8ac22edf19c43223410aeb450e6b80beeb9186a2"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1111F"
+      ],
+      "case": "Actual pounds and shillings table",
+      "requirement": "Render the surviving HTML table as a table with separate pound and trailing shilling columns. Preserve the blank shilling cell for Call, the quotation mark in the total as source text, and exclude footnote marker 4 from the amount. Do not decimalize or collapse the columns.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1111F",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1111F.html",
+          "source_sha256": "b81f1a35432f0414187fd2fca8c0a910cd8b49de9648b1c5204f881d3e13e15e",
+          "locators": "div#letter table; body P2 and P3-P5"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1111F",
+        "locator": "div#letter table tr; rows Paid, Call, total",
+        "normalized_text": "Paid | 3742. | 10; Call | 200 | [blank]; [blank] | 3942\" | 10",
+        "raw_html_strings": [
+          "<td class=\"td left\">Paid</td><td class=\"td right\">3742.</td><td class=\"td left\">10</td>",
+          "<td class=\"td left\">Call</td><td class=\"td right\">200</td><td class=\"td left\"></td>",
+          "<td class=\"td right\">3942\"</td><td class=\"td left\">10<sup ...>4</sup></td>"
+        ]
+      },
+      "accepted_primary_note": "Accepted batch-23 actual table and non-decimal currency requirement."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1043"
+      ],
+      "case": "Broken diag/ramme financial layout and changed postscript route",
+      "requirement": "Preserve the literal broken account text and diag/ramme markers as extraction artifacts; no substantive HTML table or figure survives for P3-P5. Keep P11 as a verbal-answer request through Frank and P12 as a later postal-return request, without inventing a new date or completed Stokes authorization.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1043",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1043.html",
+          "source_sha256": "01f6da16cf0ddedc0c3fc196420a39d3b01f5231864be1b27d6ea4a701267f16",
+          "locators": "div#letter body-content P3-P5, P11-P12; footnotes 1-6"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1043",
+        "body_paragraphs": [
+          3,
+          5,
+          11,
+          12
+        ],
+        "normalized_quotes": [
+          "The rest of this letter you can read at your leisure. I enclose the memorandum you sent me, as it will probably aid you in letting me know soon, what money I have to invest. diag 1847.",
+          "350 ” 16 . . 7 + interest ramme",
+          "Please read the first paragraph & send me a verbal answer by Frank.—",
+          "I wrote this, when I thought Frank was going up tomorrow; will you send me a line by return of Post—to first paragraph; I suppose the money will be ready on Wednesday next.—"
+        ],
+        "raw_html_note": "diag and ramme occur as literal extraction markers; no reconstructed table is authorized."
+      },
+      "accepted_primary_note": "Accepted batch-23 broken-layout and prospective-route hold."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1042"
+      ],
+      "case": "Broken account layout and three-and-a-half-percent MathML",
+      "requirement": "Keep P4-P10 as the incomplete source layout; do not infer missing account columns, totals or corrected share counts. Preserve the raw MathML fraction 1/2 in the Monmouth Canal rate and expose a normalized 3 1/2 percent value separately from the flattened extraction string.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1042",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1042.html",
+          "source_sha256": "a7db40fe8421669bffa7f1c7fe31e80faad72961d53157f68ed8e39f1f1c500a",
+          "locators": "div#letter body-content P4-P10 and P13; P13 MathML node"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1042",
+        "body_paragraph": 13,
+        "normalized_quote": "I am sorry to say there is one other business question, I must ask. In 16 th of Nov. 1835, your Father made over to me 518£ Debentures in Monmouth Canal, which pays now only 3 1/2 percent, so that I want to call it in, but Langton tells me, I ought to know whether the sum was lent for definite term.",
+        "raw_html_mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> percent",
+        "flattened_extraction": "3 1 2 percent"
+      },
+      "accepted_primary_note": "Accepted batch-23 arithmetic and MathML requirement."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1317",
+        "DCP-LETT-1342"
+      ],
+      "case": "Provisional taxonomy and alternative labels",
+      "requirement": "Preserve Darwin’s contemporary numbered propositions, question marks and provisional names. Later Fossil Cirripedia identifications in editorial notes must remain a separate later layer; the alternatives in 1342 are not three established species.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1317",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1317.html",
+          "source_sha256": "76702009de1efecad67b9ed4e12bf1d0fc5f7bb774e072f73e60a4e0b65a70a4",
+          "locators": "div#letter body-content P2-P3; footnotes 1-17"
+        },
+        {
+          "letter_id": "DCP-LETT-1342",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1342.html",
+          "source_sha256": "13cea23790f67c5b5714a0c4e7b8571da3aa0f4b67d930088323219efd9d461d",
+          "locators": "div#letter body-content P1; footnote 1"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1317",
+        "body_paragraphs": [
+          2,
+          3
+        ],
+        "normalized_quotes": [
+          "under the name of Oxunaspis",
+          "may I state so, that your Anatifera cretæ had only five valves?"
+        ],
+        "related_letter_quote": {
+          "letter_id": "DCP-LETT-1342",
+          "body_paragraph": 1,
+          "quote": "Anatifera cretæ or Oxynaspis ? or Scalpellum ?"
+        }
+      },
+      "accepted_primary_note": "Accepted batch-23 provisional nomenclature and alternative-classification correction."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1351"
+      ],
+      "case": "Separate letter, specimens, plate and paper states",
+      "requirement": "Keep the earlier 29 July letter, specimens received on 1 September, Lithotrya plate already seen, and offered paper still requested as distinct states. Preserve the author’s Angelin spelling in body text and separate editorial correction. Do not turn a requested paper into proof of reading.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1351",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1351.html",
+          "source_sha256": "d6afd62dff708984d1379cd64563b41d432e7e0882959e9bc2662bcc9821b177",
+          "locators": "div#letter body-content P1-P5; footnotes 1-4"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1351",
+        "body_paragraphs": [
+          1,
+          4
+        ],
+        "normalized_quotes": [
+          "I have delayed thus long to thank you for your letter of the 29th of July, in order to be able to tell you of the safe arrival of the specimens; they came to me this morning perfectly safe",
+          "I shd be very grateful for the Paper which you kindly offered to send me on the Lithotrya from the Nicobar islands; of which the Plate interested me much."
+        ],
+        "accepted_state_distinctions": [
+          "letter received earlier, date unspecified",
+          "specimens received this morning",
+          "plate seen",
+          "paper not demonstrated read"
+        ]
+      },
+      "accepted_primary_note": "Accepted batch-23 receipt and reading-state separation."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1142",
+        "DCP-LETT-1373"
+      ],
+      "case": "Missing financial enclosures and future intentions",
+      "requirement": "Represent absent company/trust and Salt enclosures as missing source material. Preserve requests, anticipated funds, conditional transfer and possible forced-sale reports as intentions or attributed beliefs; do not render them as completed payments, purchases or transfers.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1142",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1142.html",
+          "source_sha256": "701b6647084e0e0d6b3881c6e893ef8eaffcc6bf977871e736acdc1758680623",
+          "locators": "body and editorial apparatus; two-page enclosure note"
+        },
+        {
+          "letter_id": "DCP-LETT-1373",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1373.html",
+          "source_sha256": "11def994ce0fefe505751f13faee8c89178869c6d04ec219aa4d9bec5c79f90e",
+          "locators": "body P1-P4; missing Salt letters No I and No II"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1373",
+        "body_paragraphs": [
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        "normalized_quotes": [
+          "Will you read Mr Salts letters",
+          "No I. To this I answered that Emma’s money had all long ago been invested, but that I had no sort of objection to Railway shares to the amount of £5000 being transferred to me; if the advantage was equal to expence of transference.",
+          "I hope to Heaven that Mr. Salt is mistaken; it wd. be a very serious loss to have to sell all Emma’s Railway & Canal Shares.",
+          "leave them under charge of Eras., as your Co-trustee.",
+          "whether there is anyway of avoiding our being compelled to sell out all our Railway shares."
+        ],
+        "locators": "div#letter div.body-content; retained body blocks 2-5 and 7",
+        "evidence_status": "Salt letters No I and No II are referred to and requested for return, but their incoming text is absent; conditional transfer and possible forced sale remain uncompleted."
+      },
+      "accepted_primary_note": "Accepted batch-23 missing-input and prospective-finance holds."
+    }
+  ],
+  "implementation_boundary": {
+    "future_requirements": [
+      "Keep raw HTML table/layout/MathML alongside normalized display text.",
+      "Preserve source identity, editorial versus body layers, attribution, uncertainty markers, receipt versus reading and prospective versus completed financial events.",
+      "Do not reconstruct missing tables, enclosures, taxonomy lists or incoming letters from later editorial notes."
+    ],
+    "not_implemented_here": [
+      "No converter, renderer, transcript, ledger, export or training behavior was changed or run.",
+      "This draft creates no new historical acceptance and remains provisional for root verification."
+    ]
+  },
+  "notes": [
+    "Exact quotes are taken from normalized body blocks or explicitly labeled raw HTML. Raw strings are not substituted for normalized prose.",
+    "The source and parent artifacts remain immutable; this is a future implementation requirements draft only."
+  ]
+}

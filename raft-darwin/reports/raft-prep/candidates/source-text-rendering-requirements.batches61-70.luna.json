@@ -1,0 +1,325 @@
+{
+  "status": "candidate_only",
+  "scope": "Formatting-only candidate requirements for 1858-1859 packets 61-70. No accepted evidence, ledger, source or export mutation.",
+  "method": "Used complete source reviews and direct source HTML feature checks. Each requirement uses a feature-bearing body or metadata passage with a source locator and SHA-256. Visual claims are labelled as accepted provenance or explicitly unavailable; later dates, mixed voices, enclosures and production records remain held.",
+  "requirements": [
+    {
+      "source_id": "DCP-LETT-1677",
+      "requirement": "Preserve the two MathML fractions in Darwin’s siphon/brickwork reply and keep the cited missing Gardeners’ Chronicle question as a reference, not as a recovered prompt.",
+      "evidence": {
+        "source_id": "DCP-LETT-1677",
+        "evidence_layer": "authorial_body",
+        "quote": "good pump being required to fill the siphon",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"good pump\")]/math:mfrac",
+        "html_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1677.html",
+        "html_sha256": "ca75f243d14c60919c1c4c565d33e98fab73ee7e83e597ac4cc169b97dadd5e7"
+      },
+      "render_status": "hold",
+      "notes": "The body is an outgoing technical reply; the surviving question sent to the Chronicle is only a referenced parallel, not retained incoming text."
+    },
+    {
+      "source_id": "DCP-LETT-2305",
+      "requirement": "Keep the ambiguous 1845–64 date range and the conditional Falconer visit wording; do not make the address or catalogue order a current-period event.",
+      "evidence": {
+        "source_id": "DCP-LETT-2305",
+        "evidence_layer": "authorial_body",
+        "quote": "Instead of your coming here I should prefer coming to you at 212.",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"Instead of your coming\")]/math:mfrac",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2305.html",
+        "html_sha256": "cd667cadb898329ced7956f335788c88cc3029af0c840a1095d47d77a537d59f"
+      },
+      "render_status": "hold",
+      "notes": "The body is a short invitation with health contingency and an open date bound."
+    },
+    {
+      "source_id": "DCP-LETT-809",
+      "requirement": "Preserve Forbes’s geological table/list layout and separate his incoming fossil evidence from later Darwin use.",
+      "evidence": {
+        "source_id": "DCP-LETT-809",
+        "evidence_layer": "authorial_body",
+        "quote": "The relative positions would be as follows:",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"relative positions would be as follows\")]; following table/list nodes",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-809.html",
+        "html_sha256": "a7b4cbbe7536b8c47c84abe16b71d2f7670b4f93f60a7f898fe19cb7f43b1bcc"
+      },
+      "render_status": "hold",
+      "notes": "The XML upper bound remains broad through 1882; later use in South America does not establish contemporary receipt in this period."
+    },
+    {
+      "source_id": "DCP-LETT-3509",
+      "requirement": "Keep the invitation, named visitors and conditional Sunday language as separate body claims; do not infer attendance.",
+      "evidence": {
+        "source_id": "DCP-LETT-3509",
+        "evidence_layer": "authorial_body",
+        "quote": "Hooker and one or two others are coming here on the 25th. & 26th. staying till Monday 28th.,",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"Hooker and one or two others\")]/math:mfrac",
+        "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-3509.html",
+        "html_sha256": "3fa1f41574ca2fad66ce57990b2d4ebbb4fd4be8d8e82bdaec7ec008c09672df"
+      },
+      "render_status": "hold",
+      "notes": "This is Darwin-authored social logistics with an open/broad date context, not a preserved Falconer answer."
+    },
+    {
+      "source_id": "DCP-LETT-669",
+      "requirement": "Preserve the three actual figure assets and distinguish the visual witness from surrounding Darwin prose and any unavailable incoming prompt.",
+      "evidence": {
+        "source_id": "DCP-LETT-669",
+        "evidence_layer": "authorial_body",
+        "quote": "I shall be happy to give you hereafter some report concerning the seeds you have sent me",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'happy to give you hereafter')]; three image nodes are accepted visual provenance and must be kept separate from this text",
+        "html_path": "data/raw/dcp/correspondent-review-1837-1843/seed-context/DCP-LETT-669.html",
+        "html_sha256": "8dcf42ea5753cbc756feef8be20b3e238549195d183b5cd0d1e63e5f5368ba56"
+      },
+      "render_status": "planned_repair",
+      "notes": "The figure count is taken from accepted primary visual provenance; do not claim new visual inspection here."
+    },
+    {
+      "source_id": "DCP-LETT-8129",
+      "requirement": "Preserve the five actual figure assets and table/layout association in Darwin’s music memorandum; keep quoted Spencer passages and Darwin commentary distinct.",
+      "evidence": {
+        "source_id": "DCP-LETT-8129",
+        "evidence_layer": "authorial_body",
+        "quote": "The great law about the expression conveyed in music is that it depends wholly on the relations of the sounds to each other",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"great law about the expression\")]; adjacent figure/table assets",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-8129.html",
+        "html_sha256": "42cf4112e1821026c050986a4abde2a6126daf4ab9dd76cd06e2875bf2bc26ce"
+      },
+      "render_status": "planned_repair",
+      "notes": "This is a sustained manuscript memorandum with diagrams, not a conventional incoming response."
+    },
+    {
+      "source_id": "DCP-LETT-8312",
+      "requirement": "Keep the Bombus enclosure and German report as a separate supplied layer from Darwin’s covering letter, retaining the actual figure asset.",
+      "evidence": {
+        "source_id": "DCP-LETT-8312",
+        "evidence_layer": "authorial_body",
+        "quote": "The males of Bombus follow one remarkable habit, which I think it would interest you to investigate this coming summer",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"males of Bombus\")]; following enclosure paragraphs and plan image",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-8312.html",
+        "html_sha256": "0057c7445ce076966880918c02697ec2b08ed4bd942f25e3d7cd3ca2eb9a28c7"
+      },
+      "render_status": "planned_repair",
+      "notes": "Darwin offers an enclosed account for Müller’s investigation; enclosure authorial voice and figure must not be attributed to Müller."
+    },
+    {
+      "source_id": "DCP-LETT-11415",
+      "requirement": "Preserve the diagram image and its labelled measurement notes as visual evidence, with the later publication bibliography excluded from body text.",
+      "evidence": {
+        "source_id": "DCP-LETT-11415",
+        "evidence_layer": "authorial_body",
+        "quote": "Distance between day and night positions of leaf-tips marked in red ink",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"Distance between day and night\")]; adjacent image asset",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-11415.html",
+        "html_sha256": "c571d2e3aaff9beef56ce0c20500afef53b0509c156b4a7cbc455d8fb97df974"
+      },
+      "render_status": "planned_repair",
+      "notes": "The figure is an observational record; do not replace its labels with inferred numerical prose."
+    },
+    {
+      "source_id": "DCP-LETT-7415",
+      "requirement": "Keep Agassiz’s fish observations, museum/family news and the accompanying sketch as distinct layers; no separate figure asset is present for the sketch.",
+      "evidence": {
+        "source_id": "DCP-LETT-7415",
+        "evidence_layer": "authorial_body",
+        "quote": "The males and females can be distinguished at a glance by their anal fins.",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"males and females can be distinguished\")]/math:*; body image nodes",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-7415.html",
+        "html_sha256": "0b68a60e26a9720089df1159fe6706dd02a382ae97407177c7c1622f55b77400"
+      },
+      "render_status": "hold",
+      "notes": "The letter is later-dated; its described sketch is not an independently preserved visual asset in this source."
+    },
+    {
+      "source_id": "DCP-LETT-1832",
+      "requirement": "Preserve Blyth’s printed-letter enclosure and the labelled Gallus figure/MathML markup separately from Blyth’s covering prose and uncertain genealogy source.",
+      "evidence": {
+        "source_id": "DCP-LETT-1832",
+        "evidence_layer": "authorial_body",
+        "quote": "I now write a little more at leisure, but have not overmuch time to go into details",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"write a little more at leisure\")]; enclosure/figure nodes",
+        "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1832.html",
+        "html_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26"
+      },
+      "render_status": "hold",
+      "notes": "The 1856 date is earlier context; printed material and later annotations cannot be treated as a new period prompt."
+    },
+    {
+      "source_id": "DCP-LETT-9304",
+      "requirement": "Preserve Darwin’s seven-block sexual-selection argument and its qualified Canestrini report, while keeping the broad boundary date under review.",
+      "evidence": {
+        "source_id": "DCP-LETT-9304",
+        "evidence_layer": "authorial_body",
+        "quote": "The evidence of the action of s. selection becomes good only when the one sex, (generally the male) takes elaborate pains to display his colours",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"evidence of the action\")]; body paragraphs 4–8",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-9304.html",
+        "html_sha256": "1edab4f0f9e05585c1698d7d53505060c6db184242316a116a4de906abe639b3"
+      },
+      "render_status": "hold",
+      "notes": "The cited Canestrini paper is a later bibliography layer; no exact current-period receipt follows from the source’s boundary probe."
+    },
+    {
+      "source_id": "DCP-LETT-7051",
+      "requirement": "Render the engraved-plate production instructions as authorial layout requirements, preserving block groupings, reference-letter changes and facsimile instructions.",
+      "evidence": {
+        "source_id": "DCP-LETT-7051",
+        "evidence_layer": "authorial_body",
+        "quote": "The wood-cuts must be fac-similes, done neatly & lightly",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"wood-cuts must be fac-similes\")]; following figure-group paragraphs",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-7051.html",
+        "html_sha256": "bbdfcfcce116d2270d64f131e5881341c0df01c877cfc6d383b626b7b99e68dd"
+      },
+      "render_status": "planned_repair",
+      "notes": "This is a production memorandum. Do not merge plate directions into scientific prose or infer missing plate images."
+    },
+    {
+      "source_id": "DCP-LETT-7522",
+      "requirement": "Preserve Chance’s counterexample, hair/beard specimen enclosure and family-colour reasoning as an incoming voice; do not invent a Darwin answer.",
+      "evidence": {
+        "source_id": "DCP-LETT-7522",
+        "evidence_layer": "authorial_body",
+        "quote": "I enclose a specimen from my hair & another from my beard & whiskers.",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"enclose a specimen\")]; enclosure status in apparatus",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-7522.html",
+        "html_sha256": "c093fb933e2dce8140831eef842c2646a0e55be4b0731692da985beb09f99654"
+      },
+      "render_status": "hold",
+      "notes": "The incoming specimen is distinct from the later Darwin publication cited in bibliography; no reply survives here."
+    }
+  ],
+  "source_pins": [
+    {
+      "source_id": "DCP-LETT-1677",
+      "evidence_layer": "authorial_body",
+      "quote": "what you say about a good pump being required to fill the siphon",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"good pump\")]/math:mfrac",
+      "html_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1677.html",
+      "html_sha256": "ca75f243d14c60919c1c4c565d33e98fab73ee7e83e597ac4cc169b97dadd5e7"
+    },
+    {
+      "source_id": "DCP-LETT-2305",
+      "evidence_layer": "authorial_body",
+      "quote": "Instead of your coming here I should prefer coming to you at 212.",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"Instead of your coming\")]/math:mfrac",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2305.html",
+      "html_sha256": "cd667cadb898329ced7956f335788c88cc3029af0c840a1095d47d77a537d59f"
+    },
+    {
+      "source_id": "DCP-LETT-809",
+      "evidence_layer": "authorial_body",
+      "quote": "The relative positions would be as follows:",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"relative positions would be as follows\")]; following table/list nodes",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-809.html",
+      "html_sha256": "a7b4cbbe7536b8c47c84abe16b71d2f7670b4f93f60a7f898fe19cb7f43b1bcc"
+    },
+    {
+      "source_id": "DCP-LETT-3509",
+      "evidence_layer": "authorial_body",
+      "quote": "Hooker and one or two others are coming here on the 25th. & 26th. staying till Monday 28th.,",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"Hooker and one or two others\")]/math:mfrac",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-3509.html",
+      "html_sha256": "3fa1f41574ca2fad66ce57990b2d4ebbb4fd4be8d8e82bdaec7ec008c09672df"
+    },
+    {
+      "source_id": "DCP-LETT-669",
+      "evidence_layer": "authorial_body",
+      "quote": "I send you some diagrams which may help you to understand the subject.",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]//img; enclosing authorial paragraph",
+      "html_path": "data/raw/dcp/correspondent-review-1837-1843/seed-context/DCP-LETT-669.html",
+      "html_sha256": "8dcf42ea5753cbc756feef8be20b3e238549195d183b5cd0d1e63e5f5368ba56"
+    },
+    {
+      "source_id": "DCP-LETT-8129",
+      "evidence_layer": "authorial_body",
+      "quote": "The great law about the expression conveyed in music is that it depends wholly on the relations of the sounds to each other",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"great law about the expression\")]; adjacent figure/table assets",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-8129.html",
+      "html_sha256": "42cf4112e1821026c050986a4abde2a6126daf4ab9dd76cd06e2875bf2bc26ce"
+    },
+    {
+      "source_id": "DCP-LETT-8312",
+      "evidence_layer": "authorial_body",
+      "quote": "The males of Bombus follow one remarkable habit, which I think it would interest you to investigate this coming summer",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"males of Bombus\")]; following enclosure paragraphs and plan image",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-8312.html",
+      "html_sha256": "0057c7445ce076966880918c02697ec2b08ed4bd942f25e3d7cd3ca2eb9a28c7"
+    },
+    {
+      "source_id": "DCP-LETT-11415",
+      "evidence_layer": "authorial_body",
+      "quote": "Distance between day and night positions of leaf-tips marked in red ink",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"Distance between day and night\")]; adjacent image asset",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-11415.html",
+      "html_sha256": "c571d2e3aaff9beef56ce0c20500afef53b0509c156b4a7cbc455d8fb97df974"
+    },
+    {
+      "source_id": "DCP-LETT-7415",
+      "evidence_layer": "authorial_body",
+      "quote": "The males and females can be distinguished at a glance by their anal fins.",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"males and females can be distinguished\")]/math:*; body image nodes",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-7415.html",
+      "html_sha256": "0b68a60e26a9720089df1159fe6706dd02a382ae97407177c7c1622f55b77400"
+    },
+    {
+      "source_id": "DCP-LETT-1832",
+      "evidence_layer": "authorial_body",
+      "quote": "I now write a little more at leisure, but have not overmuch time to go into details",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"write a little more at leisure\")]; enclosure/figure nodes",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1832.html",
+      "html_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26"
+    },
+    {
+      "source_id": "DCP-LETT-9304",
+      "evidence_layer": "authorial_body",
+      "quote": "The evidence of the action of s. selection becomes good only when the one sex, (generally the male) takes elaborate pains to display his colours",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"evidence of the action\")]; body paragraphs 4–8",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-9304.html",
+      "html_sha256": "1edab4f0f9e05585c1698d7d53505060c6db184242316a116a4de906abe639b3"
+    },
+    {
+      "source_id": "DCP-LETT-7051",
+      "evidence_layer": "authorial_body",
+      "quote": "The wood-cuts must be fac-similes, done neatly & lightly",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"wood-cuts must be fac-similes\")]; following figure-group paragraphs",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-7051.html",
+      "html_sha256": "bbdfcfcce116d2270d64f131e5881341c0df01c877cfc6d383b626b7b99e68dd"
+    },
+    {
+      "source_id": "DCP-LETT-7522",
+      "evidence_layer": "authorial_body",
+      "quote": "I enclose a specimen from my hair & another from my beard & whiskers.",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"enclose a specimen\")]; enclosure status in apparatus",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-7522.html",
+      "html_sha256": "c093fb933e2dce8140831eef842c2646a0e55be4b0731692da985beb09f99654"
+    }
+  ],
+  "recommendations": [
+    "Use literal body/markup at the cited locator and keep editorial apparatus, bibliography, annotations and enclosures in separate layers.",
+    "Treat raw tables, diagrams, figures, fragments and missing prompts as evidence boundaries; no reconstructed text or rows.",
+    "Do not promote broad/later dates, publication references or third-party reports into current-period Charles knowledge."
+  ],
+  "input_hashes": {
+    "reports/1858-1859/review/packets/batch-61.json": "d4438f9ea3733edcaf9516e210c965be0bc0621600a2f88e47ef09e776f309de",
+    "reports/1858-1859/review/reviews/batch-61.json": "e53abc391a5c1c6e477671bea623ecbd73bfaecdf0bd66e054cf35a21a41eb7e",
+    "reports/1858-1859/review/packets/batch-62.json": "631878bfd7492e858df4c1eff1c79bb105535bd2f21ed6e83ef86be916887364",
+    "reports/1858-1859/review/reviews/batch-62.json": "426a086c61c42125cd169de131639bfad91d5128f51f03f6f3f0dc68699a930b",
+    "reports/1858-1859/review/packets/batch-63.json": "b14d53677257316d67455f978d2ec385c64e6ffa3dc4816927510fd147423906",
+    "reports/1858-1859/review/reviews/batch-63.json": "b9fe9a9296445bcdd93e8f23be460f40b95847d38cb8749322b962ed584618cc",
+    "reports/1858-1859/review/packets/batch-64.json": "fc95f9fb7033f64ea3e2ac6354b7e0b5fd6db77e7be86e90bbf0495c136a9bd4",
+    "reports/1858-1859/review/reviews/batch-64.json": "28ca742835a0d973627afe1cd4b9a21c9305ba93e9991d27e1eb19f63d21dc26",
+    "reports/1858-1859/review/packets/batch-65.json": "5f90b3edb1211765a949c0e77c5c252377721768119aef4c3ac9dc688d9d4bb0",
+    "reports/1858-1859/review/reviews/batch-65.json": "2e20748251c7c33ae0faff5b50de80c6b519dc8e1fdcef8955cddee7a1b3ca30",
+    "reports/1858-1859/review/packets/batch-66.json": "e9ad3bba03cfca54437d6a42a252feb71cc6d29e67ab243c9854b05f03a07f5a",
+    "reports/1858-1859/review/reviews/batch-66.json": "b92df83ec0b7e9d46c5f773d7d8d404279b857f278df76fa01fe0cb87dda57df",
+    "reports/1858-1859/review/packets/batch-67.json": "48f3754fc2b7ffe86db89419d69350fb836f6002d63c8022cb8fbc131a380730",
+    "reports/1858-1859/review/reviews/batch-67.json": "31f795ecf3911c315971a1a97830e3a1a589a6398a0fe98fedf0ab543b17cad5",
+    "reports/1858-1859/review/packets/batch-68.json": "82169b3c196877786175ecd3c92b6050a0a10ce1765b839c03df460829c6ab61",
+    "reports/1858-1859/review/reviews/batch-68.json": "09852148cd41ef18e69c59e0cbd1762b45019b8dc025b2b717bcf2907a5bddd3",
+    "reports/1858-1859/review/packets/batch-69.json": "29389473b3b0ad10b66935da8b217cce8e69457e2b8237cdd61d611a2ceedb7b",
+    "reports/1858-1859/review/reviews/batch-69.json": "9fddfb96e3be886de3f1342a13269ccdf5b2d9369724b2256971244453c58f10",
+    "reports/1858-1859/review/packets/batch-70.json": "d8641ccaefdf97702c087ae7077c20d1e442fce83018b17648a4df987e11f522",
+    "reports/1858-1859/review/reviews/batch-70.json": "6f7817fe8c8617c74d084efebef8c9c9d83ea06ff07e68392933d917aecea94f",
+    "reports/raft-prep/source-text-rendering-requirements.primary.addendum-75.json": "1aff073956e6e334faff7f7d0f7ab6afcaf057ffaa8ffc255b03ad808ce5cf0c",
+    "reports/raft-prep/source-text-rendering-requirements.primary.addendum-76.json": "0399ef8d36dd4c97e81ea5813f079c881c5a29f930dd08608c4c6c37953cfb49",
+    "docs/raft-export-content-policy.md": "c7220b8e79bf44f2ac9d98b61676471e72d2b9a5fb360b4590d6c0972a3f916d"
+  }
+}

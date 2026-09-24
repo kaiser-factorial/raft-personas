@@ -1,0 +1,242 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856-1857 batch-36 source-text rendering, date, attribution, publication-witness and provenance requirements only. Candidate documentation; no converter, transcript, export, training or accepted evidence changes.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-36.json",
+      "sha256": "95cbf00e599914f016c2349b20e600262470df4ee79a146de35b0f30c6c5a6fd"
+    },
+    "parent_decisions": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-36.json",
+      "sha256": "d5427e015147cace4b72d6aeee20ea287f9a46aae829204aaf75a736c9da7001"
+    },
+    "accepted_ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-36.json",
+      "sha256": "dbfba3dd2c63bdebc5ce8c58d74521eb33f5100e9ca0855a4eec04dadd24bad7"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "case": "1840 and 2056 printed Sydney Mail witnesses, Covington gaps and monetary/prospective distinctions",
+      "source_ids": [
+        "DCP-LETT-1840",
+        "DCP-LETT-2056"
+      ],
+      "requirement": "Preserve both Darwin-to-Covington texts as printed witnesses: 1840 is sourced from Sydney Mail 9 August 1884 with a later de Beer 1959 variant, and its manuscript is missing; 2056 likewise has Sydney Mail 1884 and de Beer 1959 witnesses, not a recovered manuscript. The September 4 and September 14 Covington letters are acknowledged with approximate arrival wording, but their texts remain missing. Keep Darwin’s heard Beagle-collier report attributed and retain the later editorial correction in apparatus, not as body voice. Render the 40 sovereigns as the Royal Society medal’s weight comparison, not payment, gold receipt or salary. Keep FitzRoy lunch and William’s barrister plan prospective.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1840",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1840.html",
+          "html_sha256": "426b944d174f19cf0f6d3d21b5e33eb0ce3f4891096f616a90690f5e4c7409d1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1840.xml",
+          "xml_sha256": "8e1bc22b9ed0547513a856355bf16870f1bd52c48ff10112db4be88d3411287d",
+          "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1840.xml",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-1840.xml"
+        },
+        {
+          "letter_id": "DCP-LETT-2056",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2056.html",
+          "html_sha256": "bd06d8188b187db856b2ab05b65db52bccf873f1efbf45f35512ff275412a8d6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2056.xml",
+          "xml_sha256": "e8c905d231b2b2579ca690bdaeb62a26be038f812a0ae65838c04c6487d27e66",
+          "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2056.xml",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-2056.xml"
+        }
+      ],
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1840",
+          "body_paragraph": 1,
+          "quote": "a month or six weeks ago your letter of the 4th of September",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "source_html_sha256": "426b944d174f19cf0f6d3d21b5e33eb0ce3f4891096f616a90690f5e4c7409d1"
+        },
+        {
+          "letter_id": "DCP-LETT-1840",
+          "body_paragraph": 1,
+          "quote": "I have heard that our old ship is now a collier",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "source_html_sha256": "426b944d174f19cf0f6d3d21b5e33eb0ce3f4891096f616a90690f5e4c7409d1"
+        },
+        {
+          "letter_id": "DCP-LETT-1840",
+          "body_paragraph": 2,
+          "quote": "for it weighs 40 sovereigns",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "source_html_sha256": "426b944d174f19cf0f6d3d21b5e33eb0ce3f4891096f616a90690f5e4c7409d1"
+        },
+        {
+          "letter_id": "DCP-LETT-2056",
+          "body_paragraph": 1,
+          "quote": "a short time since your letter of September 14",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "source_html_sha256": "bd06d8188b187db856b2ab05b65db52bccf873f1efbf45f35512ff275412a8d6"
+        },
+        {
+          "letter_id": "DCP-LETT-2056",
+          "body_paragraph": 2,
+          "quote": "We think of making him a Barrister",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "source_html_sha256": "bd06d8188b187db856b2ab05b65db52bccf873f1efbf45f35512ff275412a8d6"
+        }
+      ],
+      "apparatus_rules": [
+        "1840 footnote 1 records missing manuscript and Sydney Mail/de Beer difference.",
+        "2056 footnote 1 records the Sydney Mail Corington misprint; preserve source-aware correction without wholesale modernization."
+      ]
+    },
+    {
+      "case": "3059 unanswered Erhardt request and later Variation information",
+      "source_ids": [
+        "DCP-LETT-3059"
+      ],
+      "requirement": "Keep 3059 as a Darwin ALS dated 4 February [1856] by relational apparatus, not by catalogue number. Darwin reports Norton Shaw’s lead, his own unanswered request to Reverend Erhardt for East African domestic-animal information, and asks Galton to exert influence without requiring a reply. Later Variation information about Erhardt’s observation belongs to a later publication witness and must not backdate a response or fabricate the missing Shaw/Erhardt letters. Preserve the questioned body spelling Erdhardt(?) and the authoritative Erhardt identification in apparatus as separate layers.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-3059",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-3059.html",
+          "html_sha256": "a0e2905eb9ba1322246acdbfbc24331b2d674d3d8d4fc298349830e853522e65",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-3059.xml",
+          "xml_sha256": "c7d93ae2682cedeef0d53576671fe42bc501f4beae53d7c921c17bde5d9bc51e",
+          "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3059.xml",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-3059.xml"
+        }
+      ],
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-3059",
+          "body_paragraph": 1,
+          "quote": "At Mr Shaw’s suggestion I wrote to Revd. Erdhardt, several weeks ago",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "source_html_sha256": "a0e2905eb9ba1322246acdbfbc24331b2d674d3d8d4fc298349830e853522e65"
+        },
+        {
+          "letter_id": "DCP-LETT-3059",
+          "body_paragraph": 1,
+          "quote": "but anyhow I have had no answer",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "source_html_sha256": "a0e2905eb9ba1322246acdbfbc24331b2d674d3d8d4fc298349830e853522e65"
+        },
+        {
+          "letter_id": "DCP-LETT-3059",
+          "body_paragraph": 1,
+          "quote": "But pray do not take trouble to answer this",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "source_html_sha256": "a0e2905eb9ba1322246acdbfbc24331b2d674d3d8d4fc298349830e853522e65"
+        }
+      ],
+      "apparatus_rules": [
+        "Footnote 1 supplies the relational 1856 date from the 25 December [1855] Shaw letter.",
+        "Footnote 4’s Variation citation establishes later information, not February receipt or full incoming text."
+      ]
+    },
+    {
+      "case": "2121 Barth material, unidentified signed enclosure and publication-stage boundary",
+      "source_ids": [
+        "DCP-LETT-2121"
+      ],
+      "requirement": "Keep Darwin’s July 7 [1857] ALS distinct from its unidentified signed enclosure. The enclosure may relate to the Royal Geographical Society, but that is an editorial possibility, not an identified document or synthetic incoming prompt. Darwin says he will read information about Barth and ask questions if reading produces them; this is prospective reading, not completed reading. Preserve the distinction between the first three Barth volumes published in May 1857 and the later complete five-volume set. Later Variation discussion of cattle cannot replace the letter’s explicit decision not to take cattle in detail here.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2121",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2121.html",
+          "html_sha256": "2c23804b75e8235e223804f69e52013b3f5e4082c95f853b0d6f00e90dc221aa",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2121.xml",
+          "xml_sha256": "8e4fe49a771e3e5f0c4e3b2c23fb1a9017e93b4fa43f408ba70d3a9647e13048",
+          "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2121.xml",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-2121.xml"
+        }
+      ],
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2121",
+          "body_paragraph": 1,
+          "quote": "I return the enclosed signed",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "source_html_sha256": "2c23804b75e8235e223804f69e52013b3f5e4082c95f853b0d6f00e90dc221aa"
+        },
+        {
+          "letter_id": "DCP-LETT-2121",
+          "body_paragraph": 2,
+          "quote": "information about Dr. Barths work which I will read",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "source_html_sha256": "2c23804b75e8235e223804f69e52013b3f5e4082c95f853b0d6f00e90dc221aa"
+        },
+        {
+          "letter_id": "DCP-LETT-2121",
+          "body_paragraph": 3,
+          "quote": "If on reading I shd. have anything to ask",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+          "source_html_sha256": "2c23804b75e8235e223804f69e52013b3f5e4082c95f853b0d6f00e90dc221aa"
+        }
+      ],
+      "apparatus_rules": [
+        "Footnote 2 leaves the signed item unidentified and only suggests an RGS connection.",
+        "Footnote 3 dates the first three volumes to May 1857; preserve publication-stage uncertainty rather than rendering five volumes as already available."
+      ]
+    },
+    {
+      "case": "Source-aware cleanup and export boundary",
+      "source_ids": [
+        "DCP-LETT-1840",
+        "DCP-LETT-2056",
+        "DCP-LETT-3059",
+        "DCP-LETT-2121"
+      ],
+      "requirement": "Retain header/source-of-text, footnotes, bibliography and editorial correction layers in research provenance. Export cleanup must not merge printed Sydney Mail text with a missing manuscript, heard or attributed reports with Darwin observation, later Variation citations with contemporaneous knowledge, or prospective plans with completed events. Daniell 1970 and 1988 are already fully covered by prep50 and are cited as prior coverage without duplicate acceptance or new relationships.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1840",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1840.html",
+          "html_sha256": "426b944d174f19cf0f6d3d21b5e33eb0ce3f4891096f616a90690f5e4c7409d1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1840.xml",
+          "xml_sha256": "8e1bc22b9ed0547513a856355bf16870f1bd52c48ff10112db4be88d3411287d",
+          "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1840.xml",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-1840.xml"
+        },
+        {
+          "letter_id": "DCP-LETT-2056",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2056.html",
+          "html_sha256": "bd06d8188b187db856b2ab05b65db52bccf873f1efbf45f35512ff275412a8d6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2056.xml",
+          "xml_sha256": "e8c905d231b2b2579ca690bdaeb62a26be038f812a0ae65838c04c6487d27e66",
+          "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2056.xml",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-2056.xml"
+        },
+        {
+          "letter_id": "DCP-LETT-3059",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-3059.html",
+          "html_sha256": "a0e2905eb9ba1322246acdbfbc24331b2d674d3d8d4fc298349830e853522e65",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-3059.xml",
+          "xml_sha256": "c7d93ae2682cedeef0d53576671fe42bc501f4beae53d7c921c17bde5d9bc51e",
+          "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3059.xml",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-3059.xml"
+        },
+        {
+          "letter_id": "DCP-LETT-2121",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2121.html",
+          "html_sha256": "2c23804b75e8235e223804f69e52013b3f5e4082c95f853b0d6f00e90dc221aa",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2121.xml",
+          "xml_sha256": "8e4fe49a771e3e5f0c4e3b2c23fb1a9017e93b4fa43f408ba70d3a9647e13048",
+          "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2121.xml",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-2121.xml"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "new_sources": [
+      "DCP-LETT-1840",
+      "DCP-LETT-2056",
+      "DCP-LETT-3059",
+      "DCP-LETT-2121"
+    ],
+    "full_bodies_apparatus_bibliographies_read": true,
+    "figures_required": false,
+    "prior_daniell_prep50_reused_without_duplicate_acceptance": true,
+    "accepted_relationships_added": 0,
+    "export_performed": false
+  },
+  "validation_notes": "Retained corpus body paragraph numbers are recorded separately from raw DOM p indexes, which include salutations. Quotes are literal source text with no inferred corrections. Editorial summaries, footnotes and later publications are explicitly labelled as separate layers."
+}

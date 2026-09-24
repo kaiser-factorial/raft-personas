@@ -1,0 +1,688 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Accepted 1856–1857 batches 16–17 source-text rendering, chronology, attribution, receipt and figure requirements only; candidate for root review. No converter, export, transcript, corpus, training or primary evidence changes.",
+  "primary_provenance": {
+    "batches": {
+      "batch-16": {
+        "reading": {
+          "path": "reports/1856-1857/review/parent-reading/batch-16.json",
+          "sha256": "e0d02c51d9f61cad2864a8fab04372ccb06ca7c81afa9c6f6ba69eeacec3b079"
+        },
+        "decisions": {
+          "path": "reports/1856-1857/review/parent-decisions/batch-16.json",
+          "sha256": "b6411c805dffe97e8309f9d5aa7cf3998309d697c82290f0fca091b38caf07f4"
+        },
+        "ledger": {
+          "path": "data/annotations/periods/1856-1857/batch-16.json",
+          "sha256": "71688a4ef821f89faa5cf56d032471c28abf359d069cc509b5de6e80671bd812"
+        }
+      },
+      "batch-17": {
+        "reading": {
+          "path": "reports/1856-1857/review/parent-reading/batch-17.json",
+          "sha256": "0e1c6ecac82021243d58989c586706802384b8aa3a13ed87f5c46132924b742a"
+        },
+        "decisions": {
+          "path": "reports/1856-1857/review/parent-decisions/batch-17.json",
+          "sha256": "cb497f890f2b45e2ecd8100eba03d36ef681f6653512e6b85b13eaa648e0d69e"
+        },
+        "ledger": {
+          "path": "data/annotations/periods/1856-1857/batch-17.json",
+          "sha256": "cf11a27811c95ff3f2c871b224a234f5647c51e1c306288b6cbbce0cfe05b210"
+        }
+      }
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1646"
+      ],
+      "case": "four MathML halves and observed versus proposed crosses",
+      "requirement": "Preserve all four genuine one-half MathML nodes in the March 8 letter (three in the hound discussion and one later), and do not flatten them as the numeral 12. Separate the observed cross-back puppy anecdote from the future experiment proposed to produce an Irish-wolfhound type; neither proves universal ancestry or breeding true.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1646",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1646.xml",
+          "xml_sha256": "8bb4317f83dd79691af7f930200dd280e7a99fe91af043335db74d6df30fd71f",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1646.html",
+          "source_html_sha256": "a8a54e08a3f62bbbc5b6db52f4e2153707b6c4c47549ed3d4305b4053527142b",
+          "verified_xml_dates": [
+            {
+              "text": "8 Mar [1856]",
+              "attributes": {
+                "when": "1856-03-08"
+              },
+              "lower": "1856-03-08",
+              "upper": "1856-03-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-03-08\">8 Mar [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1646",
+          "body_paragraph": 4,
+          "quote": "This has been done",
+          "char_start": 371,
+          "char_end": 389,
+          "source_sha256": "a8a54e08a3f62bbbc5b6db52f4e2153707b6c4c47549ed3d4305b4053527142b",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1646",
+          "body_paragraph": 6,
+          "quote": "I am trying now to get",
+          "char_start": 0,
+          "char_end": 22,
+          "source_sha256": "a8a54e08a3f62bbbc5b6db52f4e2153707b6c4c47549ed3d4305b4053527142b",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        },
+        {
+          "letter_id": "DCP-LETT-1646",
+          "body_paragraph": 7,
+          "quote": "quite a perfect Scotch Deer Hound",
+          "char_start": 76,
+          "char_end": 109,
+          "source_sha256": "a8a54e08a3f62bbbc5b6db52f4e2153707b6c4c47549ed3d4305b4053527142b",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        }
+      ],
+      "verified_fractions": [
+        {
+          "letter_id": "DCP-LETT-1646",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]/math[1]",
+          "markup": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> Deer Hound &amp; ",
+          "normalized_reading": "1/2"
+        },
+        {
+          "letter_id": "DCP-LETT-1646",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]/math[2]",
+          "markup": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> Mastiff. On looking at her it is wonderful how little the ",
+          "normalized_reading": "1/2"
+        },
+        {
+          "letter_id": "DCP-LETT-1646",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]/math[3]",
+          "markup": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> Mastiff is recognisable in her. On minutely examining however, you find her mastiff Blood in neck &amp; shoulder. I much wished this Bitch crossed back with Deer Hound. This has been done, &amp; the result, as shown in a splendid Bitch puppy, is to ",
+          "normalized_reading": "1/2"
+        },
+        {
+          "letter_id": "DCP-LETT-1646",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]/math",
+          "markup": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> breed Scotch &amp; Mastiff Bitch put to a pure Mastiff—&amp; I expect either the produce of that—or the next cross at all events, to be the Irish Wolf Dog.",
+          "normalized_reading": "1/2"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1843",
+        "DCP-LETT-1887",
+        "DCP-LETT-1895"
+      ],
+      "case": "March hound scope and June cock/specimen receipts",
+      "requirement": "Keep 1843 P1–P4 as the scoped reply to Fox’s hound, poultry, Tegetmeier and Sebright report: pure-breed and reconstructed-cross questions, Tegetmeier’s unauthorized use of Darwin’s name, and the specific Sebright offer. Do not attribute the Tegetmeier claim to a joint project. In June, 1887’s Dorking receipt is a specimen arrival (sender only presumed Fox), while 1895 explicitly distinguishes the earlier cock acknowledgement from a newly received missing Fox letter; neither supplies an incoming cover or proves the March 8 prompt by itself.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1843",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1843.xml",
+          "xml_sha256": "fa5f9d34cb67ad16ebb9f6903bf6255d4ea421d97f32f78c06c8e5da4e550e61",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1843.html",
+          "source_html_sha256": "f48c60c535d1881e9b06c1879bb9e8f65c11343479d8093365646e8edbf051ab",
+          "verified_xml_dates": [
+            {
+              "text": "15 Mar [1856]",
+              "attributes": {
+                "when": "1856-03-15"
+              },
+              "lower": "1856-03-15",
+              "upper": "1856-03-15",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-03-15\">15 Mar [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1887",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1887.xml",
+          "xml_sha256": "1d8a91112f94770db783a832fb8d93b3fe863183130577f1f9a9276b23f2708f",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1887.html",
+          "source_html_sha256": "06a28fee8fa420c7980bbba7d10f79963d7a7fb46fdabf78910be2a0be803fb8",
+          "verified_xml_dates": [
+            {
+              "text": "4 June [1856]",
+              "attributes": {
+                "when": "1856-06-04"
+              },
+              "lower": "1856-06-04",
+              "upper": "1856-06-04",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-04\">4 June [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1895",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1895.xml",
+          "xml_sha256": "e45061d61f95b8d2c116ce3dd8be4d0737a761db1fd63d63e5984771a43a4a7c",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1895.html",
+          "source_html_sha256": "b05e8bcc004f42d7d39ca5a12422156fa607b1168e459a4fdb101e9e8b6683ee",
+          "verified_xml_dates": [
+            {
+              "text": "8 [June 1856]",
+              "attributes": {
+                "when": "1856-06-08"
+              },
+              "lower": "1856-06-08",
+              "upper": "1856-06-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-08\">8 [June 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1843",
+          "body_paragraph": 3,
+          "quote": "not authorised to use my name",
+          "char_start": 103,
+          "char_end": 132,
+          "source_sha256": "f48c60c535d1881e9b06c1879bb9e8f65c11343479d8093365646e8edbf051ab",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1843",
+          "body_paragraph": 4,
+          "quote": "I shd be very glad of old Sebright Bantam",
+          "char_start": 0,
+          "char_end": 41,
+          "source_sha256": "f48c60c535d1881e9b06c1879bb9e8f65c11343479d8093365646e8edbf051ab",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1887",
+          "body_paragraph": 1,
+          "quote": "arrived this morning; & I presume from you",
+          "char_start": 141,
+          "char_end": 183,
+          "source_sha256": "06a28fee8fa420c7980bbba7d10f79963d7a7fb46fdabf78910be2a0be803fb8",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1895",
+          "body_paragraph": 1,
+          "quote": "the splendid Cock had arrived, & now I have got your letter",
+          "char_start": 20,
+          "char_end": 79,
+          "source_sha256": "b05e8bcc004f42d7d39ca5a12422156fa607b1168e459a4fdb101e9e8b6683ee",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1978"
+      ],
+      "case": "rounded body hours versus precise footnote MathML",
+      "requirement": "Render the body’s observed pellet intervals as eighteen and sixteen hours, while preserving the footnote’s independent sixteen-and-a-quarter MathML value at /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[6]/div[2]/math. The precise value belongs to the quoted experimental-book witness and must not silently replace Darwin’s rounded body report or imply germination was complete.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1978",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1978.xml",
+          "xml_sha256": "1e2a47de79773087f7d3ff1260a7551872f0ff9596ec51088db73d93b27cb1c3",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1978.html",
+          "source_html_sha256": "78f9e2e0cbbd1a47d469cf5c308a07bdfac46b233b0c5b1ac668eb994d3e1467",
+          "verified_xml_dates": [
+            {
+              "text": "20 Oct [1856]",
+              "attributes": {
+                "when": "1856-10-20"
+              },
+              "lower": "1856-10-20",
+              "upper": "1856-10-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-10-20\">20 Oct [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1978",
+          "body_paragraph": 5,
+          "quote": "pellets with all seeds apparently perfect were thrown up in 18 & 16 hours",
+          "char_start": 155,
+          "char_end": 228,
+          "source_sha256": "78f9e2e0cbbd1a47d469cf5c308a07bdfac46b233b0c5b1ac668eb994d3e1467",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-1978",
+          "body_paragraph": 5,
+          "quote": "I am trying whether the seeds will germinate",
+          "char_start": 420,
+          "char_end": 464,
+          "source_sha256": "78f9e2e0cbbd1a47d469cf5c308a07bdfac46b233b0c5b1ac668eb994d3e1467",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        }
+      ],
+      "verified_notebook_mixed_number": {
+        "letter_id": "DCP-LETT-1978",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[6]/div[2]/math",
+        "markup": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> in stomach. Such seeds w",
+        "integer_immediately_preceding_mathml": "16",
+        "normalized_reading": "16¼",
+        "voice_and_layer": "Darwin experimental-book quotation in apparatus, not current letter body"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-11799",
+        "DCP-LETT-2012",
+        "DCP-LETT-2057"
+      ],
+      "case": "incomplete excised enclosure, corrected newspaper citation and Queen Pea evidence",
+      "requirement": "11799 is Fox incoming letter, not Darwin voice. P2 announces an enclosed answer then has an excised section; no author or complete topic may be reconstructed. P3 quotes the Gardeners Chronicle about commercial pea growers, with raw December 15/page828 alongside editorial correction to December13/page823. P4 is Fox own ten-year Queen Pea observation, answering Darwin public query2012. Darwin2057 P4 directly follows up on simultaneous flowering. February baby news and other enclosures in2057 are different inputs, not contained in the December source. Book chapter completed December16 cannot date the later-added December19 information backwards. Keep quoted newspaper, Fox observation and undated Darwin annotations separate.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-11799",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-11799.xml",
+          "xml_sha256": "ded00810be15e5f8ea107761077ebfe7068fc1216d7e5330d3668526ec1092b1",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-11799.html",
+          "source_html_sha256": "4cbde6b939e6b810d9f2376a0cefa1e086fb34cde09320d0f33e5f2f3d5b2fcb",
+          "verified_xml_dates": [
+            {
+              "text": "19 Dec [1856]",
+              "attributes": {
+                "when": "1856-12-19"
+              },
+              "lower": "1856-12-19",
+              "upper": "1856-12-19",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-12-19\">19 Dec [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2012",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-2012.xml",
+          "xml_sha256": "2eae88637fcfaf26aff420f08f9d4b2c20e9ed7e6c6b71588d116897ebedd857",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2012.html",
+          "source_html_sha256": "cbeaaee3c24aafdc470d87e4f2261583354911fb7ff86d885f13eb80fa527547",
+          "verified_xml_dates": [
+            {
+              "text": "[before 6 Dec 1856]",
+              "attributes": {
+                "notBefore": "1809-01-01",
+                "notAfter": "1856-12-05"
+              },
+              "lower": "1809-01-01",
+              "upper": "1856-12-05",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1809-01-01\" notAfter=\"1856-12-05\">[before 6 Dec 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2057",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2057.xml",
+          "xml_sha256": "d8cfd0329606dc2aa09d86ffa2c98f9b38d9a461df9887c2fc2df3487416b914",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2057.html",
+          "source_html_sha256": "fdef19ac3112e3ed9b9ea00e87a13cd2209f493dcf355668cc296773ddf8a0fb",
+          "verified_xml_dates": [
+            {
+              "text": "22 Feb [1857]",
+              "attributes": {
+                "when": "1857-02-22"
+              },
+              "lower": "1857-02-22",
+              "upper": "1857-02-22",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-02-22\">22 Feb [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-11799",
+          "body_paragraph": 2,
+          "quote": "I have today received the enclosed letter in answer",
+          "char_start": 0,
+          "char_end": 51,
+          "source_sha256": "4cbde6b939e6b810d9f2376a0cefa1e086fb34cde09320d0f33e5f2f3d5b2fcb",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-11799",
+          "body_paragraph": 3,
+          "quote": "Gard Ch Dec 15, 828",
+          "char_start": 169,
+          "char_end": 188,
+          "source_sha256": "4cbde6b939e6b810d9f2376a0cefa1e086fb34cde09320d0f33e5f2f3d5b2fcb",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-11799",
+          "body_paragraph": 4,
+          "quote": "I have grown “The Queen Pea”",
+          "char_start": 189,
+          "char_end": 217,
+          "source_sha256": "4cbde6b939e6b810d9f2376a0cefa1e086fb34cde09320d0f33e5f2f3d5b2fcb",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-11799",
+          "body_paragraph": 4,
+          "quote": "the week after you had made enquiries about Leguminous Plants hybridising",
+          "char_start": 14,
+          "char_end": 87,
+          "source_sha256": "4cbde6b939e6b810d9f2376a0cefa1e086fb34cde09320d0f33e5f2f3d5b2fcb",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-2012",
+          "body_paragraph": 1,
+          "quote": "Leguminous crops, when grown close together",
+          "char_start": 430,
+          "char_end": 473,
+          "source_sha256": "cbeaaee3c24aafdc470d87e4f2261583354911fb7ff86d885f13eb80fa527547",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p"
+        },
+        {
+          "letter_id": "DCP-LETT-2057",
+          "body_paragraph": 4,
+          "quote": "I suppose the Queen Pea flowered at same time with adjoining Peas",
+          "char_start": 246,
+          "char_end": 311,
+          "source_sha256": "fdef19ac3112e3ed9b9ea00e87a13cd2209f493dcf355668cc296773ddf8a0fb",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        }
+      ],
+      "verified_newspaper_correction": {
+        "letter_id": "DCP-LETT-11799",
+        "literal_text": "13 December 1856, p. 823. Fox gave the wrong page number.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[4]/div[2]",
+        "source_sha256": "4cbde6b939e6b810d9f2376a0cefa1e086fb34cde09320d0f33e5f2f3d5b2fcb"
+      },
+      "verified_later_book_insertions": {
+        "letter_id": "DCP-LETT-11799",
+        "literal_text": "CD continued to add relevant information to it at later dates.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[4]/div[2]",
+        "source_sha256": "4cbde6b939e6b810d9f2376a0cefa1e086fb34cde09320d0f33e5f2f3d5b2fcb"
+      },
+      "verified_public_query_reference": {
+        "letter_id": "DCP-LETT-11799",
+        "literal_text": "letter to the Gardeners’ Chronicle, [before 6 December 1856]",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[5]/div[2]",
+        "source_sha256": "4cbde6b939e6b810d9f2376a0cefa1e086fb34cde09320d0f33e5f2f3d5b2fcb"
+      },
+      "verified_separate_annotations": {
+        "letter_id": "DCP-LETT-11799",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]",
+        "full_section_text": "CD annotations1.1 I am … learnings. 1.00] crossed pencil3.00 “Peas … separation” 3.00] ‘Chapter 3.’6 added pencil",
+        "date_policy": "undated"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2049",
+        "DCP-LETT-2085"
+      ],
+      "case": "three-quarter children, postmark/date tension and future pig query",
+      "requirement": "2049 contains two actual three-quarter MathML fractions: the first is a joke about Fox expected child, the second forms twenty and three-quarters for both families together. These are not literal34 or2034 counts. Keep sixth son birth nearly two months earlier separate.2085 has supplied Thursday April30 postmark-based date and says exactly one week at Moor Park;2161 apparatus gives April22 arrival. Preserve the one-day tension rather than infer unsupported April23. The pig breeding query is prospective. The separately mentioned establishment leaflet is not present; it is not the pig question itself.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2049",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2049.xml",
+          "xml_sha256": "083f4bad47161e4e95543f7daaea48df9ae57aeb7ea44fffb4f297ba0a568099",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2049.html",
+          "source_html_sha256": "f44854a208934d5191fac00f14314ba39a76e990895f5bab543e402a254d8442",
+          "verified_xml_dates": [
+            {
+              "text": "8 Feb [1857]",
+              "attributes": {
+                "when": "1857-02-08"
+              },
+              "lower": "1857-02-08",
+              "upper": "1857-02-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-02-08\">8 Feb [1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2085",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2085.xml",
+          "xml_sha256": "dea9debe81835aca7b5334105c184efb73f23d3e30893cb30f429c5bb1281255",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2085.html",
+          "source_html_sha256": "2f039130de2ce200048556601d2cb9d69454d3089a7dbbbb18b59e7f32097dfc",
+          "verified_xml_dates": [
+            {
+              "text": "[30 Apr 1857]",
+              "attributes": {
+                "when": "1857-04-30"
+              },
+              "lower": "1857-04-30",
+              "upper": "1857-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-04-30\">[30 Apr 1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2049",
+          "body_paragraph": 3,
+          "quote": "I am very sorry to hear",
+          "char_start": 0,
+          "char_end": 23,
+          "source_sha256": "f44854a208934d5191fac00f14314ba39a76e990895f5bab543e402a254d8442",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-2049",
+          "body_paragraph": 5,
+          "quote": "children between us",
+          "char_start": 200,
+          "char_end": 219,
+          "source_sha256": "f44854a208934d5191fac00f14314ba39a76e990895f5bab543e402a254d8442",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2085",
+          "body_paragraph": 1,
+          "quote": "exactly one week",
+          "char_start": 25,
+          "char_end": 41,
+          "source_sha256": "2f039130de2ce200048556601d2cb9d69454d3089a7dbbbb18b59e7f32097dfc",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2085",
+          "body_paragraph": 3,
+          "quote": "whether any such crossed-breed, breeds true or nearly true",
+          "char_start": 297,
+          "char_end": 355,
+          "source_sha256": "2f039130de2ce200048556601d2cb9d69454d3089a7dbbbb18b59e7f32097dfc",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        }
+      ],
+      "verified_three_quarters": [
+        {
+          "letter_id": "DCP-LETT-2049",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]/math",
+          "markup": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> child!",
+          "normalized_reading": "¾",
+          "retained_body_paragraph": 3,
+          "context": "expected child"
+        },
+        {
+          "letter_id": "DCP-LETT-2049",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]/math",
+          "markup": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> children between us; &amp; I had no stomach.",
+          "normalized_reading": "20¾",
+          "retained_body_paragraph": 5,
+          "context": "combined family count"
+        }
+      ],
+      "verified_postmark_apparatus": {
+        "letter_id": "DCP-LETT-2085",
+        "literal_text": "The date is provided by the postmark",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[1]/div[2]",
+        "source_sha256": "2f039130de2ce200048556601d2cb9d69454d3089a7dbbbb18b59e7f32097dfc"
+      },
+      "verified_actual_stay_apparatus": {
+        "letter_id": "DCP-LETT-2161",
+        "literal_text": "from 22 April to 6 May 1857",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[2]/div[2]",
+        "source_sha256": "da1a6eb0011aab1fe6127f9575619f864254773a7de13f3e20bf0f0bff2831ff"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2161"
+      ],
+      "case": "changing health interpretation",
+      "requirement": "Render 2161’s October 30 health account as a changed interpretation: stopping mental work is now primary and hydropathy secondary, unlike the April emphasis. Keep the missing Fox school/family prompt, future household plans and later diary dates separate; later outcomes must not be imported into the contemporary letter.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2161",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2161.xml",
+          "xml_sha256": "ab4d598b7369e49381b3f2db0f86cc4f58789e56393a6416d0c104f69a98293c",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2161.html",
+          "source_html_sha256": "da1a6eb0011aab1fe6127f9575619f864254773a7de13f3e20bf0f0bff2831ff",
+          "verified_xml_dates": [
+            {
+              "text": "30 Oct [1857]",
+              "attributes": {
+                "when": "1857-10-30"
+              },
+              "lower": "1857-10-30",
+              "upper": "1857-10-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-10-30\">30 Oct [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2161",
+          "body_paragraph": 1,
+          "quote": "in a very secondary degree to Hydropathy",
+          "char_start": 463,
+          "char_end": 503,
+          "source_sha256": "da1a6eb0011aab1fe6127f9575619f864254773a7de13f3e20bf0f0bff2831ff",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2187"
+      ],
+      "case": "conditional rabbit identification",
+      "requirement": "Preserve 2187’s thanks for a missing Fox rabbit letter and its conditional Himalayan identification: ear colour, eyes and changing juvenile coat are tests, while a dead specimen is requested only if the ears differ. Keep the Zoological Society rabbit being skeletonised separate from the hypothetical Fox specimen and retain the distinction between current “young white” wording and later published occasional pale-grey material.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2187",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2187.xml",
+          "xml_sha256": "576b943e134cc962989c3236a0f518223c2a1fcde27b4ddac5ff0315a343365d",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2187.html",
+          "source_html_sha256": "e9cfe166bf1ca914123cd37b9c0665b525130150f074d28cd6f0fb0d15d0560c",
+          "verified_xml_dates": [
+            {
+              "text": "17 Dec [1857]",
+              "attributes": {
+                "when": "1857-12-17"
+              },
+              "lower": "1857-12-17",
+              "upper": "1857-12-17",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-12-17\">17 Dec [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2187",
+          "body_paragraph": 1,
+          "quote": "I suppose the ears are black",
+          "char_start": 211,
+          "char_end": 239,
+          "source_sha256": "e9cfe166bf1ca914123cd37b9c0665b525130150f074d28cd6f0fb0d15d0560c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2187",
+          "body_paragraph": 1,
+          "quote": "one of which I have now skeletonising from Zoolog. Socy.",
+          "char_start": 376,
+          "char_end": 432,
+          "source_sha256": "e9cfe166bf1ca914123cd37b9c0665b525130150f074d28cd6f0fb0d15d0560c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2187",
+          "body_paragraph": 2,
+          "quote": "the young are quite white",
+          "char_start": 71,
+          "char_end": 96,
+          "source_sha256": "e9cfe166bf1ca914123cd37b9c0665b525130150f074d28cd6f0fb0d15d0560c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "verified_later_rabbit_report": {
+        "letter_id": "DCP-LETT-2187",
+        "literal_text": "the young are born of a very pale grey colour",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[3]/div[2]",
+        "source_sha256": "e9cfe166bf1ca914123cd37b9c0665b525130150f074d28cd6f0fb0d15d0560c"
+      }
+    }
+  ],
+  "implementation_boundary": [
+    "Retained body paragraph scopes and raw DOM paths are distinct and must both be preserved.",
+    "Keep original body, quoted newspaper, footnotes, annotations, copied text, enclosures and later publication separately attributed.",
+    "Requirements do not create relationship acceptance, knowledge activation or export readiness."
+  ],
+  "notes": [
+    "The four 1646 halves and two 2049 three-quarter MathML values must remain structural MathML, with their surrounding rounded/plain prose preserved.",
+    "Missing incoming covers and excised enclosure sections remain explicit gaps."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/all_letters.jsonl",
+      "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+    },
+    {
+      "path": "reports/1856-1857/audit.jsonl",
+      "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+    }
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-39.draft.json",
+      "sha256": "72318a66c038e9ed30c6ef2f0055f3b7789d83bcbf02e8745f6cb28438307c2a"
+    }
+  ],
+  "primary_corrections": [
+    "11799 Queen Pea observation is Fox own experience, not Darwin voice.",
+    "1895 receipt quote is P1,1978 pellet quote P5,2187 ears P1; replaced incomplete or wrong DOM locators with exact matches.",
+    "Added actual public query2012 and reply2057 provenance and exact words; did not assign unrelated February enclosures to December source.",
+    "Verified all seven MathML fractions and the separate notebook layer; candidate explanatory prose alone was insufficient.",
+    "Pig question and missing establishment leaflet are separate subjects. April22 evidence comes from2161 apparatus; no unsupported new arrival date."
+  ],
+  "primary_verification": {
+    "exact_body_quotes_checked": 23,
+    "unique_source_html_xml_pairs_checked": 12,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "mathml_fractions_checked": 7,
+    "apparatus_locators_checked": 6,
+    "separate_annotation_sections_checked": 1
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  }
+}

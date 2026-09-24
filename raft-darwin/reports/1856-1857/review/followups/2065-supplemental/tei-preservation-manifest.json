@@ -1,0 +1,30 @@
+{
+  "status": "pinned_tei_xml_preserved_and_verified",
+  "record_id": "DCP-LETT-2065",
+  "source_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-2065.xml",
+  "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+  "local_path": "reports/1856-1857/review/followups/2065-supplemental/2065.tei.xml",
+  "headers_path": "reports/1856-1857/review/followups/2065-supplemental/2065.tei.headers.txt",
+  "retrieved_at": "2026-09-17T10:08:00Z",
+  "http_status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "bytes": 3646,
+  "sha256": "e06e9e5f9865031a993a700be837a8ff7080d02b3c3b5e50556c259d1c6c6eba",
+  "etag": "def5edf39d7d769d2f7a97f3497df17bc2db224078c8d3e2eb62e6361b5523ca",
+  "verification": {
+    "validator": "xmllint --noout",
+    "well_formed": true,
+    "tei_root_xml_id": "DCP-LETT-2065",
+    "sent_date_when": "1857-03-13",
+    "sent_author": "Watson, H. C.",
+    "received_recipient": "Gray, Asa",
+    "xpath_checks": [
+      "/*[local-name()='TEI']/@xml:id",
+      "//*[local-name()='correspAction'][@type='sent']/*[local-name()='date']/@when",
+      "//*[local-name()='correspAction'][@type='sent']/*[local-name()='persName']",
+      "//*[local-name()='correspAction'][@type='received']/*[local-name()='persName']"
+    ],
+    "note": "The bundled macOS Python 3.14 expat module failed to load during an attempted ElementTree parse; xmllint independently validated well-formedness and extracted all four identity fields."
+  },
+  "boundary": "This TEI confirms source identity and the editorial sent date only. It does not establish receipt by Gray, forwarding completeness, or admission as Darwin voice/training evidence."
+}

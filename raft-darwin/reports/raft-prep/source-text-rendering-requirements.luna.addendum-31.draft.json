@@ -1,0 +1,530 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batch 07 source-text rendering, chronology and attribution requirements only; candidate for root review, no converter/export/transcript/corpus/training changes.",
+  "primary_provenance": {
+    "batch": {
+      "reading": {
+        "path": "reports/1856-1857/review/parent-reading/batch-07.json",
+        "sha256": "5859f9f5bc23376e781d753d90ce125f30d6b3f4bed5a9b33a243d4264696349"
+      },
+      "decisions": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-07.json",
+        "sha256": "cc34ad8d4b9ff79ccd10340319583d64095653b4328d1691d015d5ce82ee19a2"
+      }
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-07.json",
+      "sha256": "ef3f482256657354b1b04e6111f35ad64b212d20a1515ba84adf194dabf30e5f"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1934",
+        "DCP-LETT-1944"
+      ],
+      "case": "truncated Gray opening, proof extent and receipt versus response",
+      "requirement": "Render 1934 as an incomplete Gray letter whose opening begins mid-sentence and covers a school Manual, four statistical pages, and an enclosed last proof page; do not imply the complete book or proof survives. Keep the missing pages and proof extent explicit. The Darwin receipt docket is 20 August 1856, while 1944 is dated 24 August; receipt and response dates must remain distinct. Gray’s intermediate-rarity and introduced-variability remarks stay tentative, with the missing proof/paper material unfilled.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1934",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1934.html",
+          "source_html_sha256": "7b00076ba25510d0644654148d6114acba83d4a71c023d758afd5bfb3260f717",
+          "xml_sha256": "c92d419d3d0e9eb3e2289247bcc1d4e7692e02eb37a26e0007ad26969378a7b1",
+          "verified_xml_dates": [
+            {
+              "text": "[early Aug 1856]",
+              "attributes": {
+                "notBefore": "1856-08-01",
+                "notAfter": "1856-08-31"
+              },
+              "lower": "1856-08-01",
+              "upper": "1856-08-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1856-08-01\" notAfter=\"1856-08-31\">[early Aug 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1944",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1944.html",
+          "source_html_sha256": "63d31eb38c29980df0f170e1766679f7123fb223e1324e44a3dbd61713300705",
+          "xml_sha256": "16d062901389ceeac049886b92e3406005556cf41a9caed4afe0133f280b75ff",
+          "verified_xml_dates": [
+            {
+              "text": "24 Aug [1856]",
+              "attributes": {
+                "when": "1856-08-24"
+              },
+              "lower": "1856-08-24",
+              "upper": "1856-08-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-08-24\">24 Aug [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1934",
+          "body_paragraph": 1,
+          "quote": "besides 20 or 30 of Introd. matter",
+          "source_sha256": "7b00076ba25510d0644654148d6114acba83d4a71c023d758afd5bfb3260f717",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1934",
+          "body_paragraph": 5,
+          "quote": "besides 20 or 30 of Introd. matter",
+          "source_sha256": "7b00076ba25510d0644654148d6114acba83d4a71c023d758afd5bfb3260f717",
+          "dom_locator": "div#letter div.body-content; retained body block 5"
+        },
+        {
+          "letter_id": "DCP-LETT-1944",
+          "body_paragraph": 1,
+          "quote": "I am much obliged for your letter, which has been very interesting to me.—",
+          "source_sha256": "63d31eb38c29980df0f170e1766679f7123fb223e1324e44a3dbd61713300705",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1959",
+        "DCP-LETT-1973"
+      ],
+      "case": "Gray plant lists, missing paper extent and October 11 receipt",
+      "requirement": "Preserve Gray’s plant examples as attributed and qualified reports: social Barberry, Maruta, Hypericum, Verbascum, Erodium, Convallaria and Guyot’s report are not uniform measurements. The omitted Cassiope/Loiseleuria items and future tabulations remain corrections/plans. Record that Darwin received the September 23 letter and a Statistics copy on October 11, then wrote on October 12; a second copy’s earlier relative arrival does not date the letter.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1959",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1959.html",
+          "source_html_sha256": "9094b041085bf9ca348d22d838ce272312e1d021a4973e8ebdb7f5cab6383845",
+          "xml_sha256": "9495c035fdb57375a552f430064e44a90644be5fd8f50ea84db3fd4e73ace29b",
+          "verified_xml_dates": [
+            {
+              "text": "23 Sept 1856",
+              "attributes": {
+                "when": "1856-09-23"
+              },
+              "lower": "1856-09-23",
+              "upper": "1856-09-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-09-23\">23 Sept 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1973",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1973.html",
+          "source_html_sha256": "d47a5ffa66c0be9c238975e3c70dd26cb1b39977ecf2edc2d56d5fa18df55dba",
+          "xml_sha256": "0a02b14c26c0979b2c40bb7f6665f99c1149b5846dff41bfbe38b014e9c978de",
+          "verified_xml_dates": [
+            {
+              "text": "12 Oct [1856]",
+              "attributes": {
+                "when": "1856-10-12"
+              },
+              "lower": "1856-10-12",
+              "upper": "1856-10-12",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-10-12\">12 Oct [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1959",
+          "body_paragraph": 1,
+          "quote": "I must be thinking of quite different matters",
+          "source_sha256": "9094b041085bf9ca348d22d838ce272312e1d021a4973e8ebdb7f5cab6383845",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1973",
+          "body_paragraph": 1,
+          "quote": "I received yesterday your most kind letter of the 23d.",
+          "source_sha256": "d47a5ffa66c0be9c238975e3c70dd26cb1b39977ecf2edc2d56d5fa18df55dba",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1973"
+      ],
+      "case": "quarter MathML and AND/NOT erratum",
+      "requirement": "Preserve the genuine 1/4 MathML fraction in Darwin’s estimate of European plants outside the extreme north. Keep the original AND-to-NOT table-header correction and pagination correction visible as an erratum; do not turn the estimate into 14 or claim the underlying complete Statistics paper is present in the letter.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1973",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1973.html",
+          "source_html_sha256": "d47a5ffa66c0be9c238975e3c70dd26cb1b39977ecf2edc2d56d5fa18df55dba",
+          "xml_sha256": "0a02b14c26c0979b2c40bb7f6665f99c1149b5846dff41bfbe38b014e9c978de",
+          "verified_xml_dates": [
+            {
+              "text": "12 Oct [1856]",
+              "attributes": {
+                "when": "1856-10-12"
+              },
+              "lower": "1856-10-12",
+              "upper": "1856-10-12",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-10-12\">12 Oct [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1973",
+          "body_paragraph": 2,
+          "quote": "I received yesterday your most kind letter of the 23d.",
+          "source_sha256": "d47a5ffa66c0be9c238975e3c70dd26cb1b39977ecf2edc2d56d5fa18df55dba",
+          "dom_locator": "div#letter div.body-content; paragraph containing quarter fraction"
+        }
+      ],
+      "mathml": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]/math",
+          "html_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
+          "meaning": "one-quarter"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1982",
+        "DCP-LETT-1999"
+      ],
+      "case": "hypothetical counts and scoped November reply",
+      "requirement": "Keep Gray’s 320/230/218 range counts and nested thresholds as qualified calculations, not disjoint categories or completed universal survey. Preserve the 321 apparatus variant, introduced-order versus requested-genus distinction, and future list-copying. Render 1999’s November 4 acknowledgement and its within-paragraph correction from initial Arctic concern to the Labrador/Greenland qualification; do not treat the later letter as a newly quantified November 4 result.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1982",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1982.html",
+          "source_html_sha256": "d22561a6b08204c3432edc0b31da60c921279e73c46bc8730f23dc9f4da4f5c2",
+          "xml_sha256": "31a5281e88dbb08a458ad335e4a83464b778c68a0a4a7ba44417e2bef57f1aaa",
+          "verified_xml_dates": [
+            {
+              "text": "4 Nov 1856",
+              "attributes": {
+                "when": "1856-11-04"
+              },
+              "lower": "1856-11-04",
+              "upper": "1856-11-04",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-04\">4 Nov 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1999",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1999.html",
+          "source_html_sha256": "4fb6c7f3ef9f7ee6c35986ee2fe6dbb7a014d3f81e6b2f78cb1ae2b16fcf842c",
+          "xml_sha256": "67fad11fc4d86d9ba7ae6ea5ad9d39433a6b0f21724d2cb3d30383a205770375",
+          "verified_xml_dates": [
+            {
+              "text": "24 Nov [1856]",
+              "attributes": {
+                "when": "1856-11-24"
+              },
+              "lower": "1856-11-24",
+              "upper": "1856-11-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-24\">24 Nov [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1982",
+          "body_paragraph": 1,
+          "quote": "320 Phænogamous species common to Europe",
+          "source_sha256": "d22561a6b08204c3432edc0b31da60c921279e73c46bc8730f23dc9f4da4f5c2",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1999",
+          "body_paragraph": 4,
+          "quote": "Labrador",
+          "source_sha256": "4fb6c7f3ef9f7ee6c35986ee2fe6dbb7a014d3f81e6b2f78cb1ae2b16fcf842c",
+          "dom_locator": "div#letter div.body-content; retained body block 4"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1891",
+        "DCP-LETT-1907"
+      ],
+      "case": "Watson appendices, attribution and reuse",
+      "requirement": "Render Watson’s 1891 six-taxon list and 1907’s old table/Syme quotations as separately attributed evidence, preserving uncertainty about introductions, identity, and hypothetical geographic routes. Their six named taxa and qualified Syme counts can explain the Watson material Darwin reports in 1944, but later Gray disagreement or Darwin annotations must not be backdated or flattened into Watson’s voice.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1891",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1891.html",
+          "source_html_sha256": "486a135f2e21538870dd685b6522c19b72c0b206a33c9d0a43275128da4b1190",
+          "xml_sha256": "be9762a9e49f38404e2753ea97aad917219cf5c13ad063933205998dcdb91d96",
+          "verified_xml_dates": [
+            {
+              "text": "5 June 1856",
+              "attributes": {
+                "when": "1856-06-05"
+              },
+              "lower": "1856-06-05",
+              "upper": "1856-06-05",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-05\">5 June 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1907",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1907.html",
+          "source_html_sha256": "910c205dac17ad2e5a5063587a97e8f14027d2b6fb9de59681f0fce0240c51fd",
+          "xml_sha256": "fc770b75fc04fd7d4a6dfef41af3d298a3192e2c3934fe912efe2179faea52e3",
+          "verified_xml_dates": [
+            {
+              "text": "20 June 1856",
+              "attributes": {
+                "when": "1856-06-20"
+              },
+              "lower": "1856-06-20",
+              "upper": "1856-06-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-20\">20 June 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1891",
+          "body_paragraph": 6,
+          "quote": "some 40 or 50 species of plants may be held as restricted",
+          "source_sha256": "486a135f2e21538870dd685b6522c19b72c0b206a33c9d0a43275128da4b1190",
+          "dom_locator": "div#letter div.body-content; retained body block 6"
+        },
+        {
+          "letter_id": "DCP-LETT-1907",
+          "body_paragraph": 3,
+          "quote": "Syme",
+          "source_sha256": "910c205dac17ad2e5a5063587a97e8f14027d2b6fb9de59681f0fce0240c51fd",
+          "dom_locator": "div#letter div.body-content; retained body block 3"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1863",
+        "DCP-LETT-1926",
+        "DCP-LETT-2034"
+      ],
+      "case": "Darwin questions, hypothetical ratios and missing inputs",
+      "requirement": "Keep Darwin’s 1863 and 1926 questions as exploratory prompts: 100/500 and two 200/500 classes are hypothetical illustrations, not measured flora. Preserve the missing April 8 Gray note, missing beginning of 1926, and missing present cover/input behind 2034. The 2034 comparison of 320 shared species and 115+15 representatives is proposed work, not a completed study.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1863",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1863.html",
+          "source_html_sha256": "5beb38d7055d96900daccf662657d835c6a551d94019913f70ce943fa4e47a5e",
+          "xml_sha256": "c2205341deae4f5263b69590a97035607fc946aba41ce59dae57363513ebc380",
+          "verified_xml_dates": [
+            {
+              "text": "2 May [1856]",
+              "attributes": {
+                "when": "1856-05-02"
+              },
+              "lower": "1856-05-02",
+              "upper": "1856-05-02",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-05-02\">2 May [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1926",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1926.html",
+          "source_html_sha256": "eff8e7b65a38c11291917eca36e15230f87a18e7780eb0843a2472d5dfff4b8c",
+          "xml_sha256": "938638976e6f0d6ab3995e68f308a5628284c5afd46585fbde746c9d6e3b68f0",
+          "verified_xml_dates": [
+            {
+              "text": "14 July [1856]",
+              "attributes": {
+                "when": "1856-07-14"
+              },
+              "lower": "1856-07-14",
+              "upper": "1856-07-14",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-07-14\">14 July [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2034",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2034.html",
+          "source_html_sha256": "2a62769b06c647311a047f59226cbd3fc242ee6475233c08f80cc6d8767f4f98",
+          "xml_sha256": "1703674044dd0a985438de84bba84aa2c3e263939755c9b4b481002363c88af0",
+          "verified_xml_dates": [
+            {
+              "text": "1 Jan [1857]",
+              "attributes": {
+                "when": "1857-01-01"
+              },
+              "lower": "1857-01-01",
+              "upper": "1857-01-01",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-01-01\">1 Jan [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1863",
+          "body_paragraph": 1,
+          "quote": "100/500",
+          "source_sha256": "5beb38d7055d96900daccf662657d835c6a551d94019913f70ce943fa4e47a5e",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1926",
+          "body_paragraph": 3,
+          "quote": "intermediate varieties",
+          "source_sha256": "eff8e7b65a38c11291917eca36e15230f87a18e7780eb0843a2472d5dfff4b8c",
+          "dom_locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "letter_id": "DCP-LETT-2034",
+          "body_paragraph": 2,
+          "quote": "the 320 European plants in comparison with your 115 representative species",
+          "source_sha256": "2a62769b06c647311a047f59226cbd3fc242ee6475233c08f80cc6d8767f4f98",
+          "dom_locator": "div#letter div.body-content; retained body block 2"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1944",
+        "DCP-LETT-1959"
+      ],
+      "case": "source voice and response scopes",
+      "requirement": "Render accepted direct replies with their adjudicated scopes only: 1944 P1–2/P6 answers 1934’s surviving Gray content, while Watson material in P3 is a separate knowledge input; 1973 P1–2/P6–7 answers 1959 but paper-specific critique remains limited. Keep named experts (Watson, Syme, Engelmann, Agassiz) as reported voices and retain unknown receipt/dispatch details.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1944",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1944.html",
+          "source_html_sha256": "63d31eb38c29980df0f170e1766679f7123fb223e1324e44a3dbd61713300705",
+          "xml_sha256": "16d062901389ceeac049886b92e3406005556cf41a9caed4afe0133f280b75ff",
+          "verified_xml_dates": [
+            {
+              "text": "24 Aug [1856]",
+              "attributes": {
+                "when": "1856-08-24"
+              },
+              "lower": "1856-08-24",
+              "upper": "1856-08-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-08-24\">24 Aug [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1959",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1959.html",
+          "source_html_sha256": "9094b041085bf9ca348d22d838ce272312e1d021a4973e8ebdb7f5cab6383845",
+          "xml_sha256": "9495c035fdb57375a552f430064e44a90644be5fd8f50ea84db3fd4e73ace29b",
+          "verified_xml_dates": [
+            {
+              "text": "23 Sept 1856",
+              "attributes": {
+                "when": "1856-09-23"
+              },
+              "lower": "1856-09-23",
+              "upper": "1856-09-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-09-23\">23 Sept 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1944",
+          "body_paragraph": 1,
+          "quote": "I am much obliged for your letter, which has been very interesting to me.—",
+          "source_sha256": "63d31eb38c29980df0f170e1766679f7123fb223e1324e44a3dbd61713300705",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1959",
+          "body_paragraph": 1,
+          "quote": "I must be thinking of quite different matters",
+          "source_sha256": "9094b041085bf9ca348d22d838ce272312e1d021a4973e8ebdb7f5cab6383845",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Do not mutate frozen HTML/XML, accepted notes, decisions or ledgers.",
+    "Preserve MathML, truncated openings, missing proof/paper extent, attributed plant lists, hypothetical counts, and errata as separate source structures.",
+    "Do not import receipt dockets, later publications, annotations, or paper-level facts into composition, voice or knowledge beyond their documented bounds."
+  ],
+  "notes": [
+    "1934 was received August 20 and answered August 24; 1959 was received October 11 and answered October 12.",
+    "1973’s quarter is 1/4, and its AND-to-NOT correction is historical erratum evidence.",
+    "Watson and Gray material must remain separately attributed; 1944’s Watson counts are not Gray’s answer."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/parent-reading/batch-07.json",
+      "sha256": "5859f9f5bc23376e781d753d90ce125f30d6b3f4bed5a9b33a243d4264696349"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-decisions/batch-07.json",
+      "sha256": "cc34ad8d4b9ff79ccd10340319583d64095653b4328d1691d015d5ce82ee19a2"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-07.json",
+      "sha256": "ef3f482256657354b1b04e6111f35ad64b212d20a1515ba84adf194dabf30e5f"
+    },
+    {
+      "path": "reports/1856-1857/review/letters.jsonl",
+      "sha256": "d3feb27f178ebd638dd544ddb4ad84203da5d304d8c240dded25f60bb5827d94"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1934.html",
+      "sha256": "7b00076ba25510d0644654148d6114acba83d4a71c023d758afd5bfb3260f717"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1944.html",
+      "sha256": "63d31eb38c29980df0f170e1766679f7123fb223e1324e44a3dbd61713300705"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1959.html",
+      "sha256": "9094b041085bf9ca348d22d838ce272312e1d021a4973e8ebdb7f5cab6383845"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1973.html",
+      "sha256": "d47a5ffa66c0be9c238975e3c70dd26cb1b39977ecf2edc2d56d5fa18df55dba"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1982.html",
+      "sha256": "d22561a6b08204c3432edc0b31da60c921279e73c46bc8730f23dc9f4da4f5c2"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1999.html",
+      "sha256": "4fb6c7f3ef9f7ee6c35986ee2fe6dbb7a014d3f81e6b2f78cb1ae2b16fcf842c"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1891.html",
+      "sha256": "486a135f2e21538870dd685b6522c19b72c0b206a33c9d0a43275128da4b1190"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1907.html",
+      "sha256": "910c205dac17ad2e5a5063587a97e8f14027d2b6fb9de59681f0fce0240c51fd"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1863.html",
+      "sha256": "5beb38d7055d96900daccf662657d835c6a551d94019913f70ce943fa4e47a5e"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1926.html",
+      "sha256": "eff8e7b65a38c11291917eca36e15230f87a18e7780eb0843a2472d5dfff4b8c"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2034.html",
+      "sha256": "2a62769b06c647311a047f59226cbd3fc242ee6475233c08f80cc6d8767f4f98"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+The tool wants one JSON file per conversation, not a dump of letters. In this project they live at conversations/transcript-0001.json, transcript-0002.json, and so on.
+
+Canonical transcript
+
+raft 3.1.0 (convo_structurer.py) treats this as a finished transcript:
+
+{
+  "participants": {
+    "q": "John Stevens Henslow",
+    "a": "Charles Darwin"
+  },
+  "date": "1837-09-01",
+  "url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-375",
+  "context": "a letter from Henslow, which Darwin is answering",
+  "exchanges": [
+    [
+      "Text of the incoming letter (the prompt)...",
+      "Text of Darwin's reply (the target answer)..."
+    ]
+  ]
+}
+
+┌──────────────┬─────────────────┬──────────────────────────────────────────────────────────────────┐
+│ Field        │ Required        │ Role                                                             │
+├──────────────┼─────────────────┼──────────────────────────────────────────────────────────────────┤
+│ participants │ yes             │ Must include both "q" (interlocutor) and "a" (Darwin).           │
+├──────────────┼─────────────────┼──────────────────────────────────────────────────────────────────┤
+│ exchanges    │ yes             │ List of [question, answer] pairs. Question = everyone else;      │
+│              │                 │ answer = Darwin.                                                 │
+├──────────────┼─────────────────┼──────────────────────────────────────────────────────────────────┤
+│ date         │ strongly        │ ISO YYYY-MM-DD. Retrieval only uses earlier writing than this    │
+│              │ recommended     │ day.                                                             │
+├──────────────┼─────────────────┼──────────────────────────────────────────────────────────────────┤
+│ url          │ optional        │ Source link; stored as metadata.                                 │
+├──────────────┼─────────────────┼──────────────────────────────────────────────────────────────────┤
+│ context      │ optional but    │ Framed in the system prompt as "This is {context}; {q} is        │
+│              │ useful          │ talking to you." Default if omitted: "an interview".             │
+└──────────────┴─────────────────┴──────────────────────────────────────────────────────────────────┘
+
+generate_finetune unpacks each exchange as question, answer = exchange, so each pair must be a two-element list of strings.
+
+Where to put the files
+
+This is a project (raft.json + conversations/), so names are:
+
+• conversations/transcript-0001.json
+• conversations/transcript-0002.json
+• …
+• conversations/benchmark.json (optional held-out conversation; not stored as a memory)
+
+Numbering is 1-based and sequential with no gaps. ft:gen walks 1, 2, 3… and stops at the first missing file.
+
+You can drop finished JSON straight into conversations/, or import via raft interactive / import_conversation_file. Direct writes keep context; the importer currently drops context even when the source file has it, so for letters it is better to write the files yourself.
+
+Other formats the importer accepts
+
+If you go through the importer instead of writing transcripts by hand:
+
+1. Already a raft transcript — same schema as above (minus context on import).
+2. Chat-message arrays — a list of {role, content, name?}, or {"messages": [...]}, or Ariadne’s {"conversations": [{"messages": [...]}]}. Darwin/assistant turns become answers; everything else is concatenated into the preceding question.
+3. Anything else (plain text, letter XML, etc.) — an LLM (RAFT_LLM_MODEL, default gpt-4o) tries to extract Q/A. It is instructed not to invent questions or turn an essay into synthetic dialogue. A lone Darwin letter with no inbound prompt will likely fail or come back empty.
+
+For real correspondence, skip the LLM path and emit [incoming, Darwin reply] yourself.
+
+How this maps onto Darwin letters
+
+The pipeline is built for modern threads, but the unit of training is just prompt → Darwin’s reply, with earlier writing as retrieval context.
+
+A natural split:
+
+• Transcripts (conversations): each established inbound → Darwin reply pair. Incoming prose is the question; Darwin’s letter is the answer. Date the transcript to the reply (or the knowledge-available date you already use), so he cannot “recall” later letters.
+• Corpus (grounding): unpaired Darwin-written letters, notebooks, etc. as corpus/documents.jsonl, one object per line:
+
+{"title": "To J. S. Henslow, 1 September 1837", "link": "...", "date": "1837-09-01", "content": "..."}
+
+Incoming letters should not go in the corpus as Darwin voice. They belong only on the question side of an exchange.
+
+context is the main adaptation knob. Forum imports use strings like "a LessWrong comment thread under the post \"...\"". For letters, something like "a letter from Henslow, which Darwin is answering" is better than the default "an interview".
+
+A few-exchange thread (Henslow writes, Darwin replies, Henslow writes again, Darwin replies) can be one transcript with several exchanges, oldest first, dated to the last Darwin reply — or one transcript per pair if you want stricter date bounding on retrieval.
+
+If you want, I can sketch a converter from your existing prompt–response pairs in reports/ into these transcript-NNNN.json files.

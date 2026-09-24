@@ -1,0 +1,110 @@
+{
+  "batch_id": "batch-34",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "proposal_adjudications": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-1050",
+      "disposition": "grounding_candidate_missing_prompt",
+      "source_kind": "autograph signed letter",
+      "voice": "Darwin; editorial conjectures and subsequent events separate",
+      "date_assessment": "[Jan? 1847]; no receipt or completed action inferred from intention.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1090F",
+      "disposition": "grounding_candidate_missing_prompt",
+      "source_kind": "autograph signed letter",
+      "voice": "Darwin; editorial conjectures and subsequent events separate",
+      "date_assessment": "25 May 1847; no receipt or completed action inferred from intention.",
+      "training_export_ready": false
+    }
+  ],
+  "additional_exact_date_review_ids": [
+    "DCP-LETT-1050"
+  ],
+  "additional_period_hold_ids": [],
+  "voice_held_ids": [],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-1050",
+      "kind": "proposed_consultation_and_order",
+      "description": "Carpenter missing note motivates future purchase; alternative visits and next-morning order not completed events. Delivery wait inferred from later account payment does not establish exact date.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1050",
+          "body_paragraph": 2,
+          "quote": "Your note has finally determined me to get one as soon as possible",
+          "char_start": 199,
+          "char_end": 265,
+          "source_sha256": "4dd53f0c4a5c912f44b7bd099eed7a30847ef7e9b24444e561e72fca9169174f"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1090F",
+      "kind": "unknown_proposal_and_document_layout",
+      "description": "Missing May 21 proposal cannot be reconstructed as a specific educational project. Final layout remark belongs to same letter, physically first-sheet verso. Summary JS does not change named John Allen identity.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1090F",
+          "body_paragraph": 1,
+          "quote": "your note of the 21st",
+          "char_start": 21,
+          "char_end": 42,
+          "source_sha256": "27af652e4aeeb9ee8108ab0cf454562da60f20914cd1c031a8ee2ad49f40ffd8"
+        },
+        {
+          "letter_id": "DCP-LETT-1090F",
+          "body_paragraph": 4,
+          "quote": "I see that I have written this note the wrong way first",
+          "char_start": 0,
+          "char_end": 55,
+          "source_sha256": "27af652e4aeeb9ee8108ab0cf454562da60f20914cd1c031a8ee2ad49f40ffd8"
+        }
+      ]
+    }
+  ],
+  "date_evidence": [
+    {
+      "letter_id": "DCP-LETT-1050",
+      "description": "January? 1847 conjecture from April 29 payment allowing three or four months; January 6 council attendance is not proof of proposed consultation."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-1050",
+      "description": "Carpenter microscope advice note and scheduling reply."
+    },
+    {
+      "letter_id": "DCP-LETT-1090F",
+      "description": "John Allen May 21, 1847 proposal, exact subject unknown."
+    }
+  ],
+  "previously_recorded_relationships": [
+    {
+      "response_id": "DCP-LETT-813",
+      "antecedent_id": "DCP-LETT-803A",
+      "relationship": "replies_to",
+      "accepted_ledger": "data/annotations/periods/1844-1846/batch-12.json",
+      "accepted_ledger_sha256": "d36da84dfb32285c82943686de7fd0951841afec3a970970228b33ab966b2c0c",
+      "counted_as_new": false,
+      "rationale": "Earlier specimen-expense and gift exchange, already accepted; not microscope advice."
+    }
+  ],
+  "rejected_or_candidate_links": [
+    {
+      "incoming_ids": [
+        "DCP-LETT-813",
+        "DCP-LETT-865"
+      ],
+      "outgoing_id": "DCP-LETT-1050",
+      "status": "not_identified_prompt",
+      "rationale": "Earlier rock microscopy reports do not supply the missing microscope-purchase advice note."
+    }
+  ]
+}

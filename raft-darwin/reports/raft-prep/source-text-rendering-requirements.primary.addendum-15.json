@@ -1,0 +1,333 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Batches 23–24 additive Huxley conversion/date/provenance boundaries only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "batches": {
+      "batch-23": {
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-23.json",
+        "reading_sha256": "607925af4fcff7373b11c955becdff64fb6ff118b361f5f834ebbd0e899420cc",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-23.json",
+        "decision_sha256": "303aab968f97ed6d85dd9c4e7ccf2d9a9c0b9407fac6c51a489eff2560b8697a",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-23.json",
+        "ledger_sha256": "6c86541e4b798cc5cc2d6df31f4716fc3275f95007ea7db779644235deb445be"
+      },
+      "batch-24": {
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-24.json",
+        "reading_sha256": "7ed0b16a4b9ffc8def903a038a86d8a28f2ada52d4cd3c6384ff98c93db5c8db",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-24.json",
+        "decision_sha256": "17d5703c4d05d118e577706926b15265d1717a00bc673014532d7c54d00bfc41",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-24.json",
+        "ledger_sha256": "cdeccc6f089b9e510c24fdbb32d2a1fc616ed2a4beea0ea356e1cdea6af67878"
+      }
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1514"
+      ],
+      "case": "copy and incomplete autograph witness",
+      "requirement": "Retain the copy plus incomplete autograph source-carrier status attached to the preserved editorial transcription. Do not label it an unqualified complete autograph, invent separately preserved witness texts, duplicate prose, or fill autograph gaps. Keep oral discussion and absent cover material separate.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1514",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1514.html",
+        "source_sha256": "61cb7678f4f34513dbb2d5931fa8ec57c2beb19fed46f8b6eccc88caa6695f65",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1514.xml",
+        "xml_sha256": "4c1768f4e16448f92db55e92d724a891ae6096b187b4227c3923c51087c43c91",
+        "verified_sent_date_constraints": [
+          {
+            "text": "11 Apr [1853]",
+            "attributes": {
+              "when": "1853-04-11"
+            },
+            "lower": "1853-04-11",
+            "upper": "1853-04-11",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1853-04-11\">11 Apr [1853]</ns0:date>"
+          }
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1514",
+          "body_paragraph": 1,
+          "quote": "I heard you say that you were at work at the Ascidiæ. I have some 12–15 specimens in Spirits; I hope in fairish condition.",
+          "source_sha256": "61cb7678f4f34513dbb2d5931fa8ec57c2beb19fed46f8b6eccc88caa6695f65",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 0,
+          "char_end": 122
+        }
+      ],
+      "accepted_primary_basis": {
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-23.json",
+        "reading_sha256": "607925af4fcff7373b11c955becdff64fb6ff118b361f5f834ebbd0e899420cc",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-23.json",
+        "decision_sha256": "303aab968f97ed6d85dd9c4e7ccf2d9a9c0b9407fac6c51a489eff2560b8697a",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-23.json",
+        "ledger_sha256": "6c86541e4b798cc5cc2d6df31f4716fc3275f95007ea7db779644235deb445be",
+        "accepted_note": "Copy plus incomplete autograph; five surviving body blocks read; Ascidia offer follows oral remark.",
+        "accepted_decision": "dated_grounding_unpaired; retain source components and do not synthesize missing cover or report.",
+        "ledger_requirement": "Source kind remains copy plus incomplete autograph witness."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1635",
+        "DCP-LETT-1645"
+      ],
+      "case": "authorial specimen memorandum, MathML fraction, receipt and later reading",
+      "requirement": "Keep P6 as Darwin-authored enclosure memorandum with five numbered specimen entries, separate from editorial apparatus. Preserve raw MathML mfrac numerator 1 denominator 4 followed by superscript th; any 1/4 rendering is derived and must retain the raw locator. Keep February physical receipt and promised future reading distinct from March explicit reading; do not backdate reading or infer parcel arrival from its route.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1635",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1635.html",
+          "source_sha256": "d4ba9f42939f46ac605ddaf6b50c95b6294ce305e9fa2a56fbf8f1a86a635058",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1635.xml",
+          "xml_sha256": "d87f59c90139ee8abeafe48251ec4b4dd80f03596d5300f9c1b0faaefe5f817c",
+          "verified_sent_date_constraints": [
+            {
+              "text": "20 Feb [1855]",
+              "attributes": {
+                "when": "1855-02-20"
+              },
+              "lower": "1855-02-20",
+              "upper": "1855-02-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-02-20\">20 Feb [1855]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1645",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1645.html",
+          "source_sha256": "00451ad250df8d695e268d08aa2733c4b77be798eff569c78eeb23fbf4964d78",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1645.xml",
+          "xml_sha256": "6e0a386470cfa25be48ddafb0a79847acb3fb217364738072ae0850727c3f411",
+          "verified_sent_date_constraints": [
+            {
+              "text": "8 Mar [1855]",
+              "attributes": {
+                "when": "1855-03-08"
+              },
+              "lower": "1855-03-08",
+              "upper": "1855-03-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-03-08\">8 Mar [1855]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1635",
+          "body_paragraph": 6,
+          "quote": "Use 14th. focal distance & good light.—",
+          "source_sha256": "d4ba9f42939f46ac605ddaf6b50c95b6294ce305e9fa2a56fbf8f1a86a635058",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]",
+          "char_start": 797,
+          "char_end": 836
+        },
+        {
+          "letter_id": "DCP-LETT-1635",
+          "body_paragraph": 3,
+          "quote": "I have this morning just received your Article on Mollusca",
+          "source_sha256": "d4ba9f42939f46ac605ddaf6b50c95b6294ce305e9fa2a56fbf8f1a86a635058",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+          "char_start": 0,
+          "char_end": 58
+        },
+        {
+          "letter_id": "DCP-LETT-1645",
+          "body_paragraph": 8,
+          "quote": "I have read it with attention & interest",
+          "source_sha256": "00451ad250df8d695e268d08aa2733c4b77be798eff569c78eeb23fbf4964d78",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]",
+          "char_start": 101,
+          "char_end": 141
+        }
+      ],
+      "accepted_primary_basis": {
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-23.json",
+        "reading_sha256": "607925af4fcff7373b11c955becdff64fb6ff118b361f5f834ebbd0e899420cc",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-23.json",
+        "decision_sha256": "303aab968f97ed6d85dd9c4e7ccf2d9a9c0b9407fac6c51a489eff2560b8697a",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-23.json",
+        "ledger_sha256": "6c86541e4b798cc5cc2d6df31f4716fc3275f95007ea7db779644235deb445be",
+        "accepted_note": "P6 is Darwin authorial memorandum; raw MathML gives one-quarter followed by th. February article receipt is unread; March P8 explicitly records reading.",
+        "accepted_decision": "dated_grounding_unpaired; preserve MathML and enclosure/reading stages separately.",
+        "ledger_requirement": "Do not flatten fraction to fourteen or conflate receipt with reading."
+      },
+      "raw_fraction_evidence": {
+        "letter_id": "DCP-LETT-1635",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]/math/mfrac",
+        "raw_html": "<mfrac><mn>1</mn><mn>4</mn></mfrac>",
+        "derived_rendering": "one-quarter followed by th; no added measurement unit",
+        "source_sha256": "d4ba9f42939f46ac605ddaf6b50c95b6294ce305e9fa2a56fbf8f1a86a635058"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1759"
+      ],
+      "case": "mixed Huxley drawings and Darwin corrections",
+      "requirement": "Preserve both verified digital figure assets with their mixed Huxley drawing content and Darwin marks or typeset directions. No clean unannotated incoming state has been preserved here. Do not use amended images as pristine prompts, isolate layers without evidence, or turn editorial captions into either correspondent voice. Physical manuscript structure is not independently inspected.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1759",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1759.html",
+        "source_sha256": "21be0bcae91cd062c336e83256fc1812aeb88dd37044e5e292e2e22136176968",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1759.xml",
+        "xml_sha256": "4cd8372d4433f78d264b036654d0a9e247e5263fa04f5f92e4a5b2fc94d78eca",
+        "figures": [
+          {
+            "figure_path": "data/raw/dcp/1851-1855/figures/DCP-LETT-1759-1.jpg",
+            "sha256": "93a1ca21189afb9c54f4778d347a4edb387f8a6e83bbd182615d871fe97529aa",
+            "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/div[1]/img",
+            "observation": "Stalked cirripede drawing with cement-gland arrow/cross, ovarian branching and directions on oesophagus, stomach, caeca and peduncle muscles."
+          },
+          {
+            "figure_path": "data/raw/dcp/1851-1855/figures/DCP-LETT-1759-2.jpg",
+            "sha256": "51c9e33e42f616770ea46118acace68c3fd7605158b0926d029c846050a055c6",
+            "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/div[2]/img",
+            "observation": "Sessile cirripede cutaway with pencil cross and typeset direction to move the main sub-oesophageal ganglion left; original layers cannot be isolated."
+          }
+        ],
+        "verified_sent_date_constraints": [
+          {
+            "text": "3 [Sept 1855]",
+            "attributes": {
+              "when": "1855-09-03"
+            },
+            "lower": "1855-09-03",
+            "upper": "1855-09-03",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-09-03\">3 [Sept 1855]</ns0:date>"
+          }
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1759",
+          "body_paragraph": 1,
+          "quote": "I have made a few pencil marks",
+          "source_sha256": "21be0bcae91cd062c336e83256fc1812aeb88dd37044e5e292e2e22136176968",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 151,
+          "char_end": 181
+        },
+        {
+          "letter_id": "DCP-LETT-1759",
+          "body_paragraph": 1,
+          "quote": "I never cd. see cement-gland in Lepas",
+          "source_sha256": "21be0bcae91cd062c336e83256fc1812aeb88dd37044e5e292e2e22136176968",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 281,
+          "char_end": 318
+        }
+      ],
+      "accepted_primary_basis": {
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-23.json",
+        "reading_sha256": "607925af4fcff7373b11c955becdff64fb6ff118b361f5f834ebbd0e899420cc",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-23.json",
+        "decision_sha256": "303aab968f97ed6d85dd9c4e7ccf2d9a9c0b9407fac6c51a489eff2560b8697a",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-23.json",
+        "ledger_sha256": "6c86541e4b798cc5cc2d6df31f4716fc3275f95007ea7db779644235deb445be",
+        "accepted_note": "Two actual figures viewed; incoming drawings and Darwin corrections are mixed; no separate covering note or clean drawing state.",
+        "accepted_decision": "dated_grounding_unpaired; no invented prompt or layer separation.",
+        "ledger_requirement": "Composite annotated assets retained with figure hashes."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1757"
+      ],
+      "case": "new examination in P7",
+      "requirement": "Keep P7 as a newly performed examination during writing, after P1–P6 assertions. Scope its no-cell result to that specimen and do not turn it into a global retraction or pre-existing observation; the missing Huxley anatomical letter remains absent and later scholarly apparatus remains separate.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1757",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1757.html",
+        "source_sha256": "6eade617078abf23e3b11563b4df736dcc24d90f647d704fcd69f39744cb5ebe",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1757.xml",
+        "xml_sha256": "30e8d8fa9bfd8f30ee7e57740c45c91c93fad8f547816d4b97ed5ab889fe1dc0",
+        "verified_sent_date_constraints": [
+          {
+            "text": "29 [Sept 1855]",
+            "attributes": {
+              "when": "1855-09-29"
+            },
+            "lower": "1855-09-29",
+            "upper": "1855-09-29",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-09-29\">29 [Sept 1855]</ns0:date>"
+          }
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1757",
+          "body_paragraph": 7,
+          "quote": "This I have just examined & broken up",
+          "source_sha256": "6eade617078abf23e3b11563b4df736dcc24d90f647d704fcd69f39744cb5ebe",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]",
+          "char_start": 77,
+          "char_end": 114
+        },
+        {
+          "letter_id": "DCP-LETT-1757",
+          "body_paragraph": 7,
+          "quote": "I could not in this specimen detect a single cell with included nuclei or granules",
+          "source_sha256": "6eade617078abf23e3b11563b4df736dcc24d90f647d704fcd69f39744cb5ebe",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]",
+          "char_start": 324,
+          "char_end": 406
+        }
+      ],
+      "accepted_primary_basis": {
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-24.json",
+        "reading_sha256": "7ed0b16a4b9ffc8def903a038a86d8a28f2ada52d4cd3c6384ff98c93db5c8db",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-24.json",
+        "decision_sha256": "17d5703c4d05d118e577706926b15265d1717a00bc673014532d7c54d00bfc41",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-24.json",
+        "ledger_sha256": "cdeccc6f089b9e510c24fdbb32d2a1fc616ed2a4beea0ea356e1cdea6af67878",
+        "accepted_note": "P7 newly retrieves, examines and breaks up preserved specimen; present negative result is specimen-specific while earlier observations remain asserted.",
+        "accepted_decision": "dated_grounding_unpaired; preserve P7 temporal boundary and missing incoming Huxley letter.",
+        "ledger_requirement": "No global retraction or synthesized prompt."
+      }
+    }
+  ],
+  "validation_plan": {
+    "quote_validator": "scripts/period_review.py check_quotes",
+    "exact_source_evidence_count": 8,
+    "structural_note": "Candidate is documentation only; source hashes and figure pins are immutable evidence references."
+  },
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/huxley-boundaries.batch-23-24.luna.json",
+      "sha256": "9cca20cdea8433ea407b87a223bce0d39f05cee7c6826dfcd4abaa1bd931e440"
+    }
+  ],
+  "primary_corrections": [
+    {
+      "letter_id": "DCP-LETT-1514",
+      "description": "The preserved editorial transcription describes a copy plus incomplete autograph. Separate complete witness texts are not independently preserved here; do not invent parallel renderings or duplicate prose."
+    },
+    {
+      "letter_id": "DCP-LETT-1635",
+      "description": "The whole-sentence quote belongs at the enclosing paragraph; the mfrac locator only supports the fraction. Preserve both distinct locators."
+    },
+    {
+      "letter_id": "DCP-LETT-1759",
+      "description": "Actual digital reproductions contain mixed drawing and correction content; do not claim an independently inspected physical manuscript or pristine incoming layer."
+    },
+    {
+      "description": "Replace unverified generic TEI date XPaths with source metadata constraints, and correct quote count from ten to eight."
+    }
+  ],
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false
+  },
+  "primary_verification": {
+    "exact_quotes_checked": 8,
+    "source_and_accepted_provenance_hashes_verified": true,
+    "dom_quote_and_figure_locators_verified": true,
+    "basis": "Root full source and actual figure readings in accepted batches 23 and 24; direct input, source, raw MathML and locator verification for this addendum."
+  }
+}

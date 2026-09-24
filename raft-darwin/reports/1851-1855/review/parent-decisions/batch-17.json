@@ -1,0 +1,343 @@
+{
+  "batch_id": "batch-17",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [
+    {
+      "outgoing_id": "DCP-LETT-1750",
+      "incoming_id": "DCP-LETT-1747",
+      "status": "accepted_scoped_draft_reply",
+      "known_by_date": "1855-08-26",
+      "actual_receipt_date": null,
+      "response_scope": "Whole surviving Darwin draft P1–7, preserving cancellations/illegibility and draft status.",
+      "rationale": "Explicitly answers Watson numerical figure, artificiality of groups, local-flora issue and prospective variable-character example. October 2 confirms a corresponding August 26 letter was received, not that final wording equals every draft word.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1747",
+          "body_paragraph": 5,
+          "quote": "It would seem to follow as a logical necessity, that the species are closer in the large genera",
+          "char_start": 72,
+          "char_end": 167,
+          "source_sha256": "67dc41db12a89e98d292eaf4dd5db176140d53d010da7ad5ca3a726ddf797123"
+        },
+        {
+          "letter_id": "DCP-LETT-1750",
+          "body_paragraph": 1,
+          "quote": "You have put the case far clearer than I have ever done to myself, by your figure",
+          "char_start": 54,
+          "char_end": 135,
+          "source_sha256": "4673f164ab5029af25b86e183b462bf9dd1e712918d44326031d7cf6fe2e6e2e"
+        },
+        {
+          "letter_id": "DCP-LETT-1747",
+          "body_paragraph": 14,
+          "quote": "The so-called ‘natural system’ in botany is to a great extent artificial or arbitrary",
+          "char_start": 134,
+          "char_end": 219,
+          "source_sha256": "67dc41db12a89e98d292eaf4dd5db176140d53d010da7ad5ca3a726ddf797123"
+        },
+        {
+          "letter_id": "DCP-LETT-1750",
+          "body_paragraph": 2,
+          "quote": "With respect to the genera, families, being quite artificial",
+          "char_start": 0,
+          "char_end": 60,
+          "source_sha256": "4673f164ab5029af25b86e183b462bf9dd1e712918d44326031d7cf6fe2e6e2e"
+        },
+        {
+          "letter_id": "DCP-LETT-1747",
+          "body_paragraph": 16,
+          "quote": "Saxifraga Andrewsii",
+          "char_start": 70,
+          "char_end": 89,
+          "source_sha256": "67dc41db12a89e98d292eaf4dd5db176140d53d010da7ad5ca3a726ddf797123"
+        },
+        {
+          "letter_id": "DCP-LETT-1750",
+          "body_paragraph": 6,
+          "quote": "you can perhaps illustrate apparent rule",
+          "char_start": 34,
+          "char_end": 74,
+          "source_sha256": "4673f164ab5029af25b86e183b462bf9dd1e712918d44326031d7cf6fe2e6e2e"
+        }
+      ],
+      "response_date_policy": "Supplied August 26 derives from Watson subsequent dated acknowledgement. Preserve draft carrier and no exact dispatch or receipt; final copy not extant here.",
+      "training_export_ready": false
+    }
+  ],
+  "correspondent_replies": [
+    {
+      "response_id": "DCP-LETT-1758",
+      "antecedent_id": "DCP-LETT-1750",
+      "status": "accepted_reverse_reply_to_letter_represented_by_draft",
+      "response_scope": "Whole surviving Watson P1–17; antecedent survives as draft with explicitly matching argument.",
+      "rationale": "Names August 26 and quotes the distinctive fragment-of-existing-flora argument verbatim, supporting correspondence identity while not proving every draft detail was sent.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1758",
+          "body_paragraph": 1,
+          "quote": "the letter of 26 augt.",
+          "char_start": 61,
+          "char_end": 83,
+          "source_sha256": "3b789a44b6b880c012165feeebfca8f7bb2b91f2e9f909b07b4b4de2a903ded3"
+        },
+        {
+          "letter_id": "DCP-LETT-1758",
+          "body_paragraph": 2,
+          "quote": "“the existing Fauna & Flora as a mere fragment”",
+          "char_start": 49,
+          "char_end": 96,
+          "source_sha256": "3b789a44b6b880c012165feeebfca8f7bb2b91f2e9f909b07b4b4de2a903ded3"
+        },
+        {
+          "letter_id": "DCP-LETT-1750",
+          "body_paragraph": 3,
+          "quote": "the whole existing Fauna & Flora as a mere fragment",
+          "char_start": 92,
+          "char_end": 143,
+          "source_sha256": "4673f164ab5029af25b86e183b462bf9dd1e712918d44326031d7cf6fe2e6e2e"
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    }
+  ],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-1750",
+      "target_id": "DCP-LETT-1747",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_scoped_draft_reply",
+      "reason": "Explicitly answers Watson numerical figure, artificiality of groups, local-flora issue and prospective variable-character example. October 2 confirms a corresponding August 26 letter was received, not that final wording equals every draft word."
+    },
+    {
+      "source_id": "DCP-LETT-1758",
+      "target_id": "DCP-LETT-1750",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_reverse_reply_to_letter_represented_by_draft",
+      "reason": "Names August 26 and quotes the distinctive fragment-of-existing-flora argument verbatim, supporting correspondence identity while not proving every draft detail was sent."
+    },
+    {
+      "source_id": "DCP-LETT-1764",
+      "target_id": "DCP-LETT-1758",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_same_author",
+      "reason": "Both are Watson incoming to Darwin. October 11 cites a missing Darwin letter, so topic continuity cannot supply the absent outgoing endpoint."
+    }
+  ],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-1604",
+      "disposition": "incoming_context_or_knowledge_source",
+      "source_kind": "incomplete autograph letter",
+      "voice": "Hewett Cottrell Watson main prose; Darwin later annotations and editor separate",
+      "date_assessment": "[19 Nov 1854]; supplied 1854 dates and draft date retain evidential basis. No incoming composition date becomes automatic Darwin reading date.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1605",
+      "disposition": "incoming_context_or_knowledge_source",
+      "source_kind": "autograph letter and separately attributed enclosures/annotations",
+      "voice": "Hewett Cottrell Watson main prose; Darwin later annotations and editor separate",
+      "date_assessment": "20 Nov [1854]; supplied 1854 dates and draft date retain evidential basis. No incoming composition date becomes automatic Darwin reading date.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1715",
+      "disposition": "incoming_context_or_knowledge_source",
+      "source_kind": "autograph letter and separately attributed enclosures/annotations",
+      "voice": "Hewett Cottrell Watson main prose; Darwin later annotations and editor separate",
+      "date_assessment": "11 July [1855]; supplied 1854 dates and draft date retain evidential basis. No incoming composition date becomes automatic Darwin reading date.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1740",
+      "disposition": "incoming_context_or_knowledge_source",
+      "source_kind": "autograph letter and separately attributed enclosures/annotations",
+      "voice": "Hewett Cottrell Watson main prose; Darwin later annotations and editor separate",
+      "date_assessment": "13 Aug 1855; supplied 1854 dates and draft date retain evidential basis. No incoming composition date becomes automatic Darwin reading date.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1743",
+      "disposition": "incoming_context_or_knowledge_source",
+      "source_kind": "autograph letter and separately attributed enclosures/annotations",
+      "voice": "Hewett Cottrell Watson main prose; Darwin later annotations and editor separate",
+      "date_assessment": "17 Aug 1855; supplied 1854 dates and draft date retain evidential basis. No incoming composition date becomes automatic Darwin reading date.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1747",
+      "disposition": "incoming_direct_prompt",
+      "source_kind": "autograph letter and separately attributed enclosures/annotations",
+      "voice": "Hewett Cottrell Watson main prose; Darwin later annotations and editor separate",
+      "date_assessment": "23 Aug 1855; supplied 1854 dates and draft date retain evidential basis. No incoming composition date becomes automatic Darwin reading date.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1750",
+      "disposition": "draft_direct_reply",
+      "source_kind": "autograph signed draft",
+      "voice": "Charles Darwin draft",
+      "date_assessment": "[26 Aug 1855]; supplied 1854 dates and draft date retain evidential basis. No incoming composition date becomes automatic Darwin reading date.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1758",
+      "disposition": "incoming_reverse_reply",
+      "source_kind": "autograph letter and separately attributed enclosures/annotations",
+      "voice": "Hewett Cottrell Watson main prose; Darwin later annotations and editor separate",
+      "date_assessment": "2 Oct 1855; supplied 1854 dates and draft date retain evidential basis. No incoming composition date becomes automatic Darwin reading date.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1764",
+      "disposition": "incoming_context_or_knowledge_source",
+      "source_kind": "autograph letter and separately attributed enclosures/annotations",
+      "voice": "Hewett Cottrell Watson main prose; Darwin later annotations and editor separate",
+      "date_assessment": "11 Oct 1855; supplied 1854 dates and draft date retain evidential basis. No incoming composition date becomes automatic Darwin reading date.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1775",
+      "disposition": "incoming_context_or_knowledge_source",
+      "source_kind": "autograph letter and separately attributed enclosures/annotations",
+      "voice": "Hewett Cottrell Watson main prose; Darwin later annotations and editor separate",
+      "date_assessment": "8 Nov 1855; supplied 1854 dates and draft date retain evidential basis. No incoming composition date becomes automatic Darwin reading date.",
+      "training_export_ready": false
+    }
+  ],
+  "additional_exact_date_review_ids": [
+    "DCP-LETT-1604",
+    "DCP-LETT-1605",
+    "DCP-LETT-1750"
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-1605",
+      "kind": "same_author_supplement",
+      "related_id": "DCP-LETT-1604",
+      "description": "Explicitly supplements own letter posted yesterday, fixing relative day but creating no incoming-to-Darwin response pair.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1605",
+          "body_paragraph": 1,
+          "quote": "Since sending to post my letter of yesterday’s date",
+          "char_start": 0,
+          "char_end": 51,
+          "source_sha256": "92eb28be6932f2c1fbd04b5b2b387709e393181c18b34232859f22a4db28514b"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1764",
+      "kind": "second_marked_catalogue",
+      "description": "October catalogue revises the earlier August marking; do not backdate added Babington/Newman forms into the first list.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1764",
+          "body_paragraph": 1,
+          "quote": "Posted with this sheet, but apart; is a copy",
+          "char_start": 0,
+          "char_end": 44,
+          "source_sha256": "2b48f192db301017db75789227543dd55f3a54ee7f618a914842e2b91c182fd4"
+        },
+        {
+          "letter_id": "DCP-LETT-1764",
+          "body_paragraph": 1,
+          "quote": "have added in [mg] their varieties",
+          "char_start": 454,
+          "char_end": 488,
+          "source_sha256": "2b48f192db301017db75789227543dd55f3a54ee7f618a914842e2b91c182fd4"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1758",
+      "kind": "undated_darwin_annotation",
+      "description": "Full keyed Darwin note on reproductive organs is separately attributed and undated, not Watson text or automatically available October 2."
+    },
+    {
+      "letter_id": "DCP-LETT-1764",
+      "kind": "attributed_historical_accusation",
+      "description": "Forbes accusations are Watson statements within correspondence; preserve attribution and do not state them as independently established findings."
+    }
+  ],
+  "rejected_or_candidate_links": [
+    {
+      "source_id": "DCP-LETT-1764",
+      "target_id": "DCP-LETT-1758",
+      "relationship": "replies_to",
+      "status": "rejected_same_author",
+      "reason": "Both are Watson incoming to Darwin. October 11 cites a missing Darwin letter, so topic continuity cannot supply the absent outgoing endpoint."
+    }
+  ],
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-1750",
+      "description": "Worker says draft dispatch unknown. The corresponding August 26 letter is explicitly acknowledged October 2, proving correspondence occurred; exact dispatch/receipt and final wording remain unverified."
+    },
+    {
+      "letter_id": "DCP-LETT-1764",
+      "description": "Worker proposes a response to Watson own October 2 letter. Primary rejects same-author edge."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-1604",
+      "description": "Darwin sterile-soil flora enquiry."
+    },
+    {
+      "letter_id": "DCP-LETT-1715",
+      "description": "Full two list enclosures absent from page transcription."
+    },
+    {
+      "letter_id": "DCP-LETT-1740",
+      "description": "Darwin initial request and subsequent clarification of which category to mark."
+    },
+    {
+      "letter_id": "DCP-LETT-1743",
+      "description": "Marked catalogue and pre-1847 publication list not fully transcribed."
+    },
+    {
+      "letter_id": "DCP-LETT-1747",
+      "description": "Darwin numerical-objective disclosure and postscript."
+    },
+    {
+      "letter_id": "DCP-LETT-1750",
+      "description": "Final sent copy, as distinct from surviving draft."
+    },
+    {
+      "letter_id": "DCP-LETT-1764",
+      "description": "Darwin letter mentioning Forbes and second marked catalogue full entries."
+    },
+    {
+      "letter_id": "DCP-LETT-1775",
+      "description": "Recent Darwin statistical enquiry or reply not uniquely identified."
+    }
+  ],
+  "previously_recorded_relationships": [
+    {
+      "incoming_id": "DCP-LETT-1715",
+      "witness_id": "DCP-LETT-1718",
+      "relationship": "knowledge_before",
+      "ledger": "data/annotations/periods/1851-1855/batch-12.json",
+      "description": "July 13 receipt bound already accepted."
+    },
+    {
+      "incoming_id": "DCP-LETT-1715",
+      "witness_id": "DCP-LETT-1717",
+      "relationship": "knowledge_before",
+      "ledger": "data/annotations/periods/1851-1855/batch-05.json",
+      "description": "List forwarded to Hooker by July 14 already accepted."
+    },
+    {
+      "incoming_id": "DCP-LETT-1743",
+      "witness_id": "DCP-LETT-1749",
+      "relationship": "knowledge_before",
+      "ledger": "data/annotations/periods/1851-1855/batch-10.json",
+      "description": "August marked British flora used by August 24; separate from August 23 criticism."
+    }
+  ]
+}

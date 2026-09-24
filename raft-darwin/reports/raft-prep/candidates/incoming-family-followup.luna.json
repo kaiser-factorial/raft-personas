@@ -1,0 +1,37 @@
+{
+  "status": "candidate_only",
+  "scope": "Bounded read-only follow-up to incoming-family-01; no accepted ledger, source, status, graph, or export changes.",
+  "pin": {"revision": "ab0d973bae05b54d68d82d068211015996cfec06", "source_index": "reports/body-date-search-37-337/letters.jsonl", "candidate_review": "reports/beagle-voyage-review/reviews/incoming-family-01.luna.json"},
+  "source_pins": {
+    "DCP-LETT-155": "data/raw/dcp/body-date-search-37-337/DCP-LETT-155.html#sha256=ab9b1b016b80d3520a9a281015d0896af5d2deec00e6aa32da5f753ea41be403",
+    "DCP-LETT-161": "data/raw/dcp/body-date-search-37-337/DCP-LETT-161.html#sha256=554530c8189980b27b27ea13562847500ab35151e6295aca33f88bab54c8f68b",
+    "DCP-LETT-162": "data/raw/dcp/body-date-search-37-337/DCP-LETT-162.html#sha256=e57fd0456b63369c6993bfaea80826d0c4e2802420923025acc80f6133a2b492",
+    "DCP-LETT-182": "data/raw/dcp/body-date-search-37-337/DCP-LETT-182.html#sha256=4d2d00f219d3adb53aa37e9a231564e1cac937a38da867c17b53da3ef05621a7",
+    "DCP-LETT-183": "data/raw/dcp/body-date-search-37-337/DCP-LETT-183.html#sha256=745c673c57b4f12f1e3a364bbbe3d73f320d929be62e172f641f2f663a7b6f82",
+    "DCP-LETT-186": "data/raw/dcp/body-date-search-37-337/DCP-LETT-186.html#sha256=1f77f3b3dc62d9836fc332ee4dee4cfb11c489a72519a75312cb52ca87cd0f6f",
+    "DCP-LETT-243": "data/raw/dcp/body-date-search-37-337/DCP-LETT-243.html#sha256=4d65e33b6a8f1532117607c7485dabbd310fa72efd22fe70ae3be9e8203c9873",
+    "DCP-LETT-309": "data/raw/dcp/body-date-search-37-337/DCP-LETT-309.html#sha256=592b59020264d5acc7402e88d30db1bc6de5dc562a62cb38c37fe19fb2dc7e07",
+    "DCP-LETT-331": "data/raw/dcp/body-date-search-37-337/DCP-LETT-331.html#sha256=c317324147e070f7401cf710d3ad69f41992ded7c4750acedef3c3adbdbc8351",
+    "DCP-LETT-332": "data/raw/dcp/body-date-search-37-337/DCP-LETT-332.html#sha256=ffca518f0ab2d084c7a04545486b87a41e13e25e00e8183b4f9a5236103e59ce",
+    "DCP-LETT-333": "data/raw/dcp/body-date-search-37-337/DCP-LETT-333.html#sha256=dfe5e522e60386f608cb7f7b48881851bcda4adc5db107ce17ede9c5c7214b9b",
+    "DCP-LETT-164": "data/raw/dcp/body-date-search-37-337/DCP-LETT-164.html#sha256=f5b3fdcd45d54184806e4b56ef0270c10838d2d9d2426770e8b67dc7174ec954",
+    "DCP-LETT-169": "data/raw/dcp/body-date-search-37-337/DCP-LETT-169.html#sha256=5b844244c5dc9b27b539babf67ed78fc27cb8cbca731866ccb77f88f226eba8d",
+    "DCP-LETT-259": "data/raw/dcp/body-date-search-37-337/DCP-LETT-259.html#sha256=50a57b0be1884ce4bbf7dd6a6ba49bb4195a213f0b64a8f0a4c3465ff07e110e"
+  },
+  "candidates": [
+    {"source_id":"DCP-LETT-155","target_id":"DCP-LETT-164","relationship":"replies_to","status":"candidate_only","scope":"164 P6 Charlotte acknowledgement only","known_by_date":"1832-04-05","evidence":[{"letter_id":"DCP-LETT-155","body_paragraph":2,"quote":"I shall receive you first in mine"},{"letter_id":"DCP-LETT-164","body_paragraph":6,"quote":"With yours I received a letter from Charlotte, talking of parsonages in pretty countries"}],"uncertainty":"Strong topical/wording match, but 164 P4 separately names December 31 and February 4 letters; composition date of 155 is Jan-Feb. Primary must decide whether P6 is a second incoming letter rather than retain prior conservative rejection."},
+    {"source_id":"DCP-LETT-161","target_id":"DCP-LETT-169","relationship":"knowledge_before","status":"candidate_only","known_by_date":"1832-05-03","scope":"169 P1 reference to one Owen letter; not an answer prompt","evidence":[{"letter_id":"DCP-LETT-161","body_paragraph":1,"quote":"Fanny says that you must not suppose that the Lady of Count Robert of Chirk will ever forget the Friend of her youth & means to send you a few lines in the same envelope with this"},{"letter_id":"DCP-LETT-169","body_paragraph":1,"quote":"Susans (& one from Mr Owen) I received May 3d."}],"uncertainty":"The explicit receipt names Mr Owen and date May 3; it does not identify Fanny’s separately preserved 162 or prove its receipt."},
+    {"source_id":"DCP-LETT-162","target_id":"DCP-LETT-169","relationship":"knowledge_before","status":"rejected_candidate","scope":"none","evidence":[{"letter_id":"DCP-LETT-162","body_paragraph":1,"quote":"Papa has been writing you a very long Budget"},{"letter_id":"DCP-LETT-169","body_paragraph":1,"quote":"one from Mr Owen"}],"uncertainty":"161 says Fanny intended lines in the same envelope, but 169 identifies only Owen’s letter; no independent receipt of 162."},
+    {"source_id":"DCP-LETT-243","target_id":"DCP-LETT-259","relationship":"knowledge_before","status":"rejected_candidate","scope":"none","evidence":[{"letter_id":"DCP-LETT-243","body_paragraph":4,"quote":"May the 1st. All well at home so we do not write this month yr affecte C. Darwin"},{"letter_id":"DCP-LETT-259","body_paragraph":5,"quote":"Catherine for her pithy message \u201cWe do not write\u201d because Mr Owen does"}],"uncertainty":"243 P4 is a Darwin postscript inside Owen’s source, not Catherine’s message. Existing accepted 246→259 identifies the inserted Catherine words; do not duplicate as 243→259."}
+  ],
+  "missing_or_unmatched": [
+    {"ids":["DCP-LETT-182"],"finding":"Erasmus commissions/lab and family gossip; no identified Darwin reply or accepted knowledge witness in the inspected projections."},
+    {"ids":["DCP-LETT-183"],"finding":"Sarah Williams family/health news; no distinctive Darwin reply or accepted knowledge witness identified."},
+    {"ids":["DCP-LETT-186"],"finding":"Charlotte Langton responds to a Darwin letter, but no later Darwin reply in the reviewed projection is identifiable from its domestic/travel content; do not use date adjacency."},
+    {"ids":["DCP-LETT-309"],"finding":"Reverse response to Darwin’s kind return note; no surviving Darwin prompt identified, and it cannot be backfilled from 310/319."},
+    {"ids":["DCP-LETT-331"],"finding":"Tutor request to Darwin. Search of preserved 1828–1836 bodies and 1837–1843 adjudication inputs found no distinctive Darwin answer or Heawood-linked response; keep as unpaired incoming."},
+    {"ids":["DCP-LETT-332"],"finding":"Hensleigh’s praise/criticism of Darwin’s manuscript is a review of a manuscript and does not establish a later 1837 Darwin reply or a new incoming prompt."},
+    {"ids":["DCP-LETT-333"],"finding":"£40 wedding gift and Cambridge lecture-room reference; no identifiable Darwin reply or accepted knowledge witness found."}
+  ],
+  "adjudication_guardrails":["No candidate is accepted here.","Do not infer receipt from date adjacency.","Do not turn 243’s Darwin postscript into Catherine’s voice.","Keep 161’s explicit May 3 Owen receipt separate from unproven receipt of enclosed 162.","Candidate 155→164 requires primary review against the prior conservative rejection and exact response scope."]
+}

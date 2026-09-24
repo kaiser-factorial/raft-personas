@@ -1,0 +1,454 @@
+{
+  "schema_version": "1.0",
+  "status": "candidate_only",
+  "scope": "read-only integrity check of 1488 scoped_pending_render_and_content_checks rows in grounding-review.working.json",
+  "generated_at": "2026-09-17",
+  "no_mutation": true,
+  "inputs": [
+    {
+      "path": "reports/raft-prep/grounding-review.working.json",
+      "sha256": "c7276bb68bc4cd514a81558ecb721fb59ebb0068f5675e2d41f4afe965155f65"
+    },
+    {
+      "path": "reports/raft-prep/candidates/grounding-restrictions.luna.json",
+      "sha256": "7ffef4d2b1b10a350cb49f65b2a102f4f3be9324520900bbc0fae41765f8e608"
+    },
+    {
+      "path": "reports/raft-prep/candidates/ground-requirements.luna.json",
+      "sha256": "c5c9859cf1a22e87adbcccd951b7eed05abd0aedd64a3ef7d968634480635019"
+    }
+  ],
+  "method": "Matched all scoped rows with pending_authorial_supplement or explicit source requirements against grounding-restrictions; reported only rows where restriction_evidence is empty while a source-specific authorial/enclosure requirement exists. Compared accepted primary record-note pointers for date/voice custody. Known 1732 address/N.B. and 2222 flattened-fraction corrections were excluded as already reported holds.",
+  "counts": {
+    "scoped_rows_checked": 1488,
+    "matched_authorial_requirement_rows": 8,
+    "concrete_omissions": 8
+  },
+  "findings": [
+    {
+      "source_id": "DCP-LETT-1589",
+      "working_row_pointer": "/rows/801",
+      "restriction_row_pointer": "/restrictions/495",
+      "source_pin": {
+        "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1589.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1589.xml",
+        "retrieved_at": "2026-09-17T00:48:26.958918+00:00",
+        "sha256": "60ba1c49e0aab96b5491307da8a6403faa12619c72288bb7bb3f1348d2de499c",
+        "bytes": 125174,
+        "http_status": 200,
+        "etag": "\"64eee330402c1e104139c409cdc229bc\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-1589"
+      },
+      "omitted_constraint": "The grounding restriction record has empty restriction_evidence despite an explicit accepted rendering requirement and pending_authorial_supplement; its ordinary-body reason and units therefore do not carry the supplemental/enclosure boundary into grounding review.",
+      "accepted_primary_pointer": "data/annotations/periods/1851-1855/batch-19.json#/letter_adjudications/6",
+      "source_requirement_pointers": [
+        {
+          "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-13.json",
+          "case": "Complete 77-entry enclosure with separators",
+          "requirement": "Preserve enclosure as numbered list 1–77 plus two unnumbered separator rows, retaining ditto dashes, tentative punctuation, varieties and localities. Do not flatten to table or reinterpret entries as specimen count."
+        }
+      ],
+      "observed_working_fields": {
+        "state": "scoped_pending_render_and_content_checks",
+        "reason": "ordinary_individual_Darwin_body_exact_single_XML_day",
+        "pending_authorial_supplement": true,
+        "scope_review_flags": [],
+        "unit_paragraphs": [
+          1,
+          2
+        ]
+      },
+      "proposed_safe_correction": "Propagate the cited requirement as an authorial-supplement restriction and keep the enclosure as a distinct authored unit. Preserve the accepted date/voice decision at the cited primary pointer; exclude editorial headings, footnote markers and later routing notes where the requirement says so. Do not merge the enclosure into ordinary body units or treat it as an annotation.",
+      "specific_evidence": [
+        {
+          "requirement": "Preserve enclosure as numbered list 1–77 plus two unnumbered separator rows, retaining ditto dashes, tentative punctuation, varieties and localities. Do not flatten to table or reinterpret entries as specimen count.",
+          "primary_reading": null,
+          "primary_reading_basis": null,
+          "primary_decision": null,
+          "case": "Complete 77-entry enclosure with separators",
+          "source_requirement_file": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-13.json"
+        }
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-1820A",
+      "working_row_pointer": "/rows/1057",
+      "restriction_row_pointer": "/restrictions/636",
+      "source_pin": {
+        "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1820A.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1820A.xml",
+        "retrieved_at": "2026-09-17T00:56:50.999431+00:00",
+        "sha256": "66819ddb3c7a258741a0a9b29c9a6cbdca733a880968815d61ef715674414fd2",
+        "bytes": 115045,
+        "http_status": 200,
+        "etag": "\"1cb178b6a2ecaa522e10528f08a66cb6\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-1820A"
+      },
+      "omitted_constraint": "The grounding restriction record has empty restriction_evidence despite an explicit accepted rendering requirement and pending_authorial_supplement; its ordinary-body reason and units therefore do not carry the supplemental/enclosure boundary into grounding review.",
+      "accepted_primary_pointer": "data/annotations/periods/1856-1857/batch-35.json#/letter_adjudications/0",
+      "source_requirement_pointers": [
+        {
+          "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-59.json",
+          "case": "Chinese varieties request, agreement, and extracts receipt",
+          "requirement": "The January14 cover asks Gray to enlist Birch; its separate complete enclosure contains two substantive enquiry paragraphs and a signature. Both are Darwin prose with distinct source scopes. January19 records agreement, February6 willingness and a proposed visit, March12 a conditional Friday appointment, and April8 receipt of extracts. Keep those stages separate; no exact incoming Gray/Birch wording or physical delivery day is supplied. Later publication citations cannot substitute for the missing extracts."
+        }
+      ],
+      "observed_working_fields": {
+        "state": "scoped_pending_render_and_content_checks",
+        "reason": "ordinary_individual_Darwin_body_exact_single_XML_day",
+        "pending_authorial_supplement": true,
+        "scope_review_flags": [],
+        "unit_paragraphs": [
+          1,
+          2
+        ]
+      },
+      "proposed_safe_correction": "Propagate the cited requirement as an authorial-supplement restriction and keep the enclosure as a distinct authored unit. Preserve the accepted date/voice decision at the cited primary pointer; exclude editorial headings, footnote markers and later routing notes where the requirement says so. Do not merge the enclosure into ordinary body units or treat it as an annotation.",
+      "specific_evidence": [
+        {
+          "requirement": "The January14 cover asks Gray to enlist Birch; its separate complete enclosure contains two substantive enquiry paragraphs and a signature. Both are Darwin prose with distinct source scopes. January19 records agreement, February6 willingness and a proposed visit, March12 a conditional Friday appointment, and April8 receipt of extracts. Keep those stages separate; no exact incoming Gray/Birch wording or physical delivery day is supplied. Later publication citations cannot substitute for the missing extracts.",
+          "primary_reading": null,
+          "primary_reading_basis": null,
+          "primary_decision": null,
+          "case": "Chinese varieties request, agreement, and extracts receipt",
+          "source_requirement_file": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-59.json"
+        }
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-2151",
+      "working_row_pointer": "/rows/1438",
+      "restriction_row_pointer": "/restrictions/836",
+      "source_pin": {
+        "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2151.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2151.xml",
+        "retrieved_at": "2026-09-17T00:58:12.334052+00:00",
+        "sha256": "7ecc812d4723773e3d8f72532688a7e859113e2966b993280ecd1edb45b9f22c",
+        "bytes": 116652,
+        "http_status": 200,
+        "etag": "\"7270cfc1a0a5de8134e5c02b518e361f\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-2151"
+      },
+      "omitted_constraint": "The grounding restriction record has empty restriction_evidence despite an explicit accepted rendering requirement and pending_authorial_supplement; its ordinary-body reason and units therefore do not carry the supplemental/enclosure boundary into grounding review.",
+      "accepted_primary_pointer": "data/annotations/periods/1856-1857/batch-26.json#/letter_adjudications/2",
+      "source_requirement_pointers": [
+        {
+          "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-48.json",
+          "case": "five authorial enclosure questions and separate footnote annotation",
+          "requirement": "Keep the five actual authorial enclosure questions distinct from the body: origin and foreign name, habits, cage display versus freedom, sex/individual differences among pure birds, and breeding true in form/colour. The intermediary search and Holland fallback are in the cover body, not among those five questions. Preserve uncertain Kinder/Trinder identity without choosing a person; inspect segmented typography for supported rendering. Body asks about a plant-culture report, while editorial summary names Cnicus; do not import the summary title. Exclude the separate undated Darwin note quoted in footnote8. The authentic authorial enclosure is not an annotation."
+        },
+        {
+          "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-48.json",
+          "case": "date interval and absent response",
+          "requirement": "Preserve 2151’s 4 October 1857 date and 2177F’s 1 December 1857 metadata as separate qualified dates. October 4 to December 1 is not a one-day interval and does not prove that 2177F answers 2151. Keep 2151’s composition, dispatch, receipt and future publication stages separate; no exact Buckman receipt or response is established."
+        }
+      ],
+      "observed_working_fields": {
+        "state": "scoped_pending_render_and_content_checks",
+        "reason": "ordinary_individual_Darwin_body_exact_single_XML_day",
+        "pending_authorial_supplement": true,
+        "scope_review_flags": [],
+        "unit_paragraphs": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "proposed_safe_correction": "Propagate the cited requirement as an authorial-supplement restriction and keep the enclosure as a distinct authored unit. Preserve the accepted date/voice decision at the cited primary pointer; exclude editorial headings, footnote markers and later routing notes where the requirement says so. Do not merge the enclosure into ordinary body units or treat it as an annotation.",
+      "specific_evidence": [
+        {
+          "requirement": "Keep the five actual authorial enclosure questions distinct from the body: origin and foreign name, habits, cage display versus freedom, sex/individual differences among pure birds, and breeding true in form/colour. The intermediary search and Holland fallback are in the cover body, not among those five questions. Preserve uncertain Kinder/Trinder identity without choosing a person; inspect segmented typography for supported rendering. Body asks about a plant-culture report, while editorial summary names Cnicus; do not import the summary title. Exclude the separate undated Darwin note quoted in footnote8. The authentic authorial enclosure is not an annotation.",
+          "primary_reading": null,
+          "primary_reading_basis": null,
+          "primary_decision": null,
+          "case": "five authorial enclosure questions and separate footnote annotation",
+          "source_requirement_file": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-48.json"
+        },
+        {
+          "requirement": "Preserve 2151’s 4 October 1857 date and 2177F’s 1 December 1857 metadata as separate qualified dates. October 4 to December 1 is not a one-day interval and does not prove that 2177F answers 2151. Keep 2151’s composition, dispatch, receipt and future publication stages separate; no exact Buckman receipt or response is established.",
+          "primary_reading": null,
+          "primary_reading_basis": null,
+          "primary_decision": null,
+          "case": "date interval and absent response",
+          "source_requirement_file": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-48.json"
+        }
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-2175",
+      "working_row_pointer": "/rows/1462",
+      "restriction_row_pointer": "/restrictions/849",
+      "source_pin": {
+        "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2175.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2175.xml",
+        "retrieved_at": "2026-09-17T00:58:18.497318+00:00",
+        "sha256": "90d7c504c3f2cfeeb00e11a28f56b9fe0bbf1fc62d7d2434500479e94c65c530",
+        "bytes": 116939,
+        "http_status": 200,
+        "etag": "\"f3a22d6effd17269b798afd305855edb\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-2175"
+      },
+      "omitted_constraint": "The grounding restriction record has empty restriction_evidence despite an explicit accepted rendering requirement and pending_authorial_supplement; its ordinary-body reason and units therefore do not carry the supplemental/enclosure boundary into grounding review.",
+      "accepted_primary_pointer": "data/annotations/periods/1856-1857/batch-34.json#/letter_adjudications/3",
+      "source_requirement_pointers": [
+        {
+          "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-57.json",
+          "case": null,
+          "requirement": "Preserve 2175 as a copy of Darwin’s cover and complete eight-question enclosure. Cover composition November 23 differs from November 22 enclosure signature. The Gwatkin passage quoted through Hamilton Smith is authorial enclosure content and may remain as an attributed quotation inside Darwin prose. It is neither an editorial footnote nor an incoming answer. Exclude editorial footnote markers/prose and later January 13 Buist routing note. Enclosure heading and closing dateline are structural metadata, not prose to insert into final content."
+        }
+      ],
+      "observed_working_fields": {
+        "state": "scoped_pending_render_and_content_checks",
+        "reason": "ordinary_individual_Darwin_body_exact_single_XML_day",
+        "pending_authorial_supplement": true,
+        "scope_review_flags": [
+          "hold"
+        ],
+        "unit_paragraphs": [
+          1,
+          2,
+          3
+        ]
+      },
+      "proposed_safe_correction": "Propagate the cited requirement as an authorial-supplement restriction and keep the enclosure as a distinct authored unit. Preserve the accepted date/voice decision at the cited primary pointer; exclude editorial headings, footnote markers and later routing notes where the requirement says so. Do not merge the enclosure into ordinary body units or treat it as an annotation.",
+      "specific_evidence": [
+        {
+          "requirement": "Preserve 2175 as a copy of Darwin’s cover and complete eight-question enclosure. Cover composition November 23 differs from November 22 enclosure signature. The Gwatkin passage quoted through Hamilton Smith is authorial enclosure content and may remain as an attributed quotation inside Darwin prose. It is neither an editorial footnote nor an incoming answer. Exclude editorial footnote markers/prose and later January 13 Buist routing note. Enclosure heading and closing dateline are structural metadata, not prose to insert into final content.",
+          "primary_reading": null,
+          "primary_reading_basis": null,
+          "primary_decision": null,
+          "case": null,
+          "source_requirement_file": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-57.json"
+        }
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-2254",
+      "working_row_pointer": "/rows/1553",
+      "restriction_row_pointer": "/restrictions/894",
+      "source_pin": {
+        "path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2254.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2254.xml",
+        "retrieved_at": "2026-09-17T00:59:41.398047+00:00",
+        "sha256": "2d0210929c7b0f81b0656264457c510fac7b8192eb82c5191b3bb08808b7cb02",
+        "bytes": 121401,
+        "http_status": 200,
+        "etag": "\"70a4560742aa344cc72c353c53bf5c2c\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-2254"
+      },
+      "omitted_constraint": "The grounding restriction record has empty restriction_evidence despite an explicit accepted rendering requirement and pending_authorial_supplement; its ordinary-body reason and units therefore do not carry the supplemental/enclosure boundary into grounding review.",
+      "accepted_primary_pointer": "data/annotations/periods/1858-1859/batch-02.json#/letter_adjudications/0",
+      "source_requirement_pointers": [
+        {
+          "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-70.json",
+          "case": "2254 five-paragraph authorial memorandum enclosure",
+          "requirement": "Preserve the five-paragraph memorandum as a separately positioned authorial enclosure in 2254. It asks Hooker to balance the probabilities in Darwin’s large and small genera discussion and distinguishes hypothetical theory points from the main letter. Do not merge it into the retained body or attribute it to editorial footnotes; later reading and return remain separate custody events. Exclude the editorial enclosure heading and footnote11 marker from eventual prose."
+        },
+        {
+          "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-70.json",
+          "case": "source layers and date voice provenance",
+          "requirement": "Keep bodies, authorial enclosures, proofs, tables, missing continuations, editorial summaries, footnotes, bibliography, addresses and XML date attributes as separate layers. Do not let a checked quote stand in for unverified prose, missing attachments or whole-document reading."
+        }
+      ],
+      "observed_working_fields": {
+        "state": "scoped_pending_render_and_content_checks",
+        "reason": "ordinary_individual_Darwin_body_exact_single_XML_day",
+        "pending_authorial_supplement": true,
+        "scope_review_flags": [],
+        "unit_paragraphs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "proposed_safe_correction": "Propagate the cited requirement as an authorial-supplement restriction and keep the enclosure as a distinct authored unit. Preserve the accepted date/voice decision at the cited primary pointer; exclude editorial headings, footnote markers and later routing notes where the requirement says so. Do not merge the enclosure into ordinary body units or treat it as an annotation.",
+      "specific_evidence": [
+        {
+          "requirement": "Preserve the five-paragraph memorandum as a separately positioned authorial enclosure in 2254. It asks Hooker to balance the probabilities in Darwin’s large and small genera discussion and distinguishes hypothetical theory points from the main letter. Do not merge it into the retained body or attribute it to editorial footnotes; later reading and return remain separate custody events. Exclude the editorial enclosure heading and footnote11 marker from eventual prose.",
+          "primary_reading": null,
+          "primary_reading_basis": null,
+          "primary_decision": null,
+          "case": "2254 five-paragraph authorial memorandum enclosure",
+          "source_requirement_file": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-70.json"
+        },
+        {
+          "requirement": "Keep bodies, authorial enclosures, proofs, tables, missing continuations, editorial summaries, footnotes, bibliography, addresses and XML date attributes as separate layers. Do not let a checked quote stand in for unverified prose, missing attachments or whole-document reading.",
+          "primary_reading": null,
+          "primary_reading_basis": null,
+          "primary_decision": null,
+          "case": "source layers and date voice provenance",
+          "source_requirement_file": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-70.json"
+        }
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-2425",
+      "working_row_pointer": "/rows/1742",
+      "restriction_row_pointer": "/restrictions/1013",
+      "source_pin": {
+        "path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2425.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2425.xml",
+        "retrieved_at": "2026-09-17T01:00:21.160718+00:00",
+        "sha256": "8f18c0ac9c50c38e1468e4ebfabd3d0efda830923dec2b30c78492c3c070d12f",
+        "bytes": 116267,
+        "http_status": 200,
+        "etag": "\"9da732d1e953143f74f3147cd8cf27a4\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-2425"
+      },
+      "omitted_constraint": "The grounding restriction record has empty restriction_evidence despite an explicit accepted rendering requirement and pending_authorial_supplement; its ordinary-body reason and units therefore do not carry the supplemental/enclosure boundary into grounding review.",
+      "accepted_primary_pointer": "data/annotations/periods/1858-1859/batch-11.json#/letter_adjudications/5",
+      "source_requirement_pointers": [
+        {
+          "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-74.json",
+          "case": null,
+          "requirement": "2425 contains the actual four-paragraph Darwin query enclosure; preserve authorial questions while excluding editorial enclosure headings and footnote anchors. 2427 is a separate Huxley reply memorandum with an actual schematic figure already viewed in accepted batch 11. Its one-sided repeated organs do not represent concentric whorls or a quantitative scale. Preserve the asset and source attribution; a text-only export must explicitly resolve the visual-dependent answer scope instead of inventing missing content. 2430 P1–4 is the accepted Darwin acknowledgment, with P5 separate input."
+        }
+      ],
+      "observed_working_fields": {
+        "state": "scoped_pending_render_and_content_checks",
+        "reason": "ordinary_individual_Darwin_body_exact_single_XML_day",
+        "pending_authorial_supplement": true,
+        "scope_review_flags": [],
+        "unit_paragraphs": [
+          1,
+          2,
+          3
+        ]
+      },
+      "proposed_safe_correction": "Propagate the cited requirement as an authorial-supplement restriction and keep the enclosure as a distinct authored unit. Preserve the accepted date/voice decision at the cited primary pointer; exclude editorial headings, footnote markers and later routing notes where the requirement says so. Do not merge the enclosure into ordinary body units or treat it as an annotation.",
+      "specific_evidence": [
+        {
+          "requirement": "2425 contains the actual four-paragraph Darwin query enclosure; preserve authorial questions while excluding editorial enclosure headings and footnote anchors. 2427 is a separate Huxley reply memorandum with an actual schematic figure already viewed in accepted batch 11. Its one-sided repeated organs do not represent concentric whorls or a quantitative scale. Preserve the asset and source attribution; a text-only export must explicitly resolve the visual-dependent answer scope instead of inventing missing content. 2430 P1–4 is the accepted Darwin acknowledgment, with P5 separate input.",
+          "primary_reading": null,
+          "primary_reading_basis": null,
+          "primary_decision": null,
+          "case": null,
+          "source_requirement_file": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-74.json"
+        }
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-2437",
+      "working_row_pointer": "/rows/1754",
+      "restriction_row_pointer": "/restrictions/1018",
+      "source_pin": {
+        "path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2437.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2437.xml",
+        "retrieved_at": "2026-09-17T01:00:24.024763+00:00",
+        "sha256": "9d75e85fe44abcc5dbcb4dff82608d580a2167af63fd2c9caa5f4716fa9831e7",
+        "bytes": 116295,
+        "http_status": 200,
+        "etag": "\"edb6627afcf7999a0144c9204c845b90\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-2437"
+      },
+      "omitted_constraint": "The grounding restriction record has empty restriction_evidence despite an explicit accepted rendering requirement and pending_authorial_supplement; its ordinary-body reason and units therefore do not carry the supplemental/enclosure boundary into grounding review.",
+      "accepted_primary_pointer": "data/annotations/periods/1858-1859/batch-08.json#/letter_adjudications/5",
+      "source_requirement_pointers": [
+        {
+          "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-74.json",
+          "case": null,
+          "requirement": "Preserve the substantive authorial draft title enclosure in 2437 separately from the surrounding letter header, editorial enclosure heading and final published Origin title. It is a requested opinion on a proposed title and includes conditional future publication language; do not flatten it into ordinary letter prose or silently substitute the final title."
+        }
+      ],
+      "observed_working_fields": {
+        "state": "scoped_pending_render_and_content_checks",
+        "reason": "ordinary_individual_Darwin_body_exact_single_XML_day",
+        "pending_authorial_supplement": true,
+        "scope_review_flags": [],
+        "unit_paragraphs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "proposed_safe_correction": "Propagate the cited requirement as an authorial-supplement restriction and keep the enclosure as a distinct authored unit. Preserve the accepted date/voice decision at the cited primary pointer; exclude editorial headings, footnote markers and later routing notes where the requirement says so. Do not merge the enclosure into ordinary body units or treat it as an annotation.",
+      "specific_evidence": [
+        {
+          "requirement": "Preserve the substantive authorial draft title enclosure in 2437 separately from the surrounding letter header, editorial enclosure heading and final published Origin title. It is a requested opinion on a proposed title and includes conditional future publication language; do not flatten it into ordinary letter prose or silently substitute the final title.",
+          "primary_reading": null,
+          "primary_reading_basis": null,
+          "primary_decision": null,
+          "case": null,
+          "source_requirement_file": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-74.json"
+        }
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-2457",
+      "working_row_pointer": "/rows/1778",
+      "restriction_row_pointer": "/restrictions/1037",
+      "source_pin": {
+        "path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2457.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2457.xml",
+        "retrieved_at": "2026-09-17T01:00:28.663056+00:00",
+        "sha256": "489d3abd48e6e9e8dc32b95d9dc54e3f7fe269a53fe4b235361370c6c5a79eb6",
+        "bytes": 123921,
+        "http_status": 200,
+        "etag": "\"bed4008aa61308bf809f2079a4bf3f62\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-2457"
+      },
+      "omitted_constraint": "The grounding restriction record has empty restriction_evidence despite an explicit accepted rendering requirement and pending_authorial_supplement; its ordinary-body reason and units therefore do not carry the supplemental/enclosure boundary into grounding review.",
+      "accepted_primary_pointer": "data/annotations/periods/1858-1859/batch-05.json#/letter_adjudications/11",
+      "source_requirement_pointers": [
+        {
+          "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-73.json",
+          "case": null,
+          "requirement": "Exactlythreeenclosuregroups:1HaughtonattributedcriticismwithDarwinparenthetical(ieLyells&yours)andQED;2Darwinauthorialcovernoteannouncinguncorrectedreversionexpansion,theEXPANDEDMANUSCRIPTISABSENT;3Darwinsecondpostscriptreturningjust-readGrayProceedingsreport,notentireJapanmemoir. PreservequotedHaughtonvoiceinsideDarwincommunicationandexcludeeditorialh2/footnotemarkers. Do notexportamissingMSorGraypaperasthoughincluded."
+        }
+      ],
+      "observed_working_fields": {
+        "state": "scoped_pending_render_and_content_checks",
+        "reason": "ordinary_individual_Darwin_body_exact_single_XML_day",
+        "pending_authorial_supplement": true,
+        "scope_review_flags": [],
+        "unit_paragraphs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "proposed_safe_correction": "Propagate the cited requirement as an authorial-supplement restriction and keep the enclosure as a distinct authored unit. Preserve the accepted date/voice decision at the cited primary pointer; exclude editorial headings, footnote markers and later routing notes where the requirement says so. Do not merge the enclosure into ordinary body units or treat it as an annotation.",
+      "specific_evidence": [
+        {
+          "requirement": "Exactlythreeenclosuregroups:1HaughtonattributedcriticismwithDarwinparenthetical(ieLyells&yours)andQED;2Darwinauthorialcovernoteannouncinguncorrectedreversionexpansion,theEXPANDEDMANUSCRIPTISABSENT;3Darwinsecondpostscriptreturningjust-readGrayProceedingsreport,notentireJapanmemoir. PreservequotedHaughtonvoiceinsideDarwincommunicationandexcludeeditorialh2/footnotemarkers. Do notexportamissingMSorGraypaperasthoughincluded.",
+          "primary_reading": null,
+          "primary_reading_basis": null,
+          "primary_decision": null,
+          "case": null,
+          "source_requirement_file": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-73.json"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "This is a candidate navigation finding, not an admission or renderer change.",
+    "The report does not infer any relationship or receipt from enclosure presence.",
+    "Source requirements are quoted as constraints; final rendering must use direct parsed DOM boundaries and verified primary decisions."
+  ]
+}

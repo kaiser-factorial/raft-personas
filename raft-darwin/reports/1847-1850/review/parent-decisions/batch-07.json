@@ -1,0 +1,437 @@
+{
+  "batch_id": "batch-07",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-1215",
+      "disposition": "grounding_candidate_with_missing_initial_request",
+      "source_kind": "letter",
+      "voice": "Darwin; copied/abstracted supplementary material separately attributed",
+      "date_assessment": "29 Jan [1849]; preserve editorial components and copy provenance.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1216",
+      "disposition": "incoming_identified_prompt_and_reverse_reply",
+      "source_kind": "author-kept copy of letter",
+      "voice": "Strickland",
+      "date_assessment": "31 Jan 1849; preserve editorial components and copy provenance.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1221",
+      "disposition": "response_candidate",
+      "source_kind": "letter with copied enclosure",
+      "voice": "Darwin; copied/abstracted supplementary material separately attributed",
+      "date_assessment": "[4 Feb 1849]; preserve editorial components and copy provenance.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1223",
+      "disposition": "incoming_identified_prompt_and_reverse_reply",
+      "source_kind": "author-kept copy of letter",
+      "voice": "Strickland",
+      "date_assessment": "8 Feb 1849; preserve editorial components and copy provenance.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1225",
+      "disposition": "response_candidate",
+      "source_kind": "letter",
+      "voice": "Darwin with later Francis insertion held",
+      "date_assessment": "10 Feb [1849]; preserve editorial components and copy provenance.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1226",
+      "disposition": "incoming_identified_prompt_and_reverse_reply",
+      "source_kind": "author-kept copy of letter",
+      "voice": "Strickland",
+      "date_assessment": "15 Feb 1849; preserve editorial components and copy provenance.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1227",
+      "disposition": "response_candidate",
+      "source_kind": "letter",
+      "voice": "Darwin; copied/abstracted supplementary material separately attributed",
+      "date_assessment": "[19 Feb 1849]; preserve editorial components and copy provenance.",
+      "training_export_ready": false
+    }
+  ],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-1215",
+      "target_id": "DCP-LETT-1216",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_reversed_arrow_corrected_separately",
+      "reason": "First pass describes a genuine exchange but reverses response→antecedent. Correct incoming-author response is separately accepted in correspondent_replies."
+    },
+    {
+      "source_id": "DCP-LETT-1221",
+      "target_id": "DCP-LETT-1223",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_reversed_arrow_corrected_separately",
+      "reason": "First pass describes a genuine exchange but reverses response→antecedent. Correct incoming-author response is separately accepted in correspondent_replies."
+    },
+    {
+      "source_id": "DCP-LETT-1225",
+      "target_id": "DCP-LETT-1226",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_reversed_arrow_corrected_separately",
+      "reason": "First pass describes a genuine exchange but reverses response→antecedent. Correct incoming-author response is separately accepted in correspondent_replies."
+    },
+    {
+      "source_id": "DCP-LETT-1227",
+      "target_id": "DCP-LETT-1226",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_direct_reply",
+      "reason": "Correct response-to-antecedent arrow1227→1226."
+    }
+  ],
+  "direct_reply_pairs": [
+    {
+      "incoming_id": "DCP-LETT-1216",
+      "outgoing_id": "DCP-LETT-1221",
+      "status": "accepted",
+      "known_by_date": "1849-02-04",
+      "actual_receipt_date": null,
+      "response_scope": "1221wholeletteracknowledgeslongargument/Reportandcontinuespriorityandappendageobjections,withnewcopiedquestionsenclosure.",
+      "response_sections": [],
+      "response_date_policy": "Retain original supplied date components. Known-by derives from response, not a guessed physical delivery date; incoming copies preserve author-dated communication, not exact copy-production time.",
+      "rationale": "Reportreceivedandresponsespecifictothepriority-versus-authorappendagedistinction; no1842draftsubstituted.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1221",
+          "body_paragraph": 1,
+          "quote": "your long, most interesting & clear letter & the Report",
+          "char_start": 41,
+          "char_end": 96,
+          "source_sha256": "49f2ccbdf1e30d13b713d93894bff7e83bbfd132f5468b3c935cc0723aafd084"
+        },
+        {
+          "letter_id": "DCP-LETT-1216",
+          "body_paragraph": 11,
+          "quote": "This is quite a different question from that of the law of priority itself",
+          "char_start": 179,
+          "char_end": 253,
+          "source_sha256": "f9d607bac8792257eaadbf82b626df416e7e6a44a3ea703bdc71fbda3163c713"
+        },
+        {
+          "letter_id": "DCP-LETT-1221",
+          "body_paragraph": 4,
+          "quote": "I give up one point, & grant that reference to first describer’s name shd be given in all systematic works",
+          "char_start": 426,
+          "char_end": 532,
+          "source_sha256": "49f2ccbdf1e30d13b713d93894bff7e83bbfd132f5468b3c935cc0723aafd084"
+        }
+      ],
+      "training_export_ready": false
+    },
+    {
+      "incoming_id": "DCP-LETT-1223",
+      "outgoing_id": "DCP-LETT-1225",
+      "status": "accepted",
+      "known_by_date": "1849-02-10",
+      "actual_receipt_date": null,
+      "response_scope": "1225wholeletteranswersrecommendationsandaddsnewConchoderma/Lepasquestions; missingThompsonnotenewsisseparate.",
+      "response_sections": [],
+      "response_date_policy": "Retain original supplied date components. Known-by derives from response, not a guessed physical delivery date; incoming copies preserve author-dated communication, not exact copy-production time.",
+      "rationale": "SpecificrefusalofnewLepas-forBalanusproposalidentifies1223andcontinuesstandard-referenceexperimentdiscussion.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1223",
+          "body_paragraph": 7,
+          "quote": "both Balanus and Balanites must yield to the old Linnæan name Lepas",
+          "char_start": 247,
+          "char_end": 314,
+          "source_sha256": "1e203e43e6b3142dbc9e58b33b1885a481d88bbc5a3857b6db2c8ef31008cdcd"
+        },
+        {
+          "letter_id": "DCP-LETT-1225",
+          "body_paragraph": 1,
+          "quote": "as for calling Balanus Lepas (which I did not think of) I cannot do it",
+          "char_start": 161,
+          "char_end": 231,
+          "source_sha256": "ea562dd4e2b7755ddfd582e3294c8f14aa24157ac0e00410128fc4d96ef74342"
+        }
+      ],
+      "training_export_ready": false
+    },
+    {
+      "incoming_id": "DCP-LETT-1226",
+      "outgoing_id": "DCP-LETT-1227",
+      "status": "accepted",
+      "known_by_date": "1849-02-19",
+      "actual_receipt_date": null,
+      "response_scope": "1227P1–3thankslastsolutionandcontinuesconventionaltypequestion;P5prospectiveMalvernnewsadded.",
+      "response_sections": [],
+      "response_date_policy": "Retain original supplied date components. Known-by derives from response, not a guessed physical delivery date; incoming copies preserve author-dated communication, not exact copy-production time.",
+      "rationale": "Type-speciesdifficultyandresolvedpedunculate-nameconfusionmatch1226revisionandtheexplicitlastletterthanks.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1226",
+          "body_paragraph": 4,
+          "quote": "by type-species I only mean a conventional distinction",
+          "char_start": 35,
+          "char_end": 89,
+          "source_sha256": "4ba46e3e4e985ff34a497f1c12de3f46b1e966e8d79a6e551072c680f8dff601"
+        },
+        {
+          "letter_id": "DCP-LETT-1227",
+          "body_paragraph": 3,
+          "quote": "I feel some difficulty about your type species",
+          "char_start": 0,
+          "char_end": 46,
+          "source_sha256": "e58b70a725b50c7fdcc6c85104e0062b358c94772a4726d89301978e157e3406"
+        },
+        {
+          "letter_id": "DCP-LETT-1227",
+          "body_paragraph": 3,
+          "quote": "Hurrah no more trouble about Pentalasmis Anatifera & Anatifa!",
+          "char_start": 444,
+          "char_end": 505,
+          "source_sha256": "e58b70a725b50c7fdcc6c85104e0062b358c94772a4726d89301978e157e3406"
+        }
+      ],
+      "training_export_ready": false
+    }
+  ],
+  "correspondent_replies": [
+    {
+      "response_id": "DCP-LETT-1216",
+      "antecedent_id": "DCP-LETT-1215",
+      "status": "accepted",
+      "response_scope": "1216 responds to two objections in1215and its missing essay; no reconstruction of missing original essay fromStricklandabstract.",
+      "rationale": "Opening repeats law-of-priority Cineras/Otion inconvenience and author-appendage incentive, and sends the requested Report.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1215",
+          "body_paragraph": 2,
+          "quote": "Do you happen to have a spare copy of the Nomenclature rules",
+          "char_start": 104,
+          "char_end": 164,
+          "source_sha256": "e0ffe4d35c74b8e11a41174b839e1c237e57a7639f124b0fcc42f14371ec82d2"
+        },
+        {
+          "letter_id": "DCP-LETT-1216",
+          "body_paragraph": 1,
+          "quote": "I send you a copy of the Rules of Zoological Nomenclature",
+          "char_start": 0,
+          "char_end": 57,
+          "source_sha256": "f9d607bac8792257eaadbf82b626df416e7e6a44a3ea703bdc71fbda3163c713"
+        },
+        {
+          "letter_id": "DCP-LETT-1216",
+          "body_paragraph": 1,
+          "quote": "In your letter & accompanying paper you urge two objections",
+          "char_start": 184,
+          "char_end": 243,
+          "source_sha256": "f9d607bac8792257eaadbf82b626df416e7e6a44a3ea703bdc71fbda3163c713"
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    },
+    {
+      "response_id": "DCP-LETT-1223",
+      "antecedent_id": "DCP-LETT-1221",
+      "status": "accepted",
+      "response_scope": "1223P1–4 continues argument; P6–10answers copied enclosure casesA–D.",
+      "rationale": "Enumerated cases and named taxa match preserved copied enclosure, not simply chronology.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1221",
+          "scholarly_section": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]",
+          "quote": "D. One other question. Is an excellent plate with first name but no description",
+          "source_sha256": "49f2ccbdf1e30d13b713d93894bff7e83bbfd132f5468b3c935cc0723aafd084"
+        },
+        {
+          "letter_id": "DCP-LETT-1223",
+          "body_paragraph": 10,
+          "quote": "A recognizable plate is per se regarded as a sufficient",
+          "char_start": 2,
+          "char_end": 57,
+          "source_sha256": "1e203e43e6b3142dbc9e58b33b1885a481d88bbc5a3857b6db2c8ef31008cdcd"
+        },
+        {
+          "letter_id": "DCP-LETT-1221",
+          "scholarly_section": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]",
+          "quote": "C. Leach, called sessile cirripedes Acamptosomata",
+          "source_sha256": "49f2ccbdf1e30d13b713d93894bff7e83bbfd132f5468b3c935cc0723aafd084"
+        },
+        {
+          "letter_id": "DCP-LETT-1223",
+          "body_paragraph": 9,
+          "quote": "In regard to Leach’s Acamptosomata and Campylosomata",
+          "char_start": 3,
+          "char_end": 55,
+          "source_sha256": "1e203e43e6b3142dbc9e58b33b1885a481d88bbc5a3857b6db2c8ef31008cdcd"
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    },
+    {
+      "response_id": "DCP-LETT-1226",
+      "antecedent_id": "DCP-LETT-1225",
+      "status": "accepted",
+      "response_scope": "1226P1–4 historical/type reasoning answers1225postscript andConchodermaquestions.",
+      "rationale": "ExplicitchangesLepasrecommendationinresponsetooldauthorspedunculateusageandresolvesConchodermaenlargement.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1225",
+          "body_paragraph": 9,
+          "quote": "Several oldish authors have used Lepas, exclusively for the pedunculate division",
+          "char_start": 73,
+          "char_end": 153,
+          "source_sha256": "ea562dd4e2b7755ddfd582e3294c8f14aa24157ac0e00410128fc4d96ef74342"
+        },
+        {
+          "letter_id": "DCP-LETT-1226",
+          "body_paragraph": 2,
+          "quote": "as you state that old authors used it only in a pedunculate sense",
+          "char_start": 1413,
+          "char_end": 1478,
+          "source_sha256": "4ba46e3e4e985ff34a497f1c12de3f46b1e966e8d79a6e551072c680f8dff601"
+        },
+        {
+          "letter_id": "DCP-LETT-1225",
+          "body_paragraph": 6,
+          "quote": "I shall retain Conchoderma for the two species",
+          "char_start": 310,
+          "char_end": 356,
+          "source_sha256": "ea562dd4e2b7755ddfd582e3294c8f14aa24157ac0e00410128fc4d96ef74342"
+        },
+        {
+          "letter_id": "DCP-LETT-1226",
+          "body_paragraph": 3,
+          "quote": "Respecting Lepas aurita; as Olfers in 1814 made it the type of Conchoderma",
+          "char_start": 0,
+          "char_end": 74,
+          "source_sha256": "4ba46e3e4e985ff34a497f1c12de3f46b1e966e8d79a6e551072c680f8dff601"
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    }
+  ],
+  "cross_correspondent_knowledge": [],
+  "voice_held_ids": [
+    "DCP-LETT-1225"
+  ],
+  "rejected_or_candidate_links": [
+    {
+      "source_id": "DCP-LETT-1215",
+      "target_id": "DCP-LETT-1216",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_reversed_arrow_corrected_separately",
+      "reason": "First pass describes a genuine exchange but reverses response→antecedent. Correct incoming-author response is separately accepted in correspondent_replies."
+    },
+    {
+      "source_id": "DCP-LETT-1221",
+      "target_id": "DCP-LETT-1223",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_reversed_arrow_corrected_separately",
+      "reason": "First pass describes a genuine exchange but reverses response→antecedent. Correct incoming-author response is separately accepted in correspondent_replies."
+    },
+    {
+      "source_id": "DCP-LETT-1225",
+      "target_id": "DCP-LETT-1226",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_reversed_arrow_corrected_separately",
+      "reason": "First pass describes a genuine exchange but reverses response→antecedent. Correct incoming-author response is separately accepted in correspondent_replies."
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-1215",
+      "kind": "missing_original_with_surviving_abstract",
+      "description": "Footnote6transcribesStricklandabstractofthemissingDarwinessay;clearquotedphraseisnestedwithinreportedmaterial,notafulloriginaltarget."
+    },
+    {
+      "letter_id": "DCP-LETT-1221",
+      "kind": "copied_enclosure",
+      "description": "CasesA–DsurviveinStricklandcopy;headingCases submitted by MrDarwinbelongs tocopyframing."
+    },
+    {
+      "letter_id": "DCP-LETT-1225",
+      "kind": "later_editorial_insertion",
+      "description": "[Oken?]P5isFrancisDarwinpenciladdition,notCharlesoriginalwording."
+    },
+    {
+      "letter_id": "DCP-LETT-619",
+      "kind": "original_annotations_in_footnotes",
+      "description": "Footnote2quotesDarwincommentsanddistinctJenynsagreement."
+    },
+    {
+      "letter_id": "DCP-LETT-630",
+      "kind": "original_annotations_in_footnotes",
+      "description": "Footnotes2and5transcribemarginalmaterialincludingeditorialdeletion/insertionmarkupandJenynsreportedobjection."
+    }
+  ],
+  "receipt_events": [
+    {
+      "letter_id": "DCP-LETT-1221",
+      "object": "Stricklandletter1216andnomenclatureReport",
+      "known_by_date": "1849-02-04",
+      "actual_receipt_date": null,
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1221",
+          "body_paragraph": 1,
+          "quote": "your long, most interesting & clear letter & the Report",
+          "char_start": 41,
+          "char_end": 96,
+          "source_sha256": "49f2ccbdf1e30d13b713d93894bff7e83bbfd132f5468b3c935cc0723aafd084"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1225",
+      "object": "UnlocatedW.ThompsonnoteaboutOgilby",
+      "recipient": "CharlesDarwin",
+      "date": "1849-02-10",
+      "time_description": "this morning",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1225",
+          "body_paragraph": 3,
+          "quote": "I have had a note from W. Thompson this morning",
+          "char_start": 0,
+          "char_end": 47,
+          "source_sha256": "ea562dd4e2b7755ddfd582e3294c8f14aa24157ac0e00410128fc4d96ef74342"
+        }
+      ]
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-1215",
+      "description": "Stricklandbibliographylistandassociatedcover;originalDarwinessaymissingalthoughStricklandabstractsurvives."
+    },
+    {
+      "letter_id": "DCP-LETT-1221",
+      "description": "W.Thompsonexchangeonprioritynotlocated;originalenclosuremissingbutStricklandcopysurvives."
+    },
+    {
+      "letter_id": "DCP-LETT-1225",
+      "description": "ThompsonnoteaboutOgilbyscheme."
+    }
+  ],
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-1221",
+      "description": "MathMLhalfadozenandtwo-thirdsmustnotexportas12and23."
+    },
+    {
+      "letter_id": "DCP-LETT-1225",
+      "description": "Silence-as-assentrequestdoesnotestablishconsent;explicit1226answerdoes. Remove/separatelyattributelaterFrancis[Oken?]annotationfromCharlesvoice."
+    },
+    {
+      "letter_id": "DCP-LETT-1216",
+      "description": "First-passarrow1215→1216reversed;also1221→1223and1225→1226reversed. Threecorrectreverseedgesandtwopreviouslyomitteddirectedgesnowrecorded."
+    }
+  ]
+}

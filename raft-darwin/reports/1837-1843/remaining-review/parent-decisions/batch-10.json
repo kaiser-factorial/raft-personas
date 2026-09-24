@@ -1,0 +1,53 @@
+{
+  "batch_id": "batch-10",
+  "status": "parent_adjudicated",
+  "proposal_adjudications": [],
+  "source_kind_corrections": {
+    "DCP-LETT-451": "catalogue paraphrase with embedded quoted excerpts and surviving valediction",
+    "DCP-LETT-533": "incoming fragment",
+    "DCP-LETT-559": "incoming fragment",
+    "DCP-LETT-1147": "incomplete incoming letter"
+  },
+  "text_scope_overrides": {
+    "DCP-LETT-451": {
+      "body_text_scope": "quoted_excerpts_and_valediction_only",
+      "voice_spans": [
+        {
+          "body_paragraph": 1,
+          "char_start": 102,
+          "char_end": 156,
+          "text": "… I am ashamed of my work, but I cannot do it better …"
+        },
+        {
+          "body_paragraph": 1,
+          "char_start": 221,
+          "char_end": 299,
+          "text": "… if you would compare the French sentence at p. 20 with M. D’Orbigny’s work …"
+        },
+        {
+          "body_paragraph": 1,
+          "char_start": 314,
+          "char_end": 370,
+          "text": "… I find I have quite forgotten the little I ever knew …"
+        }
+      ],
+      "voice_paragraphs": [
+        2
+      ],
+      "editorial_paraphrase_excluded": true
+    }
+  },
+  "date_evidence": [
+    {
+      "letter_id": "DCP-LETT-8132",
+      "assessment": "Website header includes April 1882; original CSV and XML stop in March. Retain both without resolving or changing eligibility.",
+      "locator": "header_text",
+      "quote": "April 1882"
+    }
+  ],
+  "corrections": [
+    "No new direct pairs were supported. Gray proofs and books are not substituted for unlocated covering letters.",
+    "451 is partly catalogue paraphrase; only exact quoted spans and its surviving valediction may supply Darwin voice.",
+    "Malcolmson composition dates and later editorial references do not by themselves activate knowledge for Darwin."
+  ]
+}

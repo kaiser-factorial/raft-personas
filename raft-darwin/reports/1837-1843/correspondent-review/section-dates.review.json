@@ -1,0 +1,300 @@
+{
+  "group_id": "emma_section_dates",
+  "method": "Independent full reading of the five assigned outgoing bodies and editorial notes in emma.packet.json, followed by targeted comparison with receipt/order cues in the surviving Emma correspondence. XML sent-date constraints are preserved verbatim; section dates are proposed only where the body or editorial note supplies them.",
+  "full_read_ids": [
+    "DCP-LETT-448",
+    "DCP-LETT-466",
+    "DCP-LETT-481",
+    "DCP-LETT-484",
+    "DCP-LETT-704"
+  ],
+  "incoming_consulted_as_needed": [
+    "DCP-LETT-447",
+    "DCP-LETT-464",
+    "DCP-LETT-465",
+    "DCP-LETT-485",
+    "DCP-LETT-486",
+    "DCP-LETT-490"
+  ],
+  "outgoing_reviews": [
+    {
+      "letter_id": "DCP-LETT-448",
+      "xml_constraint": "[30 Nov – 1 Dec 1838]; @when=1838-11-30",
+      "editorial_date": "30 November–1 December 1838",
+      "sections": [
+        {
+          "paragraphs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "proposed_calendar_date": "1838-11-30",
+          "confidence": "supported",
+          "applies_to": "Friday evening portion only",
+          "reason": "The header is Friday Evening and these paragraphs describe receiving Catherine's letter that morning, work over the preceding two days, and a visit to the Lyells that day.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-448",
+              "body_paragraph": 1,
+              "quote": "I listened for the Postman’s knock with some anxiety this morning"
+            },
+            {
+              "letter_id": "DCP-LETT-448",
+              "body_paragraph": 6,
+              "quote": "Good Night, C. D."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            7,
+            8
+          ],
+          "proposed_calendar_date": "1838-12-01",
+          "confidence": "supported",
+          "applies_to": "Saturday morning postscript only",
+          "reason": "The body explicitly starts a new Saturday Morning section, so its receipt and response cannot be assigned to Friday paragraphs 1–6.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-448",
+              "body_paragraph": 7,
+              "quote": "Saturday Morning. I was delighted to receive your letter"
+            }
+          ]
+        }
+      ],
+      "uncertainty": "The machine-readable XML date is incomplete for the whole surviving letter: it records only 30 November although the editorial display and body span 1 December. Retain the range and section split; do not collapse the letter to a single exact day.",
+      "related_incoming_order": "The Saturday receipt cue is an incoming-letter event within paragraph 7, not evidence that Emma's incoming letter was available during paragraphs 1–6.",
+      "evidence_quotes": [
+        {
+          "letter_id": "DCP-LETT-448",
+          "body_paragraph": 7,
+          "quote": "I have not time to write by this days post"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "xml_constraint": "[31 Dec 1838 –] 1 Jan 1839; notBefore=1838-12-31; notAfter=1839-01-01",
+      "editorial_date": "31 December 1838–1 January 1839",
+      "sections": [
+        {
+          "paragraphs": [
+            1,
+            2
+          ],
+          "proposed_calendar_date": "1838-12-31",
+          "confidence": "supported",
+          "applies_to": "Monday evening continuation through the Monday-night account",
+          "reason": "The editorial note states that Darwin began the letter on Monday 31 December; paragraph 1 says he sits down to date and begin it, and paragraph 2 continues the same move and evening account.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-466",
+              "body_paragraph": 1,
+              "quote": "I sit down just to date & begin it"
+            },
+            {
+              "letter_id": "DCP-LETT-466",
+              "body_paragraph": 2,
+              "quote": "It is now near nine"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "proposed_calendar_date": "1839-01-01",
+          "confidence": "supported",
+          "applies_to": "Tuesday section and its postscript",
+          "reason": "Paragraph 3 is explicitly marked Tuesday morning; the subsequent paragraphs continue that dated section. This uses the internal dateline, not the earliest XML bound as a proxy for every later paragraph.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-466",
+              "body_paragraph": 3,
+              "quote": "Tuesday morning"
+            },
+            {
+              "letter_id": "DCP-LETT-466",
+              "body_paragraph": 7,
+              "quote": "I have heard of a Cook"
+            }
+          ]
+        }
+      ],
+      "uncertainty": "The XML range is retained. Paragraph 1's start is editorially established as Monday 31 December, while paragraphs 3–7 are Tuesday 1 January; no single date should be assigned to the entire letter.",
+      "related_incoming_order": "Paragraph 1 says two Emma letters were received that morning, but the incoming records are not individually identified by this body.",
+      "evidence_quotes": [
+        {
+          "letter_id": "DCP-LETT-466",
+          "body_paragraph": 1,
+          "quote": "Many thanks for your two most kind, dear, & affectionate letters, which I received this morning."
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-481",
+      "xml_constraint": "2 [–3 Jan 1839]; notBefore=1839-01-02; notAfter=1839-01-03",
+      "editorial_date": "2–3 January 1839",
+      "sections": [
+        {
+          "paragraphs": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "proposed_calendar_date": "1839-01-02",
+          "confidence": "supported",
+          "applies_to": "initial dated portion",
+          "reason": "The header supplies Athenæum.Wednesday Evening 2d.; this dates paragraphs 1–5 to Wednesday 2 January. The later Thursday section remains separately dated.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-481",
+              "locator": "header_text",
+              "quote": "Athenæum.Wednesday Evening 2d."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            6,
+            7,
+            8
+          ],
+          "proposed_calendar_date": "1839-01-03",
+          "confidence": "supported",
+          "applies_to": "Thursday afternoon continuation",
+          "reason": "The body explicitly marks paragraph 6 Thursday Afternoon; paragraphs 7–8 continue that same section.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-481",
+              "body_paragraph": 6,
+              "quote": "Thursday Afternoon."
+            }
+          ]
+        }
+      ],
+      "uncertainty": "The XML range remains 2–3 January, but the opener fixes the first section as Wednesday 2 January and paragraph 6 fixes the later section as Thursday 3 January.",
+      "related_incoming_order": "No incoming letter is explicitly received in the assigned body; references to prior events and sheets do not create a new receipt record.",
+      "evidence_quotes": []
+    },
+    {
+      "letter_id": "DCP-LETT-484",
+      "xml_constraint": "[6–7 Jan 1839]; notBefore=1839-01-06; notAfter=1839-01-07",
+      "editorial_date": "6–7 January 1839",
+      "sections": [
+        {
+          "paragraphs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "proposed_calendar_date": "1839-01-06",
+          "confidence": "supported",
+          "applies_to": "first section before the Monday postscript",
+          "reason": "The header explicitly dates the opening section Sunday Night at 12 Upper Gower Street; paragraph 7 then begins Monday Morning.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-484",
+              "locator": "header_text",
+              "quote": "12 Upper Gower Stt.—Sunday Night"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            7
+          ],
+          "proposed_calendar_date": "1839-01-07",
+          "confidence": "supported",
+          "applies_to": "Monday morning postscript",
+          "reason": "Paragraph 7 explicitly begins Monday Morning.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-484",
+              "body_paragraph": 7,
+              "quote": "Monday Morning."
+            }
+          ]
+        }
+      ],
+      "uncertainty": "The XML range remains 6–7 January, while the header fixes the opening section as Sunday 6 January and paragraph 7 as Monday 7 January.",
+      "related_incoming_order": "Paragraph 6 says an Emma letter came on Friday, but that is a prior receipt cue and does not identify a new incoming letter on either section date.",
+      "evidence_quotes": [
+        {
+          "letter_id": "DCP-LETT-484",
+          "body_paragraph": 6,
+          "quote": "You tell me to mention when I received your last letter"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-704",
+      "xml_constraint": "[12–24 Oct 1843]; notBefore=1843-10-12; notAfter=1843-10-24",
+      "editorial_date": "12–24 October 1843",
+      "sections": [
+        {
+          "paragraphs": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "proposed_calendar_date": "1843-10-18",
+          "confidence": "candidate_only",
+          "applies_to": "entire surviving body",
+          "reason": "The header explicitly says Wednesday; within the XML range 12–24 October 1843, Wednesday uniquely falls on 18 October. However, the editorial weighing note records Oct 19 and the body says the weighing was yesterday, so the cross-source discrepancy warrants manual review before treating 18 October as exact.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-704",
+              "body_paragraph": 2,
+              "quote": "I weighed yesterday before luncheon 11st. 2 12 lbs"
+            },
+            {
+              "letter_id": "DCP-LETT-704",
+              "body_paragraph": 4,
+              "quote": "Mrs. Owen called here on Monday"
+            },
+            {
+              "letter_id": "DCP-LETT-704",
+              "locator": "header_text",
+              "quote": "[Shrewsbury]Wednesday"
+            }
+          ]
+        }
+      ],
+      "uncertainty": "The range is retained. Wednesday plus the range yields a unique 18 October candidate, but the editorial Oct 19 weighing entry does not cleanly corroborate it; no unconditional exact date is asserted.",
+      "related_incoming_order": "Paragraph 1 reports old letters shown by Nancy and Aunt Bessy, while paragraph 3 says Darwin is looking over Emma's letter; these are references/events, not sufficient to establish a separately dated incoming Emma letter for this body.",
+      "evidence_quotes": [
+        {
+          "letter_id": "DCP-LETT-704",
+          "body_paragraph": 3,
+          "quote": "Looking over your letter again"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "448: Friday Evening paragraphs 1–6 are 30 November; Saturday Morning paragraphs 7–8 are 1 December, despite XML @when=30 November.",
+    "466: editorial note and body distinguish Monday 31 December from Tuesday 1 January.",
+    "481: header_text explicitly dates the opening to Wednesday 2 January; paragraph 6 starts Thursday Afternoon 3 January.",
+    "484: header_text explicitly dates the opening to Sunday Night 6 January; paragraph 7 starts Monday Morning 7 January.",
+    "704: header Wednesday within 12–24 October uniquely suggests 18 October, but the editorial Oct 19 weighing note and relative yesterday cue create a corroboration issue; retain a candidate rather than exact whole-letter date."
+  ],
+  "limitations": [
+    "This is a section-date review, not a reply graph or transcription audit. It does not alter the canonical metadata audit or any correspondent review."
+  ],
+  "verdict": "Preserve all XML constraints while using explicit body/header datelines for section proposals. 481 and 484 have supported two-day section splits; 448 has a supported Friday/Saturday split; 704 has a uniquely suggested but not fully corroborated 18 October date requiring manual review."
+}

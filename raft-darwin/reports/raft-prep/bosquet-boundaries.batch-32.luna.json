@@ -1,0 +1,187 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Batch-32 additive Bosquet formatting/date/provenance boundaries only; documentation candidate, no implementation or export. Requirements are limited to boundaries newly accepted in batch 32 and do not duplicate prior Blyth addendum coverage.",
+  "primary_provenance": {
+    "batch_id": "batch-32",
+    "reading_path": "reports/1851-1855/review/parent-reading/batch-32.json",
+    "reading_sha256": "184a9a19f5f6688be87b541b03215bdad7a4ded29d544cdafe82b11c3b75e9fb",
+    "decision_path": "reports/1851-1855/review/parent-decisions/batch-32.json",
+    "decision_sha256": "f6f15b91544b6a0d37cd99e6c094f5724119a97db2fb2107d10332773c8a6962",
+    "ledger_path": "data/annotations/periods/1851-1855/batch-32.json",
+    "ledger_sha256": "cba8ab1f1ddbbdcf6267964cb0be94eca1ebb8eb5c85137df0856adafb733ba0"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1493",
+        "DCP-LETT-1515",
+        "DCP-LETT-1517"
+      ],
+      "case": "omitted drawings, copied gaps and missing incoming prompts",
+      "requirement": "Preserve the forwarded Bosquet-to-Forbes letter and the missing April 7 drawing letter as referenced but absent sources; do not reconstruct either prompt from Darwin’s replies. In 1515 retain copyist omissions of Darwin diagrams 1 and 2, literal turga and inconsistent figure numbering, and do not substitute later published illustrations.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1493",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1493.html",
+          "source_html_sha256": "b3aa3b47e85f3f6ea76682a7eca763ba653425495b824638318405b68310d47e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1493.xml",
+          "xml_sha256": "6a6a1b14361517239fbf33318cd0c66761492ec114840b8a6f5bd6ed7b4b9f64",
+          "voice": "Charles Darwin body prose; Bosquet/Huxley or quoted material and editorial apparatus remain separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1515",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1515.html",
+          "source_html_sha256": "0e84efafe21897cae4a7a11e7967930da27c97bc73154891c1ee6244ff2e6793",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1515.xml",
+          "xml_sha256": "89dd3b735336ff48557a4a4d4dce24a0e476ea4dd2ba4fa2c196473f23c7dff6",
+          "voice": "Charles Darwin body prose; Bosquet/Huxley or quoted material and editorial apparatus remain separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1517",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1517.html",
+          "source_html_sha256": "223560b2b659acabfb668f3846730e052b6280107a311ce3abf6b4841c88cc94",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1517.xml",
+          "xml_sha256": "09dc619149e0398d34e8ac9ed642378eb7d5b02e2db95b0b6240ea944e4fb104",
+          "voice": "Charles Darwin body prose; Bosquet/Huxley or quoted material and editorial apparatus remain separately attributed"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1493",
+          "body_paragraph": 1,
+          "quote": "a letter addressed by you to him",
+          "source_sha256": "b3aa3b47e85f3f6ea76682a7eca763ba653425495b824638318405b68310d47e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1517",
+          "body_paragraph": 1,
+          "quote": "your letter (of April 7th.) containing a drawing",
+          "source_sha256": "223560b2b659acabfb668f3846730e052b6280107a311ce3abf6b4841c88cc94",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1520",
+        "DCP-LETT-1523"
+      ],
+      "case": "relative receipt, dispatch and unresolved date inference",
+      "requirement": "Keep Darwin’s receipt of Bosquet’s letter and fossils the day after the prior enquiry separate from the unproved dispatch date; do not promote a conditional June 8 reconstruction. Preserve 1523’s missing incoming letter and Eastbourne context without assigning its first explicit date or address-derived stay dates to the absent source.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1520",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1520.html",
+          "source_html_sha256": "742c29becd5ca6c0bae961a321bae2da48d58cef05c9996c5a39b2df8cbe7aff",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1520.xml",
+          "xml_sha256": "876491c2651d29b529ac5de4f158aee5e5793e06860a9876c7417e3e6e7abd85",
+          "voice": "Charles Darwin body prose; Bosquet/Huxley or quoted material and editorial apparatus remain separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1523",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1523.html",
+          "source_html_sha256": "ca04a287a7d98417aaf0d1de3e58af50f66d4956ac7a2a8e6994ef7ad5814772",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1523.xml",
+          "xml_sha256": "ae88e352de2849ccfc44563734a185d25f8d112915d203ae4b67d1b3cd188d73",
+          "voice": "Charles Darwin body prose; Bosquet/Huxley or quoted material and editorial apparatus remain separately attributed"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1520",
+          "body_paragraph": 1,
+          "quote": "the very next day I received your very interesting letter and magnificent present of fossils",
+          "source_sha256": "742c29becd5ca6c0bae961a321bae2da48d58cef05c9996c5a39b2df8cbe7aff",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1543",
+        "DCP-LETT-1548"
+      ],
+      "case": "partial-to-complete manuscript reading and later correction",
+      "requirement": "Represent manuscript access and reading as stages: 1543 records part read in P2 and half read in its P.S.; 1548 later records the completed reading and resolves the fig. 6 identification. Keep 1543’s torn passages, copyist readings and contemporaneous uncertainty; do not back-propagate 1548’s correction into the earlier source or treat either Darwin outgoing as an incoming prompt.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1543",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1543.html",
+          "source_html_sha256": "32282059848ad7daf99096421cf2b1d192c222b10bb6533a0e0f4fede1a7fb19",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1543.xml",
+          "xml_sha256": "aea1befc86532a1bea712325b1e59d3fec58835c308286160b79841170cdaf59",
+          "voice": "Charles Darwin body prose; Bosquet/Huxley or quoted material and editorial apparatus remain separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1548",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1548.html",
+          "source_html_sha256": "1a5aa7a4143f284cc4da9ba94e9a3cd5bf58e4baee357c4f3653075e98bd940d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1548.xml",
+          "xml_sha256": "29179046f31a5694b5ee55321cafcc2368bb98319d3e1ab4202dffbb81dc90b7",
+          "voice": "Charles Darwin body prose; Bosquet/Huxley or quoted material and editorial apparatus remain separately attributed"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1543",
+          "body_paragraph": 2,
+          "quote": "I have read only part of your MS.",
+          "source_sha256": "32282059848ad7daf99096421cf2b1d192c222b10bb6533a0e0f4fede1a7fb19",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1543",
+          "body_paragraph": 5,
+          "quote": "I have now read half the MS.",
+          "source_sha256": "32282059848ad7daf99096421cf2b1d192c222b10bb6533a0e0f4fede1a7fb19",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-1548",
+          "body_paragraph": 1,
+          "quote": "There can be no doubt that fig. 6 is a fixed tergum",
+          "source_sha256": "1a5aa7a4143f284cc4da9ba94e9a3cd5bf58e4baee357c4f3653075e98bd940d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1548",
+          "body_paragraph": 2,
+          "quote": "I have now finished your MS.",
+          "source_sha256": "1a5aa7a4143f284cc4da9ba94e9a3cd5bf58e4baee357c4f3653075e98bd940d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1578"
+      ],
+      "case": "volume receipt, selected reading and later publication",
+      "requirement": "Keep the physical receipt of both volumes on August 11 (derived from “day before yesterday” and supplied August 13) distinct from selected reading of geological-distribution remarks, Darwin’s already-finished volume, Ray Society publication timing and future copies. Do not infer whole-volume reading or completion of Bosquet’s publication from the passage.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1578",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1578.html",
+        "source_html_sha256": "5fc42f7c0f62ef5d117c086289c04fd54a249286154d6f673b39e213f15e2ef0",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1578.xml",
+        "xml_sha256": "fcbb54fdae724c6b0a9d8cdef1abab0dad39cc58ae110e36c26e5d9552402972",
+        "voice": "Charles Darwin body prose; Bosquet/Huxley or quoted material and editorial apparatus remain separately attributed"
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1578",
+          "body_paragraph": 1,
+          "quote": "I received the day before yesterday your most kind present of your two valuable volumes.",
+          "source_sha256": "5fc42f7c0f62ef5d117c086289c04fd54a249286154d6f673b39e213f15e2ef0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    }
+  ],
+  "validation_plan": {
+    "quote_validator": "scripts/period_review.py check_quotes",
+    "exact_source_evidence_count": 8,
+    "actual_dom_method": "Each locator is the unique preserved HTML p node containing the literal quote, resolved with lxml getpath; no fabricated figure or generic TEI locator.",
+    "verification_uncertainty": "No figure assets are present for the omitted Darwin diagrams in 1515; later published illustrations are not substitutes."
+  }
+}

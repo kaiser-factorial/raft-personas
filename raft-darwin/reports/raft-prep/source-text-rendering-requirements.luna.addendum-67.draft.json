@@ -1,0 +1,175 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted Bishop/Bate 1857 supplemental source-text rendering, routed-reply, attribution, chronology and provenance requirements only. Candidate documentation; no converter, transcript, export, training or accepted evidence changes.",
+  "primary_provenance": {
+    "accepted_supplement": {
+      "path": "data/annotations/reconciliation/1857-bishop-bate-supplement.primary.json",
+      "sha256": "7c40597eb8d49111baf1eafc35eb4daee3b38f5c3ed6022811c54e2c123e697e"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "case": "Routed Bishop-to-Bate reverse response",
+      "source_ids": [
+        "DCP-LETT-2179",
+        "DCP-LETT-2175F"
+      ],
+      "requirement": "Render Bishop as a third-party sender to Bate, not Darwin voice. Salutation excluded; ten retained body blocks. Explicitly answering Mr Darwin and taking queries seriatim supports the admitted scoped reverse route 2179 -> 2175F through Bate, with no direct Bishop-to-Darwin edge, Darwin target, or dated Darwin receipt. CSV record 2375 and physical line 2380 are provenance; 1990 is publication date only.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2179",
+          "html_path": "reports/1856-1857/review/followups/bate-bishop-2179/DCP-LETT-2179.html",
+          "html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e",
+          "xml_path": "reports/1856-1857/review/followups/bate-bishop-2179/DCP-LETT-2179.tei.xml",
+          "xml_sha256": "bb3307945764c7996c02475245e3f482db71057bd2e0093afdb491b3d2a3ee67",
+          "sender": "Richard Bishop",
+          "recipient": "Charles Spence Bate",
+          "date": "3 Dec 1857",
+          "publication_date": "1990",
+          "transcription_in_tei": false
+        }
+      ],
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2179",
+          "body_paragraph": 1,
+          "quote": "the inquiries made by Mr Darwin respecting the impregnation of the Balanus",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]",
+          "source_html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e"
+        },
+        {
+          "letter_id": "DCP-LETT-2179",
+          "body_paragraph": 2,
+          "quote": "To take Mr Darwins queries seriatim",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]",
+          "source_html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e"
+        }
+      ]
+    },
+    {
+      "case": "Qualified numbered answers",
+      "source_ids": [
+        "DCP-LETT-2179"
+      ],
+      "requirement": "Preserve uncertainty and scope in Bishop’s numbered answers: tentative Balanus communis, “not positive” multiple insertion, 2 or 3 seconds, shallow depth as judged, five full-sized animals plus smaller ones, and memory unsupported by a fellow observer. The event is about three months earlier, under water, not repeated, and seasonal explanation is posed as a question. These are not measured replicated results.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2179",
+          "html_path": "reports/1856-1857/review/followups/bate-bishop-2179/DCP-LETT-2179.html",
+          "html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e",
+          "xml_path": "reports/1856-1857/review/followups/bate-bishop-2179/DCP-LETT-2179.tei.xml",
+          "xml_sha256": "bb3307945764c7996c02475245e3f482db71057bd2e0093afdb491b3d2a3ee67",
+          "sender": "Richard Bishop",
+          "recipient": "Charles Spence Bate",
+          "date": "3 Dec 1857",
+          "publication_date": "1990",
+          "transcription_in_tei": false
+        }
+      ],
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2179",
+          "body_paragraph": 3,
+          "quote": "Balanus communis?",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]",
+          "source_html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e"
+        },
+        {
+          "letter_id": "DCP-LETT-2179",
+          "body_paragraph": 4,
+          "quote": "not positive , but I believe it was.",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]",
+          "source_html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e"
+        },
+        {
+          "letter_id": "DCP-LETT-2179",
+          "body_paragraph": 5,
+          "quote": "2 or 3 seconds",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]",
+          "source_html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e"
+        },
+        {
+          "letter_id": "DCP-LETT-2179",
+          "body_paragraph": 6,
+          "quote": "Not inserted deeply as far as I could judge",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]",
+          "source_html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e"
+        },
+        {
+          "letter_id": "DCP-LETT-2179",
+          "body_paragraph": 7,
+          "quote": "on these points my memory is unfortunately not supported by that of a friend",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]",
+          "source_html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e"
+        },
+        {
+          "letter_id": "DCP-LETT-2179",
+          "body_paragraph": 9,
+          "quote": "about 3 months ago",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]",
+          "source_html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e"
+        },
+        {
+          "letter_id": "DCP-LETT-2179",
+          "body_paragraph": 9,
+          "quote": "I have not since observed a repetition",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]",
+          "source_html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e"
+        }
+      ]
+    },
+    {
+      "case": "Transmission, annotations and facsimile limits",
+      "source_ids": [
+        "DCP-LETT-2179"
+      ],
+      "requirement": "Keep Bate transmission, the undated Darwin Ch 3 annotation, footnotes, bibliography and body separate. The annotation supports later access but gives no receipt day. Five facsimile labels include a duplicate 1v-2r spread; no facsimile viewing is claimed. Preserve the four bibliography entries and do not backdate access or export quoted Darwin questions as Bishop voice.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2179",
+          "html_path": "reports/1856-1857/review/followups/bate-bishop-2179/DCP-LETT-2179.html",
+          "html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e",
+          "xml_path": "reports/1856-1857/review/followups/bate-bishop-2179/DCP-LETT-2179.tei.xml",
+          "xml_sha256": "bb3307945764c7996c02475245e3f482db71057bd2e0093afdb491b3d2a3ee67",
+          "sender": "Richard Bishop",
+          "recipient": "Charles Spence Bate",
+          "date": "3 Dec 1857",
+          "publication_date": "1990",
+          "transcription_in_tei": false
+        }
+      ],
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2179",
+          "annotation_quote": "CD annotations Top of first page: ‘Ch 3’ 3 brown crayon",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]",
+          "source_html_sha256": "2f3decb2b0d46d6dea30cfa8e3daad2d9f1284bdf8de336e9e5b573b00da2e2e",
+          "layer": "annotation",
+          "date_role": "undated access evidence only"
+        }
+      ],
+      "facsimile_policy": {
+        "surface_labels": [
+          "189:1r",
+          "189:1v",
+          "189:2r",
+          "189:2v",
+          "189:1v-2r"
+        ],
+        "facsimiles_viewed": false,
+        "duplicate_spread_not_new_page": true
+      }
+    }
+  ],
+  "coverage": {
+    "retained_body_blocks_read": 10,
+    "salutation_excluded": true,
+    "facsimiles_viewed": false,
+    "accepted_routed_reverse_links": 1,
+    "new_darwin_targets": 0,
+    "dated_receipt_added": false,
+    "export_performed": false
+  },
+  "validation_notes": "Body quotes asserted against parsed retained nodes and DOM paths derived with lxml getpath. Publication date and undated annotation are not composition or receipt dates."
+}

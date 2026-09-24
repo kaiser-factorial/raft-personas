@@ -1,0 +1,231 @@
+{
+  "status": "provisional_readiness_draft",
+  "scope": "Formatting and source-fidelity requirements compiled from accepted primary reading, decisions and ledgers for 1847–1850 batches 19–21. This draft creates no converter, transcript, corpus export or training data.",
+  "primary_provenance": [
+    {
+      "batch_id": "batch-19",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-19.json",
+      "reading_sha256": "d5b2333c32623b9261316f1b06fb08b5ea2c8dfa15257aa487e94ae3479d8bb9",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-19.json",
+      "decision_sha256": "d61e568d08be4c515eea96f8acb7707fe1e6a83fae4c990da9123d88bfdb43f4",
+      "ledger_path": "data/annotations/periods/1847-1850/batch-19.json",
+      "ledger_sha256": "bbec439aaf8bbe4daf9aa16e8c99df2cecd76ca31db92d8a113f38c1b9a6cd55"
+    },
+    {
+      "batch_id": "batch-20",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-20.json",
+      "reading_sha256": "d17565ac44bc0b17a1c8bc20fdbe9c637563fe5e58ace98a1ddc2dc3787544a3",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-20.json",
+      "decision_sha256": "75c3f0d57a6c7930d28c85be135d05a1e14ffe925965c7f401191f5796fc1232",
+      "ledger_path": "data/annotations/periods/1847-1850/batch-20.json",
+      "ledger_sha256": "bdf0520205a6675e8028f8dbf999238ccc115cf14fc6f0c1b7f65a0bebe3bcbf"
+    },
+    {
+      "batch_id": "batch-21",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-21.json",
+      "reading_sha256": "0e73c2a7c8a7d5f59709a183be621801e53be109de1abaefab8248737d68fe66",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-21.json",
+      "decision_sha256": "3420264d4b8362d6cc30369c84a5443160ee80fe92586bbd8fa0248f9ffd622d",
+      "ledger_path": "data/annotations/periods/1847-1850/batch-21.json",
+      "ledger_sha256": "23a3a601675e8e3229c8cc9ea9022ab0c92ea31b68ef240a945a8d1b75373a99"
+    }
+  ],
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1283"
+      ],
+      "case": "October 7 Sunday versus original Monday and October 4 inference",
+      "requirement": "Preserve the assigned 7 October date together with the literal weekday conflict (7 October 1849 was Sunday, while the source says Monday) and contextual 8 October alternative. Do not derive an exact October 4 receipt from the next-Monday reasoning. Keep the Hooker enclosure and Henslow/Benefit Clubs material in their separate knowledge layers.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1283",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1283.html",
+          "source_sha256": "551a7655a63bb351e0fd35b2fc3e174b88ca044585d3ff224ca2646f4ea3f0e7",
+          "locators": "div#letter header/date metadata; body P1 and P4; editorial footnotes"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1283",
+        "body_paragraph": 1,
+        "quote": "your long letter on Benefit Clubs"
+      },
+      "accepted_primary_note": "Accepted batch 19 date and knowledge hold."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1284",
+        "DCP-LETT-1220"
+      ],
+      "case": "Former 1220 letter distinguished from current 1247 enclosure",
+      "requirement": "Render 1284’s recollection as referring to the former 1220 letter, especially the Falconer grievance, not as a transcription or identification of the current 1247 enclosure. Preserve the independently established 9 April 1849 known-by bound through 1239; the 1284 October window is not an exact composition date.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1284",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1284.html",
+          "source_sha256": "5aa0483c9cf2a9547cbf1ad5d749fb7858d0af92bb303f6c74a6f28cc9a516fa",
+          "locators": "div#letter body P1; 1284 editorial date evidence; 1220 body P9"
+        },
+        {
+          "letter_id": "DCP-LETT-1220",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1220.html",
+          "source_sha256": "ce38e5f442488ef74edcc5d601f4f8cc5ba4d9002779320bf1f0f35c1e01395d",
+          "locators": "div#letter body P1; 1284 editorial date evidence; 1220 body P9"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1284",
+        "body_paragraph": 1,
+        "quote": "I remember in former letter his saying that he had not told his Father how ill Falconer had behaved"
+      },
+      "accepted_primary_note": "Accepted batch 19 cross-correspondent knowledge decision."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1293"
+      ],
+      "case": "One and a half hours and seventh surviving child",
+      "requirement": "Render raw MathML as 1½ hours and preserve the literal count of seven surviving children. Do not flatten the fraction or silently correct the historical family count to eight.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1293",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1293.html",
+          "source_sha256": "b2590b2b4ab6a4ae040dfed485db10cc39eb7fe264c44af877382b208f8090e4",
+          "locators": "div#letter body P1; MathML nodes"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1293",
+        "body_paragraph": 1,
+        "quote": "I have some copies of my own likeness"
+      },
+      "accepted_primary_note": "Accepted batch 19 correction."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1310"
+      ],
+      "case": "Conjectural March 8 and relative yesterday",
+      "requirement": "Keep March 8 as conjectural, with March 15 possible but disfavoured rather than impossible. Treat “arrived here only yesterday” as a relative statement tied to a misdirected letter, not as proof of an exact March 7 arrival or composition date. Preserve “suppose” in the membership claim as uncertainty.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1310",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1310.html",
+          "source_sha256": "75e5ccfd3c8a4075c42531e261205f8503665929bbc5075e623c9c8981d4f0f0",
+          "locators": "div#letter body P1–P2; date metadata and editorial apparatus"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1310",
+        "body_paragraph": 1,
+        "quote": "Your letter having been directed Farnham made an astonishing tour & arrived here only yesterday"
+      },
+      "accepted_primary_note": "Accepted batch 20 exact-date and receipt hold."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1305A"
+      ],
+      "case": "Prospective delivery",
+      "requirement": "Render “I will leave them directed ... on Thursday next” as an intended future deposit, not verified dispatch, London presence or receipt. Returning Plumularia belongs to same-author continuity and does not prove delivery of the new material.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1305A",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1305A.html",
+          "source_sha256": "2059e35599097445d9e2f185d3aa9a053ac4080adc0e8d086f3b30608cc577ba",
+          "locators": "div#letter body P2 and P5; receipt/prospective event"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1305A",
+        "body_paragraph": 2,
+        "quote": "I will leave them directed to you at Geolog. Soc. on Thursday next"
+      },
+      "accepted_primary_note": "Accepted batch 20 prospective-delivery correction."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1191",
+        "DCP-LETT-1190"
+      ],
+      "case": "Buckland date versus same-day arrival and separate Cresy note",
+      "requirement": "Keep Buckland’s 1190 note as the enclosed source used in 1191, but do not infer that its written date equals physical arrival. Separate it from the Cresy note that 1191 says was received “this morning.” Preserve the accepted knowledge-only relation and its exact-day hold.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1191",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1191.html",
+          "source_sha256": "0e507ffa98e12ca391ff52c8d4a0f1af617c726c25db201a2a776171bfcb72f7",
+          "locators": "div#letter body P1; 1191 receipt wording; 1190 body P1"
+        },
+        {
+          "letter_id": "DCP-LETT-1190",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1190.html",
+          "source_sha256": "4e258b23a8d2fd9e10572b47a015379644553aaf0bcc903500ae10053d8866a6",
+          "locators": "div#letter body P1; 1191 receipt wording; 1190 body P1"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1191",
+        "body_paragraph": 1,
+        "quote": "I enclose the Dean’s note to me; you will see that he does not believe that there is going to be any appointment"
+      },
+      "accepted_primary_note": "Accepted batch 21 cross-correspondent knowledge decision."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1171"
+      ],
+      "case": "Read, heard and planned publication states",
+      "requirement": "Represent distinct knowledge states: a paper or letter copied/read, reports merely heard, and works still planned for future inspection. In particular, “From all I hear” about Somerville is not a reading witness, while Odart remains future. Do not collapse possession, hearing, reading and intended publication into one availability flag.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1171",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1171.html",
+          "source_sha256": "80c3f477ae8a0bd9d99486e36a7b5c44e50c3583cb6156afbb6b37eb6ab921ad",
+          "locators": "div#letter body P1–P2; editorial date/read-state notes"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1171",
+        "body_paragraph": 2,
+        "quote": "From all I hear, I should expect that Mrs. Somerville’s Phys. Geography would suit you"
+      },
+      "accepted_primary_note": "Accepted batch 21 reading-state correction."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1545"
+      ],
+      "case": "Half-hour MathML",
+      "requirement": "Preserve the raw 1/2-hour value as a fraction and keep Russell and Captain Owen anecdotes attributed to their reported sources. Do not flatten 1/2 to 12 or export reported material as unqualified Darwin voice.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1545",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1545.html",
+          "source_sha256": "180d654f63bdbe610a903ef975178c0acd19ae41270b339d025bfb597dff56e2",
+          "locators": "div#letter body; MathML time node; attributed reports"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1545",
+        "body_paragraph": 1,
+        "quote": "1/2 hour"
+      },
+      "accepted_primary_note": "Accepted batch 21 correction and boundary hold."
+    }
+  ],
+  "implementation_boundary": {
+    "future_requirements": [
+      "Preserve date alternatives, relative receipt language, within-letter timing, source identity, attributed voices, MathML fractions and prospective versus completed events at the listed locators.",
+      "Keep a former letter, current enclosure and later witness as separate source objects even when a body identifies their relationship.",
+      "Use graph direction response → antecedent only where the schema calls for a relation; knowledge, receipt and rendering fields have distinct meanings."
+    ],
+    "not_implemented_here": [
+      "No converter, renderer, transcript, ledger, export or training behavior was changed or run.",
+      "This draft creates no new historical acceptance and remains provisional for root verification."
+    ]
+  },
+  "notes": [
+    "Requirements derive from accepted root decisions and are future implementation constraints, not permission to revise accepted evidence."
+  ]
+}

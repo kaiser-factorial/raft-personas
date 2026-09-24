@@ -1,0 +1,32 @@
+{
+  "batch_id": "batch-23",
+  "period": "1844-1846",
+  "reviewer": "gpt-5.6-luna",
+  "status": "additive_transcription_availability_correction",
+  "preserves": "reports/1844-1846/review/reviews/batch-23.supplemental-evidence.json",
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-946",
+      "source_record_read_in_full": false,
+      "body_read_in_full": false,
+      "surviving_transcription_available": false,
+      "status": "transcript_not_available",
+      "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-946.html",
+      "source_sha256": "ac76b9bc412ecdafe03320701872d1ec4cf4ac68581a019593c236281a27ca71",
+      "metadata_date_constraint": "31 Jan 1846 (single XML day)",
+      "physical_description": "3pp (French), 2pp enc",
+      "catalogue_only_text": {
+        "locator": "div#letter div.body-content block 1",
+        "text": "The transcript of this letter is not yet available online.",
+        "qualification": "availability notice, not surviving letter body"
+      },
+      "editorial_summary": "Sends identifications of CD’s Bahia Blanca fossil shells [see 830].",
+      "assessment": "The prior batch-23 supplemental correctly held 830 unavailable but omitted this separately catalogued, explicitly transcript-not-available Orbigny letter. 946 must remain a metadata/summary hold; its French body and two-page enclosure cannot be evaluated from the page notice."
+    }
+  ],
+  "availability_grouping": {
+    "DCP-LETT-830": "catalogue synopsis only; no surviving online transcription",
+    "DCP-LETT-946": "explicit transcript-not-available notice plus catalogue summary; no surviving online transcription"
+  },
+  "no_relationship_inference": "946 supplies no readable body evidence for a direct, reverse, or knowledge link."
+}

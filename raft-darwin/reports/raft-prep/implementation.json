@@ -1,0 +1,155 @@
+{
+  "audit_date": "2026-09-16",
+  "scope": "Read-only audit of installed RAFT plus the supplied handoff and Grok notes; no training, paid service, converter, darwin_0 population, or real conversation export.",
+  "launcher": "/opt/anaconda3/bin/raft",
+  "python": "/opt/anaconda3/bin/python3.13",
+  "distribution": {
+    "name": "raft-ft",
+    "version": "3.1.0",
+    "dist_info": "/opt/anaconda3/lib/python3.13/site-packages/raft_ft-3.1.0.dist-info"
+  },
+  "package_root": "/opt/anaconda3/lib/python3.13/site-packages/raft",
+  "source_files": [
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/__init__.py",
+      "sha256": "f9954893e3ac8e56dafecdf93372a8afbcd831cf603afad84df31a347c66753f",
+      "lines": "1-9",
+      "evidence": "__version__ = 3.1.0; recomputed 2026-09-16 from current installed source and matches this manifest"
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/convo_structurer.py",
+      "sha256": "04a469b420dcde01abfb9cdc0e342c7bb6f932cb506769feff3090fa19851d1a",
+      "lines": "53-109,167-205,246-302",
+      "evidence": "transcript path/schema writer/recognizer, message conversion, importer"
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/project.py",
+      "sha256": "0b23ec164eba0bf8479138ab0c3aa5095e7949cd6298800f3e47b1ca258e32db",
+      "lines": "18-20,92-119,122-136",
+      "evidence": "project directories, corpus/transcript/benchmark paths and numbering"
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/generate_finetune.py",
+      "sha256": "3947ab09246131b3b5648f0252e382a252d18e0379b7669ab88dcd298ef6fede",
+      "lines": "23-70,72-99,184-196",
+      "evidence": "generic generation, per-exchange retrieval, sequential stop at first missing transcript, benchmark no-store"
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/memories.py",
+      "sha256": "a8d523080fbabb87095b122e66a0e0903768ee235a2e34541e20d23428efd3fc",
+      "lines": "154-170,172-234",
+      "evidence": "dated collection detection, strict earlier-than filter, retrieval then self-store, metadata returned"
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/sources.py",
+      "sha256": "2b860458fd34ac3cc2c99070217ec178f596ad8ded8d20dca5bc32781c211624",
+      "lines": "37-95,110-152",
+      "evidence": "ISO parsing, inclusive fetch window, undated date behavior, link-based duplicate suppression"
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/oai_finetune.py",
+      "sha256": "06a2c64e25821affa39ccdf074b6222db7dd9da6629caa2b9af1ccd21fbaaafb",
+      "lines": "52-107,184-242",
+      "evidence": "generated user/system-memory/assistant message shape and benchmark conversion"
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/prompt_manager.py",
+      "sha256": "0c0e29472c9676f936cc4e2f2dc8760942bec5f08f13908a3b4f15bd7e726d23",
+      "lines": "96-115,117-168",
+      "evidence": "system framing and summarizer explicitly describes retrieved material as something the persona wrote or said earlier; no incoming-only attribution channel"
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/embeddings_helpers.py",
+      "sha256": "eca46e0d2c243d0011298cba688cb493820c7c1ef44cfde17f44074ec5dda29d",
+      "lines": "55-86,89-117",
+      "evidence": "exchange persistence, metadata flattening, date_num, grounding upsert"
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/files_helper.py",
+      "sha256": "614d8d309ae162bf40b2bfc3cff949dbf9884756e00fb75a044406d7b2a0c9ca",
+      "lines": "49-67",
+      "evidence": "flat generic JSON writer"
+    },
+    {
+      "path": "/Users/corinakaiser/Projects/opbdh_root/opbdh/src/opbdh/_ft_runner.py",
+      "sha256": "e2a5545227d39c993cafa18ffd224dd30b6d0637c7fc34cd325a53c54f62a6db",
+      "lines": "101-131",
+      "evidence": "SFTConfig completion_only_loss=True; SFTTrainer input; this is the source resolved by the installed editable opbdh path"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "HANDOFF.md",
+      "sha256": "23b980fd2452bc82821cd1496ed45b40fadaa65822d6ce381f1c1ce2255930f7",
+      "lines": "260-340",
+      "evidence": "section 7 reported format, chronology and verification requirements"
+    },
+    {
+      "path": "docs/reference/raft-grok-2026-09-16.txt",
+      "sha256": "2cf79ecf2d9ca3aef273e971663080a6da407ac6e110009c0ae893f941d7fb16",
+      "lines": "1-82",
+      "evidence": "user-supplied secondary notes"
+    },
+    {
+      "path": "docs/reference/raft-grok-2026-09-16.provenance.json",
+      "sha256": "13a72c76513e9b6af4b73451ed6ccee1051b4b8051d6217f28b8f23a361eeee2",
+      "lines": "1-17",
+      "evidence": "provenance for supplied notes"
+    },
+    {
+      "path": "darwin_0/raft.json",
+      "sha256": "d8027d00535dd491cf850dea0edd302e712dc2c5578bc66fd72f417a508359ab",
+      "lines": "1-6",
+      "evidence": "empty project manifest inspected; no population implied"
+    }
+  ],
+  "dist_metadata": {
+    "METADATA_path": "/opt/anaconda3/lib/python3.13/site-packages/raft_ft-3.1.0.dist-info/METADATA",
+    "METADATA_sha256": "3ba6bcb63402800448ab0d33f71a344fb0b20a4b7bb4132a1978372352841941",
+    "RECORD_path": "/opt/anaconda3/lib/python3.13/site-packages/raft_ft-3.1.0.dist-info/RECORD",
+    "RECORD_sha256": "55b6aec8d6095e6b463feb2b272bbdaa3200e40d2905a6a3eff9251f10db97ba",
+    "opbdh_version": "1.1.0",
+    "opbdh_import_origin": "/Users/corinakaiser/Projects/opbdh_root/opbdh/src/opbdh/__init__.py",
+    "opbdh_editable_marker": "/opt/anaconda3/lib/python3.13/site-packages/_editable_impl_opbdh.pth",
+    "opbdh_direct_url": "/opt/anaconda3/lib/python3.13/site-packages/opbdh-1.1.0.dist-info/direct_url.json",
+    "opbdh_direct_url_sha256": "0698f9b594a5ce3cadb46db8763e3b3386e3f3c76696b94b5d632ef016e4af13",
+    "opbdh_direct_url_content": "editable=true, file:///Users/corinakaiser/Projects/opbdh_root/opbdh",
+    "integration_conclusion": "RAFT imports opbdh lazily for HF runs; the resolved opbdh is an editable local checkout, not a self-contained wheel copy. Import currently fails before use because modelchoice is missing, so integration is source-inspected but not runtime-certified."
+  },
+  "fixture": {
+    "method": "Synthetic temporary project; importer and generic generator run with MemoryManager retrieval mocked; no network/LLM/training.",
+    "script": "reports/raft-prep/fixtures/verify_no_network_fixture.py",
+    "output": "reports/raft-prep/fixtures/verify_no_network_fixture.output.json",
+    "script_sha256": "27b3946f5ce3e99f8ead27e243f0b79a75d9b61d11746f7779c358de5453a06d",
+    "output_sha256": "eb120e6b9a0afebe28eed24d397b08f99ada1bfe93684e431eb31ba942d71b0f",
+    "result": "Socket construction is patched to raise, so any network attempt fails. Importer output retained participants/date/url/exchanges but dropped source context. Direct write_transcript preserved context. A two-exchange transcript captured constructor date/url/participants and previous-answer arguments ('', then 'out1'); fresh generation stopped at missing #2 despite #3 existing. After adding #2, rerun processed filename order 1,2,3 even with intentionally out-of-order dates 1840, 1841, 1839; this demonstrates enumeration order, not chronological enforcement. Missing date/url keys raise KeyError in process_transcripts. Corpus duplicate suppression blocked a repeated link within one append and on a second pass. This does not prove Chroma duplication is impossible across stale collections or changed IDs."
+  },
+  "confirmed_or_corrected_grok": {
+    "confirmed": [
+      "raft-ft version 3.1.0",
+      "participants q/a and exchanges two-element strings are accepted",
+      "project transcript-0001.json numbering and benchmark.json path",
+      "ft:gen stops at first missing number",
+      "corpus records use title/link/date/content and duplicate links are skipped",
+      "retrieval date filter is strict < when dated",
+      "query occurs before current exchange store",
+      "benchmark generation does not store conversation memories",
+      "direct writer can preserve context",
+      "summarizer frames retrieved material as persona-authored earlier writing",
+      "opbdh 1.1.0 resolves through an editable local checkout"
+    ],
+    "corrected_or_qualified": [
+      "The importer does not preserve context even for an input already in transcript schema; it calls write_transcript without context.",
+      "The strict < filter is only active when Chroma metadata proves the collection is dated; an old undated collection skips the filter.",
+      "Null/unparseable corpus dates become date_num 0 and remain retrievable, so null cannot safely represent unknown historical availability.",
+      "One transcript-level date applies to every exchange in that file; there is no per-exchange date or section chronology.",
+      "Corpus retrieval returns participants/url/title metadata but the summarizer prompt frames retrieved prose as the persona author's memory; no verified incoming-only attribution channel exists.",
+      "Query-before-store avoids the current exchange only in a clean run; it does not exclude a copy already in corpus/Chroma, prior persistent runs, or overlapping sections.",
+      "Corpus duplicate suppression is link-based and works in the fixture; it is not a complete target/section/semantic duplicate policy.",
+      "HF loss masking is delegated to opbdh/TRL via completion_only_loss=True; no local training or collator execution was performed, so masking is format-ready but training-unverified."
+    ],
+    "not_verified": [
+      "remote documentation, cloud/provider behavior, actual model training, tokenizer-specific masking, and historical data export"
+    ]
+  }
+}

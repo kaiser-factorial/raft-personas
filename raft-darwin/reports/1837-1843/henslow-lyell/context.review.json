@@ -1,0 +1,213 @@
+{
+  "group_id": "context",
+  "model": "gpt-5.6-luna",
+  "full_read_ids": [
+    "DCP-LETT-534",
+    "DCP-LETT-690",
+    "DCP-LETT-706",
+    "DCP-LETT-708",
+    "DCP-LETT-543",
+    "DCP-LETT-660",
+    "DCP-LETT-691",
+    "DCP-LETT-696",
+    "DCP-LETT-705",
+    "DCP-LETT-712"
+  ],
+  "proposed_links": [
+    {
+      "source_id": "DCP-LETT-534",
+      "target_id": "DCP-LETT-543",
+      "relationship": "knowledge_before",
+      "status": "supported",
+      "reason": "Humboldt’s letter discusses Darwin’s Galapagos plant collection and regrets that Henslow could not complete its examination; Darwin’s dated November 1839 witness explicitly reports Humboldt’s regret about Henslow and urges the same Galapagos flora work. This establishes Darwin’s knowledge by the witness date, while not converting the Humboldt letter into a prompt for Henslow’s reply.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-534",
+          "body_paragraph": 6,
+          "quote": "Combien je regrette que M. Henslow n’ait pu terminer"
+        },
+        {
+          "letter_id": "DCP-LETT-543",
+          "body_paragraph": 2,
+          "quote": "Humboldt in a letter to Me expresses at great length his vivid regret that M. Henslow has not been able to describe the species, or even characterize the genera of the very curious collection of plants from Galapagos"
+        }
+      ],
+      "known_by_date": "1839-11-10",
+      "scope": {
+        "source_paragraphs": [
+          6
+        ],
+        "witness_paragraphs": [
+          2
+        ],
+        "source_date": "1839-09-18",
+        "witness_date": "1839-11-10"
+      }
+    },
+    {
+      "source_id": "DCP-LETT-690",
+      "target_id": "DCP-LETT-691",
+      "relationship": "knowledge_before",
+      "status": "supported",
+      "reason": "Lindley’s letter identifies the Atriplex sent to Henslow, the Ely morphological discovery, and the Scotch seeds; Darwin’s 2 September witness repeats all three as information from Lindley. The text identity is strong, but 690’s raw-period/ambiguous hold remains in force and is not silently resolved by this match. Darwin’s witness date establishes knowledge by 2 September 1843.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-690",
+          "body_paragraph": 4,
+          "quote": "a very curious monster found this year near Ely shows the ovule—its nucleus I mean—to be another of the forms of the growing point"
+        },
+        {
+          "letter_id": "DCP-LETT-691",
+          "body_paragraph": 2,
+          "quote": "Lindley in a note to me, speaks of some great discovery of a monster near Ely, showing that the “nucleus of the ovule is only another form of the growing point”"
+        },
+        {
+          "letter_id": "DCP-LETT-690",
+          "body_paragraph": 5,
+          "quote": "Your Scotch seeds proved Rumex Acetosella & this Atriplex"
+        },
+        {
+          "letter_id": "DCP-LETT-691",
+          "body_paragraph": 1,
+          "quote": "Lindley tells me in a note that he has sent you an Atriplex to look at unknown to him"
+        }
+      ],
+      "known_by_date": "1843-09-02",
+      "scope": {
+        "source_paragraphs": [
+          4,
+          5
+        ],
+        "witness_paragraphs": [
+          1,
+          2
+        ],
+        "source_date_qualification": "raw-period hold; title says before 2 September 1843",
+        "witness_date": "1843-09-02"
+      }
+    },
+    {
+      "source_id": "DCP-LETT-690",
+      "target_id": "DCP-LETT-696",
+      "relationship": "knowledge_before",
+      "status": "candidate_only",
+      "reason": "Darwin’s later Lyell letter reuses Lindley’s identification of the Scotch seeds as Rumex and Atriplex. This is a later reuse after the stronger 690→691 witness, not a separate earlier known-by bound; 696 retains 15-or-22 September alternatives and 690 retains its raw-period hold.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-690",
+          "body_paragraph": 5,
+          "quote": "Your Scotch seeds proved Rumex Acetosella & this Atriplex"
+        },
+        {
+          "letter_id": "DCP-LETT-696",
+          "body_paragraph": 3,
+          "quote": "Lindley writes to me, that they turn out to be a common Rumex & a species of Atriplex"
+        }
+      ],
+      "known_by_date": null,
+      "scope": {
+        "source_paragraphs": [
+          5
+        ],
+        "witness_paragraphs": [
+          3
+        ],
+        "source_date_qualification": "raw-period hold",
+        "witness_date_alternatives": [
+          "1843-09-15",
+          "1843-09-22"
+        ]
+      }
+    },
+    {
+      "source_id": "DCP-LETT-706",
+      "target_id": "DCP-LETT-712",
+      "relationship": "knowledge_before",
+      "status": "supported",
+      "reason": "Kemp’s account that the planted seeds carried their husks upward is reused in Darwin’s November witness, which attributes the observation to Kemp. The later witness establishes knowledge by 4 November 1843; it does not turn Darwin’s Henslow letter into a response to Kemp.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-706",
+          "body_paragraph": 1,
+          "quote": "which the plants carried to the top"
+        },
+        {
+          "letter_id": "DCP-LETT-712",
+          "body_paragraph": 1,
+          "quote": "He informs me he saw each plant bring up the husk of the individual seed which he planted"
+        }
+      ],
+      "known_by_date": "1843-11-04",
+      "scope": {
+        "source_paragraphs": [
+          1
+        ],
+        "witness_paragraphs": [
+          1
+        ],
+        "source_date": "1843-10-17",
+        "witness_date": "1843-11-04"
+      }
+    },
+    {
+      "source_id": "DCP-LETT-708",
+      "target_id": "DCP-LETT-712",
+      "relationship": "knowledge_before",
+      "status": "supported",
+      "reason": "Babington’s 26 October identification of Kemp’s Atriplex as a variety of A. angustifolia is directly reused in Darwin’s 4 November witness, which says Babington reared a facsimile from A. angustifolia. This is cross-correspondent knowledge and not a direct prompt/reply pair.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-708",
+          "body_paragraph": 2,
+          "quote": "a variety of the A. angustifolia"
+        },
+        {
+          "letter_id": "DCP-LETT-712",
+          "body_paragraph": 1,
+          "quote": "he has reared a fac-simile by sowing the seeds of A. angustifolia"
+        }
+      ],
+      "known_by_date": "1843-11-04",
+      "scope": {
+        "source_paragraphs": [
+          2
+        ],
+        "witness_paragraphs": [
+          1
+        ],
+        "source_date": "1843-10-26",
+        "witness_date": "1843-11-04"
+      }
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-534",
+      "body_paragraph": 6,
+      "description": "Later Darwin reuse in DCP-LETT-660 invokes Humboldt’s regret through the earlier Henslow witness; no direct source-to-660 link is asserted because the packet does not preserve an independent transmission path."
+    },
+    {
+      "letter_id": "DCP-LETT-690",
+      "body_paragraph": 5,
+      "description": "The source remains under the packet’s raw-period/ambiguous hold despite its exact reuse in 691; the underlying transmission date and any original enclosure should be checked externally."
+    },
+    {
+      "letter_id": "DCP-LETT-706",
+      "body_paragraph": 1,
+      "description": "Kemp says he received Darwin’s Saturday letter, but that Darwin-to-Kemp letter is not among the context witnesses."
+    },
+    {
+      "letter_id": "DCP-LETT-708",
+      "body_paragraph": 1,
+      "description": "Babington’s enclosed specimen and any transmission route through Henslow are not separately preserved here."
+    }
+  ],
+  "issues": [
+    "All 10 context records were read in full, including every retained paragraph, header, metadata audit, editorial summary and editorial footnote.",
+    "All evidence quotations were checked as exact substrings of the cited packet paragraphs; every full-read ID is represented with complete paragraph coverage in the source packet.",
+    "These are knowledge_before links only. The incoming bodies remain Humboldt, Lindley, Kemp and Babington voices; no link makes an incoming letter a direct prompt for another correspondent’s reply.",
+    "DCP-LETT-690 retains its raw-period/ambiguous hold. Its exact reuse in Darwin 691 supports content knowledge by the dated witness, but does not rewrite the source date. DCP-LETT-696 retains its 15-or-22 September alternatives, so its later reuse has no single known-by date.",
+    "The 534→543 link is the earliest dated Darwin witness for Humboldt’s Galapagos/Henslow information. Darwin’s later 660 reuses the regret through that already established chain and is not treated as a second independent receipt bound.",
+    "The 706→712 and 708→712 links establish later Darwin knowledge by 4 November 1843; they do not prove that the corresponding incoming letters were prompts for Darwin’s Henslow correspondence."
+  ]
+}

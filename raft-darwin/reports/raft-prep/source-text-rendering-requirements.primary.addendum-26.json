@@ -1,0 +1,587 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Batches 47–48 additive family, receipt and source-text/date/voice rendering requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "batches": {
+      "reports/1851-1855/review/parent-reading/batch-47.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-47.json",
+        "sha256": "bdc4b42d77ded83fffc0f82a12fdc881ac537f97255d31199ea439374d38d0d5"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-47.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-47.json",
+        "sha256": "408c28e69d89ac2c53b8f1c76456f5cc927e689273a6b8227d96c7b6308b3a54"
+      },
+      "reports/1851-1855/review/parent-reading/batch-48.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-48.json",
+        "sha256": "0b5ca06b63206c12ffa5b5ab052b109a038c5c2a19ce70d95ad8e5773ddefd51"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-48.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-48.json",
+        "sha256": "2c3a1b1607d6e610fc04e50d53d1ea50f3d540b75f9d649dd07f641688e689a7"
+      }
+    },
+    "ledgers": {
+      "data/annotations/periods/1851-1855/batch-47.json": "2eddaf4f3751fb74d0b6246ca6dc8fb9de88ce14c85288764ab39287e744cb15",
+      "data/annotations/periods/1851-1855/batch-48.json": "a9044c598e0fffccd6174491906cad01c35a91c36c46f2918495022773219f13"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1551"
+      ],
+      "case": "observational uncertainty and undated Darwin insertions",
+      "requirement": "Preserve Sulivan’s observed Falkland vegetation, probable storm damage, recalled distances and bird loss separately from his explicit uncertainty about seeds versus dust. Keep Darwin’s brown-crayon scores, inserted words and portfolio mark as later undated annotations, not Sulivan prose or dated knowledge.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1551",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1551.html",
+          "source_html_sha256": "83725e275654d85124c431aed11b740005609cf79550003382b634171593d16e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1551.xml",
+          "xml_sha256": "e76ff587eecc1d34f187299e0efe3a6c5b346d5532783f396971e2350bc9ede6",
+          "verified_sent_date_constraints": [
+            {
+              "text": "2 Feb [1855]",
+              "attributes": {
+                "when": "1855-02-02"
+              },
+              "lower": "1855-02-02",
+              "upper": "1855-02-02",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-02-02\">2 Feb [1855]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1551",
+          "body_paragraph": 3,
+          "quote": "I do not recollect whether it was by seeds or dust",
+          "source_sha256": "83725e275654d85124c431aed11b740005609cf79550003382b634171593d16e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]",
+          "char_start": 54,
+          "char_end": 104
+        },
+        {
+          "letter_id": "DCP-LETT-1551",
+          "body_paragraph": 4,
+          "quote": "We could not catch it and at last it struck the ship & fell in the Sea.",
+          "source_sha256": "83725e275654d85124c431aed11b740005609cf79550003382b634171593d16e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]",
+          "char_start": 221,
+          "char_end": 292
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1426"
+      ],
+      "case": "Charles and Emma voice boundary inside P3 and literal cheque",
+      "requirement": "Keep 1426’s Charles prose through the closing portion of P3, then split at the Emma salutation inside that same paragraph. Preserve Emma’s P4 and signature as her voice; render the cheque as £12 2s 0d without treating the family account or later funeral bill as the whole expense.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1426",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1426.html",
+          "source_html_sha256": "72702e67b9cc82efbda282d3a4dc7067062a273e2aed2f8e817b36b9f0c5a93e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1426.xml",
+          "xml_sha256": "3b0fbc5f4319f3a6e965f39a81457c76acf7a0f2908b56842f4222c3a8df17b4",
+          "verified_sent_date_constraints": [
+            {
+              "text": "1 May [1851]",
+              "attributes": {
+                "when": "1851-05-01"
+              },
+              "lower": "1851-05-01",
+              "upper": "1851-05-01",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1851-05-01\">1 May [1851]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1426",
+          "body_paragraph": 1,
+          "quote": "I enclose a cheque for the £12’ s 2’ d 0.",
+          "source_sha256": "72702e67b9cc82efbda282d3a4dc7067062a273e2aed2f8e817b36b9f0c5a93e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 72,
+          "char_end": 113
+        },
+        {
+          "letter_id": "DCP-LETT-1426",
+          "body_paragraph": 3,
+          "quote": "My dearest Fanny",
+          "source_sha256": "72702e67b9cc82efbda282d3a4dc7067062a273e2aed2f8e817b36b9f0c5a93e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+          "char_start": 33,
+          "char_end": 49
+        }
+      ],
+      "verified_voice_scopes": [
+        {
+          "author": "Charles Darwin",
+          "body_paragraphs": [
+            1,
+            2
+          ]
+        },
+        {
+          "author": "Charles Darwin",
+          "body_paragraph": 3,
+          "char_start": 0,
+          "char_end": 33
+        },
+        {
+          "author": "Emma Darwin",
+          "body_paragraph": 3,
+          "char_start": 33,
+          "char_end": 49
+        },
+        {
+          "author": "Emma Darwin",
+          "body_paragraphs": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1753"
+      ],
+      "case": "pods versus seeds and unconfirmed asparagus receipt",
+      "requirement": "Retain the reported pod counts and Darwin’s explicit question whether 7200 means pods or seeds; do not silently correct the numbers. Keep thanks about asparagus seed separate from an explicit receipt claim, and preserve requested future material as future.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1753",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1753.html",
+          "source_html_sha256": "f071a78758081acc1273096d3db95a54248d515218581036b337e9eafe2b8d42",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1753.xml",
+          "xml_sha256": "a5c15fe6c041350f2d405bd1ab5a6acfca0ab724d45d2b64d4511243b938d012",
+          "verified_sent_date_constraints": [
+            {
+              "text": "5 Sept [1855]",
+              "attributes": {
+                "when": "1855-09-05"
+              },
+              "lower": "1855-09-05",
+              "upper": "1855-09-05",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-09-05\">5 Sept [1855]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1753",
+          "body_paragraph": 2,
+          "quote": "Does the latter number really mean pods & not seeds?",
+          "source_sha256": "f071a78758081acc1273096d3db95a54248d515218581036b337e9eafe2b8d42",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "char_start": 280,
+          "char_end": 332
+        },
+        {
+          "letter_id": "DCP-LETT-1753",
+          "body_paragraph": 4,
+          "quote": "Thank you much about the asparagus seed",
+          "source_sha256": "f071a78758081acc1273096d3db95a54248d515218581036b337e9eafe2b8d42",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+          "char_start": 0,
+          "char_end": 39
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1459F"
+      ],
+      "case": "display date versus XML bounds and declined specimen",
+      "requirement": "Preserve the October 25 displayed date, its conjectural year and the XML interval 1851-10-25 to 1852-10-25 as original constraints with different granularity; do not silently replace either representation. The offered North Atlantic specimen was declined; do not invent shipment or receipt and do not treat the F suffix as fragment evidence.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1459F",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1459F.html",
+          "source_html_sha256": "e8d45a647130e5fbe6c14ed9a19562607c045b06615653e89ac2ae632b706000",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1459F.xml",
+          "xml_sha256": "4cb95f57af09b2bd199191ebd23ea6b102f849386a6c31605422f99604a12a74",
+          "verified_sent_date_constraints": [
+            {
+              "text": "25 Oct [1851?]",
+              "attributes": {
+                "notBefore": "1851-10-25",
+                "notAfter": "1852-10-25"
+              },
+              "lower": "1851-10-25",
+              "upper": "1852-10-25",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1851-10-25\" notAfter=\"1852-10-25\">25 Oct [1851?]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1459F",
+          "body_paragraph": 1,
+          "quote": "I do not think it worth troubling you to send the specimen in question.",
+          "source_sha256": "e8d45a647130e5fbe6c14ed9a19562607c045b06615653e89ac2ae632b706000",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 192,
+          "char_end": 263
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-902"
+      ],
+      "case": "actual specimen receipt and conjectured Bunsen identity",
+      "requirement": "Render the explicit personal receipt of microscopical specimens on the writing day, while keeping the supplied year, intermediary forwarding route and Bunsen attribution qualified. Receipt of specimens does not supply a surviving cover note or a complete incoming question.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-902",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-902.html",
+          "source_html_sha256": "32e2fc270a266280f41df701f675e014548a85477d3a5462e53e8612ea3cc19f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-902.xml",
+          "xml_sha256": "f0149edbb443c323b4aac351f9efa0d262f6cb9dbb67ab70b8773a91e2ff72f5",
+          "verified_sent_date_constraints": [
+            {
+              "text": "16 Aug [1853]",
+              "attributes": {
+                "when": "1853-08-16"
+              },
+              "lower": "1853-08-16",
+              "upper": "1853-08-16",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1853-08-16\">16 Aug [1853]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-902",
+          "body_paragraph": 1,
+          "quote": "I have this day received the microscopical specimens",
+          "source_sha256": "32e2fc270a266280f41df701f675e014548a85477d3a5462e53e8612ea3cc19f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "char_start": 0,
+          "char_end": 52
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1592F"
+      ],
+      "case": "requested loans versus future return and reading stages",
+      "requirement": "Keep 1592F’s requested library loans and promised Thursday return separate from the later notebook entry recording reading of the first three Pepys volumes. Preserve the questioned September 1854 dating interval and unidentified library; do not infer that all requested books were received or read.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1592F",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1592F.html",
+          "source_html_sha256": "1e647eb4145d13187d503a23299ab0300f2cdef32070d2ff972c195865ff5dcf",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1592F.xml",
+          "xml_sha256": "f4d65cb83d248a9bf00c8b8a2359f5143b63a2100587e1b9d904ec820b37f5ff",
+          "verified_sent_date_constraints": [
+            {
+              "text": "[early Sept? 1854]",
+              "attributes": {
+                "notBefore": "1854-09-01",
+                "notAfter": "1854-09-15"
+              },
+              "lower": "1854-09-01",
+              "upper": "1854-09-15",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1854-09-01\" notAfter=\"1854-09-15\">[early Sept? 1854]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1592F",
+          "body_paragraph": 1,
+          "quote": "will return the books tomorrow (Thursday) with the exception of 2 vols.",
+          "source_sha256": "1e647eb4145d13187d503a23299ab0300f2cdef32070d2ff972c195865ff5dcf",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[1]",
+          "char_start": 13,
+          "char_end": 84
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1640",
+        "DCP-LETT-1643",
+        "DCP-LETT-1739",
+        "DCP-LETT-1741"
+      ],
+      "case": "preserve earlier accepted knowledge witnesses",
+      "requirement": "Carry forward accepted 1640→1643 (known by March 7, 1855) and 1739→1741 (known by August 14, 1855) without recounting. Neither establishes exact physical receipt. Distinctive demonstrated content use, source date qualifications and scope remain authoritative.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1640",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1640.html",
+          "source_html_sha256": "6e96d9b04ae50f46ef4c51cab5e66c68ec48e59ddc911c922c94e1ce1499b674",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1640.xml",
+          "xml_sha256": "62695fc80bd9573b3c379e781c9165308c3fdb7d493209555771ee8d29828b2c",
+          "verified_sent_date_constraints": [
+            {
+              "text": "2 Mar [1855]",
+              "attributes": {
+                "when": "1855-03-02"
+              },
+              "lower": "1855-03-02",
+              "upper": "1855-03-02",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-03-02\">2 Mar [1855]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1643",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1643.html",
+          "source_html_sha256": "5a4f4f0323fda273291fd96ba79fb23da36429cb56b563415010eeaeaca196e6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1643.xml",
+          "xml_sha256": "6f5f3eebdb43fd08424c069b63dd198d0747b31f7aefe31aa62abec60f71de7d",
+          "verified_sent_date_constraints": [
+            {
+              "text": "7 Mar [1855]",
+              "attributes": {
+                "when": "1855-03-07"
+              },
+              "lower": "1855-03-07",
+              "upper": "1855-03-07",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-03-07\">7 Mar [1855]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1739",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1739.html",
+          "source_html_sha256": "dfc43149d57e7fb522e6f8f34d5f2f3e6836689c245bd618b987a22ce213cda5",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1739.xml",
+          "xml_sha256": "e4df8159c6a25616257497c32b670e0629129cda4b34d021bbbf08c81e42a740",
+          "verified_sent_date_constraints": [
+            {
+              "text": "13 Aug 1855",
+              "attributes": {
+                "when": "1855-08-13"
+              },
+              "lower": "1855-08-13",
+              "upper": "1855-08-13",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-08-13\">13 Aug 1855</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1741",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1741.html",
+          "source_html_sha256": "972912b7ab1316b876a508b486b657f379ee31381f1a3e786abd0bf9bfb1be7a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1741.xml",
+          "xml_sha256": "01a81fc1af2debdb6b1eb891bc42d8761f71be95ca9b303af2e2051ae4b0570c",
+          "verified_sent_date_constraints": [
+            {
+              "text": "14 [Aug 1855]",
+              "attributes": {
+                "when": "1855-08-14"
+              },
+              "lower": "1855-08-14",
+              "upper": "1855-08-14",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-08-14\">14 [Aug 1855]</ns0:date>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1551",
+        "DCP-LETT-1422",
+        "DCP-LETT-1415",
+        "DCP-LETT-1466",
+        "DCP-LETT-1507F",
+        "DCP-LETT-1744"
+      ],
+      "case": "remaining family, publication and transaction stages",
+      "requirement": "Keep the remaining accepted witnesses’ personal gratitude, family reports, testimonials, bond enclosure, referee recommendation and figure-selection advice in their own voices and stages. Institutional, catalogue, apparatus and later outcomes do not create missing prompts or complete receipt/reading claims.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1551",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1551.html",
+          "source_html_sha256": "83725e275654d85124c431aed11b740005609cf79550003382b634171593d16e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1551.xml",
+          "xml_sha256": "e76ff587eecc1d34f187299e0efe3a6c5b346d5532783f396971e2350bc9ede6",
+          "verified_sent_date_constraints": [
+            {
+              "text": "2 Feb [1855]",
+              "attributes": {
+                "when": "1855-02-02"
+              },
+              "lower": "1855-02-02",
+              "upper": "1855-02-02",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-02-02\">2 Feb [1855]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1422",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1422.html",
+          "source_html_sha256": "8f388592ccea99e5d5222feebbe5d6b8b9a0ad2a5d872daf1aecae23e02cd1db",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1422.xml",
+          "xml_sha256": "85f15baa5c792c8424b4a7bc67188ef92a76eec74fc265ec8a95b983e69ac082",
+          "verified_sent_date_constraints": [
+            {
+              "text": "26 Apr [1851]",
+              "attributes": {
+                "when": "1851-04-26"
+              },
+              "lower": "1851-04-26",
+              "upper": "1851-04-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1851-04-26\">26 Apr [1851]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1415",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1415.html",
+          "source_html_sha256": "3e1cbfca95afa4331d902d0f5bdf79c41f853bae536359593fa559d7fe403d2b",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1415.xml",
+          "xml_sha256": "aa0835616050277bfc4023d0f9c591e5154440f03d86f09d0d3572753d22f43e",
+          "verified_sent_date_constraints": [
+            {
+              "text": "[24 Apr 1851]",
+              "attributes": {
+                "when": "1851-04-24"
+              },
+              "lower": "1851-04-24",
+              "upper": "1851-04-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1851-04-24\">[24 Apr 1851]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1466",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1466.html",
+          "source_html_sha256": "fb855815f4746333c051b71144c8005bad33bdb1a39f61a67c2f26791cb5f40f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1466.xml",
+          "xml_sha256": "1ac53c4b2116a79c8114e3fead415ffbdd27c50c59724381cad042415728ab51",
+          "verified_sent_date_constraints": [
+            {
+              "text": "26 Dec 1851",
+              "attributes": {
+                "when": "1851-12-26"
+              },
+              "lower": "1851-12-26",
+              "upper": "1851-12-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1851-12-26\">26 Dec 1851</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1507F",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1507F.html",
+          "source_html_sha256": "fdfb96bd01cf01c2d6f90f51aa1302aa081174fb61984eb7f7920ba8539e210c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1507F.xml",
+          "xml_sha256": "776d4b53764bff95b577eec54825b6ab2196621d33fee151bc57e2b591cee574",
+          "verified_sent_date_constraints": [
+            {
+              "text": "21 Mar 1853",
+              "attributes": {
+                "when": "1853-03-21"
+              },
+              "lower": "1853-03-21",
+              "upper": "1853-03-21",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1853-03-21\">21 Mar 1853</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1744",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1744.html",
+          "source_html_sha256": "f55f655ba6fcdf23debc8a8ad3603d30d2904634577f3f959cc4d62cbe5ca9c0",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1744.xml",
+          "xml_sha256": "b1e208a178f721859cecbd74fa38ad28a816b07b442082ee4367902e77e1937a",
+          "verified_sent_date_constraints": [
+            {
+              "text": "18 Aug 1855",
+              "attributes": {
+                "when": "1855-08-18"
+              },
+              "lower": "1855-08-18",
+              "upper": "1855-08-18",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-08-18\">18 Aug 1855</ns0:date>"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "accepted_targets_and_contexts": "Complete accepted primary notes and decisions reviewed; named boundaries and remaining source stages retained.",
+    "direct_reply_pairs": 0,
+    "new_graph_edges": 0,
+    "prior_accepted_relationships": [
+      "DCP-LETT-1640→DCP-LETT-1643",
+      "DCP-LETT-1739→DCP-LETT-1741"
+    ],
+    "quote_checks_expected": 9
+  },
+  "notes": "Exact evidence is literal source prose matched to unique DOM nodes. Quote/DOM validation does not establish substantive requirement prose or complete reading. Preserve original date bounds, voice splits, receipt versus dispatch, and later annotation layers.",
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/family-and-receipt-bounds.batch-47-48.luna.json",
+      "sha256": "416b756d67cfaca39de06953e563d5e67d4088fbcb6b48252df8f6e8dae9874d"
+    }
+  ],
+  "prior_relationship_provenance": [
+    {
+      "path": "data/annotations/periods/1851-1855/batch-04.json",
+      "sha256": "f40f62171001aadadefff2cac21e209a056833e1e3d9b9c33d5037924687db0a",
+      "incoming_id": "DCP-LETT-1640",
+      "witness_id": "DCP-LETT-1643",
+      "known_by_date": "1855-03-07",
+      "actual_receipt_date": null,
+      "counted_as_new": false
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-05.json",
+      "sha256": "015a5f6f16e434ac222b32c7cd83840e508030ca901d15cdb5ffd38e77c1f6e4",
+      "incoming_id": "DCP-LETT-1739",
+      "witness_id": "DCP-LETT-1741",
+      "known_by_date": "1855-08-14",
+      "actual_receipt_date": null,
+      "counted_as_new": false
+    }
+  ],
+  "primary_corrections": [
+    {
+      "description": "Preserved original display/XML date granularity without calling it a resolved competing-date choice."
+    },
+    {
+      "description": "Pepys notebook records the first three volumes read; it does not prove every other requested book was unread."
+    },
+    {
+      "description": "Pinned prior knowledge edges and verified that exact physical receipt remains unknown."
+    },
+    {
+      "description": "Verified Charles/Emma code-point boundary in P3 against the exact body and accepted primary decision.",
+      "corrected_dom_locators": []
+    }
+  ],
+  "primary_verification": {
+    "exact_body_quotes_checked": 9,
+    "unique_source_html_xml_pairs_checked": 15,
+    "all_primary_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "mixed_voice_offsets_verified": true,
+    "prior_known_by_edges_verified": 2
+  },
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false
+  }
+}

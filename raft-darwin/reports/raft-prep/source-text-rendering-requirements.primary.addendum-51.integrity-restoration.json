@@ -1,0 +1,16 @@
+{
+  "status": "resolved_exact_pinned_bytes_restored",
+  "recorded_at": "2026-09-17T11:59:09.424574+00:00",
+  "incident": "A misrouted worker assignment overwrote already pinned Luna draft51 while addendum54 was requested. The accepted primary51 remained unchanged.",
+  "restoration": "Root restored only the exact original draft bytes after independent SHA256 comparison. The changed late version and original recovery copy remain preserved. No accepted historical decision or requirement was revised.",
+  "restored_path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-51.draft.json",
+  "expected_and_restored_sha256": "d06038c0093b7aaa681484ebab927b343a06f158c8a3d33877826508421a6e99",
+  "recovery_path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-51.original-recovery.json",
+  "recovery_sha256": "d06038c0093b7aaa681484ebab927b343a06f158c8a3d33877826508421a6e99",
+  "late_version_path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-51.misrouted-late-version.json",
+  "late_version_sha256": "ac9d135294b76ce23e272eb760ad52fc018d8bd0eb4ba5c4901f378b3bea99a1",
+  "unchanged_primary_path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-51.json",
+  "unchanged_primary_sha256": "2b5c3563364e2fe91765a87737cce0a52b577b5e69065a3384cf22036647eb46",
+  "recovery_provenance": "Worker regenerated the earlier candidate using preserved /private/tmp/build_add51.py with output redirected to a new recovery path; exact hash matches the value pinned before the incident.",
+  "prevention": "Worker assignments must use the requested new addendum number, fail if destination already exists, and never rerun old authoring scripts against accepted or pinned inputs."
+}

@@ -1,0 +1,47 @@
+{
+  "period": "1837-1843",
+  "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+  "methodology": "Independently read the pinned CSV and manifest, selected Darwin rows using the stated sorting-date or explicit-year rule, parsed all 476 preserved TEI XML files with a separate Python verifier, expanded every sent date constraint to inclusive bounds, classified records only when every possible sent date was inside the period, checked XML identity/topology/authority keys, recomputed hashes and correspondent counts, and compared the resulting record-level values with the supplied audit outputs.",
+  "independently_computed_counts": {
+    "csv_rows": 15238,
+    "selected_candidates": 476,
+    "xml_files": 476,
+    "manifest_files": 476,
+    "safe_records": 445,
+    "held_records": 31,
+    "safe_by_direction": {"from_darwin": 318, "to_darwin": 127},
+    "held_by_direction": {"from_darwin": 27, "to_darwin": 4},
+    "third_party_excluded_by_csv_filter": 13,
+    "safe_records_requiring_exact_order_review": 97,
+    "date_structure": {"bounded_range": 89, "single_xml_day": 361, "multiple_recorded_dates": 3, "alternative_dates": 23},
+    "safe_outgoing_with_multiple_senders": ["DCP-LETT-512"],
+    "records_with_xml_transcription_body": 0,
+    "records_with_structured_receipt_dates": 0,
+    "source_checksum_verified": {"xml": 476, "csv": true, "reported_total_including_csv": 477}
+  },
+  "checks": [
+    {"check":"CSV SHA-256","status":"passed","evidence":"cbe31878e4557db7f1e96f4c1fccdfa3144a88b2e8f2dcbf7441f8d430d73f9a"},
+    {"check":"CSV selection and exclusions","status":"passed","evidence":"Independent selection produced 476 Darwin candidates and 13 in-window third-party exclusions."},
+    {"check":"XML preservation and identity","status":"passed","evidence":"All 476 manifest files exist, hashes match, XML root IDs match CSV IDs, and all 476 have one sent and one received action."},
+    {"check":"CSV/XML Darwin authority identity","status":"passed","evidence":"All selected rows matched the XML Darwin authority identity on the corresponding side."},
+    {"check":"Date constraints and classification","status":"passed","evidence":"Independent bounds expansion reproduced 445 safe and 31 held records and all four date-structure totals."},
+    {"check":"Direction totals","status":"passed","evidence":"Independent XML action authority produced safe 318 outgoing/127 incoming and held 27 outgoing/4 incoming."},
+    {"check":"Exact-order review","status":"passed","evidence":"97 safe records require review because of non-single-day structure or textual date qualifiers."},
+    {"check":"Joint authorship","status":"passed","evidence":"DCP-LETT-512 has sent subtype personGrp with Darwin, C. R. and Darwin, Emma; it is the sole safe outgoing multi-sender record."},
+    {"check":"Correspondent inventory","status":"passed","evidence":"Recomputed authority-key counts match reports/1837-1843/correspondents.json, including Emma 18/14, Henslow 24/10, Kemp 11/6, and Lyell 17/5."},
+    {"check":"Audit output consistency","status":"passed","evidence":"All 476 recomputed IDs and classification/direction fields match audit.jsonl."}
+  ],
+  "date_and_boundary_findings": {
+    "held_ids": ["DCP-LETT-326","DCP-LETT-356F","DCP-LETT-421F","DCP-LETT-13925F","DCP-LETT-524F","DCP-LETT-559","DCP-LETT-13770H","DCP-LETT-571","DCP-LETT-578F","DCP-LETT-612","DCP-LETT-11313","DCP-LETT-13867G","DCP-LETT-8132","DCP-LETT-13776","DCP-LETT-1768","DCP-LETT-1786","DCP-LETT-11271F","DCP-LETT-13828","DCP-LETT-13798","DCP-LETT-13873","DCP-LETT-13865","DCP-LETT-657","DCP-LETT-13772F","DCP-LETT-13772","DCP-LETT-669","DCP-LETT-970","DCP-LETT-13867","DCP-LETT-690","DCP-LETT-699F","DCP-LETT-723","DCP-LETT-13787"],
+    "boundary_examples": ["DCP-LETT-326 crosses 1836/1837", "DCP-LETT-723 crosses 1843/1844", "DCP-LETT-8132 contains alternatives extending to 1882"],
+    "interpretation": "Sorting dates are selection keys and do not resolve bounded ranges, alternatives, or textual qualifiers. Held records are boundary-ambiguous under the stated all-possibilities rule, not false eligibility determinations. DCP-LETT-326 is also the single supplemental candidate whose sorting date lies outside the period while its explicit range reaches into it."
+  },
+  "issues": [],
+  "limitations": [
+    "The candidate set is a Darwin-only CSV sorting-date window plus explicit display-date years, not an XML-wide search of all 15,238 catalogue rows.",
+    "The 476-file metadata audit does not establish transcriptions, receipt dates, replies, individual prose authorship, or voice eligibility. The one joint-author record (512) remains held for authorship review.",
+    "The 445 safe records include 97 that still need exact chronological ordering review. Safe eligibility means all encoded possibilities fall inside the period; it does not make a sorting date exact.",
+    "The top correspondent counts are authority-key inventory counts, with joint correspondence counted by its combined participant set and historical labels retained."
+  ],
+  "verdict": "The reported metadata findings are independently reproduced and supported. No record-level, hash, identity, date-classification, direction, completeness-within-selection, or correspondent-count error was found. The scope and chronology limitations above remain material."
+}

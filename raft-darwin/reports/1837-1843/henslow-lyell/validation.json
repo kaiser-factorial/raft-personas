@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "tests": {
+    "command": "python3 -m unittest discover -s tests",
+    "tests_run": 73,
+    "failures": 0,
+    "errors": 0
+  },
+  "reviewed_report_local_links": 56,
+  "broken_local_links": 0,
+  "source_hashes": {
+    "preserved_source_pages": 113,
+    "available_transcriptions": 112,
+    "XML_sources": 476
+  },
+  "prior_evidence_files_unchanged": 10,
+  "new_phase_parent_quote_checks": 85,
+  "cumulative_parent_quote_checks": 215,
+  "reviewer_checks": [
+    {
+      "report": "emma.review.json",
+      "quotes": 130,
+      "full_coverage": true
+    },
+    {
+      "report": "kemp.review.json",
+      "quotes": 103,
+      "full_coverage": true
+    },
+    {
+      "report": "henslow.review.json",
+      "quotes": 83,
+      "full_coverage": true
+    },
+    {
+      "report": "lyell.review.json",
+      "quotes": 50,
+      "full_coverage": true
+    },
+    {
+      "report": "section-dates.review.json",
+      "quotes": 18
+    },
+    {
+      "report": "seed-context.review.json",
+      "quotes": 15
+    },
+    {
+      "report": "chronology.review.json",
+      "quotes": 15
+    },
+    {
+      "report": "context.review.json",
+      "quotes": 12
+    },
+    {
+      "report": "henslow-712.check.json",
+      "quotes": 12
+    }
+  ],
+  "verified_outputs": [
+    {
+      "path": "data/annotations/henslow_lyell_1837_1843.json",
+      "sha256": "e53cf28962434a54498b567a1ef6853ce396c5de10c5274a6b445a700a3cd3eb"
+    },
+    {
+      "path": "reports/1837-1843/henslow-lyell/parent_review.json",
+      "sha256": "ea4fe4c40f15fc6b7c684fa0745eb3f263ea85094049258682e542605b45aa87"
+    },
+    {
+      "path": "reports/1837-1843/correspondence-map/summary.json",
+      "sha256": "b0b41b69c4437f301d482b1350408ebdd542dc77fc4f9bb51ce8f50f130d3332"
+    },
+    {
+      "path": "reports/corpus-status.json",
+      "sha256": "c3684557288e281a93896962a2b29a250acd1976bb799a491e919822894151a8"
+    },
+    {
+      "path": "scripts/build_expansion_review.py",
+      "sha256": "16dd35132a28b742b6127f8df55aaf5c48d2b7d0dc6f51c27f018fbd85b417a7"
+    },
+    {
+      "path": "scripts/curate_henslow_lyell.py",
+      "sha256": "20e517e4bdd5d2c415edfd7771aa5c13c95af6537f4a85cb5ace7e1d528650ad"
+    },
+    {
+      "path": "tests/test_henslow_lyell.py",
+      "sha256": "cb285d552f855f223524f44c6325aec2cd49fdd1d56c9baaac289ddd22d2b246"
+    }
+  ],
+  "limitations": [
+    "Relationship and availability audit only; no training export.",
+    "Catalogue candidate scope is unchanged; records outside it are not an XML-wide search.",
+    "Receipt dates remain unknown where only dated Darwin knowledge witnesses survive."
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "status": "candidate_only",
+  "version": "v2",
+  "scope": "Formatting-only requirements for accepted 1858-1859 batches 25-30; additive correction to v1. No converter, export, source, ledger or accepted-evidence mutation.",
+  "method": "Replaced v1 proxies with feature-bearing body passages or exact heading/markup locators. Fractions and diagrams are evidenced by their actual MathML/table/figure containers; metadata dates and later layers are explicitly separated. Visual observations remain accepted parent-reading provenance.",
+  "requirements": [
+    {
+      "source_id": "DCP-LETT-2442",
+      "requirement": "Retain Emma Darwin as the P6 writer and keep that hand/voice distinct from Charles’s P1–P5.",
+      "evidence": {
+        "source_id": "DCP-LETT-2442",
+        "evidence_layer": "authorial_body",
+        "quote": "Your shirt was at the wash & waistcoat on the pegs.",
+        "locator": "#letter > div.body > div.body-content > p:nth-of-type(8) (P6 postscript)",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2442.html",
+        "html_sha256": "1c3b14187a65f1c5b193da4112967450ef1160edc671f200bcf55e6512d38673"
+      },
+      "render_status": "planned_repair",
+      "notes": "The body P6 is the short postscript; the accepted note identifies it as Emma hand. Do not use the unrelated opening paragraph as the authorship quote."
+    },
+    {
+      "source_id": "DCP-LETT-2497",
+      "requirement": "Render the five possible Sundays as five discrete date alternatives: 23 October, 30 October, 6, 13 and 20 November 1859.",
+      "evidence": {
+        "source_id": "DCP-LETT-2497",
+        "evidence_layer": "metadata/footnote",
+        "quote": "To W. E. Darwin   [23 October – 20 November 1859]",
+        "locator": "#letter > div.body > div.opener > h1 (date metadata; footnote #Lfoot.f1)",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2497.html",
+        "html_sha256": "707b19da8fbae7330a4f4ace1def7fcd69c18fe34277dffb075cc4fca0506aa9"
+      },
+      "render_status": "planned_repair",
+      "notes": "The body opener says only Sunday; the footnote supplies the first and last possible Sundays. No exact composition or receipt date follows."
+    },
+    {
+      "source_id": "DCP-LETT-2271",
+      "requirement": "Preserve the two section diagrams as distinct figures and retain the source’s raw marker artifacts for evidence-based cleanup.",
+      "evidence": {
+        "source_id": "DCP-LETT-2271",
+        "evidence_layer": "authorial_body",
+        "quote": "He states that first",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'He states that first')] plus inline figure nodes",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2271.html",
+        "html_sha256": "2d3c6a62ac425c40c241a94ed9bed964fcfafc0db91e12cc0b2dc9ad065bf9ab"
+      },
+      "render_status": "hold",
+      "notes": "The apparatus probability and raw “one one”/“&on” fragments are not a license to create a second image or smooth missing labels."
+    },
+    {
+      "source_id": "DCP-LETT-2325",
+      "requirement": "Render the MathML dinner time as 1½ (1:30), and keep the mid-composition received note and the separate 16 September Darwin annotation in separate layers.",
+      "evidence": {
+        "source_id": "DCP-LETT-2325",
+        "evidence_layer": "authorial_body",
+        "quote": "we dine at",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'we dine at')]/math:mfrac; P.S. is the following p; 16 September annotation is the next marked layer",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2325.html",
+        "html_sha256": "402c78b740c24d21a9ec17239392e48eadd9b6421f8b01558f61f55dbcd16a1d"
+      },
+      "render_status": "planned_repair",
+      "notes": "The receipt and later annotation cannot be folded into the original invitation paragraph."
+    },
+    {
+      "source_id": "DCP-LETT-2332",
+      "requirement": "Render the enclosure dimensions as 13¾ wide by 19¼ deep and preserve the missing September Lubbock report as an explicit gap.",
+      "evidence": {
+        "source_id": "DCP-LETT-2332",
+        "evidence_layer": "authorial_body",
+        "quote": "The Box is 35 inches high",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'The Box is 35 inches high')]/math:mfrac",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2332.html",
+        "html_sha256": "2f16bd2857a6bfc3262eeba230c7b5752f5e0d5420c612d8354baf829a77ae1f"
+      },
+      "render_status": "planned_repair",
+      "notes": "The June 2284 report is a separate preserved source and cannot stand in for the absent September report."
+    },
+    {
+      "source_id": "DCP-LETT-2284",
+      "requirement": "Keep this June Lubbock report as its own source and do not fabricate a September enclosure or report.",
+      "evidence": {
+        "source_id": "DCP-LETT-2284",
+        "evidence_layer": "metadata/heading",
+        "quote": "From John Lubbock   10 June 1858",
+        "locator": "#letter > div.body > div.opener > h1 (10 June 1858); body-content p:nth-of-type(2)",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2284.html",
+        "html_sha256": "b4d24b9b0f996f7f849bc6a9a483ed58ef8bd1f09faba60d6cd6a93bbd3e6168"
+      },
+      "render_status": "hold",
+      "notes": "This is the retained June evidence; the September Lubbock report remains unavailable."
+    },
+    {
+      "source_id": "DCP-LETT-2362",
+      "requirement": "Preserve the literal diag/ramme list as source text with its row associations; do not render it as a clean HTML table or completed experiment result.",
+      "evidence": {
+        "source_id": "DCP-LETT-2362",
+        "evidence_layer": "authorial_body",
+        "quote": "following little experiment",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'following little experiment')] followed by raw diag/ramme list nodes",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2362.html",
+        "html_sha256": "d4a2a26560f2a8f6d2143413d1565f3c8cf4a283943105e2cd20237d544633f5"
+      },
+      "render_status": "hold",
+      "notes": "The list contains variable 7 or 8 and uncertain breed wording; preserve uncertainty and raw artifacts."
+    },
+    {
+      "source_id": "DCP-LETT-2423",
+      "requirement": "Render £1 4s 6d from the source arithmetic and preserve the 5 March writing date separately from the 2 March account date.",
+      "evidence": {
+        "source_id": "DCP-LETT-2423",
+        "evidence_layer": "authorial_body",
+        "quote": "which I now enclose",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'which I now enclose')] plus preceding enclosure rows",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2423.html",
+        "html_sha256": "19346bf681596ac7afc9d5e31768fd064527f213f5c469b36b94072952e4878d"
+      },
+      "render_status": "planned_repair",
+      "notes": "Accepted note resolves the components as 13s + 10s 6d + 1s; the apparatus account date is not the autograph date."
+    },
+    {
+      "source_id": "DCP-LETT-2417",
+      "requirement": "Treat the breed passage as current stock inventory followed by a request for 2 or 3 more hens, not as a requested-breeds table.",
+      "evidence": {
+        "source_id": "DCP-LETT-2417",
+        "evidence_layer": "authorial_body",
+        "quote": "Perhaps you will have forgotten what I have: they are as follows. The Spanish Cock 2 White Games 1 White Cochin 1 Silk Fowl 1 Silver Poland",
+        "locator": "#letter > div.body > div.body-content > p:nth-of-type(2)[contains(., 'Perhaps you will have forgotten')]",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2417.html",
+        "html_sha256": "f4529f78ac80404bb0e3b6b7e764e893f2430daa875486f62f3b05b060f61cc6"
+      },
+      "render_status": "hold",
+      "notes": "The body first reports the death of the silver-spangled Hamburgh hen and then lists current stock; the request is separate."
+    },
+    {
+      "source_id": "DCP-LETT-2375",
+      "requirement": "Render the actual half-dozen quantity literally and keep the later price/logistics uncertainty visible.",
+      "evidence": {
+        "source_id": "DCP-LETT-2375",
+        "evidence_layer": "authorial_body",
+        "quote": "I have silver Laced Poland Hen. of one Breed",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'silver Laced Poland Hen')]/math:mfrac",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2375.html",
+        "html_sha256": "161a3c56eb54fbe7e0bfe90af26b18bb9f4c891e2de07a19a8b7388b5e4c85a8"
+      },
+      "render_status": "planned_repair",
+      "notes": "The accepted note corrects the prior 12-dozen reading; carrier logistics do not prove purchase or delivery."
+    },
+    {
+      "source_id": "DCP-LETT-2195",
+      "requirement": "Preserve the two MathML divisions and the one actual diagram; render the equation literally as side/1.414 = 0.125 inch/1.414 = 0.088.",
+      "evidence": {
+        "source_id": "DCP-LETT-2195",
+        "evidence_layer": "authorial_body",
+        "quote": "h = side of hexagon of bees cell",
+        "locator": "#letter > div.body > div.body-content > table.table.inline.width85 > tr > td.left.width50; MathML mfrac descendants; adjacent img[alt='diagram']",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2195.html",
+        "html_sha256": "3279eaba7ddf6aacbc93fe73591661bf7ca92f654558c8073b079a8fdc54be0a",
+        "notes": "The adjacent MathML mfrac nodes carry /1.414, /1.414 and the displayed result 0.088; the equation label quote is authorial body text and the markup locator is the evidence for the fractions."
+      },
+      "render_status": "planned_repair",
+      "notes": "The HTML source has two mfrac divisions and a figure; the displayed equation is Erasmus’s calculation, not a reconstructed Darwin prompt."
+    },
+    {
+      "source_id": "DCP-LETT-2283",
+      "requirement": "Preserve the four image nodes and distinguish the present projections and enclosure halves from missing physical cut-outs.",
+      "evidence": {
+        "source_id": "DCP-LETT-2283",
+        "evidence_layer": "authorial_body",
+        "quote": "I also send you some rhombs cut out",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'rhombs cut out')] plus preceding projection paragraph and four image nodes",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2283.html",
+        "html_sha256": "640bc47a52a7fc173b616f8b8aa731f6bd3d4828ce31a0fec7bef6f6c52fc100"
+      },
+      "render_status": "planned_repair",
+      "notes": "The source explicitly distinguishes cut-out rhombs from surviving projections; do not turn the missing cut-outs into images."
+    },
+    {
+      "source_id": "DCP-LETT-2287",
+      "requirement": "Keep the two surviving enclosures, ten images, and separate undated Darwin annotations distinct; render each half fraction as ½ and retain unresolved plain 1400/1200 strings.",
+      "evidence": {
+        "source_id": "DCP-LETT-2287",
+        "evidence_layer": "authorial_body",
+        "quote": "If you have 3 spheres only intersecting the central one you will have",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., '3 spheres only intersecting the central one')], MathML mfrac and image nodes; separate annotation layer",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2287.html",
+        "html_sha256": "e24c61020cd2fa1c8e1e79d4d0fbf2c0d8c4e2bb052f90b11f21696e69e95977"
+      },
+      "render_status": "hold",
+      "notes": "Accepted visual note identifies diagram iii labels Qx .0446 and Ax .0646. Do not merge later Darwin annotations or invent the missing introductory words."
+    },
+    {
+      "source_id": "DCP-LETT-2479A",
+      "requirement": "Keep the admitted Cundall printed-witness pointer separate from disputed printed prose; preserve the body’s bee observations without treating the later witness as contemporary evidence.",
+      "evidence": {
+        "source_id": "DCP-LETT-2479A",
+        "evidence_layer": "authorial_body",
+        "quote": "The quality of honey was astonishing and so excellent that honey for him then repaid the cost of the hive. The combs were rather too crowded and old (till all fully formed) to be very good for measurement; yet I can clearly see that the cells are larger (in about proportion of 60 to 51) than the cells of British combs.",
+        "locator": "#letter > div.body > div.body-content > p:nth-of-type(2)[contains(., 'quality of honey was astonishing')]",
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2479A.html",
+        "html_sha256": "eaf6dfb1fe4cd1aacecaabd9d5d258c321a4d172ea7d1e54eed4a088166a4c17"
+      },
+      "render_status": "hold",
+      "notes": "The admitted printed witness is a pointer only; disputed printed wording remains unresolved and must not be silently exported as body text."
+    }
+  ],
+  "source_pins": [
+    {
+      "source_id": "DCP-LETT-2442",
+      "evidence_layer": "authorial_body",
+      "quote": "Your shirt was at the wash & waistcoat on the pegs.",
+      "locator": "HTML #letter .body-content > p:nth-of-type(6), P6 postscript; authorship also pinned to accepted parent note footnote evidence.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2442.html",
+      "html_sha256": "1c3b14187a65f1c5b193da4112967450ef1160edc671f200bcf55e6512d38673"
+    },
+    {
+      "source_id": "DCP-LETT-2497",
+      "evidence_layer": "metadata/footnote",
+      "quote": "To W. E. Darwin   [23 October – 20 November 1859]",
+      "locator": "HTML #letter .body h1, date footnote #Lfoot.f1; metadata layer, not P1.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2497.html",
+      "html_sha256": "707b19da8fbae7330a4f4ace1def7fcd69c18fe34277dffb075cc4fca0506aa9"
+    },
+    {
+      "source_id": "DCP-LETT-2271",
+      "evidence_layer": "authorial_body",
+      "quote": "He states that first the outlines of these 3 primordial cells are arched, (section ) & then made angular ( ).",
+      "locator": "HTML #letter .body-content > p:nth-of-type(5), with inline figure nodes in the same paragraph; accepted visual note distinguishes rounded arch and pointed angular cap.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2271.html",
+      "html_sha256": "2d3c6a62ac425c40c241a94ed9bed964fcfafc0db91e12cc0b2dc9ad065bf9ab"
+    },
+    {
+      "source_id": "DCP-LETT-2325",
+      "evidence_layer": "authorial_body",
+      "quote": "you must get out at Mason’s Hill Bromley: we dine at 1½ and then with another horse I could send you back.",
+      "locator": "HTML #letter .body-content > p:nth-of-type(1), MathML mfrac in “we dine at”; receipt evidence is P.S. #letter .body-content > p:nth-of-type(9), while the 16 September annotation begins the following separate marked layer.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2325.html",
+      "html_sha256": "402c78b740c24d21a9ec17239392e48eadd9b6421f8b01558f61f55dbcd16a1d"
+    },
+    {
+      "source_id": "DCP-LETT-2332",
+      "evidence_layer": "authorial_body",
+      "quote": "The Box is 35 inches high; 13¾ wide, the outside doors over the fixed side glass-windows being included;— & 19¼ deep from front to back; all outside measures.",
+      "locator": "HTML #letter .body-content > p:nth-of-type(2), MathML mfrac tokens 13/4 and 19/4; missing-input status comes from accepted note.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2332.html",
+      "html_sha256": "2f16bd2857a6bfc3262eeba230c7b5752f5e0d5420c612d8354baf829a77ae1f"
+    },
+    {
+      "source_id": "DCP-LETT-2284",
+      "evidence_layer": "authorial_body",
+      "quote": "Many thanks for the Queen Bee larva & Pupa which will be very useful some day.",
+      "locator": "HTML #letter .body-content > p:nth-of-type(1); June source body.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2284.html",
+      "html_sha256": "b4d24b9b0f996f7f849bc6a9a483ed58ef8bd1f09faba60d6cd6a93bbd3e6168"
+    },
+    {
+      "source_id": "DCP-LETT-2362",
+      "evidence_layer": "authorial_body",
+      "quote": "Now for this I shd. keep only birds, which are true to their kinds. Do you think the following list good or would you advise any changes?— I shd. have to make away with all my poultry, except two hens.—",
+      "locator": "HTML #letter .body-content > p:nth-of-type(4), immediately followed by raw diag/ramme list nodes.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2362.html",
+      "html_sha256": "d4a2a26560f2a8f6d2143413d1565f3c8cf4a283943105e2cd20237d544633f5"
+    },
+    {
+      "source_id": "DCP-LETT-2423",
+      "evidence_layer": "authorial_body",
+      "quote": "£ 1.4.6 which I now enclose.",
+      "locator": "HTML #letter .body-content > p:nth-of-type(5), raw diag/ramme token; component amounts are in preceding enclosure rows.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2423.html",
+      "html_sha256": "19346bf681596ac7afc9d5e31768fd064527f213f5c469b36b94072952e4878d"
+    },
+    {
+      "source_id": "DCP-LETT-2417",
+      "evidence_layer": "authorial_body",
+      "quote": "Perhaps you will have forgotten what I have: they are as follows. The Spanish Cock 2 White Games 1 White Cochin 1 Silk Fowl 1 Silver Poland",
+      "locator": "HTML #letter .body-content > p:nth-of-type(1), inventory sentence and following list.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2417.html",
+      "html_sha256": "f4529f78ac80404bb0e3b6b7e764e893f2430daa875486f62f3b05b060f61cc6"
+    },
+    {
+      "source_id": "DCP-LETT-2375",
+      "evidence_layer": "authorial_body",
+      "quote": "I have silver Laced Poland Hen. of one Breed, & I shd wish for say ½ dozen Hens of other breeds, before specified & Spanish Cock.",
+      "locator": "HTML #letter .body-content > p:nth-of-type(4), MathML mfrac 1/2.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2375.html",
+      "html_sha256": "161a3c56eb54fbe7e0bfe90af26b18bb9f4c891e2de07a19a8b7388b5e4c85a8"
+    },
+    {
+      "source_id": "DCP-LETT-2195",
+      "evidence_layer": "authorial_body",
+      "quote": "h = side of hexagon of bees cell / 1.414 = 0 inch .125 / 1.414 = 0.088",
+      "locator": "HTML #letter .body table.table.inline width85, left td; exact MathML mfrac nodes and adjacent diagram img.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2195.html",
+      "html_sha256": "3279eaba7ddf6aacbc93fe73591661bf7ca92f654558c8073b079a8fdc54be0a"
+    },
+    {
+      "source_id": "DCP-LETT-2283",
+      "evidence_layer": "authorial_body",
+      "quote": "I also send you some rhombs cut out, with flaps to fasten over the edges, & I advise you to begin with the flap (A)",
+      "locator": "HTML #letter .body-content > p:nth-of-type(3), followed by inline figure/enclosure nodes; 1/(70 or 80) inch is in preceding P1.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2283.html",
+      "html_sha256": "640bc47a52a7fc173b616f8b8aa731f6bd3d4828ce31a0fec7bef6f6c52fc100"
+    },
+    {
+      "source_id": "DCP-LETT-2287",
+      "evidence_layer": "authorial_body",
+      "quote": "If you have 3 spheres only intersecting the central one you will have 3 semicircles bounded by ½ rhombs, but you cant draw them together with real dimensions as they are in different planes, & their projection would be 3 ½ ellipses & 3 foreshortened ½ rhombs.",
+      "locator": "HTML #letter .body-content > p:nth-of-type(2), MathML mfrac nodes and inline figure nodes; separate annotation layer follows enclosure text.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2287.html",
+      "html_sha256": "e24c61020cd2fa1c8e1e79d4d0fbf2c0d8c4e2bb052f90b11f21696e69e95977"
+    },
+    {
+      "source_id": "DCP-LETT-2479A",
+      "evidence_layer": "authorial_body",
+      "quote": "The quality of honey was astonishing and so excellent that honey for him then repaid the cost of the hive. The combs were rather too crowded and old (till all fully formed) to be very good for measurement; yet I can clearly see that the cells are larger (in about proportion of 60 to 51) than the cells of British combs.",
+      "locator": "HTML #letter .body-content > p:nth-of-type(1), with bibliography and accepted printed-witness addendum as separate provenance layers.",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2479A.html",
+      "html_sha256": "eaf6dfb1fe4cd1aacecaabd9d5d258c321a4d172ea7d1e54eed4a088166a4c17"
+    }
+  ],
+  "recommendations": [
+    "Use only literal body or MathML evidence at the cited locator.",
+    "Keep metadata, footnotes, annotations, enclosures and later printed witnesses in their source layers; omit them from user body export unless policy permits.",
+    "Represent unresolved raw diag/ramme, damaged markers, missing enclosures and disputed printed prose as holds; do not invent cleanup text."
+  ],
+  "input_hashes": {
+    "reports/1858-1859/review/parent-reading/batch-25.json": "addd760f8ef1cc28f5d1f58116984939f24b6009555393ddd8278532750d1519",
+    "reports/1858-1859/review/parent-reading/batch-27.json": "27dd7461d14c766bab429adcda35bb01bb081bc80cf3a0601e4519cf73dcb56a",
+    "reports/1858-1859/review/parent-reading/batch-28.json": "0b2809210ad50b74b462735e60334d6f39d90d9c771dc5530d161b73808641ee",
+    "reports/1858-1859/review/parent-reading/batch-29.json": "f6dce731afd22216085c9dc2c1e56e93f352d1ee6c34a24df7be761028e07c7a",
+    "reports/1858-1859/review/parent-reading/batch-30.json": "dd7f53d7e246d538e4e8214e22715057afcac8e62d75052924aec85adef25807",
+    "reports/1858-1859/review/parent-decisions/batch-25.json": "64b0ceef82e9c78e6543dc0060a02f4f679b501825b01cfa9900180dd163fa3b",
+    "reports/1858-1859/review/parent-decisions/batch-27.json": "b85c9bb2f34aa99bae61eefa86b29adb540abd54a1882514102cd1983eb3e7d4",
+    "reports/1858-1859/review/parent-decisions/batch-28.json": "b91f911748d64d33a0ac96404772610ccf9cf4d6430fea52c0bce4c066653877",
+    "reports/1858-1859/review/parent-decisions/batch-29.json": "6862ea39880faa1106d763055b33d4d44951b1a8d288f7ea09ec0bf35f6def6b",
+    "reports/1858-1859/review/parent-decisions/batch-30.json": "cc5d291b39770b2f43fa492f322e7926e8897e72f7381398aaaa1ae2ec2548e8",
+    "reports/raft-prep/source-text-rendering-requirements.primary.addendum-75.json": "1aff073956e6e334faff7f7d0f7ab6afcaf057ffaa8ffc255b03ad808ce5cf0c",
+    "reports/raft-prep/source-text-rendering-requirements.primary.addendum-76.json": "0399ef8d36dd4c97e81ea5813f079c881c5a29f930dd08608c4c6c37953cfb49"
+  }
+}

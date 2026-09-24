@@ -1,0 +1,309 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Accepted 1856–1857 batch-26 additive source-text/date/voice/rendering requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-26.json",
+      "sha256": "9e2e472ea1ae59368103c6baa9a1cdf039995de7deb65c1746ee5c50f8e27f05"
+    },
+    "parent_decision": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-26.json",
+      "sha256": "a02fcfb0c48efcc6be12fae4c6398e82d754ef2265bf431ab71de44fbabd4a2c"
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-26.json",
+      "sha256": "74fde41ae0f9cd21fba91b1cefe58f182be755180e3ee7b183d49a511b615171"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1894",
+        "DCP-LETT-1897"
+      ],
+      "case": "Layard reverse scope: mongrel uniformity, Ascension and greyhound",
+      "requirement": "Preserve the accepted reverse relationship 1897 to 1894 only in its demonstrated scopes: Only the opening of1897 P1 through written in his face answers Darwin’s P3 mongrel-uniformity question, while P4 and the first two sentences of P5 answer the Ascension-pigeon and short-curled-greyhound questions in P4. Keep 1897’s incomplete opening and ending, reported Fry material and planned further enquiries separate. Preserve 1897’s September–October 1856 inferred date as a bounded interval without inventing an exact receipt.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1894",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1894.html",
+          "source_html_sha256": "7a896b150a82252cdfd60f03747b2b1db34015dcb657cda727362a3fbe38ddfa",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1894.xml",
+          "xml_sha256": "c3665b5a4fa78fd63e2d1a5c199aeae5ba3fa00932ab713c674db62323cd997b",
+          "verified_xml_dates": [
+            {
+              "text": "8 June [1856]",
+              "attributes": {
+                "when": "1856-06-08"
+              },
+              "lower": "1856-06-08",
+              "upper": "1856-06-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-08\">8 June [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1897",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1897.html",
+          "source_html_sha256": "5cbfda60cc4ec542084af52e75ceb23be34bd286be84b260e1b70d4dd721e77c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1897.xml",
+          "xml_sha256": "196f41993d54ae0af5180dea1c62cc6e10a4e4e37ea4ae9988694d3b4a11a31a",
+          "verified_xml_dates": [
+            {
+              "text": "[Sept–Oct 1856]",
+              "attributes": {
+                "notBefore": "1856-09-01",
+                "notAfter": "1856-10-31"
+              },
+              "lower": "1856-09-01",
+              "upper": "1856-10-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1856-09-01\" notAfter=\"1856-10-31\">[Sept–Oct 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1894",
+          "body_paragraph": 3,
+          "quote": "whether any sort of uniformity is acquired in the mongrel race",
+          "char_start": 711,
+          "char_end": 773,
+          "source_sha256": "7a896b150a82252cdfd60f03747b2b1db34015dcb657cda727362a3fbe38ddfa",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1897",
+          "body_paragraph": 1,
+          "quote": "I have met with them all shapes & colors",
+          "char_start": 30,
+          "char_end": 70,
+          "source_sha256": "5cbfda60cc4ec542084af52e75ceb23be34bd286be84b260e1b70d4dd721e77c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]"
+        },
+        {
+          "letter_id": "DCP-LETT-1894",
+          "body_paragraph": 4,
+          "quote": "the feral Pigeons at Ascension, had black bars on wing & white rumps",
+          "char_start": 102,
+          "char_end": 170,
+          "source_sha256": "7a896b150a82252cdfd60f03747b2b1db34015dcb657cda727362a3fbe38ddfa",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1897",
+          "body_paragraph": 4,
+          "quote": "cannot remember if the Ascension birds had black bars on the Wings, & white rumps",
+          "char_start": 129,
+          "char_end": 210,
+          "source_sha256": "5cbfda60cc4ec542084af52e75ceb23be34bd286be84b260e1b70d4dd721e77c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1894",
+          "body_paragraph": 4,
+          "quote": "a Grey-Hound, with a very short & much curled tail",
+          "char_start": 261,
+          "char_end": 311,
+          "source_sha256": "7a896b150a82252cdfd60f03747b2b1db34015dcb657cda727362a3fbe38ddfa",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1897",
+          "body_paragraph": 5,
+          "quote": "Respecting the Greyhound with “very short and much curled tail”",
+          "char_start": 0,
+          "char_end": 63,
+          "source_sha256": "5cbfda60cc4ec542084af52e75ceb23be34bd286be84b260e1b70d4dd721e77c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2151"
+      ],
+      "case": "five authorial enclosure questions and separate footnote annotation",
+      "requirement": "Keep the five actual authorial enclosure questions distinct from the body: origin and foreign name, habits, cage display versus freedom, sex/individual differences among pure birds, and breeding true in form/colour. The intermediary search and Holland fallback are in the cover body, not among those five questions. Preserve uncertain Kinder/Trinder identity without choosing a person; inspect segmented typography for supported rendering. Body asks about a plant-culture report, while editorial summary names Cnicus; do not import the summary title. Exclude the separate undated Darwin note quoted in footnote8. The authentic authorial enclosure is not an annotation.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2151",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2151.html",
+          "source_html_sha256": "7ecc812d4723773e3d8f72532688a7e859113e2966b993280ecd1edb45b9f22c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2151.xml",
+          "xml_sha256": "afa6819a748bae8c1e7503bd6a47c4ba29be4870a642bc65eb1d53b55d0415ce",
+          "verified_xml_dates": [
+            {
+              "text": "4 Oct [1857]",
+              "attributes": {
+                "when": "1857-10-04"
+              },
+              "lower": "1857-10-04",
+              "upper": "1857-10-04",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-10-04\">4 Oct [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2151",
+          "body_paragraph": 1,
+          "quote": "I have just ordered a pair of Smiters from a Mr. Roe of Salisbury",
+          "char_start": 210,
+          "char_end": 275,
+          "source_sha256": "7ecc812d4723773e3d8f72532688a7e859113e2966b993280ecd1edb45b9f22c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2151",
+          "body_paragraph": 3,
+          "quote": "I have lately seen a short abstract in Athenæum of a communication by you on the variation of Plants by culture",
+          "char_start": 0,
+          "char_end": 111,
+          "source_sha256": "7ecc812d4723773e3d8f72532688a7e859113e2966b993280ecd1edb45b9f22c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        }
+      ],
+      "verified_authorial_enclosure": {
+        "letter_id": "DCP-LETT-2151",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/p",
+        "source_sha256": "7ecc812d4723773e3d8f72532688a7e859113e2966b993280ecd1edb45b9f22c",
+        "full_text": "(1)Whence were the Smiters procured: if from abroad what name did they bear? (2)What are the peculiarities in their habits? (3)Will they display their peculiarities in a cage, some 5 or 6 yards long by 4 or 5 broad & ten ft high? Or must they be quite free.— (4).Are the peculiarities the same in Cock & Hen? are they equally displayed in all; or are some Birds much better than others? I refer of course, only to pure bred Birds.— (5)Do they breed true in form & colour?",
+        "question_count": 5,
+        "voice": "Darwin authorial enclosure, not editorial annotation"
+      },
+      "verified_excluded_annotation": {
+        "letter_id": "DCP-LETT-2151",
+        "literal_text": "There is a note in DAR 47: 65 that reads:",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[3]/div[8]/div[2]",
+        "source_sha256": "7ecc812d4723773e3d8f72532688a7e859113e2966b993280ecd1edb45b9f22c"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2177F"
+      ],
+      "case": "unavailable Buckman body",
+      "requirement": "Treat 2177F as body unavailable. The preserved page contains an editorial extraction-availability notice followed by a synopsis of relative native and foreign weed growth; neither is an authentic Buckman letter transcript. Do not use the notice or synopsis as a surviving reply to 2151’s five enclosure questions or plant-publication request, and retain the missing source boundary.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2177F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2177F.html",
+          "source_html_sha256": "eae09554ecc44f58fd264c5f802a14685e0fba73a519fdc00b96814bb98c4840",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2177F.xml",
+          "xml_sha256": "322ab6fe1ffd9857e6aa1bccef83f380e374a3bbcdc06e44519ae836e03c84ed",
+          "verified_xml_dates": [
+            {
+              "text": "[1 Dec 1857]",
+              "attributes": {
+                "when": "1857-12-01"
+              },
+              "lower": "1857-12-01",
+              "upper": "1857-12-01",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-12-01\">[1 Dec 1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [],
+      "source_extent": "The loaded paragraph combines the availability notice with “Summary Discusses the relative growth of native and foreign weeds.” The notice and summary are page metadata/editorial text, not a Buckman body.",
+      "verified_availability_notice": {
+        "letter_id": "DCP-LETT-2177F",
+        "literal_text": "The transcript of this letter is not yet available online.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div/div[2]/p",
+        "source_sha256": "eae09554ecc44f58fd264c5f802a14685e0fba73a519fdc00b96814bb98c4840"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2151",
+        "DCP-LETT-2177F"
+      ],
+      "case": "date interval and absent response",
+      "requirement": "Preserve 2151’s 4 October 1857 date and 2177F’s 1 December 1857 metadata as separate qualified dates. October 4 to December 1 is not a one-day interval and does not prove that 2177F answers 2151. Keep 2151’s composition, dispatch, receipt and future publication stages separate; no exact Buckman receipt or response is established.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2151",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2151.html",
+          "source_html_sha256": "7ecc812d4723773e3d8f72532688a7e859113e2966b993280ecd1edb45b9f22c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2151.xml",
+          "xml_sha256": "afa6819a748bae8c1e7503bd6a47c4ba29be4870a642bc65eb1d53b55d0415ce",
+          "verified_xml_dates": [
+            {
+              "text": "4 Oct [1857]",
+              "attributes": {
+                "when": "1857-10-04"
+              },
+              "lower": "1857-10-04",
+              "upper": "1857-10-04",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-10-04\">4 Oct [1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2177F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2177F.html",
+          "source_html_sha256": "eae09554ecc44f58fd264c5f802a14685e0fba73a519fdc00b96814bb98c4840",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2177F.xml",
+          "xml_sha256": "322ab6fe1ffd9857e6aa1bccef83f380e374a3bbcdc06e44519ae836e03c84ed",
+          "verified_xml_dates": [
+            {
+              "text": "[1 Dec 1857]",
+              "attributes": {
+                "when": "1857-12-01"
+              },
+              "lower": "1857-12-01",
+              "upper": "1857-12-01",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-12-01\">[1 Dec 1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2151",
+          "body_paragraph": 1,
+          "quote": "I want to beg a favour of you",
+          "char_start": 0,
+          "char_end": 29,
+          "source_sha256": "7ecc812d4723773e3d8f72532688a7e859113e2966b993280ecd1edb45b9f22c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    }
+  ],
+  "notes": "Exact source evidence was selected from preserved body text and matched programmatically to the indicated body block and unique raw HTML DOM node. The 2177F availability notice is explicitly labelled page metadata, not letter text. Footnote 8 is retained as separately located apparatus verbatim without promoting it to the enclosure or body. Preserve source voice, date qualifiers, missing response, and receipt boundaries under the current export-content policy.",
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-48.draft.json",
+      "sha256": "b3de929f77dbd5512f965c5068f679384553773474fcc5c3b4a8fdac0af56b24"
+    }
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md",
+  "primary_verification": {
+    "exact_body_quotes_checked": 9,
+    "unique_source_html_xml_pairs_checked": 4,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "authorial_enclosures_checked": 1,
+    "enclosure_questions_checked": 5,
+    "excluded_annotation_locators_checked": 1,
+    "availability_notice_locators_checked": 1
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "primary_corrections": [
+    "Corrected candidate list of enclosure topics: intermediary and Holland material belong to cover body.",
+    "Corrected Cnicus scope to editorial-summary mismatch.",
+    "Limited mongrel reply to opening ofP1, not all telegony anecdotes.",
+    "Availability notice verified as metadata rather than authentic body quote."
+  ]
+}

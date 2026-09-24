@@ -1,0 +1,74 @@
+{
+  "batch_id": "batch-17",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-2187",
+      "target_id": "DCP-LETT-2057",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_same_author_not_incoming",
+      "reason": "Both 2187 and 2057 are Darwin outgoing. December rabbit note from Fox is missing; February pea/enclosure acknowledgement is not that prompt."
+    }
+  ],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-2187",
+      "source_kind": "ALS",
+      "voice": "Darwin body with attributed Fox report and uncertain remembered published history",
+      "date_assessment": "December 17 with supplied 1857; current rabbit input known by reply but its exact date/receipt unknown",
+      "disposition": "unpaired_darwin_grounding_with_missing_incoming",
+      "training_export_ready": false
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-2187",
+      "kind": "conditional_breed_identification",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2187",
+          "body_paragraph": 1,
+          "quote": "I presume it is that called at Shows the “Himalaya breed”",
+          "char_start": 111,
+          "char_end": 168,
+          "source_sha256": "e9cfe166bf1ca914123cd37b9c0665b525130150f074d28cd6f0fb0d15d0560c"
+        },
+        {
+          "letter_id": "DCP-LETT-2187",
+          "body_paragraph": 1,
+          "quote": "If the ears are not black, will you tell me",
+          "char_start": 744,
+          "char_end": 787,
+          "source_sha256": "e9cfe166bf1ca914123cd37b9c0665b525130150f074d28cd6f0fb0d15d0560c"
+        }
+      ],
+      "description": "Tentative identification and conditional request, not evidence specimen supplied by Fox or exact equivalence of breeds."
+    },
+    {
+      "letter_id": "DCP-LETT-2187",
+      "kind": "received_letter_future_action",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2187",
+          "body_paragraph": 3,
+          "quote": "I have heard from Mr Woodd & will second him & if possible attend the voting",
+          "char_start": 0,
+          "char_end": 76,
+          "source_sha256": "e9cfe166bf1ca914123cd37b9c0665b525130150f074d28cd6f0fb0d15d0560c"
+        }
+      ],
+      "description": "Woodd letter receipt is reported but source missing. Seconding/voting prospective, not completed membership."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-2187",
+      "description": "Current Fox rabbit letter and Woodd application letter are missing; no synthetic prompts."
+    }
+  ],
+  "summary": "One fresh target fully read with three accepted context readings reused after hash verification. Same-author proposed relationship rejected; no new accepted edges."
+}

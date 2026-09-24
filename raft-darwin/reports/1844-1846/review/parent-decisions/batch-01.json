@@ -1,0 +1,568 @@
+{
+  "batch_id": "batch-01",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [
+    "DCP-LETT-13816A"
+  ],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-723",
+      "disposition": "cross_boundary_incoming_identified_by_1844_response",
+      "source_kind": "fragment",
+      "voice": "incoming",
+      "date_assessment": "1843-12-12 to1844-01-11 unchanged; known by1844-01-11 via729, no earlier date"
+    },
+    {
+      "letter_id": "DCP-LETT-729",
+      "disposition": "response_candidate",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "1844-01-11"
+    },
+    {
+      "letter_id": "DCP-LETT-13816A",
+      "disposition": "source_record_only_no_transcription",
+      "source_kind": "catalogue synopsis",
+      "voice": "unavailable",
+      "date_assessment": "459 alternatives on day22 monthly Jan1844–Mar1882; no refinement"
+    },
+    {
+      "letter_id": "DCP-LETT-733",
+      "disposition": "grounding_candidate_exact_date_held",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "Assigned1844-01-27; inference from Jan25 intermediary letter is flagged"
+    },
+    {
+      "letter_id": "DCP-LETT-734",
+      "disposition": "incoming_context_only",
+      "source_kind": "fragment",
+      "voice": "incoming",
+      "date_assessment": "1844-01-29 composition; no dated Darwin receipt established here"
+    },
+    {
+      "letter_id": "DCP-LETT-735",
+      "disposition": "grounding_candidate_missing_input",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "1844-02-03 to1844-02-17; no point date",
+      "future_voice_paragraphs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "excluded_body_paragraphs": [
+        4
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-736",
+      "disposition": "grounding_candidate_missing_input",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "1844-02-23"
+    },
+    {
+      "letter_id": "DCP-LETT-737",
+      "disposition": "incoming_identified_by_response",
+      "source_kind": "incomplete letter",
+      "voice": "incoming",
+      "date_assessment": "1844-02-23 to1844-03-06 unchanged; known byMar6 via738"
+    },
+    {
+      "letter_id": "DCP-LETT-738",
+      "disposition": "response_candidate",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "Assigned1844-03-06 Wednesday before739"
+    },
+    {
+      "letter_id": "DCP-LETT-739",
+      "disposition": "incoming_identified_by_response",
+      "source_kind": "fragment",
+      "voice": "incoming",
+      "date_assessment": "1844-03-09 composition; known byMar11 via740"
+    },
+    {
+      "letter_id": "DCP-LETT-740",
+      "disposition": "response_candidate",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "1844-03-11"
+    }
+  ],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-723",
+      "target_id": "DCP-LETT-722",
+      "relationship": "replies_to",
+      "parent_decision": "already_accepted_in_prior_ledger",
+      "reason": "Prior batch06 already records this reverse relationship; preserve and count once."
+    },
+    {
+      "source_id": "DCP-LETT-729",
+      "target_id": "DCP-LETT-723",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_direct_reply",
+      "reason": "Independent full-source comparison confirms distinctive content; see final relationship evidence."
+    },
+    {
+      "source_id": "DCP-LETT-734",
+      "target_id": "DCP-LETT-729",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_reverse_reply",
+      "reason": "Accept reverse reply to former letter729, correcting the reviewer's arrival-event conflation; today's arrival is a separate note."
+    },
+    {
+      "source_id": "DCP-LETT-736",
+      "target_id": "DCP-LETT-734",
+      "relationship": "replies_to",
+      "parent_decision": "rejected",
+      "reason": "Editorial note explicitly identifies the answered note as missing; matching subjects do not identify734."
+    },
+    {
+      "source_id": "DCP-LETT-737",
+      "target_id": "DCP-LETT-736",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_reverse_reply",
+      "reason": "Independent full-source comparison confirms distinctive content; see final relationship evidence."
+    },
+    {
+      "source_id": "DCP-LETT-738",
+      "target_id": "DCP-LETT-737",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_direct_reply",
+      "reason": "Independent full-source comparison confirms distinctive content; see final relationship evidence."
+    },
+    {
+      "source_id": "DCP-LETT-739",
+      "target_id": "DCP-LETT-738",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_reverse_reply",
+      "reason": "Independent full-source comparison confirms distinctive content; see final relationship evidence."
+    },
+    {
+      "source_id": "DCP-LETT-740",
+      "target_id": "DCP-LETT-739",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_direct_reply",
+      "reason": "Independent full-source comparison confirms distinctive content; see final relationship evidence."
+    },
+    {
+      "source_id": "DCP-LETT-733",
+      "target_id": "DCP-LETT-734",
+      "relationship": "replies_to",
+      "parent_decision": "rejected",
+      "reason": "734 postdates733; no incoming Hooker input for the mediated Ehrenberg request."
+    }
+  ],
+  "direct_reply_pairs": [
+    {
+      "incoming_id": "DCP-LETT-723",
+      "outgoing_id": "DCP-LETT-729",
+      "status": "confirmed_direct_reply",
+      "known_by_date": "1844-01-11",
+      "actual_receipt_date": null,
+      "response_scope": "single_date_surviving_body",
+      "response_sections": [],
+      "response_date_policy": "DCP assigned single writing day; input identified through the response, without changing original input composition bounds or claiming a physical receipt day",
+      "rationale": "Darwin quotes Hooker's distinctive disclaimer about arranging extended views. This identifies the fragment across the 1843/1844 boundary; no earlier Darwin availability is inferred.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-723",
+          "body_paragraph": 5,
+          "quote": "Not being a a good arranger of xtended views",
+          "locator": "div#letter div.body-content; retained body block 5",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-723.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-723.xml",
+            "retrieved_at": "2026-09-16T10:53:50.912064+00:00",
+            "sha256": "91d1b1110c803c611fc1057721f89ae492c8c271311ad8df68c766387ded0573",
+            "bytes": 118925,
+            "http_status": 200,
+            "etag": "\"cb96f12e52c77a65dd9275c7242b6833\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-723"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-729",
+          "body_paragraph": 1,
+          "quote": "what you say of “not being a good arranger of extended views”",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-729.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-729.xml",
+            "retrieved_at": "2026-09-16T23:58:16.359102+00:00",
+            "sha256": "14b2264e5e86aac579701b3ae7a120881545bad9c08d5bce816e0731e18eb644",
+            "bytes": 122532,
+            "http_status": 200,
+            "etag": "\"39454be08a05197d391cb9ed2c6955fa\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-729"
+          }
+        }
+      ],
+      "training_export_ready": false
+    },
+    {
+      "incoming_id": "DCP-LETT-737",
+      "outgoing_id": "DCP-LETT-738",
+      "status": "confirmed_direct_reply",
+      "known_by_date": "1844-03-06",
+      "actual_receipt_date": null,
+      "response_scope": "single_date_surviving_body",
+      "response_sections": [],
+      "response_date_policy": "DCP assigned single writing day; input identified through the response, without changing original input composition bounds or claiming a physical receipt day",
+      "rationale": "Darwin corrects the precise Malden misidentification and the extension of his shell-species remark to genera in Hooker's letter.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-737",
+          "body_paragraph": 2,
+          "quote": "(Malden Isld (which is it?)",
+          "locator": "div#letter div.body-content; retained body block 2",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-737.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-737.xml",
+            "retrieved_at": "2026-09-16T23:58:18.804938+00:00",
+            "sha256": "f38eca17b43258affcebb7696b09e76ee15592e561d985b9e43a13647d1309f8",
+            "bytes": 126075,
+            "http_status": 200,
+            "etag": "\"0c99bbd595771c02df9d8642eef07858\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-737"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-738",
+          "body_paragraph": 1,
+          "quote": "Malden Isld is not one of the Galapagos",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-738.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-738.xml",
+            "retrieved_at": "2026-09-16T23:58:19.023091+00:00",
+            "sha256": "d831129872100f934def87fce9ff0952d04c1f711f39c873b61869bccb5d9a85",
+            "bytes": 116738,
+            "http_status": 200,
+            "etag": "\"cf69c9ea0a36ea690ee13db7bb7b8841\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-738"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-738",
+          "body_paragraph": 6,
+          "quote": "you have extended my remark on the range of species of shells into the range of genera or groups",
+          "locator": "div#letter div.body-content; retained body block 6",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-738.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-738.xml",
+            "retrieved_at": "2026-09-16T23:58:19.023091+00:00",
+            "sha256": "d831129872100f934def87fce9ff0952d04c1f711f39c873b61869bccb5d9a85",
+            "bytes": 116738,
+            "http_status": 200,
+            "etag": "\"cf69c9ea0a36ea690ee13db7bb7b8841\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-738"
+          }
+        }
+      ],
+      "training_export_ready": false
+    },
+    {
+      "incoming_id": "DCP-LETT-739",
+      "outgoing_id": "DCP-LETT-740",
+      "status": "confirmed_direct_reply",
+      "known_by_date": "1844-03-11",
+      "actual_receipt_date": null,
+      "response_scope": "single_date_surviving_body",
+      "response_sections": [],
+      "response_date_policy": "DCP assigned single writing day; input identified through the response, without changing original input composition bounds or claiming a physical receipt day",
+      "rationale": "The £1000 grant, 500 plates and lithography-cost question are specifically answered; these distinctive details identify the incoming fragment.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-739",
+          "body_paragraph": 3,
+          "quote": "granted £1000",
+          "locator": "div#letter div.body-content; retained body block 3",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-739.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-739.xml",
+            "retrieved_at": "2026-09-16T23:58:19.204149+00:00",
+            "sha256": "566a3c8a7f07652dfe410bb3e43dc33316ba7b71d339bf69b32c1e7bcbe18c3d",
+            "bytes": 118530,
+            "http_status": 200,
+            "etag": "\"caa885ef5d3d67c39d6a702abcf2366a\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-739"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-739",
+          "body_paragraph": 3,
+          "quote": "provide about 500 plates",
+          "locator": "div#letter div.body-content; retained body block 3",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-739.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-739.xml",
+            "retrieved_at": "2026-09-16T23:58:19.204149+00:00",
+            "sha256": "566a3c8a7f07652dfe410bb3e43dc33316ba7b71d339bf69b32c1e7bcbe18c3d",
+            "bytes": 118530,
+            "http_status": 200,
+            "etag": "\"caa885ef5d3d67c39d6a702abcf2366a\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-739"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-740",
+          "body_paragraph": 1,
+          "quote": "I am truly pleased in every way at your grant",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-740.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-740.xml",
+            "retrieved_at": "2026-09-16T23:58:19.627966+00:00",
+            "sha256": "b0cbe6fd034d37b5a7b737521d223fefcbc4c3341b8f64817e695e15acc9de1f",
+            "bytes": 123826,
+            "http_status": 200,
+            "etag": "\"6bb9972dae95f26c845813f05106420d\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-740"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-740",
+          "body_paragraph": 1,
+          "quote": "You will manage wonderfully well if you produce 500 Plates",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-740.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-740.xml",
+            "retrieved_at": "2026-09-16T23:58:19.627966+00:00",
+            "sha256": "b0cbe6fd034d37b5a7b737521d223fefcbc4c3341b8f64817e695e15acc9de1f",
+            "bytes": 123826,
+            "http_status": 200,
+            "etag": "\"6bb9972dae95f26c845813f05106420d\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-740"
+          }
+        }
+      ],
+      "training_export_ready": false
+    }
+  ],
+  "correspondent_replies": [
+    {
+      "response_id": "DCP-LETT-734",
+      "antecedent_id": "DCP-LETT-729",
+      "status": "supported_reply_by_correspondent",
+      "rationale": "Hooker answers the earlier letter's specific botanical and mutation questions. His opening distinguishes today's arrival from that former letter; do not assign the January29 arrival event to 729.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-734",
+          "body_paragraph": 1,
+          "quote": "not having answered ere this your former very kind one",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-734.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-734.xml",
+            "retrieved_at": "2026-09-16T23:58:16.805324+00:00",
+            "sha256": "f3d85092f74c91b0aa2ef30afa69e27010e145e8964c22a4d21229cdd04d93b6",
+            "bytes": 128745,
+            "http_status": 200,
+            "etag": "\"0a03d3167d37a4f8a765c3387abfe00f\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-734"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-734",
+          "body_paragraph": 4,
+          "quote": "Mr Berkeley was with us shortly before your letter arrived",
+          "locator": "div#letter div.body-content; retained body block 4",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-734.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-734.xml",
+            "retrieved_at": "2026-09-16T23:58:16.805324+00:00",
+            "sha256": "f3d85092f74c91b0aa2ef30afa69e27010e145e8964c22a4d21229cdd04d93b6",
+            "bytes": 128745,
+            "http_status": 200,
+            "etag": "\"0a03d3167d37a4f8a765c3387abfe00f\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-734"
+          }
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    },
+    {
+      "response_id": "DCP-LETT-737",
+      "antecedent_id": "DCP-LETT-736",
+      "status": "supported_reply_by_correspondent",
+      "rationale": "Hooker quotes and investigates Darwin's large mundane genera/range question and answers the island comparison; this is reverse correspondence, not proof Darwin has yet read Hooker.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-737",
+          "body_paragraph": 2,
+          "quote": "Whether the species of large mundane genera have as wide a range as those of small genera?",
+          "locator": "div#letter div.body-content; retained body block 2",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-737.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-737.xml",
+            "retrieved_at": "2026-09-16T23:58:18.804938+00:00",
+            "sha256": "f38eca17b43258affcebb7696b09e76ee15592e561d985b9e43a13647d1309f8",
+            "bytes": 126075,
+            "http_status": 200,
+            "etag": "\"0c99bbd595771c02df9d8642eef07858\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-737"
+          }
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    },
+    {
+      "response_id": "DCP-LETT-739",
+      "antecedent_id": "DCP-LETT-738",
+      "status": "supported_reply_by_correspondent",
+      "rationale": "Hooker expressly thanks Darwin for the Malden correction and explains the mixed collection labels.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-739",
+          "body_paragraph": 1,
+          "quote": "I am very much obliged to you for your prompt information concerning Malden Isld.",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-739.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-739.xml",
+            "retrieved_at": "2026-09-16T23:58:19.204149+00:00",
+            "sha256": "566a3c8a7f07652dfe410bb3e43dc33316ba7b71d339bf69b32c1e7bcbe18c3d",
+            "bytes": 118530,
+            "http_status": 200,
+            "etag": "\"caa885ef5d3d67c39d6a702abcf2366a\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-739"
+          }
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    }
+  ],
+  "additional_exact_date_review_ids": [
+    "DCP-LETT-733"
+  ],
+  "previously_recorded_relationships": [
+    {
+      "response_id": "DCP-LETT-723",
+      "antecedent_id": "DCP-LETT-722",
+      "relationship": "replies_to",
+      "ledger": "data/annotations/remaining_1837_1843/batch-06.json",
+      "reason": "Reconfirmed contextual reverse reply; count once across periods."
+    }
+  ],
+  "rejected_or_candidate_links": [
+    {
+      "source_id": "DCP-LETT-736",
+      "target_id": "DCP-LETT-734",
+      "relationship": "replies_to",
+      "status": "rejected",
+      "reason": "Generic botanical continuity does not identify the missing note that Darwin explicitly answers.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-736",
+          "locator": "editorial_footnotes",
+          "quote": "This note has not been found.",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-736.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-736.xml",
+            "retrieved_at": "2026-09-16T23:58:18.225925+00:00",
+            "sha256": "f713e776f7b132edf5cd6d9f1757f0bd8e7fa30e5a043355995b07c04d7454a6",
+            "bytes": 124611,
+            "http_status": 200,
+            "etag": "\"9b1b6b0a5336470a390a0f98d98fd7fc\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-736"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-736",
+          "body_paragraph": 1,
+          "quote": "Absence from home has prevented me sooner answering your note.",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-736.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-736.xml",
+            "retrieved_at": "2026-09-16T23:58:18.225925+00:00",
+            "sha256": "f713e776f7b132edf5cd6d9f1757f0bd8e7fa30e5a043355995b07c04d7454a6",
+            "bytes": 124611,
+            "http_status": 200,
+            "etag": "\"9b1b6b0a5336470a390a0f98d98fd7fc\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-736"
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-735",
+      "target_id": "DCP-LETT-734",
+      "relationship": "replies_to",
+      "status": "candidate_only",
+      "reason": "The long incoming fragment is chronologically possible, but lacks the surviving Antarctic infusoria description specifically acknowledged in735; missing opening or a different missing letter remains possible. No accepted pair."
+    },
+    {
+      "source_id": "DCP-LETT-733",
+      "target_id": "DCP-LETT-734",
+      "relationship": "replies_to",
+      "status": "rejected",
+      "reason": "The proposed response is earlier than this incoming letter and reports a mediated Ehrenberg request, not Hooker's surviving botanical answer."
+    }
+  ],
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-734",
+      "reason": "Reviewer conflates the freshly arrived note with the former letter being answered. Distinctive body identifies729; exact January29 receipt does not."
+    },
+    {
+      "letter_id": "DCP-LETT-735",
+      "reason": "P4 repeats the tail ofP3 with malformed markup; preserve source and excludeP4 from any future voice projection."
+    },
+    {
+      "letter_id": "DCP-LETT-13816A",
+      "reason": "Reviewer issues string mentions an incomplete surviving paragraph, but the only text is catalogue synopsis. No surviving Darwin body."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "mentioned_in": [
+        "DCP-LETT-733",
+        "DCP-LETT-735"
+      ],
+      "description": "Ehrenberg request communicated through Dieffenbach; no particular incoming text yet identified. Inspect the separate network packet before asserting knowledge source."
+    },
+    {
+      "mentioned_in": [
+        "DCP-LETT-736"
+      ],
+      "description": "Hooker note acknowledged inP1 and explicitly unlocated in editorial note1."
+    }
+  ],
+  "date_evidence": [
+    {
+      "letter_id": "DCP-LETT-733",
+      "reason": "Assigned Jan27 derives from Jan25 Dieffenbach letter and assumption of immediate action; hold exact-day retrieval until corroboration."
+    },
+    {
+      "letter_id": "DCP-LETT-734",
+      "reason": "Pencilled Darwin annotation reported in editorial note12 may be contemporary but is not established; exclude from dated voice and knowledge."
+    }
+  ]
+}

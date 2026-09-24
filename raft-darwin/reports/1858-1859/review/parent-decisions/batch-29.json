@@ -1,0 +1,86 @@
+{
+  "batch_id": "batch-29",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-2450A",
+      "source_kind": "Darwin letter",
+      "voice": "Darwin with attributed reports and qualifications retained",
+      "date_assessment": "9 Apr [1859]",
+      "disposition": "darwin_unpaired_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2479",
+      "source_kind": "Darwin letter",
+      "voice": "Darwin with attributed reports and qualifications retained",
+      "date_assessment": "5 Aug [1859]",
+      "disposition": "darwin_unpaired_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2491",
+      "source_kind": "Darwin letter",
+      "voice": "Darwin with attributed reports and qualifications retained",
+      "date_assessment": "13 Sept [1859]",
+      "disposition": "darwin_unpaired_grounding_candidate",
+      "training_export_ready": false
+    }
+  ],
+  "corrections": [
+    {
+      "kind": "extraneous_worker_date_section",
+      "description": "Luna date_sections names four William-family records from another packet. They are not packet29 sources or adopted evidence. Actual three context sources are2407,2417,2423, explicitly reread from accepted28."
+    },
+    {
+      "kind": "rendering_policy",
+      "description": "Preserve raw diag/ramme source artifacts as evidence but require logged cleanup or hold before export; literal retention is not final export readiness."
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-2491",
+      "kind": "experiment_limits_and_future_result",
+      "description": "Only some mothers identified; next-year result not yet observed.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2491",
+          "body_paragraph": 1,
+          "quote": "as it is I know the mother only of some of them.",
+          "char_start": 390,
+          "char_end": 438,
+          "source_sha256": "8100d372d4d0faf78a84ec8550ca8539b49a66af047ef0ef5ec49c2f1c7e0cef"
+        },
+        {
+          "letter_id": "DCP-LETT-2491",
+          "body_paragraph": 3,
+          "quote": "I shall be very curious to see result next year.",
+          "char_start": 378,
+          "char_end": 426,
+          "source_sha256": "8100d372d4d0faf78a84ec8550ca8539b49a66af047ef0ef5ec49c2f1c7e0cef"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-2491",
+      "kind": "publication_forecast",
+      "description": "First-week-November forecast retained as contemporary expectation, not actual publication date.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2491",
+          "body_paragraph": 4,
+          "quote": "My unlucky Book will be published 1st. week in November.",
+          "char_start": 178,
+          "char_end": 234,
+          "source_sha256": "8100d372d4d0faf78a84ec8550ca8539b49a66af047ef0ef5ec49c2f1c7e0cef"
+        }
+      ]
+    }
+  ],
+  "summary": "Three new complete Tegetmeier sources and three verified primary reuses. No graph edges; experimental stages and publication forecasts preserved."
+}

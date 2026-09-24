@@ -1,0 +1,158 @@
+{
+  "batch_id": "batch-06",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-1773",
+      "target_id": "DCP-LETT-1742",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_same_author",
+      "reason": "Both endpoints are Darwin outgoing. A later request or response referring to unpreserved Hooker material cannot be paired with Darwin own earlier letter."
+    },
+    {
+      "source_id": "DCP-LETT-1781",
+      "target_id": "DCP-LETT-1774",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_same_author",
+      "reason": "Both endpoints are Darwin outgoing. A later request or response referring to unpreserved Hooker material cannot be paired with Darwin own earlier letter."
+    }
+  ],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-1773",
+      "disposition": "grounding_candidate_missing_prompt",
+      "source_kind": "autograph letter",
+      "voice": "Charles Darwin body; Hooker annotations and quoted publications/editorial apparatus separately attributed",
+      "date_assessment": "6 Nov [1855]; supplied/conjectured components retained; November 8 receipt applies only to named missing note.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1774",
+      "disposition": "grounding_candidate_missing_prompt",
+      "source_kind": "autograph letter",
+      "voice": "Charles Darwin body; Hooker annotations and quoted publications/editorial apparatus separately attributed",
+      "date_assessment": "8 [Nov 1855]; supplied/conjectured components retained; November 8 receipt applies only to named missing note.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1781",
+      "disposition": "grounding_candidate_missing_prompt",
+      "source_kind": "autograph letter",
+      "voice": "Charles Darwin body; Hooker annotations and quoted publications/editorial apparatus separately attributed",
+      "date_assessment": "14 Nov [1855]; supplied/conjectured components retained; November 8 receipt applies only to named missing note.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1785",
+      "disposition": "grounding_candidate_missing_prompt",
+      "source_kind": "autograph letter",
+      "voice": "Charles Darwin body; Hooker annotations and quoted publications/editorial apparatus separately attributed",
+      "date_assessment": "[23 Nov 1855]; supplied/conjectured components retained; November 8 receipt applies only to named missing note.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1736",
+      "disposition": "grounding_response_to_partial_published_source",
+      "source_kind": "autograph letter",
+      "voice": "Charles Darwin body; Hooker annotations and quoted publications/editorial apparatus separately attributed",
+      "date_assessment": "9 [Dec 1855]; supplied/conjectured components retained; November 8 receipt applies only to named missing note.",
+      "training_export_ready": false
+    }
+  ],
+  "additional_exact_date_review_ids": [
+    "DCP-LETT-1785"
+  ],
+  "receipt_events": [
+    {
+      "letter_id": "DCP-LETT-1774",
+      "date": "1855-11-08",
+      "description": "P9 newly received missing Hooker note naming the Norwegian seeds. No full incoming transcription or fabricated ID. P1 separately concerns an unidentified returned seed.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1774",
+          "body_paragraph": 9,
+          "quote": "your note just received with the names of the seeds.",
+          "char_start": 28,
+          "char_end": 80,
+          "source_sha256": "dca3897153ce664ab6797c589f290b97238811f60d8cf11ff264bb774e35f6b1"
+        }
+      ]
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-1736",
+      "kind": "response_to_published_hooker_report",
+      "description": "Full December 8 article not present here; partial editorial quotations are insufficient for a full incoming prompt. Burial trial remains a proposal.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1736",
+          "body_paragraph": 1,
+          "quote": "I think I must now bury seed.",
+          "char_start": 171,
+          "char_end": 200,
+          "source_sha256": "d9ff07f724d880beda3ec9afaecb6462e686079c5ed3843979913bd39cf71263"
+        },
+        {
+          "letter_id": "DCP-LETT-1736",
+          "body_paragraph": 4,
+          "quote": "it wd. be far better to bury the Charlock seed in a Public Garden",
+          "char_start": 28,
+          "char_end": 93,
+          "source_sha256": "d9ff07f724d880beda3ec9afaecb6462e686079c5ed3843979913bd39cf71263"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1781",
+      "kind": "conditional_ecological_inference",
+      "description": "Introduced versus native sociability is posed as an enquiry. Later marginal answer is not silently activated on question date.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1781",
+          "body_paragraph": 3,
+          "quote": "whether introduced plants are ever social in their new country not being so in their old",
+          "char_start": 501,
+          "char_end": 589,
+          "source_sha256": "7c202f66837049046e196d573fe14e2b8a4b8b634f6327455ecc6b7b703901ed"
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-1773",
+      "description": "Editorial summary conflates Decaisne review of Van Mons and the separate Flora Indica review; body and citations distinguish them."
+    },
+    {
+      "description": "Both worker proposed reply pairs have two Darwin-authored endpoints. Reject them rather than turn the missing intervening Hooker letters into synthetic prompts."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-1773",
+      "description": "Hooker cover for horticultural journal and separate outgoing identification response."
+    },
+    {
+      "letter_id": "DCP-LETT-1774",
+      "description": "Returned unidentified seed cover and November 8 received identification note; additional Indian Flora scheme discussion."
+    },
+    {
+      "letter_id": "DCP-LETT-1781",
+      "description": "Hooker book information, penultimate baby-health note and subsequent sociability answers."
+    },
+    {
+      "letter_id": "DCP-LETT-1785",
+      "description": "Hooker invitation arrangements and charlock criticism."
+    },
+    {
+      "letter_id": "DCP-LETT-1736",
+      "description": "Full Hooker published report and Seemann memorandum."
+    }
+  ],
+  "previously_recorded_relationships": []
+}

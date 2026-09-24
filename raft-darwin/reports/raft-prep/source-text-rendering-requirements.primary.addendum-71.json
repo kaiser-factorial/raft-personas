@@ -1,0 +1,392 @@
+{
+  "status": "primary_verified_conversion_preparation_requirements",
+  "scope": "Accepted 1858–1859 batch-03 source-text rendering requirements only; no converter, transcript, export, corpus, training or accepted-evidence changes.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1858-1859/review/parent-reading/batch-03.json",
+      "sha256": "ae4f85b965d727d14a7691657235358249eb7fa41d99ee601b06aef451b759a4"
+    },
+    "parent_decision": {
+      "path": "reports/1858-1859/review/parent-decisions/batch-03.json",
+      "sha256": "e96503c4c49d6e6c05a369dcaf9ca024a87898a277f37349228c856ddcba89d9"
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1858-1859/batch-03.json",
+      "sha256": "05ae5b18ce870c86864154440c2f5c8f6367197476eeae15d86238e5c528276e"
+    }
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-2351"
+      ],
+      "case": "Currency and 4½-mile rendering",
+      "requirement": "Preserve raw330/550/£2s2 in the audit with the account evidence; never emit them as £330 or £550. Resolve currency with explicit source support or hold the affected prose. The walking distance is mixed number4 plus fraction1/2, hence4½ miles, not a fraction with numerator4 and denominator1/2. Preserve donor recommendations as authorial content while separating address fields from prose.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2351",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2351.html",
+          "source_html_sha256": "5a7655d9220c430945f0d6b053938690d2e0d5d50925d01d658ad3b446808d50",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2351.xml",
+          "xml_sha256": "b3e28ca7daa215a983382a976869f352d1da36b02ef67742e53e8e363e565be8",
+          "verified_xml_dates": [
+            {
+              "text": "2 Nov [1858]",
+              "attributes": {
+                "when": "1858-11-02"
+              },
+              "lower": "1858-11-02",
+              "upper": "1858-11-02",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-11-02\">2 Nov [1858]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2351",
+          "body_paragraph": 2,
+          "quote": "I hardly like sending Circulars to friends who are not naturalists",
+          "char_start": 0,
+          "char_end": 66,
+          "source_sha256": "5a7655d9220c430945f0d6b053938690d2e0d5d50925d01d658ad3b446808d50",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2351",
+          "body_paragraph": 5,
+          "quote": "Moor Park did me wonderful good & I walked one day 412 miles!",
+          "char_start": 0,
+          "char_end": 61,
+          "source_sha256": "5a7655d9220c430945f0d6b053938690d2e0d5d50925d01d658ad3b446808d50",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2351",
+          "body_paragraph": 1,
+          "quote": "I have pleasure in enclosing draft for 330",
+          "char_start": 0,
+          "char_end": 42,
+          "source_sha256": "5a7655d9220c430945f0d6b053938690d2e0d5d50925d01d658ad3b446808d50",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ],
+      "verified_math": {
+        "whole_number": 4,
+        "numerator": 1,
+        "denominator": 2,
+        "value": "4½",
+        "unit": "miles",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]/math",
+        "raw_mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2355"
+      ],
+      "case": "Split 9–10 November letter and literal 222",
+      "requirement": "Keep P1–P4 as the 9 November section and P5–P8 as the next-morning postscript section. Preserve raw literal 222 in its unresolved charity/currency context; do not silently interpret it as £222. The Lyell sketch sent on the 10th, Henslow’s planned later visit, and contemporaneous medal discussion remain separate events.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2355",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2355.html",
+          "source_html_sha256": "4590b3028c2915e0029155e3703b06ada8471e0feae5e2b34e839085de567801",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2355.xml",
+          "xml_sha256": "489d694ab4a6606b31fa8d44da6e95ca65dd98692b04db670c005bf5bbe3428f",
+          "verified_xml_dates": [
+            {
+              "text": "9[–10] Nov [1858]",
+              "attributes": {
+                "notBefore": "1858-11-09",
+                "notAfter": "1858-11-10"
+              },
+              "lower": "1858-11-09",
+              "upper": "1858-11-10",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1858-11-09\" notAfter=\"1858-11-10\">9[–10] Nov [1858] </ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2355",
+          "body_paragraph": 1,
+          "quote": "I am quite delighted to hear about Copley & Lyell.",
+          "char_start": 0,
+          "char_end": 50,
+          "source_sha256": "4590b3028c2915e0029155e3703b06ada8471e0feae5e2b34e839085de567801",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2355",
+          "body_paragraph": 5,
+          "quote": "I worked all yesterday evening in thinking & have written the paper sent by this Post this morning.",
+          "char_start": 13,
+          "char_end": 112,
+          "source_sha256": "4590b3028c2915e0029155e3703b06ada8471e0feae5e2b34e839085de567801",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2361F"
+      ],
+      "case": "Mixed Darwin questionnaire, Hooker answers and Darwin note",
+      "requirement": "The body is Darwin questionnaire. The section headed CD annotations contains Hooker replies and a separately identified Darwin note; the heading cannot establish authorship. All annotation content is research evidence and excluded from eventual RAFT prose under user content policy. Preserve raw dot in circle marker in the audit; no invented image or unfinished placeholder in export. The originals of the lists are absent; copies DAR50:E61–74 are not transcribed rows here.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2361F",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2361F.html",
+          "source_html_sha256": "ce0fc4d63e31c983b95face5320a1b1130ca037d2aca0d4eec7ea0e08400eccf",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2361F.xml",
+          "xml_sha256": "9a7933861726ad65f9a8b3bc7d069bb9924bbbb9aeb4f66e0b63c2c574b70da3",
+          "verified_xml_dates": [
+            {
+              "text": "[14 Nov 1858]",
+              "attributes": {
+                "when": "1858-11-14"
+              },
+              "lower": "1858-11-14",
+              "upper": "1858-11-14",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-11-14\">[14 Nov 1858]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2361F",
+          "body_paragraph": 1,
+          "quote": "There are 84 genera common to Europe & marked x = extra-tropical or chiefly so.",
+          "char_start": 0,
+          "char_end": 79,
+          "source_sha256": "ce0fc4d63e31c983b95face5320a1b1130ca037d2aca0d4eec7ea0e08400eccf",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[1]"
+        },
+        {
+          "letter_id": "DCP-LETT-2361F",
+          "body_paragraph": 6,
+          "quote": "dot in circle",
+          "char_start": 0,
+          "char_end": 13,
+          "source_sha256": "ce0fc4d63e31c983b95face5320a1b1130ca037d2aca0d4eec7ea0e08400eccf",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2361F",
+          "body_paragraph": 7,
+          "quote": "for annual & some mark for aquatic & sub-aquatic.",
+          "char_start": 0,
+          "char_end": 49,
+          "source_sha256": "ce0fc4d63e31c983b95face5320a1b1130ca037d2aca0d4eec7ea0e08400eccf",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"
+        }
+      ],
+      "authorship_evidence": {
+        "letter_id": "DCP-LETT-2361F",
+        "literal_text": "Hooker’s replies to CD’s questions were made on the same sheet as the questions and have been transcribed as annotations.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[3]/div[1]/div[2]",
+        "source_sha256": "ce0fc4d63e31c983b95face5320a1b1130ca037d2aca0d4eec7ea0e08400eccf"
+      },
+      "annotation_layer": [
+        {
+          "section_class": "annotations",
+          "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]",
+          "text": "CD annotations1.2 Could there … category 1.4] ‘Haloragis, Microtis, &c see list on small paper’ ink2.1 These 84 … Australia? 2.2] ‘I have added the numbers’ ink2.2 And of … Australia 2.3] ‘I have added the number (approx) to each genus’ ink2.3 & how many … Europe)?] ‘these are in the European lists of species!’ ink4.1 Is it a large proportion 4.2] underl; ‘A great proportion of both are herbaceous weeds, but few are true annuals,— Consult Loudon5 in which all will be found—’ ink5.2 lowland] ‘Yes mostly.’ ink5.4 the introduced plants.?] underl; ‘No I have very few dubious & have marked all that are possibly introduced’ inkCD note: It would be interesting to see whether same genera or orders have varied into species in S. America & Australia. | What does Temperate India mean | Is not the **extra-tropical [interl] resemblance of Cape & SW Australia due to Glacial epoch as shown by character of Abyssinian Flora & on W. African Hills?6"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2367"
+      ],
+      "case": "Sunday/20 November calendar conflict",
+      "requirement": "Retain the raw 20 November label alongside the Sunday dateline conflict: 20 November 1858 was Saturday, while Sunday is 21 November. Do not collapse the source to an unqualified exact composition date; preserve its responses to 2361 and its separate de Vriese/South Chile enclosure gaps.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2367",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2367.html",
+          "source_html_sha256": "f5de5f7ad2b4aed1db212f14c119988d507a04c04fe363806eda4967e42c0ccc",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2367.xml",
+          "xml_sha256": "6e778bf6ae6f19c4d83257293f95c55ea5510075ce470f12b6bcf44834cf4039",
+          "verified_xml_dates": [
+            {
+              "text": "[20 Nov 1858]",
+              "attributes": {
+                "when": "1858-11-20"
+              },
+              "lower": "1858-11-20",
+              "upper": "1858-11-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-11-20\">[20 Nov 1858]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2367",
+          "body_paragraph": 1,
+          "quote": "I am groaning over the parturition of my Introd. Essay",
+          "char_start": 0,
+          "char_end": 54,
+          "source_sha256": "f5de5f7ad2b4aed1db212f14c119988d507a04c04fe363806eda4967e42c0ccc",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2367",
+          "body_paragraph": 11,
+          "quote": "Do not fear that you have forestalled me in any thing!",
+          "char_start": 0,
+          "char_end": 54,
+          "source_sha256": "f5de5f7ad2b4aed1db212f14c119988d507a04c04fe363806eda4967e42c0ccc",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[12]"
+        }
+      ],
+      "calendar_checked": {
+        "1858-11-20": "Saturday",
+        "1858-11-21": "Sunday"
+      },
+      "followup": "The deVriese enclosure is now recovered and admitted separately as2327; see pinned supplement. The SouthChile list remains absent."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2318"
+      ],
+      "case": "Manuscript arrival interval",
+      "requirement": "Represent the manuscript arrival as a bounded 7–8 August interval inferred from “two or three days ago” in the 10 August letter, not as an exact 8 August receipt. Keep the missing seaside/Forbes note, thistledown observation and Channel-crossing uncertainty in their respective scopes.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2318",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2318.html",
+          "source_html_sha256": "dd4783cd00d18c1f61a8a423274b579b48891ddee42cff14f1d3ce4638b68eb2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2318.xml",
+          "xml_sha256": "905bbe2a50968fac8783a1bbc9013d18e64f00bc1d1f62f950b58fc6cc2e2810",
+          "verified_xml_dates": [
+            {
+              "text": "[10 Aug 1858]",
+              "attributes": {
+                "when": "1858-08-10"
+              },
+              "lower": "1858-08-10",
+              "upper": "1858-08-10",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-08-10\">[10 Aug 1858]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2318",
+          "body_paragraph": 2,
+          "quote": "You speak of going to sea-side somewhere: we think this the nicest sea-side place",
+          "char_start": 0,
+          "char_end": 81,
+          "source_sha256": "dd4783cd00d18c1f61a8a423274b579b48891ddee42cff14f1d3ce4638b68eb2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2318",
+          "body_paragraph": 1,
+          "quote": "the M.S came safely two or three days ago",
+          "char_start": 27,
+          "char_end": 68,
+          "source_sha256": "dd4783cd00d18c1f61a8a423274b579b48891ddee42cff14f1d3ce4638b68eb2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2322"
+      ],
+      "case": "Mixed-observation perennial list and raw diagram marker",
+      "requirement": "Moore distinguishes personally observed x-marked cases from correspondent reports in the missing95-name enclosure. The ten ornamental names in the letter itself are a different list and span raw diag/ramme markers. Preserve raw markers only in audit and remove documented layout residue from an eventual clean derivative; do not reconstruct the missing enclosure or all95observations. Accepted2322→2345 establishes known-byOctober20, not exactreceipt.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2322",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2322.html",
+          "source_html_sha256": "2f5ba6c0f326e4fbd708e44b6920ce4cb216b20bee3671750baf110c6244edd3",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2322.xml",
+          "xml_sha256": "07ae17da127366676f938979355494d1e1806c4d2c0245105997d31e6d37addb",
+          "verified_xml_dates": [
+            {
+              "text": "11 Aug 1858",
+              "attributes": {
+                "when": "1858-08-11"
+              },
+              "lower": "1858-08-11",
+              "upper": "1858-08-11",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-08-11\">11 Aug 1858</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2322",
+          "body_paragraph": 1,
+          "quote": "those that have come under my own observation are marked thus (x) and on these you may rely.",
+          "char_start": 384,
+          "char_end": 476,
+          "source_sha256": "2f5ba6c0f326e4fbd708e44b6920ce4cb216b20bee3671750baf110c6244edd3",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": "Requirements only. Preserve frozen raw HTML/XML and accepted notes, decisions and ledger; apply once cumulatively during an authorized export, with body quotes restricted to retained authorial sections and apparatus/headers excluded.",
+  "inputs": {
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+    "source_ids": [
+      "DCP-LETT-2351",
+      "DCP-LETT-2355",
+      "DCP-LETT-2361F",
+      "DCP-LETT-2367",
+      "DCP-LETT-2318",
+      "DCP-LETT-2322"
+    ],
+    "figure_manifest": "data/raw/dcp/1858-1859/figures/manifest.json"
+  },
+  "notes": [
+    "Parent accepted batch-03 status and hashes were checked before drafting.",
+    "All numeric, date, voice and marker qualifications above are additive requirements and do not alter accepted decisions."
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-71.draft.json",
+      "sha256": "1fd03aab3b35edcf9dabc892f8c6a54c37eae191f4d8f96d452ea53871f6db41"
+    }
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md",
+  "primary_verification": {
+    "exact_body_quotes_checked": 13,
+    "unique_source_html_xml_pairs_checked": 6,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "actual_mathml_nodes_checked": 1,
+    "calendar_dates_checked": 2,
+    "mixed_annotation_authorship_checked": true
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "supplemental_admission": {
+    "path": "data/annotations/reconciliation/1858-de-vriese-hooker-supplement.primary.json",
+    "sha256": "3cef6021678e48ed6347597e35cefb21fba426de64f8243524e940bf61655122"
+  },
+  "primary_corrections": [
+    "Corrected candidate mathematical description:4½ equals4+(1/2), not4/(1/2).",
+    "Recomputed every exact body locator from actual HTML.",
+    "Separated authorial donor prose from mailing addresses and unresolved currency formatting.",
+    "Excluded all annotation layers from eventual RAFT prose, regardless of whose handwriting they contain.",
+    "Replaced unqualified missing-deVriese status with additive recovered-source reference.",
+    "Distinguished Moore ten-name body list from95-name missing enclosure and retained acceptedOctober20known-by bound."
+  ]
+}

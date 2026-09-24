@@ -1,0 +1,259 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Accepted 1856–1857 batch-23 Wollaston additive rendering/date/voice requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-23.json",
+      "sha256": "6b80a32e096769545c8f3382d95bad8cc3caf0a1ec830c9e952f138b936f3e5a"
+    },
+    "parent_decision": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-23.json",
+      "sha256": "2966c0bee73eba18dcc6febda460de3b68bd070b185b2b43a993de4bbe72d20e"
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-23.json",
+      "sha256": "dd98efa89232f0d659a9f31a21f438921da6eda0ddc053998d84820f4a54a5ec"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-2076"
+      ],
+      "case": "true MathML fraction 23/29",
+      "requirement": "Preserve the true MathML fraction 23/29 in Wollaston’s statement about endemic genera. Do not flatten its numerator and denominator into the displayed string 2329 or treat it as an integer; retain the qualifying “without going afresh into the statistics” language and the surrounding apterous-or-incapable-of-flight claim.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2076",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2076.html",
+          "source_html_sha256": "2f9f38d8ba30cb224165fc3ff1ba73d26a1ef4bd5e9139c2345d4d255f704431",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2076.xml",
+          "xml_sha256": "6cfaed1cea13c73fb2c15ef99f1d32eb540ca5e4d168c66d868726a67cde8ccd"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2076",
+          "body_paragraph": 8,
+          "quote": "I think (without going afresh into the statistics) that you may say that",
+          "source_sha256": "2f9f38d8ba30cb224165fc3ff1ba73d26a1ef4bd5e9139c2345d4d255f704431",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[9]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2013"
+      ],
+      "case": "three MathML halves in Darwin apparatus",
+      "requirement": "Keep the three true MathML halves in the separately dated Darwin experimental memorandum: the smaller 1/2 quantity, the 1/2 A.M. time, and the other larger 1/2 quantity. Preserve the memorandum as Darwin’s later apparatus layer, with its 11/18 December 1856 source alternatives and Wollaston’s body kept separate; do not flatten the fractions into 12, 912 or an undated body claim.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2013",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2013.html",
+          "source_html_sha256": "31621d35fa8ec36750d0f7a11fc5e9c434e52b5f2b022616250b554a5c9ff7bd",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2013.xml",
+          "xml_sha256": "c300db405628b85efe66f593c2a801405c14a270cd01dc98454792e59e8dfe3a"
+        }
+      ],
+      "apparatus_evidence": [
+        {
+          "letter_id": "DCP-LETT-2013",
+          "apparatus_scope": "CD annotations / experimental memorandum",
+          "source_sha256": "31621d35fa8ec36750d0f7a11fc5e9c434e52b5f2b022616250b554a5c9ff7bd",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[2]/div[2]/span",
+          "verbatim": "Dec. 3d"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2133"
+      ],
+      "case": "39-entry two-pair table",
+      "requirement": "Render Wollaston’s catalogue list as its preserved table: 20 rows, with 39 numbered/name entries arranged in two side-by-side pairs for the first 19 rows and a final single entry. Do not flatten row adjacency into biological pairs across columns, reorder catalogue numbers, or interpret numbers as dates; preserve question marks, abbreviations and the undated Darwin heading separately.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2133",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2133.html",
+          "source_html_sha256": "e158b0ba08d2b339cd1e88d0bfa814aa3d065aa1187ca8e804f594835dae2067",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2133.xml",
+          "xml_sha256": "8d605259ab3386787486d9cabede6c9fbdd5d94d7c0b1eec80195741aad2a53c"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2133",
+          "body_paragraph": 4,
+          "quote": "1.perhaps T. lineatus, Sch.",
+          "source_sha256": "e158b0ba08d2b339cd1e88d0bfa814aa3d065aa1187ca8e804f594835dae2067",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/table"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2133"
+      ],
+      "case": "tentative late-1857 date",
+      "requirement": "Preserve the tentative late-1857 preference for 2133 alongside the wider editorial October 1857–April 1858 possibility. The catalogue heading and list are not an exact composition day, and the travel plans in the closing paragraph are source plans rather than proof of delivery or reading.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2133",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2133.html",
+          "source_html_sha256": "e158b0ba08d2b339cd1e88d0bfa814aa3d065aa1187ca8e804f594835dae2067",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2133.xml",
+          "xml_sha256": "8d605259ab3386787486d9cabede6c9fbdd5d94d7c0b1eec80195741aad2a53c"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1912",
+        "DCP-LETT-1912A"
+      ],
+      "case": "dated annotation and distinct papers",
+      "requirement": "Keep 1912’s Darwin annotation “June 27/56” as a knowledge bound, not a precise Wollaston composition or receipt date. Keep 1912A as a separate circa letter on different paper with its own incomplete body and later Darwin annotation; do not merge the two or collapse their date alternatives.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1912",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1912.html",
+          "source_html_sha256": "0389bbed7a55550b1002ff7098952d25c4b7ad3522dd26fd2b3c7a785a855029",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1912.xml",
+          "xml_sha256": "26e3157c492cf33d48870503f6c546c7117b51f94d1c3cbb3fd240394ef7b80d"
+        },
+        {
+          "letter_id": "DCP-LETT-1912A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1912A.html",
+          "source_html_sha256": "dc9a630baff7a235e9fc94e37f4a9b950654d5d3b909b7e2344cfd0c97f4b476",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1912A.xml",
+          "xml_sha256": "c97dd5286d6ae5cb616594dc12650914d542152d13922d63c50f0e200ae5e667"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1912",
+          "body_paragraph": 2,
+          "quote": "As regards your question about the other Orders of Madeiran insects",
+          "source_sha256": "0389bbed7a55550b1002ff7098952d25c4b7ad3522dd26fd2b3c7a785a855029",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ],
+      "apparatus_evidence": [
+        {
+          "letter_id": "DCP-LETT-1912",
+          "apparatus_scope": "CD annotations",
+          "source_sha256": "0389bbed7a55550b1002ff7098952d25c4b7ad3522dd26fd2b3c7a785a855029",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]",
+          "verbatim": "June 27/56"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1893"
+      ],
+      "case": "partial reading and editorial mismatch",
+      "requirement": "Preserve Darwin’s report that he was not half through Wollaston’s book as a partial reading boundary. Keep the body’s species-limit discussion and Unitarian feather-bed analogy distinct from the editorial religion summary; retain the apparatus bibliography mismatch for the later hostile review rather than silently harmonising it or inventing a completed reading.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1893",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1893.html",
+          "source_html_sha256": "0951c6d9a0af081ed0ad1893c689cacd9d2e11d77c2f3883aabf37498d73516d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1893.xml",
+          "xml_sha256": "efce79d28d2914a475318b7a557a34918a0031180b2156376d3a98835ce20d0a"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1893",
+          "body_paragraph": 1,
+          "quote": "which is not half through yet",
+          "source_sha256": "0951c6d9a0af081ed0ad1893c689cacd9d2e11d77c2f3883aabf37498d73516d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1893",
+          "body_paragraph": 2,
+          "quote": "your little exceptions",
+          "source_sha256": "0951c6d9a0af081ed0ad1893c689cacd9d2e11d77c2f3883aabf37498d73516d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1806",
+        "DCP-LETT-1893",
+        "DCP-LETT-1912",
+        "DCP-LETT-1912A",
+        "DCP-LETT-2030",
+        "DCP-LETT-2013",
+        "DCP-LETT-2076",
+        "DCP-LETT-2133"
+      ],
+      "case": "missing prompts and rejected links",
+      "requirement": "Retain all six rejected proposals as missing-prompt or wrong-endpoint boundaries: 1893 answers a missing book/forwarded-Lyell cover rather than 1806; 1912 and 1912A do not supply the concrete question attributed to 1893; 2013 and 2076 likewise lack identified Darwin prompts; and 2133 and 2030 are both Wollaston incoming records, not a reverse exchange. Do not reconstruct prompts from shared book discussion or create links between same-author records.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1806",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1806.html",
+          "source_html_sha256": "2b6e08aadaf24f2ef280ae4eea4e0b980c8d4fdd240e2411c4054843c6edb29c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1806.xml",
+          "xml_sha256": "83dced67dfa6242ec92b0c6ab50d6986a1a8f334591d7d80ee02b638aff2dbac"
+        },
+        {
+          "letter_id": "DCP-LETT-1893",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1893.html",
+          "source_html_sha256": "0951c6d9a0af081ed0ad1893c689cacd9d2e11d77c2f3883aabf37498d73516d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1893.xml",
+          "xml_sha256": "efce79d28d2914a475318b7a557a34918a0031180b2156376d3a98835ce20d0a"
+        },
+        {
+          "letter_id": "DCP-LETT-1912",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1912.html",
+          "source_html_sha256": "0389bbed7a55550b1002ff7098952d25c4b7ad3522dd26fd2b3c7a785a855029",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1912.xml",
+          "xml_sha256": "26e3157c492cf33d48870503f6c546c7117b51f94d1c3cbb3fd240394ef7b80d"
+        },
+        {
+          "letter_id": "DCP-LETT-1912A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1912A.html",
+          "source_html_sha256": "dc9a630baff7a235e9fc94e37f4a9b950654d5d3b909b7e2344cfd0c97f4b476",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1912A.xml",
+          "xml_sha256": "c97dd5286d6ae5cb616594dc12650914d542152d13922d63c50f0e200ae5e667"
+        },
+        {
+          "letter_id": "DCP-LETT-2030",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2030.html",
+          "source_html_sha256": "754df5cd4187c2a097f5455382226cecbc8fd56755d4855f92a91dd9cf1dc352",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2030.xml",
+          "xml_sha256": "a06fd458082889a55c5e813908bf040bd9a5aade3ef1114edb85b4f5a4a33da7"
+        },
+        {
+          "letter_id": "DCP-LETT-2013",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2013.html",
+          "source_html_sha256": "31621d35fa8ec36750d0f7a11fc5e9c434e52b5f2b022616250b554a5c9ff7bd",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2013.xml",
+          "xml_sha256": "c300db405628b85efe66f593c2a801405c14a270cd01dc98454792e59e8dfe3a"
+        },
+        {
+          "letter_id": "DCP-LETT-2076",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2076.html",
+          "source_html_sha256": "2f9f38d8ba30cb224165fc3ff1ba73d26a1ef4bd5e9139c2345d4d255f704431",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2076.xml",
+          "xml_sha256": "6cfaed1cea13c73fb2c15ef99f1d32eb540ca5e4d168c66d868726a67cde8ccd"
+        },
+        {
+          "letter_id": "DCP-LETT-2133",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2133.html",
+          "source_html_sha256": "e158b0ba08d2b339cd1e88d0bfa814aa3d065aa1187ca8e804f594835dae2067",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2133.xml",
+          "xml_sha256": "8d605259ab3386787486d9cabede6c9fbdd5d94d7c0b1eec80195741aad2a53c"
+        }
+      ]
+    }
+  ],
+  "notes": "All exact quotes were selected programmatically from preserved source HTML, matched to the indicated body or apparatus node, and source HTML/XML hashes were computed from the pinned files. MathML and table evidence remain markup requirements; no flattened display is treated as an exact source quote. Historical scope, date alternatives, source voices, missing prompts and rejected links remain subject to primary adjudication."
+}

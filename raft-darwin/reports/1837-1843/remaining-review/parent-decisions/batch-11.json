@@ -1,0 +1,277 @@
+{
+  "batch_id": "batch-11",
+  "status": "parent_adjudicated",
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-346",
+      "target_id": "DCP-LETT-345",
+      "relationship": "replies_to",
+      "parent_decision": "already_accepted_in_prior_ledger",
+      "reason": "Full-source comparison confirms the distinctive gift or explicit question. Prior 345 to 346 pair is counted once; Gould response is incoming voice only."
+    },
+    {
+      "source_id": "DCP-LETT-409A",
+      "target_id": "DCP-LETT-408F",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_reverse_reply",
+      "reason": "Full-source comparison confirms the distinctive gift or explicit question. Prior 345 to 346 pair is counted once; Gould response is incoming voice only."
+    },
+    {
+      "source_id": "DCP-LETT-506",
+      "target_id": "DCP-LETT-504",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_direct_reply",
+      "reason": "Full-source comparison confirms the distinctive gift or explicit question. Prior 345 to 346 pair is counted once; Gould response is incoming voice only."
+    }
+  ],
+  "direct_reply_pairs": [
+    {
+      "incoming_id": "DCP-LETT-504",
+      "outgoing_id": "DCP-LETT-506",
+      "status": "confirmed_direct_reply",
+      "known_by_date": "1839-04-16",
+      "actual_receipt_date": null,
+      "response_scope": "single_date_surviving_body",
+      "response_sections": [],
+      "rationale": "Exact marriage-gift wording and thanks for the accompanying note identify Whewell 504, not merely a book mentioned in passing.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-504",
+          "body_paragraph": 1,
+          "quote": "the accompanying little book as a marriage gift to you and MrsDarwin",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-504.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-504.xml",
+            "retrieved_at": "2026-09-16T10:54:10.624645+00:00",
+            "sha256": "513183a46d7a91d0d67027bfaa0369be52e21b1e0ee38bde672e914733d2eb90",
+            "bytes": 111589,
+            "http_status": 200,
+            "etag": "\"4c07943bdb01a1f7df436c73bf3af809\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-504"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-506",
+          "body_paragraph": 1,
+          "quote": "your “marriage gift” and kind note",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-506.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-506.xml",
+            "retrieved_at": "2026-09-16T10:54:10.703893+00:00",
+            "sha256": "5ffb487fe98365fd0878b343a12d2c6304bd1a82c87bec7253a51c23ee8ddf12",
+            "bytes": 112779,
+            "http_status": 200,
+            "etag": "\"5c2aeff0cad183a93df9f33cb39b4990\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-506"
+          }
+        }
+      ],
+      "training_export_ready": false
+    }
+  ],
+  "correspondent_replies": [
+    {
+      "response_id": "DCP-LETT-409A",
+      "antecedent_id": "DCP-LETT-408F",
+      "status": "supported_reply_by_correspondent",
+      "rationale": "Gould acknowledges the friendship token sent that morning on the same Good Friday. This proves gift acknowledgement by Gould, not receipt by Darwin.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-408F",
+          "body_paragraph": 1,
+          "quote": "accept the accompanying trifle",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-408F.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-408F.xml",
+            "retrieved_at": "2026-09-16T10:54:12.919527+00:00",
+            "sha256": "cc059a42b3443aab69c5cdccb4fa2a49fa07ebf1a1aee35dc3905e7c452641a0",
+            "bytes": 112521,
+            "http_status": 200,
+            "etag": "\"f1f1dea1a8c3fb1cfc727e47d2347319\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-408F"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-409A",
+          "body_paragraph": 1,
+          "quote": "wh you have sent me this morning",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-409A.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-409A.xml",
+            "retrieved_at": "2026-09-16T10:54:13.425614+00:00",
+            "sha256": "8b0f430211c6b2d8ca0807fc48ab8daabd44cc01f8a073e713a7b98b31bad179",
+            "bytes": 112216,
+            "http_status": 200,
+            "etag": "\"f5c4014a8805c940f291ce0fda2dae7c\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-409A"
+          }
+        }
+      ],
+      "response_paragraphs": null,
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    }
+  ],
+  "cross_correspondent_knowledge": [
+    {
+      "incoming_id": "DCP-LETT-456",
+      "witness_id": "DCP-LETT-483",
+      "known_by_date": "1839-01-04",
+      "status": "supported_cross_correspondent_knowledge",
+      "direct_prompt": false,
+      "identification": "content_and_attribution_inference",
+      "rationale": "Darwin asks Whewell to thank Henslow for his letter and Mrs Henslow for the Cambridge invitation. This matches the closing request in 456; no exact receipt date is inferred.",
+      "witness_date_policy": "resolved_single_writing_date",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-456",
+          "body_paragraph": 1,
+          "quote": "Mrs H. is anxious to know & bids me ask you",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/henslow-lyell-1837-1843/DCP-LETT-456.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-456.xml",
+            "retrieved_at": "2026-09-16T10:06:45.147614+00:00",
+            "sha256": "813f34cdd0a586e3af3bca56e91a462b28e10e998f15d42747ed754b561fa567",
+            "bytes": 112794,
+            "http_status": 200,
+            "etag": "\"df50c6eb8ec732bd39163fd805301b36\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-456"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-483",
+          "body_paragraph": 3,
+          "quote": "thank him from me for his letter & Mrs Henslow for her invitation to Cambridge",
+          "locator": "div#letter div.body-content; retained body block 3",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-483.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-483.xml",
+            "retrieved_at": "2026-09-16T10:54:10.217566+00:00",
+            "sha256": "c71c87ecf332f29e9334055a470d0770ea1a5dd40e02030e415e248bdd16acba",
+            "bytes": 112076,
+            "http_status": 200,
+            "etag": "\"765cf7eb7324333af3943ef70918c907\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-483"
+          }
+        }
+      ]
+    },
+    {
+      "incoming_id": "DCP-LETT-487",
+      "witness_id": "DCP-LETT-489",
+      "known_by_date": "1839-01-20",
+      "status": "supported_cross_correspondent_knowledge",
+      "direct_prompt": false,
+      "identification": "content_and_attribution_inference",
+      "rationale": "Darwin explicitly describes Herbert note and the distinctive Forficula gift to Emma. It is knowledge context, not a direct Herbert-response pair.",
+      "witness_date_policy": "resolved_single_writing_date",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-487",
+          "body_paragraph": 1,
+          "quote": "the accompanying species of the Genus Forficula",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-487.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-487.xml",
+            "retrieved_at": "2026-09-16T10:54:13.844596+00:00",
+            "sha256": "66a9c7730a22fe5e152e2b2a29458acf99a1b74ad3fd86617230324e308422f3",
+            "bytes": 112368,
+            "http_status": 200,
+            "etag": "\"86d6d23301ed6c90d82d2c2bd24e5bf4\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-487"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-489",
+          "body_paragraph": 3,
+          "quote": "my good old friend Herbert, sent me a very nice little note",
+          "locator": "div#letter div.body-content; retained body block 3",
+          "source": {
+            "path": "data/raw/dcp/correspondent-review-1837-1843/DCP-LETT-489.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-489.xml",
+            "retrieved_at": "2026-09-16T09:36:46.434967+00:00",
+            "sha256": "b46e1a28f80f7e3cc95d910194d8bb943ce21cd5c990d618e14cece5cc69642d",
+            "bytes": 117241,
+            "http_status": 200,
+            "etag": "\"fa0151600ebc511581e0970c205bc5f7\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-489"
+          }
+        }
+      ]
+    }
+  ],
+  "source_kind_corrections": {
+    "DCP-LETT-698": "catalogue paraphrase with quoted excerpts",
+    "DCP-LETT-725": "quoted surviving excerpt"
+  },
+  "text_scope_overrides": {
+    "DCP-LETT-698": {
+      "body_text_scope": "quoted_excerpts_only",
+      "voice_spans": [
+        {
+          "body_paragraph": 1,
+          "char_start": 148,
+          "char_end": 594,
+          "text": " … I am now preparing for press a very little volume on the volcanic islands, which we visited, but it will by no means have the extensive character you expect, & will be purely geological.— I saw so little of New Zealand, that I have determined not to treat of it. … I am well acquainted with your paper on the Chatham Island, & … those passages on the very curious fact of the apparent specific differences of the birds there & at New Zealand …"
+        },
+        {
+          "body_paragraph": 2,
+          "char_start": 53,
+          "char_end": 328,
+          "text": "small labours in Natural History … praise from men, like yourself, is the only, though quite sufficient, reward I ever expect or wish to obtain for my works.— I have lately had the extreme satisfaction of hearing that Hooker speaks highly of the accuracy … of my statements …"
+        }
+      ],
+      "editorial_paraphrase_excluded": true
+    }
+  },
+  "reference_observations": [
+    {
+      "id": "REF-R11-680A-1",
+      "witness_id": "DCP-LETT-680A",
+      "type": "unlocated_incoming",
+      "description": "Dieffenbach communication explicitly received this morning, July 4, 1843. Text is unlocated, so no fabricated prompt.",
+      "actual_receipt_date": "1843-07-04",
+      "known_by_date": "1843-07-04",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-680A",
+          "body_paragraph": 1,
+          "quote": "I have only this morning received your very obliging communication.",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-680A.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-680A.xml",
+            "retrieved_at": "2026-09-16T10:54:10.758403+00:00",
+            "sha256": "f03875c6fbd055cbb5539ec298b4d777a874868fe7e3bba155e86e12f1749bfe",
+            "bytes": 121693,
+            "http_status": 200,
+            "etag": "\"2c4dccb5738679e89d969b514b537af5\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-680A"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null
+    }
+  ],
+  "corrections": [
+    "Two new cross-correspondent knowledge attestations were found on primary comparison: 456 to 483 and 487 to 489.",
+    "345 to 346 was already accepted and is not duplicated.",
+    "698 voice is limited to quoted excerpts, excluding catalogue paraphrase."
+  ]
+}

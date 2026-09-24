@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "audit_id": "batch-02-temporal-comparison-luna",
+  "batch_id": "batch-02",
+  "reviewer": "gpt-5.6-luna",
+  "status": "additive_first_pass_complete",
+  "scope": "Focused chronology comparison of Hooker correspondence 1094-1099. Canonical batch-02.json is preserved unchanged; this file makes no adjudication or date rewrite.",
+  "sources_read": [
+    {"letter_id":"DCP-LETT-1094","date":"2 June 1847","html_sha256":"85217277628815e1424539b3248200f421e5629860808aa67657fd7bbf565426"},
+    {"letter_id":"DCP-LETT-1095","date":"10 June 1847","html_sha256":"de4f54b5d3ec1cc7228caaa01d94d4972e5b87504d3385f8fe0c93ee77e6e42f"},
+    {"letter_id":"DCP-LETT-1096","date":"12 June 1847","html_sha256":"860d8c64a2d063931d88e6b6e0c1715806badf19aed37ce9afacd800b46d18b0"},
+    {"letter_id":"DCP-LETT-1097","date":"16 June 1847","html_sha256":"076564df39cb87f8fa6a91b5b6128f224611f7c43de9ef804bdad6998fa9e819"},
+    {"letter_id":"DCP-LETT-1098","date":"17 June 1847","html_sha256":"2946cc5ff7e39952a728e416285ad616f0c1a1cd9549c0d57b6879bf75cfedb7"},
+    {"letter_id":"DCP-LETT-1099","date":"19 June 1847","html_sha256":"1d81796db628ae02a21f9e10fb29c96f9e768c17ddd910055144708a2e978f42"}
+  ],
+  "hash_note": "The source hashes above are the preserved HTML identities read through period_review.py; parent should verify against current packet rows before relying on this additive note.",
+  "chronology_findings": [
+    {
+      "question": "Does 1099 uniquely answer 1097, or could a missing 18 June note intervene?",
+      "finding": "1097 is the strongest identified antecedent for 1099 P2-P3: 1097 P3 reports new collections from Van Diemen’s Land and a New Zealand box, while 1099 P2 says he heard ‘yesterday’s note’ about ‘your new plants from V.D. & N.Z.’ The preserved all_letters.jsonl has no Hooker record dated 18 June 1847 between 1097 (16 June) and 1099 (19 June); nearby same-correspondent records are 1098 (Darwin, 17 June) and then 1099. This supports 1097 as the identified source, but the word ‘yesterday’s’ does not prove physical receipt on 18 June or exclude an unpreserved Hooker note on that date. Keep receipt date unknown and preserve the missing-note possibility.",
+      "evidence": [
+        {"letter_id":"DCP-LETT-1099","body_paragraph":2,"quote":"I am truly glad to hear by yesterday’s note of your new plants from V.D. & N.Z."},
+        {"letter_id":"DCP-LETT-1097","body_paragraph":3,"quote":"I received some splendid collections from V.D Land the other day from the Mts. of the interior which contain several N.Z. & T.D Fuego plants not hitherto found in V.D Land. Also a box from New Zealand with still more identities & analogues"}
+      ],
+      "disposition": "Keep 1099→1097 supported as the best content-specific identification, with no exact-receipt inference and an explicit intervening-missing-note caveat."
+    },
+    {
+      "question": "Does 1097 P1 answer 1094, 1095, or both?",
+      "finding": "1094 is the initial Oxford lodging request: Darwin asks Hooker to use any relation who can secure rooms. 1095 explicitly follows up that request, thanks Hooker for lodging help and asks for the address if Mrs Jacobson succeeds. 1097 P1 reports the aunt’s failure and Jacobson’s alternative, so its wording ‘the lodgings you wished’ is most naturally a joint answer to the 1094 request as developed in 1095. The paragraph cannot establish which physical letter reached Hooker immediately before 16 June, so the relation should retain a multi-input scope rather than selecting 1094 or 1095 as sole antecedent.",
+      "evidence": [
+        {"letter_id":"DCP-LETT-1094","body_paragraph":1,"quote":"Did you not say that you had some relation in Oxford, who wd. take lodgings in Oxford for my wife & self"},
+        {"letter_id":"DCP-LETT-1095","body_paragraph":1,"quote":"Many thanks for your kindness about the lodgings—it will be of great use to me. Please let me know the address if Mrs. Jacobson succeeds"},
+        {"letter_id":"DCP-LETT-1097","body_paragraph":1,"quote":"I only received my Aunts letter this afternoon in time to post it on to you I am very sorry to find by its contents that she could not procure the lodgings you wished"}
+      ],
+      "disposition": "Retain 1097 P1 as a jointly scoped lodging response to 1094 and 1095; do not collapse it to a single incoming letter."
+    },
+    {
+      "question": "What does 1098 establish about the interval?",
+      "finding": "1098 is dated 17 June and explicitly says ‘till your previous note’ before accepting Magdalen Hall rooms. Its content directly answers 1097 P1’s Jacobson offer. This establishes a clear 1098→1097 logistical response, but does not prove 1099’s note was received on 18 June or that 1098 carried any botanical content.",
+      "evidence": [
+        {"letter_id":"DCP-LETT-1098","body_paragraph":1,"quote":"I had no idea that I was giving (till your previous note) trouble to a lady. I hope you will thank most sincerely Mrs. Jacobson. The Magdalen Hall rooms will do capitally"},
+        {"letter_id":"DCP-LETT-1097","body_paragraph":1,"quote":"It may therefore be the best plan for you to accept Mr Jacobsons offer of rooms in Magdalen"}
+      ],
+      "disposition": "Keep 1098→1097 as a distinct lodging edge; do not merge it with the 1099 botanical response."
+    }
+  ],
+  "alternative_search": {
+    "correspondent_records_checked": ["DCP-LETT-1093","DCP-LETT-1094","DCP-LETT-1095","DCP-LETT-1096","DCP-LETT-1097","DCP-LETT-1098","DCP-LETT-1099","DCP-LETT-1100"],
+    "result": "No preserved Hooker-to-Darwin letter dated 18 June 1847 was found in all_letters.jsonl. This is a preservation/search result, not proof that no such letter existed."
+  },
+  "limitations": ["No letter was redated, and no physical receipt date was assigned from ‘yesterday’s note’.", "This additive comparison does not alter the canonical batch-02 report or parent adjudication."]
+}

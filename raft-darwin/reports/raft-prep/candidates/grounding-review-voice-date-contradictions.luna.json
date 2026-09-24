@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "status": "candidate_only",
+  "scope": "all 1488 scoped grounding rows; concrete voice/date contradictions only",
+  "no_mutation": true,
+  "inputs": [
+    {
+      "path": "reports/raft-prep/grounding-review.working.json",
+      "sha256": "c7276bb68bc4cd514a81558ecb721fb59ebb0068f5675e2d41f4afe965155f65"
+    }
+  ],
+  "method": "Inspected every scoped row accepted_disposition_pointers, compared state/reason/date/units against accepted primary dispositions, and retained ordinary unpaired or out-of-period contextual rows. Reported only explicit excluded voice, oral-notes role, or multi-section date collapses.",
+  "counts": {
+    "scoped_rows_checked": 1488,
+    "concrete_contradictions": 4
+  },
+  "findings": [
+    {
+      "source_id": "DCP-LETT-2365",
+      "working_row_pointer": "/rows/1681",
+      "source_pin": {
+        "path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2365.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2365.xml",
+        "retrieved_at": "2026-09-17T01:00:09.064279+00:00",
+        "sha256": "9f4e626c62c5d4fd41593e5453d9c43abdb44d01d5bc5ecc6ff7db7f14595037",
+        "bytes": 144069,
+        "http_status": 200,
+        "etag": "\"e9f170ab95f3420555a9de72f6b17256\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-2365"
+      },
+      "current_state": "scoped_pending_render_and_content_checks",
+      "current_date": {
+        "earliest": "1858-11-18",
+        "latest": "1858-11-18",
+        "structure": "single_xml_day",
+        "flags": [],
+        "original_label": "18 Nov 1858"
+      },
+      "current_reason": "ordinary_individual_Darwin_body_exact_single_XML_day",
+      "accepted_primary_pointer": "data/annotations/periods/1858-1859/batch-46.json#/letter_adjudications/0",
+      "contradiction": "voice exclusion and section date",
+      "exact_existing_evidence": "The accepted disposition is genuine_excluded: exclude_from_individually_authored_darwin_grounding; voice is editorial, collective memorialists and quoted earlier authorities; Charles only a signatory. Its date scope says 18 Nov 1858 applies to the second memorial, not every extracted block.",
+      "safe_disposition_correction": "Set disposition to excluded from individually authored Darwin grounding; retain collective memorial text and signatory separately. Split the 18 Nov date to the applicable second memorial section and do not expose all 66 units as Darwin prose."
+    },
+    {
+      "source_id": "DCP-LETT-158",
+      "working_row_pointer": "/rows/791",
+      "source_pin": {
+        "id": "DCP-LETT-158",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-158.xml",
+        "path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-158.html",
+        "retrieved_at": "2026-09-16T06:57:40.700822+00:00",
+        "sha256": "42558cc58372f46ecadf57286fb6ff4b1b56a7f29ff541c79db72bad4fac443e",
+        "bytes": 129464,
+        "method": "downloaded",
+        "http_status": 200,
+        "content_type": "text/html",
+        "etag": "\"891470a5397dd68ee78386cf40366f08\""
+      },
+      "current_state": "scoped_pending_render_and_content_checks",
+      "current_date": {
+        "earliest": "1832-03-01",
+        "latest": "1832-03-01",
+        "structure": "single_xml_day",
+        "flags": [
+          "editorially_supplied_component"
+        ],
+        "original_label": "8 & 26 Feb & 1 Mar [1832]"
+      },
+      "current_reason": "ordinary_individual_Darwin_body_exact_single_XML_day",
+      "accepted_primary_pointer": "data/annotations/beagle-voyage/herbert-fitzroy-family-01.primary.json",
+      "contradiction": "multiple internal datelines",
+      "exact_existing_evidence": "The row uses structure single_xml_day with earliest/latest 1832-03-01 although original_label is 8 & 26 Feb & 1 Mar [1832], and units include sections beginning 8 February, Feb 26 and March 1.",
+      "safe_disposition_correction": "Replace the scalar date treatment with section dates (8 Feb, 26 Feb, 1 Mar) and retain the supplied Beagle source bounds; do not use 1 Mar as the date of the whole multi-section letter."
+    },
+    {
+      "source_id": "DCP-LETT-913",
+      "working_row_pointer": "/rows/2927",
+      "source_pin": {
+        "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-913.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-913.xml",
+        "retrieved_at": "2026-09-16T23:59:02.185477+00:00",
+        "sha256": "33629a89657fced5ca87754827ac7e1af64f7551817bcd0a65fc4b2bc933632a",
+        "bytes": 120400,
+        "http_status": 200,
+        "etag": "\"c78977c864c98abd0ddfa753f5c5ff36\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-913"
+      },
+      "current_state": "scoped_pending_render_and_content_checks",
+      "current_date": {
+        "earliest": "1845-09-03",
+        "latest": "1845-09-03",
+        "structure": "single_xml_day",
+        "flags": [
+          "editorially_supplied_component"
+        ],
+        "original_label": "3[–4] Sept 1845"
+      },
+      "current_reason": "ordinary_individual_Darwin_body_exact_single_XML_day",
+      "accepted_primary_pointer": "data/annotations/periods/1844-1846/batch-24.json#/letter_adjudications/0",
+      "contradiction": "date range collapsed to one day",
+      "exact_existing_evidence": "The row uses structure single_xml_day and earliest/latest 1845-09-03 although original_label is 3[–4] Sept 1845; its third retained unit begins Thursday morning, representing the later dated section.",
+      "safe_disposition_correction": "Retain 3–4 Sept as a qualified section/date range and keep later-section content separate; do not treat all three units as composed on 3 Sept."
+    },
+    {
+      "source_id": "DCP-LETT-798",
+      "working_row_pointer": "/rows/2769",
+      "source_pin": {
+        "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-798.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-798.xml",
+        "retrieved_at": "2026-09-16T23:58:35.381403+00:00",
+        "sha256": "e47be1eb0700b1f19981caf8d1c461116cedec1533c883acde83af885376e2fd",
+        "bytes": 128514,
+        "http_status": 200,
+        "etag": "\"0c4ffe02a4bdbf01d850b11da1737345\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-798"
+      },
+      "current_state": "scoped_pending_render_and_content_checks",
+      "current_date": {
+        "earliest": "1844-12-08",
+        "latest": "1844-12-08",
+        "structure": "single_xml_day",
+        "flags": [],
+        "original_label": "8 Dec 1844"
+      },
+      "current_reason": "ordinary_individual_Darwin_body_exact_single_XML_day",
+      "accepted_primary_pointer": "data/annotations/periods/1844-1846/batch-28.json#/letter_adjudications/0",
+      "contradiction": "oral research notes misclassified as ordinary letter",
+      "exact_existing_evidence": "The accepted disposition is oral_research_notes_grounding_only with voice Darwin_notes_with_attributed_speech. The row reason is ordinary_individual_Darwin_body_exact_single_XML_day and its units expose APPENDIX III, “Darwin’s notes arising from conversations with Joseph Dalton Hooker”, and Hooker-attributed statements.",
+      "safe_disposition_correction": "Classify as Darwin research notes with attributed speech, not an ordinary individual letter. Preserve the 8 Dec note date but exclude Hooker statements from Darwin voice and do not infer a correspondent reply edge."
+    }
+  ],
+  "limitations": [
+    "This report is navigation evidence only; no ledger, working report, source, or export was changed.",
+    "No blanket exclusion was applied to contextual or missing-prompt Darwin prose.",
+    "The 1732 and 2222 enclosure corrections were not repeated."
+  ]
+}

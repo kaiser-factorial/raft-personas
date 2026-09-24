@@ -1,0 +1,377 @@
+{
+  "status": "candidate_only",
+  "scope": "1858-1859 review batches 31 through 40",
+  "purpose": "Source rendering and chronology preflight for later review/export design. This file makes no historical acceptance or graph decision.",
+  "packet_coverage": [
+    {
+      "batch": "31",
+      "focus": "Watson/Henslow sequence; 1808 is a dated-after-23-March memorandum with two flattened tables and no reliable inferred alignment."
+    },
+    {
+      "batch": "32",
+      "focus": "Wallace outgoing letters and incomplete/absent incoming material; preserve outgoing voice and receipt limits."
+    },
+    {
+      "batch": "33",
+      "focus": "Waterhouse bee-cell sketches and incomplete 1642; keep five 2216 sketches and 2258 enclosure separate from body prose."
+    },
+    {
+      "batch": "34",
+      "focus": "Carpenter/older boundary material; preserve catalogue-only, copied, uncertain-date and mixed-source layers."
+    },
+    {
+      "batch": "35",
+      "focus": "Royal Society/Covington outgoing material; variant printed witness, torn text and institutional routing remain distinct."
+    },
+    {
+      "batch": "36",
+      "focus": "Emma, Dana and Egan; internal receipt markers, family quoted voices and boundary dates require section scopes."
+    },
+    {
+      "batch": "37",
+      "focus": "Reeks, Murchison, Martin and Paget; broad 1859-61 paper dates, mixed hands and one actual diagram remain bounded."
+    },
+    {
+      "batch": "38",
+      "focus": "Agassiz/Bentham; incomplete Bentham source and later knowledge interpretations remain separate."
+    },
+    {
+      "batch": "39",
+      "focus": "Blyth/Wells; MathML fractions, copied Scott voice and later editorial/source layers remain separate."
+    },
+    {
+      "batch": "40",
+      "focus": "Family and boundary letters; broad 2538 date, 2498A missing page and personal/logistical voice holds."
+    }
+  ],
+  "requirements": [
+    {
+      "batch": "31",
+      "source_ids": [
+        "DCP-LETT-1808"
+      ],
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-1808.html",
+      "source_html_sha256": "38f25517b6404f25b0a1ff5929018b2e72ebd2f223b45e863ddd68bbcbd937ad",
+      "requirement": "Render the two table-like Watson lists as ordered source text with their headings, row labels and line breaks. Do not force column alignment: the first list presents 13 author/year headings but only 12 Poa values, and the second list's Salix sequence differs between the 1856 row and the prior row. Preserve the uncertainty rather than inventing a missing value or shifting cells.",
+      "evidence": [
+        {
+          "body_paragraph": 3,
+          "quote": "Rubus. 6 5 7 7 8 8 14 13 21 14 24 5 41 Salix",
+          "dom_locator": "#letter .body-content > p:nth-of-type(3)"
+        },
+        {
+          "body_paragraph": 7,
+          "quote": "Number of Species under 20 genera, by Babington’s Manual, 4 editions. Rubus Salix Hieracium Galium Atriplex Epilobium Batrachium Arctium Ulmus Filago Cerastium Lastrea Quercus Thlaspi Urtica Sparganium Barbarea Polystichum Pyrethrum Glyceria 1843 24 57 19",
+          "dom_locator": "#letter .body-content > p:nth-of-type(7)"
+        }
+      ],
+      "date_voice_hold": "The source is Watson's memorandum [after 23 March 1858], not a Darwin-authored table; composition and any later forwarding/receipt must remain separate."
+    },
+    {
+      "batch": "32",
+      "source_ids": [
+        "DCP-LETT-2405"
+      ],
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2405.html",
+      "source_html_sha256": "397b97a34fe9df1a813bf7e6f64413799438a38ca36a4ed79d985927ea304ad1",
+      "requirement": "Preserve the MathML fraction in the outgoing Wallace note as a quantity in the copies passage; the flattened projection must not turn the fraction into an integer or imply a new Wallace incoming prompt. Keep Darwin's receipt of Wallace's two letters and subsequent dispatch of copies as separate stages.",
+      "evidence": [
+        {
+          "body_paragraph": 2,
+          "quote": "I sent off, by same address as this note, a copy of Journal of Linn. Soc. & subsequently I have sent some",
+          "dom_locator": "#letter .body-content > p:nth-of-type(3)",
+          "markup": "A MathML mfrac immediately follows ‘some’; source renders 1/2 dozen."
+        }
+      ],
+      "date_voice_hold": "Darwin is the authorial voice; 2145 remains an incomplete Wallace fragment and the other cited Wallace materials are not reconstructed from this outgoing letter."
+    },
+    {
+      "batch": "33",
+      "source_ids": [
+        "DCP-LETT-2216",
+        "DCP-LETT-2258",
+        "DCP-LETT-1642"
+      ],
+      "source_html_sha256": {
+        "DCP-LETT-2216": "a0ae01656b85c23b9403c66b88f9c236c93ee602cd42c53cbf713dced79384b7",
+        "DCP-LETT-2258": "4ae1cfbfb816707e663f27d45dded23c4e0a645ebc0d302174cf4844fc10a3dd",
+        "DCP-LETT-1642": "04c475f0b054af91f3216f52afa2c6a15eae1f86e73d14e10ee797c1e0d5face"
+      },
+      "requirement": "Keep the five actual 2216 sketch assets and the 2258 Icaria attachment as visual/enclosure layers, with source authorship and completeness metadata. Do not flatten the drawings into Waterhouse's prose. Preserve 1642's incomplete opening and physical description as an extent hold.",
+      "evidence": [
+        {
+          "id": "DCP-LETT-2216",
+          "body_paragraph": 4,
+          "quote": "I made the sketch from my memorandum & no sooner had I done it than I felt sure it was wrong",
+          "dom_locator": "#letter .body-content > p:nth-of-type(5)"
+        },
+        {
+          "id": "DCP-LETT-2258",
+          "body_paragraph": 1,
+          "quote": "I was called upon by the Secretary to furnish some notes of what I said, in order that it might be inserted in the minutes",
+          "dom_locator": "#letter .body-content > p:nth-of-type(2)"
+        },
+        {
+          "id": "DCP-LETT-1642",
+          "body_paragraph": 2,
+          "quote": "I have lately been studying the head of the Ichthyosaurus",
+          "dom_locator": "#letter .body-content > p:nth-of-type(2)",
+          "extent": "opening is incomplete in the physical description"
+        }
+      ]
+    },
+    {
+      "batch": "34",
+      "source_ids": [
+        "DCP-LETT-1812",
+        "DCP-LETT-1578A",
+        "DCP-LETT-13867A"
+      ],
+      "source_html_paths": {
+        "DCP-LETT-1812": "data/raw/dcp/1851-1855/pages/DCP-LETT-1812.html",
+        "DCP-LETT-1578A": "data/raw/dcp/1851-1855/pages/DCP-LETT-1578A.html",
+        "DCP-LETT-13867A": "data/raw/dcp/1851-1855/pages/DCP-LETT-13867A.html"
+      },
+      "source_html_sha256": {
+        "DCP-LETT-1812": "3987d1c0a2e398a82169faf0b013ef5edb4f07dde82eb9af731fa2677c803b68",
+        "DCP-LETT-1578A": "e4c71eca6067894b6d85ff9419970cf38d95be8278d65878b704804025722800",
+        "DCP-LETT-13867A": "f173e57c36ebda5d04ea11ab6626caad80b16b254127af6ae0912540d37cf803"
+      },
+      "requirement": "Keep memorandum, catalogue-only or uncertain-recipient records visibly distinct from complete incoming letters. Preserve the broad date alternatives supplied in their headers and XML; do not infer a current-period composition date or a missing prompt from packet inclusion.",
+      "evidence": [
+        {
+          "id": "DCP-LETT-1812",
+          "body_paragraph": 1,
+          "quote": "Skins Any domestic breed or race, of Poultry, Pigeons, Rabbits, Cats, & even dogs",
+          "dom_locator": "#letter .body-content > p:nth-of-type(1)"
+        },
+        {
+          "id": "DCP-LETT-1578A",
+          "body_paragraph": 1,
+          "quote": "I am very much obliged to you for your kind offer to allow me to examine your Madeira Cirripedes",
+          "dom_locator": "#letter .body-content > p:nth-of-type(1)"
+        }
+      ],
+      "date_voice_hold": "1812, 1578A and 13867A carry uncertain date/recipient or catalogue boundaries; body voice and editorial metadata must remain separate."
+    },
+    {
+      "batch": "35",
+      "source_ids": [
+        "DCP-LETT-1840",
+        "DCP-LETT-2400"
+      ],
+      "source_html_sha256": {
+        "DCP-LETT-1840": "426b944d174f19cf0f6d3d21b5e33eb0ce3f4891096f616a90690f5e4c7409d1",
+        "DCP-LETT-2400": "8b31ffb7f8989817209adf8d26ca98abc5b3459d1510f12ffef04cc41acc9ffe"
+      },
+      "requirement": "Render 1840 with its variant printed-witness provenance and no invented manuscript text. Render 2400's torn/altered source extent as an explicit hold. Royal Society letters are institutional routing records and must not be treated as incoming scientific prompts merely because a paper is mentioned.",
+      "evidence": [
+        {
+          "id": "DCP-LETT-1840",
+          "body_paragraph": 1,
+          "quote": "I was very glad to get a month or six weeks ago your letter of the 4th of September",
+          "dom_locator": "#letter .body-content > p:nth-of-type(2)"
+        },
+        {
+          "id": "DCP-LETT-2400",
+          "body_paragraph": 1,
+          "quote": "I have got the little Book for you, but I have only this minute discovered",
+          "dom_locator": "#letter .body-content > p:nth-of-type(2)",
+          "extent": "preserve the source-specific torn/manuscript alteration note from the apparatus"
+        }
+      ]
+    },
+    {
+      "batch": "36",
+      "source_ids": [
+        "DCP-LETT-1410",
+        "DCP-LETT-1411",
+        "DCP-LETT-1414",
+        "DCP-LETT-2020F"
+      ],
+      "source_html_sha256": {
+        "DCP-LETT-1410": "9b6cab0710606835d0f0d01e49a4d3283445c465487927e48cf5762b36ad3a2a",
+        "DCP-LETT-1411": "85ff54d923a4306e640b2a4c2414088b76b751e9777defccc7a8eb77a37835ee",
+        "DCP-LETT-1414": "d4747bad5e264a12835727f6f6ea3ffc8559a1529739d92a5445696ebdc25547",
+        "DCP-LETT-2020F": "6c96c0a0ce44f3459594553d29d19f31bd5299a98447a35ea7f468d970831664"
+      },
+      "requirement": "Preserve internal date/receipt sections and quoted family voices. In 1414, the phrase ‘Your letter is just come’ occurs inside P1 and narrows the reply scope; earlier grief is not evidence of receipt. In 1411, the postscript and Fanny/Caroline quotations remain separately attributed. Dana 2020F's receipt of a note ‘this morning’ is boundary context, not 1858–59 knowledge.",
+      "evidence": [
+        {
+          "id": "DCP-LETT-1411",
+          "body_paragraph": 4,
+          "quote": "After post. Alas my own how shall we bear it.",
+          "dom_locator": "#letter .body-content > p:nth-of-type(5)"
+        },
+        {
+          "id": "DCP-LETT-1414",
+          "body_paragraph": 1,
+          "quote": "Your letter is just come",
+          "dom_locator": "#letter .body-content > p:nth-of-type(2)"
+        },
+        {
+          "id": "DCP-LETT-2020F",
+          "body_paragraph": 6,
+          "quote": "This morning I have received your note of the 8th",
+          "dom_locator": "#letter .body-content > p:nth-of-type(7)"
+        }
+      ]
+    },
+    {
+      "batch": "37",
+      "source_ids": [
+        "DCP-LETT-13827",
+        "DCP-LETT-823"
+      ],
+      "source_html_sha256": {
+        "DCP-LETT-13827": "a469d5d6937cd752c7edcb6501a6c98a5025947a8be9f39df2496b700c908ff6",
+        "DCP-LETT-823": "e1f87ea245455e936d8e894e3c0fe245a35d827a7a2119b24b0c2fd5b9ae756c"
+      },
+      "requirement": "Keep Martin's dense diagram as a separate actual visual asset and preserve its broad 1859–61 date bounds; the paper is Martin's sustained voice and reaction to published Darwin, not a recovered incoming letter. Keep Reeks 823's lost covering letter and final non-Darwin hand separate from its numbered questions.",
+      "evidence": [
+        {
+          "id": "DCP-LETT-13827",
+          "body_paragraph": 18,
+          "quote": "we have ventured upon a sort of imperfect & very crude diagram, explanatory of our views",
+          "dom_locator": "#letter .body-content > p:nth-of-type(18)"
+        },
+        {
+          "id": "DCP-LETT-823",
+          "body_paragraph": 2,
+          "quote": "Please to keep this paper for me",
+          "dom_locator": "#letter .body-content > p:nth-of-type(2)",
+          "extent": "covering letter is lost; final hand is separately attributed"
+        }
+      ]
+    },
+    {
+      "batch": "38",
+      "source_ids": [
+        "DCP-LETT-2186"
+      ],
+      "source_html_sha256": "10fa8c3518bb44a034c60770d96da5929ba507282e0163b217cd10918de5f620",
+      "requirement": "Preserve Bentham's bracketed/corrected words and his request for species identity before interpreting Gärtner's hybrid results. Any Darwin key or later fertility interpretation remains a separate annotation/knowledge layer.",
+      "evidence": [
+        {
+          "body_paragraph": 1,
+          "quote": "Gærtner may have obtained unexpected results in hybridising",
+          "dom_locator": "#letter .body-content > p:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "batch": "39",
+      "source_ids": [
+        "DCP-LETT-1832",
+        "DCP-LETT-1845",
+        "DCP-LETT-1849",
+        "DCP-LETT-2221"
+      ],
+      "source_html_sha256": {
+        "DCP-LETT-1832": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26",
+        "DCP-LETT-1845": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9",
+        "DCP-LETT-1849": "8572a36cc4785fca8f19e2d6c483632896477ece2a1a76aa51ed0b22a3778daf",
+        "DCP-LETT-2221": "49c19adcf75c690bda5ab67cb28adf873261f9a059c28ff31217edb47f25a710"
+      },
+      "requirement": "Preserve MathML fractions in Blyth's infertility/pigeon observations and distinguish Scott's copied letter from Blyth's own voice. The 1849 source has a long, 21-block body with quoted material and should not be collapsed into one authorial layer. Any 2221 visual node is an actual asset only if separately preserved and viewed.",
+      "evidence": [
+        {
+          "id": "DCP-LETT-1832",
+          "body_paragraph": 4,
+          "quote": "the more so as being rare and taken much care of",
+          "dom_locator": "#letter .body-content > p:nth-of-type(5)",
+          "markup": "A MathML mfrac occurs in this paragraph before ‘bred Gallus Sonneratii’."
+        },
+        {
+          "id": "DCP-LETT-1845",
+          "body_paragraph": 4,
+          "quote": "settling again just in the way",
+          "dom_locator": "#letter .body-content > p:nth-of-type(4)",
+          "markup": "Two MathML mfrac nodes occur in this retained paragraph."
+        },
+        {
+          "id": "DCP-LETT-1849",
+          "body_paragraph": 2,
+          "quote": "The following remarks on Indian Pigeons are transcribed from a letter, recd. from Dr. David Scott",
+          "dom_locator": "#letter .body-content > p:nth-of-type(2)",
+          "voice": "Scott's report is copied/quoted within Blyth's incoming source."
+        }
+      ]
+    },
+    {
+      "batch": "40",
+      "source_ids": [
+        "DCP-LETT-2003F",
+        "DCP-LETT-2498A",
+        "DCP-LETT-2538"
+      ],
+      "source_html_sha256": {
+        "DCP-LETT-2003F": "07062128cbd158c4bb17509e6419bff959aa15fff06331a5741dad862c78340d",
+        "DCP-LETT-2498A": "bbfa688eab306e94d7302e70e32ec4f06beb3ccb324b051fc2ac2cf2fa643fc3",
+        "DCP-LETT-2538": "e562f883ebeec5ee224aa13dac407f00a4f423580a4042b9551d9a59b0bf7617"
+      },
+      "requirement": "Keep 2003F's child/family voice and any Darwin annotation distinct. Preserve 2498A's alternative 22-or-29 October date and at least one missing page as an extent hold. Preserve 2538's XML bound through 1882 as unresolved rather than forcing it into 1859.",
+      "evidence": [
+        {
+          "id": "DCP-LETT-2003F",
+          "body_paragraph": 1,
+          "quote": "You need not have sent me to School Yesterday",
+          "dom_locator": "#letter .body-content > p:nth-of-type(2)",
+          "voice": "George Howard Darwin, not Charles Darwin"
+        },
+        {
+          "id": "DCP-LETT-2498A",
+          "body_paragraph": 7,
+          "quote": "which has been followed by a violent",
+          "dom_locator": "#letter .body-content > p:nth-of-type(8)",
+          "extent": "following page is missing"
+        },
+        {
+          "id": "DCP-LETT-2538",
+          "body_paragraph": 1,
+          "quote": "I am astounded that you care as much for my Book as you seem to do.",
+          "dom_locator": "#letter .body-content > p:nth-of-type(2)",
+          "date_hold": "XML extends 1859-11-22 through 1882-12-31"
+        }
+      ]
+    }
+  ],
+  "global_rendering_rules": [
+    "Retain body, salutation, footnote, annotation, scholarly, bibliography and enclosure layers separately; a complete HTML source does not make every layer Darwin-authored.",
+    "Preserve MathML and table-like order as source provenance while rendering readable derivatives; never fill missing cells, fractions or words by inference.",
+    "A source suffix F, a copied report, or packet context status does not by itself establish fragment extent, receipt, composition date or period eligibility.",
+    "Actual figures require separate preservation and human inspection; prose mention of a figure or bibliography entry is not an inspected visual asset.",
+    "This candidate contains formatting and chronology requirements only and does not add, accept, or recount relationships."
+  ],
+  "validation": {
+    "json": "parsed with bundled Python json.tool",
+    "source_pins": "HTML hashes copied from packet source records and verified against local files for selected cases",
+    "quote_policy": "quotes are short source substrings with retained body paragraph and CSS DOM scope; MathML-containing cases identify markup separately"
+  },
+  "source_path_index": {
+    "DCP-LETT-13827": "data/raw/dcp/1858-1859/pages/DCP-LETT-13827.html",
+    "DCP-LETT-13867A": "data/raw/dcp/1851-1855/pages/DCP-LETT-13867A.html",
+    "DCP-LETT-1410": "data/raw/dcp/1851-1855/pages/DCP-LETT-1410.html",
+    "DCP-LETT-1411": "data/raw/dcp/1851-1855/pages/DCP-LETT-1411.html",
+    "DCP-LETT-1414": "data/raw/dcp/1851-1855/pages/DCP-LETT-1414.html",
+    "DCP-LETT-1578A": "data/raw/dcp/1851-1855/pages/DCP-LETT-1578A.html",
+    "DCP-LETT-1642": "data/raw/dcp/1851-1855/pages/DCP-LETT-1642.html",
+    "DCP-LETT-1808": "data/raw/dcp/1858-1859/pages/DCP-LETT-1808.html",
+    "DCP-LETT-1812": "data/raw/dcp/1851-1855/pages/DCP-LETT-1812.html",
+    "DCP-LETT-1832": "data/raw/dcp/1856-1857/pages/DCP-LETT-1832.html",
+    "DCP-LETT-1840": "data/raw/dcp/1856-1857/pages/DCP-LETT-1840.html",
+    "DCP-LETT-1845": "data/raw/dcp/1856-1857/pages/DCP-LETT-1845.html",
+    "DCP-LETT-1849": "data/raw/dcp/1856-1857/pages/DCP-LETT-1849.html",
+    "DCP-LETT-2003F": "data/raw/dcp/1856-1857/pages/DCP-LETT-2003F.html",
+    "DCP-LETT-2020F": "data/raw/dcp/1856-1857/pages/DCP-LETT-2020F.html",
+    "DCP-LETT-2186": "data/raw/dcp/1856-1857/pages/DCP-LETT-2186.html",
+    "DCP-LETT-2216": "data/raw/dcp/1858-1859/pages/DCP-LETT-2216.html",
+    "DCP-LETT-2221": "data/raw/dcp/1858-1859/pages/DCP-LETT-2221.html",
+    "DCP-LETT-2258": "data/raw/dcp/1858-1859/pages/DCP-LETT-2258.html",
+    "DCP-LETT-2400": "data/raw/dcp/1858-1859/pages/DCP-LETT-2400.html",
+    "DCP-LETT-2405": "data/raw/dcp/1858-1859/pages/DCP-LETT-2405.html",
+    "DCP-LETT-2498A": "data/raw/dcp/1858-1859/pages/DCP-LETT-2498A.html",
+    "DCP-LETT-2538": "data/raw/dcp/1858-1859/pages/DCP-LETT-2538.html",
+    "DCP-LETT-823": "data/raw/dcp/1844-1846/pages/DCP-LETT-823.html"
+  }
+}

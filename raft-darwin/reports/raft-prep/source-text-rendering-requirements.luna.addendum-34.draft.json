@@ -1,0 +1,202 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batch 10 source-text rendering, chronology, enclosure attribution and receipt requirements only; candidate for root review. No converter, export, transcript, corpus, training, embedding or paid-service work.",
+  "primary_provenance": {
+    "batch": {
+      "reading": {
+        "path": "reports/1856-1857/review/parent-reading/batch-10.json",
+        "sha256": "113cd0434c77f9359afdd8a07a582b43fb3ee27b4659793998d6721904424940"
+      },
+      "decisions": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-10.json",
+        "sha256": "69eef93f12842a7ea1be199bfaacd6b752122cadcc7c1124921c3491f5f99477"
+      }
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-10.json",
+      "sha256": "e458d7977092cde1f3954f1638e410337107af9345a54af22849b62504ddcc9d"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1875"
+      ],
+      "case": "cataloguer synopsis versus quoted Darwin",
+      "requirement": "Render P1 as cataloguer prose describing thanks for the Supplement; only P2 is a quoted Darwin extract. Do not turn the three-page catalogue extent into a complete surviving letter or attribute the bracketed summary to Darwin.",
+      "evidence": [
+        {
+          "quote": "What an amount of labour is condensed in your little volume!",
+          "retained_body_scope": "retained P2; raw /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+          "dom_xpath": null,
+          "source_id": "DCP-LETT-1875"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1875",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1875.html",
+          "html_sha256": "eef02f13a5558b54547d2e8fd14faf9d2119a0e06cc0f9a416936ffb80e21979",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1875.xml",
+          "xml_sha256": "e68b818c7481ff04d42aa7bb829dcc70c675a337d32c1fe0e071cc6de5756d98"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1931"
+      ],
+      "case": "copyist and Francis Darwin corrections",
+      "requirement": "Render 1931 as a copy, preserving Darwin scientific content and Francis Darwin editorial substitutions (including worst for copyist wording and this for the). Do not attribute those later textual changes to Woodward or treat the copy as an autograph.",
+      "evidence": [
+        {
+          "quote": "I am growing as bad as the worst about species",
+          "retained_body_scope": "retained P5; raw /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]",
+          "dom_xpath": null,
+          "source_id": "DCP-LETT-1931"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1931",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1931.html",
+          "html_sha256": "0fedacbbe3c64bd32a44e08252c2ecd328eb36dc6e387ebfc27bfdcbd3d47544",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1931.xml",
+          "xml_sha256": "040e9866eb4fb58777beb3e2fa143dab37bc3aac45c0e96eff1237477e010ca2"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1890"
+      ],
+      "case": "twenty Darwin questions, Woodward answers, later Darwin additions and drawings",
+      "requirement": "Keep the twenty retained question blocks as Darwin’s original questions and distinguish Woodward answers transcribed in footnotes from later Darwin pencil/crayon additions. Preserve both actual drawings: note 4 at /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[4]/div[2]/span/img and note 22 at /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[22]/div[2]/span/img. They are diagrams, not a table or measured time-series. The XML June 5–30 bound and editorial posting/return probabilities do not establish one composition, transmission or answer date; retain uncertainty.",
+      "evidence": [
+        {
+          "quote": "Is it really certain that Monoceros is in New Zealand?",
+          "retained_body_scope": "retained P11; raw /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]",
+          "dom_xpath": null,
+          "source_id": "DCP-LETT-1890"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1890",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1890.html",
+          "html_sha256": "2d7c8f00578cc7128d36f929776c142f43d8cfb5d4d93ad641f41240eacd1210",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1890.xml",
+          "xml_sha256": "10c4c28a25196213fb670af755c0f4afb2353ae4e31d241ca8b4999c59a28af4"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1864"
+      ],
+      "case": "plain 110 without fraction markup",
+      "requirement": "Preserve Woodward’s reported Gray figure as plain “110” with no MathML. It is a reported opinion embedded in Woodward’s argument, not an independently normalized shell count or Darwin-authored statement.",
+      "evidence": [
+        {
+          "quote": "Mr Gray says only 110 of the reported species of shells are really distinct",
+          "retained_body_scope": "retained P9; raw /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]",
+          "dom_xpath": null,
+          "source_id": "DCP-LETT-1864"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1864",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1864.html",
+          "html_sha256": "9725867ec5327ad505319763a6d2d796e76d8ae8d54927f75545f5b8a1fb2ab9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1864.xml",
+          "xml_sha256": "702298dd742e268d5991f770a459bc56537b1123167b948ad5c4e930afa2e6cb"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1927",
+        "DCP-LETT-1928",
+        "DCP-LETT-1931"
+      ],
+      "case": "Cyrena table, companion list, and two-input July 18 output",
+      "requirement": "Preserve 1927’s full Cyrena list/table and the literal duplicated phrase “reduce the reduce the”; retain Lyell’s and J.E. Gray’s reported opinions as attributed voices. Render 1928 as a companion memorandum with tentative equals/question marks and the long locality list, including attributed Kashmir/Iskardo/18,000-foot claims; later modern taxonomy must remain apparatus. Its date is inferred from the 1927 promised evening compilation and the July 18 response, not an independently dated dispatch. The accepted July 18 Darwin output has two incoming scopes: 1927 supplies Cyrena variability and Harvey recommendation, while 1928 supplies shell-range and antiquity material. Do not merge them or treat their held links (1927/1928→1890) as accepted direct replies.",
+      "evidence": [
+        {
+          "quote": "reduce the reduce the reputed Indian Flora",
+          "retained_body_scope": "retained P22; raw /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[22]",
+          "dom_xpath": null,
+          "source_id": "DCP-LETT-1927"
+        },
+        {
+          "quote": "The mountain ranges of Scandinavia, & Central Asia",
+          "retained_body_scope": "retained P5; raw /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+          "dom_xpath": null,
+          "source_id": "DCP-LETT-1928"
+        },
+        {
+          "quote": "What a range & what a variability in the Cyrena!",
+          "retained_body_scope": "retained P2; raw /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "dom_xpath": null,
+          "source_id": "DCP-LETT-1931"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1927",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1927.html",
+          "html_sha256": "aded96011ef281c866f70acea6f4681f766d426beaf0fd1091f970378641d947",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1927.xml",
+          "xml_sha256": "72230a2ffa379e7cffcf9345e0eafc2f40a1c7020be0331e2476776a654fa86"
+        },
+        {
+          "letter_id": "DCP-LETT-1928",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1928.html",
+          "html_sha256": "a855eec1d0fdcb20c6962be842dc57351bca1160a954351d850f2b35666924ab",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1928.xml",
+          "xml_sha256": "b2cc3053347a494e0d7746efa0e1538801941123edbc66bf56bb991444779a6e"
+        },
+        {
+          "letter_id": "DCP-LETT-1931",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1931.html",
+          "html_sha256": "0fedacbbe3c64bd32a44e08252c2ecd328eb36dc6e387ebfc27bfdcbd3d47544",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1931.xml",
+          "xml_sha256": "040e9866eb4fb58777beb3e2fa143dab37bc3aac45c0e96eff1237477e010ca2"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Preserve retained body paragraph numbering separately from raw DOM XPath; do not treat DOM offsets as historical paragraph scopes.",
+    "Keep cataloguer text, quoted Darwin, copied text, footnote answers, later annotations, reported opinions and modern apparatus separately attributed.",
+    "Rendering requirements do not create acceptance, receipt, knowledge activation, training eligibility or export readiness."
+  ],
+  "notes": [
+    "The held 1927/1928→1890 and 1889→1904 candidates remain unresolved; rendering must preserve their non-acceptance.",
+    "The two July inputs 1927 and 1928 feed distinct scopes of 1931 and must remain independently addressable."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/parent-reading/batch-10.json",
+      "sha256": "113cd0434c77f9359afdd8a07a582b43fb3ee27b4659793998d6721904424940"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-decisions/batch-10.json",
+      "sha256": "69eef93f12842a7ea1be199bfaacd6b752122cadcc7c1124921c3491f5f99477"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-10.json",
+      "sha256": "e458d7977092cde1f3954f1638e410337107af9345a54af22849b62504ddcc9d"
+    },
+    {
+      "path": "reports/1856-1857/review/all_letters.jsonl",
+      "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+    },
+    {
+      "path": "reports/1856-1857/audit.jsonl",
+      "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+    }
+  ]
+}

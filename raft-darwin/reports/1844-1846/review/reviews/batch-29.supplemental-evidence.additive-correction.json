@@ -1,0 +1,49 @@
+{
+  "reviewer": "gpt-5.6-luna",
+  "status": "additive_correction_primary_decision_record",
+  "batch_id": "batch-29",
+  "preserves": "reports/1844-1846/review/reviews/batch-29.supplemental-evidence.additive.json",
+  "purpose": "Record already accepted primary-ledger relationships and withdraw the supplemental report's unsupported downgrade where no new contrary evidence was found.",
+  "existing_primary_decisions": [
+    {
+      "source_id": "DCP-LETT-716",
+      "target_id": "DCP-LETT-716F",
+      "relationship": "replies_to",
+      "status": "accepted_by_primary",
+      "ledger": "data/annotations/expansion_1837_1843.json",
+      "basis": "Distinctive Bell/Melrose witness, ownership, and seed-evidence details connect Darwin's paper response to his subsequent request. Full Kemp bodies and the relevant enclosure were read; no new evidence here warrants downgrading it."
+    },
+    {
+      "source_id": "DCP-LETT-720",
+      "target_id": "DCP-LETT-720F",
+      "relationship": "replies_to",
+      "status": "accepted_by_primary",
+      "ledger": "data/annotations/expansion_1837_1843.json",
+      "basis": "Existing primary decision; retain separately from the 716F request/720 answer."
+    },
+    {
+      "source_id": "DCP-LETT-720",
+      "target_id": "DCP-LETT-716F",
+      "relationship": "replies_to",
+      "status": "accepted_by_primary",
+      "ledger": "data/annotations/expansion_1837_1843.json",
+      "basis": "Kemp's explicit opening acknowledges Darwin's further-information request and the body supplies the requested witness account."
+    },
+    {
+      "source_id": "DCP-LETT-409A",
+      "target_id": "DCP-LETT-408F",
+      "relationship": "replies_to",
+      "status": "accepted_by_primary",
+      "ledger": "data/annotations/remaining_1837_1843/batch-11.json",
+      "basis": "Gould's receipt and thanks directly answer Darwin's gift in 408F; retain the reverse-direction ledger relation."
+    }
+  ],
+  "withdrawn_supplemental_claim": {
+    "source_id": "DCP-LETT-716",
+    "target_id": "DCP-LETT-716F",
+    "old_status": "candidate_only",
+    "new_status": "withdrawn",
+    "reason": "The candidate-only downgrade in the additive report is withdrawn because the existing primary ledger accepts the direct relation and this first pass found no new contrary evidence."
+  },
+  "counts_changed": false
+}

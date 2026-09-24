@@ -1,0 +1,140 @@
+{
+  "nodes": [
+    {
+      "id": "DCP-LETT-345",
+      "direction": "to_darwin"
+    },
+    {
+      "id": "DCP-LETT-346",
+      "direction": "from_darwin"
+    },
+    {
+      "id": "DCP-LETT-441",
+      "direction": "to_darwin"
+    },
+    {
+      "id": "DCP-LETT-444",
+      "direction": "to_darwin"
+    },
+    {
+      "id": "DCP-LETT-445",
+      "direction": "from_darwin"
+    },
+    {
+      "id": "DCP-LETT-699",
+      "direction": "to_darwin"
+    },
+    {
+      "id": "DCP-LETT-701F",
+      "direction": "from_darwin"
+    },
+    {
+      "id": "DCP-LETT-711",
+      "direction": "to_darwin"
+    },
+    {
+      "id": "DCP-LETT-711F",
+      "direction": "from_darwin"
+    },
+    {
+      "id": "DCP-LETT-720",
+      "direction": "to_darwin"
+    },
+    {
+      "id": "DCP-LETT-720F",
+      "direction": "from_darwin"
+    }
+  ],
+  "edges": [
+    {
+      "type": "knowledge_before",
+      "source": "DCP-LETT-345",
+      "target": "DCP-LETT-346",
+      "known_by_date": "1837-02-27",
+      "review_id": "DCP-LETT-345--DCP-LETT-346"
+    },
+    {
+      "type": "replies_to",
+      "source": "DCP-LETT-346",
+      "target": "DCP-LETT-345",
+      "review_id": "DCP-LETT-345--DCP-LETT-346"
+    },
+    {
+      "type": "knowledge_before",
+      "source": "DCP-LETT-444",
+      "target": "DCP-LETT-445",
+      "known_by_date": "1838-11-27",
+      "review_id": "DCP-LETT-444--DCP-LETT-445"
+    },
+    {
+      "type": "replies_to",
+      "source": "DCP-LETT-445",
+      "target": "DCP-LETT-444",
+      "review_id": "DCP-LETT-444--DCP-LETT-445"
+    },
+    {
+      "type": "knowledge_before",
+      "source": "DCP-LETT-699",
+      "target": "DCP-LETT-701F",
+      "known_by_date": "1843-10-09",
+      "review_id": "DCP-LETT-699--DCP-LETT-701F"
+    },
+    {
+      "type": "replies_to",
+      "source": "DCP-LETT-701F",
+      "target": "DCP-LETT-699",
+      "review_id": "DCP-LETT-699--DCP-LETT-701F"
+    },
+    {
+      "type": "knowledge_before",
+      "source": "DCP-LETT-711",
+      "target": "DCP-LETT-711F",
+      "known_by_date": "1843-11-09",
+      "review_id": "DCP-LETT-711--DCP-LETT-711F"
+    },
+    {
+      "type": "replies_to",
+      "source": "DCP-LETT-711F",
+      "target": "DCP-LETT-711",
+      "review_id": "DCP-LETT-711--DCP-LETT-711F"
+    },
+    {
+      "type": "knowledge_before",
+      "source": "DCP-LETT-720",
+      "target": "DCP-LETT-720F",
+      "known_by_date": "1843-12-07",
+      "review_id": "DCP-LETT-720--DCP-LETT-720F"
+    },
+    {
+      "type": "replies_to",
+      "source": "DCP-LETT-720F",
+      "target": "DCP-LETT-720",
+      "review_id": "DCP-LETT-720--DCP-LETT-720F"
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "incoming_id": "DCP-LETT-441",
+      "outgoing_id": "DCP-LETT-445",
+      "status": "rejected_as_the_identified_direct_prompt",
+      "reason": "The distinctive reading and housing replies in 445 match 444. The editorial notes to 441 and 444 identify an earlier, now missing Darwin reply to 441. Do not substitute 441 or invent the missing response.",
+      "known_by_date_assigned": null,
+      "editorial_evidence": {
+        "letter_id": "DCP-LETT-444",
+        "locator": "editorial footnote 1",
+        "quote": "CD’s letter written in response to Emma’s of [21–2 November 1838] is missing.",
+        "source": {
+          "path": "data/raw/dcp/expansion-1837-1843-pilot/DCP-LETT-444.html",
+          "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-444.xml",
+          "retrieved_at": "2026-09-16T09:25:58.849481+00:00",
+          "sha256": "163e42de5933cb7fa5b193244602686924f15d007be8faeb1cf1457802528b00",
+          "bytes": 117330,
+          "http_status": 200,
+          "etag": "\"67c01e4c7c4a0e86ab0dadb000e5e6cf\"",
+          "content_type": "text/html",
+          "id": "DCP-LETT-444"
+        }
+      }
+    }
+  ]
+}

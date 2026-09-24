@@ -1,0 +1,136 @@
+{
+  "batch_id": "batch-20",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-908",
+      "disposition": "grounding_candidate_missing_input",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "27 Aug [1845]; enclosed-document date and future maturity kept separate",
+      "separate_scholarly_sections": false
+    },
+    {
+      "letter_id": "DCP-LETT-911",
+      "disposition": "grounding_candidate_missing_input",
+      "source_kind": "letter_with_signed_formal_instrument",
+      "voice": "individual_darwin_body_with_separate_document_authorship_uncertain",
+      "date_assessment": "2 Sept [1845]; enclosed-document date and future maturity kept separate",
+      "separate_scholarly_sections": true,
+      "eligible_Darwin_body_paragraphs": [
+        1,
+        2,
+        3
+      ],
+      "excluded_from_automatic_Darwin_voice": [
+        "enclosures"
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1039",
+      "disposition": "grounding_candidate_missing_input",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "30 Dec [1846]; enclosed-document date and future maturity kept separate",
+      "separate_scholarly_sections": false
+    }
+  ],
+  "proposal_adjudications": [],
+  "direct_reply_pairs": [],
+  "date_evidence": [
+    {
+      "letter_id": "DCP-LETT-911",
+      "status": "enclosed_formal_document_dates",
+      "nominal_document_date": "1845-09-01",
+      "covering_letter_date": "1845-09-02",
+      "promissory_note_maturity": "1846-03-04",
+      "reason": "Neither legal document date nor future maturity establishes exact physical receipt or date Darwin composed the wording."
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-908",
+      "status": "completed_dispatch_report",
+      "dispatch_date": "1845-08-26",
+      "time_label": "Tuesday night",
+      "object": "Final corrected material returned to printers",
+      "normalization_condition": "Tuesday night preceding authorialAugust27 in assigned1845.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-908",
+          "body_paragraph": 1,
+          "quote": "I returned everything to the Printers on Tuesday night",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-908.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-908.xml",
+            "retrieved_at": "2026-09-16T23:59:01.243543+00:00",
+            "sha256": "2e69c3bf633f57aa6b3f8a50c4c0e294a3f17e4133d8baec8bc86496c3d86560",
+            "bytes": 115683,
+            "http_status": 200,
+            "etag": "\"233ec4d94baa18424efe7ee683bdd25c\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-908"
+          }
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-911",
+      "status": "signed_receipt_return_known_by_covering_date",
+      "known_by_date": "1845-09-02",
+      "actual_receipt_date": null,
+      "reason": "Body returns signed receipt, but no actual receipt day is specified.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-911",
+          "body_paragraph": 1,
+          "quote": "return you the receipt signed",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-911.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-911.xml",
+            "retrieved_at": "2026-09-16T23:59:01.644652+00:00",
+            "sha256": "f179032a6c6a13ea690659f68371c139bbceb2ea12fe2d9a5bc5c115fff0d843",
+            "bytes": 111104,
+            "http_status": 200,
+            "etag": "\"b72e57d7ce58c8fc8afd0feecf691af6\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-911"
+          }
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1039",
+      "status": "undated_recipient_note_and_later_editorial_outcome",
+      "reason": "Nearly4000 is attributed tentatively to Murray; January1 diary and unchanged American slavery passages are not knowledge supplied by Darwin own December30 letter."
+    }
+  ],
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-911",
+      "reason": "Do not train on formal copyright wording as Darwin-authored prose merely because he signed it; standalone body remains distinct."
+    },
+    {
+      "letter_id": "DCP-LETT-1039",
+      "reason": "Keep question about American edition and sales count unresolved at composition; do not incorporate later editorial answers."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "mentioned_in": [
+        "DCP-LETT-908",
+        "DCP-LETT-911"
+      ],
+      "description": "Murray payment proposal and subsequent note with receipt and promised sales information; incoming prose missing."
+    },
+    {
+      "mentioned_in": [
+        "DCP-LETT-1039"
+      ],
+      "description": "Earlier Lyell report of satisfactory sales and bookseller referral; exact medium and dates not recovered."
+    }
+  ]
+}

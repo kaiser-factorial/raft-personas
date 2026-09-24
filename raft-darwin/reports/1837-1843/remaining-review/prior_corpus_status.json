@@ -1,0 +1,46 @@
+{
+  "established_prompt_pairs_across_reviewed_batches": 16,
+  "established_prompt_pairs_definition": "Conservative single-date surviving incoming/Darwin-body relationships, not export-ready RAFT examples. Section-dependent relationships are counted separately below.",
+  "confirmed_direct_reply_links_including_dated_sections": 21,
+  "distinct_Darwin_response_letters_including_dated_sections": 19,
+  "additional_section_dependent_links": 5,
+  "additional_section_dependent_response_letters": 3,
+  "batches": [
+    {
+      "period": "1828-1836",
+      "single_date_pairs": 5,
+      "report": "reports/correspondence-map/README.md",
+      "scope": "unchanged earlier review"
+    },
+    {
+      "period": "1837-1843",
+      "single_date_pairs": 11,
+      "direct_links_including_sections": 16,
+      "distinct_Darwin_responses": 14,
+      "full_read_count": 112,
+      "report": "reports/1837-1843/henslow-lyell/README.md"
+    }
+  ],
+  "previously_identified_direct_reply_held_for_outgoing_date": "DCP-LETT-135 -> DCP-LETT-139; additional to all counts above",
+  "old_graph_retained_as_period_specific": true,
+  "combined_training_export_performed": false,
+  "unpaired_count_limit": "247 safe new-period outgoing metadata records remain unreviewed, not proven unpaired. 57 reviewed new-period outgoing bodies lack an identified surviving prompt.",
+  "inputs": [
+    {
+      "path": "reports/correspondence-map/summary.json",
+      "sha256": "a447b5dd08cd473221dfd3921ccb355457063b660665e9ddd28fe6f6aa085283"
+    },
+    {
+      "path": "reports/1837-1843/correspondence-map/summary.json",
+      "sha256": "b0b41b69c4437f301d482b1350408ebdd542dc77fc4f9bb51ce8f50f130d3332"
+    },
+    {
+      "path": "data/annotations/expansion_1837_1843.json",
+      "sha256": "3ab8021a1ba240f1ffee308f865aa1528adbaca5d1bb295e7425fe20ee025eef"
+    },
+    {
+      "path": "data/annotations/henslow_lyell_1837_1843.json",
+      "sha256": "e53cf28962434a54498b567a1ef6853ce396c5de10c5274a6b445a700a3cd3eb"
+    }
+  ]
+}

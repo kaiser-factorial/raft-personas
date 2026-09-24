@@ -1,0 +1,37 @@
+{
+  "status": "candidate_recovery_no_authentic_letter_body",
+  "scope": "Bounded read-only recovery probe for DCP-LETT-1651A (21 March 1855) and DCP-LETT-1819A (10 January 1856). No accepted evidence, counts, source pages or exports changed.",
+  "findings": [
+    {
+      "source_id": "DCP-LETT-1651A",
+      "catalogue_date": "21 March 1855",
+      "local_html": "data/raw/dcp/1851-1855/pages/DCP-LETT-1651A.html",
+      "html_sha256": "6bab4cbc12216fb1a77903db312f3c7fcb97a394d23f2df2ff11927a42d63bb7",
+      "source_of_text": "Philosophical Transactions of the Royal Society 146 (1856): 21–29",
+      "body_status": "editorial synopsis only; no authentic Davy letter prose survives in the DCP page",
+      "date_version_mapping": "The March 21 catalogue record describes a letter intended for Darwin to forward to the Royal Society. The printed 1856 paper is a publication witness, not proof of the omitted letter's exact wording, dispatch day or full extent.",
+      "boundary": "Keep Darwin's January 28 inquiry and March 24–26 acknowledgements as separate correspondence evidence. The 1855-read paper's experiments and the later printed article cannot be exported as an authentic epistolary body."
+    },
+    {
+      "source_id": "DCP-LETT-1819A",
+      "catalogue_date": "10 January 1856",
+      "local_html": "data/raw/dcp/1856-1857/pages/DCP-LETT-1819A.html",
+      "source_sha256": "0a7c3347d34650cf2f0c9b127e556e0ea662b9827bcb2a769d33231d6196a52d",
+      "source_of_text": "Proceedings of the Royal Society of London 8 (1856–7): 27–33",
+      "body_status": "editorial synopsis only; no authentic Davy letter prose survives in the DCP page",
+      "date_version_mapping": "The January 10 letter is the later Davy paper intended for Darwin to communicate to the Royal Society. Its footnote explicitly distinguishes it from the earlier Davy letter published in Philosophical Transactions 146 (1856):21–29. The Proceedings paper is therefore a separate 1856–7 publication/version witness, not a continuation of the 1855 letter.",
+      "boundary": "Do not merge Proceedings 8:27–33 with the 1855 paper or reconstruct either missing letter from Darwin's summaries. A publication can establish scientific text availability after printing without establishing the original letter's exact composition, enclosure, receipt or forwarding path."
+    }
+  ],
+  "public_recovery_attempt": "The DCP source-of-text apparatus and publicly reachable DCP letter pages were checked for manuscript/facsimile links. No independent digitized original letter or authenticated epistolary transcription was located in the bounded search. The only identified textual witnesses are the two Royal Society publications named above and the DCP editorial synopses.",
+  "provenance_notes": [
+    "DCP-LETT-1651A local HTML includes Source of text: Philosophical Transactions of the Royal Society 146 (1856): 21–9 and the bracketed synopsis; it does not present a Davy letter body.",
+    "DCP-LETT-1819A local HTML footnote explicitly points back to DCP-LETT-1651A as the earlier Royal Society communication and gives Proceedings of the Royal Society of London 8 (1856–7): 27–33 as its own source.",
+    "Printed Royal Society texts remain candidates for scientific-content comparison only; they are not accepted as authentic letter bodies or Darwin target prompts."
+  ],
+  "limitations": [
+    "No manuscript images were available through the identified public DCP endpoints.",
+    "This report does not claim the letters are globally unavailable; archive access or a separately provenanceable scan could change the recovery status.",
+    "No downloaded external source was retained because no independently authenticated facsimile was identified."
+  ]
+}

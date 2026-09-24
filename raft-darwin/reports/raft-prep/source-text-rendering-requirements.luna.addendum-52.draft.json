@@ -1,0 +1,314 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batch-29 source-text rendering, chronology, attribution and provenance requirements only. Requirements documentation candidate; no converter, transcript, corpus, ledger, accepted-evidence or export changes.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-29.json",
+      "sha256": "69b197b8164a4565166f22c796d625cf09d437944ddbca463df73edb524a6d7d"
+    },
+    "parent_decision": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-29.json",
+      "sha256": "cbb2353af178668154deae9390b04aac2c7a01fd839d91894caf83849089d848"
+    },
+    "accepted_ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-29.json",
+      "sha256": "8980d79a07a2338467b84cfd83bd2a15b3b8d09daa2cf78c0b4389bf488bab96"
+    },
+    "export_policy": {
+      "path": "docs/raft-export-content-policy.md",
+      "sha256": "c7220b8e79bf44f2ac9d98b61676471e72d2b9a5fb360b4590d6c0972a3f916d"
+    },
+    "hooker_recipient_precedent": {
+      "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-50.correction.json",
+      "sha256": "d8d5fd032bc68893a82c05562c86d84656e566149f26af6cb7a196c72d1cce90"
+    }
+  },
+  "requirements": [
+    {
+      "case": "Three diagrams and four MathML fractions",
+      "source_ids": [
+        "DCP-LETT-1896",
+        "DCP-LETT-1980",
+        "DCP-LETT-3413",
+        "DCP-LETT-2123",
+        "DCP-LETT-2396"
+      ],
+      "requirement": "Preserve the three actual inline diagram assets: 1896 has one diagram and 1980 has two, at the exact DOM locators recorded in the accepted visual reading. Preserve all four MathML fractions without converting them to joined digits: 3413 P1 is 6½ oclock, 2123 P2 contains 48½ in the ratio, and 2396 P1 contains 7¼ and ½. Visual assets require actual inspection; MathML numerator/denominator tokens must remain structurally recoverable.",
+      "special_markup": [
+        {
+          "letter_id": "DCP-LETT-1896",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/div/img",
+          "asset_src": "/sites/default/files/dcp_lett_1896.jpg",
+          "asset_alt": "diagram"
+        },
+        {
+          "letter_id": "DCP-LETT-1980",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]/span/img",
+          "asset_src": "/sites/default/files/dcp_lett_1980_1.jpg",
+          "asset_alt": "diagram"
+        },
+        {
+          "letter_id": "DCP-LETT-1980",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]/span[4]/img",
+          "asset_src": "/sites/default/files/dcp_lett_1980_2.jpg",
+          "asset_alt": "diagram"
+        },
+        {
+          "letter_id": "DCP-LETT-3413",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]/math",
+          "raw_mathml": "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+        },
+        {
+          "letter_id": "DCP-LETT-2123",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]/math",
+          "raw_mathml": "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+        },
+        {
+          "letter_id": "DCP-LETT-2396",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]/math[1]",
+          "raw_mathml": "<math><mfrac><mn>1</mn><mn>4</mn></mfrac></math>"
+        },
+        {
+          "letter_id": "DCP-LETT-2396",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]/math[2]",
+          "raw_mathml": "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-3413",
+          "body_paragraph": 1,
+          "quote": "dining with you on Monday (ie tomorrow) at 612 oclock.—",
+          "source_html_sha256": "85ac831b604775f5d222b58f91d57c0e24cf68f33b4a6a9dbaf7b844a72b4546",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-2123",
+          "body_paragraph": 2,
+          "quote": "(as 339:323 \\:\\: 51.:48.5) they ought to have had 4812 species presenting vars.—",
+          "source_html_sha256": "c64335ffb36133589f43b6792163961194973aaa15109c1e1108a3e7a6b69a6b",
+          "dom_locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "letter_id": "DCP-LETT-2396",
+          "body_paragraph": 1,
+          "quote": "on Thursday at 714, for I am sure you will forgive me, if tired, going & sitting by myself for 12 an hour after dinner.",
+          "source_html_sha256": "014ec08354cf622a0b2c9b6287a1fde59fd3beefb3af5e2dfcdb682e4caea197",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        }
+      ]
+    },
+    {
+      "case": "1620 plain optical numerals",
+      "source_ids": [
+        "DCP-LETT-1620"
+      ],
+      "requirement": "Retain the source’s plain optical numerals exactly as printed: 110’ and 18’ are not MathML fractions and must not be guessed into 1/10 or 1/8, nor silently normalized to degree/minute notation. The return request and question about Martin Barry’s drawings remain Darwin’s body prose.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1620",
+          "body_paragraph": 5,
+          "quote": "Can you let me have back my 110’ glass as I sometimes want it. The 18’ compound I am not in a hurry for;",
+          "source_html_sha256": "e8bdc10889d2293a2578b67635c1887d60d30a99ead81febfe0cb1a8929f15b0",
+          "dom_locator": "div#letter div.body-content; retained body block 5"
+        }
+      ]
+    },
+    {
+      "case": "1980 Sunday and November 1 conflict",
+      "source_ids": [
+        "DCP-LETT-1980"
+      ],
+      "requirement": "Preserve the supplied/editorial date [1 November 1856] together with the header’s Sunday wording and the accepted calendar conflict: 1 November 1856 was Saturday; 2 November was Sunday. Do not silently choose November 2 or treat the footnote’s first-Sunday rationale as proof. The two diagrams and the body’s Hooker enquiry, daily Gärtner use and carapace terminology debate retain their own body/apparatus boundaries.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1980",
+          "body_paragraph": 1,
+          "quote": "I have written to Hooker to enquire.",
+          "source_html_sha256": "15e3728c05df9e16b770a3679acbdf9edcc9536907e68b9d1b6fa5e8c06ab84f",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1980",
+          "body_paragraph": 3,
+          "quote": "But I demur vehemently to your calling the under membrane of carapace “Corium”",
+          "source_html_sha256": "15e3728c05df9e16b770a3679acbdf9edcc9536907e68b9d1b6fa5e8c06ab84f",
+          "dom_locator": "div#letter div.body-content; retained body block 3"
+        }
+      ]
+    },
+    {
+      "case": "2123 oral statistical advice and ratio artifact",
+      "source_ids": [
+        "DCP-LETT-2123"
+      ],
+      "requirement": "Describe the numerical passage as Darwin’s response to Lubbock’s advice explicitly attributed to a fortunate conversation, not as a preserved Lubbock letter. Preserve 339/323, 51/37, the raw ratio commands and the four-digit artifact 4812 exactly until a supported rendering repair; do not copy a modern recalculation into Darwin’s body. The conclusion remains qualified: the case is not strong enough without generality.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2123",
+          "body_paragraph": 3,
+          "quote": "I am quite convinced yours is the right way; I had thought of it, but shd never have done it, had it not been for my most fortunate conversation with you.",
+          "source_html_sha256": "c64335ffb36133589f43b6792163961194973aaa15109c1e1108a3e7a6b69a6b",
+          "dom_locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "letter_id": "DCP-LETT-2123",
+          "body_paragraph": 2,
+          "quote": "but not strong enough, without it be general, for me to have much confidence in.",
+          "source_html_sha256": "c64335ffb36133589f43b6792163961194973aaa15109c1e1108a3e7a6b69a6b",
+          "dom_locator": "div#letter div.body-content; retained body block 2"
+        }
+      ]
+    },
+    {
+      "case": "Lubbock manuscript received versus later revised publication",
+      "source_ids": [
+        "DCP-LETT-1979",
+        "DCP-LETT-1960",
+        "DCP-LETT-1951"
+      ],
+      "requirement": "Keep 1979’s Daphnia manuscript as the source Darwin received and read on 27 October 1856, including his specific criticism of evidence and terminology. Later publication is a revised/versioned source and cannot replace the manuscript text. Preserve the already accepted 1951→1960 knowledge relationship once: 1960 P6 quotes Dana’s congratulations and pamphlet thanks from 1951 P17, but those quoted Dana words remain a copied third-party voice, not new Darwin prose or a second edge.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1979",
+          "body_paragraph": 1,
+          "quote": "I received this morning your paper & have read it attentively.",
+          "source_html_sha256": "07ca0ead1a45d912c905e0c953dc32207ae51589c193accea3e0a9b010eef508",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1979",
+          "body_paragraph": 8,
+          "quote": "Trust more to Huxley’s opinion than to mine, if you can get him to read the M.S.",
+          "source_html_sha256": "07ca0ead1a45d912c905e0c953dc32207ae51589c193accea3e0a9b010eef508",
+          "dom_locator": "div#letter div.body-content; retained body block 8"
+        },
+        {
+          "letter_id": "DCP-LETT-1951",
+          "body_paragraph": 17,
+          "quote": "A long life to them full of joys",
+          "source_html_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+          "dom_locator": "div#letter div.body-content; retained body block 17"
+        },
+        {
+          "letter_id": "DCP-LETT-1960",
+          "body_paragraph": 6,
+          "quote": "A long life to them full of joys",
+          "source_html_sha256": "1903c8b1f7d6128b85ff22b0494d0dc80ffd7598a7af4b344f6817afd480326a",
+          "dom_locator": "div#letter div.body-content; retained body block 6"
+        },
+        {
+          "letter_id": "DCP-LETT-1951",
+          "body_paragraph": 17,
+          "quote": "Please thank him from me for the pamphlets",
+          "source_html_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+          "dom_locator": "div#letter div.body-content; retained body block 17"
+        },
+        {
+          "letter_id": "DCP-LETT-1960",
+          "body_paragraph": 6,
+          "quote": "Please thank him from me for the pamphlets",
+          "source_html_sha256": "1903c8b1f7d6128b85ff22b0494d0dc80ffd7598a7af4b344f6817afd480326a",
+          "dom_locator": "div#letter div.body-content; retained body block 6"
+        }
+      ]
+    }
+  ],
+  "source_provenance": [
+    {
+      "letter_id": "DCP-LETT-1896",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1896.html",
+      "html_sha256": "9c071ba5244c9378980f1ad2795e928fad654042104c0ec3df20ebbfdaa08ae5",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1896.xml",
+      "xml_sha256": "08ddb919cb40d45794f3d670863ee4c84203198f179a0c6bb3cbe9081feb0358",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date"
+    },
+    {
+      "letter_id": "DCP-LETT-1980",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1980.html",
+      "html_sha256": "15e3728c05df9e16b770a3679acbdf9edcc9536907e68b9d1b6fa5e8c06ab84f",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1980.xml",
+      "xml_sha256": "990760714aba6062aa35e040122be46004991c67b938fb3989c3bc69836834f5",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date"
+    },
+    {
+      "letter_id": "DCP-LETT-1620",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1620.html",
+      "html_sha256": "e8bdc10889d2293a2578b67635c1887d60d30a99ead81febfe0cb1a8929f15b0",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1620.xml",
+      "xml_sha256": "07770323e49439eeb3072c4eda259d00176188a199144f593ce228ba6579d1e8",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date"
+    },
+    {
+      "letter_id": "DCP-LETT-3413",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-3413.html",
+      "html_sha256": "85ac831b604775f5d222b58f91d57c0e24cf68f33b4a6a9dbaf7b844a72b4546",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-3413.xml",
+      "xml_sha256": "3a18ff624543739556782966484904182695733d225d6e897e6ba0e5cc29c4e2",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date"
+    },
+    {
+      "letter_id": "DCP-LETT-2123",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2123.html",
+      "html_sha256": "c64335ffb36133589f43b6792163961194973aaa15109c1e1108a3e7a6b69a6b",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2123.xml",
+      "xml_sha256": "c9effea8d7c63c891f93181790024a5b2bb9d7a69c22fa1ab807462f3efcac62",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date"
+    },
+    {
+      "letter_id": "DCP-LETT-2396",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2396.html",
+      "html_sha256": "014ec08354cf622a0b2c9b6287a1fde59fd3beefb3af5e2dfcdb682e4caea197",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2396.xml",
+      "xml_sha256": "147586b24f91596ba8d5adf8230768b1c2432691752eae6de17b7d9c1dde57e6",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date"
+    },
+    {
+      "letter_id": "DCP-LETT-1979",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1979.html",
+      "html_sha256": "07ca0ead1a45d912c905e0c953dc32207ae51589c193accea3e0a9b010eef508",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1979.xml",
+      "xml_sha256": "fd4d258743befa0e5f32a7af7a8db19455cf01bb0eef761565933b79b49b14db",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date"
+    },
+    {
+      "letter_id": "DCP-LETT-1960",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1960.html",
+      "html_sha256": "1903c8b1f7d6128b85ff22b0494d0dc80ffd7598a7af4b344f6817afd480326a",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1960.xml",
+      "xml_sha256": "eac6ce3863854af56f6051f021fdc0f458d827322b8049d4391d57cbb2fe7257",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date"
+    },
+    {
+      "letter_id": "DCP-LETT-1951",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1951.html",
+      "html_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1951.xml",
+      "xml_sha256": "7b729a39ac17037cc4c3fb84715a4dc0b35807be48a895e8bbf10f1200432576",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date"
+    }
+  ],
+  "accepted_relationship_reference": {
+    "incoming_id": "DCP-LETT-1951",
+    "witness_id": "DCP-LETT-1960",
+    "accepted_decision_path": "reports/1856-1857/review/parent-decisions/batch-13.json",
+    "accepted_decision_sha256": "bf92a51c8a505e725c5936845bf46cffd1ad8c8eaeaf8b4a73b472d38c7d8221",
+    "accepted_ledger_path": "data/annotations/periods/1856-1857/batch-13.json",
+    "accepted_ledger_sha256": "4d7c694a8ec0b4670bb3e166ec4e9afb9aa2fb4940b8dab4c318fafb2dea932f",
+    "scope": "1960 P6 only; September 23 1856 knowledge bound; do not recount."
+  },
+  "export_checks": [
+    "Only attributed body prose is eligible for question, answer or grounding content; exclude headers, footnotes, annotations, bibliography and later publication summaries.",
+    "Preserve MathML structure and diagram DOM locators; no guessed fractions, figures or [SYMBOL]-style artifacts.",
+    "Retain supplied dates and calendar conflicts as explicit holds; composition, receipt, reading and demonstrated knowledge remain separate.",
+    "Run scripts/period_review.py check_quotes against preserved sources; all quote fields above are exact body substrings.",
+    "No accepted relationships are created or recounted by this draft."
+  ],
+  "validation": {
+    "quote_count": 14,
+    "quote_method": "scripts/period_review.py check_quotes; exact body substrings checked against preserved HTML",
+    "requirements_only": true,
+    "export_performed": false,
+    "accepted_files_modified": false
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Accepted 1856–1857 batch 13 source-text rendering, chronology, attribution, receipt and figure requirements only; candidate for root review. No converter, export, transcript, corpus, training or primary evidence changes.",
+  "primary_provenance": {
+    "batch": {
+      "reading": {
+        "path": "reports/1856-1857/review/parent-reading/batch-13.json",
+        "sha256": "a5e8ed85d1cfcff4519cd0b8f5c48d9607c811da8ea856ab0cd18325058ee786"
+      },
+      "decisions": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-13.json",
+        "sha256": "bf92a51c8a505e725c5936845bf46cffd1ad8c8eaeaf8b4a73b472d38c7d8221"
+      },
+      "ledger": {
+        "path": "data/annotations/periods/1856-1857/batch-13.json",
+        "sha256": "4d7c694a8ec0b4670bb3e166ec4e9afb9aa2fb4940b8dab4c318fafb2dea932f"
+      }
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1951"
+      ],
+      "case": "full September continuation, gar-pike figure, MathML and coastline qualification",
+      "requirement": "Render the complete surviving September 8 continuation, including the formerly treated-as-missing later pages. Preserve the actual gar-pike tail image at /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/div/img as an illustration of a reported juvenile tail, not quantitative evolutionary evidence. The fossil-wood passage contains a genuine 2½-foot MathML length at /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[17]/math and a four-inch diameter; retain the fragment wording and do not turn it into a forest or 212-foot tree. Dana’s cave classifications, bipolar counts and coastline habitat qualification remain attributed and uncertain; species distribution does not establish hemisphere of origin.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1951",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1951.xml",
+          "xml_sha256": "7b729a39ac17037cc4c3fb84715a4dc0b35807be48a895e8bbf10f1200432576",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1951.html",
+          "source_html_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+          "verified_xml_dates": [
+            {
+              "text": "8 Sept 1856",
+              "attributes": {
+                "when": "1856-09-08"
+              },
+              "lower": "1856-09-08",
+              "upper": "1856-09-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-09-08\">8 Sept 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1951",
+          "body_paragraph": 16,
+          "quote": "a fragment of Carbonized wood",
+          "char_start": 499,
+          "char_end": 528,
+          "source_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[17]"
+        },
+        {
+          "letter_id": "DCP-LETT-1951",
+          "body_paragraph": 13,
+          "quote": "the extent of possible habitats",
+          "char_start": 504,
+          "char_end": 535,
+          "source_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[14]"
+        },
+        {
+          "letter_id": "DCP-LETT-1951",
+          "body_paragraph": 2,
+          "quote": "Of the spiders I cannot speak definitely",
+          "char_start": 869,
+          "char_end": 909,
+          "source_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "verified_continuation_apparatus": {
+        "letter_id": "DCP-LETT-1951",
+        "literal_text": "The remaining eight pages in DAR 162: 38 were subsequently discovered to be part of this letter.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[3]/div[8]/div[2]",
+        "source_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73"
+      },
+      "verified_mixed_number": {
+        "letter_id": "DCP-LETT-1951",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[17]/math",
+        "integer_immediately_preceding_mathml": "2",
+        "markup": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> ft. in length and 4 inches in diameter   Its color is black, exhibiting a fine ligneous structure; the concentric circles are distinctly visible on its superior end; it occasionally gives sparks with steel and effervesces slightly in nitric acid.”—",
+        "normalized_reading": "2½",
+        "unit": "feet"
+      },
+      "verified_actual_figure": {
+        "letter_id": "DCP-LETT-1951",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/div/img",
+        "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1951.html",
+        "source_html_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+        "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1951.jpg",
+        "alt": "diagram",
+        "figure_path": "data/raw/dcp/1856-1857/figures/DCP-LETT-1951-1.jpg",
+        "retrieved_at": "2026-09-17T08:59:51.027817+00:00",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1951.jpg",
+        "bytes": 18829,
+        "sha256": "b1112629d18ae1e52c1388202ae1b9914a068ab6ada9f23ad9a4c2416ee4a4cf",
+        "visual_observation": "Truncated body at left has a row of short vertebral marks continuing into a narrow upward/projecting upper tail lobe; rounded larger lobe below. No scale or labels. Illustrates Dana report of juvenile gar-pike tail and proposed later loss of upper extension, not direct proof of a universal developmental law."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1960",
+        "DCP-LETT-1951"
+      ],
+      "case": "Dana quotation as knowledge evidence and stale missing-section note",
+      "requirement": "1960 P6 quotes Dana1951 P17, proving Darwin knowledge by September23, before his September29 reply. Preserve the quotation boundary: the quoted Dana wording is not Darwin target voice. This witness creates no additional direct prompt. Old missing-section apparatus is superseded for availability by the complete1951 continuation, without claiming the dispatched manuscript and transcription are error-free. Lubbock April marriage congratulations differ from Diana September wedding in the surrounding letter.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1960",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1960.xml",
+          "xml_sha256": "eac6ce3863854af56f6051f021fdc0f458d827322b8049d4391d57cbb2fe7257",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1960.html",
+          "source_html_sha256": "1903c8b1f7d6128b85ff22b0494d0dc80ffd7598a7af4b344f6817afd480326a",
+          "verified_xml_dates": [
+            {
+              "text": "23 Sept [1856]",
+              "attributes": {
+                "when": "1856-09-23"
+              },
+              "lower": "1856-09-23",
+              "upper": "1856-09-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-09-23\">23 Sept [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1951",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1951.xml",
+          "xml_sha256": "7b729a39ac17037cc4c3fb84715a4dc0b35807be48a895e8bbf10f1200432576",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1951.html",
+          "source_html_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+          "verified_xml_dates": [
+            {
+              "text": "8 Sept 1856",
+              "attributes": {
+                "when": "1856-09-08"
+              },
+              "lower": "1856-09-08",
+              "upper": "1856-09-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-09-08\">8 Sept 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1960",
+          "body_paragraph": 6,
+          "quote": "a letter from Dana",
+          "char_start": 71,
+          "char_end": 89,
+          "source_sha256": "1903c8b1f7d6128b85ff22b0494d0dc80ffd7598a7af4b344f6817afd480326a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        },
+        {
+          "letter_id": "DCP-LETT-1960",
+          "body_paragraph": 6,
+          "quote": "A long life to them full of joys",
+          "char_start": 197,
+          "char_end": 229,
+          "source_sha256": "1903c8b1f7d6128b85ff22b0494d0dc80ffd7598a7af4b344f6817afd480326a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        },
+        {
+          "letter_id": "DCP-LETT-1951",
+          "body_paragraph": 17,
+          "quote": "A long life to them full of joys",
+          "char_start": 273,
+          "char_end": 305,
+          "source_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[18]"
+        },
+        {
+          "letter_id": "DCP-LETT-1951",
+          "body_paragraph": 17,
+          "quote": "Please thank him from me for the pamphlets",
+          "char_start": 308,
+          "char_end": 350,
+          "source_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[18]"
+        }
+      ],
+      "verified_stale_apparatus": {
+        "letter_id": "DCP-LETT-1960",
+        "literal_text": "The passage quoted was probably in the section of the letter that is now missing.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[7]/div[2]",
+        "source_sha256": "1903c8b1f7d6128b85ff22b0494d0dc80ffd7598a7af4b344f6817afd480326a"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2083",
+        "DCP-LETT-2094"
+      ],
+      "case": "35½-degree MathML and adopted South/north transposition",
+      "requirement": "Render2083 P3 latitude as35½ degrees from integer35 plus half MathML, not3512 or35/12. Preserve adopted edition wording and its footnote that South/north were transposed, probably by Dana; do not silently switch again. Dana lacks Antarctic facts and expressly cannot be certain about the subgenus. His report of received Lyell Supplement at P9 presumes Darwin sent it;2094 P3 corrects the sender to Lyell. This is Dana receipt, not Darwin receipt. Keep former unanswered letter distinct;2020F now survives despite stale footnote that its likely antecedent is unlocated.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2083",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2083.xml",
+          "xml_sha256": "0899638daa0a3348ccb41b9ed997545a35d6674d9a331cf2996a937cb7619859",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2083.html",
+          "source_html_sha256": "36693b386cd18352650536a5e64feb0426b95682280c4bccf08d08e81d56de65",
+          "verified_xml_dates": [
+            {
+              "text": "27 Apr 1857",
+              "attributes": {
+                "when": "1857-04-27"
+              },
+              "lower": "1857-04-27",
+              "upper": "1857-04-27",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-04-27\">27 Apr 1857</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2094",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2094.xml",
+          "xml_sha256": "a11e5799305bfb4f193e714261a9d12d0b614a7f0cbdd92501b3c630c80f815b",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2094.html",
+          "source_html_sha256": "112e9f4cd0faf1082a9428b7859345d46c962c4e2576eee66b6225aeed6f6d1d",
+          "verified_xml_dates": [
+            {
+              "text": "25 May [1857]",
+              "attributes": {
+                "when": "1857-05-25"
+              },
+              "lower": "1857-05-25",
+              "upper": "1857-05-25",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-05-25\">25 May [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2083",
+          "body_paragraph": 3,
+          "quote": "Halicarcinus has a representative genus",
+          "char_start": 167,
+          "char_end": 206,
+          "source_sha256": "36693b386cd18352650536a5e64feb0426b95682280c4bccf08d08e81d56de65",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-2083",
+          "body_paragraph": 2,
+          "quote": "possibly—I cannot say certainly",
+          "char_start": 344,
+          "char_end": 375,
+          "source_sha256": "36693b386cd18352650536a5e64feb0426b95682280c4bccf08d08e81d56de65",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2083",
+          "body_paragraph": 9,
+          "quote": "believe I have to thank you for it",
+          "char_start": 426,
+          "char_end": 460,
+          "source_sha256": "36693b386cd18352650536a5e64feb0426b95682280c4bccf08d08e81d56de65",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]"
+        },
+        {
+          "letter_id": "DCP-LETT-2094",
+          "body_paragraph": 3,
+          "quote": "I am glad Lyell has sent you his supplement",
+          "char_start": 320,
+          "char_end": 363,
+          "source_sha256": "112e9f4cd0faf1082a9428b7859345d46c962c4e2576eee66b6225aeed6f6d1d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-2083",
+          "body_paragraph": 1,
+          "quote": "Your former letter also remains unanswered",
+          "char_start": 164,
+          "char_end": 206,
+          "source_sha256": "36693b386cd18352650536a5e64feb0426b95682280c4bccf08d08e81d56de65",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ],
+      "verified_transposition_apparatus": {
+        "letter_id": "DCP-LETT-2083",
+        "literal_text": "the terms ‘South’ and ‘north’ were transposed, presumably by Dana.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[7]/div[2]",
+        "source_sha256": "36693b386cd18352650536a5e64feb0426b95682280c4bccf08d08e81d56de65"
+      },
+      "verified_stale_former_letter_apparatus": {
+        "letter_id": "DCP-LETT-2083",
+        "literal_text": "The ‘former’ letter to which Dana refers has not been located.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[2]/div[2]",
+        "source_sha256": "36693b386cd18352650536a5e64feb0426b95682280c4bccf08d08e81d56de65"
+      },
+      "verified_mixed_number": {
+        "letter_id": "DCP-LETT-2083",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]/math",
+        "integer_immediately_preceding_mathml": "35",
+        "markup": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> ",
+        "normalized_reading": "35½",
+        "unit": "degrees"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2020F",
+        "DCP-LETT-2016"
+      ],
+      "case": "December 21 missing November prompt versus December 8 receipt and reply",
+      "requirement": "Keep 2020F P1–P5 as an unpaired answer to the missing November 28 Dana letter about libration/species, infertility and chemical elements. In P6–P8, the explicit “This morning” receipt identifies Dana’s December 8 note and supports the narrower cave-rat/embryology/negative-evidence reply; do not backdate that source into P1–P5. Preserve the explicit December21 day with supplied1856 year, the F source extent (nine complete retained blocks), and the separate P9 pigeon request.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2020F",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2020F.xml",
+          "xml_sha256": "f0ec03aa23494a16527c0cd226a1bd57a2617030db27b59a5c4c11bbe80cd427",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2020F.html",
+          "source_html_sha256": "6c96c0a0ce44f3459594553d29d19f31bd5299a98447a35ea7f468d970831664",
+          "verified_xml_dates": [
+            {
+              "text": "21 Dec [1856]",
+              "attributes": {
+                "when": "1856-12-21"
+              },
+              "lower": "1856-12-21",
+              "upper": "1856-12-21",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-12-21\">21 Dec [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2016",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2016.xml",
+          "xml_sha256": "56594fb6ea72a482328d034d32d8c3b2854fcc50ece3eae34f0e7a90b3a72043",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2016.html",
+          "source_html_sha256": "95e724cc4e00f59045179c26ff9074e023dde7969271e366e94ee57a411aa0e3",
+          "verified_xml_dates": [
+            {
+              "text": "8 Dec 1856",
+              "attributes": {
+                "when": "1856-12-08"
+              },
+              "lower": "1856-12-08",
+              "upper": "1856-12-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-12-08\">8 Dec 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2020F",
+          "body_paragraph": 1,
+          "quote": "your letter of Nov. 28th",
+          "char_start": 82,
+          "char_end": 106,
+          "source_sha256": "6c96c0a0ce44f3459594553d29d19f31bd5299a98447a35ea7f468d970831664",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2020F",
+          "body_paragraph": 6,
+          "quote": "This morning I have received your note of the 8th",
+          "char_start": 7,
+          "char_end": 56,
+          "source_sha256": "6c96c0a0ce44f3459594553d29d19f31bd5299a98447a35ea7f468d970831664",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"
+        },
+        {
+          "letter_id": "DCP-LETT-2020F",
+          "body_paragraph": 7,
+          "quote": "merely as case of negative evidence not being trustworthy",
+          "char_start": 322,
+          "char_end": 379,
+          "source_sha256": "6c96c0a0ce44f3459594553d29d19f31bd5299a98447a35ea7f468d970831664",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]"
+        },
+        {
+          "letter_id": "DCP-LETT-2016",
+          "body_paragraph": 3,
+          "quote": "no principle upset by the discovery of barnacles",
+          "char_start": 771,
+          "char_end": 819,
+          "source_sha256": "95e724cc4e00f59045179c26ff9074e023dde7969271e366e94ee57a411aa0e3",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        }
+      ],
+      "verified_missing_november_source_apparatus": {
+        "letter_id": "DCP-LETT-2020F",
+        "literal_text": "Dana’s letter of 28 November 1856 has not been found.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[2]/div[2]",
+        "source_sha256": "6c96c0a0ce44f3459594553d29d19f31bd5299a98447a35ea7f468d970831664"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1964",
+        "DCP-LETT-1952"
+      ],
+      "case": "September 9 versus September 29 Bosquet drawing reports",
+      "requirement": "Keep 1964’s “received yesterday” Bosquet drawing report as a September 28 event implied by the September 29 letter, while preserving 1952’s separate September 9 acknowledgement of Bosquet’s letter and drawings. Do not force both references into one delivery or silently redate either source; distinct drawings or an editorial/date discrepancy remain possible.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1964",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1964.xml",
+          "xml_sha256": "658558a3c2ce81ed38dc43af687c7356926703f96781cfa7a28a006d2d68919d",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1964.html",
+          "source_html_sha256": "10fd8471d338a1e5d39e40acc9a63257d6f628764b2e5b9699dc04c04b714503",
+          "verified_xml_dates": [
+            {
+              "text": "29 Sept [1856]",
+              "attributes": {
+                "when": "1856-09-29"
+              },
+              "lower": "1856-09-29",
+              "upper": "1856-09-29",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-09-29\">29 Sept [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1952",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1952.xml",
+          "xml_sha256": "0e02ad2d6309d696c7c4f59b74e95885d285806a396bd23fb580ff2f782f425e",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1952.html",
+          "source_html_sha256": "cfe3aa0d32762fd556a121cb3a734fd33eebe8192a2e6207984474e9126f4aa5",
+          "verified_xml_dates": [
+            {
+              "text": "9 Sept [1856]",
+              "attributes": {
+                "when": "1856-09-09"
+              },
+              "lower": "1856-09-09",
+              "upper": "1856-09-09",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-09-09\">9 Sept [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1964",
+          "body_paragraph": 11,
+          "quote": "yesterday I received from M. Bosquet of Maestricht a beautiful drawing",
+          "char_start": 552,
+          "char_end": 622,
+          "source_sha256": "10fd8471d338a1e5d39e40acc9a63257d6f628764b2e5b9699dc04c04b714503",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]"
+        },
+        {
+          "letter_id": "DCP-LETT-1952",
+          "body_paragraph": 3,
+          "quote": "The drawings you have sent me are beautiful",
+          "char_start": 0,
+          "char_end": 43,
+          "source_sha256": "cfe3aa0d32762fd556a121cb3a734fd33eebe8192a2e6207984474e9126f4aa5",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Retained body paragraphs and raw DOM paths are separate coordinate systems; preserve both.",
+    "Keep quoted Dana voice, Darwin knowledge, annotations, apparatus, dispatch, receipt, reading and later corrections separately attributed.",
+    "Rendering requirements do not create relationship acceptance, training eligibility or knowledge activation."
+  ],
+  "notes": [
+    "The 1951 continuation is source-complete despite stale earlier missing-section notes.",
+    "The September 9 Bosquet witness and September 29 “yesterday” report remain distinct unresolved delivery possibilities."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/all_letters.jsonl",
+      "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+    },
+    {
+      "path": "reports/1856-1857/audit.jsonl",
+      "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+    }
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-37.draft.json",
+      "sha256": "0a2fc1626aa549dbbff9d35f75723ece3b40cb54fbc01671d3bde2b14a8719b2"
+    }
+  ],
+  "primary_corrections": [
+    "1951 wood quote is retainedP16, notP17;2083 latitude isP3, notP4;1964 Bosquet report isP11, notP7.",
+    "Replaced unrelated2020F quote in Bosquet case with actual1952 witness; incoming2016 and correcting2094 source provenance added.",
+    "Corrected exact8th text rather than candidate8 th spacing.",
+    "Explicit December21 day has a supplied year; no entire-date uncertainty invented.",
+    "Quoted Dana passage is not Darwin-authored target voice.",
+    "Repeated sender correction and stale former-letter apparatus were verified rather than merely mentioned."
+  ],
+  "primary_verification": {
+    "exact_body_quotes_checked": 18,
+    "unique_source_html_xml_pairs_checked": 8,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "previously_viewed_actual_figures_reverified": 1,
+    "mixed_mathml_numbers_checked": 2,
+    "apparatus_locators_checked": 5
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  }
+}

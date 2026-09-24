@@ -1,0 +1,43 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Addendum35 resolves four 2136 proportion typography holds from prep33 using original manuscript images; all other33 requirements remain.",
+  "inputs": [
+    {
+      "path": "data/annotations/reconciliation/1857-gray-2136-fractions.primary.json",
+      "sha256": "e62b71284e505caaf24264ed8918c650ce04f32ddc7c825c57983efd88a0bf1f"
+    }
+  ],
+  "requirements": [
+    {
+      "letter_id": "DCP-LETT-2136",
+      "body_paragraph": 4,
+      "raw_to_normalized": {
+        "881000": "88/1000",
+        "501000": "50/1000",
+        "481000": "48/1000",
+        "461000": "46/1000"
+      },
+      "requirement": "Preserve raw HTML strings. Future clean transcript rendering may use the four explicit slash-form mappings with provenance to this primary correction; do not silently recalculate, restore crossed-out values, or apply this mapping to other letters.",
+      "evidence_primary_addendum": "data/annotations/reconciliation/1857-gray-2136-fractions.primary.json"
+    }
+  ],
+  "primary_verification": {
+    "original_pdf_hash_verified": true,
+    "original_pages_visually_inspected": [
+      79,
+      80,
+      83
+    ],
+    "fraction_visual_readings": 4,
+    "raw_html_strings_unchanged": true,
+    "actual_manuscript_enclosure_hand_boundary_checked": true
+  },
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  }
+}

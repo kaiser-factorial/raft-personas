@@ -1,0 +1,394 @@
+{
+  "batch_id": "batch-03",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-1131",
+      "disposition": "grounding_candidate_without_identified_surviving_prompt",
+      "source_kind": "letter",
+      "voice": "Darwin",
+      "date_assessment": "[31 Oct 1847]; preserve original constraints and primary section notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1133",
+      "disposition": "grounding_candidate_without_identified_surviving_prompt",
+      "source_kind": "letter",
+      "voice": "Darwin",
+      "date_assessment": "[6 Nov 1847]; preserve original constraints and primary section notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1134",
+      "disposition": "mixed_voice_grounding_candidate_requires_Darwin_span_selection",
+      "source_kind": "letter",
+      "voice": "Darwin P1–4; Emma P5–6",
+      "date_assessment": "[8 Nov 1847]; preserve original constraints and primary section notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1158",
+      "disposition": "incoming_identified_prompt_with_date_and_voice_boundaries",
+      "source_kind": "composite letter",
+      "voice": "Hooker with separately attributed quoted sources and annotations",
+      "date_assessment": "20 Feb – 16 [Mar] 1848; preserve original constraints and primary section notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1174",
+      "disposition": "response_candidate",
+      "source_kind": "letter",
+      "voice": "Darwin",
+      "date_assessment": "10 May 1848; preserve original constraints and primary section notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1193",
+      "disposition": "incoming_identified_prompt_with_date_and_voice_boundaries",
+      "source_kind": "letter",
+      "voice": "Hooker with separately attributed quoted sources and annotations",
+      "date_assessment": "24 July [1848]; preserve original constraints and primary section notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1202",
+      "disposition": "response_candidate",
+      "source_kind": "letter",
+      "voice": "Darwin",
+      "date_assessment": "6 Oct [1848]; preserve original constraints and primary section notes.",
+      "training_export_ready": false
+    }
+  ],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-1174",
+      "target_id": "DCP-LETT-1158",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_scoped_reply",
+      "reason": "Distinctive Bhil fertility response and health acknowledgment; preserve input sections and independent added news."
+    },
+    {
+      "source_id": "DCP-LETT-1193",
+      "target_id": "DCP-LETT-1174",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_scoped_reply",
+      "reason": "Specific barnacle discovery and acknowledgment; reverse reply does not prove later Darwin receipt."
+    },
+    {
+      "source_id": "DCP-LETT-1202",
+      "target_id": "DCP-LETT-1193",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_scoped_reply",
+      "reason": "Distinctive tiny-note health, Pallas/Hodgson and barnacle reaction cluster."
+    }
+  ],
+  "direct_reply_pairs": [
+    {
+      "incoming_id": "DCP-LETT-1158",
+      "outgoing_id": "DCP-LETT-1174",
+      "status": "accepted",
+      "known_by_date": "1848-05-10",
+      "actual_receipt_date": null,
+      "response_scope": "1174 is the reply letter: P1–5 respond to Indian observations and P9 to chest symptoms; P6–8 also add independent work, family and other correspondence. No claim that every statement derives from 1158.",
+      "response_sections": [],
+      "response_date_policy": "Use the outgoing letter date with its original supplied components; incoming composition sections remain separate. Known-by is not a physical receipt date.",
+      "rationale": "Long-letter acknowledgment plus distinctive disputed fertility of wild/domestic Bhil, zoological uncertainty and continuing chest symptoms identifies this composite input; no single-day composition or receipt is invented.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1158",
+          "body_paragraph": 5,
+          "quote": "the wild sometimes breed with the Domestic but the offspring is degenerate & seldom fertile",
+          "char_start": 989,
+          "char_end": 1080,
+          "source_sha256": "699439e6f907791e5c43e469bbb58a72896881949d76a1cb48258a3f258735e8"
+        },
+        {
+          "letter_id": "DCP-LETT-1174",
+          "body_paragraph": 4,
+          "quote": "that of the wild Bhil, when breeding with the domestic, producing offspring, somewhat sterile, is the most surprising",
+          "char_start": 30,
+          "char_end": 147,
+          "source_sha256": "ae42e43a4851206adccc91b60faa44e1a9f6ea9a847d2d378e2c9c23164303cc"
+        },
+        {
+          "letter_id": "DCP-LETT-1174",
+          "body_paragraph": 9,
+          "quote": "I sincerely grieve that your chest yet troubles you",
+          "char_start": 110,
+          "char_end": 161,
+          "source_sha256": "ae42e43a4851206adccc91b60faa44e1a9f6ea9a847d2d378e2c9c23164303cc"
+        }
+      ],
+      "training_export_ready": false
+    },
+    {
+      "incoming_id": "DCP-LETT-1193",
+      "outgoing_id": "DCP-LETT-1202",
+      "status": "accepted",
+      "known_by_date": "1848-10-06",
+      "actual_receipt_date": null,
+      "response_scope": "1202 P1 health acknowledgment, P2 Hodgson/Pallas, P4 supplemental males and P5 Falconer; P3 Ross reading and other independent news are additions within the reply letter.",
+      "response_sections": [],
+      "response_date_policy": "Use the outgoing letter date with its original supplied components; incoming composition sections remain separate. Known-by is not a physical receipt date.",
+      "rationale": "Tiny note and recovery from pains, Hodgson/Pallas, barnacle sex reaction and Falconer illness form a distinctive matching cluster. Later 1203 was not yet written. Other expedition letters are separately acknowledged but not identified as this tiny note.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1193",
+          "body_paragraph": 2,
+          "quote": "I chiefly write to tell you that I never was in better health; have lost all my pains & ailments.",
+          "char_start": 0,
+          "char_end": 97,
+          "source_sha256": "3b6d39f8b2e88df7d03d2507bf562bf1784284ede56859b91483b84867dc7f17"
+        },
+        {
+          "letter_id": "DCP-LETT-1202",
+          "body_paragraph": 1,
+          "quote": "I have just been much pleased with getting your tiny note & above all with your statement that you are free from your heart-pains.",
+          "char_start": 0,
+          "char_end": 130,
+          "source_sha256": "8485f5863ecfc792fd9e7edf51aa95445f22cfc3a7b540c2d0ef9684d80e2714"
+        },
+        {
+          "letter_id": "DCP-LETT-1193",
+          "body_paragraph": 1,
+          "quote": "Do you know Pallas Memoir on degeneration of animals",
+          "char_start": 330,
+          "char_end": 382,
+          "source_sha256": "3b6d39f8b2e88df7d03d2507bf562bf1784284ede56859b91483b84867dc7f17"
+        },
+        {
+          "letter_id": "DCP-LETT-1202",
+          "body_paragraph": 2,
+          "quote": "I know well Pallas’ memoir.",
+          "char_start": 172,
+          "char_end": 199,
+          "source_sha256": "8485f5863ecfc792fd9e7edf51aa95445f22cfc3a7b540c2d0ef9684d80e2714"
+        }
+      ],
+      "training_export_ready": false
+    }
+  ],
+  "correspondent_replies": [
+    {
+      "response_id": "DCP-LETT-1193",
+      "antecedent_id": "DCP-LETT-1174",
+      "status": "accepted",
+      "response_scope": "1193 P1–3 acknowledgment, prospective answers and reaction to barnacle sex; P5 geographical note is an addition of uncertain relative date.",
+      "rationale": "Acknowledgment is independently identified by the startling barnacle male/female discovery and Darwin health account, not just the editorial cross-reference.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1193",
+          "body_paragraph": 1,
+          "quote": "I have but time to acknowlege the receipt of your excellent letter.",
+          "char_start": 0,
+          "char_end": 67,
+          "source_sha256": "3b6d39f8b2e88df7d03d2507bf562bf1784284ede56859b91483b84867dc7f17"
+        },
+        {
+          "letter_id": "DCP-LETT-1193",
+          "body_paragraph": 2,
+          "quote": "Thats a startling fact about Barnacles ♂ ♀.",
+          "char_start": 310,
+          "char_end": 353,
+          "source_sha256": "3b6d39f8b2e88df7d03d2507bf562bf1784284ede56859b91483b84867dc7f17"
+        },
+        {
+          "letter_id": "DCP-LETT-1174",
+          "body_paragraph": 6,
+          "quote": "I have lately got a bisexual cirripede, the male being microscopically small & parasitic within the sack of the female",
+          "char_start": 1207,
+          "char_end": 1325,
+          "source_sha256": "ae42e43a4851206adccc91b60faa44e1a9f6ea9a847d2d378e2c9c23164303cc"
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    }
+  ],
+  "cross_correspondent_knowledge": [],
+  "voice_held_ids": [
+    "DCP-LETT-1134"
+  ],
+  "dated_sections": [
+    {
+      "letter_id": "DCP-LETT-1158",
+      "sections": [
+        {
+          "paragraphs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "date_label": "Opening section headed 20 February 1848",
+          "note": "A dateline for the section, not proof each sentence composed that day."
+        },
+        {
+          "paragraphs": [
+            6
+          ],
+          "date_label": "4 March 1848",
+          "note": "Inserted postscript, dated by blue ink shared with March 4 section in footnote 5."
+        },
+        {
+          "paragraphs": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "date_label": "4 March 1848"
+        },
+        {
+          "paragraphs": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "date_label": "8 March 1848",
+          "note": "Marginal section with uncertain physical placement; chronological order supported by itinerary."
+        },
+        {
+          "paragraphs": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "date_label": "16 March 1848",
+          "original_dateline": "Benares Feby 16.",
+          "note": "Editorial month correction supported by itinerary. A missing Darwin letter was received shortly before departure from Mirzapore; this acknowledgment cannot condition the earlier February section."
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1193",
+      "sections": [
+        {
+          "paragraphs": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "date_label": "24 July 1848"
+        },
+        {
+          "paragraphs": [
+            5
+          ],
+          "date_label": null,
+          "note": "Appended mountain news: yesterday is not safely assigned July 23 because footnote 7 quotes July 19 father letter announcing same news last night."
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-1131",
+      "description": "MathML dinner deadline is 6½, not flattened 612."
+    },
+    {
+      "letter_id": "DCP-LETT-1133",
+      "description": "Could not leave before Thursday; arrived home last night. Do not equate departure with arrival."
+    },
+    {
+      "letter_id": "DCP-LETT-1134",
+      "description": "P1–4 Darwin, P5–6 Emma. Write to Hooker in India, not from India."
+    },
+    {
+      "letter_id": "DCP-LETT-1158",
+      "description": "First-pass date_sections mislabels opening section March 4. Use February 20 heading, with only inserted P6 assigned March 4. Deforestation-related crocodile suppression is prediction, not completed extinction."
+    },
+    {
+      "letter_id": "DCP-LETT-1174",
+      "description": "Raw MathML objective is ⅛ inch; literal flattened 18 must not be exported. Preserve plants/animals mismatch with 1158 rather than silently harmonizing."
+    },
+    {
+      "letter_id": "DCP-LETT-1193",
+      "description": "Appended mountain news relative date remains unresolved; no future Everest correction in historical voice."
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-1158",
+      "kind": "ongoing_question_not_immediate_reply_identity",
+      "related_id": "DCP-LETT-889",
+      "description": "Cheetah breeding inquiry has a documented 1845 antecedent; this does not prove that letter was the sole or immediate prompt in 1848.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-889",
+          "body_paragraph": 8,
+          "quote": "whether they ever breed in domestication",
+          "char_start": 182,
+          "char_end": 222,
+          "source_sha256": "8aa1a6b7c1e213e6c51db8171b7a6c33e0d69ed94bb634f9015a23b936c15a8a"
+        },
+        {
+          "letter_id": "DCP-LETT-1158",
+          "body_paragraph": 1,
+          "quote": "They never breed in confinement",
+          "char_start": 388,
+          "char_end": 419,
+          "source_sha256": "699439e6f907791e5c43e469bbb58a72896881949d76a1cb48258a3f258735e8"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1174",
+      "kind": "separate_packet_seen",
+      "description": "Frances Henslow sent Hooker letters and a note; exact packet contents unlocated."
+    },
+    {
+      "letter_id": "DCP-LETT-1202",
+      "kind": "reading_completed",
+      "description": "Ross Voyage finished and botanical summaries abstracted; body knowledge by October 6, separately attested completion September 17 in editorial reading notebook reference. Later identity of cattle-hunt author is not yet known."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-1131",
+      "description": "Two Hooker notes of Thursday and Friday."
+    },
+    {
+      "letter_id": "DCP-LETT-1133",
+      "description": "Hooker cancellation note just received."
+    },
+    {
+      "letter_id": "DCP-LETT-1158",
+      "description": "Darwin letter delivered through Falconer shortly before departure from Mirzapore, acknowledged only in final March section."
+    },
+    {
+      "letter_id": "DCP-LETT-1174",
+      "description": "Frances Henslow note and packet of Hooker letters."
+    },
+    {
+      "letter_id": "DCP-LETT-1202",
+      "description": "Other Hooker letters seen through William Hooker and Frances Henslow; pamphlet delivery details not established."
+    }
+  ],
+  "date_evidence": [
+    {
+      "letter_id": "DCP-LETT-1131",
+      "description": "October 31 is editorially supplied from illness comparison, not explicit full dateline."
+    },
+    {
+      "letter_id": "DCP-LETT-1134",
+      "description": "November 8 supplied as Monday following November 6."
+    },
+    {
+      "letter_id": "DCP-LETT-1193",
+      "description": "Main July 24 signature does not resolve P5 relative date."
+    }
+  ]
+}

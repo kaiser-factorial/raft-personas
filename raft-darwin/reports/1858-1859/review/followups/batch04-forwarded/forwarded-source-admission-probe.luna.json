@@ -1,0 +1,101 @@
+{
+  "status": "candidate_source_admission_probe",
+  "scope": "Read-only investigation of forwarded de Vriese and Wallace letters referenced in DCP-LETT-2367, 2371, 2403 and 2404. No source-complete incoming record, new relationship or acceptance is created.",
+  "sources_read": [
+    {
+      "letter_id": "DCP-LETT-2367",
+      "title": "From J. D. Hooker [20 November 1858]1",
+      "path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2367.html",
+      "html_sha256": "f5de5f7ad2b4aed1db212f14c119988d507a04c04fe363806eda4967e42c0ccc",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2367.xml",
+      "xml_sha256": "6e778bf6ae6f19c4d83257293f95c55ea5510075ce470f12b6bcf44834cf4039",
+      "date": "[20 Nov 1858]",
+      "direction": "to_darwin"
+    },
+    {
+      "letter_id": "DCP-LETT-2371",
+      "title": "To J. D. Hooker 24–5 November [1858]1",
+      "path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2371.html",
+      "html_sha256": "a83eeaeb4a10390e6d6b082df373afd1be511654ef8300c821a0ad47aae5d802",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2371.xml",
+      "xml_sha256": "a6716507a728e8bfaacf7beb0cade566d2cd5570fa33111ceeea5918059e6bf6",
+      "date": "24–5 Nov [1858]",
+      "direction": "from_darwin"
+    },
+    {
+      "letter_id": "DCP-LETT-2403",
+      "title": "To J. D. Hooker 23 January [1859]",
+      "path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2403.html",
+      "html_sha256": "66c01784c8ddaea9d2e970f61a6952635319e76d792e9d51b35a33b8ea95071c",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2403.xml",
+      "xml_sha256": "fa4927b4d72a81262fc2e099c84a855de9c02b2d9927a49c213c8d718fa514e2",
+      "date": "23 Jan [1859]",
+      "direction": "from_darwin"
+    },
+    {
+      "letter_id": "DCP-LETT-2404",
+      "title": "From J. D. Hooker 25 January 1859",
+      "path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2404.html",
+      "html_sha256": "de2db3ddb85967d49aaaeb1d20b1cc1b22a713bb3674a72f2b0e6d407728c626",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2404.xml",
+      "xml_sha256": "049a35fbbc110133f7d18343d9cbc4adaf0d87c239f22328422076ba4f3466f6",
+      "date": "25 Jan 1859",
+      "direction": "to_darwin"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "de-Vriese-forwarded-letter",
+      "referenced_source": "DCP-LETT-2367",
+      "forwarding_witness": "DCP-LETT-2371",
+      "finding": "No separate de Vriese-to-Hooker record was found in the preserved all_letters collection or period pages. 2367 is Hooker to Darwin and says he encloses “a no answer at all of de Vrieses” to Darwin’s question about European plants seeding in Java (P5). Darwin’s 2371 is to Hooker and says that “De Vrieses letter” is not much to the point (P11). These establish that a de Vriese letter was forwarded/read in the exchange, but preserve neither its full text nor a de Vriese authorial endpoint, so no Darwin knowledge or training edge can be admitted from it alone.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2367",
+          "body_paragraph": 5,
+          "locator": "div#letter div.body-content; retained body block 5",
+          "quote": "Also a no answer at all of de Vrieses to your question about Europæan plants seeding in Java.",
+          "source_html_sha256": "f5de5f7ad2b4aed1db212f14c119988d507a04c04fe363806eda4967e42c0ccc"
+        },
+        {
+          "letter_id": "DCP-LETT-2371",
+          "body_paragraph": 11,
+          "locator": "div#letter div.body-content; retained body block 11",
+          "quote": "De Vrieses letter, certainly is not much to the point, but I am glad to have it.",
+          "source_html_sha256": "a83eeaeb4a10390e6d6b082df373afd1be511654ef8300c821a0ad47aae5d802"
+        }
+      ]
+    },
+    {
+      "claim": "wallace-forwarded-letters",
+      "referenced_source": "DCP-LETT-2403",
+      "forwarding_witness": "DCP-LETT-2404",
+      "finding": "No separate Wallace-to-Darwin or Wallace-to-Hooker source was found in the preserved all_letters collection for the letters described here. Darwin’s 2403 (23 January 1859) says he encloses letters “to you & me from Wallace” and asks Hooker to return his copy (P1); Hooker’s 2404 (25 January 1859) says he is relieved by “Wallaces letter” and has forwarded it to Lyell (P1). The actual Wallace text and delivery/reading path are therefore witnessed by Darwin and Hooker, but cannot be attributed or transcribed as Wallace body prose.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2403",
+          "body_paragraph": 1,
+          "locator": "div#letter div.body-content; retained body block 1",
+          "quote": "I enclose letters to you & me from Wallace.",
+          "source_html_sha256": "66c01784c8ddaea9d2e970f61a6952635319e76d792e9d51b35a33b8ea95071c"
+        },
+        {
+          "letter_id": "DCP-LETT-2404",
+          "body_paragraph": 1,
+          "locator": "div#letter div.body-content; retained body block 1",
+          "quote": "I am very greatly relieved & pleased by Wallaces letter which I have forwarded to Lyell",
+          "source_html_sha256": "de2db3ddb85967d49aaaeb1d20b1cc1b22a713bb3674a72f2b0e6d407728c626"
+        }
+      ]
+    }
+  ],
+  "search_limits": {
+    "collection": "reports/1858-1859/review/all_letters.jsonl plus preserved period pages",
+    "results": [
+      "2367,2371,2403,2404 are the preserved endpoint/witness records; no independent de Vriese or Wallace forwarded-letter IDs appeared in the loaded collection.",
+      "No download or network retrieval was performed because the preserved DCP witnesses contain only forwarding references and no record-level URL/facsimile was identified locally."
+    ],
+    "retrieval_needed": "A primary manuscript/facsimile retrieval would be needed to establish the forwarded correspondent text, exact date, and full voice; until then these remain witness-only research evidence."
+  },
+  "provenance_note": "The cited quotations are exact retained body text. Header/date, author and recipient metadata remain those of the witness letters, not the absent forwarded sources."
+}

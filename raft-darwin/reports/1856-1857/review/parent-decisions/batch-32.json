@@ -1,0 +1,170 @@
+{
+  "batch_id": "batch-32",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-1817",
+      "source_kind": "ALS with authorial enclosure",
+      "voice": "Edward Blyth, with explicitly attributed other-author quotations; no Darwin answer voice",
+      "date_assessment": "8 Jan [1856]; composition not receipt, corrected1856 year retained for1817",
+      "disposition": "incoming_context_without_surviving_current_darwin_reply",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1825",
+      "source_kind": "ALS",
+      "voice": "Edward Blyth, with explicitly attributed other-author quotations; no Darwin answer voice",
+      "date_assessment": "23 Jan 1856; composition not receipt, corrected1856 year retained for1817",
+      "disposition": "incoming_context_without_surviving_current_darwin_reply",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1832",
+      "source_kind": "ALS",
+      "voice": "Edward Blyth, with explicitly attributed other-author quotations; no Darwin answer voice",
+      "date_assessment": "23 Feb 1856; composition not receipt, corrected1856 year retained for1817",
+      "disposition": "incoming_context_without_surviving_current_darwin_reply",
+      "training_export_ready": false
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-1817",
+      "kind": "missing_darwin_questions",
+      "description": "November5 and22 outgoing Darwin letters referred to, but neither is supplied by current sources. No inferred prose or reverse relationship to an unrelated Darwin letter.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1817",
+          "body_paragraph": 1,
+          "quote": "I have two letters of yours to answer, respectively dated Novr. 5th & 22nd",
+          "char_start": 0,
+          "char_end": 74,
+          "source_sha256": "ccfc55fd051a959479ff39de9fdb4d0ef96d729f60be4f139d506953a753bab6"
+        }
+      ]
+    },
+    {
+      "letter_ids": [
+        "DCP-LETT-1760",
+        "DCP-LETT-1811",
+        "DCP-LETT-1825"
+      ],
+      "kind": "indirect_prior_knowledge_witness_without_extant_reply",
+      "description": "Blyth reports an undated Darwin postscript acknowledging October8/22 letters, received among the home letters about midnight before January23. Darwin must have known those letters before composing that missing postscript. No exact Darwin receipt/composition date or surviving prompt-response pair is supplied; no ordinary Darwin-witness knowledge edge added.",
+      "conservative_report_date": "1856-01-23",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1825",
+          "body_paragraph": 1,
+          "quote": "Last night I was roused about midnight by the arrival of my home letters",
+          "char_start": 0,
+          "char_end": 72,
+          "source_sha256": "fcc661040018d815172b7f93236d5d1c8e581ab2d1b740bfc3067b0a0397e0e2"
+        },
+        {
+          "letter_id": "DCP-LETT-1825",
+          "body_paragraph": 1,
+          "quote": "I have a long letter from you undated, but mentioning in a P.S. that you had just recd. mine of Octr. 8th. & 22 nd.",
+          "char_start": 311,
+          "char_end": 426,
+          "source_sha256": "fcc661040018d815172b7f93236d5d1c8e581ab2d1b740bfc3067b0a0397e0e2"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1832",
+      "kind": "printing_dispatch_and_receipt_distinct",
+      "description": "Prior letter explicitly reached post office; rough proof and four printed copies are different witnesses. Neither proves Darwin receipt or reading.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1832",
+          "body_paragraph": 1,
+          "quote": "got safe to the post-office.",
+          "char_start": 68,
+          "char_end": 96,
+          "source_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26"
+        },
+        {
+          "letter_id": "DCP-LETT-1832",
+          "body_paragraph": 1,
+          "quote": "I send you 4 copies of my printed letter",
+          "char_start": 241,
+          "char_end": 281,
+          "source_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1832",
+      "kind": "missing_darwin_december_question",
+      "description": "December16 Darwin letter referred to directly; exact authority for Oman asses and red-deer sterility is still not recalled, and no missing Darwin wording is manufactured.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1832",
+          "body_paragraph": 3,
+          "quote": "But now for your letter of Decr. 16/– & its queries.",
+          "char_start": 0,
+          "char_end": 52,
+          "source_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1832",
+      "kind": "verified_fraction_and_limited_experimental_inference",
+      "description": "Actual source MathML means half-bred Gallus Sonneratii. Sterile eggs are reported observation with other eggs as hatching comparison; possibility of fertility in other hybrids is explicitly retained. Canine matched-controls experiment is a proposal.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1832",
+          "body_paragraph": 4,
+          "quote": "my experiments with the 12 bred Gallus Sonneratii",
+          "char_start": 883,
+          "char_end": 932,
+          "source_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26"
+        },
+        {
+          "letter_id": "DCP-LETT-1832",
+          "body_paragraph": 4,
+          "quote": "Perhaps, however, other hybrids of the very same kind might be more or less prolific",
+          "char_start": 1288,
+          "char_end": 1372,
+          "source_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1817",
+      "kind": "authorial_enclosure_and_separate_source_gap",
+      "description": "Notes for Mr Darwin enclosure fully survives as scholarly sibling in1817 HTML; historical1818 label must not create a duplicate incoming source. Separate Crump-to-Blyth1819 is a named forwarded report and pending additive recovery, not Darwin voice. Physical feathers are described but no image in preserved page."
+    },
+    {
+      "letter_id": "DCP-LETT-1825",
+      "kind": "source_claims_and_incomplete_bibliography_mapping",
+      "description": "Echo article known secondhand, goldfish inference speculative. Bibliography Lochaber Thomson does not identify cited Niger narrative. Later publications and undated Darwin abstracts cannot supply exact first-access dates."
+    },
+    {
+      "letter_ids": [
+        "DCP-LETT-1792",
+        "DCP-LETT-2192"
+      ],
+      "kind": "prior_knowledge_relationship_retained_without_recount",
+      "description": "Existing1792→2192 Blyth-to-Wallace knowledge link accepted in batch25 remains unchanged; this batch adds no duplicate."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_ids": [
+        "DCP-LETT-1817",
+        "DCP-LETT-1825",
+        "DCP-LETT-1832"
+      ],
+      "description": "Darwin November5/22, undated acknowledgment, and December16 questions remain missing in this corpus. Moore separate query slip and exact incoming draft/printed memorial text not recovered here. No fabricated questions."
+    }
+  ],
+  "summary": "Three fresh Blyth incoming targets and four accepted prior contexts. Full long enclosure read, two new actual figures inspected plus one prior visual reused, half MathML checked. No new direct, reverse or ordinary knowledge edges. Crump supplement pending independent recovery/admission. No export."
+}

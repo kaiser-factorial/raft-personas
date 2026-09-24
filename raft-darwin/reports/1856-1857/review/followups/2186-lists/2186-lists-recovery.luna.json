@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "status": "candidate_recovered_public_manuscript_images_partial_list_transcription_unresolved",
+  "scope": "Bounded recovery probe for the two annotated list witnesses cited by DCP-LETT-2186. Public Cambridge manuscript images were located and preserved additively; no rows are admitted, reconstructed, or added to accepted evidence.",
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/parent-reading/batch-18.json",
+      "sha256": "557746e9654dba5e6164b4ccc1b997b2e27fdee2b8a7c6e628556f1eba82d7df",
+      "role": "accepted full-source reading"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-decisions/batch-18.json",
+      "sha256": "f741164426876ea6158397cd0f9ed0be989d58e782a8cc79bf6844749c6e6149",
+      "role": "accepted primary decisions"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2186.html",
+      "sha256": "10fa8c3518bb44a034c60770d96da5929ba507282e0163b217cd10918de5f620",
+      "role": "DCP letter/apparatus"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2186.xml",
+      "sha256": "fb88a51ab4eb4323b939e400f9571a98f1941eb32b564394f312f6608fbf6501",
+      "role": "TEI source metadata"
+    },
+    {
+      "path": "reports/1856-1857/review/followups/2186-lists/MS-DAR-00160.iiif-manifest.json",
+      "sha256": "9f4ee524a2661ddea9fdd152bb392513253bd8de48e2413983b6365b5cc6a",
+      "role": "Cambridge IIIF manifest for CUL-DAR160"
+    }
+  ],
+  "public_sources": [
+    {
+      "url": "https://darwin-online.org.uk/content/record?itemID=CUL-DAR160.151",
+      "role": "Darwin Online catalogue record",
+      "finding": "CUL-DAR160.151 is catalogued as Bentham George to Darwin Charles Robert, [1857.12.16--1857.12.17], Calendar 2186; the public record has no image/transcription link itself."
+    },
+    {
+      "url": "https://cudl.lib.cam.ac.uk/iiif/MS-DAR-00160",
+      "role": "Cambridge IIIF Presentation manifest",
+      "finding": "Manifest exposes canvases labelled 151:1r through 151:4v and their public image services."
+    }
+  ],
+  "mapping_and_recovery": [
+    {
+      "cited_witness": "DAR 160.1:151/1",
+      "physical_image_mapping": "Preserved image 151-2r.jpg (IIIF canvas label 151:2r, canvas 620). The upper-left pencil folio mark visibly reads 151/1; this is the Cucubalus list leaf, despite the IIIF canvas label 151:2r.",
+      "image_path": "reports/1856-1857/review/followups/2186-lists/151-2r.jpg",
+      "sha256": "482c7a88588f74348487ae5dd71ada6436a1da89d75df17784032b520e60a77e",
+      "iiif_image_url": "https://images.lib.cam.ac.uk/iiif/MS-DAR-00160-000-00620.jp2/full/full/0/default.jpg",
+      "iiif_canvas": "https://cudl.lib.cam.ac.uk/iiif/MS-DAR-00160/canvas/620",
+      "visual_finding": "The damaged leaf visibly contains a numbered Cucubalus pair list, at least rows (1) through (8), with male/female symbols and Bentham annotations/comments in a right-hand column. Torn and abraded areas remove portions of several rows. The image proves the cited annotated list survives publicly, but is not a safe basis for a complete textual row transcription without specialist manuscript work.",
+      "companion_blank": {
+        "path": "reports/1856-1857/review/followups/2186-lists/151-2v.jpg",
+        "sha256": "f187c93b5cf2d1ad725c44a011c3c6752e0cec435d217b04ead88ba0aed0ef3d",
+        "observation": "Largely damaged/blank reverse, no recoverable list rows."
+      }
+    },
+    {
+      "cited_witness": "DAR 160.1:151/3",
+      "physical_image_mapping": "Preserved image 151-4r.jpg (IIIF canvas label 151:4r, canvas 624). The upper-left pencil folio mark visibly reads 151/3; this is the Silene list/annotation leaf, despite the IIIF canvas label 151:4r.",
+      "image_path": "reports/1856-1857/review/followups/2186-lists/151-4r.jpg",
+      "sha256": "c0bd988376a20edc814d5e1f9a3a9e34359e96eb79de63361fba36429effd304",
+      "iiif_image_url": "https://images.lib.cam.ac.uk/iiif/MS-DAR-00160-000-00624.jp2/full/full/0/default.jpg",
+      "iiif_canvas": "https://cudl.lib.cam.ac.uk/iiif/MS-DAR-00160/canvas/624",
+      "visual_finding": "The damaged leaf visibly contains a Silene heading/list area, several ruled or bracketed blank entry lines, male/female symbols, and Bentham handwritten annotations. Legible fragments include “S. ... noctiflora!” and a bracketed note containing “Cucubalus”/“Behen”; damage and loss prevent a trustworthy complete transcription. Do not turn these fragments into normalized species rows.",
+      "companion_blank": {
+        "path": "reports/1856-1857/review/followups/2186-lists/151-4v.jpg",
+        "sha256": "745f4d6514e2817fae0d5e37553c61e4fb6d40912a708095047de10a7df4c2c9",
+        "observation": "Largely damaged/blank reverse, no recoverable list rows."
+      }
+    }
+  ],
+  "additional_images_checked": [
+    {
+      "path": "reports/1856-1857/review/followups/2186-lists/151-1r.jpg",
+      "sha256": "b5bdccb742f47a880c626bc861b34981dc002626d2482748f5734504445ef88e",
+      "observation": "Bentham letter page, not the cited list leaf; body text corresponds DCP-LETT-2186."
+    },
+    {
+      "path": "reports/1856-1857/review/followups/2186-lists/151-3r.jpg",
+      "sha256": "b4d8fa251d090ac31b32f8e6d78d87be1bef2c45f751631f05f0a93f0108a6b",
+      "observation": "Small damaged handwritten fragment; no reliable list rows."
+    }
+  ],
+  "historical_boundaries": [
+    "DCP-LETT-2186 explicitly says “I return the lists”; accepted decision links the surviving cover to 2184 and 2177 while holding the annotated lists absent from the DCP transcription.",
+    "The recovered images establish actual manuscript/list survival and can support future visual transcription, but do not establish any exact receipt date beyond the accepted December 16/17 incoming alternative and 18 December response context.",
+    "Bentham annotations and Darwin list text are mixed physical layers; source authorship must not be collapsed into a single voice.",
+    "No complete textual transcription was located in the public sources checked. The positive image recovery supersedes a claim that the leaves are globally unavailable, while row-level content remains a bounded visual-retrieval gap."
+  ],
+  "candidate_use": "Candidate supplemental visual-source pointer only. Root may decide whether to attach these image hashes/locators to the existing scoped relationships; do not create new rows or replace the accepted unavailable-list limitation.",
+  "non_actions": [
+    "No accepted primary note, decision, ledger, raw projection, graph, transcript, or export was modified."
+  ]
+}

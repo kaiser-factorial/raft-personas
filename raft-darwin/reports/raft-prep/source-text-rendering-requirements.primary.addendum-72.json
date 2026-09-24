@@ -1,0 +1,474 @@
+{
+  "status": "primary_verified_conversion_preparation_requirements",
+  "scope": "Accepted 1858–1859 batch-17 source-text rendering, attribution, receipt and missing-list recovery requirements only; candidate for root review. No converter, transcript, corpus, training, export or accepted-evidence changes.",
+  "primary_provenance": {
+    "batch-17": {
+      "parent_reading": {
+        "path": "reports/1858-1859/review/parent-reading/batch-17.json",
+        "sha256": "fdb4d9d3a237e995b0332d6a0c142f5fddebc49ab5df276f913e48ce9b030c6b"
+      },
+      "parent_decisions": {
+        "path": "reports/1858-1859/review/parent-decisions/batch-17.json",
+        "sha256": "d638ab8ef1d3db2997f0362b0a8fadd782db9d1eec3ae8508a79c7eccea531fe"
+      },
+      "ledger": {
+        "path": "data/annotations/periods/1858-1859/batch-17.json",
+        "sha256": "ea78c8694f03031d4947c5290c71421bba75561da283522ac61db9c53a9e5979"
+      }
+    }
+  },
+  "requirements": [
+    {
+      "id": "gray-2249-partial-list",
+      "source_ids": [
+        "DCP-LETT-2249"
+      ],
+      "requirement": "Render DCP-LETT-2249 as a partial Gray witness. P1 is an editorial synopsis of the 146-genera list and must never be emitted as Gray prose or as list rows. Preserve only the surviving qualified Gray statement in P2 and the signature in P3; do not reconstruct species, counts, handwriting, or the lost covering note. The broad XML lower bound is not a composition date.",
+      "provenance": "The recovery probe found no independent DAR 165:103 facsimile; its earlier 1855 CUDL list is a comparison only.",
+      "recovery_probe": {
+        "path": "reports/1858-1859/review/followups/gray-2249/recovery-probe.luna.json",
+        "sha256": "b67e6a84a7cc6e0fc8d205c30095b08c3339e4c6a40f4a824d1a1e590248c39c",
+        "status": "no_independent_facsimile_recovered"
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2249",
+          "body_paragraph": 2,
+          "quote": "Of course I suppose most of the above are truly & originally distinct; some are probably not; a few pretty surely not.",
+          "char_start": 0,
+          "char_end": 118,
+          "source_sha256": "8c553b342e4201c041d6e0faa06640bc46bb814c2570b5e9d49fcbfdf8493c6c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2249",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2249.html",
+          "source_html_sha256": "8c553b342e4201c041d6e0faa06640bc46bb814c2570b5e9d49fcbfdf8493c6c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-2249.xml",
+          "xml_sha256": "091b896fb4850b15415f2e4584a3b5322d7c9f3d94545df179c8ffc4db89d901",
+          "verified_xml_dates": [
+            {
+              "text": "[before 3 Apr 1858]",
+              "attributes": {
+                "notBefore": "1809-01-01",
+                "notAfter": "1858-04-02"
+              },
+              "lower": "1809-01-01",
+              "upper": "1858-04-02",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1809-01-01\" notAfter=\"1858-04-02\">[before 3 Apr 1858]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "recovery_limit": "Root checked the candidate report and its hash; the bounded external search is Luna evidence, not an independently repeated exhaustive root search. No146row facsimile/table recovered; this is not proof that none exists elsewhere."
+    },
+    {
+      "id": "gray-2252-receipt-and-voice",
+      "source_ids": [
+        "DCP-LETT-2252",
+        "DCP-LETT-2249"
+      ],
+      "requirement": "Keep Darwin’s April 4 response separate from the missing Gray answer and list. The body establishes receipt of the letter/list by the preceding day and Darwin’s tabulation, while P2 says Hooker and other botanists differ from Gray and think varieties were omitted in small genera; that reported view must not be attributed to Gray. Preserve the distinct future sheet request and the qualified composition/read-through claims.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2252",
+          "body_paragraph": 1,
+          "quote": "how delighted I was to get your list, which is now being tabulated",
+          "char_start": 423,
+          "char_end": 489,
+          "source_sha256": "874eab5cb17c22a1bc9c2b675b261df74a61064ddea6aed489574b50c8192260",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2252",
+          "body_paragraph": 2,
+          "quote": "Hooker & several (not all) other Botanists differ from you",
+          "char_start": 64,
+          "char_end": 122,
+          "source_sha256": "874eab5cb17c22a1bc9c2b675b261df74a61064ddea6aed489574b50c8192260",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2252",
+          "body_paragraph": 1,
+          "quote": "yesterday morning, before I got your letter",
+          "char_start": 89,
+          "char_end": 132,
+          "source_sha256": "874eab5cb17c22a1bc9c2b675b261df74a61064ddea6aed489574b50c8192260",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2252",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2252.html",
+          "source_html_sha256": "874eab5cb17c22a1bc9c2b675b261df74a61064ddea6aed489574b50c8192260",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2252.xml",
+          "xml_sha256": "69dabc2d0bddc55f221d034aa043d30eaa5087d310e02bc319ffc7cedb3ab385",
+          "verified_xml_dates": [
+            {
+              "text": "4 Apr [1858]",
+              "attributes": {
+                "when": "1858-04-04"
+              },
+              "lower": "1858-04-04",
+              "upper": "1858-04-04",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-04-04\">4 Apr [1858]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2249",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2249.html",
+          "source_html_sha256": "8c553b342e4201c041d6e0faa06640bc46bb814c2570b5e9d49fcbfdf8493c6c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-2249.xml",
+          "xml_sha256": "091b896fb4850b15415f2e4584a3b5322d7c9f3d94545df179c8ffc4db89d901",
+          "verified_xml_dates": [
+            {
+              "text": "[before 3 Apr 1858]",
+              "attributes": {
+                "notBefore": "1809-01-01",
+                "notAfter": "1858-04-02"
+              },
+              "lower": "1809-01-01",
+              "upper": "1858-04-02",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1809-01-01\" notAfter=\"1858-04-02\">[before 3 Apr 1858]</ns0:date>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gray-2288-annotation-layer",
+      "source_ids": [
+        "DCP-LETT-2288"
+      ],
+      "requirement": "Gray June21 body reports pollen on stigma beforeopening, but his parenthetical never noticed bees about a Fumariaceæ is not restricted to unopenedflowers; it is personal observation, not universal absence. Darwin August16 marginal observation of B.hortense andAdlumia remains separate datedresearch provenance, excluded fromRAFTprose. It can inform knowledge chronology but doesnotproveexactreceipt;1858year followscontext, notexplicitannotationyear.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2288",
+          "body_paragraph": 1,
+          "quote": "whom I have never yet noticed about a Fumariaceæ",
+          "char_start": 173,
+          "char_end": 221,
+          "source_sha256": "4b824c7294b51914a6c6962794208b08f78dc86e70830e43e4f3428caae29e01",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2288",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2288.html",
+          "source_html_sha256": "4b824c7294b51914a6c6962794208b08f78dc86e70830e43e4f3428caae29e01",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2288.xml",
+          "xml_sha256": "47119e0f96c0dcabcfadad0c6c34885eebe4377b21cfe2383892da1cd2af6a10",
+          "verified_xml_dates": [
+            {
+              "text": "21 June 1858",
+              "attributes": {
+                "when": "1858-06-21"
+              },
+              "lower": "1858-06-21",
+              "upper": "1858-06-21",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-06-21\">21 June 1858</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "annotation_layer": [
+        {
+          "section_class": "annotations",
+          "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]",
+          "text": "CD annotations Top of first page: ‘Ch. 3’brown crayon; ‘Crossing of Fumariaceae Kidney Beans—’ pencil End of letter: ‘Aug 16th I have now seen B. hortense going to Corydalis lutea, & it was pretty to see how as it visited each flower it let off the trap. Apparently in consequence, Bee had unusual difficulty in withdrawing proboscis— Fresh flower of Adlumia cirrhosa bears nectar on both sides & hood moves equally well both ways & stigma pointed each side. Hooker has examined 2 other sp. of Corydalis & pistol sprang up— Dielytra eximia is name of red Fumariaceæ’2 pencil"
+        }
+      ]
+    },
+    {
+      "id": "darwin-2302-figure-and-missing-prompts",
+      "source_ids": [
+        "DCP-LETT-2302"
+      ],
+      "requirement": "July4 Darwin body explicitly answers missingMay21 note, notJune21Gray2288. Preserve actual2302 diagram separately as research asset with root reading; no assumptionthatRAFT textschema embedsimages. Resolve any necessary textual rendering with directsource evidence duringlatercleanup. P4Wallace and1857sketchdating areseparate; donotreplaceDarwin uncertainmemory withlatercorrectdate.",
+      "visual_rule": "Use the preserved figure manifest and source DOM image locator; describe the two-nectary versus one-nectary schematic, not measured anatomy.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2302",
+          "body_paragraph": 1,
+          "quote": "I have not answered your note of May 21",
+          "char_start": 0,
+          "char_end": 39,
+          "source_sha256": "0b6e47f59cca5fda9f495e79154fa39bf3080a8a5ff71592b6879b5aca5f4271",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2302",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2302.html",
+          "source_html_sha256": "0b6e47f59cca5fda9f495e79154fa39bf3080a8a5ff71592b6879b5aca5f4271",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2302.xml",
+          "xml_sha256": "11486dee87bdf6a181dd6cc7efa33e8650654f26c900a6dcb3a6b07e85613ca1",
+          "verified_xml_dates": [
+            {
+              "text": "4 July 1858",
+              "attributes": {
+                "when": "1858-07-04"
+              },
+              "lower": "1858-07-04",
+              "upper": "1858-07-04",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-07-04\">4 July 1858</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "accepted_primary_visual_reading": [
+        {
+          "letter_id": "DCP-LETT-2302",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]/span[2]/img",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2302.html",
+          "source_html_sha256": "0b6e47f59cca5fda9f495e79154fa39bf3080a8a5ff71592b6879b5aca5f4271",
+          "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_2302.jpg",
+          "alt": "diagram",
+          "figure_path": "data/raw/dcp/1858-1859/figures/DCP-LETT-2302-1.jpg",
+          "retrieved_at": "2026-09-17T13:08:44.042377+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_2302.jpg",
+          "bytes": 80509,
+          "sha256": "b09b8d95f4797c9fc5614350c957d6de43f2b03a42cd88215f8d9184c2db3116",
+          "visual_observation": "Root viewed actual preserved image: left Dicentra has two labeled nectar sacs, central style and cap labeled Hood with arrows to both sides; right Fumaria & Corydalis has one labeled lower-left nectary and asymmetric hood/style configuration. This illustrates bodyP2 comparison, not quantitative geometry or independent proof of universal crossing."
+        }
+      ]
+    },
+    {
+      "id": "gray-missing-prompts-and-later-holds",
+      "source_ids": [
+        "DCP-LETT-2321",
+        "DCP-LETT-2364",
+        "DCP-LETT-2520",
+        "DCP-LETT-2592",
+        "DCP-LETT-2599"
+      ],
+      "requirement": "Keep missing July 27 and December Gray prompts explicit. 2321’s climate/migration discussion includes qualified hypotheses and answers an unlocated July 27 note; 2364 asks about complexion/fever evidence without a recovered prompt. 2520 is a November 11 prospective Origin dispatch/reading request and explicitly limits Darwin’s prior Japan Flora reading. 2592 and 2599 are December post-endpoint material and must remain held outside the period; their missing long Gray letter and Japan memoir cannot be used as period knowledge.",
+      "date_rule": "Do not convert a missing prompt or later publication/annotation into a received contemporary source.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2520",
+          "body_paragraph": 1,
+          "quote": "I have directed a copy of my Book (as yet only an abstract) on the Origin of species to be sent you",
+          "char_start": 0,
+          "char_end": 99,
+          "source_sha256": "a6e58cd2eaaca3df357def19e0867a7d2106317da6d620952963fccbc79230f4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2321",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2321.html",
+          "source_html_sha256": "27d6f2ed056a3cce99a42d5fb9e5b0c3359a7f0a9b0d5e26beda3ada0e170f05",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2321.xml",
+          "xml_sha256": "b56de78d6b0a82010d61c7de2959495173f840230d9bc7fd8a73b044b7fc6f29",
+          "verified_xml_dates": [
+            {
+              "text": "11 Aug [1858]",
+              "attributes": {
+                "when": "1858-08-11"
+              },
+              "lower": "1858-08-11",
+              "upper": "1858-08-11",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-08-11\">11 Aug [1858]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2364",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2364.html",
+          "source_html_sha256": "b25d9020eb65ca58db668d250bee5515f873778af1ccdc6be4ff26e227371c1f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2364.xml",
+          "xml_sha256": "415f51ddf2ea785ca18368b92a5213c84b3f85a2ee49a6038aac733ea605aebb",
+          "verified_xml_dates": [
+            {
+              "text": "18 Nov [1858]",
+              "attributes": {
+                "when": "1858-11-18"
+              },
+              "lower": "1858-11-18",
+              "upper": "1858-11-18",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-11-18\">18 Nov [1858]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2520",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2520.html",
+          "source_html_sha256": "a6e58cd2eaaca3df357def19e0867a7d2106317da6d620952963fccbc79230f4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2520.xml",
+          "xml_sha256": "85d1bbe14084013226a62360dadc6e3327361360197293f35d7595da926a419c",
+          "verified_xml_dates": [
+            {
+              "text": "11 Nov [1859]",
+              "attributes": {
+                "when": "1859-11-11"
+              },
+              "lower": "1859-11-11",
+              "upper": "1859-11-11",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1859-11-11\">11 Nov [1859]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2592",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2592.html",
+          "source_html_sha256": "66a2d8d2a68de0014be38044760a5f4feda64e9686dd04dff939083e6c7a953a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2592.xml",
+          "xml_sha256": "e4f58c1471b18f536b44471ae0da5bf161689abc64c2c0b8ffdcd170b6ad389a",
+          "verified_xml_dates": [
+            {
+              "text": "21 Dec [1859]",
+              "attributes": {
+                "when": "1859-12-21"
+              },
+              "lower": "1859-12-21",
+              "upper": "1859-12-21",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1859-12-21\">21 Dec [1859]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2599",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2599.html",
+          "source_html_sha256": "65047b274738d15155a0e84a01309296db31f663c792c7440304a1afa38287f9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2599.xml",
+          "xml_sha256": "917817eaf038b87d71f5427e2ed77c1c2df7222dfc38dd6e3a61a6dcfc03baf2",
+          "verified_xml_dates": [
+            {
+              "text": "24 Dec [1859]",
+              "attributes": {
+                "when": "1859-12-24"
+              },
+              "lower": "1859-12-24",
+              "upper": "1859-12-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1859-12-24\">24 Dec [1859]</ns0:date>"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Documentation only. Do not implement a converter, alter frozen source/projection files, revise accepted notes/decisions/ledgers, create transcripts, or export RAFT examples.",
+    "Keep body paragraph numbering from the retained corpus projection separate from raw DOM XPath. Retain editorial synopsis, annotations, bibliography and recovery provenance as research layers, never correspondent prose."
+  ],
+  "inputs": [
+    {
+      "letter_id": "DCP-LETT-2218",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2218.html",
+      "html_sha256": "a9ec0dd87c94476a8704e6aa5c763df0bfec4483d69344a9fa693e72427d1133",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2218.xml",
+      "xml_sha256": "fe759bd37003d5a000828a212f06116854bb106427f20670312d438307adb388"
+    },
+    {
+      "letter_id": "DCP-LETT-2249",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2249.html",
+      "html_sha256": "8c553b342e4201c041d6e0faa06640bc46bb814c2570b5e9d49fcbfdf8493c6c",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-2249.xml",
+      "xml_sha256": "091b896fb4850b15415f2e4584a3b5322d7c9f3d94545df179c8ffc4db89d901"
+    },
+    {
+      "letter_id": "DCP-LETT-2252",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2252.html",
+      "html_sha256": "874eab5cb17c22a1bc9c2b675b261df74a61064ddea6aed489574b50c8192260",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2252.xml",
+      "xml_sha256": "69dabc2d0bddc55f221d034aa043d30eaa5087d310e02bc319ffc7cedb3ab385"
+    },
+    {
+      "letter_id": "DCP-LETT-2288",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2288.html",
+      "html_sha256": "4b824c7294b51914a6c6962794208b08f78dc86e70830e43e4f3428caae29e01",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2288.xml",
+      "xml_sha256": "47119e0f96c0dcabcfadad0c6c34885eebe4377b21cfe2383892da1cd2af6a10"
+    },
+    {
+      "letter_id": "DCP-LETT-2302",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2302.html",
+      "html_sha256": "0b6e47f59cca5fda9f495e79154fa39bf3080a8a5ff71592b6879b5aca5f4271",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2302.xml",
+      "xml_sha256": "11486dee87bdf6a181dd6cc7efa33e8650654f26c900a6dcb3a6b07e85613ca1"
+    },
+    {
+      "letter_id": "DCP-LETT-2321",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2321.html",
+      "html_sha256": "27d6f2ed056a3cce99a42d5fb9e5b0c3359a7f0a9b0d5e26beda3ada0e170f05",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2321.xml",
+      "xml_sha256": "b56de78d6b0a82010d61c7de2959495173f840230d9bc7fd8a73b044b7fc6f29"
+    },
+    {
+      "letter_id": "DCP-LETT-2364",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2364.html",
+      "html_sha256": "b25d9020eb65ca58db668d250bee5515f873778af1ccdc6be4ff26e227371c1f",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2364.xml",
+      "xml_sha256": "415f51ddf2ea785ca18368b92a5213c84b3f85a2ee49a6038aac733ea605aebb"
+    },
+    {
+      "letter_id": "DCP-LETT-2520",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2520.html",
+      "html_sha256": "a6e58cd2eaaca3df357def19e0867a7d2106317da6d620952963fccbc79230f4",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2520.xml",
+      "xml_sha256": "85d1bbe14084013226a62360dadc6e3327361360197293f35d7595da926a419c"
+    },
+    {
+      "letter_id": "DCP-LETT-2592",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2592.html",
+      "html_sha256": "66a2d8d2a68de0014be38044760a5f4feda64e9686dd04dff939083e6c7a953a",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2592.xml",
+      "xml_sha256": "e4f58c1471b18f536b44471ae0da5bf161689abc64c2c0b8ffdcd170b6ad389a"
+    },
+    {
+      "letter_id": "DCP-LETT-2599",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2599.html",
+      "html_sha256": "65047b274738d15155a0e84a01309296db31f663c792c7440304a1afa38287f9",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2599.xml",
+      "xml_sha256": "917817eaf038b87d71f5427e2ed77c1c2df7222dfc38dd6e3a61a6dcfc03baf2"
+    }
+  ],
+  "notes": [
+    "The accepted batch-17 decision holds the 2249→2252 relationship source-incomplete and corrected its direction concept: 2252 is Darwin’s response; 2249 does not contain the list text.",
+    "2252’s receipt evidence is April 3, but 2252 composition is April 4; receipt, composition and reading must remain distinct.",
+    "The 2302 diagram and the August 16 annotation on 2288 require separate visual/marginal provenance."
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-72.draft.json",
+      "sha256": "08f6f909b5f5251100a7dbf3fc9a9719c7458eefb9c1bcb170db54c59adefd60"
+    }
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md",
+  "primary_verification": {
+    "exact_body_quotes_checked": 7,
+    "unique_source_html_xml_pairs_checked": 9,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "all_candidate_input_source_pairs_checked": 10,
+    "accepted_visual_readings_reused": 1,
+    "scholarly_annotation_layer_checked": 1
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "primary_corrections": [
+    "Expanded five bare numeric source IDs tocanonicalDCPIDs.",
+    "Recomputed exactbodyquotes andDOMlocators; checked allteninputHTML/XMLpairs.",
+    "Corrected candidateclaim thatGray nevernoticedbees onlybeforefloweropening: parenthetical isnotlimitedthatway.",
+    "MadeAugustannotation exclusion fromRAFTprose explicit while retaining researchdating utility.",
+    "Reused hash-verified root2302visualreading without claiming a second imageview.",
+    "Bounded negativeGrayrecovery result toactualLunaprobe rather than exhaustive rootsearch."
+  ]
+}

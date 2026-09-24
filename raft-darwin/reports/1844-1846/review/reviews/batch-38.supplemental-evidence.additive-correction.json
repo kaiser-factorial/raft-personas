@@ -1,0 +1,102 @@
+{
+  "batch_id": "batch-38",
+  "period": "1844-1846",
+  "reviewer": "luna_network",
+  "status": "additive_correction_complete",
+  "supersedes": "reports/1844-1846/review/reviews/batch-38.supplemental-evidence.additive.json",
+  "scope": "Correction limited to DCP-LETT-4217F, DCP-LETT-3240, and DCP-LETT-13865 after primary source reading identified enclosure/transcription distinctions.",
+  "record_reviews": [
+    {
+      "letter_id": "DCP-LETT-4217F",
+      "source": {
+        "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-4217F.html",
+        "html_sha256": "a2425fa97f1216c324d903ac46383d95f444154ef431103bffbaf2fc57478bce",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-4217F.xml",
+        "xml_sha256": "1ca08cdbe5999638d0cbf643bd5ef33b5c562cb87b2e3f7273ced94426ba46a"
+      },
+      "body_read_in_full": true,
+      "main_letter_body_available": false,
+      "surviving_enclosure_transcription_available": true,
+      "source_kind": "missing cover letter with complete scholarly enclosure transcription",
+      "date_assessment": "Header identifies William Allport Leighton and gives [before 21 June 1863]. The surviving enclosure is explicitly dated in its own closing attribution as an extract from Abbé José Francisco Correa da Serra to Sir James Edward Smith, 4 July 1795. The cover's composition/sending date is not established because the cover letter is missing; neither date should be recast as an 1844–46 event.",
+      "attribution_assessment": "The enclosure is not Leighton's or Darwin's prose. It is Leighton's copy of part of Correa da Serra's 1795 letter to Smith, transcribed from P. Smith 1832, 2:210–11. The CD annotation records only the reference 'Life of Sir J. E. Smith.'",
+      "scholarly_sections_read": [
+        {
+          "section_class": "enclosures",
+          "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]",
+          "quote": "[Enclosure]2 Days ago I was at Lee’s3 with our fellow Lambert,4 &, as many species of Verbascum unknown to me were in blossom, I tried in all of them the phænomenon of their [irritability], with the greatest success in all of them. I remember having spoken to you about it; & as probably the English Verbasca are now in flower about Norwich I will be very glad if you observe it minutely. Strike with a stick & with some force, the stem of the plant under the branches 2 or 3 times & wait patiently for some minutes; you will see the limbus of the corolla move towards the centre, & afterwards the basis of the tubus slowly detach itself from the receptacle & fall—& immedly. the calyx close itself with impatience & embrace the seeds & that will happen to all the open flowers one after another.5 In Portugal6 I had observed it in the Verbascum Thapsi—sinuatum— Blattaria—now at Lee’s in many others & I wish I cod. observe all its species & the Celsiæ:— I know nothing analogous in other plants Next year this will be followed up, & made a Memoir for our Society.7 Abbé Correa to Sir JES. in lit July 4. 1795 see Life of Sir JES. 2.2108",
+          "content_note": "This is a substantive historical botanical report and experimental instruction about Verbascum floral irritability, followed by the 1795 attribution. It supplies preserved enclosure prose, but not the missing cover or a Darwin response prompt."
+        },
+        {
+          "section_class": "annotations",
+          "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]",
+          "quote": "CD annotationsEnd of letter: ‘Life of Sir J. E. Smith.’ ink",
+          "content_note": "The annotation is a later reference note and does not identify when Darwin wrote it or make the enclosure Darwin's own voice."
+        }
+      ],
+      "footnote_constraints": [
+        "Footnote 2 says the letter with which the enclosure was sent has not been found and identifies the enclosure as a copy from P. Smith 1832.",
+        "Footnote 5 says Darwin attempted the Verbascum lychnitis experiment unsuccessfully and cites experimental notes dated 21 June 1863; this is a later Darwin experiment, not the date of the copied 1795 text.",
+        "Footnote 7 explains the reference to the Linnean Society and says no Correa da Serra Verbascum paper in its transactions has been found."
+      ],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "The missing cover prevents identification of an incoming prompt or receipt event. The enclosure's 1795 authorship and Leighton's later transmission cannot be used as a Darwin-response pair in 1844–46.",
+      "correction": "Withdraw the earlier characterization that the record lacked a surviving substantive transcription. Mark only the main cover as unavailable; retain the enclosure as fully transcribed scholarly material with distinct historical authorship and date."
+    },
+    {
+      "letter_id": "DCP-LETT-3240",
+      "source": {
+        "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-3240.html",
+        "html_sha256": "4cb9c43c9d8ffe6d11e8fc26472df0507151ec10481294c5d978f56fbf01671f",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-3240.xml",
+        "xml_sha256": "0910c8b331ef4e093993b2aae8c56fb40e3fc80abd3c78822bb32ae3e765b5e6"
+      },
+      "body_read_in_full": false,
+      "main_letter_body_available": false,
+      "surviving_enclosure_transcription_available": false,
+      "source_kind": "catalogue synopsis only; damaged letter",
+      "date_assessment": "Header gives H. W. Bates [before 25 September 1861]. Footnote 2 says the letter is badly damaged and only occasional words or parts of sentences are legible. This is outside the 1844–46 period and cannot supply a usable prompt.",
+      "attribution_assessment": "The body block is the bracketed catalogue synopsis '[Reports on some of the results of his study of various Amazonian insects.]'; it is not a transcription of Bates's surviving prose. The editorial summary is only 'Mention of Volucella.'",
+      "body_evidence": {
+        "locator": "div#letter div.body-content; retained body block 1",
+        "quote": "[Reports on some of the results of his study of various Amazonian insects.]"
+      },
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "Catalogue synopsis and occasional legible words do not identify a full incoming prompt, date, or reply relationship.",
+      "correction": "Withdraw the earlier claim that the complete letter body was read as surviving prose. Retain as catalogue-only/damaged, with no full-body evidence."
+    },
+    {
+      "letter_id": "DCP-LETT-13865",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-13865.html",
+        "html_sha256": "7afc0fb5ebaa15f4078965355261128c506aafe7bf501094a0e1938a5b3dcbd3",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-13865.xml",
+        "xml_sha256": "8f7e008d206e0ceb838289cb2122367138744a1edf2222872cb8f0f56300e97b"
+      },
+      "body_read_in_full": false,
+      "main_letter_body_available": false,
+      "surviving_enclosure_transcription_available": false,
+      "source_kind": "catalogue synopsis with short literal quotations; no full body",
+      "date_assessment": "Header offers alternative 1 March dates from 1843 through 1882; the catalogue date and address establish no unique year. This does not establish inclusion in 1844–46 or a receipt date.",
+      "attribution_assessment": "The bracketed block combines an editorial synopsis with short quoted wording. The literal phrases are not a complete body transcription and cannot support a full-source response scope.",
+      "body_evidence": {
+        "locator": "div#letter div.body-content; retained body block 1",
+        "quote": "[Regrets that he has no duplicate copy of his book and cannot give one to his correspondent ‘as I have already given away a very large number. You will before long no doubt be able to borrow a copy …’]"
+      },
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "The synopsis/short quotation does not identify the missing incoming text or a unique date; no prompt or reply edge is proposed.",
+      "correction": "Withdraw the earlier characterization as a full surviving letter. Preserve the distinction between catalogue wording and the short quoted phrases, and treat the source as unavailable for full-body correspondence analysis."
+    }
+  ],
+  "global_correction": "The prior additive report's source_read_in_full/body_read_in_full and surviving_transcription_available claims for these records are withdrawn where contradicted above. This correction does not modify the canonical report, accepted ledger, packet, source, or any other review.",
+  "validation": {
+    "html_xml_hashes_checked": true,
+    "scholarly_sections_checked_with": "scripts/period_review.py scholarly_sections() using bundled Python runtime",
+    "bibliography_checked": true,
+    "visual_nodes_checked": true,
+    "historical_link_or_prompt_accepted": false
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "batch_id": "batch-26",
+  "model": "gpt-5.6-luna",
+  "status": "first_pass_complete",
+  "record_reviews": [
+    {
+      "letter_id": "DCP-LETT-1670",
+      "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1670.html",
+      "source_sha256": "37810a159e31b3d037d6399312da25dd66086a836ce0bf0cea71b4b45106318f",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "source_kind": "preserved HTML ALS letter with CD annotations, footnotes, bibliography, and one inline diagram",
+      "summary": "Blyth’s 21 April 1855 Calcutta letter is a long, explicitly desultory answer to Darwin’s 27 February project on domestic-animal variation. Across thirteen surviving body paragraphs Blyth asks comparative questions and supplies observations on introduced and indigenous dogs, cats and other carnivora, silkworm seasonality and a friend’s crossing experiment, goldfish, canaries and local bird races, hybrid fertility, cattle and buffalo, horses, pigeons, geese, ducks and fowl. He repeatedly marks hypotheses as probable, suspected, or uncertain, and closes by promising a jungle-cock skeleton. The body is Blyth’s voice; quoted authorities and named naturalists are reported sources, not additional correspondents.",
+      "date_assessment": "Header and XML both give 21 April 1855 (xml_earliest=1855-04-21, xml_latest=1855-04-21; single_xml_day; when=\"1855-04-21\"). The date is a composition/date label for the ALS. P1 proves Blyth had received Darwin’s 27 February letter, but does not establish when Darwin posted it or when Darwin received Blyth’s reply; no dispatch or physical-receipt date is supplied.",
+      "attribution_assessment": "Edward Blyth is the sender and the body voice. P1 addresses Darwin and P13 signs “Edd. Blyth.” Hutton, White, Prescott, Smith, Desmoulins, McClelland, Fortune, Schlegel, Owen, Nilsson and other authorities occur as cited or reported voices. CD’s later annotations and abstracts are separate scholarly layers; they do not become Blyth body claims.",
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [
+        {
+          "id": "DCP-LETT-1735",
+          "assessment": "Later Blyth letter (4 August 1855) explicitly answers Darwin’s 18 June questions and is outside this response’s 27 February acknowledgement; it cannot substitute for the missing February Darwin prompt."
+        },
+        {
+          "id": "DCP-LETT-1690",
+          "assessment": "After-3-July 1855 Bashford/Blyth letter concerns silkworm crossing and is later than this April letter. Its existence supports a later follow-up on P6’s experiment, but does not identify the February Darwin letter or prove receipt of 1670 by Darwin."
+        },
+        {
+          "id": "DCP-LETT-1670",
+          "assessment": "The only preserved source in this packet is the incoming Blyth letter itself. Its “yours of the 27th. February” wording is a receipt witness, not an available prompt record."
+        }
+      ],
+      "unmatched_reason": "The uniquely identified antecedent is Darwin’s letter of 27 February 1855, named in P1, but no source-complete Darwin-to-Blyth record is present in the preserved all_letters/raw page pool. Therefore no prompt ID or direct edge is proposed. Subject overlap with later Blyth letters, CD’s DAR 203 abstract, or later publications cannot replace the missing prompt. P1 supports Blyth’s receipt of Darwin’s letter only; reverse receipt by Darwin remains unknown.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1670",
+          "body_paragraph": 1,
+          "locator": "div#letter div.body-content > p:nth-of-type(2)",
+          "quote": "I have the pleasure to acknowledge receipt of yours of the 27th. February"
+        },
+        {
+          "letter_id": "DCP-LETT-1670",
+          "body_paragraph": 1,
+          "locator": "div#letter div.body-content > p:nth-of-type(2)",
+          "quote": "The subject of the races of domestic animals has never yet been fairly taken up with reference to Ethnology"
+        },
+        {
+          "letter_id": "DCP-LETT-1670",
+          "body_paragraph": 2,
+          "locator": "div#letter div.body-content > p:nth-of-type(3)",
+          "quote": "The Dogs of those countries have therefore been most probably introduced"
+        },
+        {
+          "letter_id": "DCP-LETT-1670",
+          "body_paragraph": 2,
+          "locator": "div#letter div.body-content > p:nth-of-type(3)",
+          "quote": "Send me, if you can, some tame Peafowl legs for comparison."
+        },
+        {
+          "letter_id": "DCP-LETT-1670",
+          "body_paragraph": 3,
+          "locator": "div#letter div.body-content > p:nth-of-type(4)",
+          "quote": "Do you not think it probable that the Llama & Alpaca descend from the Huanaco?"
+        },
+        {
+          "letter_id": "DCP-LETT-1670",
+          "body_paragraph": 3,
+          "locator": "div#letter div.body-content > p:nth-of-type(4)",
+          "quote": "Here, in India, the Pariah Dog & Jackal occasionally interbreed"
+        },
+        {
+          "letter_id": "DCP-LETT-1670",
+          "body_paragraph": 6,
+          "locator": "div#letter div.body-content > p:nth-of-type(7)",
+          "quote": "A friend of mine has been experimenting by crossing the races, in the endeavour to combine the superior silk of one with the frequent generations of the other."
+        },
+        {
+          "letter_id": "DCP-LETT-1670",
+          "body_paragraph": 9,
+          "locator": "div#letter div.body-content > p:nth-of-type(10)",
+          "quote": "Very many (more than 100) of these hybrids were hatched, but only one pair attained maturity."
+        },
+        {
+          "letter_id": "DCP-LETT-1670",
+          "body_paragraph": 10,
+          "locator": "div#letter div.body-content > p:nth-of-type(11)",
+          "quote": "A race demanding particular study."
+        },
+        {
+          "letter_id": "DCP-LETT-1670",
+          "body_paragraph": 12,
+          "locator": "div#letter div.body-content > p:nth-of-type(13)",
+          "quote": "It is as impossible not to see in them the origin of the common tame Pigeons of India"
+        },
+        {
+          "letter_id": "DCP-LETT-1670",
+          "body_paragraph": 13,
+          "locator": "div#letter div.body-content > p:nth-of-type(14)",
+          "quote": "I will send you a Jungle cock skeleton by first opportunity"
+        }
+      ]
+    }
+  ],
+  "additional_record_reviews": [],
+  "proposed_links": [],
+  "unlocated_references": [
+    {
+      "source_id": "DCP-LETT-1670",
+      "description": "Darwin letter of 27 February 1855, explicitly acknowledged in P1, is not preserved as a source-complete Darwin-to-Blyth page in the packet/all_letters projection; do not synthesize its questions or receipt details."
+    },
+    {
+      "source_id": "DCP-LETT-1670",
+      "description": "P13 promise to send a jungle-cock skeleton is future language without a dispatch/receipt witness in this source."
+    },
+    {
+      "source_id": "DCP-LETT-1670",
+      "description": "Editorial footnote 1 says CD letters to Blyth during Blyth’s 1841–62 Asiatic Society curatorship have not been located; this is a scholarly availability statement, not body evidence."
+    }
+  ],
+  "date_sections": [
+    {
+      "letter_id": "DCP-LETT-1670",
+      "sections": [
+        "P1 acknowledgement of Darwin’s 27 February letter and ethnological rationale",
+        "P2–P5 introduced/indigenous domestic animals, dogs, cats, trained carnivora, and cultivated plants",
+        "P6–P8 silkworms, cochineal, goldfish, canaries, local races and species boundaries",
+        "P9–P10 hybrid fertility and extensive cattle/buffalo origin and horn discussion",
+        "P11 horses and wild asses",
+        "P12 pigeons, doves, geese, ducks, fowl and pheasants",
+        "P13 closing apology and promised jungle-cock skeleton",
+        "CD annotations, footnotes and bibliography are separate layers; later publications cited there are not contemporary knowledge evidence"
+      ]
+    }
+  ],
+  "issues": [
+    "Full 13-paragraph body, header/XML bounds, excluded material, CD annotations, 43 footnotes, bibliography and the required diagram locator were checked. The diagram asset at /sites/default/files/dcp_lett_1670.jpg is preserved at HTML locator /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[11]/span[8]/img; no independent visual interpretation is claimed here.",
+    "P1 is strong evidence of Blyth’s receipt of Darwin’s 27 February letter and of the project’s domestic-animal scope. It does not identify the missing Darwin text, establish Darwin’s later receipt, or warrant nearest-date matching.",
+    "Footnotes explicitly report CD’s DAR 203 abstract and later use in Natural selection, Origin and Variation. Those editorial/later-publication references are retained as apparatus and excluded from contemporary prompt or knowledge claims.",
+    "No accepted-ledger, source, packet, export, or code changes were made."
+  ]
+}

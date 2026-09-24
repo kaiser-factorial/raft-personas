@@ -1,0 +1,179 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Accepted 1856–1857 batch-31 additive source-text/date/voice/rendering requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-31.json",
+      "sha256": "1506ca29001d8509359e2c2585f5267ca302b73c3ec8c8f47dc8890bcbcbac47"
+    },
+    "parent_decision": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-31.json",
+      "sha256": "f5ff2783b2787264f527cf6073538c48cc6fa4682e7940a5d61e430958a7058d"
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-31.json",
+      "sha256": "48bbc5d3e32aa6ed4803108ade1482ab5a1f893742f06cf53ad81808cda1db1a"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-2155"
+      ],
+      "case": "inline Early Mazagan editor sentence and qualified bee experiment",
+      "requirement": "Exclude exactly the parenthetical Early Mazagan sentence identified by footnote 3 from Darwin’s body, using its recorded character span 192–262 within body paragraph 1 and the actual parent paragraph DOM node. The sentence is plain text inside the same paragraph, so container-only removal is insufficient. Preserve the surrounding Darwin questions and observations. Keep the three small bee experiments, repeated-observation qualification and inferred bee-dependence claim distinct: the explicit warning that the experiment should be repeated means the hypothesis is not a settled result.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2155",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2155.html",
+          "source_html_sha256": "e0933580b86015ee327939c0dcb2dc04615a6b0f2e55a619476a9cad76ab668b",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2155.xml",
+          "xml_sha256": "81a24969379cce7faffced66240d8e47bbeadcbca02ecb9389153e0da2f6a4f6"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2155",
+          "body_paragraph": 1,
+          "quote": "(We presume to the Early Mazagan; but we have no special information.)",
+          "source_sha256": "e0933580b86015ee327939c0dcb2dc04615a6b0f2e55a619476a9cad76ab668b",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p"
+        },
+        {
+          "letter_id": "DCP-LETT-2155",
+          "body_paragraph": 1,
+          "quote": "I am aware that this little experiment ought to have been repeated many times; and I may be greatly mistaken",
+          "source_sha256": "e0933580b86015ee327939c0dcb2dc04615a6b0f2e55a619476a9cad76ab668b",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p"
+        }
+      ],
+      "excluded_body_span": {
+        "letter_id": "DCP-LETT-2155",
+        "body_paragraph": 1,
+        "char_start": 192,
+        "char_end": 262,
+        "excluded_text": "(We presume to the Early Mazagan; but we have no special information.)",
+        "reason": "Footnote 3 identifies this inline parenthetical as editor-added text; it is not a separate container."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2053",
+        "DCP-LETT-2169"
+      ],
+      "case": "Gray knowledge witness and conservative November 11 bound",
+      "requirement": "Preserve 2169 as a later knowledge witness about Gray’s distinction between indigenous and introduced stocks, with a conservative known-by bound of 11 November 1857 (witness interval 7–11 November). Darwin says he cannot consult Gray’s letter and marks the imported-stock conclusion as his own tentative impression; neither phrase should be rendered as a verbatim Gray conclusion. This later witness does not supersede the earlier March knowledge in 2053 and does not establish exact composition or receipt.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2053",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2053.html",
+          "source_html_sha256": "be447c106805c8bae72e71da6653150ce03155659c5ed7d18d34a256784e1ff1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2053.xml",
+          "xml_sha256": "bb34821b7b40ab3dcd29b8734845b3a866d1a08b0fe3f88a31353ac7c7b69d12"
+        },
+        {
+          "letter_id": "DCP-LETT-2169",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2169.html",
+          "source_html_sha256": "6d5901aa25e46065c7cb3521cf727b63770dc8c6886feda167a4b25bb87d9d10",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-2169.xml",
+          "xml_sha256": "f6e4bcbdbd0e148e47743d039e52db2271bd52b8bbccf29956340e06a730a0b8"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2053",
+          "body_paragraph": 17,
+          "quote": "How I distinguish the introduced & aboriginal stocks of the same species",
+          "source_sha256": "be447c106805c8bae72e71da6653150ce03155659c5ed7d18d34a256784e1ff1",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[18]"
+        },
+        {
+          "letter_id": "DCP-LETT-2169",
+          "body_paragraph": 1,
+          "quote": "my impression is",
+          "source_sha256": "6d5901aa25e46065c7cb3521cf727b63770dc8c6886feda167a4b25bb87d9d10",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2061"
+      ],
+      "case": "open after-date and public article boundary",
+      "requirement": "Preserve 2061’s open after-date metadata (after 28 February 1857 with an open upper XML bound) and its public-letter/article scope. Its Dianthus crossing observations and qualified inference remain source text; do not reconstruct a complete public-article prompt or assign a precise composition date from catalogue placement or later use.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2061",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2061.html",
+          "source_html_sha256": "ca69682758b8a4c2d947a7e85cb03919920120e22c582824b6fcebe86c291fb8",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2061.xml",
+          "xml_sha256": "df5c8d72ad95381377226c10ca03bf87dd9cbef1692cf2aea280212a1cebe6a4"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2061",
+          "body_paragraph": 1,
+          "quote": "As you have noticed hybrid Dianths",
+          "source_sha256": "ca69682758b8a4c2d947a7e85cb03919920120e22c582824b6fcebe86c291fb8",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1968",
+        "DCP-LETT-2126"
+      ],
+      "case": "Eyton dog custody, quantities and intended dispatch",
+      "requirement": "Keep 1968’s dog skin and skull already in Darwin’s custody by 5 October 1856 separate from the later 2126 plan to send it that night, with probable carrier dating retained as inference and Eyton receipt left unknown. Preserve Daniell’s quoted “standard type” assurance as attributed report, not verified breed purity. Keep 1968’s 11 grains of dry earth distinct from the separate notebook 10 grams and the later 19 October no-growth result; neither later notebook event belongs in the October 5 letter. Do not reconstruct Eyton or public-article prompts from these records.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1968",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1968.html",
+          "source_html_sha256": "1f69e71ef29dbc450835cc5d914a74aec8435eccd9e8417967c2839932c72cf1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1968.xml",
+          "xml_sha256": "baf5563eb93e7dd6b33219f62c4e91dab16290ca480d86d587bd2998069b6b3e"
+        },
+        {
+          "letter_id": "DCP-LETT-2126",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2126.html",
+          "source_html_sha256": "02d77aeb868625297efe3bf6ea20ab9b20802d118a223b11c1d228d57ebec875",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2126.xml",
+          "xml_sha256": "a4d9cddd13b31ef772393b1e5e36beb0e01e42748ac383d691099227517f9f45"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1968",
+          "body_paragraph": 1,
+          "quote": "I have had sent me by Dr. Daniell",
+          "source_sha256": "1f69e71ef29dbc450835cc5d914a74aec8435eccd9e8417967c2839932c72cf1",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1968",
+          "body_paragraph": 2,
+          "quote": "11 grains of dry earth",
+          "source_sha256": "1f69e71ef29dbc450835cc5d914a74aec8435eccd9e8417967c2839932c72cf1",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2126",
+          "body_paragraph": 1,
+          "quote": "it shall be sent off this very night",
+          "source_sha256": "02d77aeb868625297efe3bf6ea20ab9b20802d118a223b11c1d228d57ebec875",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    }
+  ],
+  "implementation_flags": {
+    "converter_created": false,
+    "exports_created": false,
+    "accepted_evidence_changed": false
+  },
+  "notes": "Exact source excerpts were selected from preserved HTML and checked against body paragraph text and unique raw DOM paths. The 2155 exclusion is an exact character span inside the parent paragraph, not a detached container. Preserve all date, receipt, reading, source-voice, attribution and missing-input boundaries; requirements remain subject to primary adjudication."
+}

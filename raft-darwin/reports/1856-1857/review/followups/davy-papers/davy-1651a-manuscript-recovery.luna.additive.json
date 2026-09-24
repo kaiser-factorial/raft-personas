@@ -1,0 +1,45 @@
+{
+  "status": "bounded_candidate_recovery",
+  "scope": "DCP-LETT-1651A only: investigate original March 1855 manuscript and contemporary printed witnesses. No accepted evidence, notes, decisions, ledgers, counts or exports changed.",
+  "findings": {
+    "original_manuscript": {
+      "royal_society_catalogue_url": "https://catalogues.royalsociety.org/calmview/Record.aspx?id=PT%2F52&src=CalmView.Catalog",
+      "record": "PT/52, Manuscripts of papers published in Philosophical Transactions, 1856",
+      "catalogue_result": "The Royal Society catalogue states that PT/52 contains the manuscript versions of papers I-IX for volume 146 and explicitly says the manuscript for John Davy's 'Some observations on the ova of the salmon, in relation to the distribution of species; in a letter addressed to Charles Darwin' is missing from this volume.",
+      "implication": "PT/52 is evidence that the relevant manuscript was expected in the volume's archival series but is not present in this accessible volume. It does not prove global loss: another archival location or uncatalogued item could still exist.",
+      "facsimile_status": "No original March 1855 manuscript facsimile was located in the bounded Royal Society catalogue/Science in the Making search. The accessible AP/33/9 Davy manuscript is an unrelated 18 November 1851 unpublished paper on Charr ova, not the March 1855 Darwin letter, and is excluded from version comparison."
+    },
+    "contemporary_printed_witness": {
+      "publication": "Proceedings of the Royal Society of London 7 (1854-55), 362-363",
+      "jstor_url": "https://www.jstor.org/stable/111803",
+      "internet_archive_url": "https://archive.org/download/in.ernet.dli.2015.7498/2015.7498.Proceedings-Of-The-Royal-Society-Of-London-Vol-vii-1854-55.pdf",
+      "local_path": "reports/1856-1857/review/followups/davy-papers/proceedings-vol7-1854-55.pdf",
+      "sha256": "0fbe7c960190e9d50f34da462327d36a423c699997673d96e37ac3d4ddc66bc0",
+      "printed_page_locators": ["p. 362 (PDF page 379)", "p. 363 (PDF page 380)"],
+      "boundary": "This is a concise Royal Society abstract, not an epistolary transcription: it has the title, author and receipt line but no 'My dear Sir', closing, signature or March 21 dateline. The scan reads 'Received March 27, 1855.'",
+      "exact_content": "The abstract says Davy performed Salmon-ova experiments to test endurance under varied conditions, motivated by Darwin's suggested relevance to geographical distribution. It lists five results: dry-air exposure is short-lived but cool moist air preserves vitality; saturated moist air can preserve ova like water; ice need not destroy vitality unless freezing does; ova/fry tolerate about 80-82 degrees but not above 84-85 degrees; and sea-strength or 1.016 brackish salt water is fatal. It then infers possible carriage by Heron or Otter and relevance to transport/stockerage and migratory habitats.",
+      "distinctive_spans": [
+        "In this paper the author describes a series of experiments on the ova of the Salmon, made with the intent of ascertaining their power of endurance under a variety of circumstances without loss of life, with the expectation suggested by Mr. Darwin, that the results might possibly throw some light on the geographical distribution of fishes.",
+        "Finally, in reference to the inquiry regarding the distribution of the species of fishes, he expresses his belief that some of the results may be of useful application ... by means of an animal, such as a Heron or Otter, and also during a time of snow or frost."
+      ],
+      "version_relation": "The 1855 Proceedings abstract is a contemporary compressed witness to the paper read April 26, 1855; the complete Philosophical Transactions 146 (1856), 21-29 printing preserves the full letter dated March 21, 1855. Shared conclusions support that they represent the same submitted communication, while the abstract cannot recover omitted epistolary boundaries or manuscript variants."
+    }
+  },
+  "date_uncertainty": {
+    "catalogue_record": "DCP-LETT-1651A is catalogued 21 March 1855; the full Philosophical Transactions printing is headed Received March 27 and Read April 26, 1855 and ends with Davy's March 21, 1855 dateline.",
+    "interpretation": "The March 21 date is the letter's printed dateline; March 27 is Royal Society receipt and April 26 is reading. The Proceedings abstract's receipt line independently confirms March 27, 1855. Neither publication establishes the manuscript's dispatch route, physical page count or whether any covering material accompanied it."
+  },
+  "attempted_sources": [
+    {"url": "https://catalogues.royalsociety.org/calmview/Record.aspx?id=PT%2F52&src=CalmView.Catalog", "outcome": "Catalogue record explicitly reports Davy manuscript missing from PT/52."},
+    {"url": "https://makingscience.royalsociety.org/items/ap_33_9/unpublished-paper-some-observations-on-the-ova-of-the-salmonidae-by-john-davy", "outcome": "Accessible Royal Society record for a 10-page Davy manuscript dated 18 November 1851; excluded as a different paper."},
+    {"url": "https://www.jstor.org/stable/111803", "outcome": "Contemporary Proceedings volume 7 item page, with download/XML routes; the printed abstract is pp. 362-363."},
+    {"url": "https://archive.org/download/in.ernet.dli.2015.7498/2015.7498.Proceedings-Of-The-Royal-Society-Of-London-Vol-vii-1854-55.pdf", "outcome": "Public volume 7 scan downloaded and visually inspected at pp. 362-363."},
+    {"url": "https://archive.org/download/in.ernet.dli.2015.7498/2015.7498.Proceedings-Of-The-Royal-Society-Of-London-Vol-vii-1854-55_djvu.txt", "outcome": "Public OCR companion used for locating text; visual scan controls the quoted page/date claims."}
+  ],
+  "conclusion": "No original March 1855 manuscript image was recovered. A Royal Society catalogue record specifically marks that manuscript missing from PT/52, while Proceedings 7 pp. 362-363 supplies a contemporary abstract with receipt date and scientific conclusions but no letter body. The complete 1856 Philosophical Transactions printing remains the only recovered epistolary publication witness; the contemporary abstract is useful for independent content/version comparison, not manuscript reconstruction.",
+  "limitations": [
+    "The bounded search cannot establish global absence of the original manuscript.",
+    "The AP/33/9 manuscript is not the target letter and must not be used as its facsimile or date witness.",
+    "No primary evidence or export was changed."
+  ]
+}

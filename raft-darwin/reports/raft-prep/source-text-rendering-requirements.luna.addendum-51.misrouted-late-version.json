@@ -1,0 +1,186 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Accepted Davy publication reconciliation addendum 51: additive source-text/date/voice requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "reconciliation": {
+      "path": "data/annotations/reconciliation/1855-1856-davy-publications.primary.json",
+      "sha256": "61bee457d50d09b33c544180809949f2f49079c1030c23769ba895acdc450682"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+    "accepted_evidence_status": "primary_admitted_printed_letter_witnesses_and_historical_reply_relationships"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1651A",
+        "DCP-LETT-1653",
+        "DCP-LETT-1654"
+      ],
+      "case": "printed letter witness and two scoped replies",
+      "requirement": "Keep 1651A as an authentic printed John Davy letter witness from Philosophical Transactions 146, pp. 21–29, while retaining the DCP page as a synopsis and preserving the contemporary Proceedings abstract as a separate third-person publication layer. Preserve the original 21 March 1855 composition date, later 1856 printing, and the two scoped Darwin replies: 1653 acknowledges the paper and planned forwarding after finding it late on March 24; 1654 records reading and same-day forwarding on March 26. Do not substitute Royal Society receipt or publication dates for Darwin access.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1651A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1651A.html",
+          "source_html_sha256": "6bab4cbc12216fb1a77903db312f3c7fcb97a394d23f2df2ff11927a42d63bb7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1651A.xml",
+          "xml_sha256": "c9df26c44f77a8c857b781d60c38ee5668dff4642ab7b5f29ad15cc6382d4e9f"
+        },
+        {
+          "letter_id": "DCP-LETT-1653",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1653.html",
+          "source_html_sha256": "9c583795b98c4c43aec4b72b173a6898da8e9226e01bdfabc728d21ca71f9f23",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1653.xml",
+          "xml_sha256": "5564afb51401ec96e7ffc5fca46190cd572483ed69612f4eacfd739e8617c90f"
+        },
+        {
+          "letter_id": "DCP-LETT-1654",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1654.html",
+          "source_html_sha256": "e9c6feafefac62470db22467a7e7f28bb0987128f5ef59d4fb4859c12cb0d66d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1654.xml",
+          "xml_sha256": "9558679dfdfcb9f064120711e70f034f5958bbefa8fb783e289a26a5c563a55e"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1653",
+          "body_paragraph": 1,
+          "quote": "found your Paper",
+          "source_sha256": "9c583795b98c4c43aec4b72b173a6898da8e9226e01bdfabc728d21ca71f9f23",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1653",
+          "body_paragraph": 3,
+          "quote": "In two or three days I will forward it to the Royal Socy.",
+          "source_sha256": "9c583795b98c4c43aec4b72b173a6898da8e9226e01bdfabc728d21ca71f9f23",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1654",
+          "body_paragraph": 1,
+          "quote": "I have just read your Paper",
+          "source_sha256": "e9c6feafefac62470db22467a7e7f28bb0987128f5ef59d4fb4859c12cb0d66d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1654",
+          "body_paragraph": 2,
+          "quote": "The case of the ovum exposed on the moss for three days",
+          "source_sha256": "e9c6feafefac62470db22467a7e7f28bb0987128f5ef59d4fb4859c12cb0d66d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1651A"
+      ],
+      "case": "publication and contemporary abstract boundaries",
+      "requirement": "Pin the full printed Davy letter PDF and the separate contemporary Proceedings abstract as publication witnesses. Preserve the Royal Society events as 27 March 1855 receipt and 26 April 1855 reading for 1651A, but keep them distinct from Darwin’s discovery, reading and forwarding in 1653–1654. Do not represent the printed pages as an inspected manuscript, and do not turn the third-person abstract into Davy’s wording or Darwin voice.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1651A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1651A.html",
+          "source_html_sha256": "6bab4cbc12216fb1a77903db312f3c7fcb97a394d23f2df2ff11927a42d63bb7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1651A.xml",
+          "xml_sha256": "c9df26c44f77a8c857b781d60c38ee5668dff4642ab7b5f29ad15cc6382d4e9f"
+        }
+      ],
+      "publication_witnesses": [
+        {
+          "path": "reports/1856-1857/review/followups/davy-papers/philosophical-transactions-vol146-1856.pdf",
+          "sha256": "2b7451bef18277aceaeac4fee1dccd4a98d2f883721d4bf0a2a402bb3a4629d8",
+          "role": "full printed letter witness",
+          "printed_pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ]
+        },
+        {
+          "path": "reports/1856-1857/review/followups/davy-papers/proceedings-vol7-1854-55.pdf",
+          "sha256": "0fbe7c960190e9d50f34da462327d36a423c699997673d96e37ac3d4ddc66bc0",
+          "role": "contemporary third-person abstract; not letter text",
+          "printed_pages": [
+            362,
+            363
+          ]
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1816A",
+        "DCP-LETT-1819A"
+      ],
+      "case": "separate 1856 letter and impossible prompt direction",
+      "requirement": "Keep 1819A’s printed John Davy letter dated 10 January 1856, Royal Society receipt 15 January and meeting reading 7 February separate from Darwin’s 1816A letter dated 3 January. 1819A cannot prompt the earlier 1816A: 1816A refers to an already-existing kind note and publication delay. Preserve the later printed Charr-ova source layer and DCP synopsis without manufacturing a reverse pair or an exact Darwin receipt date.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1816A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1816A.html",
+          "source_html_sha256": "3737eb57d87267132e92e46a41a5bde4b7362204a61b55f285d0a495956a2acb",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1816A.xml",
+          "xml_sha256": "a29dd75f11e87c5ce5555a141b220ae2170c603abeddc797a0154dcd062367bb"
+        },
+        {
+          "letter_id": "DCP-LETT-1819A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1819A.html",
+          "source_html_sha256": "0a7c3347d34650cf2f0c9b127e556e0ea662b9827bcb2a769d33231d6196a52d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1819A.xml",
+          "xml_sha256": "10bdcca8dcb41fcb632635bf90ca68d194e90407df4ea5806f6ca376275ac807"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1816A",
+          "body_paragraph": 1,
+          "quote": "your very kind note",
+          "source_sha256": "3737eb57d87267132e92e46a41a5bde4b7362204a61b55f285d0a495956a2acb",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1653",
+        "DCP-LETT-1654"
+      ],
+      "case": "bibliography mismatch and export boundary",
+      "requirement": "Retain the mismatch where 1653/1654 bibliography entries point toward the 1856 Charr continuation while their body details concern the 1855 Salmonidae paper. Do not redate the replies from bibliography or later Royal Society handling. Under the current export policy, printed Davy text remains an attributed supplemental witness until version treatment and per-entry validation are complete; scans, OCR and a reconstructed manuscript are not silently admitted as training text.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1653",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1653.html",
+          "source_html_sha256": "9c583795b98c4c43aec4b72b173a6898da8e9226e01bdfabc728d21ca71f9f23",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1653.xml",
+          "xml_sha256": "5564afb51401ec96e7ffc5fca46190cd572483ed69612f4eacfd739e8617c90f"
+        },
+        {
+          "letter_id": "DCP-LETT-1654",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1654.html",
+          "source_html_sha256": "e9c6feafefac62470db22467a7e7f28bb0987128f5ef59d4fb4859c12cb0d66d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1654.xml",
+          "xml_sha256": "9558679dfdfcb9f064120711e70f034f5958bbefa8fb783e289a26a5c563a55e"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1654",
+          "body_paragraph": 3,
+          "quote": "Hardly anything has surprised me more than the non-developed ova having less tenacity of life than those much more fully developed.",
+          "source_sha256": "e9c6feafefac62470db22467a7e7f28bb0987128f5ef59d4fb4859c12cb0d66d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        }
+      ]
+    }
+  ],
+  "notes": "Exact DCP quotes were selected from preserved HTML and matched to body paragraphs and unique raw DOM nodes. Printed PDFs and the contemporary abstract are pinned as separate publication witnesses without presenting their text as DCP body quotes. Preserve original composition, printing, discovery, reading, dispatch, Royal Society handling, version, voice and impossible-direction boundaries."
+}

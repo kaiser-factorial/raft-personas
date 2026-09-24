@@ -1,0 +1,87 @@
+{
+  "reviewer": "gpt-5.6-luna",
+  "status": "additive_correction_first_pass",
+  "packet_id": "batch-21",
+  "batch_id": "batch-21",
+  "supersedes": null,
+  "preserves": "reports/1844-1846/review/reviews/batch-21.supplemental-evidence.json",
+  "purpose": "Add source-specific date/span and receipt observations omitted from the existing preliminary supplemental report; no accepted decisions.",
+  "records": [
+    {
+      "letter_id": "DCP-LETT-761",
+      "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-761.html",
+      "source_sha256": "74c0729ed6b14f4e28bca82aa38dc1145f8f1e168486e617f1482194ac8b841c",
+      "body_read_in_full": true,
+      "date_span_hold": {
+        "xml_date": "1844-07-05",
+        "body_scope": "The surviving nine-paragraph body is dated 5 July 1844.",
+        "later_material": "Editorial footnote 10 reports a pencil cover note made ten years later, in August 1854; it cannot be used as 1844 composition or knowledge evidence.",
+        "quotes": [
+          {"locator": "body/p3", "text": "Dr. Hooker would perhaps correct the Botanical Part probably——he would do as Editor—— Dr Hooker would be very good"},
+          {"locator": "editorial_footnotes/n10", "text": "Hooker by far best man to edit my Species volume | Aug. 1854"}
+        ]
+      },
+      "content_assessment": "This is Darwin's outgoing contingency request to Emma concerning posthumous editing and publication of his species-theory sketch. Paragraph 3 names Hooker as a possible botanical editor; the 1854 cover annotation is a later research/date layer. The enclosure mentioned in editorial footnote 10 is not present, so no enclosure-based prompt can be reconstructed.",
+      "scholarly_sections": [],
+      "bibliography_read_in_full": true,
+      "bibliography_assessment": "Editorial bibliography read; citations to Foundations, Natural selection, Origin, and related works do not demonstrate contemporary reading."
+    },
+    {
+      "letter_id": "DCP-LETT-821",
+      "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-821.html",
+      "source_sha256": "263999d4e4bdbfdf0eca632a84e07c501b47c2e58883a33ad3b9311275cc0347",
+      "body_read_in_full": true,
+      "date_sections": [
+        {"paragraphs": [1, 2, 3], "date": "1845-02-03", "basis": "Header says Monday night; opening annals and the day's activities belong to the first dated section."},
+        {"paragraphs": [4, 5, 6], "date": "1845-02-04", "basis": "The body explicitly starts a new section with Tuesday morning; p6 is a pencil final paragraph per editorial footnote 10."}
+      ],
+      "quotes": [
+        {"locator": "body/p4", "text": "Tuesday morning— I am impatient for your letter this morning to hear how you got on."},
+        {"locator": "body/p6", "text": "Your cap cannot ⁠⟨⁠be⁠⟩⁠ found anywhere: Jane says you took one. 910 of the snow is gone & the children are going out. Very many thanks for your letter"}
+      ],
+      "content_assessment": "A family annals letter about the children, books, illness, and household details. The explicit Monday-night/Tuesday-morning break prevents treating the whole record as one dated moment or as a single incoming prompt response. No Hooker-directed question or Hooker voice survives.",
+      "scholarly_sections": [],
+      "bibliography_read_in_full": true,
+      "bibliography_assessment": "Editorial bibliography read; listed editions and books are not evidence of contemporary reading beyond the body and notes."
+    },
+    {
+      "letter_id": "DCP-LETT-810",
+      "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-810.html",
+      "source_sha256": "a99c29c646eec40c3352da2bad53ac5ceab7909bb071a4e70df1c6cb0edb0df4",
+      "body_read_in_full": true,
+      "date_sections": [
+        {"paragraphs": [1, 2], "date": "1845-02-07", "basis": "Header says Friday night and p1–p2 narrate that day's children and household annals."},
+        {"paragraphs": [3], "date": "1845-02-08", "basis": "Paragraph 3 explicitly begins Sat. Morn.; the section includes the farewell and Eliza-letter reference."}
+      ],
+      "quotes": [
+        {"locator": "body/p3", "text": "C. D.— Sat. Morn. All right—Willy said to me “poor Poor laying all by himself & no company in the drawing room.” Farewell to our Slip of Land Is not poor Eliza’s letter wonderful, pray beg Harry to give some kind message from us"}
+      ],
+      "content_assessment": "The body is a two-day family letter. The Saturday continuation is a dated section within p3, so its Eliza-letter reference cannot be assigned to Friday or treated as a separate incoming Hooker prompt. No Hooker evidence appears.",
+      "scholarly_sections": [],
+      "bibliography_read_in_full": true,
+      "bibliography_assessment": "Editorial bibliography read; references to Geoffroy Saint-Hilaire and dictionaries do not establish a contemporaneous incoming source."
+    },
+    {
+      "letter_id": "DCP-LETT-626",
+      "source_path": "data/raw/dcp/correspondent-review-1837-1843/DCP-LETT-626.html",
+      "source_sha256": "5831914fbc901461c3179403838e32e5238f6b8aaf95d33631e77428691f79ba",
+      "body_read_in_full": true,
+      "composition_receipt_hold": {
+        "basis": "The opening waits for the post; paragraph 8 records Emma's letter arriving during the composition of this letter. This is physical receipt during composition, not evidence of a prior prompt available when paragraphs 1–7 were written.",
+        "quotes": [
+          {"locator": "body/p1", "text": "I am anxious for the post today to hear how you are & how the chicks are."},
+          {"locator": "body/p8", "text": "After long watching the Postman your letter has at last arrived. you cannot tell how much I enjoy hearing about you all."}
+        ]
+      },
+      "content_assessment": "Darwin discusses coral-volume publication costs, family and household news, the Geological Society, and Emma's health after her letter arrives. The within-letter receipt boundary is the relevant evidence; no Hooker correspondence or identifiable Hooker prompt is present.",
+      "scholarly_sections": [],
+      "bibliography_read_in_full": true,
+      "bibliography_assessment": "Editorial bibliography read; cited works and Emma Darwin are editorial references, not proof of contemporary reading."
+    }
+  ],
+  "proposed_links": [],
+  "rejected_or_unlocated": [
+    {"scope": "DCP-LETT-761, DCP-LETT-810, DCP-LETT-821, DCP-LETT-626", "reason": "No supported Hooker incoming prompt or reverse reply identified in these full texts; family correspondence, same-author continuation, and later annotations are excluded from prompt matching."}
+  ],
+  "reading_completion": {"targets_and_contexts_checked": ["DCP-LETT-726", "DCP-LETT-761", "DCP-LETT-783", "DCP-LETT-821", "DCP-LETT-810", "DCP-LETT-982", "DCP-LETT-981", "DCP-LETT-622", "DCP-LETT-623", "DCP-LETT-626", "DCP-LETT-704"], "bibliographies_checked": true, "scholarly_sections_checked": true, "visual_manifest_checked": true}
+}

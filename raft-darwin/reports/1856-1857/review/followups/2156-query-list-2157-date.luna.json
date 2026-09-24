@@ -1,0 +1,74 @@
+{
+  "status": "provisional_source_followup",
+  "scope": "DCP-LETT-2156 missing query list and DCP-LETT-2157 date assessment; no source, packet, projection, accepted-ledger, or export mutation.",
+  "sources": [
+    {
+      "letter_id": "DCP-LETT-2156",
+      "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2156.html",
+      "source_html_sha256": "dfd86b05cda7dce1c7ed623b115a1b3bea717221c5d855b754101573aed10e4e",
+      "title": "To J. D. Hooker 20 October [1857]1",
+      "xml_bounds": [
+        "1857-10-20",
+        "1857-10-20"
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-2157",
+      "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2157.html",
+      "source_html_sha256": "6d614bf5d30745da8201d680fdea52000a271b0c9f712f2defa206854330d6c9",
+      "title": "To J. D. Hooker [23 October 1857]1",
+      "xml_bounds": [
+        "1857-10-23",
+        "1857-10-23"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "topic": "2156 query list",
+      "conclusion": "No complete authoritative public transcription located.",
+      "evidence": [
+        {
+          "url": "https://darwin-editorial.darwinproject.ac.uk/view/letters/DCP-LETT-2156",
+          "source": "Darwin Correspondence Project letter page",
+          "quote": "This is CD’s ‘list of queries’ referred to in the letter. It is preserved in DAR 114: 222c.",
+          "locator": "editorial footnote 11"
+        },
+        {
+          "url": "https://darwin-online.org.uk/2004_Gill_Catalogue_of_Darwin_Papers_Cambridge_Univesity_Library.pdf",
+          "source": "Darwin Archive catalogue",
+          "quote": "DAR 114: 222c",
+          "locator": "catalogue entry"
+        }
+      ],
+      "extent": "The DCP page preserves only 2156 body paragraph 13 (“I have just looked at my list of queries...”) and footnote references to Adlumia, yaks, Linum and DAR 114:222c. Search found no public image or full text of the sheet itself. The DCP alternate editorial endpoint and Darwin Online catalogue confirm custody/reference only; they do not supply the missing list.",
+      "limit": "Do not admit the query list as a transcript or synthesize its questions from footnote topics."
+    },
+    {
+      "topic": "2157 dating",
+      "conclusion": "23 October 1857 remains the best supported editorial date, but it is not an independently surviving dateline.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2157",
+          "body_paragraph": 4,
+          "quote": "on that day (Oct 31) for Etty who is coming home.",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2157.html",
+          "source_html_sha256": "6d614bf5d30745da8201d680fdea52000a271b0c9f712f2defa206854330d6c9"
+        },
+        {
+          "letter_id": "DCP-LETT-2157",
+          "body_paragraph": 1,
+          "quote": "it will reach there on Saturday Evening",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2157.html",
+          "source_html_sha256": "6d614bf5d30745da8201d680fdea52000a271b0c9f712f2defa206854330d6c9"
+        }
+      ],
+      "reasoning": "The footnote explicitly derives 23 October from “the Friday preceding 31 October 1857”; 23 is the prior Friday, while 30 is the immediately preceding day and would make Saturday delivery coincide with Etty’s 31 October return. The body’s Saturday dispatch/late-dinner arrangements fit the 23→24 October week better. Preserve the editorial 23 October assignment and flag it as derived, not a handwritten date; do not silently replace it with 30 October.",
+      "limit": "No surviving independent postmark or dateline was located in the preserved HTML."
+    }
+  ],
+  "notes": [
+    "Public research was used only to locate provenance; no remote text was downloaded or incorporated as a transcript.",
+    "The missing DAR 114:222c list remains a bounded unresolved input."
+  ]
+}

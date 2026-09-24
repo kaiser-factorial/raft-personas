@@ -1,0 +1,142 @@
+{
+  "batch_id": "batch-31",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-2540",
+      "target_id": "DCP-LETT-2522",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_wrong_correspondent",
+      "reason": "Source is Watson to Darwin whereas2522 is Darwin to Henslow; shared Origin subject cannot establish reply. Existing2540 knowledge witnesses remain as previously adjudicated."
+    },
+    {
+      "source_id": "DCP-LETT-2562",
+      "target_id": "DCP-LETT-2522",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_wrong_correspondent",
+      "reason": "Source is Watson to Darwin whereas2522 is Darwin to Henslow; shared Origin subject cannot establish reply. 2562 also concerns a later missing reprint/correction communication after cutoff."
+    }
+  ],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-2199",
+      "source_kind": "incoming Watson source",
+      "voice": "Watson; never Darwin answer",
+      "date_assessment": "3 Jan 1858",
+      "disposition": "incoming_context_only_existing_links_preserved",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2223",
+      "source_kind": "incoming Watson source",
+      "voice": "Watson; never Darwin answer",
+      "date_assessment": "23 Feb [1858]",
+      "disposition": "incoming_context_only_existing_links_preserved",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1808",
+      "source_kind": "incoming Watson source",
+      "voice": "Watson; never Darwin answer",
+      "date_assessment": "[after 23 Mar 1858]",
+      "disposition": "uncertain_date_incoming_context",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2245",
+      "source_kind": "incoming Watson source",
+      "voice": "Watson; never Darwin answer",
+      "date_assessment": "23 Mar 1858",
+      "disposition": "incoming_context_only_existing_links_preserved",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2540",
+      "source_kind": "incoming Watson source",
+      "voice": "Watson; never Darwin answer",
+      "date_assessment": "21 Nov [1859]",
+      "disposition": "incoming_context_only_existing_links_preserved",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2562",
+      "source_kind": "incoming Watson source",
+      "voice": "Watson; never Darwin answer",
+      "date_assessment": "30 Nov [1859]",
+      "disposition": "after_cutoff_hold",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2207",
+      "source_kind": "Darwin letter",
+      "voice": "Darwin with source qualifications",
+      "date_assessment": "25 Jan [1858]",
+      "disposition": "darwin_unpaired_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2320",
+      "source_kind": "Darwin letter",
+      "voice": "Darwin with source qualifications",
+      "date_assessment": "4 Aug [1858]",
+      "disposition": "darwin_unpaired_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2356",
+      "source_kind": "Darwin letter",
+      "voice": "Darwin with source qualifications",
+      "date_assessment": "9 Nov [1858]",
+      "disposition": "darwin_unpaired_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2648",
+      "source_kind": "Darwin letter",
+      "voice": "Darwin with source qualifications",
+      "date_assessment": "10 Jan [1859]",
+      "disposition": "darwin_unpaired_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2522",
+      "source_kind": "Darwin letter",
+      "voice": "Darwin with source qualifications",
+      "date_assessment": "11 Nov 1859",
+      "disposition": "darwin_unpaired_grounding_candidate",
+      "training_export_ready": false
+    }
+  ],
+  "corrections": [
+    {
+      "kind": "correspondent_identity",
+      "description": "Luna reasons call2540/2562 Hooker. XML and signatures identify Hewett Cottrell Watson;2522 addressee is John Stevens Henslow. Both proposed reverse edges rejected."
+    },
+    {
+      "kind": "table_rendering_hold",
+      "description": "1808 first table has13columns/12Poa values in raw prose; preserve missing alignment and32-versus31 Salix discrepancy. No invented cells."
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-2320",
+      "kind": "missing_incoming_receipt",
+      "description": "July31 Henslow source missing; August4 is witnessed receipt, no synthetic prompt.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2320",
+          "body_paragraph": 1,
+          "quote": "Your letter of the 31st has been forwarded to me here & received only this morning.",
+          "char_start": 0,
+          "char_end": 83,
+          "source_sha256": "cd8004b5d511fd1c51066151cef9c4e7307af355ec10b1a72615e71d2a211353"
+        }
+      ]
+    }
+  ],
+  "summary": "Nine fresh complete sources plus ten verified primary reuses. Both proposed reverse edges rejected for wrong correspondent; no new graph edges."
+}

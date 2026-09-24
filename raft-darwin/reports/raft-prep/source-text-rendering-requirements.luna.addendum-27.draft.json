@@ -1,0 +1,320 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batches 01–02 source-text rendering requirements only; candidate for root review, no converter/transcript/export/training changes.",
+  "primary_provenance": {
+    "batches": {
+      "reports/1856-1857/review/parent-reading/batch-01.json": {
+        "path": "reports/1856-1857/review/parent-reading/batch-01.json",
+        "sha256": "f26e821c6b1996e6c888221675c036ca11dd69cbdf344bd90eee2da7a9a5d120"
+      },
+      "reports/1856-1857/review/parent-decisions/batch-01.json": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-01.json",
+        "sha256": "8deffef79c1219d88ba6d228599fe9387f7cc7fde435dfecba6658fe4342eeea"
+      },
+      "reports/1856-1857/review/parent-reading/batch-02.json": {
+        "path": "reports/1856-1857/review/parent-reading/batch-02.json",
+        "sha256": "30a3d752391a992285205bb7db75623fa3ec0bdf600152c8111880c5eb137d0b"
+      },
+      "reports/1856-1857/review/parent-decisions/batch-02.json": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-02.json",
+        "sha256": "a84869200890a4b86985bebcd7bdc90162761ec8c7bd54f23054f30f1eed5e2c"
+      }
+    },
+    "ledgers": {
+      "data/annotations/periods/1856-1857/batch-01.json": "3fcd50b8799058d446d163e3cf16eda5b7b7fbb62637a90ec2f20a5dad9de8d7",
+      "data/annotations/periods/1856-1857/batch-02.json": "0a63b5d3c6de5d39eb3dcf03a25bd56665a6316051747ab8e221b425df8472de"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1851"
+      ],
+      "case": "MathML nine-and-one-half distance",
+      "requirement": "Preserve the genuine fraction in the body as 9½ miles using MathML numerator/denominator structure or an explicitly labelled fallback. The prior flat extraction that resembles 912 is not authoritative; do not render it as nine hundred twelve miles.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1851",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1851.html",
+          "source_html_sha256": "f3bea85287b3b2b98155609c111be74cd0eee2a0520c622feb741b3509075980",
+          "xml_sha256": "577c5c2da85525ba577f6925a9e92eb1ba8b01bf9cfabe92a7ec96680f1fe743"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1851",
+          "body_paragraph": 1,
+          "quote": "I have been particularly glad to get your splendid eloge of Lindley. His name had been lately passing through my head & I had hoped that Miers would have proposed him for the Royal medal. But I most entirely agree that the Copley is more ap",
+          "source_sha256": "f3bea85287b3b2b98155609c111be74cd0eee2a0520c622feb741b3509075980",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1851",
+          "html_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+          "dom_locator": "div#letter div.body-content; paragraph containing distance to Croydon",
+          "meaning": "one-half; rendered phrase is 9½ or 10 miles"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1869"
+      ],
+      "case": "damaged diagnostic and ramme lists",
+      "requirement": "Keep the Hooker memorandum’s diag/ramme list damage visible. It is a source-layout/extraction hold, not permission to silently repair species lists or merge later Darwin annotations with Hooker’s dated blocks.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1869",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1869.html",
+          "source_html_sha256": "1134af8e8de1aae3781d831d5c1cb47146b301a0b2fc83ba4f0979ef1c8f0c9e",
+          "xml_sha256": "3fe807d1e214134485a06366960e727dc36fe191e78056f4e90fb833cb044eae"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1869",
+          "body_paragraph": 1,
+          "quote": "Nymphæa seeds—we can get you plenty in Autumn if you will remind me.",
+          "source_sha256": "1134af8e8de1aae3781d831d5c1cb47146b301a0b2fc83ba4f0979ef1c8f0c9e",
+          "locator": "div#letter div.body-content; retained body block 1"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1911"
+      ],
+      "case": "mutually exclusive dates and Darwin-added ending",
+      "requirement": "Render June 26 and July 3, 1856 as mutually exclusive alternatives. Preserve Hooker’s six surviving blocks separately from terminal words added by Darwin from the missing ending; undated annotations must not become Hooker prose.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1911",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1911.html",
+          "source_html_sha256": "5fc0723016d6250f2d1a85fc94b3f54e5e1860ca0ef4c2110af4d8d05db40ac6",
+          "xml_sha256": "059d36c4b98a8411bcb0c68607000983a456f720aaf1b5beed4283ab9fb04842"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1911",
+          "body_paragraph": 2,
+          "quote": "By the greatest good luck in the world we have two seedlings of the Asiatic Entada, growing side by side with the Azorean, & they are very different species; so that you have no sooner found proof that the West Indian one will travel with u",
+          "source_sha256": "5fc0723016d6250f2d1a85fc94b3f54e5e1860ca0ef4c2110af4d8d05db40ac6",
+          "locator": "div#letter div.body-content; retained body block 2"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1918",
+        "DCP-LETT-1919"
+      ],
+      "case": "morning/evening distinction and swapped summaries",
+      "requirement": "Render 1918 as the short morning July 5 note and 1919 as the substantive evening note. Do not attach the 1919 editorial summary to 1918 or collapse the morning Tristan-list request into the later Hooker answers.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1918",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1918.html",
+          "source_html_sha256": "6dab36382785a889b554b3ddd251de57a27906b5c94203fd26ecef2f7a7f5b82",
+          "xml_sha256": "1a372bf31ea0371a72b628a9df5c142caeace4cdce8a6e9543caf16c07fdde1d"
+        },
+        {
+          "letter_id": "DCP-LETT-1919",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1919.html",
+          "source_html_sha256": "e855495ed442bfdd83c90851d13e09174cd1ca15e102c4698b7de68f846e4511",
+          "xml_sha256": "963534e83cdcf5123756a0a8ca60ff188bd22f66552d134c9311538bb8b6732b"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1918",
+          "body_paragraph": 1,
+          "quote": "I have to thank you for a most interesting note, but I want to catch post.— I am going mad & am in despair over your confounded Antarctic isld. flora.",
+          "source_sha256": "6dab36382785a889b554b3ddd251de57a27906b5c94203fd26ecef2f7a7f5b82",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1919",
+          "body_paragraph": 1,
+          "quote": "I wrote this morning in tribulation about Tristan d’Acunha. The more I reflect on your antarctic Flora, the more I am astounded. You give all the facts so clearly & fully, that it is impossible to help speculating on the subject; but it dri",
+          "source_sha256": "e855495ed442bfdd83c90851d13e09174cd1ca15e102c4698b7de68f846e4511",
+          "locator": "div#letter div.body-content; retained body block 1"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1915A"
+      ],
+      "case": "Lyell journal extract, fraction, diagrams, and unsent postscript",
+      "requirement": "Render 1915A as a contemporary journal extract headed July 1, not the missing full Lyell letter. Preserve the one-half-million-year MathML value, the 1,200-versus-12,000-foot apparatus discrepancy, all three diagrams, and the July 2 postscript explicitly marked unsent to Darwin.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1915A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1915A.html",
+          "source_html_sha256": "c68a7e09967cfe3752edb6504cacacdca7c8274cece7a8f6fbfad43162838739",
+          "xml_sha256": "245dc0d3db43c91c1f0aea9c1a775743b4dde4fe537f2e497da8f51a503b0c16"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1915A",
+          "body_paragraph": 2,
+          "quote": "Extract of a Letter from C Lyell to C Darwin July 1. 1856—",
+          "source_sha256": "c68a7e09967cfe3752edb6504cacacdca7c8274cece7a8f6fbfad43162838739",
+          "locator": "div#letter div.body-content; retained body block 2"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1963"
+      ],
+      "case": "address layout and manuscript status",
+      "requirement": "Preserve the literal Acton/Post Office/Bromley address layout including damaged diag/ramme text. The aquatic-pod request and promised distribution manuscript are separate; later delivery or meeting evidence must not be rendered as receipt of the manuscript.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1963",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1963.html",
+          "source_html_sha256": "b968b30639d58e386170295dbbc876e81d1a2c3456d991907974e7bb2822b813",
+          "xml_sha256": "a62a18b6975da5c99e3a6e4d2c8ffb1b47314c2057f013a92ad4e98316698fe6"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1963",
+          "body_paragraph": 3,
+          "quote": "If you can send me any, please send them any day, addressed diag C. Darwin",
+          "source_sha256": "b968b30639d58e386170295dbbc876e81d1a2c3456d991907974e7bb2822b813",
+          "locator": "div#letter div.body-content; retained body block 3"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1969"
+      ],
+      "case": "distinct seed route and non-receipt",
+      "requirement": "Keep the seed request’s George Snow/Nag’s Head/Borough routing distinct from the water-pod route. Render seeds as requested, not received; the weak Cytisus evidence is Darwin’s qualified assessment, not a general denial of species change.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1969",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1969.html",
+          "source_html_sha256": "58db102961fe9894946b95aced2ca17d795d0e438dc7010b7bd1a82c37c6ca98",
+          "xml_sha256": "4668985be002c79da1ebb0b76f7d3bb000f198f98fc2788821e4535613e69fd2"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1969",
+          "body_paragraph": 1,
+          "quote": "I write merely to ask you to send the seeds, for which I am in no hurry, & for which I am extremely much obliged, addressed (not like water plants) to. diag C. Darwin",
+          "source_sha256": "58db102961fe9894946b95aced2ca17d795d0e438dc7010b7bd1a82c37c6ca98",
+          "locator": "div#letter div.body-content; retained body block 1"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1965"
+      ],
+      "case": "covering note and supplied delivery date",
+      "requirement": "Retain 16 October 1856 as a supplied date with its delivery uncertainty: likely hand delivery is editorial reconstruction and posting remains possible. Separate the covering note’s requests for botanical accuracy from the manuscript fragment/back-page notes and later Hooker reading.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1965",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1965.html",
+          "source_html_sha256": "37b79692092ec985c064da50082cdf28f085e79afaea04e2abc05ef21eecf11a",
+          "xml_sha256": "f185176215feae6ffdd574d8673ed970bf03151ad972034799407c3bd4675c98"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1965",
+          "body_paragraph": 1,
+          "quote": "Please read this, first, I want, especially to know whether Botanical facts are fairly accurate. 2d. any general or special criticisms: please observe if you will mark margin with pencil, if your criticisms run to any length, I would gladly",
+          "source_sha256": "37b79692092ec985c064da50082cdf28f085e79afaea04e2abc05ef21eecf11a",
+          "locator": "div#letter div.body-content; retained body block 1"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Do not mutate frozen HTML/XML, body projections, accepted annotations or ledgers.",
+    "Preserve MathML fractions and damaged diag/ramme markup with explicit fallbacks; never normalize uncertain values silently.",
+    "Keep manuscript, journal extract, enclosure, annotation, quoted, and unsent layers visually and semantically distinct.",
+    "Do not import later publication, notebook, payment, meeting, or reading facts into receipt or knowledge state."
+  ],
+  "notes": [
+    "1918 and 1919 are distinct same-day morning/evening sources; their editorial summaries must remain attached to the correct source.",
+    "1915A’s diagrams and unsent July 2 postscript are separate from the missing original Lyell letter.",
+    "1965 delivery and manuscript-reading dates remain provenance holds, not exact receipt claims."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/parent-reading/batch-01.json",
+      "sha256": "f26e821c6b1996e6c888221675c036ca11dd69cbdf344bd90eee2da7a9a5d120"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-decisions/batch-01.json",
+      "sha256": "8deffef79c1219d88ba6d228599fe9387f7cc7fde435dfecba6658fe4342eeea"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-reading/batch-02.json",
+      "sha256": "30a3d752391a992285205bb7db75623fa3ec0bdf600152c8111880c5eb137d0b"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-decisions/batch-02.json",
+      "sha256": "a84869200890a4b86985bebcd7bdc90162761ec8c7bd54f23054f30f1eed5e2c"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-01.json",
+      "sha256": "3fcd50b8799058d446d163e3cf16eda5b7b7fbb62637a90ec2f20a5dad9de8d7"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-02.json",
+      "sha256": "0a63b5d3c6de5d39eb3dcf03a25bd56665a6316051747ab8e221b425df8472de"
+    },
+    {
+      "path": "reports/1856-1857/review/letters.jsonl",
+      "sha256": "d3feb27f178ebd638dd544ddb4ad84203da5d304d8c240dded25f60bb5827d94"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1851.html",
+      "sha256": "f3bea85287b3b2b98155609c111be74cd0eee2a0520c622feb741b3509075980"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1869.html",
+      "sha256": "1134af8e8de1aae3781d831d5c1cb47146b301a0b2fc83ba4f0979ef1c8f0c9e"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1911.html",
+      "sha256": "5fc0723016d6250f2d1a85fc94b3f54e5e1860ca0ef4c2110af4d8d05db40ac6"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1918.html",
+      "sha256": "6dab36382785a889b554b3ddd251de57a27906b5c94203fd26ecef2f7a7f5b82"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1919.html",
+      "sha256": "e855495ed442bfdd83c90851d13e09174cd1ca15e102c4698b7de68f846e4511"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1915A.html",
+      "sha256": "c68a7e09967cfe3752edb6504cacacdca7c8274cece7a8f6fbfad43162838739"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1963.html",
+      "sha256": "b968b30639d58e386170295dbbc876e81d1a2c3456d991907974e7bb2822b813"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1969.html",
+      "sha256": "58db102961fe9894946b95aced2ca17d795d0e438dc7010b7bd1a82c37c6ca98"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1965.html",
+      "sha256": "37b79692092ec985c064da50082cdf28f085e79afaea04e2abc05ef21eecf11a"
+    }
+  ]
+}

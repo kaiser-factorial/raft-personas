@@ -1,0 +1,30 @@
+{
+  "batch_id": "batch-25",
+  "period": "1844-1846",
+  "reviewer": "gpt-5.6-luna",
+  "status": "additive_primary_direction_correction",
+  "preserves": "reports/1844-1846/review/reviews/batch-25.supplemental-evidence.json",
+  "corrections": [
+    {
+      "prior_proposal": {"source_id": "DCP-LETT-975", "target_id": "DCP-LETT-835", "relationship": "replies_to"},
+      "corrected_disposition": "same_author_topical_continuity_only",
+      "assessment": "Both records are letters from William Hopkins to Darwin. Hopkins's 975 explicitly revisits Darwin's geometrico-geological problem, but it answers a missing Darwin question/data letter; 835 is an earlier Hopkins answer to an earlier missing Darwin communication, not the incoming antecedent of 975.",
+      "incoming_prompt_status": "unlocated Darwin communication",
+      "evidence": [
+        {"letter_id": "DCP-LETT-835", "body_paragraph": 2, "quote": "The above diagram contains the solution of the problem which I received from you some time ago", "locator": "div#letter div.body-content; retained body block 2", "source_sha256": "04abf3dfa879b6e1ab2401fcd5c5374530dad120419f3c9d9be3468dcd8eea52"},
+        {"letter_id": "DCP-LETT-975", "body_paragraph": 1, "quote": "Your letter reached me just as I was leaving Cambridge", "locator": "div#letter div.body-content; retained body block 1", "source_sha256": "05010f8292238273568561246ce65826a8d63561ec58ea07011e4dff4769af83"}
+      ]
+    },
+    {
+      "prior_proposal": {"source_id": "DCP-LETT-978", "target_id": "DCP-LETT-975", "relationship": "replies_to"},
+      "corrected_disposition": "same_author_topical_continuity_only",
+      "assessment": "978 is another Hopkins-to-Darwin response to a missing Darwin datum. 'Yesterday' identifies the timing of Darwin's unlocated communication, not a Hopkins incoming prompt in 975; the shared problem establishes continuity only.",
+      "incoming_prompt_status": "unlocated Darwin communication",
+      "evidence": [
+        {"letter_id": "DCP-LETT-978", "body_paragraph": 1, "quote": "The additional datum you sent to me yesterday is of no material service in your problem", "locator": "div#letter div.body-content; retained body block 1", "source_sha256": "f2d3b8eeab0bb7bcee02960019bedcfded4ef772d603c34ccca4e6f60e41f6a0"}
+      ]
+    }
+  ],
+  "scope_correction": "Batch 25 contains FitzRoy, Forbes, Hooker, and Hopkins records plus historical contexts 516, 522, 555, 664, and 667. Horner, Morlot, Ansted, and Ramsay records are in batch 26, not batch 25; any prose suggesting otherwise is withdrawn.",
+  "counting_rule": "Do not count either Hopkins continuity as a direct or reverse correspondence reply edge."
+}

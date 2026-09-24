@@ -1,0 +1,56 @@
+{
+  "batch_id": "batch-46",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-2365",
+      "source_kind": "editorial appendix with two collective memorials",
+      "voice": "editorial, collective memorialists and quoted earlier authorities; Charles only a signatory",
+      "date_assessment": "November18,1858 applies to second memorial, not every extracted block; first petition earlier and editorial history retrospective.",
+      "disposition": "exclude_from_individually_authored_darwin_grounding",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2199F",
+      "source_kind": "third-person library request",
+      "voice": "Charles Darwin",
+      "date_assessment": "[c.June1858or later] spans endpoint; Wednesday inferred only from tomorrowThursday.",
+      "disposition": "period_boundary_and_recipient_hold",
+      "training_export_ready": false
+    }
+  ],
+  "voice_held_ids": [
+    "DCP-LETT-2365"
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-2365",
+      "kind": "mixed_appendix_projection",
+      "description": "P1–4editorial matter andtwo distinct collective petitions cannot inherit a singleDarwin author/date from catalogue metadata.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2365",
+          "body_paragraph": 3,
+          "quote": "In 1858 Darwin signed two petitions",
+          "char_start": 0,
+          "char_end": 35,
+          "source_sha256": "9f4e626c62c5d4fd41593e5453d9c43abdb44d01d5bc5ecc6ff7db7f14595037"
+        },
+        {
+          "letter_id": "DCP-LETT-2365",
+          "body_paragraph": 61,
+          "quote": "Chas. Darwin, F.R.S., L.S., and G.S.",
+          "char_start": 0,
+          "char_end": 36,
+          "source_sha256": "9f4e626c62c5d4fd41593e5453d9c43abdb44d01d5bc5ecc6ff7db7f14595037"
+        }
+      ]
+    }
+  ],
+  "summary": "Two fresh full readings and one accepted full-source reuse. Collective signature is not sole prose authorship; no new edges."
+}

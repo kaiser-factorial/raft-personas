@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "status": "candidate_only",
+  "scope": "Authorial supplemental/enclosure candidates: DCP-LETT-1732, 1589, 1820A, 2151, 2175, 2222, 2254, 2425, 2437, 2457, 2136 and 889.",
+  "method": "Read preserved HTML body/supplemental text and accepted primary record notes. Extracted bounded authorial N.B./enclosure spans only; editorial heads, footnotes, annotations and later answers are held outside rendered blocks.",
+  "rows": [
+    {
+      "source_id": "DCP-LETT-1732",
+      "source_pin": {
+        "html_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1732.html",
+        "html_sha256": "45ca927961723cdaf8be73e45a02e869338a6e08130e303239c6a825da2fc095",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1732.xml",
+        "xml_sha256": "8d1c316f559ba94d3de5c2df4341ad3a1b009844fe5ec61afd58ad9561b308f4",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1732.xml"
+      },
+      "layer": "authorial_NB",
+      "author_date_basis": {
+        "author": "Charles Darwin",
+        "date_source": "accepted primary record and original XML; no date inferred from enclosure/receipt",
+        "source_id": "DCP-LETT-1732"
+      },
+      "dom_locator": "xpath://div[@id='letter']//div[contains(concat(' ',normalize-space(@class),' '),' body-content ')]//*[contains(., 'N.B. Both your last letters have gone wrong')]",
+      "text_anchor": "N.B. Both your last letters have gone wrong",
+      "original_text": "Down Farnborough Kent",
+      "anchor_quote": "N.B. Both your last letters have gone wrong from Kent having been omitted.—",
+      "proposed_rendered_blocks": [
+        {
+          "block_id": "DCP-LETT-1732-authorial_NB",
+          "text_policy": "Render original authorial text in this bounded block; preserve spelling, uncertainty, numbering and MathML; exclude headers, footnotes, annotations and editorial prose.",
+          "source_scope": "Darwin N.B. authorial paragraph P1; this is original prose outside the ordinary greeting/body flow."
+        }
+      ],
+      "holds": []
+    },
+    {
+      "source_id": "DCP-LETT-1589",
+      "source_pin": {
+        "html_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1589.html",
+        "html_sha256": "60ba1c49e0aab96b5491307da8a6403faa12619c72288bb7bb3f1348d2de499c",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1589.xml",
+        "xml_sha256": "ec87196be380c253228a00b62d88e3ea28ab87059795ec3c94fda34541c03567",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1589.xml"
+      },
+      "layer": "authorial_enclosure",
+      "author_date_basis": {
+        "author": "Charles Darwin",
+        "date_source": "accepted primary record and original XML; no date inferred from enclosure/receipt",
+        "source_id": "DCP-LETT-1589"
+      },
+      "dom_locator": "xpath://div[@id='letter']//div[contains(concat(' ',normalize-space(@class),' '),' body-content ')]//*[contains(., '[Enclosure]')]",
+      "text_anchor": "[Enclosure]",
+      "original_text": "[Enclosure] 1 Balanus flosculus & var. sordidus 2 ——— navicula 2 3 ——— calceolus 4 ——— tintinnabulum (4 vars.) 3 5 ——— improvisus (. vars.) 4 6 ——— crenatus vars. 7 ——— balanoides vars. 8 ——— eburneus 5 9 ——— lævis vars. 10. ——— trigonus 11 ——— tulipiformis 6 12 ——— Capensis 7 13. ——— nigrescens 8 14 ——— Hameri 9 15. ——— psittacus 10 16. ——— amaryllis 11 17 ——— spongicola 18 ——— vestitus 12 19 ——— perforatus (vars.) 13 20 ——— amphitrite (vars.) 14 21. ——— porcatus 15 22 Balanus concavus 16 23. ——— dolosus 17 24. ——— unguiformis 18 25. ——— inclusus (vars) 19 26. Acasta spongites 27. ——— purpurata 28. ——— cyathus 29. ——— sulcata 30. ——— lavigata 20 31. ——— glans 21 32 Elminius plicatus 33. ——— simplex 34. ——— Kingii 35. ——— modestus 22 36. Tetraclita porosa 37 ——— vitiata 38 ——— purpurascens 39. ——— rosea 40 ——— serrata 41. Pyrgoma Anglicum 23 42 ——— grande 24 43. ——— milleporæ 25 44. ——— crenatum 26 45. ——— monticulariæ 27 46 Creusia spinulosa vars. 1, 2, 4, 6. 47 Chelonobia testudinaria 28 48 ——— caretta 49. ——— patula x 50. Platylepas bissexlobata 29 51. ——— decorata 52. Chthamalus stellatus (vars) 53. ——— fissus 54. ——— antennatus 55. ——— dentatus var. 56. ——— scabrosus 30 57. ——— cirratus 58. Chamæsipho columna 59. ——— scutelliformis 31 60. Octomeris angulosa 61. Catophragmus polymerus 32 ——————————————— 62. Verruca Stromia 33 63. ——— lævigata ——————————————— 64 Lepas anatifera 65 ——— Hillii 66 ——— anserifera 67 ——— pectinata 68 ——— australis 69 ——— fascicularis 34 70 Poecilasma Kaempferi 71 ——— aurantia 72 Oxynaspis celata 73 Ibla quadrivalvis 74 Scalpellum Peronii 35 75 Pollicipes cornucopia 36 76. ——— mitella 37 77. Lithotrya dorsalis ",
+      "anchor_quote": "1 Balanus flosculus & var. sordidus",
+      "proposed_rendered_blocks": [
+        {
+          "block_id": "DCP-LETT-1589-authorial_enclosure",
+          "text_policy": "Render original authorial text in this bounded block; preserve spelling, uncertainty, numbering and MathML; exclude headers, footnotes, annotations and editorial prose.",
+          "source_scope": "Complete 77-item cirripede list; retain list items and separator rows as authorial enclosure, not editorial summary."
+        }
+      ],
+      "holds": []
+    },
+    {
+      "source_id": "DCP-LETT-1820A",
+      "source_pin": {
+        "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1820A.html",
+        "html_sha256": "66819ddb3c7a258741a0a9b29c9a6cbdca733a880968815d61ef715674414fd2",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1820A.xml",
+        "xml_sha256": "c9444547ed3e996d969d983229a167552b59e17717faf91a5dcd5b8bcfa16e31",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1820A.xml"
+      },
+      "layer": "authorial_enclosure",
+      "author_date_basis": {
+        "author": "Charles Darwin",
+        "date_source": "accepted primary record and original XML; no date inferred from enclosure/receipt",
+        "source_id": "DCP-LETT-1820A"
+      },
+      "dom_locator": "xpath://div[@id='letter']//div[contains(concat(' ',normalize-space(@class),' '),' body-content ')]//*[contains(., '[Enclosure]')]",
+      "text_anchor": "[Enclosure]",
+      "original_text": "[Enclosure] Is there any translation of any Chinese work, ancient or modern, descriptive, or even simply enumerative, of the varieties of domestic Pigeons & Fowls or Ducks kept by the Chinese; & likewise of the Dogs, sheep, cattle &c; but I care more about the former even than the latter.— And the same in regard to the varieties of cultivated plants, but more especially of tobacco & maize; for these latter plants, the work, of course, must not be ancient.— If any such Chinese agricultural work or Encyclopædia exists in the British Museum but has not been translated, would it be possible for M r Birch, & would he be so very kind as to take the trouble as to look at it (& as probably saving him a little trouble) & let me be present to note down names of any varieties mentioned, if such are specified.. This would be of extreme interest to me; but I hardly know how great a favour I am asking, for Chinese seems to be so wonderfully difficult to read.— C. Darwin ",
+      "anchor_quote": "Is there any translation of any Chinese work, ancient or modern, descriptive, or even simply enumerative",
+      "proposed_rendered_blocks": [
+        {
+          "block_id": "DCP-LETT-1820A-authorial_enclosure",
+          "text_policy": "Render original authorial text in this bounded block; preserve spelling, uncertainty, numbering and MathML; exclude headers, footnotes, annotations and editorial prose.",
+          "source_scope": "Complete Darwin memorandum requesting Chinese translation/enum­eration and information on domesticated varieties; signature remains Darwin."
+        }
+      ],
+      "holds": []
+    },
+    {
+      "source_id": "DCP-LETT-2151",
+      "source_pin": {
+        "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2151.html",
+        "html_sha256": "7ecc812d4723773e3d8f72532688a7e859113e2966b993280ecd1edb45b9f22c",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2151.xml",
+        "xml_sha256": "afa6819a748bae8c1e7503bd6a47c4ba29be4870a642bc65eb1d53b55d0415ce",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2151.xml"
+      },
+      "layer": "authorial_enclosure",
+      "author_date_basis": {
+        "author": "Charles Darwin",
+        "date_source": "accepted primary record and original XML; no date inferred from enclosure/receipt",
+        "source_id": "DCP-LETT-2151"
+      },
+      "dom_locator": "xpath://div[@id='letter']//div[contains(concat(' ',normalize-space(@class),' '),' body-content ')]//*[contains(., '[Enclosure]')]",
+      "text_anchor": "[Enclosure]",
+      "original_text": "[Enclosure] (1)Whence were the Smiters procured: if from abroad what name did they bear? (2)What are the peculiarities in their habits? (3)Will they display their peculiarities in a cage, some 5 or 6 yards long by 4 or 5 broad & ten ft high? Or must they be quite free.— (4).Are the peculiarities the same in Cock & Hen ? are they equally displayed in all; or are some Birds much better than others? I refer of course, only to pure bred Birds.— (5)Do they breed true in form & colour? ",
+      "anchor_quote": "(1)Whence were the Smiters procured",
+      "proposed_rendered_blocks": [
+        {
+          "block_id": "DCP-LETT-2151-authorial_enclosure",
+          "text_policy": "Render original authorial text in this bounded block; preserve spelling, uncertainty, numbering and MathML; exclude headers, footnotes, annotations and editorial prose.",
+          "source_scope": "Five Darwin pigeon questions addressed through Falconer; preserve numbered questions as one enclosure."
+        }
+      ],
+      "holds": []
+    },
+    {
+      "source_id": "DCP-LETT-2175",
+      "source_pin": {
+        "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2175.html",
+        "html_sha256": "90d7c504c3f2cfeeb00e11a28f56b9fe0bbf1fc62d7d2434500479e94c65c530",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2175.xml",
+        "xml_sha256": "48cb3ff16c9bdb7f397d1ab22f0ba7a704cf06e21b0b5126d1996c35773fd7f2",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2175.xml"
+      },
+      "layer": "authorial_enclosure",
+      "author_date_basis": {
+        "author": "Charles Darwin",
+        "date_source": "accepted primary record and original XML; no date inferred from enclosure/receipt",
+        "source_id": "DCP-LETT-2175"
+      },
+      "dom_locator": "xpath://div[@id='letter']//div[contains(concat(' ',normalize-space(@class),' '),' body-content ')]//*[contains(., '[Enclosure]')]",
+      "text_anchor": "[Enclosure]",
+      "original_text": "[Enclosure] 1. Major Gwatkin in a letter published by Col. Hamilton Smith, speaking of the Kutch or Kahleawar breed of horses, says “Kutch is the country where the mares are bred; the sire is an Arab. They are generally greys or light duns, and almost invariably have the zebra-marks on the arms and thighs with list down the back.” 3 I am very anxious to know what are the colours of the pure Kutch mares; for it seems very surprising that the offspring, begotten by Arab sires, which I believe are never dun, should be generally dun or grey and have a dorsal stripe and transverse zebra-like marks on the legs. These latter characteristics, I hear, are generally lost in the Scandinavian duns, when crossed with any other colour. 2. In the Kutch or Kahleawar duns (whether or not a crossed breed), are the zebra-like leg-markings, and dorsal stripe very generally present? Does a transverse shoulder stripe, like that on the ass, ever occur? Is such shoulder stripe ever double, as sometimes, though very rarely, is the case with the ass. 3. Am I to understand from Major Gwatkin that the Grey Kutch horses have a dorsal stripe and zebra-like marks on the legs: I have never heard of this before. 4. Are any Kutch horses cream-coloured; and have such the dorsal, or shoulder, or leg stripes? 5. Chesnut horses often have a dorsal stripe: in India have they ever a shoulder or leg stripes? 6. Is the dun or other colour when accompanied by the above stripes, strongly inherited, when such coloured horses are crossed with others. 7. Are all the horses, whatever their colour may be, when striped , small and built like cobs. 8. What is the colour of the Dun or Cream or other colour, when accompanied by stripes in the foal , before first hair is shed? Are the stripes at this early age more or less conspicuous? 4 C. Darwin Down, | Nov. 22nd 1857. ",
+      "anchor_quote": "1. Major Gwatkin in a letter published by Col. Hamilton Smith",
+      "proposed_rendered_blocks": [
+        {
+          "block_id": "DCP-LETT-2175-authorial_enclosure",
+          "text_policy": "Render original authorial text in this bounded block; preserve spelling, uncertainty, numbering and MathML; exclude headers, footnotes, annotations and editorial prose.",
+          "source_scope": "Eight-question Darwin enclosure on Kutch/Kahleawar horse markings; signed date 22 November is separate from 23 November cover."
+        }
+      ],
+      "holds": [
+        "Enclosure date 22 November is separate from cover date 23 November; preserve both layers."
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-2222",
+      "source_pin": {
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2222.html",
+        "html_sha256": "fe66577fecbb609d8953a5dbf9132a9a37d1c7362beef1ba9f5df452a1313a65",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2222.xml",
+        "xml_sha256": "a62d5b1f462466702290f608e37c06c33b2d0930935c5b2266fb68578b5f3b2d",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2222.xml"
+      },
+      "layer": "authorial_enclosure",
+      "author_date_basis": {
+        "author": "Charles Darwin",
+        "date_source": "accepted primary record and original XML; no date inferred from enclosure/receipt",
+        "source_id": "DCP-LETT-2222"
+      },
+      "dom_locator": "xpath://div[@id='letter']//div[contains(concat(' ',normalize-space(@class),' '),' body-content ')]//*[contains(., '[Enclosure]')]",
+      "text_anchor": "[Enclosure]",
+      "original_text": "[Enclosure] 11 Will you think on some of the largest genera with which you are well acquainted, & then suppose 4 5 of species utterly destroyed & unknown in the sections in (as it were) as much as possible in the centre of such great genera.— Then would the remaining 1 5 of the species, forming a few sections, be according to general practice of average good Botanists, be ranked as distinct genera.— Of course they would in that case be closely related genera. The question in fact is are all the species in a gigantic genus kept together in that genus, because they are really so very closely similar as to be inseparable; or is it because no chasms or boundaries can be drawn separating the many species.— The question might have been put for Orders.— ",
+      "anchor_quote": "Will you think on some of the largest genera",
+      "proposed_rendered_blocks": [
+        {
+          "block_id": "DCP-LETT-2222-authorial_enclosure",
+          "text_policy": "Render original authorial text in this bounded block; preserve spelling, uncertainty, numbering and MathML; exclude headers, footnotes, annotations and editorial prose.",
+          "source_scope": "Darwin classification question about large genera; preserve enclosure as Darwin question text, separate from Hooker response."
+        }
+      ],
+      "holds": []
+    },
+    {
+      "source_id": "DCP-LETT-2254",
+      "source_pin": {
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2254.html",
+        "html_sha256": "2d0210929c7b0f81b0656264457c510fac7b8192eb82c5191b3bb08808b7cb02",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2254.xml",
+        "xml_sha256": "fd39160d2179aabdbf9ed07fd5945b55fa44686589385c15bfc049ebeb7edf1c",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2254.xml"
+      },
+      "layer": "authorial_enclosure",
+      "author_date_basis": {
+        "author": "Charles Darwin",
+        "date_source": "accepted primary record and original XML; no date inferred from enclosure/receipt",
+        "source_id": "DCP-LETT-2254"
+      },
+      "dom_locator": "xpath://div[@id='letter']//div[contains(concat(' ',normalize-space(@class),' '),' body-content ')]//*[contains(., '[Enclosure]')]",
+      "text_anchor": "[Enclosure]",
+      "original_text": "[Enclosure] 11 Is the whole worth publishing? I do not promise to be guided by your judgement, but it will have great weight when in some months time I reconsider subject.— Have I fairly stated the more important objections in abstract : to have given all in full would have made my now tedious discussion intolerably tedious. I sh d . be very glad to hear any criticisms in detail; & you & Watson have done me an enormous service in drawing my attention to & enumerating the numerous objections; but what I want you to do now is, in as candid a frame as you can, to balance all the vague probabilities on both sides of question.— Remember that my book is written for geologists & zoologists, so that on some points I daresay my remarks may appear to you trivial. I have discussed some extra hypothetical points chiefly for sake, here & in other places, to show what points ought to be considered in theory of the descent of species, rather than in hopes of throwing light on the many points of present inextricable confusion.— ",
+      "anchor_quote": "Is the whole worth publishing?",
+      "proposed_rendered_blocks": [
+        {
+          "block_id": "DCP-LETT-2254-authorial_enclosure",
+          "text_policy": "Render original authorial text in this bounded block; preserve spelling, uncertainty, numbering and MathML; exclude headers, footnotes, annotations and editorial prose.",
+          "source_scope": "Five-paragraph Darwin memorandum asking whether the species manuscript is publishable; do not include Hooker/Gray commentary as Darwin enclosure text."
+        }
+      ],
+      "holds": []
+    },
+    {
+      "source_id": "DCP-LETT-2425",
+      "source_pin": {
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2425.html",
+        "html_sha256": "8f18c0ac9c50c38e1468e4ebfabd3d0efda830923dec2b30c78492c3c070d12f",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2425.xml",
+        "xml_sha256": "89224070934332b86f728ac1febc66ef6165264f607a9b9c16c8854f6ab773bc",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2425.xml"
+      },
+      "layer": "authorial_enclosure",
+      "author_date_basis": {
+        "author": "Charles Darwin",
+        "date_source": "accepted primary record and original XML; no date inferred from enclosure/receipt",
+        "source_id": "DCP-LETT-2425"
+      },
+      "dom_locator": "xpath://div[@id='letter']//div[contains(concat(' ',normalize-space(@class),' '),' body-content ')]//*[contains(., '[Enclosure]')]",
+      "text_anchor": "[Enclosure]",
+      "original_text": "[Enclosure] (1) My impression is that in the whole Molluscan Kingdom we have not many (or any) clear cases of “serial homologies” in the same individual ; like the skull in Vertebrata in relation to the vertebræ, or like jaws & segments of head in relation to legs & segments of body in the Articulata. (2) My impression is that no mollusca, not even the lowest, offer good instances of a “vegetative repetition” (to use Owen’s ugly phrase) 4 of parts of importance. The arms of Cephalopods seem (in my ignorance) chief exception, & we get some poor serial homologies in the arms of certain Cephalopods. I hypothetically wish to connect no 2 . as cause of no 1.— 5 (1) In single plant (ie in flower or leaf-bud) we often have many, almost indefinitely many, whorls of the same homological part; & in each separate whorl almost an indefinite number of such parts.— How far does this hold true with the Radiata, in the largest sense? In Encrinite can the stem be looked at as a pile of simple whorls; or is it not rather an elongated & modified footstalk of the single main whorl? In Radiata is not the number of important parts in each (the single?) whorl generally or always few & definite . Do the numerous tentacula in certain Actineæ or rays in certain Asteriases make a real exception; I fancy these tentacula (& rays) are only a vegetative repetition of an un important part, & not comparable to the repetition of stamens, pistils & petals of plants.— I imagine that there are not good cases of “ serial homologies ” in individual species of the Radiata.— And this seems to be an odd contrast with plants.— 6 ",
+      "anchor_quote": "(1) My impression is that in the whole Molluscan Kingdom",
+      "proposed_rendered_blocks": [
+        {
+          "block_id": "DCP-LETT-2425-authorial_enclosure",
+          "text_policy": "Render original authorial text in this bounded block; preserve spelling, uncertainty, numbering and MathML; exclude headers, footnotes, annotations and editorial prose.",
+          "source_scope": "Four-paragraph Darwin query on serial homologies and vegetative repetition; Huxley annotations remain excluded."
+        }
+      ],
+      "holds": []
+    },
+    {
+      "source_id": "DCP-LETT-2437",
+      "source_pin": {
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2437.html",
+        "html_sha256": "9d75e85fe44abcc5dbcb4dff82608d580a2167af63fd2c9caa5f4716fa9831e7",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2437.xml",
+        "xml_sha256": "8889fbe5ebedbb5a19c2f6dd44f1e04dba811be78ffe216540ab851138ea3a92",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2437.xml"
+      },
+      "layer": "authorial_enclosure",
+      "author_date_basis": {
+        "author": "Charles Darwin",
+        "date_source": "accepted primary record and original XML; no date inferred from enclosure/receipt",
+        "source_id": "DCP-LETT-2437"
+      },
+      "dom_locator": "xpath://div[@id='letter']//div[contains(concat(' ',normalize-space(@class),' '),' body-content ')]//*[contains(., '[Enclosure]')]",
+      "text_anchor": "[Enclosure]",
+      "original_text": "[Enclosure] An abstract of an Essay on the Origin of Species and Varieties Through Natural Selection by Charles Darwin M. A Fellow of the Royal, Geological & Linn. Soc y . ———— London &c &c &c &c 1859 ———— ",
+      "anchor_quote": "An abstract of an Essay on the Origin of Species and Varieties Through Natural Selection",
+      "proposed_rendered_blocks": [
+        {
+          "block_id": "DCP-LETT-2437-authorial_enclosure",
+          "text_policy": "Render original authorial text in this bounded block; preserve spelling, uncertainty, numbering and MathML; exclude headers, footnotes, annotations and editorial prose.",
+          "source_scope": "Darwin draft title-page enclosure for the proposed Abstract; preserve title wording as a draft, not publication metadata."
+        }
+      ],
+      "holds": []
+    },
+    {
+      "source_id": "DCP-LETT-2457",
+      "source_pin": {
+        "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2457.html",
+        "html_sha256": "489d3abd48e6e9e8dc32b95d9dc54e3f7fe269a53fe4b235361370c6c5a79eb6",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2457.xml",
+        "xml_sha256": "9756560256e45dcb350e4f3c3e37a85a94d8e188319d32a463d8a9b93ff090db",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2457.xml"
+      },
+      "layer": "authorial_enclosure",
+      "author_date_basis": {
+        "author": "Charles Darwin",
+        "date_source": "accepted primary record and original XML; no date inferred from enclosure/receipt",
+        "source_id": "DCP-LETT-2457"
+      },
+      "dom_locator": "xpath://div[@id='letter']//div[contains(concat(' ',normalize-space(@class),' '),' body-content ')]//*[contains(., '[Enclosure 1]')]",
+      "text_anchor": "[Enclosure 1]",
+      "original_text": "[Enclosure 1] Rev d S. Haughton Address to Geolog. Soc. Dublin 8 “This speculation of M ess . Darwin & Wallace would not be worthy of notice, were it not for the weight of authority of names (ie Lyell’s & yours) 9 under whose auspices it has been brought forward. If it means what it says, it is a truism; if it means anything more, it is contrary to fact.”— Q. E. D.— [Enclosure 2] Since writing the enclosed note, I have thought I would expand a little on the subject of Reversion for my Abstract; & I send it uncorrected , as you may possibly like to see what I say. Please return it soon; but I am not quite sure whether or not I shall insert it. I have already separately touched on most of the points.— [Enclosure 3] P.S. 2 d . | I return by this Post A. Gray, which I have just read.— 10 I see he adopts the notion I sent him, of the homogeniety of the flora on the circumpolar land before the Glacial period, when the climate was warmer, & there was an open highway— 11 What rubbish, Agassiz talks.— 12 ",
+      "anchor_quote": "Rev d S. Haughton Address to Geolog. Soc. Dublin",
+      "proposed_rendered_blocks": [
+        {
+          "block_id": "DCP-LETT-2457-authorial_enclosure",
+          "text_policy": "Render original authorial text in this bounded block; preserve spelling, uncertainty, numbering and MathML; exclude headers, footnotes, annotations and editorial prose.",
+          "source_scope": "Three authorial enclosure groups: Haughton criticism, expanded reversion note, and Gray postscript. Keep quoted Haughton/Gray voices attributed and expanded manuscript status separate; missing expanded manuscript is not reconstructed."
+        }
+      ],
+      "holds": [
+        "Three groups are present, but any expanded manuscript beyond the preserved groups remains missing."
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-2136",
+      "source_pin": {
+        "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2136.html",
+        "html_sha256": "025d1b66200f33f468b8dfbb0ebe007514f19abe9a783ea7aea38ad19a62ff75",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2136.xml",
+        "xml_sha256": "7227ae9f650d7c4096f128c58735a048e9edd0e1ae394251183dcc56ccba0d5a",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2136.xml"
+      },
+      "layer": "authorial_enclosure",
+      "author_date_basis": {
+        "author": "Charles Darwin",
+        "date_source": "accepted primary record and original XML; no date inferred from enclosure/receipt",
+        "source_id": "DCP-LETT-2136"
+      },
+      "dom_locator": "xpath://div[@id='letter']//div[contains(concat(' ',normalize-space(@class),' '),' body-content ')]//*[contains(., '[Enclosure]')]",
+      "text_anchor": "[Enclosure]",
+      "original_text": "[Enclosure] 17 I. It is wonderful what the principle of Selection by Man, that is the picking out of individuals with any desired quality, and breeding from them, and again picking out, can do. Even Breeders have been astonished at their own results. They can act on differences inappreciable to an uneducated eye. Selection has been methodically followed in Europe for only the last half century. But it has occasionally, and even in some degree methodically, been followed in the most ancient times. There must have been, also, a kind of unconscious selection from the most ancient times,—namely in the preservation of the individual animals (without any thought of their offspring) most useful to each race of man in his particular circumstances. The “rogueing” as nurserymen call the destroying of varieties, which depart from their type, is a kind of selection. I am convinced that intentional and occasional selection has been the main agent in making our domestic races. But, however, this may be, its great power of modification has been indisputably shown in late times. Selection acts only by the accumulation of very slight or greater variations, caused by external conditions, or by the mere fact that in generation the child is not absolutely similar to its parent. Man by this power of accumulating variations adapts living beings to his wants,—he may be said to make the wool of one sheep good for carpets and another for cloth &c.— II. Now suppose there was a being, who did not judge by mere external appearance, but could study the whole internal organization— who never was capricious,—who should go on selecting for one end during millions of generations, who will say what he might not effect! In nature we have some slight variations, occasionally in all parts: and I think it can be shown that a change in the conditions of existence is the main cause of the child not exactly resembling its parents; and in nature geology shows us what changes have taken place, and are taking place. We have almost unlimited time: no one but a practical geologist can fully appreciate this: think of the Glacial period, during the whole of which the same species of shells at least have existed; there must have been during this period millions on millions of generations. III. I think it can be shown that there is such an unerring power at work, or Natural Selection (the title of my Book), which selects exclusively for the good of each organic being. The elder De Candolle, W. Herbert, and Lyell have written strongly on the struggle for life; but even they have not written strongly enough. Reflect that every being (even the Elephant) breeds at such a rate, that in a few years, or at most a few centuries or thousands of years, the surface of the earth would not hold the progeny of any one species. I have found it hard constantly to bear in mind that the increase of every single species is checked during some part of its life, or during some shortly recurrent generation. Only a few of those annually born can live to propagate their kind. What a trifling difference must often determine which shall survive and which perish— IV. Now take the case of a country undergoing some change; this will tend to cause some of its inhabitants to vary slightly; not but what I believe most beings vary at all times enough for selection to act on. Some of its inhabitants will be exterminated, and the remainder will be exposed to the mutual action of a different set of inhabitants, which I believe to be more important to the life of each being than mere climate. Considering the infinitely various ways, beings have to obtain food by struggling with other beings, to escape danger at various times of life, to have their eggs or seeds disseminated &c. &c, I cannot doubt that during millions of generations individuals of a species will be born with some slight variation profitable to some part of its economy; such will have a better chance of surviving, propagating, this variation, which again will be slowly increased by the accumulative action of Natural selection; and the variety thus formed will either coexist with, or more commonly will exterminate its parent form. An organic being like the woodpecker or misletoe may thus come to be adapted to a score of contingencies: natural selection, accumulating those slight variations in all parts of its structure which are in any way useful to it, during any part of its life. V. Multiform difficulties will occur to everyone on this theory. Most can I think be satisfactorily answered.— “Natura non facit saltum” answers some of the most obvious.— The slowness of the change, and only a very few undergoing change at any one time answers others. The extreme imperfections of our geological records answers others.— VI. One other principle, which may be called the principle of divergence plays, I believe, an important part in the origin of species. The same spot will support more life if occupied by very diverse forms: we see this in the many generic forms in a square yard of turf (I have counted 20 species belonging to 18 genera),—or in the plants and insects, on any little uniform islet, belonging almost to as many genera and families as to species.— We can understand this with the higher, animals whose habits we best understand. We know that it has been experimentally shown that a plot of land will yield a greater weight, if cropped with several species of grasses than with 2 or 3 species. Now every single organic being, by propagating so rapidly, may be said to be striving its utmost to increase in numbers. So it will be with the offspring of any species after it has broken into varieties or sub-species or true species. And it follows, I think, from the foregoing facts that the varying offspring of each species will try (only few will succeed) to seize on as many and as diverse places in the economy of nature, as possible. Each new variety or species, when formed will generally take the places of and so exterminate its less well-fitted parent. This, I believe, to be the origin of the classification or arrangement of all organic beings at all times. These always seem to branch and sub-branch like a tree from a common trunk; the flourishing twigs destroying the less vigorous,—the dead and lost branches rudely representing extinct genera and families. This sketch is most imperfect; but in so short a space I cannot make it better. Your imagination must fill up many wide blanks.— Without some reflexion it will appear all rubbish; perhaps it will appear so after reflexion.— | C. D. This little abstract touches only on the accumulative power of natural selection, which I look at as by far the most important element in the production of new forms. The laws governing the incipient or primordial variation (unimportant except as to groundwork for selection to act on, in which respect it is all important) I shall discuss under several heads, but I can come, as you may well believe, only to very partial & imperfect conclusions.— ",
+      "anchor_quote": "I. It is wonderful what the principle of Selection by Man",
+      "proposed_rendered_blocks": [
+        {
+          "block_id": "DCP-LETT-2136-authorial_enclosure",
+          "text_policy": "Render original authorial text in this bounded block; preserve spelling, uncertainty, numbering and MathML; exclude headers, footnotes, annotations and editorial prose.",
+          "source_scope": "Darwin-composed six-part abstract copied by Norman, with Darwin corrections/qualification; this is the 1857 abstract, not the later 1858 publication."
+        }
+      ],
+      "holds": [
+        "Do not substitute 1858 publication or later editorial abstract for this 1857 enclosure."
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-889",
+      "source_pin": {
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-889.html",
+        "html_sha256": "8aa1a6b7c1e213e6c51db8171b7a6c33e0d69ed94bb634f9015a23b936c15a8a",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-889.xml",
+        "xml_sha256": "8aa6019c930de8532df46fce5118e07500a05d5acc5333250e70542aa36399d8",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-889.xml"
+      },
+      "layer": "authorial_enclosure",
+      "author_date_basis": {
+        "author": "Charles Darwin",
+        "date_source": "accepted primary record and original XML; no date inferred from enclosure/receipt",
+        "source_id": "DCP-LETT-889"
+      },
+      "dom_locator": "xpath://div[@id='letter']//div[contains(concat(' ',normalize-space(@class),' '),' body-content ')]//*[contains(., '[Enclosure]')]",
+      "text_anchor": "[Enclosure]",
+      "original_text": "[Enclosure] Galapagos Was my collection your main material? roughly what percentage is my collection to that of others Whose other collections have you described that I may mention their names, if they form any considerable proportion. I think I collected few at Albemarle Isl. & those certainly rather near the coast. I see 17 in all the islands, except Charles, the extra-Galapageian plants are less than half of the total number; but in Charles Is d there are 39 extra-Galapageian & only 29 Galapageian: now Charles Is d . alone has been settled & cultivated & I collected in the upper, cultivated region: can you remember, 18 whether a good many of the plants here had a tropical weedy character: 19 when giving your results, I sh d like to put in a caution about the anomalous result in this one island. 20 Owing to your having struck out one of two brackets, I cannot be sure whether there are 185 flowering plants 21 and 42 22 cryptogamic plants: or does the 185 include the cryptogamic.? Can you say how many species of Ferns there are; are they not remarkable? 23 Is Icaleria 24 the name of an arborescent Composit: if so, I presume it is a tree which I noticed in the upper damp region.— I collected leaves & unripe fruit of a tree, on which the tortoise feeds: do you chance to know the genus: it is quite unimportant. I presume there must be a good many cases, where a genus (whether confined to the Galapagos or not) has different peculiar Galapageian species on different islands:—for if it be not so, the genera must be wonderfully different on the different islands.— If the collection had been put into your hands: sh d you have known that it came from the American quarter: w d not Opuntia have told this? would other genera have told the same story? ",
+      "anchor_quote": "Galapagos Was my collection your main material?",
+      "proposed_rendered_blocks": [
+        {
+          "block_id": "DCP-LETT-889-authorial_enclosure",
+          "text_policy": "Render original authorial text in this bounded block; preserve spelling, uncertainty, numbering and MathML; exclude headers, footnotes, annotations and editorial prose.",
+          "source_scope": "Original Darwin Galapagos question enclosure only. Exclude later Hooker answers and annotations; preserve the enclosure as a separate authorial input."
+        }
+      ],
+      "holds": [
+        "Exclude later Hooker answers and all editorial/annotation layers."
+      ]
+    }
+  ],
+  "counts": {
+    "sources": 12,
+    "anchor_quotes_found": 12,
+    "rows_with_holds": 4
+  },
+  "validation": {
+    "source_hashes_recomputed": true,
+    "exact_anchor_check_against_flattened_source": true,
+    "accepted_files_modified": false,
+    "root_renderer_modified": false,
+    "darwin_0_modified": false,
+    "export_performed": false
+  },
+  "global_holds": [
+    "A candidate block is not an accepted export decision.",
+    "Enclosure prose that contains quoted or reported third-party voices remains attributed within the block or must be narrowed by root; no voice laundering.",
+    "Paragraph/codepoint-level rendering should use the retained corpus projection/DOM, not the normalized extraction stored here."
+  ]
+}

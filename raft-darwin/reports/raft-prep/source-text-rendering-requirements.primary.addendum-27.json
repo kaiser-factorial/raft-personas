@@ -1,0 +1,683 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Accepted 1856–1857 batches 01–02 source-text rendering requirements only; candidate for root review, no converter/transcript/export/training changes.",
+  "primary_provenance": {
+    "batches": {
+      "reports/1856-1857/review/parent-reading/batch-01.json": {
+        "path": "reports/1856-1857/review/parent-reading/batch-01.json",
+        "sha256": "f26e821c6b1996e6c888221675c036ca11dd69cbdf344bd90eee2da7a9a5d120"
+      },
+      "reports/1856-1857/review/parent-decisions/batch-01.json": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-01.json",
+        "sha256": "8deffef79c1219d88ba6d228599fe9387f7cc7fde435dfecba6658fe4342eeea"
+      },
+      "reports/1856-1857/review/parent-reading/batch-02.json": {
+        "path": "reports/1856-1857/review/parent-reading/batch-02.json",
+        "sha256": "30a3d752391a992285205bb7db75623fa3ec0bdf600152c8111880c5eb137d0b"
+      },
+      "reports/1856-1857/review/parent-decisions/batch-02.json": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-02.json",
+        "sha256": "a84869200890a4b86985bebcd7bdc90162761ec8c7bd54f23054f30f1eed5e2c"
+      }
+    },
+    "ledgers": {
+      "data/annotations/periods/1856-1857/batch-01.json": "3fcd50b8799058d446d163e3cf16eda5b7b7fbb62637a90ec2f20a5dad9de8d7",
+      "data/annotations/periods/1856-1857/batch-02.json": "0a63b5d3c6de5d39eb3dcf03a25bd56665a6316051747ab8e221b425df8472de"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1851"
+      ],
+      "case": "MathML nine-and-one-half distance",
+      "requirement": "Use source MathML to render the distance as 9½ or 10 miles, preserving the alternative 10. Flat 912 is extraction damage, not 912 miles. Preserve the source and correction provenance.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1851",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1851.html",
+          "source_html_sha256": "f3bea85287b3b2b98155609c111be74cd0eee2a0520c622feb741b3509075980",
+          "xml_sha256": "577c5c2da85525ba577f6925a9e92eb1ba8b01bf9cfabe92a7ec96680f1fe743",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1851.xml",
+          "verified_sent_date_constraints": [
+            {
+              "text": "8 Apr [1856]",
+              "attributes": {
+                "when": "1856-04-08"
+              },
+              "lower": "1856-04-08",
+              "upper": "1856-04-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-04-08\">8 Apr [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1851",
+          "body_paragraph": 6,
+          "quote": "viz 912 or 10 miles.",
+          "source_sha256": "f3bea85287b3b2b98155609c111be74cd0eee2a0520c622feb741b3509075980",
+          "char_start": 269,
+          "char_end": 289,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]"
+        }
+      ],
+      "verified_mathml": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]/math/mfrac",
+        "numerator": "1",
+        "denominator": "2",
+        "source_fragment": "<mfrac><mn>1</mn><mn>2</mn></mfrac>",
+        "interpretation": "9½ or 10 miles"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1869"
+      ],
+      "case": "Damaged diag/ramme list layout",
+      "requirement": "Keep the Hooker memorandum’s diag/ramme list damage visible. It is a source-layout/extraction hold, not permission to silently repair species lists or merge later Darwin annotations with Hooker’s dated blocks.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1869",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1869.html",
+          "source_html_sha256": "1134af8e8de1aae3781d831d5c1cb47146b301a0b2fc83ba4f0979ef1c8f0c9e",
+          "xml_sha256": "3fe807d1e214134485a06366960e727dc36fe191e78056f4e90fb833cb044eae",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1869.xml",
+          "verified_sent_date_constraints": [
+            {
+              "text": "7 May 1856",
+              "attributes": {
+                "when": "1856-05-07"
+              },
+              "lower": "1856-05-07",
+              "upper": "1856-05-07",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-05-07\">7 May 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1869",
+          "body_paragraph": 12,
+          "quote": "I will lend you the Kew copy for a fortnight or month if you would care for it diag in Russia",
+          "source_sha256": "1134af8e8de1aae3781d831d5c1cb47146b301a0b2fc83ba4f0979ef1c8f0c9e",
+          "char_start": 183,
+          "char_end": 276,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[13]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1911"
+      ],
+      "case": "mutually exclusive dates and Darwin-added ending",
+      "requirement": "June 26 OR July 3, 1856 are mutually exclusive XML alternatives. P6 terminal words absolutely identical with S. European local plants are in Darwin’s hand and only presumed copied from missing Hooker text; retain that uncertainty and exclude them from unqualified Hooker-autograph prompt scope. Keep undated annotations separate.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1911",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1911.html",
+          "source_html_sha256": "5fc0723016d6250f2d1a85fc94b3f54e5e1860ca0ef4c2110af4d8d05db40ac6",
+          "xml_sha256": "059d36c4b98a8411bcb0c68607000983a456f720aaf1b5beed4283ab9fb04842",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1911.xml",
+          "verified_sent_date_constraints": [
+            {
+              "text": "26 June 1856",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date1",
+                "when": "1856-06-26",
+                "exclude": "#date2"
+              },
+              "lower": "1856-06-26",
+              "upper": "1856-06-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date1\" when=\"1856-06-26\" exclude=\"#date2\">26 June 1856</ns0:date>"
+            },
+            {
+              "text": "3 July 1856",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date2",
+                "when": "1856-07-03",
+                "exclude": "#date1"
+              },
+              "lower": "1856-07-03",
+              "upper": "1856-07-03",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date2\" when=\"1856-07-03\" exclude=\"#date1\">3 July 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1911",
+          "body_paragraph": 6,
+          "quote": "absolutely identical with S. European local plants",
+          "source_sha256": "5fc0723016d6250f2d1a85fc94b3f54e5e1860ca0ef4c2110af4d8d05db40ac6",
+          "char_start": 479,
+          "char_end": 529,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        }
+      ],
+      "verified_handwriting_boundary": {
+        "body_paragraph": 6,
+        "char_start": 479,
+        "char_end": 529,
+        "text": "absolutely identical with S. European local plants",
+        "hand": "Charles Darwin",
+        "source_author_status": "Presumably copied from missing Hooker ending; not proven original wording or dated copy"
+      },
+      "verified_apparatus": [
+        {
+          "letter_id": "DCP-LETT-1911",
+          "literal_text": "were added to the bottom of the page by CD and were presumably copied from the missing part of Hooker’s letter.",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[14]/div[2]",
+          "source_sha256": "5fc0723016d6250f2d1a85fc94b3f54e5e1860ca0ef4c2110af4d8d05db40ac6"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1918",
+        "DCP-LETT-1919"
+      ],
+      "case": "morning/evening distinction and swapped summaries",
+      "requirement": "1918 is the morning July 5 note and 1919 the evening note, both Charles Darwin voice. Their editorial summaries are swapped relative to the bodies. Preserve raw pages unchanged, record the corrected association in derived metadata, and never use either editorial summary as letter text.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1918",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1918.html",
+          "source_html_sha256": "6dab36382785a889b554b3ddd251de57a27906b5c94203fd26ecef2f7a7f5b82",
+          "xml_sha256": "1a372bf31ea0371a72b628a9df5c142caeace4cdce8a6e9543caf16c07fdde1d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1918.xml",
+          "verified_sent_date_constraints": [
+            {
+              "text": "5 [July 1856]",
+              "attributes": {
+                "when": "1856-07-05"
+              },
+              "lower": "1856-07-05",
+              "upper": "1856-07-05",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-07-05\">5 [July 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1919",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1919.html",
+          "source_html_sha256": "e855495ed442bfdd83c90851d13e09174cd1ca15e102c4698b7de68f846e4511",
+          "xml_sha256": "963534e83cdcf5123756a0a8ca60ff188bd22f66552d134c9311538bb8b6732b",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1919.xml",
+          "verified_sent_date_constraints": [
+            {
+              "text": "5 July [1856]",
+              "attributes": {
+                "when": "1856-07-05"
+              },
+              "lower": "1856-07-05",
+              "upper": "1856-07-05",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-07-05\">5 July [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1918",
+          "body_paragraph": 1,
+          "quote": "I want to catch post",
+          "source_sha256": "6dab36382785a889b554b3ddd251de57a27906b5c94203fd26ecef2f7a7f5b82",
+          "char_start": 53,
+          "char_end": 73,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1919",
+          "body_paragraph": 1,
+          "quote": "I wrote this morning in tribulation about Tristan d’Acunha.",
+          "source_sha256": "e855495ed442bfdd83c90851d13e09174cd1ca15e102c4698b7de68f846e4511",
+          "char_start": 0,
+          "char_end": 59,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1915A"
+      ],
+      "case": "Lyell journal extract, fraction, diagrams, and unsent postscript",
+      "requirement": "1915A is a contemporary Lyell journal extract, not the missing complete dispatched letter. Preserve one-half-million MathML, source 12,000-foot versus apparatus 1,200-foot discrepancy and all three actual diagrams in research provenance. Knowledge activation is limited to supported received content; exclude expressly unsent July 2 postscript from Darwin prompts and knowledge. Diagram June 1 dating differs from July 1 extract heading; do not silently harmonize.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1915A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1915A.html",
+          "source_html_sha256": "c68a7e09967cfe3752edb6504cacacdca7c8274cece7a8f6fbfad43162838739",
+          "xml_sha256": "245dc0d3db43c91c1f0aea9c1a775743b4dde4fe537f2e497da8f51a503b0c16",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1915A.xml",
+          "verified_sent_date_constraints": [
+            {
+              "text": "[1 July 1856]",
+              "attributes": {
+                "when": "1856-07-01"
+              },
+              "lower": "1856-07-01",
+              "upper": "1856-07-01",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-07-01\">[1 July 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1915A",
+          "body_paragraph": 2,
+          "quote": "Extract of a Letter from C Lyell to C Darwin July 1. 1856—",
+          "source_sha256": "c68a7e09967cfe3752edb6504cacacdca7c8274cece7a8f6fbfad43162838739",
+          "char_start": 0,
+          "char_end": 58,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1915A",
+          "body_paragraph": 9,
+          "quote": "not occupying possibly above 12 a million of years.",
+          "source_sha256": "c68a7e09967cfe3752edb6504cacacdca7c8274cece7a8f6fbfad43162838739",
+          "char_start": 215,
+          "char_end": 266,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]"
+        }
+      ],
+      "verified_mathml": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]/math/mfrac",
+        "numerator": "1",
+        "denominator": "2",
+        "source_fragment": "<mfrac><mn>1</mn><mn>2</mn></mfrac>",
+        "interpretation": "one-half million years"
+      },
+      "verified_apparatus": [
+        {
+          "letter_id": "DCP-LETT-1915A",
+          "literal_text": "P.S. not sent to Darwin",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[8]/div[2]/span",
+          "source_sha256": "c68a7e09967cfe3752edb6504cacacdca7c8274cece7a8f6fbfad43162838739"
+        }
+      ],
+      "primary_verified_visuals": [
+        {
+          "letter_id": "DCP-LETT-1915A",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/div/img",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1915A.html",
+          "source_html_sha256": "c68a7e09967cfe3752edb6504cacacdca7c8274cece7a8f6fbfad43162838739",
+          "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1915A_1.jpg",
+          "alt": "diagram",
+          "figure_path": "data/raw/dcp/1856-1857/figures/DCP-LETT-1915A-1.jpg",
+          "retrieved_at": "2026-09-17T08:59:48.918248+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1915A_1.jpg",
+          "bytes": 96845,
+          "sha256": "0c30dbb3ecdb045ced3fad52a526a426b634fb7e9d6a7521d16573757dcb0a67",
+          "visual_observation": "Two schematic panels: A/B/C terrain with F volcano, B–D and G relative sea levels and deep K–L baseline; lower H mound, p/q marine surfaces, curved m/n/o beneath m-prime/o-prime. No measured scale; illustrates regional subsidence and local volcanic uplift."
+        },
+        {
+          "letter_id": "DCP-LETT-1915A",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[10]/span/img",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1915A.html",
+          "source_html_sha256": "c68a7e09967cfe3752edb6504cacacdca7c8274cece7a8f6fbfad43162838739",
+          "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1915A_2.jpg",
+          "alt": "diagram",
+          "figure_path": "data/raw/dcp/1856-1857/figures/DCP-LETT-1915A-2.jpg",
+          "retrieved_at": "2026-09-17T08:59:49.733634+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1915A_2.jpg",
+          "bytes": 52665,
+          "sha256": "c3202ad1a96880ed318753f6537b144dee3b069b95a918dd3d77410212411b4e",
+          "visual_observation": "H is a low central swell with q at left and p at right, stippled marine beds at the flanks above baselines; this is the hypothetical littoral-deposit comparison, not quantitative data."
+        },
+        {
+          "letter_id": "DCP-LETT-1915A",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]/span/img",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1915A.html",
+          "source_html_sha256": "c68a7e09967cfe3752edb6504cacacdca7c8274cece7a8f6fbfad43162838739",
+          "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1915A_3.jpg",
+          "alt": "diagram",
+          "figure_path": "data/raw/dcp/1856-1857/figures/DCP-LETT-1915A-3.jpg",
+          "retrieved_at": "2026-09-17T08:59:50.397630+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1915A_3.jpg",
+          "bytes": 50685,
+          "sha256": "381a747a61d310979e29b61d01f69b17219864e5b6620790d70d977cf456f4b7",
+          "visual_observation": "Grand Canary labelled section: inclined marine beds overlap older subaerial rocks, rising terrain to the right; no numerical dimensions. Supports relative stratigraphic geometry only."
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1963"
+      ],
+      "case": "address layout and manuscript status",
+      "requirement": "Preserve original address-block evidence and unresolved diag/ramme extraction in research; do not insert those damaged layout tokens into clean conversation prose. Acton/Post Office/Bromley is the water-pod route. Pods and manuscript are requested/promised here, with later delivery evidence kept separately dated.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1963",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1963.html",
+          "source_html_sha256": "b968b30639d58e386170295dbbc876e81d1a2c3456d991907974e7bb2822b813",
+          "xml_sha256": "a62a18b6975da5c99e3a6e4d2c8ffb1b47314c2057f013a92ad4e98316698fe6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1963.xml",
+          "verified_sent_date_constraints": [
+            {
+              "text": "28 Sept [1856]",
+              "attributes": {
+                "when": "1856-09-28"
+              },
+              "lower": "1856-09-28",
+              "upper": "1856-09-28",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-09-28\">28 Sept [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1963",
+          "body_paragraph": 3,
+          "quote": "If you can send me any, please send them any day, addressed diag C. Darwin",
+          "source_sha256": "b968b30639d58e386170295dbbc876e81d1a2c3456d991907974e7bb2822b813",
+          "char_start": 0,
+          "char_end": 74,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1963",
+          "body_paragraph": 9,
+          "quote": "In the course of some weeks",
+          "source_sha256": "b968b30639d58e386170295dbbc876e81d1a2c3456d991907974e7bb2822b813",
+          "char_start": 0,
+          "char_end": 27,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1969"
+      ],
+      "case": "distinct seed route and non-receipt",
+      "requirement": "Keep the seed request’s George Snow/Nag’s Head/Borough routing distinct from the water-pod route. Render seeds as requested, not received; the weak Cytisus evidence is Darwin’s qualified assessment, not a general denial of species change.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1969",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1969.html",
+          "source_html_sha256": "58db102961fe9894946b95aced2ca17d795d0e438dc7010b7bd1a82c37c6ca98",
+          "xml_sha256": "4668985be002c79da1ebb0b76f7d3bb000f198f98fc2788821e4535613e69fd2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1969.xml",
+          "verified_sent_date_constraints": [
+            {
+              "text": "5 Oct [1856]",
+              "attributes": {
+                "when": "1856-10-05"
+              },
+              "lower": "1856-10-05",
+              "upper": "1856-10-05",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-10-05\">5 Oct [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1969",
+          "body_paragraph": 4,
+          "quote": "Borough.ramme This is safer, course, though not prompt enough for water pods.",
+          "source_sha256": "58db102961fe9894946b95aced2ca17d795d0e438dc7010b7bd1a82c37c6ca98",
+          "char_start": 0,
+          "char_end": 77,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1965"
+      ],
+      "case": "covering note and supplied delivery date",
+      "requirement": "Retain 16 October 1856 as a supplied date with its delivery uncertainty: likely hand delivery is editorial reconstruction and posting remains possible. Separate the covering note’s requests for botanical accuracy from the manuscript fragment/back-page notes and later Hooker reading.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1965",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1965.html",
+          "source_html_sha256": "37b79692092ec985c064da50082cdf28f085e79afaea04e2abc05ef21eecf11a",
+          "xml_sha256": "f185176215feae6ffdd574d8673ed970bf03151ad972034799407c3bd4675c98",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1965.xml",
+          "verified_sent_date_constraints": [
+            {
+              "text": "[16 Oct 1856]",
+              "attributes": {
+                "when": "1856-10-16"
+              },
+              "lower": "1856-10-16",
+              "upper": "1856-10-16",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-10-16\">[16 Oct 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1965",
+          "body_paragraph": 4,
+          "quote": "It is only fragment of chapter",
+          "source_sha256": "37b79692092ec985c064da50082cdf28f085e79afaea04e2abc05ef21eecf11a",
+          "char_start": 0,
+          "char_end": 30,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        }
+      ],
+      "verified_apparatus": [
+        {
+          "letter_id": "DCP-LETT-1965",
+          "literal_text": "Although it is possible that CD sent the manuscript by post",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[2]/div[2]",
+          "source_sha256": "37b79692092ec985c064da50082cdf28f085e79afaea04e2abc05ef21eecf11a"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1938",
+        "DCP-LETT-1940",
+        "DCP-LETT-1971"
+      ],
+      "case": "Different depths of review reading",
+      "requirement": "Review receipt on August 5 is not full reading. August 7 explicitly says half read; October 9 retrospectively says read long ago, without an exact completion day. Preserve those states when considering dated knowledge. The full review is not a letter body or independently admitted source here.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1938",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1938.html",
+          "source_html_sha256": "c684e4d6b8257ce5ec6411bdc8c01278ad44252ddfc5dcf7cd1ae0e154d291ec",
+          "xml_sha256": "dac46028f8f6614fdfce32c3dfc61daad0276fbcdcae90c181ba3a7c32bcd2be",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1938.xml",
+          "verified_sent_date_constraints": [
+            {
+              "text": "5 Aug [1856]",
+              "attributes": {
+                "when": "1856-08-05"
+              },
+              "lower": "1856-08-05",
+              "upper": "1856-08-05",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-08-05\">5 Aug [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1940",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1940.html",
+          "source_html_sha256": "9b7801e7ed70f2b8fdd8249110c9aae3f65d00b52db589eb866208f1636b49e3",
+          "xml_sha256": "b8f21d6f052043cecd79738406df4d5b19f02adfb5cf68aa0b2ae79885c74bc1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1940.xml",
+          "verified_sent_date_constraints": [
+            {
+              "text": "7 Aug [1856]",
+              "attributes": {
+                "when": "1856-08-07"
+              },
+              "lower": "1856-08-07",
+              "upper": "1856-08-07",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-08-07\">7 Aug [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1971",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1971.html",
+          "source_html_sha256": "4cd83ae7d49d95479b5af15582b9122936ce3a69ca8af59f4b13ffa4b356a35d",
+          "xml_sha256": "b849413bc4f6ff43f17c511b23d0b8178e2432cc7a7b825530bdc169c5f280f0",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1971.xml",
+          "verified_sent_date_constraints": [
+            {
+              "text": "9 Oct [1856]",
+              "attributes": {
+                "when": "1856-10-09"
+              },
+              "lower": "1856-10-09",
+              "upper": "1856-10-09",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-10-09\">9 Oct [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1938",
+          "body_paragraph": 1,
+          "quote": "Many thanks for your Review, which I shall read with greatest interest.",
+          "source_sha256": "c684e4d6b8257ce5ec6411bdc8c01278ad44252ddfc5dcf7cd1ae0e154d291ec",
+          "char_start": 0,
+          "char_end": 71,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1940",
+          "body_paragraph": 5,
+          "quote": "I have read half your Review",
+          "source_sha256": "9b7801e7ed70f2b8fdd8249110c9aae3f65d00b52db589eb866208f1636b49e3",
+          "char_start": 0,
+          "char_end": 28,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-1971",
+          "body_paragraph": 4,
+          "quote": "I read long ago your Review on Decandolle",
+          "source_sha256": "4cd83ae7d49d95479b5af15582b9122936ce3a69ca8af59f4b13ffa4b356a35d",
+          "char_start": 0,
+          "char_end": 41,
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "notes": "Requirements derive from full primary readings of accepted packets 01–02, with source-specific body, XML, MathML, handwriting, visual and apparatus checks. They do not implement export or change historical source text.",
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/parent-reading/batch-01.json",
+      "sha256": "f26e821c6b1996e6c888221675c036ca11dd69cbdf344bd90eee2da7a9a5d120"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-decisions/batch-01.json",
+      "sha256": "8deffef79c1219d88ba6d228599fe9387f7cc7fde435dfecba6658fe4342eeea"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-reading/batch-02.json",
+      "sha256": "30a3d752391a992285205bb7db75623fa3ec0bdf600152c8111880c5eb137d0b"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-decisions/batch-02.json",
+      "sha256": "a84869200890a4b86985bebcd7bdc90162761ec8c7bd54f23054f30f1eed5e2c"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-01.json",
+      "sha256": "3fcd50b8799058d446d163e3cf16eda5b7b7fbb62637a90ec2f20a5dad9de8d7"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-02.json",
+      "sha256": "0a63b5d3c6de5d39eb3dcf03a25bd56665a6316051747ab8e221b425df8472de"
+    },
+    {
+      "path": "reports/1856-1857/review/letters.jsonl",
+      "sha256": "d3feb27f178ebd638dd544ddb4ad84203da5d304d8c240dded25f60bb5827d94"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1851.html",
+      "sha256": "f3bea85287b3b2b98155609c111be74cd0eee2a0520c622feb741b3509075980"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1869.html",
+      "sha256": "1134af8e8de1aae3781d831d5c1cb47146b301a0b2fc83ba4f0979ef1c8f0c9e"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1911.html",
+      "sha256": "5fc0723016d6250f2d1a85fc94b3f54e5e1860ca0ef4c2110af4d8d05db40ac6"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1918.html",
+      "sha256": "6dab36382785a889b554b3ddd251de57a27906b5c94203fd26ecef2f7a7f5b82"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1919.html",
+      "sha256": "e855495ed442bfdd83c90851d13e09174cd1ca15e102c4698b7de68f846e4511"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1915A.html",
+      "sha256": "c68a7e09967cfe3752edb6504cacacdca7c8274cece7a8f6fbfad43162838739"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1963.html",
+      "sha256": "b968b30639d58e386170295dbbc876e81d1a2c3456d991907974e7bb2822b813"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1969.html",
+      "sha256": "58db102961fe9894946b95aced2ca17d795d0e438dc7010b7bd1a82c37c6ca98"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1965.html",
+      "sha256": "37b79692092ec985c064da50082cdf28f085e79afaea04e2abc05ef21eecf11a"
+    }
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-27.draft.json",
+      "sha256": "e007565a05dd965ec644b101adb9e2cd06c3bc4e24f71d08ba0f7dce5ee4cbfc"
+    }
+  ],
+  "primary_corrections": [
+    "Replaced irrelevant opening-paragraph quotes and generic locators with claim-specific exact evidence and unique source DOM paths.",
+    "Retained 9½ OR 10 miles, not a single precise distance.",
+    "Kept presumed copied Hooker ending qualified and recorded exact Darwin handwriting boundary.",
+    "Raw swapped summaries remain untouched; derived metadata may correct attribution, while neither summary becomes letter prose.",
+    "Unsent Lyell postscript remains research evidence only, excluded from Darwin knowledge and prompts.",
+    "Added explicit receipt, half-reading and retrospective full-reading distinction."
+  ],
+  "primary_verification": {
+    "exact_body_quotes_checked": 14,
+    "unique_source_html_xml_pairs_checked": 12,
+    "all_primary_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "mathml_fractions_verified": 2,
+    "handwriting_boundary_verified": true,
+    "apparatus_locators_verified": 3,
+    "actual_figures_verified": 3
+  }
+}

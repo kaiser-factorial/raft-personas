@@ -1,0 +1,768 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Additive source-fidelity, chronology and access requirements from accepted Fox batches 21–22; requirements only, no export.",
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/fox-boundaries.batch-21.luna.json",
+      "sha256": "63e92dc039306697dcd4091c36937986f0513fa8286e9087c36dc54e58850410"
+    },
+    {
+      "path": "reports/raft-prep/fox-boundaries.batch-22.luna.json",
+      "sha256": "4baf6e8a83a62895a287e5db6311dd763206aacbbffcc85133ad452a6a556f1b"
+    }
+  ],
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1522"
+      ],
+      "case": "Author-uncertain date and after-sealing postscript",
+      "requirement": "Preserve July 15? or 16? | 17th? or ? separately from July 18 postmark. Keep P1-7 before P8 postscript news; retain authorial P8 without exact day or backdating its information. Do not infer deaths were Fox children.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1522",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1522.html",
+        "source_sha256": "011d29a10e030f446d902eb0dd571a85cfc482c44d019b947459ab5fed3e40a7",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1522.xml",
+        "xml_sha256": "a60aae5bab62f0742449dbdf7cab1f1bbbdcbfb8c932dfb3c5a549efec5c4f51",
+        "locators": [
+          "header/dateline",
+          "P1-7",
+          "P8 separate-sheet postscript",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]"
+        ],
+        "verified_dom_locators": [
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[1]/p[2]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1522",
+          "body_paragraph": 8,
+          "quote": "I had not sealed up this letter an hour, before I saw with the utmost concern & astonishment the deaths in your house",
+          "source_sha256": "011d29a10e030f446d902eb0dd571a85cfc482c44d019b947459ab5fed3e40a7"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-21",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-21.json",
+        "reading_sha256": "ca12431950bfb2c1bb2c98cbb4649b71b11fa66ccc7ec177af19e212eb5af2de",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-21.json",
+        "decision_sha256": "990d2a962decd38d0c378621f7b25c7335d8490b2de39a25537a1cc4b55acd87",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-21.json",
+        "ledger_sha256": "043e7a241e053a498d1fcc8639b44466baf72af0403de84b744821e787a326d1",
+        "accepted_note": "Catalogue/XML assigns July 17, 1853, but dateline is July 15? or 16? | 17th? or ?; July 18 postmark is editorial aid. P8 follows sealing and introduces newly seen deaths.",
+        "accepted_decision": "dated_grounding_unpaired_exact_date_hold; separate postscript boundary.",
+        "ledger_requirement": "Retain exact-date hold and postscript knowledge boundary."
+      },
+      "primary_dom_evidence": [
+        {
+          "letter_id": "DCP-LETT-1522",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[1]/p[2]",
+          "raw_html": "<p class=\"opener_date\">July 15? or 16? | 17<sup>th</sup>? or ?</p>",
+          "source_sha256": "011d29a10e030f446d902eb0dd571a85cfc482c44d019b947459ab5fed3e40a7"
+        },
+        {
+          "letter_id": "DCP-LETT-1522",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]",
+          "raw_html": "<p>P.S. I had not sealed up this letter an hour, before I saw with the utmost concern &amp; astonishment the deaths in your house:<sup id=\"back-mark-Lfoot.f12\" class=\"footnote\" data-target=\"#Lfoot.f12\">12</sup> I most deeply hope that your own children have escaped this most fearful illness. I did doubt about sending off this letter till knowing how your own children were; but it need not be read.<sup id=\"back-mark-Lfoot.f13\" class=\"footnote\" data-target=\"#Lfoot.f13\">13</sup> Do pray sometime tell me how far you have escaped. And I fear your wife must just have been confined.—<sup id=\"back-mark-Lfoot.f14\" class=\"footnote\" data-target=\"#Lfoot.f14\">14</sup></p> \n                ",
+          "source_sha256": "011d29a10e030f446d902eb0dd571a85cfc482c44d019b947459ab5fed3e40a7"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1526"
+      ],
+      "case": "Third-party forwarded letter and same-day death boundary",
+      "requirement": "Preserve missing Fox-to-Susan letter as third-party forwarded material, with no invented Darwin-addressed prompt. Darwin still hopes the child may survive; editorial same-calendar-day death does not establish its time relative to writing or Darwin knowledge. Do not replace his dated hope with later knowledge.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1526",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1526.html",
+        "source_sha256": "fefd85b5091e029258dcee5839af8c35c3ec8a7193d3fb6ecaf190dae684aa06",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1526.xml",
+        "xml_sha256": "5b31a9de3dfab81c79adec7b1339b492b8cb098a4d8b6608b7fbe43d8ab2a061",
+        "locators": [
+          "P1 forwarded-letter acknowledgement",
+          "editorial same-day death note"
+        ],
+        "verified_dom_locators": [
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1526",
+          "body_paragraph": 1,
+          "quote": "Susan has forwarded your letter to her, here.",
+          "source_sha256": "fefd85b5091e029258dcee5839af8c35c3ec8a7193d3fb6ecaf190dae684aa06"
+        },
+        {
+          "letter_id": "DCP-LETT-1526",
+          "body_paragraph": 1,
+          "quote": "hope that your poor little girl may be spared",
+          "char_start": 271,
+          "char_end": 316,
+          "source_sha256": "fefd85b5091e029258dcee5839af8c35c3ec8a7193d3fb6ecaf190dae684aa06"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-21",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-21.json",
+        "reading_sha256": "ca12431950bfb2c1bb2c98cbb4649b71b11fa66ccc7ec177af19e212eb5af2de",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-21.json",
+        "decision_sha256": "990d2a962decd38d0c378621f7b25c7335d8490b2de39a25537a1cc4b55acd87",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-21.json",
+        "ledger_sha256": "043e7a241e053a498d1fcc8639b44466baf72af0403de84b744821e787a326d1",
+        "accepted_note": "July 29: Susan forwarded Fox letter addressed to her; Darwin acknowledges third-party communication. Apparatus records death same day, but Darwin still hopes the girl may be spared.",
+        "accepted_decision": "dated_grounding_unpaired; third-party and same-day knowledge boundaries.",
+        "ledger_requirement": "Preserve receipt/knowledge boundary and third-party authorship."
+      },
+      "primary_dom_evidence": [
+        {
+          "letter_id": "DCP-LETT-1526",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "raw_html": "<p>Susan has forwarded your letter to her, here.— What a fearful state you have been, &amp; indeed, I fear, still are in.— I hardly ever heard of anyone having passed through a worse ordeal.<sup id=\"back-mark-Lfoot.f1\" class=\"footnote\" data-target=\"#Lfoot.f1\">1</sup> I am deeply rejoiced that your health has as yet stood it. How earnestly both Emma &amp; I hope that your poor little girl may be spared.—<sup id=\"back-mark-Lfoot.f2\" class=\"footnote\" data-target=\"#Lfoot.f2\">2</sup> I write this chiefly to show that I have heard about you.</p>\n",
+          "source_sha256": "fefd85b5091e029258dcee5839af8c35c3ec8a7193d3fb6ecaf190dae684aa06"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1675"
+      ],
+      "case": "Raw diag/a/ramme fragments in numbered abstract",
+      "requirement": "Preserve the authorial query abstract and its paragraph boundary between a and chance dead Bird. Raw diag/ramme artifacts cannot be silently removed or expanded into an invented image or table. Hold reliable normalized rendering pending authoritative verification; source a is retained as ordinary text, not assumed disposable markup.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1675",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1675.html",
+        "source_sha256": "451e1b3fc46e64d5d7c5b8e3b712e51b11d4bfee06c68f115dfd6699ae2841ee",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1675.xml",
+        "xml_sha256": "23f8ed02a2d573ac8cfbe704b736e8acc3c63fcca57cba2b538ce498cd6048ac",
+        "locators": [
+          "Extracted P8 abstract introduction",
+          "Extracted P10–11 query abstract; raw DOM p[11]–p[12]"
+        ],
+        "verified_dom_locators": [
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[11]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]"
+        ],
+        "letter_image_and_table_nodes": 0
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1675",
+          "body_paragraph": 8,
+          "quote": "I have put on other side, an abstract of my queries.",
+          "char_start": 97,
+          "char_end": 149,
+          "source_sha256": "451e1b3fc46e64d5d7c5b8e3b712e51b11d4bfee06c68f115dfd6699ae2841ee"
+        },
+        {
+          "letter_id": "DCP-LETT-1675",
+          "body_paragraph": 10,
+          "quote": "diag (1) To fix yourself age of infant Poultry.",
+          "char_start": 45,
+          "char_end": 92,
+          "source_sha256": "451e1b3fc46e64d5d7c5b8e3b712e51b11d4bfee06c68f115dfd6699ae2841ee"
+        },
+        {
+          "letter_id": "DCP-LETT-1675",
+          "body_paragraph": 11,
+          "quote": "races.—ramme",
+          "char_start": 120,
+          "char_end": 132,
+          "source_sha256": "451e1b3fc46e64d5d7c5b8e3b712e51b11d4bfee06c68f115dfd6699ae2841ee"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-21",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-21.json",
+        "reading_sha256": "ca12431950bfb2c1bb2c98cbb4649b71b11fa66ccc7ec177af19e212eb5af2de",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-21.json",
+        "decision_sha256": "990d2a962decd38d0c378621f7b25c7335d8490b2de39a25537a1cc4b55acd87",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-21.json",
+        "ledger_sha256": "043e7a241e053a498d1fcc8639b44466baf72af0403de84b744821e787a326d1",
+        "accepted_note": "April 26, supplied 1855. P10-11 authorial abstract; raw HTML literal diag / a / ramme fragments and broken item (3), no image/table node.",
+        "accepted_decision": "dated_grounding_unpaired; preserve damaged query abstract, no fabricated figure/table.",
+        "ledger_requirement": "Hold normalized rendering pending authoritative verification."
+      },
+      "primary_dom_evidence": [
+        {
+          "letter_id": "DCP-LETT-1675",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[11]",
+          "raw_html": "<p>I return M<sup>r</sup> Galtons<sup id=\"back-mark-Lfoot.f6\" class=\"footnote\" data-target=\"#Lfoot.f6\">6</sup> letter with many thanks. diag (1) To fix yourself age of infant Poultry. (2) Are old Cocks more characteristic in form than old Hens? (3) Do Call Ducks breed freely with common? character of the Ducklings? a</p>\n",
+          "source_sha256": "451e1b3fc46e64d5d7c5b8e3b712e51b11d4bfee06c68f115dfd6699ae2841ee"
+        },
+        {
+          "letter_id": "DCP-LETT-1675",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]",
+          "raw_html": "<p>chance dead Bird for skeleton. (4) Chance-Dead wild Turkey (5) Any information on fertility of mongrels <span class=\"underline\">of very diverse races</span>.—ramme</p> \n                ",
+          "source_sha256": "451e1b3fc46e64d5d7c5b8e3b712e51b11d4bfee06c68f115dfd6699ae2841ee"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1698"
+      ],
+      "case": "MathML one-third bone-weight comparison",
+      "requirement": "Preserve the MathML mfrac 1/3 as a fraction and provide only a traceable derived rendering; never flatten it to 13. Keep the specimen-preparation narrative as historical source prose, not agent procedure instructions.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1698",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1698.html",
+        "source_sha256": "d2b66c8eb2552c2fdb93319b09e39cfc382197e1f0a7d5bc116e32464c28fc14",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1698.xml",
+        "xml_sha256": "4b1c4d42766b5927a82e185a67d53bbc29bfe2dfe88e13bab8dfa0689de8a5b2",
+        "locators": [
+          "P2 MathML mfrac",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]/math/mfrac"
+        ],
+        "verified_dom_locators": [
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]/math"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1698",
+          "body_paragraph": 2,
+          "quote": "all the bones together of the tame weigh 13 more than all of the wild",
+          "char_start": 491,
+          "char_end": 560,
+          "source_sha256": "d2b66c8eb2552c2fdb93319b09e39cfc382197e1f0a7d5bc116e32464c28fc14"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-22",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-22.json",
+        "reading_sha256": "ed2a27076be5b9a87dc641841bc8be45bd35295e7d8eeda87defc5a7804072be",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-22.json",
+        "decision_sha256": "9c102389ad14ee16443cf1675c72bf0798f52f9ebca5f02857ab19cc9ea33641",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-22.json",
+        "ledger_sha256": "ff84fa3787436e4bb417602b67f0c797b155dbda3bf6458bbdbf5f0116480101",
+        "accepted_note": "June 11 supplied 1855: raw MathML in P2 gives one-third greater total bone weight, not flat 13; first duckling damaged in transit and comparison delayed.",
+        "accepted_decision": "dated_grounding_unpaired; preserve MathML and do not restate preparation as instructions.",
+        "ledger_requirement": "Fraction semantics and source-prose boundary retained."
+      },
+      "primary_dom_evidence": [
+        {
+          "letter_id": "DCP-LETT-1698",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]/math",
+          "raw_html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> more than all of the wild, but the bones of the feet ",
+          "source_sha256": "d2b66c8eb2552c2fdb93319b09e39cfc382197e1f0a7d5bc116e32464c28fc14"
+        }
+      ],
+      "derived_rendering": {
+        "value": "one-third more",
+        "basis": "Raw MathML mfrac with mn children 1 and 3 in extracted P2; separate from exact flattened text quotation."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1728"
+      ],
+      "case": "MathML one-half hour with procedure boundary",
+      "requirement": "Preserve MathML mfrac 1/2 as derived one-half hour, never flat 12. Keep all specimen-preparation details as quoted historical prose only, without converting them into operational instructions.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1728",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1728.html",
+        "source_sha256": "74fed72eefce2dec394de25ba96ceeb68bf613c577230d80d326b6023f966878",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1728.xml",
+        "xml_sha256": "49a4d799f3c3566f32d2f0955459d52857f4d91d7b3686be3bda12cc7fcd7ecd",
+        "locators": [
+          "P2 MathML mfrac",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]/math/mfrac"
+        ],
+        "verified_dom_locators": [
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]/math"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1728",
+          "body_paragraph": 2,
+          "quote": "12 an hour",
+          "char_start": 529,
+          "char_end": 539,
+          "source_sha256": "74fed72eefce2dec394de25ba96ceeb68bf613c577230d80d326b6023f966878"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-22",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-22.json",
+        "reading_sha256": "ed2a27076be5b9a87dc641841bc8be45bd35295e7d8eeda87defc5a7804072be",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-22.json",
+        "decision_sha256": "9c102389ad14ee16443cf1675c72bf0798f52f9ebca5f02857ab19cc9ea33641",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-22.json",
+        "ledger_sha256": "ff84fa3787436e4bb417602b67f0c797b155dbda3bf6458bbdbf5f0116480101",
+        "accepted_note": "July 22 supplied 1855: raw P2 MathML is one-half hour, not flat twelve; specimen-preparation description is source prose.",
+        "accepted_decision": "dated_grounding_unpaired; preserve fraction and do not operationalize procedure.",
+        "ledger_requirement": "MathML and historical-procedure boundaries retained."
+      },
+      "primary_dom_evidence": [
+        {
+          "letter_id": "DCP-LETT-1728",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]/math",
+          "raw_html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> an hour immersion.—",
+          "source_sha256": "74fed72eefce2dec394de25ba96ceeb68bf613c577230d80d326b6023f966878"
+        }
+      ],
+      "derived_rendering": {
+        "value": "one-half an hour",
+        "basis": "Raw MathML mfrac with mn children 1 and 2 in extracted P2. No specimen-preparation procedure is restated in this requirement."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1745",
+        "DCP-LETT-1766"
+      ],
+      "case": "Literal diag/ramme list damage and list topology",
+      "requirement": "Preserve literal diag/ramme fragments, item order, punctuation, and broken list transitions in the authorial specimen lists. Do not infer a missing image or table, silently repair names, or flatten lists into normalized data.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1745",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1745.html",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1745.xml",
+          "xml_sha256": "4bbdc954294ae95067c2a5070924512ecc7f71a56e57f7589f071cd799f11189",
+          "locators": [
+            "P1-P7 specimen list",
+            "raw HTML XPath //p[contains(.,\"diag\")]",
+            "no image/table node"
+          ],
+          "verified_dom_locators": [
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[10]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[14]"
+          ],
+          "letter_image_and_table_nodes": 0
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1766.html",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1766.xml",
+          "xml_sha256": "37305b13f141d6df0ae5ca8aef318fc38c2d2c41a7b4d7744af4db042e546a1e",
+          "locators": [
+            "P2-P4 and P10-P18 lists",
+            "raw HTML XPath //p[contains(.,\"diag\")]",
+            "no image/table node"
+          ],
+          "verified_dom_locators": [
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[11]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[13]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[14]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[15]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[16]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[17]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[18]",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[19]"
+          ],
+          "letter_image_and_table_nodes": 0
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1766",
+          "body_paragraph": 2,
+          "quote": "diag 1. Dorking",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "body_paragraph": 1,
+          "quote": "Many thanks for the little Dorking received this morning.",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-22",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-22.json",
+        "reading_sha256": "ed2a27076be5b9a87dc641841bc8be45bd35295e7d8eeda87defc5a7804072be",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-22.json",
+        "decision_sha256": "9c102389ad14ee16443cf1675c72bf0798f52f9ebca5f02857ab19cc9ea33641",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-22.json",
+        "ledger_sha256": "ff84fa3787436e4bb417602b67f0c797b155dbda3bf6458bbdbf5f0116480101",
+        "accepted_note": "1745 August 22 and 1766 October 14: raw HTML contains diag/ramme fragments around numbered specimen lists; no image/table node. Preserve list order and damage.",
+        "accepted_decision": "dated_grounding_unpaired; no fabricated figure/table or repair.",
+        "ledger_requirement": "Raw list topology and damaged tokens remain held."
+      },
+      "primary_dom_evidence": [
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "raw_html": "<p>Many thanks for the little Dorking received this morning. You sent before a White Dorking. I sh<sup>d</sup> like to know in what respect the “<span class=\"underline\">splendaceous</span>” Dorking received this morning differs from the white, except in colour:— You once said the breeds of Dorking were considerably different. I have had from you. diag Aylesbury</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "raw_html": "<p>Call Duck.</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+          "raw_html": "<p>Wild</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+          "raw_html": "<p>White Dorking</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]",
+          "raw_html": "<p>“splendaceous” Dorking Chicken.</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]",
+          "raw_html": "<p>Cochin</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]",
+          "raw_html": "<p>Bantamramme</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[10]",
+          "raw_html": "<p>By your letter you seem to think you have sent Spanish, but I have not received such.—</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[14]",
+          "raw_html": "<p>P.S. | I can get a Spanish Chicken &amp; am truly glad to save you one murder, you best &amp; kindest of Murderers.—</p> \n                ",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "raw_html": "<p>With respect to the old Birds, please observe that I can get excellent game, so that all I want are, <span class=\"underline\">first rate</span>, <span class=\"underline\">old</span> cocks. diag 1. Dorking</p>\n",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+          "raw_html": "<p>2. Cochin</p>\n",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+          "raw_html": "<p>3. Call Duckramme especially the last.—</p>\n",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[11]",
+          "raw_html": "<p>I have now diag Fan-tails</p>\n",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]",
+          "raw_html": "<p>Pouters</p>\n",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[13]",
+          "raw_html": "<p>Runts</p>\n",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[14]",
+          "raw_html": "<p>!!! Jacobins !!!</p>\n",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[15]",
+          "raw_html": "<p>Barbs</p>\n",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[16]",
+          "raw_html": "<p>Dragons</p>\n",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[17]",
+          "raw_html": "<p>Swallows</p>\n",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[18]",
+          "raw_html": "<p>!!! Almond Tumblers !!!</p>\n",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[19]",
+          "raw_html": "<p>!!!ramme</p> \n                ",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1704",
+        "DCP-LETT-1733"
+      ],
+      "case": "Order versus receipt and extract versus full-book reading",
+      "requirement": "Represent specimen orders, promised items, physical receipts, and later intended acquisitions as distinct events. Preserve 1733’s received Wood extract separately from the whole book Darwin says he will obtain; do not infer full-book reading or uniform specimen ages from apparatus.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1704",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1704.html",
+          "source_sha256": "32d28a249b247775cc9e372186a2e47c29fd266aa17b604cef412181ae30687b",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1704.xml",
+          "xml_sha256": "add4f6577d3413bf9efe372596759c63f3ad639b3ee2194ca9dc5d3c2cc96463",
+          "locators": [
+            "Extracted P1 received duckling",
+            "Extracted P4 newly ordered pigeons"
+          ],
+          "verified_dom_locators": [
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1733",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1733.html",
+          "source_sha256": "b8357b767bd0fefdb245f34ee693fd6b8c4f5e6a6013c2ba7d3c5e4043f74e8d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1733.xml",
+          "xml_sha256": "291a7ee3feb1d3fdb831861bbdc1968b04259172bd875a52861e797eb41b135f",
+          "locators": [
+            "P1-P3 receipt and book extract",
+            "footnote age conflict"
+          ],
+          "verified_dom_locators": [
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1704",
+          "body_paragraph": 1,
+          "quote": "I have received safely the young Duckling",
+          "source_sha256": "32d28a249b247775cc9e372186a2e47c29fd266aa17b604cef412181ae30687b"
+        },
+        {
+          "letter_id": "DCP-LETT-1733",
+          "body_paragraph": 3,
+          "quote": "Thank you for extract from Wood: I shall get the Book.",
+          "source_sha256": "b8357b767bd0fefdb245f34ee693fd6b8c4f5e6a6013c2ba7d3c5e4043f74e8d"
+        },
+        {
+          "letter_id": "DCP-LETT-1704",
+          "body_paragraph": 4,
+          "quote": "I have just ordered Almond Tumblers & Runts",
+          "char_start": 0,
+          "char_end": 43,
+          "source_sha256": "32d28a249b247775cc9e372186a2e47c29fd266aa17b604cef412181ae30687b"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-22",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-22.json",
+        "reading_sha256": "ed2a27076be5b9a87dc641841bc8be45bd35295e7d8eeda87defc5a7804072be",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-22.json",
+        "decision_sha256": "9c102389ad14ee16443cf1675c72bf0798f52f9ebca5f02857ab19cc9ea33641",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-22.json",
+        "ledger_sha256": "ff84fa3787436e4bb417602b67f0c797b155dbda3bf6458bbdbf5f0116480101",
+        "accepted_note": "1704 distinguishes received duckling from ordered Almond Tumblers/Runts; 1733 distinguishes received extract from whole book to be obtained and preserves apparatus/body age conflict.",
+        "accepted_decision": "dated_grounding_unpaired; receipt, order, extract and full reading remain separate.",
+        "ledger_requirement": "No automatic acquisition or reading inference."
+      },
+      "primary_dom_evidence": [
+        {
+          "letter_id": "DCP-LETT-1704",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+          "raw_html": "<p>I have just ordered Almond Tumblers &amp; Runts, so I shall have soon a grand collection of Pigeons.—</p>\n",
+          "source_sha256": "32d28a249b247775cc9e372186a2e47c29fd266aa17b604cef412181ae30687b"
+        },
+        {
+          "letter_id": "DCP-LETT-1733",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+          "raw_html": "<p>Thank you for extract from Wood:<sup id=\"back-mark-Lfoot.f3\" class=\"footnote\" data-target=\"#Lfoot.f3\">3</sup> I shall get the Book.— I quite agree in probability of what you say about the Breeds of Dogs;<sup id=\"back-mark-Lfoot.f4\" class=\"footnote\" data-target=\"#Lfoot.f4\">4</sup> but there are many who would not, &amp; therefore I am anxious to get as many precise facts as I can about crossing, both for this object, &amp; generally for the comparison of mongrels &amp; Hybrids.</p>\n",
+          "source_sha256": "b8357b767bd0fefdb245f34ee693fd6b8c4f5e6a6013c2ba7d3c5e4043f74e8d"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1745"
+      ],
+      "case": "Spanish-chick claimed dispatch, absent receipt, and later can-get postscript",
+      "requirement": "Keep the missing Fox claim that a Spanish chick was sent distinct from Darwin’s absent receipt and the later P13 postscript saying one can be obtained. Do not render claimed dispatch as delivery or later availability as earlier knowledge; preserve the uncertain old Wilmot attribution.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1745",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1745.html",
+        "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1745.xml",
+        "xml_sha256": "4bbdc954294ae95067c2a5070924512ecc7f71a56e57f7589f071cd799f11189",
+        "locators": [
+          "Extracted P9 absent Spanish receipt",
+          "Extracted P8 inquiry before postscript",
+          "Extracted P13 can get Spanish chicken, not physically delivered",
+          "Extracted P10 uncertain Mr Wilmot old cock"
+        ],
+        "verified_dom_locators": [
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[10]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[14]"
+        ],
+        "letter_image_and_table_nodes": 0
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1745",
+          "body_paragraph": 9,
+          "quote": "you seem to think you have sent Spanish, but I have not received such.",
+          "char_start": 15,
+          "char_end": 85,
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "body_paragraph": 13,
+          "quote": "I can get a Spanish Chicken",
+          "char_start": 7,
+          "char_end": 34,
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-22",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-22.json",
+        "reading_sha256": "ed2a27076be5b9a87dc641841bc8be45bd35295e7d8eeda87defc5a7804072be",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-22.json",
+        "decision_sha256": "9c102389ad14ee16443cf1675c72bf0798f52f9ebca5f02857ab19cc9ea33641",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-22.json",
+        "ledger_sha256": "ff84fa3787436e4bb417602b67f0c797b155dbda3bf6458bbdbf5f0116480101",
+        "accepted_note": "August 22: missing Fox letter seems to claim Spanish chick sent, but Darwin has not received it; P13 says he can get one later. Old Spanish cock attribution to uncertain Wilmot remains distinct.",
+        "accepted_decision": "dated_grounding_unpaired; no receipt or backdating from later can-get postscript.",
+        "ledger_requirement": "Claimed dispatch, absent receipt, and later availability separated."
+      },
+      "primary_dom_evidence": [
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "raw_html": "<p>Many thanks for the little Dorking received this morning. You sent before a White Dorking. I sh<sup>d</sup> like to know in what respect the “<span class=\"underline\">splendaceous</span>” Dorking received this morning differs from the white, except in colour:— You once said the breeds of Dorking were considerably different. I have had from you. diag Aylesbury</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "raw_html": "<p>Call Duck.</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+          "raw_html": "<p>Wild</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+          "raw_html": "<p>White Dorking</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]",
+          "raw_html": "<p>“splendaceous” Dorking Chicken.</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]",
+          "raw_html": "<p>Cochin</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]",
+          "raw_html": "<p>Bantamramme</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[10]",
+          "raw_html": "<p>By your letter you seem to think you have sent Spanish, but I have not received such.—</p>\n",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[14]",
+          "raw_html": "<p>P.S. | I can get a Spanish Chicken &amp; am truly glad to save you one murder, you best &amp; kindest of Murderers.—</p> \n                ",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        }
+      ]
+    }
+  ],
+  "primary_corrections": [
+    {
+      "letter_id": "DCP-LETT-1675",
+      "description": "Candidate exact-quote paragraph numbers were wrong: abstract introduction is extracted P8; diag and first items P10; remainder P11. Use accepted primary and raw DOM locators."
+    },
+    {
+      "letter_id": "DCP-LETT-1698",
+      "description": "one-third greater is a modern interpretation, not an exact source quote. Replace false quotation with exact extracted P2 text and separately preserve MathML mfrac 1/3 as derivation evidence."
+    },
+    {
+      "letter_id": "DCP-LETT-1745",
+      "description": "Spanish absent-receipt statement is extracted P9, not P1, and subsequent can-get statement is P13. P1 is a different Dorking receipt."
+    },
+    {
+      "letter_id": "DCP-LETT-1526",
+      "description": "Death is editorially dated to same calendar day; its actual time relative to writing is not established. Darwin hope shows death news was not yet known, not that the death necessarily happened later."
+    },
+    {
+      "letter_id": "DCP-LETT-1704",
+      "description": "Add exact order-stage evidence at P4; received duckling in P1 alone cannot evidence pigeon orders."
+    }
+  ],
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false
+  },
+  "notes": [
+    "All accepted input and source hashes verified. Exact-quote checks run after primary corrections, and recorded raw DOM evidence independently inspected. No source original, accepted reading/decision/ledger, or provisional preparation draft was changed.",
+    "Interpretation and derived fraction renderings stay separate from authentic quotation. Historical instructions are source content, not current task commands.",
+    "Addendum 13 inherited a provenance hash for the mutable readiness navigation document. Its exact pre-addendum-link content was reconstructed by removing only the new addendum-13 link paragraph and matched the recorded hash; the other recorded inputs still match directly."
+  ]
+}

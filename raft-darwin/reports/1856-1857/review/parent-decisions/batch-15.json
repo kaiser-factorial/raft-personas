@@ -1,0 +1,210 @@
+{
+  "batch_id": "batch-15",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [
+    {
+      "incoming_id": "DCP-LETT-2144",
+      "outgoing_id": "DCP-LETT-2150",
+      "status": "accepted_direct_reply_scoped",
+      "known_by_date": "1857-10-03",
+      "actual_receipt_date": null,
+      "rationale": "Darwin thanks the unexpected answer and responds to exactly the Cuvierian descriptive versus genealogical distinction and human census analogy preserved in Huxley fragment.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2144",
+          "body_paragraph": 1,
+          "quote": "all questions of pedigree & possible modifications",
+          "char_start": 242,
+          "char_end": 292,
+          "source_sha256": "8ffb0f30ee751b5125efb80c0598b29272488eecc6a6f99691cf061bf40b9c1f"
+        },
+        {
+          "letter_id": "DCP-LETT-2144",
+          "body_paragraph": 3,
+          "quote": "Zoological classification is a Census of the animal world",
+          "char_start": 221,
+          "char_end": 278,
+          "source_sha256": "8ffb0f30ee751b5125efb80c0598b29272488eecc6a6f99691cf061bf40b9c1f"
+        },
+        {
+          "letter_id": "DCP-LETT-2150",
+          "body_paragraph": 1,
+          "quote": "I did not in the least expect an answer to my last",
+          "char_start": 58,
+          "char_end": 108,
+          "source_sha256": "e9ead505c4ab3ac0fac890abfc87c12a92b45ee16f181cd78de109242533b029"
+        },
+        {
+          "letter_id": "DCP-LETT-2150",
+          "body_paragraph": 2,
+          "quote": "It is this further element which I believe to be simply genealogical",
+          "char_start": 212,
+          "char_end": 280,
+          "source_sha256": "e9ead505c4ab3ac0fac890abfc87c12a92b45ee16f181cd78de109242533b029"
+        },
+        {
+          "letter_id": "DCP-LETT-2150",
+          "body_paragraph": 4,
+          "quote": "a genealogical one",
+          "char_start": 278,
+          "char_end": 296,
+          "source_sha256": "e9ead505c4ab3ac0fac890abfc87c12a92b45ee16f181cd78de109242533b029"
+        }
+      ],
+      "response_scope": "2150 P1–5 and P7; valediction P6 is Darwin prose. Only surviving 2144 P1–3 supplies incoming text, excluding its two undated Darwin notes. Missing first section stays missing.",
+      "response_date_policy": "October 3 reply, supplied year. Incoming is before October 3 and its identified response to September 26 supplies a relational lower bound, not an exact composition or delivery day.",
+      "training_export_ready": false
+    }
+  ],
+  "correspondent_replies": [
+    {
+      "response_id": "DCP-LETT-2144",
+      "antecedent_id": "DCP-LETT-2143",
+      "status": "accepted_correspondent_reply_scoped",
+      "rationale": "Huxley explicitly challenges the pedigree basis of classification proposed in Darwin September 26 P7, explaining descriptive morphology and census instead. Earlier section is missing but surviving debate is identified.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2143",
+          "body_paragraph": 7,
+          "quote": "genealogical",
+          "char_start": 195,
+          "char_end": 207,
+          "source_sha256": "5447ee9a600a2660a81f65392c5f54a23fbf286298b8afd41b3ab7fcb5293fc3"
+        },
+        {
+          "letter_id": "DCP-LETT-2144",
+          "body_paragraph": 3,
+          "quote": "Your pedigree business is a part of Physiology",
+          "char_start": 0,
+          "char_end": 46,
+          "source_sha256": "8ffb0f30ee751b5125efb80c0598b29272488eecc6a6f99691cf061bf40b9c1f"
+        },
+        {
+          "letter_id": "DCP-LETT-2144",
+          "body_paragraph": 1,
+          "quote": "all questions of pedigree & possible modifications",
+          "char_start": 242,
+          "char_end": 292,
+          "source_sha256": "8ffb0f30ee751b5125efb80c0598b29272488eecc6a6f99691cf061bf40b9c1f"
+        }
+      ],
+      "response_scope": "Surviving 2144 P1–3 responds to 2143 P7 only. No surviving answer to cockroach or glacier subjects; separate Darwin notes are not Huxley prose.",
+      "date_policy": "After the September 26 prompt and before October 3 reply by relationship; broad raw XML lower bound of 1809 is not an assertion of early composition.",
+      "training_export_ready": false
+    }
+  ],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-2150",
+      "target_id": "DCP-LETT-2144",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_primary_scoped",
+      "reason": "Exact classification argument matches surviving Huxley fragment; missing first section does not defeat scoped identity."
+    },
+    {
+      "source_id": "DCP-LETT-2166",
+      "target_id": "DCP-LETT-2144",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_wrong_input_topic",
+      "reason": "Acknowledged forwarded input concerns aphids and fertilisation; surviving 2144 concerns classification, with no matching aphid passage. Missing section is not license to assign the later input."
+    },
+    {
+      "source_id": "DCP-LETT-2185",
+      "target_id": "DCP-LETT-2144",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_wrong_source_identity",
+      "reason": "December letter reviews new catalogue proof sheets and expressly recalls conversation. It does not answer the September classification fragment merely because the subject overlaps."
+    }
+  ],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-2144",
+      "source_kind": "Incomplete ALS with separate Darwin notes",
+      "voice": "Huxley surviving body only; Darwin annotations separate",
+      "date_assessment": "[before 3 Oct 1857]; preserve supplied constraints and avoid exact-day invention",
+      "disposition": "incoming_with_scoped_relations",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2150",
+      "source_kind": "ALS",
+      "voice": "Darwin body; copied enclosure has separate provenance",
+      "date_assessment": "3 Oct [1857]; preserve supplied constraints and avoid exact-day invention",
+      "disposition": "scoped_darwin_reply",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2166",
+      "source_kind": "ALS",
+      "voice": "Darwin body; copied enclosure has separate provenance",
+      "date_assessment": "[before 12 Nov 1857]; preserve supplied constraints and avoid exact-day invention",
+      "disposition": "unpaired_darwin_grounding_with_date_or_enclosure_constraints",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2185",
+      "source_kind": "ALS with probably associated copied enclosure",
+      "voice": "Darwin body; copied enclosure has separate provenance",
+      "date_assessment": "16 Dec [1857]; preserve supplied constraints and avoid exact-day invention",
+      "disposition": "unpaired_darwin_grounding_with_date_or_enclosure_constraints",
+      "training_export_ready": false
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-2144",
+      "kind": "incomplete_incoming_and_separate_notes",
+      "description": "First section missing. Two associated Darwin notes cannot be inserted into Huxley incoming prose or assigned its date automatically."
+    },
+    {
+      "letter_id": "DCP-LETT-2166",
+      "kind": "date_window_and_missing_forwarded_input",
+      "description": "Moor Park November 5–12 stay and before-November-12 bound constrain the outgoing to November 5–11 by intersection. Forwarded aphid letter is missing; actual receipt day unknown."
+    },
+    {
+      "letter_id": "DCP-LETT-2185",
+      "kind": "proof_and_copy_provenance",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2185",
+          "body_paragraph": 4,
+          "quote": "arguments, which you advanced in talk with me",
+          "char_start": 38,
+          "char_end": 83,
+          "source_sha256": "b0d7b7c128fd7b60fe11905c412326828339d5b7884835967373e875cebc846a"
+        },
+        {
+          "letter_id": "DCP-LETT-2185",
+          "body_paragraph": 7,
+          "quote": "I return by the same post your pamphlet",
+          "char_start": 0,
+          "char_end": 39,
+          "source_sha256": "b0d7b7c128fd7b60fe11905c412326828339d5b7884835967373e875cebc846a"
+        }
+      ],
+      "description": "Proof reading precedes 1865 publication. Likely enclosure is a separate copy with a blank; neither catalogue prompt nor original enclosure is reconstructed."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-2144",
+      "description": "Opening portion of Huxley letter missing; do not infer its contents from separate Darwin notes beyond explicitly attributed report."
+    },
+    {
+      "letter_id": "DCP-LETT-2166",
+      "description": "Recent forwarded Huxley aphid/fertilisation letter not present."
+    },
+    {
+      "letter_id": "DCP-LETT-2185",
+      "description": "Current catalogue cover and full proof text not supplied as letter prompt; original enclosure not with letter, only probable copied comments survive."
+    }
+  ],
+  "corrections": [
+    {
+      "description": "Added reverse 2144 to 2143 classification relation; rejected two unmatched later inputs. Distinguish dated body from undated Darwin notes and conjecturally associated copy."
+    }
+  ],
+  "summary": "Two fresh sources read in full and five accepted prior readings explicitly reused with hash verification; 2144 and 2166 also reread fully. One direct Darwin output and one reverse Huxley reply accepted. No new knowledge edge."
+}

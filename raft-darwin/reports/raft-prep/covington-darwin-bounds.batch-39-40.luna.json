@@ -1,0 +1,285 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Batches 39–40 additive Covington, Darwin source-text/date/voice requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "batches": {
+      "reports/1851-1855/review/parent-reading/batch-39.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-39.json",
+        "sha256": "fcc6eb49ee0af6e467bd0fb08952e29573b47aa12cd113587c1f62fc6d69348a"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-39.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-39.json",
+        "sha256": "144cba603544255c260a959cc0fe8cb32528757625ab87fd2680752579e1d6b6"
+      },
+      "reports/1851-1855/review/parent-reading/batch-40.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-40.json",
+        "sha256": "b19c372aed6fe3a4df0172b021383260ac9428e6f7c0ee619da6e00291ebb325"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-40.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-40.json",
+        "sha256": "870d43e76dc4683c42392032b1163091881426169b2f54d161d2a97ec4829d14"
+      }
+    },
+    "ledgers": {
+      "data/annotations/periods/1851-1855/batch-39.json": "ac5c841ae88de11d03ae9eb71399d9dfb18ee1ceb60528f82a5a36c973a1f44e",
+      "data/annotations/periods/1851-1855/batch-40.json": "5611dc89cdd36e8bb4a6c529bb3a4f22cd88095e9f78cd6736ac71109097bbb7"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1477",
+        "DCP-LETT-1538",
+        "DCP-LETT-1637"
+      ],
+      "case": "Covington receipts, intervals and Sydney Mail/de Beer layers",
+      "requirement": "Preserve Covington letters as Darwin’s dated responses to approximate or explicit receipts: 1477 receives the June 1851 letter about two months earlier and notes Berrill two days earlier; 1538 records the May 25 1853 letter received October 11; 1637 records the August 8 1854 letter received about six weeks earlier. Keep Sydney Mail transcription wording and later de Beer correction or normalization layers separate, with no fabricated exact dispatch or receipt day.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1477",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1477.html",
+          "source_html_sha256": "a76ed8ddffa310019471a44cedf06439b89b34061b9fc943e8b3d5cbf71483dc",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1477.xml",
+          "xml_sha256": "a4d916ba0b29167c7d0be56a7ea399e9c8352de75cc8b5f13480c4e73f1dbc64"
+        },
+        {
+          "letter_id": "DCP-LETT-1538",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1538.html",
+          "source_html_sha256": "5369c6d0d9c1e1746b0b32ebecdd251e38f7f93d52e994d0e74c0c3273c8a2ee",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1538.xml",
+          "xml_sha256": "f73fc2ffae728745d59c87d615767ab2264d48f88e382daac18c9f21e72a42ef"
+        },
+        {
+          "letter_id": "DCP-LETT-1637",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1637.html",
+          "source_html_sha256": "2b8bab6edae7b6916e1b111c05431db90094ce6e50cea07cd4fc2b1aab86cd15",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1637.xml",
+          "xml_sha256": "dd7e48594b484955eebd699b47fafcba464df2563a09a5d2b6f1843a910e495f"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1477",
+          "body_paragraph": 1,
+          "quote": "a couple of months ago to receive your very interesting letter of June, 1851",
+          "source_sha256": "a76ed8ddffa310019471a44cedf06439b89b34061b9fc943e8b3d5cbf71483dc",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1538",
+          "body_paragraph": 1,
+          "quote": "I received your letter dated May 25",
+          "source_sha256": "5369c6d0d9c1e1746b0b32ebecdd251e38f7f93d52e994d0e74c0c3273c8a2ee",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1637",
+          "body_paragraph": 1,
+          "quote": "I was very glad to get your letter about six weeks ago, dated August 8, 1854",
+          "source_sha256": "2b8bab6edae7b6916e1b111c05431db90094ce6e50cea07cd4fc2b1aab86cd15",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1570",
+        "DCP-LETT-13787",
+        "DCP-LETT-1677",
+        "DCP-LETT-1428",
+        "DCP-LETT-1436"
+      ],
+      "case": "catalogue synopsis, discrete date alternatives, MathML and missing drawing",
+      "requirement": "Keep 1570 as a later exhibition-catalogue synopsis with no verbatim Darwin body. Preserve 13787’s 91 mutually exclusive date alternatives and missing Hooker letter without adding an exact year. In 1677 retain actual MathML 1 + 1/2-inch siphon wording separately from 1428’s flattened 12 porterage text, and preserve 1436’s absent rude tracing rather than reconstructing a drawing.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1570",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1570.html",
+          "source_html_sha256": "da8f232a3ec3c501e3fc15551fce95571a41f6a4d8989e16e145a1186066ac0e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1570.xml",
+          "xml_sha256": "3341fb469c0a2ed56a48be779e36d2106d729de1b06d0dc32343eb9eeab4ffcd"
+        },
+        {
+          "letter_id": "DCP-LETT-13787",
+          "source_path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-13787.html",
+          "source_html_sha256": "d93d5015b84ffa7bfae0f460e23382b3e52ebc91690134cd6081796005b9f429",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-13787.xml",
+          "xml_sha256": "78a6ad75657d25a13e7d8fa1c20df263b4d331cdf655c8cbe06a7d1799555893"
+        },
+        {
+          "letter_id": "DCP-LETT-1677",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1677.html",
+          "source_html_sha256": "ca75f243d14c60919c1c4c565d33e98fab73ee7e83e597ac4cc169b97dadd5e7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1677.xml",
+          "xml_sha256": "ffe687b02d40f6ff9de41536f44911192cc0c31a025f13071e0f959a92a762a7"
+        },
+        {
+          "letter_id": "DCP-LETT-1428",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1428.html",
+          "source_html_sha256": "fd1f8319bf4ec39b412f3e66fd12539163212ebcd58f740fb3984049ff828989",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1428.xml",
+          "xml_sha256": "025b1c5860c1cdb4e2d306ee61b07df8e622a5c08187aa83905c6860a5c924fa"
+        },
+        {
+          "letter_id": "DCP-LETT-1436",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1436.html",
+          "source_html_sha256": "1f74e2d21b578775f170baa586c33afa15058d5fb5aef202d6ac7f02c796c6ae",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1436.xml",
+          "xml_sha256": "851df811a00c1a68bc573d8319cc996ab265b301321c829f27a536e6624b45e2"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-13787",
+          "body_paragraph": 1,
+          "quote": "In answer to 2 or 3 letters of mine I heard only this morning from Dr. Hooker",
+          "source_sha256": "d93d5015b84ffa7bfae0f460e23382b3e52ebc91690134cd6081796005b9f429",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1677",
+          "body_paragraph": 1,
+          "quote": "I will try the siphon plan, with 112 inch pipe",
+          "source_sha256": "ca75f243d14c60919c1c4c565d33e98fab73ee7e83e597ac4cc169b97dadd5e7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1428",
+          "body_paragraph": 2,
+          "quote": "I have cut off 12 the amount of the porterage from F",
+          "source_sha256": "fd1f8319bf4ec39b412f3e66fd12539163212ebcd58f740fb3984049ff828989",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1436",
+          "body_paragraph": 1,
+          "quote": "I cannot tell you where to get a dredge",
+          "source_sha256": "1f74e2d21b578775f170baa586c33afa15058d5fb5aef202d6ac7f02c796c6ae",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-13834",
+        "DCP-LETT-1421",
+        "DCP-LETT-1395F",
+        "DCP-LETT-1431",
+        "DCP-LETT-1574"
+      ],
+      "case": "recipient and author distinctions, postscript date, book return and private source label",
+      "requirement": "Keep 13834’s uncertain Owen specimen recollection distinct from any recipient insertion elsewhere. Attribute 1421 to Emily Catherine and retain the questioned date; do not merge Catherine’s consolation with Charles’s voice. Preserve 1395F’s complete ALS and conditional return of Darwin’s books, 1431’s February 4 postscript versus June 1 receipt, and 1574’s authorial private letter label as a source label only, never as an instruction.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-13834",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-13834.html",
+          "source_html_sha256": "0ae73d8c7efd7ca3849ef66ab802066cd8c0420d69c17eb58e1809ed84ba352e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-13834.xml",
+          "xml_sha256": "b7c5b0a2b9be12af696c071301e3116d4683d1ad3c622961455a4c071e173ebe"
+        },
+        {
+          "letter_id": "DCP-LETT-1421",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1421.html",
+          "source_html_sha256": "aca74d92504f3e9cee87fbb13b5d4eeca54fd73c5aa6bb874f7e202ecb7b7467",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1421.xml",
+          "xml_sha256": "d44e17a57d55c2f7f54401faf17c4e3f007daaec7cd8b5ae51c0ca0d195f0ed4"
+        },
+        {
+          "letter_id": "DCP-LETT-1395F",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1395F.html",
+          "source_html_sha256": "9fadff153ccd74489b21118a81a6cf5c28aadc3e939dc8f21e23a33af42ad8ba",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1395F.xml",
+          "xml_sha256": "500ed0efe07280842f796f0f2a2f59f5336c131429458f69aba88698e2777b18"
+        },
+        {
+          "letter_id": "DCP-LETT-1431",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1431.html",
+          "source_html_sha256": "866da051ddd83a7e9beb332007d9d5ce9b06701599189fce258a9b4a4340e4d0",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1431.xml",
+          "xml_sha256": "e49eff7ff83802c2b12411d845ac87045549380d2ec907e116dca7d127f33d6f"
+        },
+        {
+          "letter_id": "DCP-LETT-1574",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1574.html",
+          "source_html_sha256": "f23038242f49fb1208afa927be8fa991c8583b846b005fae1dea97b9aa6dd8c0",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1574.xml",
+          "xml_sha256": "1167ed867c0cd98a3e5e62a423b91c3d08422beb7176a39dddfca51a7f2f944c"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-13834",
+          "body_paragraph": 1,
+          "quote": "which I rather think I left with you",
+          "source_sha256": "0ae73d8c7efd7ca3849ef66ab802066cd8c0420d69c17eb58e1809ed84ba352e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1421",
+          "body_paragraph": 1,
+          "quote": "God may comfort you in your great sorrow",
+          "source_sha256": "aca74d92504f3e9cee87fbb13b5d4eeca54fd73c5aa6bb874f7e202ecb7b7467",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1395F",
+          "body_paragraph": 2,
+          "quote": "Pray keep the Books, as long as ever you like",
+          "source_sha256": "9fadff153ccd74489b21118a81a6cf5c28aadc3e939dc8f21e23a33af42ad8ba",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1431",
+          "body_paragraph": 1,
+          "quote": "I received only yesterday (!) your letter with the P.S. dated February 4th",
+          "source_sha256": "866da051ddd83a7e9beb332007d9d5ce9b06701599189fce258a9b4a4340e4d0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1574",
+          "body_paragraph": 1,
+          "quote": "It may appear ridiculous or not very credible",
+          "source_sha256": "f23038242f49fb1208afa927be8fa991c8583b846b005fae1dea97b9aa6dd8c0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1801A"
+      ],
+      "case": "December 27 morning receipt versus December 28 postmark",
+      "requirement": "Preserve the authorial December 27 morning receipt of Hewson’s book and selected table inspection as distinct from the December 28 postmark. Do not use the postmark to redate composition or receipt, and do not infer complete book reading from looking at one table.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1801A",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1801A.html",
+        "source_html_sha256": "44bd26c3b104616d3f43a314decca7afe4d0c34eacdd707d6a6ac14193e02498",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1801A.xml",
+        "xml_sha256": "4c827066484b0ee9f6f7edcb3c7769a176b78ab7d716a0e4abe9cef7bbbde0e3"
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1801A",
+          "body_paragraph": 1,
+          "quote": "I have this morning received safely your most kind present of Hewson’s work",
+          "source_sha256": "44bd26c3b104616d3f43a314decca7afe4d0c34eacdd707d6a6ac14193e02498",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1801A",
+          "body_paragraph": 1,
+          "quote": "I have just looked at the Table",
+          "source_sha256": "44bd26c3b104616d3f43a314decca7afe4d0c34eacdd707d6a6ac14193e02498",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    }
+  ],
+  "validation_plan": {
+    "quote_validator": "scripts/period_review.py check_quotes",
+    "exact_source_evidence_count": 14,
+    "actual_dom_method": "Each body quote resolves to a unique preserved HTML p node with lxml getpath; catalogue synopsis material is not presented as authorial quotation.",
+    "verification_uncertainty": "1570 and 13787 retain unavailable or date-alternative boundaries; no missing prompt, fraction denominator, or later correction is synthesized."
+  }
+}

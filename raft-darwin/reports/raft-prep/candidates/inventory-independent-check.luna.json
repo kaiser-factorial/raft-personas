@@ -1,0 +1,2305 @@
+{
+  "schema_version": 1,
+  "status": "candidate_only",
+  "scope": "Independent mechanical check of the current root-fixed cumulative RAFT inventory; direct relationship rows and accepted primary ledgers only.",
+  "method": "Built inventory in memory with scripts/raft_export_inventory.py; compared direct rows to accepted primary direct_reply_pairs, recursively checked multi-ID fields and scope/date keys, and inspected legacy graph section rows. No inventory or script writes.",
+  "expected_root_snapshot": {
+    "direct_edges": 221,
+    "unique_darwin_responses": 205
+  },
+  "observed": {
+    "direct_edges": 221,
+    "unique_darwin_responses": 205,
+    "relationship_records_total": 742,
+    "direct_by_source_family": {
+      "1828-1836 legacy": 6,
+      "1837-1843 graph": 24,
+      "1844-1846": 46,
+      "1847-1850": 13,
+      "1851-1855": 27,
+      "1856-1857": 48,
+      "1858-1859": 35,
+      "Beagle": 19,
+      "reconciliation": 3
+    }
+  },
+  "checks": {
+    "accepted_direct_pair_records_scanned": 145,
+    "multi_id_arrays_found": 0,
+    "scope_fields_missing_in_accepted_records": null,
+    "response_date_constraint_records_without_response_date_policy": 3,
+    "inventory_unmapped_relationships": 0,
+    "legacy_graph_direct_rows": 24,
+    "accepted_records_without_any_scope_field": 0
+  },
+  "findings": [
+    {
+      "severity": "pass",
+      "finding": "Current in-memory inventory matches root expected 221 direct edges and 205 unique outgoing Darwin responses."
+    },
+    {
+      "severity": "pass",
+      "finding": "No accepted direct pair uses incoming_ids or outgoing_ids arrays with more than one element; the generic next-first normalization has no observed multi-ID case to collapse."
+    },
+    {
+      "severity": "pass",
+      "finding": "Scope fields are optional per accepted record. The normalizer carries every populated response_scope/response_sections/response_paragraphs/response_fragments field; records with none are legacy or whole-body cases and require their existing accepted disposition, not invented paragraph ranges."
+    },
+    {
+      "severity": "review",
+      "finding": "The 221 direct edges collapse to 205 responses because 16 outputs have multiple accepted incoming/scoped edges. They must remain one response unit with all incoming scopes retained, not 221 duplicated answers."
+    },
+    {
+      "severity": "review",
+      "finding": "24 legacy 1837–1843 graph rows are classified direct by the root-fixed normalizer. Their graph edge direction is source incoming -> target Darwin response; retain graph provenance and do not reinterpret correspondent reverse replies as Darwin answers."
+    }
+  ],
+  "section_dated_legacy_records": [
+    {
+      "response_id": "DCP-LETT-448",
+      "edges": [
+        {
+          "incoming_id": "DCP-LETT-444",
+          "response_scope": "dated_sections",
+          "response_sections": [
+            "DCP-LETT-448:friday"
+          ],
+          "response_paragraphs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "ledger": "reports/1837-1843/correspondence-map/graph.json"
+        },
+        {
+          "incoming_id": "DCP-LETT-447",
+          "response_scope": "dated_sections",
+          "response_sections": [
+            "DCP-LETT-448:saturday"
+          ],
+          "response_paragraphs": [
+            7,
+            8
+          ],
+          "ledger": "reports/1837-1843/correspondence-map/graph.json"
+        }
+      ]
+    },
+    {
+      "response_id": "DCP-LETT-466",
+      "edges": [
+        {
+          "incoming_id": "DCP-LETT-464",
+          "response_scope": "dated_sections",
+          "response_sections": [
+            "DCP-LETT-466:tuesday"
+          ],
+          "response_paragraphs": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "ledger": "reports/1837-1843/correspondence-map/graph.json"
+        },
+        {
+          "incoming_id": "DCP-LETT-465",
+          "response_scope": "dated_sections",
+          "response_sections": [
+            "DCP-LETT-466:tuesday"
+          ],
+          "response_paragraphs": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "ledger": "reports/1837-1843/correspondence-map/graph.json"
+        }
+      ]
+    },
+    {
+      "response_id": "DCP-LETT-484",
+      "edges": [
+        {
+          "incoming_id": "DCP-LETT-482",
+          "response_scope": "dated_sections",
+          "response_sections": [
+            "DCP-LETT-484:sunday",
+            "DCP-LETT-484:monday"
+          ],
+          "response_paragraphs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "ledger": "reports/1837-1843/correspondence-map/graph.json"
+        }
+      ]
+    }
+  ],
+  "representative_source_pins": [
+    {
+      "path": "scripts/raft_export_inventory.py",
+      "sha256": "3547df36f3d8ea50537ad559979573ef675f5908de666defd2309b51e1fe8ade",
+      "records": "relationship_rows, legacy_edge_rows, scope_of"
+    },
+    {
+      "path": "reports/1837-1843/correspondence-map/graph.json",
+      "sha256": "5328c33d6af9881fcccdb118143082735e0e6f01893f11222f97dc3a418d44b3",
+      "records": "DCP-LETT-448, DCP-LETT-466, DCP-LETT-484; 24 legacy direct rows"
+    },
+    {
+      "path": "data/annotations/periods/1844-1846/batch-03.json",
+      "sha256": "0ab581051550711e512d6710e43af09f9832b8b3991a05e5a7812f6d449f4311",
+      "records": "DCP-LETT-789 split 10/11 Nov sections"
+    },
+    {
+      "path": "data/annotations/periods/1844-1846/batch-05.json",
+      "sha256": "1191fa5ecefe29a0caf4d9235385bea4da652bd67e8c82d434b766470a9bf563",
+      "records": "DCP-LETT-889, DCP-LETT-892 multi-edge scoped dates"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "sha256": "b2faa36784d28e7acbc68ca34be100c0e03320595ef561cf8716aa90d35060da",
+      "records": "DCP-LETT-2109 shared output with 2104 and 2098"
+    }
+  ],
+  "multi_id_findings": [],
+  "scope_key_missing_findings": [
+    {
+      "path": "data/annotations/periods/1858-1859/batch-15.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-15.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-15.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-03.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-03.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-03.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-03.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-03.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-03.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-03.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-03.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-03.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-23.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-23.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-23.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-19.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-19.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-19.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-18.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-18.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-18.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-18.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-18.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-18.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-02.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-02.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-02.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-02.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-02.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-02.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-14.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-14.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-14.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-25.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-25.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-25.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-09.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-09.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-09.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-13.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-13.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-13.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-13.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-13.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-13.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-05.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-05.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-05.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "index": 3,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "index": 3,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "index": 3,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "index": 3,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "index": 3,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "index": 3,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-24.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-24.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-24.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-11.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-11.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-11.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-10.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-10.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-10.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-10.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-10.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-10.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-06.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-06.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-06.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "index": 3,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "index": 3,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "index": 3,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-21.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-21.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-21.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-16.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-16.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-16.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 3,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 3,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 3,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 4,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 4,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "index": 4,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-02.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-02.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-02.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-02.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-02.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-02.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-02.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-02.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-02.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-02.json",
+      "index": 3,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-02.json",
+      "index": 3,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-02.json",
+      "index": 3,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-14.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-14.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-14.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-09.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-09.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-09.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-09.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-09.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-09.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-05.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-05.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-05.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-05.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-05.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-05.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-04.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-04.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-04.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-04.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-04.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-04.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-04.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-04.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-04.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-07.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-07.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-07.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-07.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-11.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-11.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-11.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-11.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-11.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-11.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-10.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-10.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-10.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-10.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-10.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-10.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-01.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-01.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-01.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-17.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-17.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-17.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-20.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-20.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-20.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-20.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-20.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-20.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-03.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-03.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-03.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-03.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-02.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-02.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-09.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-09.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-05.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-05.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-05.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-05.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-05.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-05.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-05.json",
+      "index": 3,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-05.json",
+      "index": 3,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-07.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-07.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-07.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-07.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-07.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-07.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-06.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-06.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-06.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1847-1850/batch-06.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-15.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-15.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-15.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "index": 3,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "index": 3,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "index": 3,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-19.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-19.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-19.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-18.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-18.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-18.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-18.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-18.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-18.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-18.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-18.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-18.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-22.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-22.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-22.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-02.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-02.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-02.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-02.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-02.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-02.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-14.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-14.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-14.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-25.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-25.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-25.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-09.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-09.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-09.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-09.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-09.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-09.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-13.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-13.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-13.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-13.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-13.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-13.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-13.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-13.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-13.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-05.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-05.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-05.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-04.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-04.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-04.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "index": 3,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "index": 3,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "index": 3,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-24.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-24.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-24.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-24.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-24.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-24.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-24.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-24.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-24.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-24.json",
+      "index": 3,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-24.json",
+      "index": 3,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-24.json",
+      "index": 3,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-07.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-07.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-07.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-07.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-07.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-07.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-07.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-07.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-07.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-11.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-11.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-11.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-11.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-11.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-11.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-11.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-11.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-11.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-10.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-10.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-10.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-10.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-10.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-10.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-10.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-10.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-10.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-06.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-06.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-06.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-06.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-06.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-06.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-06.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-06.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-06.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-01.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-01.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-01.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-01.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-01.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-01.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-01.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-01.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-01.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-21.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-21.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-21.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-20.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-20.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-20.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-16.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-16.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-16.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-16.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-16.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-16.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 3,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 3,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 3,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 4,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 4,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 4,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/susan-01.primary.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/susan-01.primary.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/susan-01.primary.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 3,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 3,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 3,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 4,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 4,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/caroline-01.primary.json",
+      "index": 4,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/herbert-fitzroy-family-01.primary.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/herbert-fitzroy-family-01.primary.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/herbert-fitzroy-family-01.primary.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/herbert-fitzroy-family-01.primary.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/herbert-fitzroy-family-01.primary.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/herbert-fitzroy-family-01.primary.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/henslow-01.primary.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/henslow-01.primary.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/henslow-01.primary.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/henslow-01.primary.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/henslow-01.primary.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/henslow-01.primary.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/henslow-01.primary.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/henslow-01.primary.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/henslow-01.primary.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/fox-01.primary.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/fox-01.primary.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/fox-01.primary.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/fox-01.primary.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/fox-01.primary.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/fox-01.primary.json",
+      "index": 1,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/fox-01.primary.json",
+      "index": 2,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/fox-01.primary.json",
+      "index": 2,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/fox-01.primary.json",
+      "index": 2,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/reconciliation/1852-parker-circular.primary.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/reconciliation/1852-parker-circular.primary.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/reconciliation/1852-parker-circular.primary.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/reconciliation/1855-1856-davy-publications.primary.json",
+      "index": 0,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/reconciliation/1855-1856-davy-publications.primary.json",
+      "index": 0,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/reconciliation/1855-1856-davy-publications.primary.json",
+      "index": 0,
+      "field": "response_fragments"
+    },
+    {
+      "path": "data/annotations/reconciliation/1855-1856-davy-publications.primary.json",
+      "index": 1,
+      "field": "response_sections"
+    },
+    {
+      "path": "data/annotations/reconciliation/1855-1856-davy-publications.primary.json",
+      "index": 1,
+      "field": "response_paragraphs"
+    },
+    {
+      "path": "data/annotations/reconciliation/1855-1856-davy-publications.primary.json",
+      "index": 1,
+      "field": "response_fragments"
+    }
+  ],
+  "date_constraint_findings": [
+    {
+      "path": "data/annotations/beagle-voyage/catherine-01.primary.json",
+      "index": 0
+    },
+    {
+      "path": "data/annotations/beagle-voyage/henslow-01.primary.json",
+      "index": 1
+    },
+    {
+      "path": "data/annotations/beagle-voyage/fox-01.primary.json",
+      "index": 2
+    }
+  ],
+  "limitations": [
+    "This is mechanical integrity/navigation evidence, not historical adjudication.",
+    "The root-fixed inventory counts are authoritative only after root regenerates and reviews the final scope matrix; the prior 196-row candidate is stale and excluded.",
+    "No body text was copied or exported; source visual/voice/content eligibility remains a primary review question."
+  ],
+  "mutations": {
+    "scripts_changed": false,
+    "inventory_changed": false,
+    "darwin_0_changed": false,
+    "accepted_ledgers_changed": false
+  }
+}

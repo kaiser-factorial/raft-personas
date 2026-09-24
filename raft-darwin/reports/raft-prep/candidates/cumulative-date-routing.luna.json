@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "status": "candidate_only",
+  "scope": {
+    "periods": [
+      "1837-1843",
+      "1844-1846",
+      "1847-1850",
+      "1851-1855",
+      "1856-1857",
+      "1858-1859"
+    ],
+    "cutoff": "1859-11-24",
+    "purpose": "Deterministic cumulative RAFT date routing; navigation and requirements only."
+  },
+  "inputs": [
+    {
+      "path": "docs/raft-export-content-policy.md",
+      "sha256": "c7220b8e79bf44f2ac9d98b61676471e72d2b9a5fb360b4590d6c0972a3f916d"
+    },
+    {
+      "path": "docs/raft-formatting-readiness.md",
+      "sha256": "c9787e228185abe1e25475c9d0a4247e0bca845609906521941bb270d52062d2"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-07.json",
+      "sha256": "ef3f482256657354b1b04e6111f35ad64b212d20a1515ba84adf194dabf30e5f"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-03.json",
+      "sha256": "05ae5b18ce870c86864154440c2f5c8f6367197476eeae15d86238e5c528276e"
+    },
+    {
+      "path": "data/annotations/periods/1858-1859/batch-34.json",
+      "sha256": "40b57a3dbb98e5274c538e70662335c2d7c93be536f1d25e8b07af6f39fff09a"
+    }
+  ],
+  "date_classes": [
+    {
+      "class": "response_composition_or_section_date",
+      "ledger_fields": [
+        "letter_adjudications[].date_assessment",
+        "dated_sections[].composition_date",
+        "dated_sections[].date",
+        "dated_sections[].sections[].date",
+        "dated_sections[].composition_order"
+      ],
+      "export_use": "Only eligible Darwin response/grounding date; split transcript at explicitly dated response sections when a letter spans dates. Preserve supplied uncertainty and section ordering in sidecar.",
+      "fallback": "Hold if no defensible response/section date."
+    },
+    {
+      "class": "incoming_sent_or_catalogue_date",
+      "source_fields": [
+        "sources[].metadata_provenance.date_xpath",
+        "XML correspAction[@type=\"sent\"]/date"
+      ],
+      "export_use": "Identity and chronology evidence only; never substitute for response date.",
+      "fallback": "Retain raw range/precision in sidecar."
+    },
+    {
+      "class": "physical_receipt_or_arrival",
+      "ledger_fields": [
+        "receipt_events[].actual_receipt_date",
+        "receipt_events[].earliest_receipt_date",
+        "receipt_events[].latest_receipt_date",
+        "direct_reply_pairs[].actual_receipt_date"
+      ],
+      "export_use": "Availability constraint and evidence for response scope; never transcript date unless the response section itself is dated.",
+      "fallback": "Use interval/unknown exactly; do not collapse to a day."
+    },
+    {
+      "class": "demonstrated_knowledge",
+      "ledger_fields": [
+        "direct_reply_pairs[].known_by_date",
+        "cross_correspondent_knowledge[].known_by_date",
+        "date_evidence[].known_by_date"
+      ],
+      "export_use": "Sidecar knowledge witness only; may bound what Darwin could know, but cannot date the transcript or turn incoming prose into Darwin grounding.",
+      "fallback": "Null means no demonstrated knowledge date."
+    },
+    {
+      "class": "conservative_latest_bound_or_publication_bound",
+      "ledger_fields": [
+        "date_evidence[].date_precision",
+        "date_evidence[].description",
+        "letter_adjudications[].date_assessment"
+      ],
+      "export_use": "Eligibility hold/upper bound only; never replace response date.",
+      "fallback": "Hold affected entry when strict chronology cannot be established."
+    },
+    {
+      "class": "within_composition_event",
+      "ledger_fields": [
+        "within_day_events[]",
+        "dated_sections[].incoming_arrival",
+        "dated_sections[].arrival_and_response_span"
+      ],
+      "export_use": "Permit only the cited later response span; earlier paragraphs remain unconditioned. Keep event time and response date separate.",
+      "fallback": "No whole-letter widening."
+    }
+  ],
+  "representative_pins": [
+    {
+      "ledger": "data/annotations/periods/1851-1855/batch-07.json",
+      "sha256": "398a5f669bec13c39e2dcf79af73d8747074707f4700865ace51034f63b05a01",
+      "paths": [
+        "dated_sections",
+        "receipt_events",
+        "direct_reply_pairs",
+        "correspondent_replies"
+      ],
+      "records": [
+        "DCP-LETT-1400",
+        "DCP-LETT-1402",
+        "DCP-LETT-1404",
+        "DCP-LETT-1406",
+        "DCP-LETT-1414"
+      ],
+      "finding": "1400 composition order places P2 at noon, P3 at 13:00/15:00 and P1 at 16:00; 1406 receipt of 1404 is within P3 at 08:00, and 1414 receives 1412 during P1 before noon. Route these as section/event constraints, not a single nominal letter date."
+    },
+    {
+      "ledger": "data/annotations/periods/1856-1857/batch-07.json",
+      "sha256": "ef3f482256657354b1b04e6111f35ad64b212d20a1515ba84adf194dabf30e5f",
+      "paths": [
+        "direct_reply_pairs[0]",
+        "direct_reply_pairs[0].response_date_policy",
+        "direct_reply_pairs[0].evidence[6]",
+        "correspondent_replies[0]"
+      ],
+      "records": [
+        "DCP-LETT-1934",
+        "DCP-LETT-1944",
+        "DCP-LETT-1926"
+      ],
+      "finding": "The accepted Gray→Darwin exchange dates the response to Aug 24, while the incoming docket evidence says 1934 was received Aug 20. The sidecar explicitly says receipt fixes availability, not complete reading; transcript date remains response date."
+    },
+    {
+      "ledger": "data/annotations/periods/1858-1859/batch-34.json",
+      "sha256": "40b57a3dbb98e5274c538e70662335c2d7c93be536f1d25e8b07af6f39fff09a",
+      "paths": [
+        "cross_correspondent_knowledge[0]",
+        "cross_correspondent_knowledge[0].knowledge_scope",
+        "cross_correspondent_knowledge[0].date_precision"
+      ],
+      "records": [
+        "DCP-LETT-2336",
+        "DCP-LETT-2359"
+      ],
+      "finding": "The Coe samples are admitted as content-use knowledge with a conservative latest composition/publication bound, while missing October Darwin letters remain unlocated. Route this as sidecar evidence, never as an exact receipt or transcript date."
+    }
+  ],
+  "routing_mechanisms": [
+    {
+      "name": "response_date_resolver",
+      "inputs": [
+        "accepted relationship response_id",
+        "letter_adjudications.date_assessment",
+        "dated_sections"
+      ],
+      "output": "one ISO date or explicitly held section spans",
+      "rule": "Prefer exact/section-dated Darwin response composition evidence; reject incoming/receipt/known-by/latest-bound substitution."
+    },
+    {
+      "name": "availability_gate",
+      "inputs": [
+        "actual_receipt_date",
+        "earliest_receipt_date",
+        "latest_receipt_date",
+        "known_by_date",
+        "date_evidence"
+      ],
+      "output": "sidecar availability interval and status",
+      "rule": "Require incoming evidence to precede the response section; preserve null/interval precision and do not manufacture reading or delivery."
+    },
+    {
+      "name": "section_splitter",
+      "inputs": [
+        "dated_sections",
+        "within_day_events",
+        "response_scope",
+        "response_sections"
+      ],
+      "output": "non-overlapping response units",
+      "rule": "Emit only the cited Darwin paragraph/code-point scope; later arrival cannot condition earlier prose; one response section per transcript."
+    },
+    {
+      "name": "strict_retrieval_filter",
+      "inputs": [
+        "resolved transcript date",
+        "candidate corpus date"
+      ],
+      "output": "eligible prior records",
+      "rule": "Use date_num < transcript_date; null/unparseable dates are held out of strict historical retrieval, and same-day material is excluded."
+    },
+    {
+      "name": "dedupe_and_sidecar",
+      "inputs": [
+        "incoming_id",
+        "outgoing_id",
+        "response_scope",
+        "source hashes"
+      ],
+      "output": "one transcript per demonstrated response plus audit sidecar",
+      "rule": "Several accepted inputs may feed one response; deduplicate shared response bodies and retain all edge/date provenance outside RAFT text."
+    }
+  ],
+  "unresolved_date_classes": [
+    "Darwin letters with only broad XML ranges or inferred years and no defensible response/section date.",
+    "Incoming dates or physical receipt intervals where the response scope is known but exact reading time is not.",
+    "Dated annotations, later editorial labels, publication dates, and third-party witnesses that establish knowledge or an upper bound without dating Darwin composition.",
+    "Multi-day letters whose response paragraphs are not separable at a supported section/code-point boundary.",
+    "Joint, copied, forwarded, or mixed-voice material where a date is available but Darwin-authored export scope is not."
+  ],
+  "finite_action_list": [
+    "Build a cumulative manifest from accepted primary ledgers only, retaining ledger path/hash, accepted relation type, endpoint IDs, and exact response scope.",
+    "Resolve each candidate transcript date from Darwin response composition/section evidence; fail closed on incoming-only, receipt-only, known-by-only, publication-bound, null, or unresolved dates.",
+    "Apply section splits and chronology gates before constructing question/answer or grounding content; require incoming evidence and each source pin to precede the resolved response date.",
+    "Deduplicate by response endpoint plus scope, while recording multiple incoming edges and all date/voice evidence in an external audit sidecar.",
+    "Run per-entry checks for source identity, Darwin authority, date validity, strict earlier-than retrieval, excluded apparatus, held/third-party/joint material, and exact quote/hash spans; produce a gap report for every held item.",
+    "Reconcile totals across periods and additive primary corrections through 24 Nov 1859 before any single cumulative export; this candidate does not authorize export or training."
+  ],
+  "validation": {
+    "candidate_scope_only": true,
+    "accepted_ledgers_modified": false,
+    "raft_files_created": false,
+    "export_or_training_run": false,
+    "checks_run": [
+      "SHA-256 recomputed for all listed input files",
+      "ledger field paths inspected against live JSON"
+    ],
+    "remaining": "A future exporter must implement and independently test these rules against every accepted entry and rendered output."
+  }
+}

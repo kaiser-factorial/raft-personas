@@ -1,0 +1,102 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Requirements-only rendering/provenance addendum for the admitted Parker 1852 quoted circular witness and its single scoped Darwin reply. No converter, transcript, training, export, ledger, or accepted-evidence change.",
+  "primary_provenance": {
+    "admission_path": "data/annotations/reconciliation/1852-parker-circular.primary.json",
+    "admission_sha256": "92ab3f653353bed7396c1a625fc36f78e63eac32768f86c80a917c1060ff6e6e",
+    "accepted_ledger_path": "data/annotations/periods/1851-1855/batch-45.json",
+    "accepted_ledger_sha256": "ea838f27ff89a727a83c5462cdff8293cce770f897ea7c724c80eca388d0c57b",
+    "accepted_reading_path": "reports/1851-1855/review/parent-reading/batch-45.json",
+    "accepted_reading_sha256": "1b138849e70478f838dc5e2f15c93074927313b9ed81ab53318a6f137114cb7d"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1480A::footnote-2::Parker-question",
+        "DCP-LETT-1480A"
+      ],
+      "case": "Quoted Parker circular witness and one cumulative direct reply",
+      "requirement": "Represent the supplemental witness explicitly as the attributed John William Parker circular question, not as a new DCP catalogue letter. Preserve the question endpoint at the first final question mark inside the teiquote and exclude the subsequent editorial Campbell paragraph. Link it once to DCP-LETT-1480A, with the reply scope limited to Darwin body paragraph 1; do not mutate the ordinary 1851–1855 period target count.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1480A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1480A.html",
+          "source_html_sha256": "126bd6c1914a9366d18016acfb812b4aeb3577986a1d17ca8abd06ff0b7c9c31",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1480A.xml",
+          "xml_sha256": "363c3a876739e1d460f168f94da72885293bcc1813a114d6e5a70709276dcc79",
+          "locators": [
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[2]/div[2]/span (Parker teiquote; normalized node chars 10–633)",
+            "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2] (Darwin body P1)"
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "witness_id": "DCP-LETT-1480A::footnote-2::Parker-question",
+          "attributed_author": "John William Parker",
+          "stated_date": "30 April 1852",
+          "quote": "If a retail Bookseller of ascertained credit and respectability applies to the Publisher to purchase any Book in which you may be directly or indirectly interested, on the terms at which those Books are offered to the Trade at large, but with the avowed intention of retailing his purchases at a smaller profit than that provided for between the wholesale rate and the selling price of single copies,— Do you consider the intention to sell at a low rate of profit, a good and sufficient reason why the Publisher should refuse to sell the Books, which such retailer is ready to purchase and to keep in stock at his own risk?",
+          "source_sha256": "126bd6c1914a9366d18016acfb812b4aeb3577986a1d17ca8abd06ff0b7c9c31",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[2]/div[2]/span",
+          "endpoint_rule": "Stop at the question mark after “his own risk?”; the remaining teiquote is modern editorial context about the 19 May Campbell adjudication."
+        },
+        {
+          "letter_id": "DCP-LETT-1480A",
+          "body_paragraph": 1,
+          "quote": "As an author of some Scientific works, I beg to express strongly my opinion, that, both for the advantage of Authors & the public, Booksellers like other dealers ought to settle, each for himself, the Retail price.",
+          "source_sha256": "126bd6c1914a9366d18016acfb812b4aeb3577986a1d17ca8abd06ff0b7c9c31",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "response_scope": "Only this retained Darwin P1 answer is linked to the circular question."
+        }
+      ],
+      "date_voice_receipt_requirements": [
+        "Keep Parker’s 30 April 1852 date as circular composition/stated date; original physical circular and complete salutation/introduction remain unavailable.",
+        "Keep DCP-LETT-1480A as Darwin to John William Parker, 5 May [1852], with supplied year retained. This establishes a reply date and at most known-by date 5 May; it does not establish actual receipt or reading date for Parker’s circular.",
+        "Preserve authored Darwin first-person prose above. Do not render or cite the DCP Summary sentence “As an author of some scientific works CD is of the opinion...” as Darwin body evidence; it is a third-person editorial summary.",
+        "Do not infer a separate incoming Parker-to-Darwin catalogue record or physical delivery from the embedded quotation."
+      ]
+    },
+    {
+      "source_ids": [
+        "Mill-XXV-item-403",
+        "DCP-LETT-1480A::footnote-2::Parker-question"
+      ],
+      "case": "Mill public edition layers",
+      "requirement": "Keep the corroborating Mill edition visually and textually separate: the Parker question appears in a modern editorial headnote, while the following “Dear Sir” text is Mill’s 8 May 1852 reply. Neither layer is Darwin voice, a Darwin prompt, or evidence of Darwin receipt. Preserve the wording match as corroboration only.",
+      "source_provenance": [
+        {
+          "path": "data/raw/supplemental/parker-1852/mill-xxv-public-edition.pdf",
+          "sha256": "f10508c4ef754f956d5e0049f186e2a93beb0a887273009d7ecf745bcf535f25",
+          "url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/259/Mill_0223-25_EBk_v6.0.pdf",
+          "edition_locator": "Collected Works of John Stuart Mill XXV, item 403; PDF page 110 (1-based), source page index 109"
+        },
+        {
+          "path": "data/raw/supplemental/parker-1852/mill-xxv-page110.png",
+          "sha256": "29eda2591981a2073bf4b911efe4b2bac5de26ab9fac9bcad026d324c9860bbc",
+          "visual_locator": "PDF page 110; question in headnote above Mill’s signed reply"
+        }
+      ],
+      "exact_source_evidence": [
+        "Question word sequence matches DCP after case/punctuation normalization; modern headnote and Mill reply must remain separate evidence layers."
+      ]
+    }
+  ],
+  "cumulative_policy": {
+    "supplemental_witness_id": "DCP-LETT-1480A::footnote-2::Parker-question",
+    "include_once": true,
+    "ordinary_period_target_count_change": 0,
+    "distinct_response_records_linked": 1,
+    "relationship_scope": "one direct candidate/admitted relationship to DCP-LETT-1480A P1",
+    "preserve_original_circular_missing": true,
+    "known_by_vs_receipt": "known-by 5 May 1852 may be used as conservative upper bound; actual receipt/read event remains unknown",
+    "later_material_policy": "exclude Campbell 19 May adjudication from prompt and reply span; do not promote publication/headnote or Mill reply into Darwin knowledge"
+  },
+  "validation": {
+    "json_shape_checked": true,
+    "source_hashes_pinned": true,
+    "exact_prompt_endpoint_pinned": true,
+    "exact_darwin_body_quote_pinned": true,
+    "requirements_only": true,
+    "converter_or_export_run": false
+  }
+}

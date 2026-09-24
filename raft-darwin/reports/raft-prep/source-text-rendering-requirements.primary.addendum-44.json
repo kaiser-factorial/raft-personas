@@ -1,0 +1,530 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Accepted 1856–1857 batch 22 source-text rendering, chronology, attribution, receipt and figure requirements only; candidate for root review. No converter, transcript, export, corpus, training or primary evidence changes.",
+  "primary_provenance": {
+    "batch": {
+      "reading": {
+        "path": "reports/1856-1857/review/parent-reading/batch-22.json",
+        "sha256": "584d4d72fe7a739ad7c96ffd13fdf38a2bce4523ae9ae890eba22dc9e51367cc"
+      },
+      "decisions": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-22.json",
+        "sha256": "e9636b8ddfd84a75aee8667b941a70eda75b486c6628de34073d63a28fd68b8c"
+      },
+      "ledger": {
+        "path": "data/annotations/periods/1856-1857/batch-22.json",
+        "sha256": "938f0c353d92fb066b491e4a1402be373d2369bc8a2013f2268f6d43f1f70988"
+      }
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1870F",
+        "DCP-LETT-1883",
+        "DCP-LETT-1885F"
+      ],
+      "case": "frequency report and actual 1870F→1883→1885F chain",
+      "requirement": "1870F is Darwin outgoing, a complete four-page request despite its F suffix. Harcourt answers in 1883 and Darwin replies in 1885F. Only 1883 → 1885F is an incoming-to-Darwin training relationship. Darwin crude frequency calculation is conditional. Harcourt eighty retained blocks distinguish four winter stays, personal observation, reliable hearsay, single specimens, escape from captivity and uncertain breeding. Marked offprint is described but not reproduced; never manufacture its marks from the letter list. June 1 acknowledgment supports known-by date, not exact physical arrival.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1870F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1870F.html",
+          "source_html_sha256": "7ab1305ded10e5289d09e3fc69e8f256a37e050428f8aafa611c7fce5ba9c12a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1870F.xml",
+          "xml_sha256": "cfe0d071bb887ad02ce85d13e0a16a95a2f3f273d4137f902d3505ce0570e7c5",
+          "verified_xml_dates": [
+            {
+              "text": "9 May [1856]",
+              "attributes": {
+                "when": "1856-05-09"
+              },
+              "lower": "1856-05-09",
+              "upper": "1856-05-09",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-05-09\">9 May [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1883",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1883.html",
+          "source_html_sha256": "b891bcce5b723c0b83f288d4c84b8dfc7a285c0ff5d9c846dcdc891ce95da518",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1883.xml",
+          "xml_sha256": "057f16e1cd0e76cb3b34120b7da354bd99295ba7c020a045fae3a03820fede3e",
+          "verified_xml_dates": [
+            {
+              "text": "31 May 1856",
+              "attributes": {
+                "when": "1856-05-31"
+              },
+              "lower": "1856-05-31",
+              "upper": "1856-05-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-05-31\">31 May 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1885F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1885F.html",
+          "source_html_sha256": "b06fe62b2a4fe07ac8ec8b9d01299681313fde173d62599b2cb437442675ff67",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1885F.xml",
+          "xml_sha256": "c0a1476c8d3fce6af7d9429f68b00e190bfbc925a839ef43c1a86728afce91a3",
+          "verified_xml_dates": [
+            {
+              "text": "1 June [1856]",
+              "attributes": {
+                "when": "1856-06-01"
+              },
+              "lower": "1856-06-01",
+              "upper": "1856-06-01",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-01\">1 June [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1870F",
+          "body_paragraph": 1,
+          "quote": "on the supposition that the same species had never arrived more than once",
+          "char_start": 739,
+          "char_end": 812,
+          "source_sha256": "7ab1305ded10e5289d09e3fc69e8f256a37e050428f8aafa611c7fce5ba9c12a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1883",
+          "body_paragraph": 1,
+          "quote": "I passed four winters in Madeira",
+          "char_start": 141,
+          "char_end": 173,
+          "source_sha256": "b891bcce5b723c0b83f288d4c84b8dfc7a285c0ff5d9c846dcdc891ce95da518",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1883",
+          "body_paragraph": 1,
+          "quote": "I cannot speak from personal experience",
+          "char_start": 283,
+          "char_end": 322,
+          "source_sha256": "b891bcce5b723c0b83f288d4c84b8dfc7a285c0ff5d9c846dcdc891ce95da518",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1883",
+          "body_paragraph": 2,
+          "quote": "I have placed o against those birds which I did not see my-self",
+          "char_start": 294,
+          "char_end": 357,
+          "source_sha256": "b891bcce5b723c0b83f288d4c84b8dfc7a285c0ff5d9c846dcdc891ce95da518",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1883",
+          "body_paragraph": 75,
+          "quote": "I have no data to go upon",
+          "char_start": 0,
+          "char_end": 25,
+          "source_sha256": "b891bcce5b723c0b83f288d4c84b8dfc7a285c0ff5d9c846dcdc891ce95da518",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[76]"
+        },
+        {
+          "letter_id": "DCP-LETT-1885F",
+          "body_paragraph": 1,
+          "quote": "answering all my questions so very fully",
+          "char_start": 109,
+          "char_end": 149,
+          "source_sha256": "b06fe62b2a4fe07ac8ec8b9d01299681313fde173d62599b2cb437442675ff67",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "verified_offprint_apparatus": {
+        "letter_id": "DCP-LETT-1883",
+        "literal_text": "It is annotated by CD.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[3]/div[2]",
+        "source_sha256": "b891bcce5b723c0b83f288d4c84b8dfc7a285c0ff5d9c846dcdc891ce95da518"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1909F",
+        "DCP-LETT-1451",
+        "DCP-LETT-4598"
+      ],
+      "case": "planned comparison versus actual comparison and custody",
+      "requirement": "June 24 comparisons are proposed and require permission. August 19 reports completed comparison: goldfinch, linnet and greenfinch smaller, blackbird and swift not smaller. Brehm request and August 23 receipt are two Darwin outgoing records with missing dispatch/cover, not a dialogue pair. Return is planned, not completed. Numeric IDs and F suffixes do not establish dates or completeness.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1909F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1909F.html",
+          "source_html_sha256": "f4ec0e1389e9de533cc5408cc704a046fb33c705f648ba869785ba8a43c641c5",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1909F.xml",
+          "xml_sha256": "7fc0baf861b7f5442144616960958bf22e38eee8787fe27da0858a5e77cf19a4",
+          "verified_xml_dates": [
+            {
+              "text": "24 June [1856]",
+              "attributes": {
+                "when": "1856-06-24"
+              },
+              "lower": "1856-06-24",
+              "upper": "1856-06-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-24\">24 June [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1451",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1451.html",
+          "source_html_sha256": "bc5b3e8978bdb6a8c5f179340cfd4fc7e49d6d573c81bf123a16fa141ed5d628",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1451.xml",
+          "xml_sha256": "ed2f9cc19c8e839620844e37ea016ab1e5a05d553a9e4009b53b8f96cae0d324",
+          "verified_xml_dates": [
+            {
+              "text": "19 Aug [1856]",
+              "attributes": {
+                "when": "1856-08-19"
+              },
+              "lower": "1856-08-19",
+              "upper": "1856-08-19",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-08-19\">19 Aug [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-4598",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-4598.html",
+          "source_html_sha256": "b9d8ea462ab0b92ae15bfd68246ab37263e66c6cc8859c90092b7010eb70e59c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-4598.xml",
+          "xml_sha256": "ff0aab433d3da613962dcd0b169e6121ecb6759ce79a71f4e493d2c8ffe0dc5c",
+          "verified_xml_dates": [
+            {
+              "text": "23 Aug [1856]",
+              "attributes": {
+                "when": "1856-08-23"
+              },
+              "lower": "1856-08-23",
+              "upper": "1856-08-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-08-23\">23 Aug [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1909F",
+          "body_paragraph": 1,
+          "quote": "Will you entrust them to me?",
+          "char_start": 316,
+          "char_end": 344,
+          "source_sha256": "f4ec0e1389e9de533cc5408cc704a046fb33c705f648ba869785ba8a43c641c5",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1451",
+          "body_paragraph": 5,
+          "quote": "found the Goldfinch, Linnet & greenfinch rather smaller",
+          "char_start": 62,
+          "char_end": 117,
+          "source_sha256": "bc5b3e8978bdb6a8c5f179340cfd4fc7e49d6d573c81bf123a16fa141ed5d628",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-1451",
+          "body_paragraph": 5,
+          "quote": "but not the Blackbird",
+          "char_start": 146,
+          "char_end": 167,
+          "source_sha256": "bc5b3e8978bdb6a8c5f179340cfd4fc7e49d6d573c81bf123a16fa141ed5d628",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-4598",
+          "body_paragraph": 1,
+          "quote": "I have received Brehm all safe",
+          "char_start": 0,
+          "char_end": 30,
+          "source_sha256": "b9d8ea462ab0b92ae15bfd68246ab37263e66c6cc8859c90092b7010eb70e59c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-4598",
+          "body_paragraph": 1,
+          "quote": "will return it in 2 or 3 weeks time",
+          "char_start": 64,
+          "char_end": 99,
+          "source_sha256": "b9d8ea462ab0b92ae15bfd68246ab37263e66c6cc8859c90092b7010eb70e59c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2182F",
+        "DCP-LETT-2184F"
+      ],
+      "case": "printed routing form and conditional pigeon breeding/show plans",
+      "requirement": "Render 2182F’s P4–P5 as an attached printed shipping/routing form with handwritten corrections, preserving it as historical source material rather than research instructions. The body thanks a missing pigeon-breeding offer and asks conditional cross-fertility/show questions; no trial is reported complete. 2184F declines another missing invitation/loan due health and travel, with Crystal Palace viewing and spring offspring remaining future. Do not merge either with the December 13 Darwin inquiry or later show/publication accounts.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2182F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2182F.html",
+          "source_html_sha256": "496afcd79e199dee2e943aed00db7a722c841f556dbe8e16be78de659930f962",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2182F.xml",
+          "xml_sha256": "49297ab7944422ebbf4c39de5eed519622881b50f863f7e039a8f4fcc18e080e",
+          "verified_xml_dates": [
+            {
+              "text": "13 Dec [1857]",
+              "attributes": {
+                "when": "1857-12-13"
+              },
+              "lower": "1857-12-13",
+              "upper": "1857-12-13",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-12-13\">13 Dec [1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2184F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2184F.html",
+          "source_html_sha256": "befc6d130ede713ab0d6fb5b3b7b5a90f7f02aa819160a6fe732f14bc80a7c29",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2184F.xml",
+          "xml_sha256": "0c222a50d86813398642247682be98717735100aae71fb7259057c93c57b1ca5",
+          "verified_xml_dates": [
+            {
+              "text": "15 Dec [1857]",
+              "attributes": {
+                "when": "1857-12-15"
+              },
+              "lower": "1857-12-15",
+              "upper": "1857-12-15",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-12-15\">15 Dec [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2182F",
+          "body_paragraph": 1,
+          "quote": "after you have succeeded in breeding some",
+          "char_start": 113,
+          "char_end": 154,
+          "source_sha256": "496afcd79e199dee2e943aed00db7a722c841f556dbe8e16be78de659930f962",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2182F",
+          "body_paragraph": 3,
+          "quote": "Should you have the misfortune",
+          "char_start": 7,
+          "char_end": 37,
+          "source_sha256": "496afcd79e199dee2e943aed00db7a722c841f556dbe8e16be78de659930f962",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-2182F",
+          "body_paragraph": 4,
+          "quote": "Please to copy the following address for Parcel, Exactly",
+          "char_start": 0,
+          "char_end": 56,
+          "source_sha256": "496afcd79e199dee2e943aed00db7a722c841f556dbe8e16be78de659930f962",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-2184F",
+          "body_paragraph": 2,
+          "quote": "I suspect that they will turn out to be unimproved Barbs",
+          "char_start": 380,
+          "char_end": 436,
+          "source_sha256": "befc6d130ede713ab0d6fb5b3b7b5a90f7f02aa819160a6fe732f14bc80a7c29",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2184F",
+          "body_paragraph": 2,
+          "quote": "after they have bred in the Spring",
+          "char_start": 877,
+          "char_end": 911,
+          "source_sha256": "befc6d130ede713ab0d6fb5b3b7b5a90f7f02aa819160a6fe732f14bc80a7c29",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "verified_printed_form_apparatus": {
+        "letter_id": "DCP-LETT-2182F",
+        "literal_text": "The final two paragraphs of the letter are on a printed form, with handwritten corrections",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[7]/div[2]",
+        "source_sha256": "496afcd79e199dee2e943aed00db7a722c841f556dbe8e16be78de659930f962"
+      },
+      "printed_form_body_blocks": [
+        {
+          "letter_id": "DCP-LETT-2182F",
+          "body_paragraph": 4,
+          "quote": "Please to copy the following address for Parcel, Exactly, and do not add my Post Address, as Parcels often go wrong.",
+          "char_start": 0,
+          "char_end": 116,
+          "source_sha256": "496afcd79e199dee2e943aed00db7a722c841f556dbe8e16be78de659930f962",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-2182F",
+          "body_paragraph": 5,
+          "quote": "C. Darwin, Esq., | Care of Mr. Acton, | Bromley, | Kent. Per Railway & (Per Coach.)",
+          "char_start": 0,
+          "char_end": 83,
+          "source_sha256": "496afcd79e199dee2e943aed00db7a722c841f556dbe8e16be78de659930f962",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1883",
+        "DCP-LETT-1900F",
+        "DCP-LETT-1909F"
+      ],
+      "case": "attributed sources and limits of observation",
+      "requirement": "Personal winter observations, Lowe reports and published geographical lists are separate evidence. Absence from a list is not proven absence from a place; no-data statements and tentative annual frequencies survive unchanged. Wollaston island-size and Gould wing-length claims in 1900F are attributed publications, not new Harcourt findings. Nott/Gliddon ancient-dog continuity is expressly doubted in 1909F, not verified. No Watson list requirements or five-link counts are imported from another packet.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1883",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1883.html",
+          "source_html_sha256": "b891bcce5b723c0b83f288d4c84b8dfc7a285c0ff5d9c846dcdc891ce95da518",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1883.xml",
+          "xml_sha256": "057f16e1cd0e76cb3b34120b7da354bd99295ba7c020a045fae3a03820fede3e",
+          "verified_xml_dates": [
+            {
+              "text": "31 May 1856",
+              "attributes": {
+                "when": "1856-05-31"
+              },
+              "lower": "1856-05-31",
+              "upper": "1856-05-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-05-31\">31 May 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1900F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1900F.html",
+          "source_html_sha256": "deec36f8e70047e68b4538a05d6363971fd40f1c77b19e5d51a0c38efd89eed6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1900F.xml",
+          "xml_sha256": "4b1f18bdca1ced5c95475cf043d2fcf795fae9887ef33c11e878b099fefee57c",
+          "verified_xml_dates": [
+            {
+              "text": "12 June [1856]",
+              "attributes": {
+                "when": "1856-06-12"
+              },
+              "lower": "1856-06-12",
+              "upper": "1856-06-12",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-12\">12 June [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1909F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1909F.html",
+          "source_html_sha256": "f4ec0e1389e9de533cc5408cc704a046fb33c705f648ba869785ba8a43c641c5",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1909F.xml",
+          "xml_sha256": "7fc0baf861b7f5442144616960958bf22e38eee8787fe27da0858a5e77cf19a4",
+          "verified_xml_dates": [
+            {
+              "text": "24 June [1856]",
+              "attributes": {
+                "when": "1856-06-24"
+              },
+              "lower": "1856-06-24",
+              "upper": "1856-06-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-24\">24 June [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1883",
+          "body_paragraph": 6,
+          "quote": "had escaped from captivity",
+          "char_start": 190,
+          "char_end": 216,
+          "source_sha256": "b891bcce5b723c0b83f288d4c84b8dfc7a285c0ff5d9c846dcdc891ce95da518",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        },
+        {
+          "letter_id": "DCP-LETT-1883",
+          "body_paragraph": 66,
+          "quote": "of that I have no certain evidence",
+          "char_start": 79,
+          "char_end": 113,
+          "source_sha256": "b891bcce5b723c0b83f288d4c84b8dfc7a285c0ff5d9c846dcdc891ce95da518",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[67]"
+        },
+        {
+          "letter_id": "DCP-LETT-1900F",
+          "body_paragraph": 3,
+          "quote": "Mr Wollaston quotes on Mr Gould’s authority",
+          "char_start": 10,
+          "char_end": 53,
+          "source_sha256": "deec36f8e70047e68b4538a05d6363971fd40f1c77b19e5d51a0c38efd89eed6",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1909F",
+          "body_paragraph": 2,
+          "quote": "I can hardly credit this statement",
+          "char_start": 540,
+          "char_end": 574,
+          "source_sha256": "f4ec0e1389e9de533cc5408cc704a046fb33c705f648ba869785ba8a43c641c5",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Retained paragraph scopes, raw DOM positions, flattened lists, missing marked offprints, annotations and copied/printed layers remain separately addressable.",
+    "F suffixes, numeric IDs, later apparatus and book custody do not determine source extent or chronology.",
+    "Requirements do not create acceptance, knowledge activation or export readiness."
+  ],
+  "notes": [
+    "The 1870F→1883→1885F chain is source-specific; same-Darwin offers and later book custody are not substitutes.",
+    "Candidate-only artifact; accepted primary evidence remains untouched."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/all_letters.jsonl",
+      "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+    },
+    {
+      "path": "reports/1856-1857/audit.jsonl",
+      "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+    }
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-44.draft.json",
+      "sha256": "4ea4d05653815955c85a2ab2591db2cd3485ac6f9a58e66ad5e685069f637a32"
+    }
+  ],
+  "primary_verification": {
+    "exact_body_quotes_checked": 20,
+    "unique_source_html_xml_pairs_checked": 9,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "apparatus_locators_checked": 2,
+    "printed_form_blocks_checked": 2
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "primary_corrections": [
+    "Corrected Darwin outgoing 1870F, wrongly called incoming in the candidate.",
+    "Removed accidentally repeated Watson packet requirements and wrong five-link count; current packet has two accepted and two rejected worker proposals.",
+    "Added twenty exact source quotes, two apparatus locators and both routing-form block locations."
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "status": "primary_verified_conversion_preparation_requirements",
+  "scope": "Accepted 1858-1859 batch-01 source-text rendering, MathML, enclosure, damaged-text, excluded-layer, composition-timing and relationship-provenance requirements only. Candidate documentation; no converter, transcript, export, training or accepted evidence changes.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1858-1859/review/parent-reading/batch-01.json",
+      "sha256": "0d684727ce066772d99974b692b05d02fca7eb98938038643559926b9066fd1a"
+    },
+    "parent_decisions": {
+      "path": "reports/1858-1859/review/parent-decisions/batch-01.json",
+      "sha256": "6fe926788cfe7ea0edd946e22e42c1e133e26575fd30970d22abc9b71a4a8499"
+    },
+    "accepted_ledger": {
+      "path": "data/annotations/periods/1858-1859/batch-01.json",
+      "sha256": "ca2969366599121903c7b1225a5a6939956efe21dc61cda58354aaeecb3a801d"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "case": "Six MathML fractions across 2212, 2209 and 2222 enclosure",
+      "source_ids": [
+        "DCP-LETT-2212",
+        "DCP-LETT-2209",
+        "DCP-LETT-2222"
+      ],
+      "requirement": "Preserve all six MathML fractions as numerator/denominator structure: 2212 contains 1/5 and 1/6; 2209 contains two quarter-hour times; and the separately preserved authorial classification enclosure in 2222 contains 4/5 and 1/5. Do not flatten them into joined integers or treat the enclosure as editorial apparatus. Keep the surrounding calculations and the distinction between the letter body and enclosure.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2212",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2212.html",
+          "source_html_sha256": "97a3a728a98e21281a7cfb8955daa037b850e73b62ff2ebc4233a9646949c91b",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2212.xml",
+          "xml_sha256": "a62b3ddf9452cf5fb8b1347526b1c2b33ea1b658540a1419c3b79d8c9df12633",
+          "verified_xml_dates": [
+            {
+              "text": "9 Feb [1858]",
+              "attributes": {
+                "when": "1858-02-09"
+              },
+              "lower": "1858-02-09",
+              "upper": "1858-02-09",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-02-09\">9 Feb [1858]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2209",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2209.html",
+          "source_html_sha256": "7ad74c553fa463075331df8c774f067507be161cd3e9c41ac0806f2091e77370",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2209.xml",
+          "xml_sha256": "76805af220c57ea87a37c699b593216a121b07ef9d986e6b397d3df280b45bf6",
+          "verified_xml_dates": [
+            {
+              "text": "[17 Feb 1858]",
+              "attributes": {
+                "when": "1858-02-17"
+              },
+              "lower": "1858-02-17",
+              "upper": "1858-02-17",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-02-17\">[17 Feb 1858]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2222",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2222.html",
+          "source_html_sha256": "fe66577fecbb609d8953a5dbf9132a9a37d1c7362beef1ba9f5df452a1313a65",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2222.xml",
+          "xml_sha256": "a62d5b1f462466702290f608e37c06c33b2d0930935c5b2266fb68578b5f3b2d",
+          "verified_xml_dates": [
+            {
+              "text": "23 Feb [1858]",
+              "attributes": {
+                "when": "1858-02-23"
+              },
+              "lower": "1858-02-23",
+              "upper": "1858-02-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-02-23\">23 Feb [1858]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2212",
+          "body_paragraph": 2,
+          "quote": "between 15 & 16 of all the species",
+          "char_start": 322,
+          "char_end": 356,
+          "source_sha256": "97a3a728a98e21281a7cfb8955daa037b850e73b62ff2ebc4233a9646949c91b",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2209",
+          "body_paragraph": 1,
+          "quote": "Thatched House at 14 past 5",
+          "char_start": 166,
+          "char_end": 193,
+          "source_sha256": "7ad74c553fa463075331df8c774f067507be161cd3e9c41ac0806f2091e77370",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2209",
+          "body_paragraph": 4,
+          "quote": "at 514 for chance of your appearance",
+          "char_start": 26,
+          "char_end": 62,
+          "source_sha256": "7ad74c553fa463075331df8c774f067507be161cd3e9c41ac0806f2091e77370",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        }
+      ],
+      "verified_mathml_fractions": [
+        {
+          "letter_id": "DCP-LETT-2212",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]/math[1]",
+          "numerator": "1",
+          "denominator": "5",
+          "layer": "authorial body"
+        },
+        {
+          "letter_id": "DCP-LETT-2212",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]/math[2]",
+          "numerator": "1",
+          "denominator": "6",
+          "layer": "authorial body"
+        },
+        {
+          "letter_id": "DCP-LETT-2209",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]/math",
+          "numerator": "1",
+          "denominator": "4",
+          "layer": "authorial body"
+        },
+        {
+          "letter_id": "DCP-LETT-2209",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]/math",
+          "numerator": "1",
+          "denominator": "4",
+          "layer": "authorial body"
+        },
+        {
+          "letter_id": "DCP-LETT-2222",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div/p/math[1]",
+          "numerator": "4",
+          "denominator": "5",
+          "layer": "authorial enclosure"
+        },
+        {
+          "letter_id": "DCP-LETT-2222",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div/p/math[2]",
+          "numerator": "1",
+          "denominator": "5",
+          "layer": "authorial enclosure"
+        }
+      ]
+    },
+    {
+      "case": "2222 authorial classification enclosure boundary",
+      "source_ids": [
+        "DCP-LETT-2222"
+      ],
+      "requirement": "Retain the separate Darwin-authored classification question accompanying retained P3 (raw p4), with its 4/5 and 1/5 fractions. The question exists in one enclosure paragraph. Exclude editorial enclosure heading/footnote marker and do not invent an answer written on the sheet. Hooker later answers in his separate letter.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2222",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2222.html",
+          "source_html_sha256": "fe66577fecbb609d8953a5dbf9132a9a37d1c7362beef1ba9f5df452a1313a65",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2222.xml",
+          "xml_sha256": "a62d5b1f462466702290f608e37c06c33b2d0930935c5b2266fb68578b5f3b2d",
+          "verified_xml_dates": [
+            {
+              "text": "23 Feb [1858]",
+              "attributes": {
+                "when": "1858-02-23"
+              },
+              "lower": "1858-02-23",
+              "upper": "1858-02-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-02-23\">23 Feb [1858]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2222",
+          "body_paragraph": 3,
+          "quote": "Would you give me deliberate answer to enclosed question on Classification",
+          "char_start": 0,
+          "char_end": 74,
+          "source_sha256": "fe66577fecbb609d8953a5dbf9132a9a37d1c7362beef1ba9f5df452a1313a65",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        }
+      ],
+      "verified_enclosure_source": {
+        "section_class": "enclosures",
+        "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]",
+        "text": "[Enclosure]11 Will you think on some of the largest genera with which you are well acquainted, & then suppose 45 of species utterly destroyed & unknown in the sections in (as it were) as much as possible in the centre of such great genera.— Then would the remaining 15 of the species, forming a few sections, be according to general practice of average good Botanists, be ranked as distinct genera.— Of course they would in that case be closely related genera. The question in fact is are all the species in a gigantic genus kept together in that genus, because they are really so very closely similar as to be inseparable; or is it because no chasms or boundaries can be drawn separating the many species.— The question might have been put for Orders.—"
+      }
+    },
+    {
+      "case": "2243 raw diag/ramme three-item list",
+      "source_ids": [
+        "DCP-LETT-2243"
+      ],
+      "requirement": "Preserve the source audit of literal diag/ramme around the three numbered categories in retained P1–2. They are unresolved layout artifacts, not a reconstructed Weddell table. Derive a readable three-item list only after a supported rendering decision; do not export unexplained artifacts as final prose or invent columns. The separate announced Weddell table is absent and remains a distinct unresolved source.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2243",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2243.html",
+          "source_html_sha256": "ee4b49ebc2dcbebf87899f76e450f6830934ba9efa155f2e486a6f5908d7fd04",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2243.xml",
+          "xml_sha256": "59f629ecfd4d066c8a7e8b3fa92c46709fe883b9e9d2de8efb12abdeaa828dad",
+          "verified_xml_dates": [
+            {
+              "text": "18 Mar 1858",
+              "attributes": {
+                "when": "1858-03-18"
+              },
+              "lower": "1858-03-18",
+              "upper": "1858-03-18",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-03-18\">18 Mar 1858</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2243",
+          "body_paragraph": 1,
+          "quote": "because Local Floras consist of diag 1 Local plants",
+          "char_start": 288,
+          "char_end": 339,
+          "source_sha256": "ee4b49ebc2dcbebf87899f76e450f6830934ba9efa155f2e486a6f5908d7fd04",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2243",
+          "body_paragraph": 2,
+          "quote": "3 Mundane plants of which two or more varieties are found in the area.ramme",
+          "char_start": 67,
+          "char_end": 142,
+          "source_sha256": "ee4b49ebc2dcbebf87899f76e450f6830934ba9efa155f2e486a6f5908d7fd04",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        }
+      ]
+    },
+    {
+      "case": "2237 and 2239 unresolved literal body artifacts",
+      "source_ids": [
+        "DCP-LETT-2237",
+        "DCP-LETT-2239"
+      ],
+      "requirement": "2237 retained P6 literally has cannot collect never my wits and P7 has [SYMBOL]; 2239 retained P9 literally has such as I have always later. Preserve raw evidence and hold affected spans for authoritative comparison before a smoothed export. Do not assign [SYMBOL] to2239, invent missing words, or insert modern editorial explanations into Darwin voice.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2237",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2237.html",
+          "source_html_sha256": "206f88fa5eadeeee8e9d25f65cd3c2bf8e7b2276dd296d5e6dc287daea3ce3cc",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2237.xml",
+          "xml_sha256": "3cf62e86a086389d9474dc4ae1e7a94ae556079123f9f8a87cf4a92359d670e0",
+          "verified_xml_dates": [
+            {
+              "text": "10 [Mar 1858]",
+              "attributes": {
+                "when": "1858-03-10"
+              },
+              "lower": "1858-03-10",
+              "upper": "1858-03-10",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-03-10\">10 [Mar 1858]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2239",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2239.html",
+          "source_html_sha256": "2a802a89b114244df42167dc0c22e940e2099c2e0be94527cdcd301506a38fe4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2239.xml",
+          "xml_sha256": "077d297d5a4d4cfa0e246ad59a93a8278ad30d7731d3f2761cb9ba35cb2e1f34",
+          "verified_xml_dates": [
+            {
+              "text": "11 Mar [1858]",
+              "attributes": {
+                "when": "1858-03-11"
+              },
+              "lower": "1858-03-11",
+              "upper": "1858-03-11",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-03-11\">11 Mar [1858]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2237",
+          "body_paragraph": 6,
+          "quote": "I cannot collect never my wits at once",
+          "char_start": 136,
+          "char_end": 174,
+          "source_sha256": "206f88fa5eadeeee8e9d25f65cd3c2bf8e7b2276dd296d5e6dc287daea3ce3cc",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        },
+        {
+          "letter_id": "DCP-LETT-2239",
+          "body_paragraph": 9,
+          "quote": "such as I have always later",
+          "char_start": 222,
+          "char_end": 249,
+          "source_sha256": "2a802a89b114244df42167dc0c22e940e2099c2e0be94527cdcd301506a38fe4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]"
+        },
+        {
+          "letter_id": "DCP-LETT-2237",
+          "body_paragraph": 7,
+          "quote": "[SYMBOL]",
+          "char_start": 340,
+          "char_end": 348,
+          "source_sha256": "206f88fa5eadeeee8e9d25f65cd3c2bf8e7b2276dd296d5e6dc287daea3ce3cc",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        }
+      ]
+    },
+    {
+      "case": "Excluded addresses, salutations and annotations",
+      "source_ids": [
+        "DCP-LETT-2203",
+        "DCP-LETT-2240",
+        "DCP-LETT-2223"
+      ],
+      "requirement": "Exclude letter headers, recipient addresses, salutations and editorial/annotation layers from eventual training prose under the established content policy. Preserve research provenance separately: a dated annotation may legitimately support dating or knowledge when adjudicated, but cannot become authorial body or an exact receipt claim by default. Remove trailing C. Darwin Esq address from2223 retained P11 while retaining the authorial close according to the existing policy.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2203",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2203.html",
+          "source_html_sha256": "4c89d42ad8b37a4fe7b83c49ec2491b987ff06a87e66834d5fe514cad0905e19",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2203.xml",
+          "xml_sha256": "14a78b26f814a8b6e0e8c7017d2f0c17a717437c5d54558647155fb51b36c01b",
+          "verified_xml_dates": [
+            {
+              "text": "15 Jan [1858]",
+              "attributes": {
+                "when": "1858-01-15"
+              },
+              "lower": "1858-01-15",
+              "upper": "1858-01-15",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-01-15\">15 Jan [1858]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2240",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2240.html",
+          "source_html_sha256": "32ca48e4e87465cb30da657129d7639fdfeeb7b54348b3c0c5dc389b0ca7f3c6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2240.xml",
+          "xml_sha256": "497cd86b40d20506b863a58abcd673dbdca026e71607c31ec5fba9f221ebb76e",
+          "verified_xml_dates": [
+            {
+              "text": "[14 Mar 1858]",
+              "attributes": {
+                "when": "1858-03-14"
+              },
+              "lower": "1858-03-14",
+              "upper": "1858-03-14",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-03-14\">[14 Mar 1858]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2223",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2223.html",
+          "source_html_sha256": "a5cf3807365bba0dad3c3dad2f5c3ed0a628e23371f67ed4f5cdf240e47921fe",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2223.xml",
+          "xml_sha256": "19ebdfe8fb87724e00c823934814cb173cd938d912ec961a1be4c8d413536971",
+          "verified_xml_dates": [
+            {
+              "text": "23 Feb [1858]",
+              "attributes": {
+                "when": "1858-02-23"
+              },
+              "lower": "1858-02-23",
+              "upper": "1858-02-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-02-23\">23 Feb [1858]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2223",
+          "body_paragraph": 11,
+          "quote": "C. Darwin | Esq",
+          "char_start": 30,
+          "char_end": 45,
+          "source_sha256": "a5cf3807365bba0dad3c3dad2f5c3ed0a628e23371f67ed4f5cdf240e47921fe",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[12]"
+        }
+      ],
+      "excluded_salutation_locators": [
+        {
+          "letter_id": "DCP-LETT-2203",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]",
+          "text": "My dear Hooker"
+        },
+        {
+          "letter_id": "DCP-LETT-2240",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]",
+          "text": "My dear Darwin"
+        }
+      ]
+    },
+    {
+      "case": "2203 P7 mid-composition receipt split",
+      "source_ids": [
+        "DCP-LETT-2203",
+        "DCP-LETT-2204"
+      ],
+      "requirement": "Preserve 2203’s composition split: P1–P6 were written before the arrival of Hooker’s 2204, while P7–P9 follow the explicit just-received acknowledgment. Only P7–P9 can be conditioned on 2204; do not backdate the response or treat the earlier crossed note as informed by the later arrival. Keep 2204’s incomplete extent and its Tuesday invitation boundary.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2203",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2203.html",
+          "source_html_sha256": "4c89d42ad8b37a4fe7b83c49ec2491b987ff06a87e66834d5fe514cad0905e19",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2203.xml",
+          "xml_sha256": "14a78b26f814a8b6e0e8c7017d2f0c17a717437c5d54558647155fb51b36c01b",
+          "verified_xml_dates": [
+            {
+              "text": "15 Jan [1858]",
+              "attributes": {
+                "when": "1858-01-15"
+              },
+              "lower": "1858-01-15",
+              "upper": "1858-01-15",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-01-15\">15 Jan [1858]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2204",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2204.html",
+          "source_html_sha256": "48652545d2badca957038e33aba8681c32824b0e57be4a29f10374e8da04d66a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2204.xml",
+          "xml_sha256": "fc644e08eba6fae4abb7ff57ab45d8dd6d4f3a6beae35e424cae0c76f6cde9e6",
+          "verified_xml_dates": [
+            {
+              "text": "15 Jan 1858",
+              "attributes": {
+                "when": "1858-01-15"
+              },
+              "lower": "1858-01-15",
+              "upper": "1858-01-15",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-01-15\">15 Jan 1858</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2203",
+          "body_paragraph": 7,
+          "quote": "I have just got your letter",
+          "char_start": 7,
+          "char_end": 34,
+          "source_sha256": "4c89d42ad8b37a4fe7b83c49ec2491b987ff06a87e66834d5fe514cad0905e19",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        },
+        {
+          "letter_id": "DCP-LETT-2203",
+          "body_paragraph": 9,
+          "quote": "I cannot come up so soon as Tuesday",
+          "char_start": 0,
+          "char_end": 35,
+          "source_sha256": "4c89d42ad8b37a4fe7b83c49ec2491b987ff06a87e66834d5fe514cad0905e19",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]"
+        },
+        {
+          "letter_id": "DCP-LETT-2204",
+          "body_paragraph": 8,
+          "quote": "Tuesday at 6",
+          "char_start": 97,
+          "char_end": 109,
+          "source_sha256": "48652545d2badca957038e33aba8681c32824b0e57be4a29f10374e8da04d66a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[9]"
+        }
+      ]
+    },
+    {
+      "case": "Corrected 2240 to 2242 relationship and custody versus knowledge",
+      "source_ids": [
+        "DCP-LETT-2240",
+        "DCP-LETT-2242"
+      ],
+      "requirement": "Render the accepted relation as 2240 (Hooker, 14 March) answering 2237/2239 and preceding Darwin’s 2242 (16 March); 2242 cannot answer the later 2243 (18 March). Preserve known-by dates separately from physical receipt and demonstrated reading: “Ledebour shall go tomorrow” records intended dispatch, while Darwin’s later acknowledgment or analysis must carry its own event scope. Do not let a generic date or adjacent packet position reverse the endpoints.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2240",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2240.html",
+          "source_html_sha256": "32ca48e4e87465cb30da657129d7639fdfeeb7b54348b3c0c5dc389b0ca7f3c6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2240.xml",
+          "xml_sha256": "497cd86b40d20506b863a58abcd673dbdca026e71607c31ec5fba9f221ebb76e",
+          "verified_xml_dates": [
+            {
+              "text": "[14 Mar 1858]",
+              "attributes": {
+                "when": "1858-03-14"
+              },
+              "lower": "1858-03-14",
+              "upper": "1858-03-14",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-03-14\">[14 Mar 1858]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2242",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2242.html",
+          "source_html_sha256": "89b0671e821648988546375ed497a37d9ebdb7fb8db15adce97174530f30b1c3",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2242.xml",
+          "xml_sha256": "ea08f72cbcf41a119b7bf7039bfd69574538b634d63e7a7a18cb0f172534ba93",
+          "verified_xml_dates": [
+            {
+              "text": "16 [Mar 1858]",
+              "attributes": {
+                "when": "1858-03-16"
+              },
+              "lower": "1858-03-16",
+              "upper": "1858-03-16",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-03-16\">16 [Mar 1858]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2240",
+          "body_paragraph": 1,
+          "quote": "Ledebour shall go tomorrow",
+          "char_start": 0,
+          "char_end": 26,
+          "source_sha256": "32ca48e4e87465cb30da657129d7639fdfeeb7b54348b3c0c5dc389b0ca7f3c6",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2242",
+          "body_paragraph": 1,
+          "quote": "Many thanks for Ledebour",
+          "char_start": 0,
+          "char_end": 24,
+          "source_sha256": "89b0671e821648988546375ed497a37d9ebdb7fb8db15adce97174530f30b1c3",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ]
+    }
+  ],
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-69.draft.json",
+      "sha256": "379ec083c3c3916fd2abed221aba476ffb43335817764e459170de00d142df4e"
+    }
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md",
+  "primary_verification": {
+    "exact_body_quotes_checked": 15,
+    "unique_source_html_xml_pairs_checked": 11,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "actual_mathml_fractions_checked": 6,
+    "separate_authorial_enclosures_checked": 1,
+    "excluded_address_spans_checked": 1
+  },
+  "primary_corrections": [
+    "Mapped raw p indexes to retained body paragraphs, verified exact source and accepted input hashes.",
+    "Corrected SYMBOL to2237 P7, added exact evidence, and held literal text/layout artifacts for supported cleanup.",
+    "Corrected2222 enclosure reference to retained P3; independently read its paragraph and all six MathML fractions.",
+    "Separated exclusion from final prose from legitimate annotation use as research date evidence; added actual2223 recipient-address span."
+  ]
+}

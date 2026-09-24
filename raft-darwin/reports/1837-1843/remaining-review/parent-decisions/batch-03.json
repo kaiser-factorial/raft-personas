@@ -1,0 +1,300 @@
+{
+  "batch_id": "batch-03",
+  "status": "parent_adjudicated",
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-418",
+      "target_id": "DCP-LETT-419",
+      "relationship": "replies_to",
+      "parent_decision": "candidate_only",
+      "reason": "419recalls earlierquery rather than containing dogs/geesequestions."
+    },
+    {
+      "source_id": "DCP-LETT-609",
+      "target_id": "DCP-LETT-606",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_as_prompt_pair",
+      "reason": "Both609/606writtenbyDarwin; interveningFoxinput unlocated."
+    }
+  ],
+  "rejected_or_candidate_links": [
+    {
+      "source": "DCP-LETT-418",
+      "target": "DCP-LETT-419",
+      "relationship": "replies_to",
+      "status": "unresolved_candidate",
+      "reason": "Exchangecontext plausible;419recalls earlierquestions, so uniqueantecedent unresolved.",
+      "creates_prompt": false,
+      "activates_knowledge": false
+    },
+    {
+      "source": "DCP-LETT-609",
+      "target": "DCP-LETT-606",
+      "relationship": "replies_to",
+      "status": "rejected",
+      "reason": "BothDarwinoutgoing; actual interveningFoxcommunication unlocated.",
+      "creates_prompt": false,
+      "activates_knowledge": false
+    }
+  ],
+  "source_kind_corrections": {
+    "DCP-LETT-374": "fragment with missing or excised text",
+    "DCP-LETT-393": "fragment with missing or excised text",
+    "DCP-LETT-418": "fragment with missing or excised text",
+    "DCP-LETT-572": "fragment with missing or excised text"
+  },
+  "reference_observations": [
+    {
+      "id": "REF-R03-348-2",
+      "witness_id": "DCP-LETT-348",
+      "type": "unlocated_incoming",
+      "description": "Fox urges bookcompletion.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-348",
+          "body_paragraph": 2,
+          "quote": "In your last letter",
+          "locator": "div#letter div.body-content; retained body block 2",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-348.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-348.xml",
+            "retrieved_at": "2026-09-16T10:53:32.635432+00:00",
+            "sha256": "ffe91bed0a81046e51ba20d4d3ceab28288ba54aafbd824fd0ddc58615d71011",
+            "bytes": 116827,
+            "http_status": 200,
+            "etag": "\"d458a656ca26da5e32f82fe732e775f3\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-348"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null
+    },
+    {
+      "id": "REF-R03-541-3",
+      "witness_id": "DCP-LETT-541",
+      "type": "unlocated_incoming",
+      "description": "Fox mottoletter storedbutcannotfind.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-541",
+          "body_paragraph": 3,
+          "quote": "I have put your letter carefully by",
+          "locator": "div#letter div.body-content; retained body block 3",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-541.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-541.xml",
+            "retrieved_at": "2026-09-16T10:53:34.268546+00:00",
+            "sha256": "e609470fb9b0c51cdbfad0e90626108535aa26e8b14e09864c554355d864750a",
+            "bytes": 118728,
+            "http_status": 200,
+            "etag": "\"1bd903c8de153df12827a38d057c1a2a\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-541"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null
+    },
+    {
+      "id": "REF-R03-541-4",
+      "witness_id": "DCP-LETT-541",
+      "type": "unlocated_incoming",
+      "description": "Carolinegrief/babylinen receivedOct23 conditionalonOct24witness.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-541",
+          "body_paragraph": 4,
+          "quote": "I had a letter yesterday from Caroline",
+          "locator": "div#letter div.body-content; retained body block 4",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-541.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-541.xml",
+            "retrieved_at": "2026-09-16T10:53:34.268546+00:00",
+            "sha256": "e609470fb9b0c51cdbfad0e90626108535aa26e8b14e09864c554355d864750a",
+            "bytes": 118728,
+            "http_status": 200,
+            "etag": "\"1bd903c8de153df12827a38d057c1a2a\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-541"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null,
+      "derived_receipt_date": "1839-10-23"
+    },
+    {
+      "id": "REF-R03-606-3",
+      "witness_id": "DCP-LETT-606",
+      "type": "unlocated_incoming",
+      "description": "Henslowparish/fireworks/agriculturalprizes receivedAug21 conditionalonAug23witness.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-606",
+          "body_paragraph": 3,
+          "quote": "I had a letter two days since from Henslow",
+          "locator": "div#letter div.body-content; retained body block 3",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-606.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-606.xml",
+            "retrieved_at": "2026-09-16T10:53:34.668792+00:00",
+            "sha256": "4f399a8776f75ff9ff7819e692850d3d21e416d82a7b3ae528a618ebace2883c",
+            "bytes": 113492,
+            "http_status": 200,
+            "etag": "\"1398a237abc2153a89c7cecdfc25fd44\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-606"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null,
+      "derived_receipt_date": "1841-08-21"
+    },
+    {
+      "id": "REF-R03-624-1",
+      "witness_id": "DCP-LETT-624",
+      "type": "unlocated_forwarded_letter_addressee_uncertain",
+      "description": "Foxbereavementaccount forwardedMar22; originaladdresseemaybeSusan.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-624",
+          "body_paragraph": 1,
+          "quote": "was forwarded to me yesterday by Susan",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-624.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-624.xml",
+            "retrieved_at": "2026-09-16T10:53:35.524827+00:00",
+            "sha256": "d5ced9dea4f85e42e04c56d563fa91c84fa77319cb5eca8d9fe81eab8e8ebe93",
+            "bytes": 113299,
+            "http_status": 200,
+            "etag": "\"87c23892a9dd134ec358ff18fd05c123\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-624"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null,
+      "derived_receipt_date": "1842-03-22"
+    },
+    {
+      "id": "REF-R03-625-1",
+      "witness_id": "DCP-LETT-625",
+      "type": "unlocated_incoming",
+      "description": "AffectingFoxnote maybethe624account orlaternote; do notforcephysicalinputcount.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-625",
+          "body_paragraph": 1,
+          "quote": "Your note",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-625.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-625.xml",
+            "retrieved_at": "2026-09-16T10:53:36.353810+00:00",
+            "sha256": "0ce17f2d0cc1cf0dd3b0d58207839eaebeac6da49a88ab478cd326ec921b7319",
+            "bytes": 112014,
+            "http_status": 200,
+            "etag": "\"b7486a1d78b5dbcf848da29f0332cfec\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-625"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null
+    },
+    {
+      "id": "REF-R03-654-1",
+      "witness_id": "DCP-LETT-654",
+      "type": "unlocated_forwarded_letter_addressee_uncertain",
+      "description": "Originaladdresseeunknown; noexactreceiptday.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-654",
+          "body_paragraph": 1,
+          "quote": "They forwarded to me from Shrewsbury your note",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-654.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-654.xml",
+            "retrieved_at": "2026-09-16T10:53:36.077672+00:00",
+            "sha256": "adcb4e0719011fcb77a9a910f7d6d0184de3b8c61292abd13617d98060ae7360",
+            "bytes": 114048,
+            "http_status": 200,
+            "etag": "\"715211825c4fb9ef7f1d4bc78d7222d2\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-654"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null
+    },
+    {
+      "id": "REF-R03-665-1",
+      "witness_id": "DCP-LETT-665",
+      "type": "unlocated_incoming",
+      "description": "ApproxFebruary1843receipt; noexactday.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-665",
+          "body_paragraph": 1,
+          "quote": "your letter some six weeks since",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-665.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-665.xml",
+            "retrieved_at": "2026-09-16T10:53:37.134717+00:00",
+            "sha256": "0d5273ea56cd788087bc538269dcaef75ef2e60d8e1bf4a9263369518bb13bc1",
+            "bytes": 114669,
+            "http_status": 200,
+            "etag": "\"0f3ee338c41e79045c8c2240a8f53d64\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-665"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null
+    },
+    {
+      "id": "REF-R03-715-1",
+      "witness_id": "DCP-LETT-715",
+      "type": "unlocated_incoming",
+      "description": "OldFoxnote aboutEmma/baby, exactreceiptunknown.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-715",
+          "body_paragraph": 1,
+          "quote": "in your last note, an age since",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-715.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-715.xml",
+            "retrieved_at": "2026-09-16T10:53:37.340532+00:00",
+            "sha256": "5726441271529cd9cf5801b9c37d7a167106090e757d1b73043f781393737753",
+            "bytes": 112404,
+            "http_status": 200,
+            "etag": "\"460833edeea412a26158930e283aba1a\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-715"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null
+    }
+  ],
+  "corrections": [
+    "Six initialreports rejectedfor false unavailablebodyclaims; corrected03 fullreadings nowparentadjudicated.",
+    "Reject609→606selfreply; hold418→419uniqueantecedentunproven. No new Darwinpair.",
+    "364lackofnews,393visit,692publication/remark are not demonstrated incomingletters.",
+    "541Caroline/606Henslowreceipts retained;624/654originaladdresseeuncertain;418embeddedGaltonvoice/excisions retained."
+  ]
+}

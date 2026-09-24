@@ -1,0 +1,102 @@
+{
+  "batch_id": "pre-beagle-1828-1831",
+  "status": "completed",
+  "parent_outgoing_full_reads": 80,
+  "independent_outgoing_full_reads": 80,
+  "independent_incoming_full_reads": 34,
+  "outgoing_body_words": 36120,
+  "incoming_body_words": 19175,
+  "new_edges_by_type": {
+    "source_event_match": 1,
+    "knowledge_before": 54,
+    "replies_to": 47,
+    "receipt_without_reading": 1,
+    "refers_to_own_letter": 12
+  },
+  "new_unlocated_reference_nodes": 62,
+  "reference_nodes_are_distinct_letter_count": false,
+  "complete_surviving_prompt_pairs": 3,
+  "response_targets": 3,
+  "grounding_targets": 77,
+  "new_candidates": 19,
+  "incoming_voice_targets": 0,
+  "source_and_prior_evidence_checks": {
+    "reports/1828-1836/audit.jsonl": {
+      "sha256": "16150ddcd53971bc85536e4278d4c04e9aa5acc9af55e3edd2a94b60be17ef8f",
+      "unchanged": true
+    },
+    "reports/body-date-search-37-337/letters.jsonl": {
+      "sha256": "a533dcc3eaf5dc33b5e220c9efee02e39f54ae4e07099cb47d26e4799b8617c9",
+      "unchanged": true
+    },
+    "reports/post-return-1836/dossiers.jsonl": {
+      "sha256": "d21f81a9f2baced20f60b0017726865a24774683fb05c68bc1016065d63a0cb4",
+      "unchanged": true
+    },
+    "reports/post-return-1836/incoming-full-read/audit.json": {
+      "sha256": "6c61309defc448f7fd025a2376731d507e736beaea92e7899db0b45d09879cc6",
+      "unchanged": true
+    }
+  },
+  "all_prior_annotations_preserved": true,
+  "inputs": [
+    {
+      "path": "reports/pre-beagle-1828-1831/luna/fox.packet.json",
+      "sha256": "4bf0e427f3c4237f9b840510c208a93dd85f46a754bf808ae30fab55a43ca0a6"
+    },
+    {
+      "path": "reports/pre-beagle-1828-1831/luna/fox.review.json",
+      "sha256": "3d5ca1fff6251e772bfa28334a3c2d4fd73f23ec070cc2f1cc215e4cdf1dda62"
+    },
+    {
+      "path": "reports/pre-beagle-1828-1831/luna/fox.initial.review.json",
+      "sha256": "1b0c2d0e3c108c6072b6e7ccc178c78d6df972940f523bfc90fabde6e593edc5"
+    },
+    {
+      "path": "reports/pre-beagle-1828-1831/luna/voyage.packet.json",
+      "sha256": "a19b3fb0918f26ae32ca40bd5a58e6f8a9b43ab82222eecdcb93f11655cdf3fd"
+    },
+    {
+      "path": "reports/pre-beagle-1828-1831/luna/voyage.review.json",
+      "sha256": "ea4754d84030d577038e87acc19fab6c005b299f4267d556939ff0e1cfd3adb0"
+    },
+    {
+      "path": "reports/pre-beagle-1828-1831/luna/voyage.initial.review.json",
+      "sha256": "01b3d919755650834b325de77854d0ed39cd425ef904b3f0523d83dfc0d4ef45"
+    },
+    {
+      "path": "reports/pre-beagle-1828-1831/luna/family.packet.json",
+      "sha256": "d7d4d38f5cff452e08d3b7edcd1e506503fd0ac1ec58390deaf3b7ca7fea7a7b"
+    },
+    {
+      "path": "reports/pre-beagle-1828-1831/luna/family.review.json",
+      "sha256": "406c72be612e6412180c1b80429ad34254b8a7abbb754c4fcff1c98a53720b93"
+    },
+    {
+      "path": "reports/pre-beagle-1828-1831/luna/family.initial.review.json",
+      "sha256": "1b8a336a6f2417e13cadcc42c209da56784208896f1fc9dd512522124677e559"
+    },
+    {
+      "path": "reports/pre-beagle-1828-1831/manifest.json",
+      "sha256": "85194b20de6c771f1c6451e5baf68d9141396ec72b53b00d29943489f026c220"
+    },
+    {
+      "path": "reports/pre-beagle-1828-1831/initial_survey.json",
+      "sha256": "18e42d21dabcd96e138dd937cae06b91665ee9814d3b7734dd512e6906b98eb0"
+    },
+    {
+      "path": "reports/pre-beagle-1828-1831/parent_review.json",
+      "sha256": "41fc5ff77183ac92089e5589c66a16392741e241253640e8fe5029d1ea887e72"
+    },
+    {
+      "path": "reports/pre-beagle-1828-1831/source_packet.json",
+      "sha256": "4f5f672275678f08566b7e216f793f6e73947910986c521b7aff8302d1ea3831"
+    },
+    {
+      "path": "scripts/curate_pre_beagle_decisions.py",
+      "sha256": "7b371b42262caae0dd027d9c3a4df8634fba6f07cd4cdcf2bdf2a2c826572180"
+    }
+  ],
+  "training_performed": false,
+  "raft_export_performed": false
+}

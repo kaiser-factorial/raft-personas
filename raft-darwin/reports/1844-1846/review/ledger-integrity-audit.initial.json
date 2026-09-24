@@ -1,0 +1,141 @@
+{
+  "scope": {
+    "batches": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "11",
+      "12",
+      "14",
+      "16"
+    ],
+    "read_only": true
+  },
+  "source_hash_checks": {
+    "checked": 87,
+    "errors": 0
+  },
+  "primary_reading_coverage": {
+    "01": {
+      "expected_records": 14,
+      "body_read": 13,
+      "body_unavailable": 1,
+      "missing": []
+    },
+    "02": {
+      "expected_records": 17,
+      "body_read": 17,
+      "body_unavailable": 0,
+      "missing": []
+    },
+    "03": {
+      "expected_records": 13,
+      "body_read": 13,
+      "body_unavailable": 0,
+      "missing": []
+    },
+    "04": {
+      "expected_records": 15,
+      "body_read": 15,
+      "body_unavailable": 0,
+      "missing": []
+    },
+    "11": {
+      "expected_records": 9,
+      "body_read": 9,
+      "body_unavailable": 0,
+      "missing": []
+    },
+    "12": {
+      "expected_records": 7,
+      "body_read": 7,
+      "body_unavailable": 0,
+      "missing": []
+    },
+    "14": {
+      "expected_records": 4,
+      "body_read": 4,
+      "body_unavailable": 0,
+      "missing": []
+    },
+    "16": {
+      "expected_records": 8,
+      "body_read": 8,
+      "body_unavailable": 0,
+      "missing": []
+    }
+  },
+  "quote_checks": {
+    "checked": 120,
+    "not_found": 11
+  },
+  "supplemental": {
+    "parent_read_ids": 16,
+    "addendum_rows_applicable": 20,
+    "addendum_status": "missing_required_status_field",
+    "provenance": "parent-reading IDs are accepted evidence; v2 rows require explicit addendum status and complete current source hashes/sections."
+  },
+  "errors": [
+    {
+      "batch": "01",
+      "kind": "quote_not_found",
+      "quote_prefix": "This note has not been found."
+    },
+    {
+      "batch": "02",
+      "kind": "quote_not_found",
+      "quote_prefix": "Enclosed is a list of as far as I have gone with the Galapago Isld plants"
+    },
+    {
+      "batch": "02",
+      "kind": "quote_not_found",
+      "quote_prefix": "CD was returning Hooker\u2019s working list of Galapagos plants"
+    },
+    {
+      "batch": "02",
+      "kind": "quote_not_found",
+      "quote_prefix": "von den Rossschen kolossalen Grund-Messungen"
+    },
+    {
+      "batch": "02",
+      "kind": "quote_not_found",
+      "quote_prefix": "Wie viel Tage hielt wohl dieser Staubregen an?"
+    },
+    {
+      "batch": "02",
+      "kind": "quote_not_found",
+      "quote_prefix": "not until late July or August"
+    },
+    {
+      "batch": "04",
+      "kind": "quote_not_found",
+      "quote_prefix": "P\u00f6ppig 1835, 1: 367"
+    },
+    {
+      "batch": "04",
+      "kind": "quote_not_found",
+      "quote_prefix": "das Manuscript \u00fcber den Meteorstaub"
+    },
+    {
+      "batch": "04",
+      "kind": "quote_not_found",
+      "quote_prefix": "recht freundlich aufgenommen haben w\u00fcrden"
+    },
+    {
+      "batch": "04",
+      "kind": "quote_not_found",
+      "quote_prefix": "Feb. 1845. Hookers list of Society Isd includes about 250"
+    },
+    {
+      "batch": "16",
+      "kind": "quote_not_found",
+      "quote_prefix": "is written on the back of the folded letter."
+    },
+    {
+      "kind": "supplemental_addendum_status",
+      "detail": "scholarly-sections.v2.jsonl has no status=primary_supplemental_source_read_complete; it is not accepted as an addendum."
+    }
+  ],
+  "interpretation": "This verifies ledger/source integrity and recorded reading coverage; it does not re-adjudicate historical links or accept reviewer judgments."
+}

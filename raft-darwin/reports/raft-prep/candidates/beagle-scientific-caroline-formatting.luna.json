@@ -1,0 +1,308 @@
+{
+  "status": "candidate_only",
+  "scope": "Formatting-only candidate for admitted Beagle scientific-logistics-01 and caroline-01 groups. No relationship re-adjudication, accepted mutation or export.",
+  "method": "Used accepted primary notes/decisions and direct source HTML. Requirements target actual voice/date/figure/markup boundaries; quotes are feature-bearing body passages and source pins are hash-verified.",
+  "requirements": [
+    {
+      "source_id": "DCP-LETT-330",
+      "requirement": "Keep the Conservators report as a joint Robert Waring Darwin/Charles Darwin voice record, not a single author’s letter.",
+      "evidence": {
+        "source_id": "DCP-LETT-330",
+        "evidence_layer": "authorial_report_body",
+        "quote": "fossil Bones collected during the voyage",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-330.html",
+        "html_sha256": "ca4c4b1de31cf6ca846f39de906fb7a19414f03ec73ea9327b0ca7eb8f715193"
+      },
+      "render_status": "hold",
+      "notes": "Joint signatures Robt. FitzRoy and Charles Darwin are in the closing signature block; preserve that header/signature layer separately."
+    },
+    {
+      "source_id": "DCP-LETT-303",
+      "requirement": "Preserve the joint FitzRoy/Darwin signature and the separate dated sea section.",
+      "evidence": {
+        "source_id": "DCP-LETT-303",
+        "evidence_layer": "authorial_body",
+        "quote": "On the whole, balancing all that we have heard",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-303.html",
+        "html_sha256": "535f48725eaf92fd56488731f1a9a04588525e6b2545bfd2cca699cd684d7730"
+      },
+      "render_status": "hold",
+      "notes": "Do not flatten the joint voice into Charles alone."
+    },
+    {
+      "source_id": "DCP-LETT-285",
+      "requirement": "Retain the actual terrace/landscape image and its connection to the geological observation; do not export an image description as prose.",
+      "evidence": {
+        "source_id": "DCP-LETT-285",
+        "evidence_layer": "authorial_body",
+        "quote": "The recent elevation of the land above the level of the ocean is shown by beds of shells",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-285.html",
+        "html_sha256": "faad57337a19fe2c82a3a92a91ca3d8ff1f0c5ff5ea6f6c2f9a564f7387040e0"
+      },
+      "render_status": "planned_repair",
+      "notes": "Accepted source visual must remain separate from authorial text."
+    },
+    {
+      "source_id": "DCP-LETT-153",
+      "requirement": "Keep this multi-author family input sequence and address/receipt wording distinct from Caroline’s own voice.",
+      "evidence": {
+        "source_id": "DCP-LETT-153",
+        "evidence_layer": "authorial_body",
+        "quote": "Papa’s eyes were full of tears",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-153.html",
+        "html_sha256": "d4285a45db8a38c42ab457bad6ca323803d4f9b6319d4a94688bafa1baf1e88c"
+      },
+      "render_status": "hold",
+      "notes": "The body relays family reactions and reported Captain detail."
+    },
+    {
+      "source_id": "DCP-LETT-164",
+      "requirement": "Preserve the April 3 section date and separate the prior Bahia departure; do not collapse voyage dates.",
+      "evidence": {
+        "source_id": "DCP-LETT-164",
+        "evidence_layer": "authorial_body",
+        "quote": "tomorrow the 3d of April we expect to arrive",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-164.html",
+        "html_sha256": "f5b3fdcd45d54184806e4b56ef0270c10838d2d9d2426770e8b67dc7174ec954"
+      },
+      "render_status": "hold",
+      "notes": "The body contains route and illness chronology, not a single undifferentiated date."
+    },
+    {
+      "source_id": "DCP-LETT-188",
+      "requirement": "Keep the October 24 section and its later continuation distinct from the July/November family dates.",
+      "evidence": {
+        "source_id": "DCP-LETT-188",
+        "evidence_layer": "authorial_body",
+        "quote": "We are now October 24th",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-188.html",
+        "html_sha256": "3d30a1cc3d9162bc77a264914bdedcb84e90c7f2cc573fe44d08e1b08a0ae999"
+      },
+      "render_status": "hold",
+      "notes": "Composition, arrival and later referenced correspondence remain separate."
+    },
+    {
+      "source_id": "DCP-LETT-253",
+      "requirement": "Preserve the August 9 date and receipt of Caroline’s March 9 letter as distinct events.",
+      "evidence": {
+        "source_id": "DCP-LETT-253",
+        "evidence_layer": "authorial_body",
+        "quote": "I received your letter, dated March 9th. the day before yesterday",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-253.html",
+        "html_sha256": "2a5959451b5b9579b89fb08e8e102a634a71b1b5953f41f772f585cd92d8fb36"
+      },
+      "render_status": "hold",
+      "notes": "The incoming letter date and Darwin’s writing date must not be merged."
+    },
+    {
+      "source_id": "DCP-LETT-281",
+      "requirement": "Render the July interval as an interval and retain the statement that three months of letters were missing.",
+      "evidence": {
+        "source_id": "DCP-LETT-281",
+        "evidence_layer": "authorial_body",
+        "quote": "I have received the three months letters which were missing",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-281.html",
+        "html_sha256": "40db4386f8cf11bfcdb3b372494fe8321993e58c9d479f270fd90eb84cbe1929"
+      },
+      "render_status": "hold",
+      "notes": "The body establishes a mail gap and expected future letters, not exact physical receipt."
+    },
+    {
+      "source_id": "DCP-LETT-166",
+      "requirement": "Preserve the sealed-first-letter/together dispatch sequence and weekday/date layer without selecting an unsupported exact day.",
+      "evidence": {
+        "source_id": "DCP-LETT-166",
+        "evidence_layer": "authorial_body",
+        "quote": "I had sealed up the first letter, all ready to be sent off during my absence",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-166.html",
+        "html_sha256": "3f4bd37730990e54f15bfbb5ba0f65f10cdc9aa546187c9a676a97154abd6fb7"
+      },
+      "render_status": "hold",
+      "notes": "The two letters go together; the body does not prove receipt."
+    },
+    {
+      "source_id": "DCP-LETT-173",
+      "requirement": "Keep the family letter’s recurring first-Tuesday dispatch schedule separate from received-letter claims.",
+      "evidence": {
+        "source_id": "DCP-LETT-173",
+        "evidence_layer": "authorial_body",
+        "quote": "we have written by the first of Tuesday of every month",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-173.html",
+        "html_sha256": "92dbec231f7a3bfda99592d60cba1adfe5985e612507c7ad712b1f45d6b95253"
+      },
+      "render_status": "hold",
+      "notes": "Planned monthly dispatch is not evidence of Darwin receipt or reading."
+    },
+    {
+      "source_id": "DCP-LETT-305",
+      "requirement": "Preserve the embedded editorial cover label and unopened/forwarding mail distinction.",
+      "evidence": {
+        "source_id": "DCP-LETT-305",
+        "evidence_layer": "authorial_body",
+        "quote": "I will leave this letter at Ascencion to take its chance of being forwarded",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/receipt-case-301-306/DCP-LETT-305.html",
+        "html_sha256": "2149c9330597936cfe78099cd4106ed4cb4a4b0a77be09949770ed56267bf2f5"
+      },
+      "render_status": "hold",
+      "notes": "The body is Darwin’s outgoing forwarding plan; any cover annotation remains outside it."
+    },
+    {
+      "source_id": "DCP-LETT-239",
+      "requirement": "Keep Erasmus’s reported financial message and Caroline’s surrounding narrative as separate voices.",
+      "evidence": {
+        "source_id": "DCP-LETT-239",
+        "evidence_layer": "authorial_body",
+        "quote": "My Father desires his kindest love to you",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-239.html",
+        "html_sha256": "81850d385d9e8baf77ae456751b3cd09ade21cb5ff5b5ddf4904fb309ca7d434"
+      },
+      "render_status": "hold",
+      "notes": "Family relay is not Caroline-authored fact or a Darwin response."
+    },
+    {
+      "source_id": "DCP-LETT-291",
+      "requirement": "Preserve Henslow’s quoted note as third-party correspondence and later knowledge, not as a direct Caroline prompt.",
+      "evidence": {
+        "source_id": "DCP-LETT-291",
+        "evidence_layer": "authorial_body",
+        "quote": "a note came to my Father on Xmas day from Profr. Henslow",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-291.html",
+        "html_sha256": "0251b372e9872b80323032ddb1f3dc2813878c902b0bd97563767f686221cef4"
+      },
+      "render_status": "hold",
+      "notes": "The quoted note is an independent incoming witness with its own date and voice."
+    }
+  ],
+  "source_pins": [
+    {
+      "source_id": "DCP-LETT-330",
+      "evidence_layer": "authorial_body",
+      "quote": "Robt. FitzRoy Charles Darwin",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-330.html",
+      "html_sha256": "ca4c4b1de31cf6ca846f39de906fb7a19414f03ec73ea9327b0ca7eb8f715193"
+    },
+    {
+      "source_id": "DCP-LETT-303",
+      "evidence_layer": "authorial_body",
+      "quote": "On the whole, balancing all that we have heard",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-303.html",
+      "html_sha256": "535f48725eaf92fd56488731f1a9a04588525e6b2545bfd2cca699cd684d7730"
+    },
+    {
+      "source_id": "DCP-LETT-285",
+      "evidence_layer": "authorial_body",
+      "quote": "The recent elevation of the land above the level of the ocean is shown by beds of shells",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-285.html",
+      "html_sha256": "faad57337a19fe2c82a3a92a91ca3d8ff1f0c5ff5ea6f6c2f9a564f7387040e0"
+    },
+    {
+      "source_id": "DCP-LETT-153",
+      "evidence_layer": "authorial_body",
+      "quote": "Papa’s eyes were full of tears",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-153.html",
+      "html_sha256": "d4285a45db8a38c42ab457bad6ca323803d4f9b6319d4a94688bafa1baf1e88c"
+    },
+    {
+      "source_id": "DCP-LETT-164",
+      "evidence_layer": "authorial_body",
+      "quote": "tomorrow the 3d of April we expect to arrive",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-164.html",
+      "html_sha256": "f5b3fdcd45d54184806e4b56ef0270c10838d2d9d2426770e8b67dc7174ec954"
+    },
+    {
+      "source_id": "DCP-LETT-188",
+      "evidence_layer": "authorial_body",
+      "quote": "We are now October 24th",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-188.html",
+      "html_sha256": "3d30a1cc3d9162bc77a264914bdedcb84e90c7f2cc573fe44d08e1b08a0ae999"
+    },
+    {
+      "source_id": "DCP-LETT-253",
+      "evidence_layer": "authorial_body",
+      "quote": "I received your letter, dated March 9th. the day before yesterday",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-253.html",
+      "html_sha256": "2a5959451b5b9579b89fb08e8e102a634a71b1b5953f41f772f585cd92d8fb36"
+    },
+    {
+      "source_id": "DCP-LETT-281",
+      "evidence_layer": "authorial_body",
+      "quote": "I have received the three months letters which were missing",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-281.html",
+      "html_sha256": "40db4386f8cf11bfcdb3b372494fe8321993e58c9d479f270fd90eb84cbe1929"
+    },
+    {
+      "source_id": "DCP-LETT-166",
+      "evidence_layer": "authorial_body",
+      "quote": "I had sealed up the first letter, all ready to be sent off during my absence",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-166.html",
+      "html_sha256": "3f4bd37730990e54f15bfbb5ba0f65f10cdc9aa546187c9a676a97154abd6fb7"
+    },
+    {
+      "source_id": "DCP-LETT-173",
+      "evidence_layer": "authorial_body",
+      "quote": "we have written by the first of Tuesday of every month",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-173.html",
+      "html_sha256": "92dbec231f7a3bfda99592d60cba1adfe5985e612507c7ad712b1f45d6b95253"
+    },
+    {
+      "source_id": "DCP-LETT-305",
+      "evidence_layer": "authorial_body",
+      "quote": "I will leave this letter at Ascencion to take its chance of being forwarded",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/receipt-case-301-306/DCP-LETT-305.html",
+      "html_sha256": "2149c9330597936cfe78099cd4106ed4cb4a4b0a77be09949770ed56267bf2f5"
+    },
+    {
+      "source_id": "DCP-LETT-239",
+      "evidence_layer": "authorial_body",
+      "quote": "My Father desires his kindest love to you",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-239.html",
+      "html_sha256": "81850d385d9e8baf77ae456751b3cd09ade21cb5ff5b5ddf4904fb309ca7d434"
+    },
+    {
+      "source_id": "DCP-LETT-291",
+      "evidence_layer": "authorial_body",
+      "quote": "a note came to my Father on Xmas day from Profr. Henslow",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-291.html",
+      "html_sha256": "0251b372e9872b80323032ddb1f3dc2813878c902b0bd97563767f686221cef4"
+    }
+  ],
+  "recommendations": [
+    "Keep joint and family-reported voices, headers, cover annotations, embedded reports and quotations separate.",
+    "Preserve actual figures and date sections; do not infer receipt from planned dispatch or recurring schedules.",
+    "Treat repeated wording as a possible source artifact only when demonstrated; otherwise retain literal text or hold."
+  ],
+  "input_hashes": {
+    "data/annotations/beagle-voyage/scientific-logistics-01.primary.json": "9f3ab3952f1f6495521bfb8f8450301598d43ae1d810f0516d7a2f4e0eecb3a2",
+    "data/annotations/beagle-voyage/caroline-01.primary.json": "c078584f6eba864d1313a8651936a777629abc0b5a42d44e44a1045484c0b553",
+    "reports/beagle-voyage-review/parent-reading/scientific-logistics-01.primary.json": "93d6460f0819796790289ecdf908d65f41b1deac1f1f179dddc4b7dc5cd1d487",
+    "reports/beagle-voyage-review/parent-reading/caroline-01.primary.json": "9306e2738d14bb128f76d7e7452dbf1e9977dc2fadad00a783b26663533ffb8b",
+    "reports/beagle-voyage-review/parent-decisions/scientific-logistics-01.primary.json": "c5d0fb1c043762342e8ed75c66c9a66b4adcdcd1fa2567410ac3c21033ee479d",
+    "reports/beagle-voyage-review/parent-decisions/caroline-01.primary.json": "065d1322fb78fafc1bf24ebb967f9c2e9690fba531c0500b49fe3f71ab80ad26"
+  }
+}

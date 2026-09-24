@@ -1,0 +1,103 @@
+# raft-personas — allowlist: nothing is tracked unless named here.
+# A new persona dropped into this folder stays OUT until it is added on purpose;
+# that is the point. ai-panic/ and sylvia_maath/ are scraped writing by living
+# authors and must not be published without their say; effort/ is empty.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/NOTICE.md
+!/LICENSES/
+!/raft-darwin/
+
+# ---------- junk ----------
+.DS_Store
+__pycache__/
+*.pyc
+*.tmp
+*.swp
+
+# ---------- sensitive: never, anywhere ----------
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.netrc
+*secret*
+*credential*
+opbdh.json
+.opbdh/
+.claude/
+
+# ============ inside raft-darwin ============
+
+# ---------- RUN 2 (post-Origin -> 1868) IS STILL BEING WRITTEN: hands off ----------
+# Add these in a follow-up once the run has finished. Nothing here is read,
+# moved or zipped by the import.
+/raft-darwin/reports/1859-post-origin/
+/raft-darwin/reports/1860/
+/raft-darwin/reports/1861/
+/raft-darwin/reports/1862/
+/raft-darwin/reports/1863/
+/raft-darwin/reports/1864/
+/raft-darwin/reports/1865/
+/raft-darwin/reports/1866/
+/raft-darwin/reports/1867/
+/raft-darwin/reports/1868/
+/raft-darwin/reports/research/
+/raft-darwin/reports/raft-prep/run-02*/
+# One writer for shared status and accepted annotations; live during run 2.
+/raft-darwin/data/annotations/
+
+# ---------- not retained: the corpus itself (see EXCLUDED_MANIFEST.json) ----------
+# Pair records, provenance, verdicts and ledgers ARE tracked; the bulk text they
+# were derived from is not, and the manifest says how to rebuild or verify it.
+/raft-darwin/data/raw/
+*.pdf
+/raft-darwin/reports/raft-prep/rendered-staging.working.json
+/raft-darwin/reports/raft-export/inputs/rendered-staging.json
+
+# ---------- regenerable / scratch ----------
+chroma/
+chroma.pristine/
+*.sqlite3
+/raft-darwin/darwin_split_arm3/
+**/corpus/chunks.jsonl
+**/conversations/finetune.json
+**/conversations/finetune.openai.jsonl
+**/conversations/hf-run/
+
+# ---------- completed-period bulk (>=5MB, regenerable by scripts/prepare_*.py) ----------
+# Exact paths so the small hand-curated files sharing these names stay tracked.
+/raft-darwin/reports/1837-1843/audit.jsonl
+/raft-darwin/reports/1837-1843/remaining-review/all_letters.jsonl
+/raft-darwin/reports/1837-1843/remaining-review/letters.jsonl
+/raft-darwin/reports/1844-1846/ambiguous_or_later.jsonl
+/raft-darwin/reports/1844-1846/audit.jsonl
+/raft-darwin/reports/1844-1846/discovery_audit.jsonl
+/raft-darwin/reports/1844-1846/review/all_letters.jsonl
+/raft-darwin/reports/1844-1846/review/letters.jsonl
+/raft-darwin/reports/1847-1850/ambiguous_or_later.jsonl
+/raft-darwin/reports/1847-1850/audit.jsonl
+/raft-darwin/reports/1847-1850/discovery_audit.jsonl
+/raft-darwin/reports/1847-1850/review/all_letters.jsonl
+/raft-darwin/reports/1847-1850/review/letters.jsonl
+/raft-darwin/reports/1851-1855/ambiguous_or_later.jsonl
+/raft-darwin/reports/1851-1855/audit.jsonl
+/raft-darwin/reports/1851-1855/discovery_audit.jsonl
+/raft-darwin/reports/1851-1855/review/all_letters.jsonl
+/raft-darwin/reports/1851-1855/review/letters.jsonl
+/raft-darwin/reports/1856-1857/ambiguous_or_later.jsonl
+/raft-darwin/reports/1856-1857/audit.jsonl
+/raft-darwin/reports/1856-1857/discovery_audit.jsonl
+/raft-darwin/reports/1856-1857/review/all_letters.jsonl
+/raft-darwin/reports/1856-1857/review/letters.jsonl
+/raft-darwin/reports/1858-1859/ambiguous_or_later.jsonl
+/raft-darwin/reports/1858-1859/audit.jsonl
+/raft-darwin/reports/1858-1859/discovery_audit.jsonl
+/raft-darwin/reports/1858-1859/review/all_letters.jsonl
+/raft-darwin/reports/1858-1859/review/letters.jsonl

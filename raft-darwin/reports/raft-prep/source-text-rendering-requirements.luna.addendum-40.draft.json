@@ -1,0 +1,205 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batches 18–19 source-text rendering, chronology, attribution, receipt and enclosure requirements only; candidate for root review. No converter, export, transcript, corpus, training or primary evidence changes.",
+  "primary_provenance": {
+    "batches": {
+      "batch-18": {
+        "reading": {
+          "path": "reports/1856-1857/review/parent-reading/batch-18.json",
+          "sha256": "557746e9654dba5e6164b4ccc1b997b2e27fdee2b8a7c6e628556f1eba82d7df"
+        },
+        "decisions": {
+          "path": "reports/1856-1857/review/parent-decisions/batch-18.json",
+          "sha256": "f741164426876ea6158397cd0f9ed0be989d58e782a8cc79bf6844749c6e6149"
+        },
+        "ledger": {
+          "path": "data/annotations/periods/1856-1857/batch-18.json",
+          "sha256": "a65743b556c32de56c604e8f113446b22f181fcf44edac012cb91125d0ab1bd5"
+        }
+      },
+      "batch-19": {
+        "reading": {
+          "path": "reports/1856-1857/review/parent-reading/batch-19.json",
+          "sha256": "df14bf056cb45479894fa72a107d464bd7d0f34ceda552bfeea87d4f207b081b"
+        },
+        "decisions": {
+          "path": "reports/1856-1857/review/parent-decisions/batch-19.json",
+          "sha256": "037cd33ca24cc67252aeb59065d34f6c42403d2d445a3e915b008dbaa222c403"
+        },
+        "ledger": {
+          "path": "data/annotations/periods/1856-1857/batch-19.json",
+          "sha256": "5002de0e51422c659c089dc82a6939c24564d945dc9dd7d41f5f087df0b6753a"
+        }
+      }
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-11267",
+        "DCP-LETT-2005"
+      ],
+      "case": "corrected reverse and anther qualification",
+      "requirement": "Preserve 11267 as the Bentham incoming response that retracts the earlier Arachis/Stylosanthes examples and supplies particular apetalous-legume cases; its relationship to 2005 is a reverse reply, not a generic continuity. Render “almost but not quite” anthers as qualified evidence: absence of visible anthers does not mean absence of pollen. Keep British violets and Russian observations distinct from Darwin annotations.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-2005",
+          "quote": "almost without anthers",
+          "retained_body_scope": "retained P2; raw DOM body locator to be resolved before implementation",
+          "dom_xpath": null
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-11267",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-11267.html",
+          "html_sha256": "6b3dda39b1fd441c7ec72cc0390ffd169766a77aa4c484ffb91e5e0eccfd74cc",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-11267.xml",
+          "xml_sha256": "2cf5ed4000307333eab09a5e5c57167ec90afcbe6801fd695bb00f28882461e0"
+        },
+        {
+          "letter_id": "DCP-LETT-2005",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2005.html",
+          "html_sha256": "b6bc30e7140b9f31d1dc714d56164f233f003bdd520641b0e323b500eda4781a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2005.xml",
+          "xml_sha256": "a2e7c22a1ea9a6401e174c4ce4fdea3d958ac7b934462cc9e320af3c871e0f1f"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2186",
+        "DCP-LETT-1617",
+        "DCP-LETT-1871"
+      ],
+      "case": "missing annotated lists and Darwin key",
+      "requirement": "Keep 2186’s damaged return of two lists separate from the absent annotated list rows: physical metadata mentioning Darwin lists does not supply an enclosure, figures or detailed entries. Likewise 1617 is Darwin’s key/memo with Bunbury marks and addenda quoted in apparatus, not ordinary Bunbury incoming prose; the full 96-species list is not transcribed. In 1871 retain plain “110” with no MathML and its rendering hold.",
+      "evidence": [],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2186",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2186.html",
+          "html_sha256": "10fa8c3518bb44a034c60770d96da5929ba507282e0163b217cd10918de5f620",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2186.xml",
+          "xml_sha256": "fb88a51ab4eb4323b939e400f9571a98f1941eb32b564394f312f6608fbf6501"
+        },
+        {
+          "letter_id": "DCP-LETT-1617",
+          "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1617.html",
+          "html_sha256": "a6d79b394a9918e0d1df5ea9be002af17ca432a90c1bba28b2240a3aafb93b30",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-1617.xml",
+          "xml_sha256": "6d6efdf4c1477dd34c002a1a66a75789584b56c0dfe81b467a083edb9f1cb846"
+        },
+        {
+          "letter_id": "DCP-LETT-1871",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1871.html",
+          "html_sha256": "3424e7439d83c189d52277bd8c663628e428aa53fdf6e8b476c99cab7ac2a00f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1871.xml",
+          "xml_sha256": "72e92dd703dce231aa1613fc8b15e51202f3fb0a283d29c71262cf448eeea676"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1830",
+        "DCP-LETT-1854"
+      ],
+      "case": "damaged Bunbury sources and quoted Hooker voice",
+      "requirement": "Render 1830 as a damaged six-page ALS with its surviving Colletia discussion, uncertain seed origin and hearsay about Darwin’s views; preserve the conflicting botanical author descriptions (Duval/Dunal/apparatus) without choosing one silently. In 1854, keep Joseph Hooker’s quoted reply distinct from Bunbury’s inference and from undated Darwin notes; the cited incoming letter remains missing and the surviving letter ends mid-sentence.",
+      "evidence": [],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1830",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1830.html",
+          "html_sha256": "c62604081ec537ad1e7f3ab74c163700bc8121f51886277a849e90e6c6aa7f10",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1830.xml",
+          "xml_sha256": "0c67dd5fb9d218ac237e6cf2986c66cb281f519b30600889a8b9d02b32c48b6f"
+        },
+        {
+          "letter_id": "DCP-LETT-1854",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1854.html",
+          "html_sha256": "1b8d82d048699712d6680f4d863ac0f085701d19d73b2cfdd78fab436cdaecc9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1854.xml",
+          "xml_sha256": "5a1ebdc12f6dac5cd9fec98bd0f6034627d5260fd04d6eab00d1d0eeef10b5b4"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1852A"
+      ],
+      "case": "Lowe contemporary Lyell copy and uncertain counts",
+      "requirement": "Preserve 1852A as a contemporary Lyell copy of Lowe’s missing original, with uncertain Porto Santo totals, overlapping categories and explicitly qualified endemic estimates. The April 21 knowledge relation comes from Darwin’s marginal/context evidence, not an exact Lowe receipt or copying date; do not flatten doubtful ranges into exact counts or treat the flora plan as a finished received book.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-1852A",
+          "quote": "I believe",
+          "retained_body_scope": "retained body scope; raw DOM locator to be resolved before implementation",
+          "dom_xpath": null
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1852A",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1852A.html",
+          "html_sha256": "5ae25cd152fc1f0e8ff9b6c590a39192e7e11b03f8056e4c5ceb984f0a59e0d9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1852A.xml",
+          "xml_sha256": "a7d2feed1b7287476559e3c1479b239b3ed33812d1e99bd5f425642d00510c85"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2037F",
+        "DCP-LETT-2032",
+        "DCP-LETT-2047"
+      ],
+      "case": "Doubleday complete F source, missing opening and larval evidence",
+      "requirement": "Treat 2037F as a complete short ALS despite the F suffix. Preserve 2032’s missing opening and January 26–February 4 relational bounds; the February 5 reply 2047 answers a surviving local-variation portion but cannot reconstruct the absent opening or enclosure list. Keep 2047’s separate February 8 Darwin note as a known-by witness, not exact receipt. Similar-looking larvae and indiscriminate mating support conspecificity only contingently; they do not prove all forms came from one clutch.",
+      "evidence": [],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2037F",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2037F.html",
+          "html_sha256": "b72acdcbbcc06d70259bf5fd2a2cfe2cc27a92175cecf0d8d1c0c14edb8ce3a9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2037F.xml",
+          "xml_sha256": "888f29359db8f16df1e45b746e9d359d5023ce374a4400b18d576ff42b00709a"
+        },
+        {
+          "letter_id": "DCP-LETT-2032",
+          "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2032.html",
+          "html_sha256": "dc48fd35f333030ac1c149d8065d9ae3fac88f8357bd3874b4dd5084bee32771",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-2032.xml",
+          "xml_sha256": "9b6dce4f4101832c29d39a75a280116500b1416b007050f5853fbd376548b2e4"
+        },
+        {
+          "letter_id": "DCP-LETT-2047",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2047.html",
+          "html_sha256": "22ef844ee62e1147aedb54e599f0ec86d3f26ad996f2cebc494bb0e19fc976fb",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2047.xml",
+          "xml_sha256": "d3a27be9081a8b4ff2be39c26ce10bd9b2da104febc6310998dfc4018cd2a9b6"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Retained paragraph scopes and raw DOM paths are separate and must be preserved.",
+    "Keep copied text, quoted voices, annotations, missing enclosures, receipt and date bounds independently addressable.",
+    "Requirements do not create acceptance or export readiness."
+  ],
+  "notes": [
+    "The 11267→2005 reverse edge is retained as accepted primary context; no duplicate graph edge is created.",
+    "The plain 110 rendering hold remains explicit because no MathML is present."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/all_letters.jsonl",
+      "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+    },
+    {
+      "path": "reports/1856-1857/audit.jsonl",
+      "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+    }
+  ]
+}

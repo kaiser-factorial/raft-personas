@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "status": "clear_unit_numeric_currency_review",
+  "scope": "Read-only review of clear grounding units for flattened currency/numeric notation; no staging or export edits.",
+  "scan_result": {
+    "staged_grounding_units_scanned": 1473,
+    "comparable_implausible_runs_found": 0,
+    "ordinary_years_accession_numbers_and_true_quantities_ignored": true
+  },
+  "findings": [
+    {
+      "source_id": "DCP-LETT-2357",
+      "paragraph": 1,
+      "literal": "draft for 10100 for the Down charities",
+      "html_evidence": {
+        "path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2357.html",
+        "sha256": "05f6083a8c23e42b41f481748021ee6150607ac5c0c6b97d1bf2f6be83571b38",
+        "excerpt": "<p>I beg leave to acknowledge &amp; thank you for the draft for 10100&nbsp;for the Down charities.<sup ...>",
+        "markup_observation": "10100 is plain text; no currency or superscript markup supplies a defensible decomposition."
+      },
+      "staging_evidence": {
+        "rendered": "I beg leave to acknowledge & thank you for the draft for 10100 for the Down charities.",
+        "source_sha256": "05f6083a8c23e42b41f481748021ee6150607ac5c0c6b97d1bf2f6be83571b38",
+        "transformations": [
+          {
+            "old_start": 62,
+            "old_end": 63,
+            "original": " ",
+            "rendered": " ",
+            "kind": "source_markup_projection"
+          }
+        ]
+      },
+      "assessment": "The run may represent historical currency notation flattened by the source projection, but the preserved HTML and accepted nearby evidence do not establish whether it means £10 10s 0d, £10,100, or another notation.",
+      "action": "hold_for_source_level_currency_verification",
+      "do_not_repair_to": "£10 10s 0d"
+    }
+  ],
+  "no_export": true
+}

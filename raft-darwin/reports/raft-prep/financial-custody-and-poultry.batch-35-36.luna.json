@@ -1,0 +1,191 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Batches 35–36 additive financial-custody, draft-list and poultry formatting/date/provenance requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "batches": {
+      "reports/1851-1855/review/parent-reading/batch-35.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-35.json",
+        "sha256": "372ff627f3ddd171bdc7dcfab82c013c880fae63d14e0148893d5cbbb0b1e0db"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-35.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-35.json",
+        "sha256": "eb997195157aeaee11d3a92a91786580e6c9d3ee2cade7ed6108d72356017bfc"
+      },
+      "reports/1851-1855/review/parent-reading/batch-36.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-36.json",
+        "sha256": "6eabd5bf1137f8329ec342604ae14110ade8d09b02764714b13db76427622193"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-36.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-36.json",
+        "sha256": "013f4c5a6630bd8b085fd24571a594d6f8094eaccb9565e587883165af7fdc87"
+      }
+    },
+    "ledgers": {
+      "data/annotations/periods/1851-1855/batch-35.json": "6da624347bb1b5a5a40ef7d04b42cfc9967dac1d1ddaca99d5f33410073974f3",
+      "data/annotations/periods/1851-1855/batch-36.json": "9ea9dea09377f10e06eb0222cf7b45e91c13a1fadb26deb0702df2fcc20d8f4b"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1466G",
+        "DCP-LETT-1490",
+        "DCP-LETT-1503"
+      ],
+      "case": "reopened postscript instruction and damaged financial accounts",
+      "requirement": "Preserve 1466G’s main conditional withdrawal and reopened P.S. as successive Darwin instructions; the last request does not erase the earlier reasoning. Preserve 1490’s raw diag/ramme account layout, pounds/shillings/pence columns and amount disagreement without arithmetic repair. Preserve 1503’s 84 versus 86 discrepancy and 180 versus 170 comparison as source-layer conflicts; do not reconstruct missing Salt notes or confirmations.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1466G",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1466G.html",
+          "source_html_sha256": "dd1a26441fb5c8649f9862e2d87a7a83d59ae053d8948bc7187f181763342166",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1466G.xml",
+          "xml_sha256": "998520647154ae4a53356cf4d79961978e17d637406a539b7c89b4c6acdc7d45"
+        },
+        {
+          "letter_id": "DCP-LETT-1490",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1490.html",
+          "source_html_sha256": "9cc548888d03127db460b338a188918f8290f64e254d04f01f5e724a06a83e4a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1490.xml",
+          "xml_sha256": "52eef2da04827f238bef0fb8192db10a14dfa97578e5e0d13d98498a8a31cb4a"
+        },
+        {
+          "letter_id": "DCP-LETT-1503",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1503.html",
+          "source_html_sha256": "c22135bd4926bd3563b30bd47e365b6e9a5d09cde379df885154c737bde7b42b",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1503.xml",
+          "xml_sha256": "20ef9f8aa92789233b2bcfd15965f230b965152ed510c1ac365c137fc6ad2711"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1466G",
+          "body_paragraph": 2,
+          "quote": "I yesterday sent a note to Mr Jos. Wedgwood to be forwarded to you",
+          "source_sha256": "dd1a26441fb5c8649f9862e2d87a7a83d59ae053d8948bc7187f181763342166",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1466G",
+          "body_paragraph": 5,
+          "quote": "upon further reflexion, I will request you",
+          "source_sha256": "dd1a26441fb5c8649f9862e2d87a7a83d59ae053d8948bc7187f181763342166",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-1490",
+          "body_paragraph": 1,
+          "quote": "From Trustees to me diag 1851.",
+          "source_sha256": "9cc548888d03127db460b338a188918f8290f64e254d04f01f5e724a06a83e4a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[1]"
+        },
+        {
+          "letter_id": "DCP-LETT-1503",
+          "body_paragraph": 7,
+          "quote": "the income ought to have been £180, but I received only £170",
+          "source_sha256": "c22135bd4926bd3563b30bd47e365b6e9a5d09cde379df885154c737bde7b42b",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1812"
+      ],
+      "case": "draft and separately glued or pinned revised lists",
+      "requirement": "Treat 1812 as a draft plus separately attached/glued/pinned lists and later pencil additions. Keep the procurement instruction and later lists in distinct physical and temporal layers; do not apply one reconstructed December 1855 timestamp to the whole composite or convert prospective reports into received specimens. Preserve list order and wording.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1812",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1812.html",
+        "source_html_sha256": "3987d1c0a2e398a82169faf0b013ef5edb4f07dde82eb9af731fa2677c803b68",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1812.xml",
+        "xml_sha256": "ee3f53776b91177def8fb5f10546fef3b952572fdddb855462bb5370f731eb48"
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1812",
+          "body_paragraph": 1,
+          "quote": "I have written to for Pigeon & Poultry Skins",
+          "source_sha256": "3987d1c0a2e398a82169faf0b013ef5edb4f07dde82eb9af731fa2677c803b68",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]"
+        },
+        {
+          "letter_id": "DCP-LETT-1812",
+          "body_paragraph": 7,
+          "quote": "Rob. Swinhoe has promised specs from Amoy.",
+          "source_sha256": "3987d1c0a2e398a82169faf0b013ef5edb4f07dde82eb9af731fa2677c803b68",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1754",
+        "DCP-LETT-1791",
+        "DCP-LETT-1788"
+      ],
+      "case": "acknowledged note versus pamphlet, specimen dispatch and physical availability",
+      "requirement": "Keep 1754’s forwarded note separate from the absent pamphlet and unproved reading. Keep 1791’s canines as sent but not yet safely received, while the offered Indian jungle-fowl head is physically available by witness; do not infer receipt or read 1746 from this. Preserve 1788’s completed visit and ordered pigeons versus two ducks actually brought home. The 1788 raw 1100th has no fraction markup and must remain unresolved pending an authoritative witness; do not silently normalize it.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1754",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1754.html",
+          "source_html_sha256": "af430ef91ee31b9b9c31a7a64c61faa83cd9eebe37b011efea4516d781534504",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1754.xml",
+          "xml_sha256": "08cf1dfc4676578b1e96d8983b2c8dc93856661aced9bf138fba283faa6c7567"
+        },
+        {
+          "letter_id": "DCP-LETT-1791",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1791.html",
+          "source_html_sha256": "ee619365c7d3ff18b8a6f0289e6b5e70481d53708fe05977bee667786f49d130",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1791.xml",
+          "xml_sha256": "c0d8b4c2f2fab2537106b19f9961b4e895bfd085f9901d3a77942c2f32e99b96"
+        },
+        {
+          "letter_id": "DCP-LETT-1788",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1788.html",
+          "source_html_sha256": "6241493a8e4a305f9f731fdc91aad459885b00d36ab61a75827caeec5ed72a9a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1788.xml",
+          "xml_sha256": "83654f177f129957f3ba07c5242624148cc66137d781e4884e598fbffa26258e"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1754",
+          "body_paragraph": 1,
+          "quote": "Your most kind note has been forwarded to me here, but not your pamphlet.",
+          "source_sha256": "af430ef91ee31b9b9c31a7a64c61faa83cd9eebe37b011efea4516d781534504",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1791",
+          "body_paragraph": 1,
+          "quote": "sending me the canines, & which I hope will arrive safely",
+          "source_sha256": "ee619365c7d3ff18b8a6f0289e6b5e70481d53708fe05977bee667786f49d130",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1791",
+          "body_paragraph": 2,
+          "quote": "Would you like to examine the head of my wild Jungle Fowl from India?",
+          "source_sha256": "ee619365c7d3ff18b8a6f0289e6b5e70481d53708fe05977bee667786f49d130",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1788",
+          "body_paragraph": 2,
+          "quote": "ordered some pigeons & brought home two curious Ducks",
+          "source_sha256": "6241493a8e4a305f9f731fdc91aad459885b00d36ab61a75827caeec5ed72a9a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ]
+    }
+  ],
+  "validation_plan": {
+    "quote_validator": "scripts/period_review.py check_quotes",
+    "exact_source_evidence_count": 10,
+    "actual_dom_method": "Each locator is the unique preserved HTML p node containing the literal quote, resolved with lxml getpath; no generic locator.",
+    "verification_uncertainty": "1788’s 1100th is preserved raw text without fraction markup; no normalized denominator is proposed."
+  }
+}

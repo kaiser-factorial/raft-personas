@@ -1,0 +1,242 @@
+{
+  "status": "candidate_only",
+  "scope": "Formatting-only candidate for accepted herbert-fitzroy-family-01. No link re-adjudication, accepted mutation or export.",
+  "method": "Used accepted group provenance and direct preserved source HTML. Requirements target actual feature-bearing text, dates, headers, embedded quotations, MathML/fractions, enclosures and voice boundaries.",
+  "requirements": [
+    {
+      "source_id": "DCP-LETT-158",
+      "requirement": "Preserve the multipart voyage body and its receipt/endorsement claims as separate dated sections.",
+      "evidence": {
+        "source_id": "DCP-LETT-158",
+        "evidence_layer": "authorial_body",
+        "quote": "I am writing this on the 8th of February",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-158.html",
+        "html_sha256": "42558cc58372f46ecadf57286fb6ff4b1b56a7f29ff541c79db72bad4fac443e"
+      },
+      "render_status": "hold",
+      "notes": "Do not infer an endorsement or receipt beyond the body’s explicit wording."
+    },
+    {
+      "source_id": "DCP-LETT-165",
+      "requirement": "Keep the concert programme and continuation date in the authorial Somerville correspondence; preserve the name attribution error as source evidence.",
+      "evidence": {
+        "source_id": "DCP-LETT-165",
+        "evidence_layer": "authorial_body",
+        "quote": "writing a short letter to a distant friend is like making an old acquaintance a distant bow",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-165.html",
+        "html_sha256": "394961a155292bf6e2a07509a10c34b6ce44a691eac7cd04ccc3735ed12485db"
+      },
+      "render_status": "hold",
+      "notes": "The programme/date continuation and Somerville naming are source layers, not editorial corrections."
+    },
+    {
+      "source_id": "DCP-LETT-172",
+      "requirement": "Render the body’s MathML fractions literally and keep the received-letter acknowledgement separate from later voyage context.",
+      "evidence": {
+        "source_id": "DCP-LETT-172",
+        "evidence_layer": "authorial_body",
+        "quote": "Your letter arrived here",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-172.html",
+        "html_sha256": "4d47c1ad76fab099e21a64038fe89ec6611b270c6dcd7a44eb90bc0ee4d80cdd"
+      },
+      "render_status": "planned_repair",
+      "notes": "Fractions occur in the same authorial body; receipt is explicit but exact delivery timing is not."
+    },
+    {
+      "source_id": "DCP-LETT-193",
+      "requirement": "Preserve the crossing discussion and the authorial date continuation without importing later biological interpretation.",
+      "evidence": {
+        "source_id": "DCP-LETT-193",
+        "evidence_layer": "authorial_body",
+        "quote": "I have now taken up a permanent abode at Chester",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-193.html",
+        "html_sha256": "cab56d32dbed27a8729007d0d0aa5acaa3102a72b0b93564f37d60594ac11901"
+      },
+      "render_status": "hold",
+      "notes": "The source’s discussion of crossing remains Herbert’s voice."
+    },
+    {
+      "source_id": "DCP-LETT-209",
+      "requirement": "Keep the quoted satirical plant-graft passage as embedded quotation, distinct from Darwin’s surrounding response.",
+      "evidence": {
+        "source_id": "DCP-LETT-209",
+        "evidence_layer": "authorial_body",
+        "quote": "I received your letter, dated December 1st.",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-209.html",
+        "html_sha256": "8c29caf9a885dd8c6aab42c04cd8501adf6b6f9e14c93dd38ca544f0c825b613"
+      },
+      "render_status": "hold",
+      "notes": "Quoted third-party satire must not be flattened into Darwin voice."
+    },
+    {
+      "source_id": "DCP-LETT-254",
+      "requirement": "Render MathML 1/2 and preserve the possible Quellota copyist/wrapping uncertainty.",
+      "evidence": {
+        "source_id": "DCP-LETT-254",
+        "evidence_layer": "authorial_body",
+        "quote": "I arrived at this gay city late last night",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-254.html",
+        "html_sha256": "8537727eacaaaa073fa741c4e86e2c2e24a9f78f07f74c0acdfe2b79179f737a"
+      },
+      "render_status": "hold",
+      "notes": "The fraction and copyist/wrapping evidence require source-layer preservation, not silent normalization."
+    },
+    {
+      "source_id": "DCP-LETT-240",
+      "requirement": "Preserve the navigation instruction “Go to 1st page” as body text and distinguish it from header/address material.",
+      "evidence": {
+        "source_id": "DCP-LETT-240",
+        "evidence_layer": "authorial_body",
+        "quote": "Go to 1st page",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-240.html",
+        "html_sha256": "41b4daa67735fd27408100dbee1564f72540556f25661cfb6d429c6469a77e2f"
+      },
+      "render_status": "planned_repair",
+      "notes": "This is a document-navigation instruction, not a historical date or scientific claim."
+    },
+    {
+      "source_id": "DCP-LETT-218",
+      "requirement": "Keep the quotation of the missing letter and its postscript order explicit; do not reconstruct the missing original.",
+      "evidence": {
+        "source_id": "DCP-LETT-218",
+        "evidence_layer": "authorial_body",
+        "quote": "Two hours since, I received your epistle, dated 26th.",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-218.html",
+        "html_sha256": "f47ee648893056a20f01d36d3bd0b6406811134549472edf7bfc0e15d7390742"
+      },
+      "render_status": "hold",
+      "notes": "The responder’s quotation and PS order are separate from the absent Darwin letter."
+    },
+    {
+      "source_id": "DCP-LETT-323",
+      "requirement": "Preserve the authorial wrong address exactly and do not treat it as a recipient identity change.",
+      "evidence": {
+        "source_id": "DCP-LETT-323",
+        "evidence_layer": "authorial_body",
+        "quote": "Welcome, right welcome, was the sight of that good round unmistakeable hand of yours",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-323.html",
+        "html_sha256": "d16b4ed4a840a2f5dc536fa228721507511c2130f884c62ad97afebfaa8fc19b"
+      },
+      "render_status": "hold",
+      "notes": "The wrong address 9 Old Square Lincoln’s Inn is in the opener/header and must be preserved separately; it is not body voice."
+    },
+    {
+      "source_id": "DCP-LETT-337",
+      "requirement": "Mark the accompanying agreement enclosure as absent/unread and retain only the surviving proposal text.",
+      "evidence": {
+        "source_id": "DCP-LETT-337",
+        "evidence_layer": "authorial_body",
+        "quote": "He recommended a joint publication such as is sketched in the accompanying paper",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-337.html",
+        "html_sha256": "ececc71973f82bd688aaea14604b980a728872557a9eec2e837e29355d8f503f"
+      },
+      "render_status": "hold",
+      "notes": "The referenced agreement is not a recovered enclosure; no terms may be invented."
+    }
+  ],
+  "source_pins": [
+    {
+      "source_id": "DCP-LETT-158",
+      "evidence_layer": "authorial_body",
+      "quote": "I am writing this on the 8th of February",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-158.html",
+      "html_sha256": "42558cc58372f46ecadf57286fb6ff4b1b56a7f29ff541c79db72bad4fac443e"
+    },
+    {
+      "source_id": "DCP-LETT-165",
+      "evidence_layer": "authorial_body",
+      "quote": "writing a short letter to a distant friend is like making an old acquaintance a distant bow",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-165.html",
+      "html_sha256": "394961a155292bf6e2a07509a10c34b6ce44a691eac7cd04ccc3735ed12485db"
+    },
+    {
+      "source_id": "DCP-LETT-172",
+      "evidence_layer": "authorial_body",
+      "quote": "Your letter arrived here",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-172.html",
+      "html_sha256": "4d47c1ad76fab099e21a64038fe89ec6611b270c6dcd7a44eb90bc0ee4d80cdd"
+    },
+    {
+      "source_id": "DCP-LETT-193",
+      "evidence_layer": "authorial_body",
+      "quote": "I have now taken up a permanent abode at Chester",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-193.html",
+      "html_sha256": "cab56d32dbed27a8729007d0d0aa5acaa3102a72b0b93564f37d60594ac11901"
+    },
+    {
+      "source_id": "DCP-LETT-209",
+      "evidence_layer": "authorial_body",
+      "quote": "I received your letter, dated December 1st.",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-209.html",
+      "html_sha256": "8c29caf9a885dd8c6aab42c04cd8501adf6b6f9e14c93dd38ca544f0c825b613"
+    },
+    {
+      "source_id": "DCP-LETT-254",
+      "evidence_layer": "authorial_body",
+      "quote": "I arrived at this gay city late last night",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-254.html",
+      "html_sha256": "8537727eacaaaa073fa741c4e86e2c2e24a9f78f07f74c0acdfe2b79179f737a"
+    },
+    {
+      "source_id": "DCP-LETT-240",
+      "evidence_layer": "authorial_body",
+      "quote": "Go to 1st page",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-240.html",
+      "html_sha256": "41b4daa67735fd27408100dbee1564f72540556f25661cfb6d429c6469a77e2f"
+    },
+    {
+      "source_id": "DCP-LETT-218",
+      "evidence_layer": "authorial_body",
+      "quote": "Two hours since, I received your epistle, dated 26th.",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-218.html",
+      "html_sha256": "f47ee648893056a20f01d36d3bd0b6406811134549472edf7bfc0e15d7390742"
+    },
+    {
+      "source_id": "DCP-LETT-323",
+      "evidence_layer": "authorial_body",
+      "quote": "9 Old Square Lincoln’s Inn",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-323.html",
+      "html_sha256": "d16b4ed4a840a2f5dc536fa228721507511c2130f884c62ad97afebfaa8fc19b"
+    },
+    {
+      "source_id": "DCP-LETT-337",
+      "evidence_layer": "authorial_body",
+      "quote": "He recommended a joint publication such as is sketched in the accompanying paper",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p (feature-bearing quote anchor)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-337.html",
+      "html_sha256": "ececc71973f82bd688aaea14604b980a728872557a9eec2e837e29355d8f503f"
+    }
+  ],
+  "recommendations": [
+    "Keep multipart dates, headers, quoted material, enclosures and authorial voices in separate layers.",
+    "Render supported MathML literally; hold copyist/wrapping uncertainty, missing enclosures and unresolved quoted originals.",
+    "Do not infer receipt, identity or agreement contents from address, dispatch or catalogue context."
+  ],
+  "input_hashes": {
+    "data/annotations/beagle-voyage/fox-01.primary.json": "92c68c986d08dd2d4edeed9812168729b14d3502f30ec10ea29c4a629126c020",
+    "reports/beagle-voyage-review/parent-reading/fox-01.primary.json": "2e1d014833f8d1d9e78af62c9f76cf8ecdf18bfd3f5abe9d31f1a57e927ec73c",
+    "reports/beagle-voyage-review/parent-decisions/fox-01.primary.json": "23d1028dbbb754228688b6064249624adc04ae934d14cb67bd21a218cc26af2e",
+    "data/annotations/beagle-voyage/catherine-01.primary.json": "e26da604e87c81eebd314baa67cfd5dbb2ba44628ab1f3ccba61757560ab7ce7",
+    "reports/beagle-voyage-review/parent-reading/catherine-01.primary.json": "17c2179d5a3cf07fcff300a40de9ff6ab85017e1c3ae536106a8339f2fec75e3",
+    "reports/beagle-voyage-review/parent-decisions/catherine-01.primary.json": "a469f765c301aacbe56f1b3a82b22c8fbc82af37137240b526dc1c6c3c00818c"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "batch_id": "batch-12",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-1920",
+      "target_id": "DCP-LETT-1917",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_same_author_and_missing_actual_inputs",
+      "reason": "1920 and1917 are both written by Darwin.1920 thanks two missing Lyell notes; replace neither with Darwin earlier outgoing letter."
+    },
+    {
+      "source_id": "DCP-LETT-1915A",
+      "target_id": "DCP-LETT-1919",
+      "relationship": "knowledge_before",
+      "parent_decision": "retained_prior_primary",
+      "reason": "1915A→1919 is already accepted in batch01; retain once with unsent-PS exclusion."
+    }
+  ],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-1920",
+      "source_kind": "ALS",
+      "voice": "Charles Darwin; Lady Lyell/Emma roles and other reported authors kept separate",
+      "date_assessment": "8 July [1856]; supplied dates preserved, catalogue and event dates not converted into exact receipt",
+      "disposition": "darwin_grounding_missing_prompt",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1984",
+      "source_kind": "ALS",
+      "voice": "Charles Darwin; Lady Lyell/Emma roles and other reported authors kept separate",
+      "date_assessment": "10 Nov [1856]; supplied dates preserved, catalogue and event dates not converted into exact receipt",
+      "disposition": "darwin_grounding_missing_prompt",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2039",
+      "source_kind": "Incomplete incoming memorandum",
+      "voice": "Lyell list and prose, separate Darwin annotation",
+      "date_assessment": "[16 Jan 1857]; supplied dates preserved, catalogue and event dates not converted into exact receipt",
+      "disposition": "incoming_unpaired_context",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2050",
+      "source_kind": "ALS",
+      "voice": "Charles Darwin; Lady Lyell/Emma roles and other reported authors kept separate",
+      "date_assessment": "11 Feb [1857]; supplied dates preserved, catalogue and event dates not converted into exact receipt",
+      "disposition": "darwin_grounding_missing_prompt",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2077",
+      "source_kind": "ALS",
+      "voice": "Charles Darwin; Lady Lyell/Emma roles and other reported authors kept separate",
+      "date_assessment": "13 Apr [1857]; supplied dates preserved, catalogue and event dates not converted into exact receipt",
+      "disposition": "darwin_grounding_missing_prompt",
+      "training_export_ready": false
+    }
+  ],
+  "previously_recorded_relationships": [
+    {
+      "incoming_id": "DCP-LETT-1915A",
+      "witness_id": "DCP-LETT-1919",
+      "known_by_date": "1856-07-05",
+      "ledger": "data/annotations/periods/1856-1857/batch-01.json"
+    }
+  ],
+  "rejected_or_candidate_links": [
+    {
+      "source_id": "DCP-LETT-2039",
+      "target_id": "DCP-LETT-2050",
+      "relationship": "replies_to_or_knowledge",
+      "status": "candidate_source_identity_unproved",
+      "reason": "P11 mentions Purbeck fossils but neither identifies January16 letter nor reproduces list-specific data; co-mentioned coal-plant report is absent from surviving memorandum. Apparatus comparison is a lead, not proof of exact source."
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-1920",
+      "kind": "received_map_promised_books",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1920",
+          "body_paragraph": 1,
+          "quote": "thanks for your two notes & especially for Maury’s map",
+          "char_start": 10,
+          "char_end": 64,
+          "source_sha256": "d4683579dfa12aebd92aad5135d41ea867d04975a4becb59c3867cb0f5124cc4"
+        },
+        {
+          "letter_id": "DCP-LETT-1920",
+          "body_paragraph": 1,
+          "quote": "Books which you are going to lend me",
+          "char_start": 75,
+          "char_end": 111,
+          "source_sha256": "d4683579dfa12aebd92aad5135d41ea867d04975a4becb59c3867cb0f5124cc4"
+        },
+        {
+          "letter_id": "DCP-LETT-1920",
+          "body_paragraph": 5,
+          "quote": "a week of such labour",
+          "char_start": 132,
+          "char_end": 153,
+          "source_sha256": "d4683579dfa12aebd92aad5135d41ea867d04975a4becb59c3867cb0f5124cc4"
+        },
+        {
+          "letter_id": "DCP-LETT-1920",
+          "body_paragraph": 8,
+          "quote": "for the last month",
+          "char_start": 124,
+          "char_end": 142,
+          "source_sha256": "d4683579dfa12aebd92aad5135d41ea867d04975a4becb59c3867cb0f5124cc4"
+        }
+      ],
+      "description": "Different receipt and work-duration statements must not be collapsed."
+    },
+    {
+      "letter_id": "DCP-LETT-1984",
+      "kind": "letter_on_behalf_of_emma",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1984",
+          "body_paragraph": 1,
+          "quote": "answer Lady Lyells note to Emma",
+          "char_start": 32,
+          "char_end": 63,
+          "source_sha256": "3ca68facd6385364034499bee116f2efd0d28e53a3c468d52387f6d1ed9268d3"
+        }
+      ],
+      "description": "Outgoing Charles, incoming Lady Lyell to Emma missing; no mixed author target inferred."
+    },
+    {
+      "letter_id": "DCP-LETT-1984",
+      "kind": "earlier_discovery_witness",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1984",
+          "body_paragraph": 6,
+          "quote": "the other day Bosquet",
+          "char_start": 356,
+          "char_end": 377,
+          "source_sha256": "3ca68facd6385364034499bee116f2efd0d28e53a3c468d52387f6d1ed9268d3"
+        },
+        {
+          "letter_id": "DCP-LETT-1952",
+          "body_paragraph": 1,
+          "quote": "your discovery of a Cretacean Chthamalus",
+          "char_start": 90,
+          "char_end": 130,
+          "source_sha256": "cfe3aa0d32762fd556a121cb3a734fd33eebe8192a2e6207984474e9126f4aa5"
+        },
+        {
+          "letter_id": "DCP-LETT-1952",
+          "body_paragraph": 3,
+          "quote": "The drawings you have sent me are beautiful",
+          "char_start": 0,
+          "char_end": 43,
+          "source_sha256": "cfe3aa0d32762fd556a121cb3a734fd33eebe8192a2e6207984474e9126f4aa5"
+        }
+      ],
+      "description": "Knowledge precedes November report; source1952 establishes September9 witness but cannot supply missing incoming prose."
+    },
+    {
+      "letter_id": "DCP-LETT-2039",
+      "kind": "list_and_annotation",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2039",
+          "body_paragraph": 13,
+          "quote": "Middle do. ———————— 12",
+          "char_start": 0,
+          "char_end": 22,
+          "source_sha256": "353be50d03fb49d08bbef7fa8f329288c61fecc65675d5b52a572b93539ff14f"
+        },
+        {
+          "letter_id": "DCP-LETT-2039",
+          "body_paragraph": 19,
+          "quote": "Lower Ool. (Stonesfield) 4",
+          "char_start": 0,
+          "char_end": 26,
+          "source_sha256": "353be50d03fb49d08bbef7fa8f329288c61fecc65675d5b52a572b93539ff14f"
+        },
+        {
+          "letter_id": "DCP-LETT-2039",
+          "body_paragraph": 21,
+          "quote": "Trias (upper) Stuttgardt. 1",
+          "char_start": 0,
+          "char_end": 27,
+          "source_sha256": "353be50d03fb49d08bbef7fa8f329288c61fecc65675d5b52a572b93539ff14f"
+        }
+      ],
+      "description": "All24 blocks read; raw list not an intact rendered table. Date annotation not independent postal proof; absence-of-finds argument qualified."
+    },
+    {
+      "letter_id": "DCP-LETT-2050",
+      "kind": "separate_experiment_intervals",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2050",
+          "body_paragraph": 9,
+          "quote": "20 days under sea-water",
+          "char_start": 57,
+          "char_end": 80,
+          "source_sha256": "8143c8f4fcbf9b3daa62e312d71de8670a52748d5a5113daafe01d5d3f0cf223"
+        },
+        {
+          "letter_id": "DCP-LETT-2050",
+          "body_paragraph": 9,
+          "quote": "about six-weeks ago had a bath of 7 days",
+          "char_start": 105,
+          "char_end": 145,
+          "source_sha256": "8143c8f4fcbf9b3daa62e312d71de8670a52748d5a5113daafe01d5d3f0cf223"
+        }
+      ],
+      "description": "Two separate immersions of same individual, not27 continuous days."
+    },
+    {
+      "letter_id": "DCP-LETT-2077",
+      "kind": "seeing_not_returning",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2077",
+          "body_paragraph": 1,
+          "quote": "glad to see Wollaston’s letter",
+          "char_start": 25,
+          "char_end": 55,
+          "source_sha256": "4ebf0cdaf288a6f6682aa172ecc7ccd57a20bd939b8b6d8f3c6ea4b6722ce17c"
+        },
+        {
+          "letter_id": "DCP-LETT-2077",
+          "body_paragraph": 1,
+          "quote": "a separate copy, whenever printed",
+          "char_start": 633,
+          "char_end": 666,
+          "source_sha256": "4ebf0cdaf288a6f6682aa172ecc7ccd57a20bd939b8b6d8f3c6ea4b6722ce17c"
+        }
+      ],
+      "description": "Body does not establish actual return of missing letter or receipt of future printed Madeira paper."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-1920",
+      "description": "Two current Lyell notes missing; scientific-journal entry does not replace their wording."
+    },
+    {
+      "letter_id": "DCP-LETT-1984",
+      "description": "Lady Lyell note to Emma missing, as is Bosquet notification/figures referenced through1952."
+    },
+    {
+      "letter_id": "DCP-LETT-2077",
+      "description": "Wollaston-to-Lyell letter missing; analogous book passage only editorial inference."
+    }
+  ],
+  "corrections": [
+    {
+      "description": "Rejected same-author first-pass pair1920→1917.1952 shows earlier Bosquet knowledge;2039 footnote Hooker reference does not match2040 body. Corrected expedition scope, separate snail immersion intervals, map/book receipt and summary return claim."
+    }
+  ],
+  "summary": "Five fresh targets and additional Bosquet witness read in full, five accepted contexts reused with provenance. No new links accepted. Prior July5 knowledge edge retained once; Purbeck source identity held."
+}

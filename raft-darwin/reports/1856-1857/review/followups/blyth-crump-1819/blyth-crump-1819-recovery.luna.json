@@ -1,0 +1,73 @@
+{
+  "status": "candidate_source_recovery_complete",
+  "scope": "Bounded recovery of Crump-to-Blyth 1819 cited by Blyth 1817; determine whether 1818 is a merged enclosure identifier. No accepted links, source edits, packet changes or exports.",
+  "source_identity": {
+    "id": "DCP-LETT-1819",
+    "title": "From Charles Wade Crump to Edward Blyth [before 8 January 1856]",
+    "sender": "Charles Wade Crump",
+    "recipient": "Edward Blyth",
+    "forwarding_route": "The source is not addressed to Darwin. DCP 1817 says Blyth forwarded it to Darwin as a memorandum on wild cattle; this establishes a forwarding claim, not Crump's direct receipt by Darwin or a direct Crump-to-Darwin letter.",
+    "date": "before 8 January 1856",
+    "date_constraints": {"xml_notBefore": "1809-01-01", "xml_notAfter": "1856-01-07", "reason": "The broad raw XML lower bound is an archival metadata artifact; the editorial date and forwarding relationship constrain it to before Blyth's 8 January 1856 letter."},
+    "physical_description": "AmemS 5pp, with CD annotation; manuscript source DAR 98: A114-A116, CUL.",
+    "html_path": "reports/1856-1857/review/followups/blyth-crump-1819/DCP-LETT-1819.html",
+    "html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+    "xml_path": "reports/1856-1857/review/followups/blyth-crump-1819/DCP-LETT-1819.xml",
+    "xml_sha256": "784e6ab5029779c04cafee664325f14b347741ff454f6ffd3469659cc23be89e",
+    "pinned_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "full_reading": {
+    "body_status": "Complete 7 retained body paragraphs read. The manuscript begins with a cover/title block naming facts about lions and wild cattle, then gives Crump's wild-cattle account.",
+    "body_summary": "Crump separates hearsay from personal observation. He reports a reputed dull brick-red wild-cattle breed in Tinneyvelly, then describes an officer's account and skin/horns of a red bull near Rajas Choultry, a herd formed by the bull breeding with village cows, its alleged extermination by Kennedy, and a second grey-white lagoon cattle breed reported to him by Jerdon. The text attributes hearsay and named witnesses rather than presenting all claims as Crump observation.",
+    "exact_evidence": [
+      {"body_paragraph": 1, "quote": "Facts regarding Lions in Central India and Wild Cattle in Southern India | Chas Crump. | Artillery", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]"},
+      {"body_paragraph": 3, "quote": "So much I know only by hearsay— the following is of my own knowledge", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"},
+      {"body_paragraph": 5, "quote": "from this intercourse in process of time sprung calves—two at first, red like their father", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"},
+      {"body_paragraph": 7, "quote": "I have heard from Jerden of another breed of wild cattle living in the salt water lagoons and islands above Nellore", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"}
+    ],
+    "apparatus": "The only CD annotation is two scored brown-crayon marks. Footnotes identify Blyth's forwarding context, Crump's cover-note additions, and later Jerdon 1867 comparison; these later editorial references are not Crump voice.",
+    "bibliography": "No separate bibliography section is present in the recovered HTML. Footnote 8 cites Jerdon 1867, p. 301 as a later comparison, not as part of Crump's 1856 source.",
+    "visuals": {"status": "available_and_inspected", "surfaces": ["A:114r", "A:114v", "A:115r", "A:115v", "A:116r", "A:116v", "A:115v-116r"], "note": "Cambridge facsimiles show a handwritten Crump memorandum, with title 'Wild Cattle in the South', crossings/insertions, and a two-page spread. They do not show a Darwin letter or a separate 1818 document."}
+  },
+  "1818_identity_check": {
+    "result": "1818 is a merged/virtual enclosure identifier, not a separate CSV/XML source in the pinned revision.",
+    "evidence": [
+      "The pinned Epsilon CSV has DCP-LETT-1817 and DCP-LETT-1819 but no DCP-LETT-1818 row (apart from unrelated later IDs containing the digits 1818).",
+      "1817's HTML has one [Enclosure] section titled Notes for Mr. Darwin, with 15 transcribed paragraphs; its physical description is ALS 6pp plus an Amem 12pp enclosure.",
+      "1817's XML abstract explicitly says it encloses 'notes for Mr. D' [1818] and a memorandum on wild cattle [1819]. Thus 1818 labels the Notes for Mr. Darwin component inside the 12-page enclosure, while 1819 is the separate Crump memorandum forwarded with the same Blyth letter.",
+      "The 1819 XML itself states: [This memorandum was forwarded to CD enclosed with 1817.]"
+    ],
+    "1817_enclosure_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div/p[1]",
+    "1817_html_sha256": "ccfc55fd051a959479ff39de9fdb4d0ef96d729f60be4f139d506953a753bab6",
+    "1817_xml_sha256": "f72e794ba22bb4ce32069bfedf8498df2e0be641749b79ccb13baf525c5ab152"
+  },
+  "provenance_and_acquisition": {
+    "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1819.xml",
+    "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-1819.xml",
+    "source_repository": "CUL DAR 98: A114-A116",
+    "facsimile_urls": [
+      "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00246.jpg",
+      "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00247.jpg",
+      "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00248.jpg",
+      "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00249.jpg",
+      "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00250.jpg",
+      "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00251.jpg",
+      "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00252.jpg"
+    ],
+    "facsimile_local_dir": "reports/1856-1857/review/followups/blyth-crump-1819/facsimiles/",
+    "facsimile_sha256": {
+      "00246.jpg": "c805f7948aae9b57160ac7bcbae700bf4e9ecc5e0d0a84629cf545e004cf32e5",
+      "00247.jpg": "4b384b390d861c6fe0cc34f191d39c7aeee6c428d1e0dde93dae23f8f842a124",
+      "00248.jpg": "ae41e73b4c277f2abd77a367fbf03bf962f7c2b721b144552cde84ef8a3a9b4d",
+      "00249.jpg": "ef59a4df77ab55809a0c1fe2a08fd1c424a5f20eb52d4925d626c0318260dfa7",
+      "00250.jpg": "1223ea4115aa500d2220b8626b75544a85d506438a2443339e7ea5530cc72301",
+      "00251.jpg": "d69fd23e468c8221de4b46e96d73e3c843108dc7c8a157b98975636cc7e3097c",
+      "00252.jpg": "9404416359c21494e060e59508ffb24b48441aa2fd5646a41c769fae35859735"
+    }
+  },
+  "limits": [
+    "The 1819 text is Crump-to-Blyth and reaches Darwin only through Blyth's claimed forwarding; no Darwin receipt or response is established here.",
+    "1818 has no independent pinned XML/CSV record in this revision; its status as the Notes for Mr. Darwin enclosure is based on 1817's explicit abstract and enclosure structure.",
+    "No acceptance or new relationship edge is proposed."
+  ]
+}

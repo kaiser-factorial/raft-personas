@@ -1,0 +1,352 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Batches 43–44 additive plant-network source-text/date/voice/rendering requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "batches": {
+      "reports/1851-1855/review/parent-reading/batch-43.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-43.json",
+        "sha256": "697d17ea51c7446fc3c8f1d9e9a819d29f3ae974f526cd20a248f1e0d19ccc30"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-43.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-43.json",
+        "sha256": "b559fde1ec7cc0d72a00a0fae05108d21912888817533521e20945a0bf27753e"
+      },
+      "reports/1851-1855/review/parent-reading/batch-44.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-44.json",
+        "sha256": "110863da2b8b5356b0e76a2aabf6e452e24654075c3508f4d29f33b15e27e438"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-44.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-44.json",
+        "sha256": "4f31680037c77bf4a161e842e1e9d4355d465d238ed9ea743b1e16583f3bdfe2"
+      }
+    },
+    "ledgers": {
+      "data/annotations/periods/1851-1855/batch-43.json": "e33b6c32439e9383431f8c11b59cb0ab15313b6044c04e7406ab3a72b2319497",
+      "data/annotations/periods/1851-1855/batch-44.json": "65a5ff07603d4e841fc29b8cab0991f60b13b37043ae256400fa2262d5913a36"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1467"
+      ],
+      "case": "crossed draft and uncrossed question verso",
+      "requirement": "Keep 1467 as a signed draft whose cover is crossed while the verso questions remain uncrossed. Preserve the raw diag/ramme markers and the four visible numbered groups in source order 2, 1, 4, 3; do not reorder them, invent a fifth question, or apply one exact date across its October 1855–May 1856 alternatives.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1467",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1467.html",
+          "source_html_sha256": "d2b151dc02ccc414fe6d2bbc67c193c28095384ff2868fc6b7f3ef7ea6d0b257",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1467.xml",
+          "xml_sha256": "9b35e209a04c8c48d10bb151c09aec83f38a74457b2782046c2867fd14b8fb7e"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1467",
+          "body_paragraph": 2,
+          "quote": "F.R.S. diag Peas (2) Whether any vars. have kept true during many years",
+          "source_sha256": "d2b151dc02ccc414fe6d2bbc67c193c28095384ff2868fc6b7f3ef7ea6d0b257",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1584"
+      ],
+      "case": "damaged Babington letter and mixed-voice question sheet",
+      "requirement": "Preserve the surviving Babington ALS, its damaged gaps and approximate date separately from footnote 2, which reproduces Darwin questions and Babington additions in a Gärtner book. Do not merge that mixed-voice sheet into the letter, assign it the letter date, or treat later Darwin annotations as contemporaneous body text.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1584",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1584.html",
+          "source_html_sha256": "0fa042e3270c2560b08a6c291e9389a61d2fc131531de43c2853d5c6b46754d6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1584.xml",
+          "xml_sha256": "ccdc54f13c0d69326af973f312138b6feaf02051105a13df66b2e73fbe853062"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1584",
+          "body_paragraph": 1,
+          "quote": "noted the points upon the paper that you sent to me.",
+          "source_sha256": "0fa042e3270c2560b08a6c291e9389a61d2fc131531de43c2853d5c6b46754d6",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1420"
+      ],
+      "case": "joint addressee and Susan-side receipt",
+      "requirement": "Keep Susan’s incoming ALS and its Charles-and-Emma salutation distinct from the metadata recipient and from the reported receipt of two Fanny letters by Susan. “Yesterday” is the relative arrival of Charles’s letter to Susan, not proof that Darwin received this letter or that its missing antecedent survives.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1420",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1420.html",
+          "source_html_sha256": "e8ad2e88dc01e2b88618dda7023864257858fab3c9ba4bfc050184290bd7ffb5",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1420.xml",
+          "xml_sha256": "b61cee6ad7529a06d51d243245e13ebea1c23bd7bbd5760d7b4d31ac77c7334c"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1420",
+          "body_paragraph": 1,
+          "quote": "not receiving Fanny’s 2 Letters till this morg & yrs also missed the Post & only came to us yesterday",
+          "source_sha256": "e8ad2e88dc01e2b88618dda7023864257858fab3c9ba4bfc050184290bd7ffb5",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1452"
+      ],
+      "case": "autograph copy and skipped response item",
+      "requirement": "Render 1452 as Jeffreys’s autograph copy, retaining that it answers an unlocated 31 August Darwin letter and that its numbered answers run 1st, 2nd, 3rd, 5th. Do not silently supply item 4, relabel the copy as an ALS, or infer exact delivery from the return-home statement.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1452",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1452.html",
+          "source_html_sha256": "9e09e9741282b0f3d045b9053276b9c3189d45f9bd4261d88828a02e0757083d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1452.xml",
+          "xml_sha256": "bed2833307ef1c6cd782e036d6c7bd846ec7c039a244170ddf3e85f3e14445da"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1452",
+          "body_paragraph": 1,
+          "quote": "your obliging letter of the 31st ult. which I received on my return home.",
+          "source_sha256": "9e09e9741282b0f3d045b9053276b9c3189d45f9bd4261d88828a02e0757083d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1624"
+      ],
+      "case": "three discrete March alternatives and later annotations",
+      "requirement": "Preserve the incomplete Knox ALS with three separate approximate March alternatives in 1855, 1856 and 1857. Keep later Darwin annotations and memory doubts in their own layer; do not collapse alternatives into a continuous date range or attribute Darwin’s later wording to Knox.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1624",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1624.html",
+          "source_html_sha256": "3f24c2e626c563ce55e3421e2e6c95ea2a0ab899aa4ce4eeca32910cf12b1ebf",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1624.xml",
+          "xml_sha256": "36bba2790df53efd0af00ceb418c43e921f78d6f2cb09771b7bdb6be33db5841"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1554A"
+      ],
+      "case": "duplicated Beagle clause and approximate receipt",
+      "requirement": "Retain the raw duplicated Beagle/booms/trade-wind clause in 1554A, including its spelling damage, rather than silently repairing or deduplicating it. “About a week ago” remains an approximate receipt of King’s 26 October letter; do not turn it into an exact 14 February date or backdate later war and expedition information.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1554A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1554A.html",
+          "source_html_sha256": "c3985144f1ee606b101d25918ad9ad7e909a052985eff9164c9ef485a62ba876",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1554A.xml",
+          "xml_sha256": "755a75a69c63da93c8896a2311f917bcd5f48831d3c56264b26e1b9f57f67889"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1554A",
+          "body_paragraph": 1,
+          "quote": "about a week ago, to receive your letter dated the 26th. of October.",
+          "source_sha256": "c3985144f1ee606b101d25918ad9ad7e909a052985eff9164c9ef485a62ba876",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1593"
+      ],
+      "case": "raw Greek-like forms and proposed book custody",
+      "requirement": "Preserve 1593’s Greek-like raw forms and underlining as source text requiring faithful rendering; do not normalize them to Greek characters. Keep Darwin’s facies and heredity annotations separate from Lowe’s claims, and treat proposed disposal of the Cirripedia at Wollaston’s as prospective custody rather than receipt or completed reading.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1593",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1593.html",
+          "source_html_sha256": "5afc01b82fb21e6418b9125587e61526e8967ae72b0b0b870e93c60aa8634526",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1593.xml",
+          "xml_sha256": "4908a885a760ff9c6b60138bd9a3581d3f747202f5483ca12b32981060e8965c"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1593",
+          "body_paragraph": 6,
+          "quote": "Thanks for yr. proposed disposal of the Cirripedia at Wollaston’s",
+          "source_sha256": "5afc01b82fb21e6418b9125587e61526e8967ae72b0b0b870e93c60aa8634526",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1390",
+        "DCP-LETT-1371"
+      ],
+      "case": "forwarded Hooker letter as cross-correspondent knowledge",
+      "requirement": "Preserve 1390 as Darwin’s outgoing letter to William Jackson Hooker forwarding Joseph’s letter, with plant-geography and Falconer remarks as distinctive knowledge-use evidence. This is not a reply to Joseph, and exact receipt of the forwarded enclosure remains unproved; retain 1371’s earlier source separately and do not create a new QA edge.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1390",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1390.html",
+          "source_html_sha256": "90c45ad1cffb3e2caf6aa3dd187875e1726452f296e6de44c7c5a369bdf47bbe",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1390.xml",
+          "xml_sha256": "e2eac7c534bb5339b6972511949b52aab266b70e5d268d0253fb5b7769bea0ac"
+        },
+        {
+          "letter_id": "DCP-LETT-1371",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1371.html",
+          "source_html_sha256": "7e96a5ddd4242e110bb6d2ec612fceba80e35d26f54eccc29bdfee1be2b59877",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1371.xml",
+          "xml_sha256": "f5058c78af7849da8bfbd7a1984acb1ef631479561ff04da51c3092d51277a69"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1390",
+          "body_paragraph": 1,
+          "quote": "You will no doubt like to see the enclosed letter of your son",
+          "source_sha256": "90c45ad1cffb3e2caf6aa3dd187875e1726452f296e6de44c7c5a369bdf47bbe",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1390",
+          "body_paragraph": 1,
+          "quote": "Oaks & Birches of the Tropics",
+          "source_sha256": "90c45ad1cffb3e2caf6aa3dd187875e1726452f296e6de44c7c5a369bdf47bbe",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1390",
+          "body_paragraph": 1,
+          "quote": "Falconer’s conduct is enough to make one swear at him.",
+          "source_sha256": "90c45ad1cffb3e2caf6aa3dd187875e1726452f296e6de44c7c5a369bdf47bbe",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1794",
+        "DCP-LETT-1790"
+      ],
+      "case": "Layard letter using Benson memorandum and prior knowledge date",
+      "requirement": "Keep 1794’s report of Benson’s shell doubts as cross-correspondent knowledge drawn from 1790, with the Benson memorandum and Darwin’s later annotations distinct. Preserve the already earlier 7 December knowledge witness; 9 December is a later corroborating use, not a new direct prompt or a new earliest date.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1794",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1794.html",
+          "source_html_sha256": "13b09875d71f67abe4d341494c381c7af1ab5dc60984bf7160d60fd4c1009ac7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1794.xml",
+          "xml_sha256": "203b4ee8640d3fc142341347af30abaacc2fb59ffdaf922d69caea4a25ec383a"
+        },
+        {
+          "letter_id": "DCP-LETT-1790",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1790.html",
+          "source_html_sha256": "a35c0b15c028c2da3ad1ce596b462b64c6368461548859d7b43d2339e4a12d9e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1790.xml",
+          "xml_sha256": "624ced0850b9122fe41cd52283e1a38e4cfde5ce0d19cd938fe492e4e5e905ba"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1794",
+          "body_paragraph": 8,
+          "quote": "I have had a letter from Mr. Benson in answer to a query of mine",
+          "source_sha256": "13b09875d71f67abe4d341494c381c7af1ab5dc60984bf7160d60fd4c1009ac7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[11]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1393",
+        "DCP-LETT-1567",
+        "DCP-LETT-1610F",
+        "DCP-LETT-1709",
+        "DCP-LETT-1479",
+        "DCP-LETT-1465",
+        "DCP-LETT-1472A"
+      ],
+      "case": "additional custody and publication boundaries",
+      "requirement": "Preserve the remaining accepted witnesses’ distinct stages: hoped safe return or arrival, election notification, provisional present, forwarded May letter with future specimens, received larvae, closely allied forms before later identification, and twenty copies with erroneous binding. These records do not supply reconstructed prompts, completed experiments, or unqualified reading claims.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1393",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1393.html",
+          "source_html_sha256": "cd14c66c79715ffde5979f628bc1b654612a783840a74e22eccfb9a6f3394b7c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1393.xml",
+          "xml_sha256": "a2262b4a43d1ce6a2d4574a0abe4e759af3842455f588221b91e1d2032c5017e"
+        },
+        {
+          "letter_id": "DCP-LETT-1567",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1567.html",
+          "source_html_sha256": "0bb331c97d8686ac78b0465740574b47a8dd74bb3e1cd3015b064dfc91353047",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1567.xml",
+          "xml_sha256": "2759187cfc00586708c130fd8e2d006332c846d87ebdf163e44cf7d4bb2d38a5"
+        },
+        {
+          "letter_id": "DCP-LETT-1610F",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1610F.html",
+          "source_html_sha256": "1975f42bc89c518dcacc3c68a04e5ef8177889e46c1aea6e4532c9b91de67e54",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1610F.xml",
+          "xml_sha256": "842b61755cab9fc732908304bb7a3a46c6db0c70c690146cf4c671e2bbf2fb6a"
+        },
+        {
+          "letter_id": "DCP-LETT-1709",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1709.html",
+          "source_html_sha256": "7d18b0a95beb246b4a76ef379c1ea7dd772c5edd4d4a8cfc3554bfba864d96c7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1709.xml",
+          "xml_sha256": "cf95ba086eeed721ca1e36402b47bc02d5d58932cc8e7c8b66c3905c11fec3da"
+        },
+        {
+          "letter_id": "DCP-LETT-1479",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1479.html",
+          "source_html_sha256": "572b0a24db368b0f9bec8a92a458fefd06a03b5442f8bef6ffbe23beece0f40c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1479.xml",
+          "xml_sha256": "b47ccd5a422186361813e761ea746693aa5708318a8e8d215c142aa850c39570"
+        },
+        {
+          "letter_id": "DCP-LETT-1465",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1465.html",
+          "source_html_sha256": "08e7982166d55dc3db8850a9a958b7f93fb61ec382dd8dbc96a4f0743120de8c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1465.xml",
+          "xml_sha256": "432f1fba669603ec1b4ed2af3aa54c138c3ec517aa31574fc2e5ae568674b04f"
+        },
+        {
+          "letter_id": "DCP-LETT-1472A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1472A.html",
+          "source_html_sha256": "3143157daf8080674c846ee84624360610eb3b0b2b16171d97cd6fabe8962793",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1472A.xml",
+          "xml_sha256": "51dfe6e8cab5203f8b3b7469c5d704ce52b7dfc9757a2a6c574c1aa97f458861"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "accepted_targets_and_contexts": "Complete primary notes, decisions and ledgers reviewed; requirements include all named material boundaries and a consolidated remainder case.",
+    "direct_reply_pairs": 0,
+    "new_relationships": 2,
+    "cross_correspondent_knowledge": [
+      "DCP-LETT-1371→DCP-LETT-1390",
+      "DCP-LETT-1790→DCP-LETT-1794"
+    ],
+    "quote_checks_expected": 11
+  },
+  "notes": "Exact evidence is literal source prose matched to unique preserved HTML nodes. Quote and DOM checks do not independently validate substantive requirement prose. XML date alternatives, author voice, damaged or missing layers, later annotations and physical custody stages remain distinct."
+}

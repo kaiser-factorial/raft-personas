@@ -1,0 +1,131 @@
+{
+  "status": "primary_source_verified",
+  "rules": {
+    "path": "scripts/clear_raft_routing_blocks.py",
+    "sha256": "dd28ca3e8e0037de6d29371f910b6c4b8ed4d2edefe92042cdbdc5b34d17f26f"
+  },
+  "changes": [
+    {
+      "source_id": "DCP-LETT-1103F",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 20,
+        "original_excerpt": "To | T. Salt. Esqre—",
+        "source_sha256": "2e6e184b290dcef957334edbcd30d14cf312fc94200e2cbaa9bab1777045b424"
+      },
+      "action": "exclude_addressee_block"
+    },
+    {
+      "source_id": "DCP-LETT-1158A",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 36,
+        "original_excerpt": "To | Capt. Sir J. Ross | R.N. &c &c.",
+        "source_sha256": "396a35458f5e2e08531fdc6d2f1737328f6f9dfd20dce33f02ef27b655984cb4"
+      },
+      "action": "exclude_addressee_block"
+    },
+    {
+      "source_id": "DCP-LETT-1466G",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 19,
+        "original_excerpt": "To | T. Salt Esqre—",
+        "source_sha256": "dd1a26441fb5c8649f9862e2d87a7a83d59ae053d8948bc7187f181763342166"
+      },
+      "action": "exclude_addressee_block"
+    },
+    {
+      "source_id": "DCP-LETT-1466H",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 28,
+        "original_excerpt": "To | Sir J. Richardson C. B.",
+        "source_sha256": "182ca6f5eac5126f6c79ecc69076ee46b06fcb343c55241f91673064f7f97c1a"
+      },
+      "action": "exclude_addressee_block"
+    },
+    {
+      "source_id": "DCP-LETT-1507F",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 18,
+        "original_excerpt": "To | Mr. C. Wigley",
+        "source_sha256": "fdfb96bd01cf01c2d6f90f51aa1302aa081174fb61984eb7f7920ba8539e210c"
+      },
+      "action": "exclude_addressee_block"
+    },
+    {
+      "source_id": "DCP-LETT-2283F",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 21,
+        "original_excerpt": "To | J. Higgins Esqre",
+        "source_sha256": "1f1b0c00345996d8ebd672f9995f82457a7d33ad3e9e8a5182f24e5aab586ddc"
+      },
+      "action": "exclude_addressee_block"
+    },
+    {
+      "source_id": "DCP-LETT-2377F",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 21,
+        "original_excerpt": "To | J. Higgins Esqre",
+        "source_sha256": "0b7a05aadc4df2ddee391393d44894688ca03a72ff10d2574af0d979e841da8c"
+      },
+      "action": "exclude_addressee_block"
+    },
+    {
+      "source_id": "DCP-LETT-507",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 56,
+        "original_excerpt": "To | The Secretary of | The Geological Society of France",
+        "source_sha256": "50b5fb29893373b12a54fa19091eaf94ba0ad3dcf62eccb849e0b833466f348f"
+      },
+      "action": "exclude_addressee_block"
+    },
+    {
+      "source_id": "DCP-LETT-907",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 95,
+        "original_excerpt": "Believe me, dear Sir William | Yours very faithfully | Charles Darwin Down House | Farnborough.",
+        "source_sha256": "e69fe43e55eb72f823c0f9d7101ebeb07c7c23ca5648b410ff29a07f53730796"
+      },
+      "action": "exclude_trailing_address",
+      "cut_before": " Down House"
+    },
+    {
+      "source_id": "DCP-LETT-907",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 52,
+        "original_excerpt": "To | Sir William Hooker | Royal Botanic Gardens, Kew",
+        "source_sha256": "e69fe43e55eb72f823c0f9d7101ebeb07c7c23ca5648b410ff29a07f53730796"
+      },
+      "action": "exclude_addressee_block"
+    },
+    {
+      "source_id": "DCP-LETT-402A",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 43,
+        "original_excerpt": "To | A. Y. Spearman Esqre Treasury Chambers",
+        "source_sha256": "d9052b8454ab3947d30ddc976f6a2a166b76562123ae28190ac48455992f2d28"
+      },
+      "action": "exclude_addressee_block"
+    }
+  ]
+}

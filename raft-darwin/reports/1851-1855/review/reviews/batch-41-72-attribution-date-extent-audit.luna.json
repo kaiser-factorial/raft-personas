@@ -1,0 +1,539 @@
+{
+  "audit_id": "batch-41-through-72-attribution-date-extent-audit",
+  "scope": "Bounded metadata-versus-report audit. Reports and packet metadata were inspected; no historical adjudication, source edits, ledger edits, or export performed.",
+  "batches_scanned": [
+    "batch-41",
+    "batch-42",
+    "batch-43",
+    "batch-44",
+    "batch-45",
+    "batch-46",
+    "batch-47",
+    "batch-48",
+    "batch-49",
+    "batch-50",
+    "batch-51",
+    "batch-52",
+    "batch-53",
+    "batch-54",
+    "batch-55",
+    "batch-56",
+    "batch-57",
+    "batch-58",
+    "batch-59",
+    "batch-60",
+    "batch-61",
+    "batch-62",
+    "batch-63",
+    "batch-64",
+    "batch-65",
+    "batch-66",
+    "batch-67",
+    "batch-68",
+    "batch-69",
+    "batch-70",
+    "batch-71",
+    "batch-72"
+  ],
+  "criteria": [
+    "compare report attribution language with packet direction",
+    "compare certainty words with original XML date structure and qualifiers",
+    "flag F-suffix and incomplete/inc extent wording without inferring that suffix alone proves incompleteness",
+    "flag nonscientific subject used as a negative rationale; subject alone is not dispositive"
+  ],
+  "findings": [
+    {
+      "category": "attribution_contradiction",
+      "batch_id": "batch-50",
+      "source_id": "DCP-LETT-8848A",
+      "metadata_direction": "from_darwin",
+      "report_field": "attribution_assessment",
+      "report_passage": "Francis Darwin is the incoming body voice for records headed From Francis Darwin; the To Francis Darwin records are C. R. Darwin body voice. Referenced people remain reported voices.",
+      "assessment": "Confirmed contradiction: these records are from_darwin, but the blanket sentence says “Francis Darwin is the incoming body voice” without limiting it to records headed From Francis Darwin. Their summaries correctly describe Darwin outgoing bodies; root should adjudicate corrected attribution wording."
+    },
+    {
+      "category": "attribution_contradiction",
+      "batch_id": "batch-50",
+      "source_id": "DCP-LETT-13794",
+      "metadata_direction": "from_darwin",
+      "report_field": "attribution_assessment",
+      "report_passage": "Francis Darwin is the incoming body voice for records headed From Francis Darwin; the To Francis Darwin records are C. R. Darwin body voice. Referenced people remain reported voices.",
+      "assessment": "Confirmed contradiction: these records are from_darwin, but the blanket sentence says “Francis Darwin is the incoming body voice” without limiting it to records headed From Francis Darwin. Their summaries correctly describe Darwin outgoing bodies; root should adjudicate corrected attribution wording."
+    },
+    {
+      "category": "date_certainty",
+      "batch_id": "batch-69",
+      "source_id": "DCP-LETT-1020",
+      "metadata_date_structure": "single_xml_day",
+      "metadata_original_date": "[c. 26 Nov 1846]",
+      "report_field": "date_assessment",
+      "report_passage": "Exact editorial date [c. 26 November 1846], XML single-day bound; outside 1851–55.",
+      "assessment": "Suspect overstatement: “Exact editorial date” is too strong for the preserved c. qualifier, despite the XML single-day bound. Retain [c. 26 November 1846] and exact_order_needs_review."
+    },
+    {
+      "category": "fragment_extent_language",
+      "batch_id": "batch-63",
+      "source_id": "DCP-LETT-5075F",
+      "metadata_notes": [
+        {
+          "text": "Incomplete",
+          "attributes": {
+            "type": "description"
+          }
+        },
+        {
+          "text": "inc",
+          "attributes": {
+            "type": "physdesc",
+            "n": "ALS"
+          }
+        }
+      ],
+      "report_field": "summary",
+      "report_passage": "Full body reading: in the [north] of Engla⁠⟨⁠nd⁠⟩⁠ ⁠⟨⁠ ⁠⟩⁠ ⁠⟨⁠ ⁠⟩⁠ & with the ⁠⟨⁠ ⁠⟩⁠ ⁠⟨⁠ ⁠⟩⁠ that (for the convenience ⁠⟨⁠ ⁠⟩⁠ ⁠⟨⁠ ⁠⟩⁠ everybody concerned) ⁠⟨⁠ ⁠⟩⁠ you ⁠⟨⁠ ⁠⟩⁠ the day Would you have the kindness to add to next page the name of Humming Bird & ",
+      "assessment": "Extent wording needs adjudication: the report may mean all surviving transcription was read, but “complete/full” must not imply the physical source is complete where XML notes mark incomplete/inc. Preserve body-read coverage separately from source completeness."
+    },
+    {
+      "category": "fragment_extent_language",
+      "batch_id": "batch-66",
+      "source_id": "DCP-LETT-5059F",
+      "metadata_notes": [
+        {
+          "text": "Mem, incomplete",
+          "attributes": {
+            "type": "description"
+          }
+        }
+      ],
+      "report_field": "summary",
+      "report_passage": "Full body reading: When the flower is a day or two older, if a bee alights on the keel, the pistil and longer stamens spring violently out, and the hairs on the pistil deposit plenty of pollen on the bee’s back, against which the stigma is rubbed. We have seen",
+      "assessment": "Extent wording needs adjudication: the report may mean all surviving transcription was read, but “complete/full” must not imply the physical source is complete where XML notes mark incomplete/inc. Preserve body-read coverage separately from source completeness."
+    },
+    {
+      "category": "fragment_extent_language",
+      "batch_id": "batch-66",
+      "source_id": "DCP-LETT-3150F",
+      "metadata_notes": [
+        {
+          "text": "Incomplete",
+          "attributes": {
+            "type": "description"
+          }
+        },
+        {
+          "text": "1p inc",
+          "attributes": {
+            "type": "physdesc",
+            "n": "ALS"
+          }
+        }
+      ],
+      "report_field": "summary",
+      "report_passage": "Full body reading: ",
+      "assessment": "Extent wording needs adjudication: the report may mean all surviving transcription was read, but “complete/full” must not imply the physical source is complete where XML notes mark incomplete/inc. Preserve body-read coverage separately from source completeness."
+    },
+    {
+      "category": "fragment_extent_language",
+      "batch_id": "batch-66",
+      "source_id": "DCP-LETT-5481F",
+      "metadata_notes": [
+        {
+          "text": "incomplete",
+          "attributes": {
+            "type": "description"
+          }
+        },
+        {
+          "text": "",
+          "attributes": {
+            "type": "physdesc",
+            "n": "inc"
+          }
+        }
+      ],
+      "report_field": "summary",
+      "report_passage": "Full body reading: Since the first formation of “The Home” seventy one cases have been received from the Prisons of East and West Kent, of whom fifty-three have been satisfactorily dealt with.— We wish also earnestly to solicit an annual subscription toward th",
+      "assessment": "Extent wording needs adjudication: the report may mean all surviving transcription was read, but “complete/full” must not imply the physical source is complete where XML notes mark incomplete/inc. Preserve body-read coverage separately from source completeness."
+    },
+    {
+      "category": "fragment_extent_language",
+      "batch_id": "batch-70",
+      "source_id": "DCP-LETT-10524F",
+      "metadata_notes": [
+        {
+          "text": "Incomplete",
+          "attributes": {
+            "type": "description"
+          }
+        }
+      ],
+      "report_field": "summary",
+      "report_passage": "Full body reading: Your mother ought indeed to feel proud that she had two sons such true naturalists as you and your brother.",
+      "assessment": "Extent wording needs adjudication: the report may mean all surviving transcription was read, but “complete/full” must not imply the physical source is complete where XML notes mark incomplete/inc. Preserve body-read coverage separately from source completeness."
+    },
+    {
+      "category": "fragment_extent_language",
+      "batch_id": "batch-70",
+      "source_id": "DCP-LETT-12390F",
+      "metadata_notes": [
+        {
+          "text": "incomplete?",
+          "attributes": {
+            "type": "description"
+          }
+        },
+        {
+          "text": "1p inc",
+          "attributes": {
+            "type": "physdesc",
+            "n": "ALS"
+          }
+        }
+      ],
+      "report_field": "summary",
+      "report_passage": "Full body reading: When the Translation of Semper’s book on Biology in the International Series comes out, please send it Closing text: C. Darwin",
+      "assessment": "Extent wording needs adjudication: the report may mean all surviving transcription was read, but “complete/full” must not imply the physical source is complete where XML notes mark incomplete/inc. Preserve body-read coverage separately from source completeness."
+    },
+    {
+      "category": "fragment_extent_language",
+      "batch_id": "batch-70",
+      "source_id": "DCP-LETT-6352F",
+      "metadata_notes": [
+        {
+          "text": "incomplete",
+          "attributes": {
+            "type": "description"
+          }
+        }
+      ],
+      "report_field": "summary",
+      "report_passage": "Full body reading: Different degrees of pelorism are found as a rule on different plants, but many degrees are often found on the same plant. The Clitoria Ternatea is a scandent twining plant, with solitary flowers in the axils of the leaves. Closing text: I h",
+      "assessment": "Extent wording needs adjudication: the report may mean all surviving transcription was read, but “complete/full” must not imply the physical source is complete where XML notes mark incomplete/inc. Preserve body-read coverage separately from source completeness."
+    },
+    {
+      "category": "subject_based_exclusion",
+      "batch_id": "batch-43",
+      "source_id": "DCP-LETT-913",
+      "report_field": "summary/unmatched_reason",
+      "report_passage": "\"All about household and money matters.\" The family is now living on about £1000 per annum. Plans a new walk and additions to the house. Full source inspection covered all 3 retained body blocks, excluded annotations/salutations, XML date attributes and constraints, 987 editorial apparatus characters, bibliography, scholarly material, and any available figure/table markers. | No supported inbound-to-Darwin prompt: this source is Darwin-authored and marked from_darwin. Outgoing letters may answer unlocated correspondence, but no prompt is inferred without distinctive surviving evidence.",
+      "assessment": "Review rationale: family, household, money, or condolence subject does not by itself disprove a correspondence relationship. The negative finding must rest on direction, chronology, and absence of a distinctive prompt/response, not merely nonscientific subject."
+    },
+    {
+      "category": "subject_based_exclusion",
+      "batch_id": "batch-43",
+      "source_id": "DCP-LETT-1145",
+      "report_field": "summary/unmatched_reason",
+      "report_passage": "[Valediction only.] CD note on verso: Athenaeum/48/p. 839 \"E. Forbes on genera being continuous in time––good––fact\". Full source inspection covered all 3 retained body blocks, excluded annotations/salutations, XML date attributes and constraints, 534 editorial apparatus characters, bibliography, scholarly material, and any available figure/table markers. | Incoming witness read in full, but no distinctive Darwin response or supported antecedent survives in this packet. Do not infer a missing prompt from shared subject, date proximity, or adjacent catalogue IDs. The surviving family letter is limited/damaged and preserves no complete prompt.",
+      "assessment": "Review rationale: family, household, money, or condolence subject does not by itself disprove a correspondence relationship. The negative finding must rest on direction, chronology, and absence of a distinctive prompt/response, not merely nonscientific subject."
+    },
+    {
+      "category": "subject_based_exclusion",
+      "batch_id": "batch-43",
+      "source_id": "DCP-LETT-1420",
+      "report_field": "summary/unmatched_reason",
+      "report_passage": "Commiseration on the death of Anne. Full source inspection covered all 5 retained body blocks, excluded annotations/salutations, XML date attributes and constraints, 0 editorial apparatus characters, bibliography, scholarly material, and any available figure/table markers. | Incoming witness read in full, but no distinctive Darwin response or supported antecedent survives in this packet. Do not infer a missing prompt from shared subject, date proximity, or adjacent catalogue IDs. The surviving family letter is limited/damaged and preserves no complete prompt.",
+      "assessment": "Review rationale: family, household, money, or condolence subject does not by itself disprove a correspondence relationship. The negative finding must rest on direction, chronology, and absence of a distinctive prompt/response, not merely nonscientific subject."
+    },
+    {
+      "category": "subject_based_exclusion",
+      "batch_id": "batch-44",
+      "source_id": "DCP-LETT-1141",
+      "report_field": "summary/unmatched_reason",
+      "report_passage": "Darwin writes to Innes about toothache and chloroform, family/social matters and a planned visit, with no matching 1851–55 target content. | Context only; no new 1851–55 relationship inferred.",
+      "assessment": "Review rationale: family, household, money, or condolence subject does not by itself disprove a correspondence relationship. The negative finding must rest on direction, chronology, and absence of a distinctive prompt/response, not merely nonscientific subject."
+    },
+    {
+      "category": "subject_based_exclusion",
+      "batch_id": "batch-44",
+      "source_id": "DCP-LETT-1172",
+      "report_field": "summary/unmatched_reason",
+      "report_passage": "Darwin encloses his three-pound Sunday-school subscription, thanks Innes for notice that it was due, and discusses family and local arrangements. | Context only; no new 1851–55 relationship inferred.",
+      "assessment": "Review rationale: family, household, money, or condolence subject does not by itself disprove a correspondence relationship. The negative finding must rest on direction, chronology, and absence of a distinctive prompt/response, not merely nonscientific subject."
+    },
+    {
+      "category": "subject_based_exclusion",
+      "batch_id": "batch-44",
+      "source_id": "DCP-LETT-1218",
+      "report_field": "summary/unmatched_reason",
+      "report_passage": "Darwin thanks Innes for forwarding information about his son, discusses the son’s progress and related family matters, and preserves that earlier correspondence as context only. | Context only; no new 1851–55 relationship inferred.",
+      "assessment": "Review rationale: family, household, money, or condolence subject does not by itself disprove a correspondence relationship. The negative finding must rest on direction, chronology, and absence of a distinctive prompt/response, not merely nonscientific subject."
+    },
+    {
+      "category": "subject_based_exclusion",
+      "batch_id": "batch-44",
+      "source_id": "DCP-LETT-1285",
+      "report_field": "summary/unmatched_reason",
+      "report_passage": "Darwin thanks Innes for informing him about his son and discusses the son’s situation and family logistics; the prose supplies no later-period scientific prompt. | Context only; no new 1851–55 relationship inferred.",
+      "assessment": "Review rationale: family, household, money, or condolence subject does not by itself disprove a correspondence relationship. The negative finding must rest on direction, chronology, and absence of a distinctive prompt/response, not merely nonscientific subject."
+    }
+  ],
+  "summary": {
+    "confirmed_attribution_contradictions": 2,
+    "date_certainty_suspects": 1,
+    "fragment_extent_suspects": 7,
+    "subject_based_exclusion_review_items": 7
+  },
+  "input_hashes": [
+    {
+      "path": "reports/1851-1855/review/packets/batch-41.json",
+      "sha256": "ba78ca91dec3d3abbbbc133730eb454a6414fd1c31f0eb14366014443aa76076"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-41.json",
+      "sha256": "e21f63c9b1a1e5e2016b960892a458b315513d055f6bf752430ab0d26618ec20"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-42.json",
+      "sha256": "076c17dd2baae1975ed94340c099ff580fc04ac1fbf1354f2dc66c44672e7299"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-42.json",
+      "sha256": "5ba0b40d2fbe05438200fe3eb97a96285de93e3505ddbf7f96251a6ac0fd45c2"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-43.json",
+      "sha256": "437de2370c7797792faf9ed97b23884187d6e8221a693f2cdb063d71c83c52ac"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-43.json",
+      "sha256": "8d5b2fc32ae7fee1ad491b877c50f7c2750b4f548a85a1048bf62ebd10938202"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-44.json",
+      "sha256": "f7a755b23ed023cf9d63ef01830925aa81b788d5c9aeff4442628fd3e84f400e"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-44.json",
+      "sha256": "4311ade0dcc488f96768a988a9473886fa5a817e745fa672a934b6edb37d36cb"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-45.json",
+      "sha256": "ef78faa6bde8bdf6f68f765c10e158a127b4916d96ac4573d4f6a686b2fb229d"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-45.json",
+      "sha256": "256377002e2902414c0027a644328a0558f2984cc9a786ea641c5cf89e3d0f7d"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-46.json",
+      "sha256": "527dda66bc3edae6a5cb7e98f81a6d0fa41bd32d6e333b66940da4b10edd8335"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-46.json",
+      "sha256": "06f61c6e2a51fa6fd3c1a7ad571ca7e228f94b365ab69adb33faf915add76b2a"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-47.json",
+      "sha256": "3d3ada0ec2c7db9f8eb32a0e708ce8967dd23b00476ad07490e59cc6a93f0f22"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-47.json",
+      "sha256": "1f225aa6409649fd02e57755732eddcd860bad034ce81ff1139a00685506b4ec"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-48.json",
+      "sha256": "0ad2b38c57d9f767ba1f0e95ab8f1f4794dddf6bbd2ac4c0580d796dc07dc32f"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-48.json",
+      "sha256": "53d57bef4f4e68a0d4e6a0d5b92dd95b4629444a806cbfda4902150db0b6bdce"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-49.json",
+      "sha256": "bb5ac547bce3878e0444232c16b10622ea65d0fc0f8bd0b008b04b69a2a1e441"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-49.json",
+      "sha256": "b6813055f6cc934042a5a5da2739f4bef4b7a77947cdbce5e06d121e2ace5ebf"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-50.json",
+      "sha256": "325f33e1ccf0f371b3a2ee8f426cdd681d85460fa47ebf932aa154d3ff1cbbd6"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-50.json",
+      "sha256": "68620610e2eb9047ee4d132934f5a542ad9206f8e1ee050b36c0870673f5c96d"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-51.json",
+      "sha256": "7a960680c4a293c48489ba4ea9245262a7739944e8914a8b8c69f0cb2840ebe4"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-51.json",
+      "sha256": "89b346058f0da96067b645e1523a1f0472a94ff7027ef9976fe0e34290be1907"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-52.json",
+      "sha256": "b816b6749b4f4b04c132df3e3144b7420bbd0410fafa95072017304c9c095332"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-52.json",
+      "sha256": "da1134f7e91fcb871a06338c818758b715deefe29e4422c0d7bfde8a9b9102fd"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-53.json",
+      "sha256": "1d78b2ca5baded70515c029cbe456b34372b26e68e5e747404304b3c27d29254"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-53.json",
+      "sha256": "9d280b74d965ae996c1e3b4d232d543bdf338abd3a69b2b4cd284113f47181f6"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-54.json",
+      "sha256": "b0a23061690ab67fafdf30a71b0ef4f4770510747eee6f7989c43511270f7a07"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-54.json",
+      "sha256": "57972797e3bcfaeae99d798d96581dd71d456b29e7c11dbca4bae45334b05050"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-55.json",
+      "sha256": "e126346b1a4bd00142dfc880803ad9034911ede7024423612f3bf661bb99f2c9"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-55.json",
+      "sha256": "9ec44f0254c9354992021cdbe92e534b52330f16d88d38ce097a581963937c4f"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-56.json",
+      "sha256": "be1ea77be3eb23ce09ab7f90311389c1c5204d255653ae55c4b690959c563e54"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-56.json",
+      "sha256": "2d2fe568b994688cf5e94f63b08ce23b2a0e58d29da60474b1c62a3350fb80da"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-57.json",
+      "sha256": "7ec165c3b7897d6ea6ff6be7a5cbd43f89c031265540b3e0b186bae872b514b2"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-57.json",
+      "sha256": "eded4c5dbb82ea391869e5ce7a29678a9b0497221fe5dbf66964430149cc6941"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-58.json",
+      "sha256": "5d7179ec859ce65873fdd71f26ba4bb45d681c916fdb822a0a3a4c54dfeda723"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-58.json",
+      "sha256": "4147459985df85994f4514efe87f06c7e3967350c34ff308c8fcc5bc4efd082f"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-59.json",
+      "sha256": "3eb441ebc15143e3f57b305aa83dedfe6287c5a9e54250a38569b95245e4dead"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-59.json",
+      "sha256": "beb9a8e6a62606607531c54e641f29214d90eec93e27df62a002da89fc3d9aa7"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-60.json",
+      "sha256": "b4d5179d9b86c540e36d0e28c2bb5aa20bfd64665c2f2836a52363447e2aa9bc"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-60.json",
+      "sha256": "158ed93d878fbacbc38b92f891ef972a7485b95c89cb16b2b4119196398e7e7a"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-61.json",
+      "sha256": "db903458e600f24d0ed8a643acf294ac1610b8f2d77bfd57c51a01bfd9e15be7"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-61.json",
+      "sha256": "38571a00d36c51435e767502d651760d56e674572a8a7cb4b8724050b1488ea4"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-62.json",
+      "sha256": "4b81823c5dec9c73388e1f87fea29f3fb1a7c123d95e56da36daa85f91cb11df"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-62.json",
+      "sha256": "f4159c77a9af5cec4cea1a85e1ff6e350c82946846e1736695bf44e12fc4efa1"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-63.json",
+      "sha256": "657a95ef61fc424bbe99d0d09c9d328808fa0921e099145f47875a06a9ad222b"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-63.json",
+      "sha256": "ddb71588c099ac521d5fd331b41c55670215a2e84d75f79c5dd05f5c78a46ae5"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-64.json",
+      "sha256": "a3d24b9f859544886fe44a4f2812b58097b221673797b7b843535c340931b6fd"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-64.json",
+      "sha256": "9ac010eb7fd394f34e3b53e54c75198f24cfd9820d2d93f96d6d2c64b80f0d94"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-65.json",
+      "sha256": "6fe5d6463d02cdcf02fdf6e2c9737a8b661fc938109b1ee68a7e36a1c7d29090"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-65.json",
+      "sha256": "70b239359fdd459afcb82a96f32da72ab1db9598f76b4e721ea7fff5dce6799e"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-66.json",
+      "sha256": "5163f595ccc16b0802ad1b134ce14c5e78a26e6f92d561bdead4340d557a2492"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-66.json",
+      "sha256": "875b9feb50a84a96b70e4fbb20438674a6f7210c00cd84d84e97ad8171f47b92"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-67.json",
+      "sha256": "3aa03102b23b26243695cdb28f7caafd1e5f780ab2de18ffd290cc59cd2ff608"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-67.json",
+      "sha256": "e27ea2cb257ca663c058fd7f2b3ccc56f48a200e8272587da2f23c499a3f4e4c"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-68.json",
+      "sha256": "78a1b6431bc119f7f3582e79f7a532924cb1f5cbe57f216799359f9bea577714"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-68.json",
+      "sha256": "7193ecd7622489a3fe42f82698c2340b123e8c69a3ba320402e8388935fa3f82"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-69.json",
+      "sha256": "645d0483569c0da2ec2cfd85ddf01b5b676bb5c683239e40a5da810b1e0f3f38"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-69.json",
+      "sha256": "c3b19e1e2fab1bbc3c1fb1784ba9c9e0f92677071f25fb19771fde547285adfa"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-70.json",
+      "sha256": "ff8f2fcf98b02b9c02d4f50dc1bc01ad9f29cda4ad50a0cfec0e8faa894253d5"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-70.json",
+      "sha256": "6402bc7a336d96fcea648dd3b53b45b5dd7db6365f69d3265ffd6c7eb7d25d6c"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-71.json",
+      "sha256": "89c26f8b62d68f1d0106fb77adbfba6a794e3180f634a432ae7c05817958ea97"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-71.json",
+      "sha256": "9979c65ee385252f9ca137f7fb32e8d67cf36f7cbb3a9cb310902af70ae992c7"
+    },
+    {
+      "path": "reports/1851-1855/review/packets/batch-72.json",
+      "sha256": "e0420a7776175f3a22badc2285b91cd21ebaa3144638cbcb217bdc20e626add2"
+    },
+    {
+      "path": "reports/1851-1855/review/reviews/batch-72.json",
+      "sha256": "fb18f704704b06b7c8b6dbf38097779f847d87904da1bda09ea3998d3ab15aee"
+    }
+  ],
+  "not_found": [
+    "No definite misstatement was found in batch-44 for DCP-LETT-13870 or DCP-LETT-1624: their report date fields preserve broad/mutually exclusive bounds.",
+    "No attribution contradiction was found in the conditional batch-52 Huxley/Oliver wording; it distinguishes incoming versus To records.",
+    "No F suffix was treated as proof of a fragment solely from the suffix; extent flags above arise where metadata separately marks incomplete/inc."
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Accepted 1856–1857 batch-28 additive source-text/date/voice/rendering requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-28.json",
+      "sha256": "72640803b24030dddeab1ddff9b8ae3313ffba013e5a4ba6c3a88a3504908dba"
+    },
+    "parent_decision": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-28.json",
+      "sha256": "00ad30080e22b0256d2c3c9a8cba75c893c3e79c4c3bc49cc03b71c6801e0ee0"
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-28.json",
+      "sha256": "b69960332173f0a94ed164569eaf93b3e8d6843f4e9384f94c551b8f8c138378"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1970",
+        "DCP-LETT-1988",
+        "DCP-LETT-1989"
+      ],
+      "case": "Daniell island-mammal knowledge witness and date bounds",
+      "requirement": "Preserve the accepted knowledge witness 1988 to 1989: Daniell’s 14 November incoming letter supplies attributed St Thomas and Princes mammal information, and Darwin’s 15 November letter to Lyell records that morning’s impact on his distribution/soundings idea. Keep the Portuguese historical quotation and any editorial translation or summary in separate layers, and do not treat Daniell’s species claims as verified Darwin knowledge. 1970 remains an 8 October–7 November Daniell source; no surviving section proves that its later paragraphs were sent before 1975–1976, so do not backdate October Tegetmeier material or use 7 November as a receipt date.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1970",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1970.html",
+          "source_html_sha256": "a896992839b220c9aa21d60511cd5155b98cd56c128f4107bbaf81b780eefddb",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1970.xml",
+          "xml_sha256": "ad67bbe09c92ef1bbcdbea79d7c1d12b3c877ce1e6a2174260174e9039c84479",
+          "verified_xml_dates": [
+            {
+              "text": "8 Oct – 7 Nov 1856",
+              "attributes": {
+                "notBefore": "1856-10-08",
+                "notAfter": "1856-11-07"
+              },
+              "lower": "1856-10-08",
+              "upper": "1856-11-07",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1856-10-08\" notAfter=\"1856-11-07\">8 Oct – 7 Nov 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1988",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1988.html",
+          "source_html_sha256": "3c2ba821944131cda0bb8b9f294d0dafbd4a4fd2af724142d56a021cecc1c6ac",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1988.xml",
+          "xml_sha256": "7239b5e9988fad3886dda01ce95eaf22ab83fdcc807a156698ed85ae56de2919",
+          "verified_xml_dates": [
+            {
+              "text": "14 Nov 1856",
+              "attributes": {
+                "when": "1856-11-14"
+              },
+              "lower": "1856-11-14",
+              "upper": "1856-11-14",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-14\">14 Nov 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1989",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1989.html",
+          "source_html_sha256": "d3c4b83c204b91e183762485b7c2202a9648c6ad649de02ea2221d301e6d5702",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1989.xml",
+          "xml_sha256": "0b7bfc74c41a75f4575aaf94124abd585c9567b10f90f9083dbb479ea9428fad",
+          "verified_xml_dates": [
+            {
+              "text": "15 Nov [1856]",
+              "attributes": {
+                "when": "1856-11-15"
+              },
+              "lower": "1856-11-15",
+              "upper": "1856-11-15",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-15\">15 Nov [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1988",
+          "body_paragraph": 1,
+          "quote": "information about the mamalia, of St Thomas, & Princes",
+          "char_start": 287,
+          "char_end": 341,
+          "source_sha256": "3c2ba821944131cda0bb8b9f294d0dafbd4a4fd2af724142d56a021cecc1c6ac",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1988",
+          "body_paragraph": 2,
+          "quote": "numerous monkeys & civit cats",
+          "char_start": 98,
+          "char_end": 127,
+          "source_sha256": "3c2ba821944131cda0bb8b9f294d0dafbd4a4fd2af724142d56a021cecc1c6ac",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1989",
+          "body_paragraph": 4,
+          "quote": "I have had this morning a most cruel stab in the side on my notion of distribution of Mammals in relation to soundings",
+          "char_start": 0,
+          "char_end": 118,
+          "source_sha256": "d3c4b83c204b91e183762485b7c2202a9648c6ad649de02ea2221d301e6d5702",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1970",
+          "body_paragraph": 8,
+          "quote": "Nov. 7.",
+          "char_start": 0,
+          "char_end": 7,
+          "source_sha256": "a896992839b220c9aa21d60511cd5155b98cd56c128f4107bbaf81b780eefddb",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1981"
+      ],
+      "case": "five-category nine-skin list and raw layout",
+      "requirement": "Preserve the five categories and nine skins in 1981, including the doubtful Rangoon origin of one cock. Darwin explicitly says he has received these skins; his proposed loan to Tegetmeier and required return of the wild Jungle Fowl head are prospective. Preserve raw diag/ramme tokens in audit evidence only. The final entry requires a source-supported clean list rendering with category associations intact; unresolved layout artifacts hold it. No image, table or MathML exists in the raw letter to substitute automatically.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1981",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1981.html",
+          "source_html_sha256": "096508cd8591ae0182a0b5daee1b2944f960d74365953bd2b83f8b40f790e9ad",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1981.xml",
+          "xml_sha256": "0de0c16e7be6d967ac5cd62c86d669e162a4c171654b81e56f0b18898d0f30c5",
+          "verified_xml_dates": [
+            {
+              "text": "3 Nov [1856]",
+              "attributes": {
+                "when": "1856-11-03"
+              },
+              "lower": "1856-11-03",
+              "upper": "1856-11-03",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-03\">3 Nov [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1981",
+          "body_paragraph": 4,
+          "quote": "I have received from the Honble. Walter Elliot of Madras, skins of following poultry, diag 2. Game Cock & Hen (of great size)",
+          "char_start": 21,
+          "char_end": 146,
+          "source_sha256": "096508cd8591ae0182a0b5daee1b2944f960d74365953bd2b83f8b40f790e9ad",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1981",
+          "body_paragraph": 9,
+          "quote": "Now if you would like to examine & describe these 9 skins",
+          "char_start": 0,
+          "char_end": 57,
+          "source_sha256": "096508cd8591ae0182a0b5daee1b2944f960d74365953bd2b83f8b40f790e9ad",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[10]"
+        }
+      ],
+      "verified_raw_layout": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+          "raw_markup": "<p>Since writing to you I have received from the Hon<sup>ble</sup>. Walter Elliot of Madras, <span class=\"underline\">skins</span> of following poultry, diag 2. Game Cock &amp; Hen (of great size)</p>\n"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]",
+          "raw_markup": "<p>People.ramme</p>\n"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2004"
+      ],
+      "case": "currency superscripts and acquisition versus shipment",
+      "requirement": "Render the currency markup in 2004 as £4 4s 10d, preserving its pounds, shillings and pence rather than a decimal or an undifferentiated number. The Persian box cost is reported as already incurred, not a later estimate. Distinguish received Persian poultry, Natal skins being sent and Gabriel’s collection being made; these are different acquisition states.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2004",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2004.html",
+          "source_html_sha256": "4b35d71c9d9c0f01af1b59db07396348759600ff4a2463ad202c41149743c60c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2004.xml",
+          "xml_sha256": "c415976af00eef22a4dd7aadf726d9c2f668d2c9f80cd41d3fb962e744b3464b",
+          "verified_xml_dates": [
+            {
+              "text": "29 Nov [1856]",
+              "attributes": {
+                "when": "1856-11-29"
+              },
+              "lower": "1856-11-29",
+              "upper": "1856-11-29",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-29\">29 Nov [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2004",
+          "body_paragraph": 2,
+          "quote": "The Persian Box alone cost",
+          "char_start": 169,
+          "char_end": 195,
+          "source_sha256": "4b35d71c9d9c0f01af1b59db07396348759600ff4a2463ad202c41149743c60c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "verified_currency_markup": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+        "raw_markup": "<p>I really now think I shall have materials to judge of Poultry of World, for M<sup>r</sup> Wallace is collecting in the Malay Archipelago;<sup id=\"back-mark-Lfoot.f4\" class=\"footnote\" data-target=\"#Lfoot.f4\">4</sup> but the carriage is costing me a fortune! The Persian Box alone cost <sup>£</sup>4 <sup>s</sup> 4 <sup>d</sup> 10.—</p>\n",
+        "supported_reading": "£4 4s 10d",
+        "source_sha256": "4b35d71c9d9c0f01af1b59db07396348759600ff4a2463ad202c41149743c60c"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2048"
+      ],
+      "case": "deleted postscript and surviving postscript",
+      "requirement": "2048 P2–P3 requests rumpless-fowl eggs with embryos about 24 hours before hatching. It has no five-question enclosure. Preserve the surviving P8 postscript about a German Pouter heard of that morning. Footnote 7 reports a separate deleted postscript requesting a common Dutch or German Pouter; its actual text is unavailable in the raw page. Do not reconstruct that text or include the footnote in the letter body. Preserve the surviving revision without inventing the deleted wording.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2048",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2048.html",
+          "source_html_sha256": "7ea5927036d9cb4bb7332af76cd0c2ba1d3e0deff99914c1d6c39f721b699c5f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2048.xml",
+          "xml_sha256": "0d08685561253fec0f64328f9c6fd83f4fe66ea8582f5229764bb4889b47ca06",
+          "verified_xml_dates": [
+            {
+              "text": "6 Feb [1857]",
+              "attributes": {
+                "when": "1857-02-06"
+              },
+              "lower": "1857-02-06",
+              "upper": "1857-02-06",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-02-06\">6 Feb [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2048",
+          "body_paragraph": 2,
+          "quote": "I certainly shall be very much obliged for an egg or two of any Rumpless Fowl",
+          "char_start": 0,
+          "char_end": 77,
+          "source_sha256": "7ea5927036d9cb4bb7332af76cd0c2ba1d3e0deff99914c1d6c39f721b699c5f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2048",
+          "body_paragraph": 8,
+          "quote": "By oddest chance this very morning I have heard of a German Pouter on sale",
+          "char_start": 7,
+          "char_end": 81,
+          "source_sha256": "7ea5927036d9cb4bb7332af76cd0c2ba1d3e0deff99914c1d6c39f721b699c5f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]"
+        }
+      ],
+      "verified_excluded_apparatus": {
+        "letter_id": "DCP-LETT-2048",
+        "literal_text": "In a deleted postscript to this letter, CD had requested a common Dutch or German pouter",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[7]/div[2]",
+        "source_sha256": "7ea5927036d9cb4bb7332af76cd0c2ba1d3e0deff99914c1d6c39f721b699c5f"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2093",
+        "DCP-LETT-2111",
+        "DCP-LETT-2115",
+        "DCP-LETT-2108",
+        "DCP-LETT-2110"
+      ],
+      "case": "book edition receipt, reading and within-letter revisions",
+      "requirement": "Preserve the edition and reading sequence: on 18 May Darwin reports receiving the old edition; by 25 June he had obtained all published numbers before leaving home and intends to study them; on the supplied 19 July date he still has not begun. 2110 reports three hatched chicks, learned of two or three days after hatching, which defeated the requested examination before hatching; this is not an identified postscript. In 2115, the later paragraph corrects the Trumpeter’s sex and therefore withdraws the proposed shipment. Keep observations, corrections, planned custody and reading separate.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2093",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2093.html",
+          "source_html_sha256": "36d1ddd6a4adb68be5df0c26d2d2e45ebdef02a5e44a241784f8be114cd36fc7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2093.xml",
+          "xml_sha256": "e1a6630f67717ad5768127a16f52fab520f73dd086276585a0b0ace29e901ddd",
+          "verified_xml_dates": [
+            {
+              "text": "18 May [1857]",
+              "attributes": {
+                "when": "1857-05-18"
+              },
+              "lower": "1857-05-18",
+              "upper": "1857-05-18",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-05-18\">18 May [1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2111",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2111.html",
+          "source_html_sha256": "b4239ee96d283dc5723ed05bbe82cd419578e810b6b6c794c563817f1046e788",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2111.xml",
+          "xml_sha256": "acf1b37bf4a01138ebf0f2cf942176e26647cc26287ac4f9a0273de48b0cc6e1",
+          "verified_xml_dates": [
+            {
+              "text": "25 [June 1857]",
+              "attributes": {
+                "when": "1857-06-25"
+              },
+              "lower": "1857-06-25",
+              "upper": "1857-06-25",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-06-25\">25 [June 1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2115",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2115.html",
+          "source_html_sha256": "c0f77b6374c4fcc86b5ec24d237d7e1c9e299ef0268f4710a927f8de79490472",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2115.xml",
+          "xml_sha256": "e34e613fd57bedff892fe8a4d9800782208cdf480ee4bab3f167edca9c18f09d",
+          "verified_xml_dates": [
+            {
+              "text": "[19 July 1857]",
+              "attributes": {
+                "when": "1857-07-19"
+              },
+              "lower": "1857-07-19",
+              "upper": "1857-07-19",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-07-19\">[19 July 1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2108",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2108.html",
+          "source_html_sha256": "5b972dd62ad400dcf8c87e1f82a997684047062f3927f0fdc89d6e5b415c145d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2108.xml",
+          "xml_sha256": "62d0d00c347eaf7f6c67af4aec533941164cd8ed527bab81478dbac25415a85c",
+          "verified_xml_dates": [
+            {
+              "text": "[18 June 1857]",
+              "attributes": {
+                "when": "1857-06-18"
+              },
+              "lower": "1857-06-18",
+              "upper": "1857-06-18",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-06-18\">[18 June 1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2110",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2110.html",
+          "source_html_sha256": "c3e53afed535402c86319d1baf7e0c56bb98e4d8a6b9b9c8578af44ebb90b6e5",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2110.xml",
+          "xml_sha256": "d1b0a867e25bdf2a4db592155a38dc1ef60f3258f5e6af3feeffeefcff6d8151",
+          "verified_xml_dates": [
+            {
+              "text": "23 June [1857]",
+              "attributes": {
+                "when": "1857-06-23"
+              },
+              "lower": "1857-06-23",
+              "upper": "1857-06-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-06-23\">23 June [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2093",
+          "body_paragraph": 5,
+          "quote": "they had sent me an old Edition, not edited, apparently, by you",
+          "char_start": 240,
+          "char_end": 303,
+          "source_sha256": "36d1ddd6a4adb68be5df0c26d2d2e45ebdef02a5e44a241784f8be114cd36fc7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2111",
+          "body_paragraph": 3,
+          "quote": "I got all the published numbers of the Poultry Book & shall soon study them",
+          "char_start": 33,
+          "char_end": 108,
+          "source_sha256": "b4239ee96d283dc5723ed05bbe82cd419578e810b6b6c794c563817f1046e788",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-2115",
+          "body_paragraph": 5,
+          "quote": "I have not begun yet to read Poultry Book",
+          "char_start": 186,
+          "char_end": 227,
+          "source_sha256": "c0f77b6374c4fcc86b5ec24d237d7e1c9e299ef0268f4710a927f8de79490472",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2110",
+          "body_paragraph": 1,
+          "quote": "Of the eggs of the rumpless Fowls only 3 hatched—2 jet black & one a little banded",
+          "char_start": 49,
+          "char_end": 131,
+          "source_sha256": "c3e53afed535402c86319d1baf7e0c56bb98e4d8a6b9b9c8578af44ebb90b6e5",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    }
+  ],
+  "notes": "Exact body quotations were selected from the preserved source records and matched programmatically to body blocks and unique raw HTML nodes. Markup and apparatus verbatim fields are kept separate where flattened body extraction would conceal MathML/superscript or deleted-text boundaries. Preserve Daniell, Darwin and editorial voices, original date bounds, receipt/reading stages, future shipments, and unavailable sections under current export content policy.",
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-50.draft.json",
+      "sha256": "bbcfea0ffdf843077cd8863b4c1f91cddd78ab6fced4618642c53bc2438cd57c"
+    }
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md",
+  "primary_verification": {
+    "exact_body_quotes_checked": 13,
+    "unique_source_html_xml_pairs_checked": 11,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "raw_layout_records_checked": 1,
+    "artifact_blocks_checked": 2,
+    "currency_markup_checked": 1,
+    "deleted_postscript_apparatus_checked": 1
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "primary_corrections": [
+    "Corrected the knowledge witness recipient: 1989 is to Lyell, not a reply to Daniell.",
+    "Separated raw artifact preservation from final supported cleanup.",
+    "Corrected receipt of the nine skins to Darwin versus prospective loan to Tegetmeier.",
+    "Corrected already incurred currency cost versus a future estimate.",
+    "Removed the copied five-question enclosure claim, which does not belong to 2048.",
+    "Separated delayed news of hatching from a postscript; retained the later Trumpeter sex correction."
+  ]
+}

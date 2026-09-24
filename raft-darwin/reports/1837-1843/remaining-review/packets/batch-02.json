@@ -1,0 +1,1583 @@
+{
+  "batch_id": "batch-02",
+  "target_ids": [
+    "DCP-LETT-416",
+    "DCP-LETT-475",
+    "DCP-LETT-641",
+    "DCP-LETT-681",
+    "DCP-LETT-684",
+    "DCP-LETT-685",
+    "DCP-LETT-686",
+    "DCP-LETT-688",
+    "DCP-LETT-710",
+    "DCP-LETT-718"
+  ],
+  "context_ids": [],
+  "groups": [
+    {
+      "authority_key": "../nameregs/nameregs_4972.xml",
+      "labels": [
+        "Waterhouse, G. R."
+      ],
+      "letter_ids": [
+        "DCP-LETT-416",
+        "DCP-LETT-475",
+        "DCP-LETT-641",
+        "DCP-LETT-681",
+        "DCP-LETT-684",
+        "DCP-LETT-685",
+        "DCP-LETT-686",
+        "DCP-LETT-688",
+        "DCP-LETT-710",
+        "DCP-LETT-718"
+      ]
+    }
+  ],
+  "scope": "Every previously uninspected source record in the pinned 1837–1843 candidate inventory, including all 31 date-held records across phases. Not a corpus-wide re-dating of records outside the pinned selection.",
+  "letters": [
+    {
+      "id": "DCP-LETT-416",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-416.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-416.xml",
+        "retrieved_at": "2026-09-16T10:53:29.617525+00:00",
+        "sha256": "d2bc4e7a0f49a8894b651a5bde2900ed9e6a179eb4edea1edbf720fcbebe3885",
+        "bytes": 110889,
+        "http_status": 200,
+        "etag": "\"7d535908426d8d86de7461c2eefb1447\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-416"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-416",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1838-08-01",
+        "xml_latest": "1840-12-31",
+        "date_structure": "bounded_range",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[Aug 1838–40]",
+            "attributes": {
+              "notBefore": "1838-08-01",
+              "notAfter": "1840-12-31"
+            },
+            "lower": "1838-08-01",
+            "upper": "1840-12-31",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1838-08-01\" notAfter=\"1840-12-31\">[Aug 1838–40]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Waterhouse, G. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4972.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "unstated"
+        ],
+        "xml_notes": [
+          {
+            "text": "1p",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-416",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Waterhouse",
+          "recipient_forename": "G. R.",
+          "sorting_date": "1838-08-01",
+          "date": "[Aug 1838–40]",
+          "sender_address": "unstated",
+          "recipient_address": "",
+          "source": "Cleveland Health Sciences Library (Robert M. Stecher collection)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-416.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 445,
+          "csv_physical_line_start": 448,
+          "csv_physical_line_end": 448,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-416.xml",
+          "xml_sha256": "19fef542157d4d6f9b88c538b0f758ca5d92f6bb20aa8417ca322a74063ccb18",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-416.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-416.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To George Robert Waterhouse [August 1838–40]",
+      "header_text": [
+        "To George Robert Waterhouse [August 1838–40]"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I am so determined to make you a geologist, that I have taken the liberty of sending you a copy of Lyell, by which means I obtain full right to mal-treat & abuse you till you have read it.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Ever yours | C. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Waterhouse"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Determined to make GRW a geologist. Sends copy of C. Lyell [?Elements of geology (1838)].",
+      "editorial_footnotes": "Footnotes1The reference is either to Lyell’s Elements, which was published in August 1838 (see letter to Charles Lyell, 9 August [1838]), or to the sixth edition of the Principles, published in 1840.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-475",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-475.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-475.xml",
+        "retrieved_at": "2026-09-16T10:53:30.050543+00:00",
+        "sha256": "e0c0313b1e3b4982201bc44921076e71438c6ecf5efee09ce443bd2af382cab8",
+        "bytes": 115471,
+        "http_status": 200,
+        "etag": "\"98311b452429dfd730f1cea668ef1762\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-475"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-475",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "to_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1839-01-01",
+        "xml_latest": "1840-02-10",
+        "date_structure": "bounded_range",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[1839 – 10 Feb 1840]",
+            "attributes": {
+              "notBefore": "1839-01-01",
+              "notAfter": "1840-02-10"
+            },
+            "lower": "1839-01-01",
+            "upper": "1840-02-10",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1839-01-01\" notAfter=\"1840-02-10\">[1839 – 10 Feb 1840]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Waterhouse, G. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4972.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "unstated"
+        ],
+        "xml_notes": [
+          {
+            "text": "3pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "incoming_context_pending_receipt_and_reply_evidence",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-475",
+          "sender_surname": "Waterhouse",
+          "sender_forename": "G. R.",
+          "recipient_surname": "Darwin",
+          "recipient_forename": "C. R.",
+          "sorting_date": "1839-01-01",
+          "date": "[1839 – 10 Feb 1840]",
+          "sender_address": "unstated",
+          "recipient_address": "",
+          "source": "DAR 205.3: 295",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-475.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 508,
+          "csv_physical_line_start": 511,
+          "csv_physical_line_end": 511,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-475.xml",
+          "xml_sha256": "127a4d37a5aa433f61d299cae3c831522a278a679fdfae9200d2e5dacf689505",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-475.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-475.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": false
+      },
+      "title": "From G. R. Waterhouse [1839 – 10 February 1840]1",
+      "header_text": [
+        "From G. R. Waterhouse [1839 – 10 February 1840]1"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I herewith send you Blackwalls book, I have not been so much pleased with it as I expected I should, from parts which I had read when I saw you— there is not a little twaddle* about it—it is nevertheless interesting & worth reading—very likely I can’t appreciate it",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "faithfully yours | Geo R Waterhouse Tuesday night",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "*book making",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "P.S. I’ll be bound if there are any marsupials in Java or Sumatra, I see that Temminck (who by the bye expects some will be found in those islands) expressly denies that any of the Cuscuses (species forming a subdivision of Phalangista) are found, as has been stated, in Java— The only one he has given the locality of Java to is a species found at van Dieman’s land and Port Jackson— now it so happens that all the Phalangistas as yet found in the islands to the North of Australia belong to a different division of the group —a group remarkable, among other characters, for a peculiarly wooly frizzled (I think that is a new word) fur—like a black man’s head—and no doubt serves to keep off the hot tropical sun— there is I am sure some mistake— Judging from the Zoological Productions you may depend upon it Java and Sumatra are India— I have got plenty of Java Birds and several quadrupeds from Singapore—and New Guinea—most probably the Moluccas, Celebes, Banda & Amboina are Australia, at least they have a strong smell of that Continent— I say this to call your attention to the matter in a Geological point of view—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "body_paragraph": 5,
+          "text": "I hope to goodness you are better —and I hope all goes on well",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 5"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Darwin"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Sends John Blackwall’s book [Researches in zoology (1834)]. Discusses his reasons for doubting that there are any marsupials in Java or Sumatra.",
+      "editorial_footnotes": "Footnotes1The letter is addressed to ‘12 Upper Gower St’, CD’s residence from January 1839 to September 1842. The date range is fixed by CD’s record that he read Blackwall’s book (see n. 2, below) by 10 February 1840 (Vorzimmer 1977, p. 123 and DAR 119).2Blackwall 1834. CD’s copy is preserved in Darwin Library–CUL; his annotations show that he was interested mainly in the chapter on instincts of birds, but many other pages are noted on the inside back cover.3Temminck 1827–41, 1: 16, 19.4CD had made similar notes (in February–July 1838, from Quoy and Gaimard 1830–4, 1: 60) in Notebook C: 13e and 225e.5CD records frequent periods of illness in his ‘Journal’ (Correspondence vol. 2, Appendix II) during 1839–42.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-641",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-641.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-641.xml",
+        "retrieved_at": "2026-09-16T10:53:30.139470+00:00",
+        "sha256": "b6f35a1e9c7a4832cc487e776a600408822f4c9d3fcf5e8eb488efb517742a93",
+        "bytes": 114282,
+        "http_status": 200,
+        "etag": "\"4547609b9cd03c66d09e680a4b01a1ab\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-641"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-641",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1842-09-04",
+        "xml_latest": "1842-09-11",
+        "date_structure": "alternative_dates",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "4 Sept 1842",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date1",
+              "when": "1842-09-04",
+              "exclude": "#date2"
+            },
+            "lower": "1842-09-04",
+            "upper": "1842-09-04",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date1\" when=\"1842-09-04\" exclude=\"#date2\">4 Sept 1842</ns0:date>"
+          },
+          {
+            "text": "11 Sept 1842",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date2",
+              "when": "1842-09-11",
+              "exclude": "#date1"
+            },
+            "lower": "1842-09-11",
+            "upper": "1842-09-11",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date2\" when=\"1842-09-11\" exclude=\"#date1\">11 Sept 1842</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Waterhouse, G. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4972.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Upper Gower St, 12"
+        ],
+        "xml_notes": [
+          {
+            "text": "4pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-641",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Waterhouse",
+          "recipient_forename": "G. R.",
+          "sorting_date": "1842-09-04",
+          "date": "[4 or 11] Sept 1842",
+          "sender_address": "London, Upper Gower St, 12",
+          "recipient_address": "",
+          "source": "Harry Ransom Center, The University of Texas at Austin",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-641.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 715,
+          "csv_physical_line_start": 718,
+          "csv_physical_line_end": 718,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-641.xml",
+          "xml_sha256": "029f58636216cee15a722ff29fcf369df701935e4525ad4ae5870c116588fb42",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-641.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-641.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To G. R. Waterhouse [4 or 11 September 1842]",
+      "header_text": [
+        "To G. R. Waterhouse [4 or 11 September 1842]12 Up. Gower StSunday"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I really can hardly express how much obliged I am to you for the shamefully great amount of trouble you have taken for me, and for my nephew, to whom, I am sure, the collection will give infinite pleasure. My cabinet must have cost you a very great deal of trouble.— And the book on bees too!",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Thank you also for the feather for my Father.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "I am in a terrible state of bustle, but the work & excitement hitherto has given me the strength of a giant.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "You know you have a few Coleopt: of mine to name— And at some future time, one more empty case (as the one you have sent goes to my nephew). The case might be sent, any time when ready & directed to the Athenæum Club.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "body_paragraph": 5,
+          "text": "Gray was asking me not to forget Brit. Mus. in distributing my insects— it is entirely in your hands so I pass on the memento to you.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 5"
+        },
+        {
+          "body_paragraph": 6,
+          "text": "With many thanks | my dear Waterhouse | Most truly Yours | C. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 6"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Waterhouse"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Thanks GRW for collection [of insects] he has made up for CD’s nephew. Leaves decision to GRW as to which institutions should receive CD’s Beagle insects.",
+      "editorial_footnotes": "Footnotes1One of the four sons of CD’s sister Marianne Parker. At this time they were aged 17 (Robert), 15 (Henry, Jr), 13 (Francis), and 10 (Charles).2Waterhouse had described most of the beetles of the Beagle voyage in a series of articles published between 1837 and 1842. Two additional descriptive articles appeared in 1843 and 1845 and Waterhouse’s son, Frederick Herschel Waterhouse, described further specimens undetermined by his father (‘Descriptions of new Coleoptera of geographical interest collected by Charles Darwin, Esq.’, Journal of the Linnean Society of London (Zoology) 14 (1879): 530–4).3John Edward Gray. The reference to the British Museum suggests that Waterhouse was still at the Zoological Society. He was appointed assistant in the Mineralogical Department at the British Museum in 1843.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-681",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-681.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-681.xml",
+        "retrieved_at": "2026-09-16T10:53:30.195348+00:00",
+        "sha256": "30af8c3e87de86a5b75af958fffe702bb3c9cb75ed6122eda38c548a7891b2a4",
+        "bytes": 111410,
+        "http_status": 200,
+        "etag": "\"0503e55bc2dbe82afb65ff29142ee0fb\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-681"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-681",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1843-07-08",
+        "xml_latest": "1843-07-08",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "8 July 1843",
+            "attributes": {
+              "when": "1843-07-08"
+            },
+            "lower": "1843-07-08",
+            "upper": "1843-07-08",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1843-07-08\">8 July 1843</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Waterhouse, G. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4972.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "Athenaeum Club"
+        ],
+        "xml_notes": [
+          {
+            "text": "1p",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-681",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Waterhouse",
+          "recipient_forename": "G. R.",
+          "sorting_date": "1843-07-08",
+          "date": "8 July 1843",
+          "sender_address": "Athenaeum Club",
+          "recipient_address": "",
+          "source": "Natural History Museum, Library and Archives (General Library MSS WAT)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-681.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 761,
+          "csv_physical_line_start": 764,
+          "csv_physical_line_end": 764,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-681.xml",
+          "xml_sha256": "9e5b47385a67c69cf8a575c63cca0d348ee43e62b7f7af542e76d90ce94819ed",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-681.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-681.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To G. R. Waterhouse 8 July 1843",
+      "header_text": [
+        "To G. R. Waterhouse 8 July 1843Athenæum ClubJuly 8. 1843"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I have heard with much satisfaction that you have applied for a place in the British Museum. I feel that it is in some degree presumptuous on my part to express any opinion of the Zoological acquirements of a naturalist, so infinitely my superior in that department. But I can say with entire truth, that I have for many years admired your skill & accuracy in discriminating species, your powers of generalization & your untiring zeal in the cause of Zoology.— For the advancement of Natural History, and for the services, which I am sure, you will render to the Curators of the magnificent collection at the British Museum, fully as much as for your own good, you have my earnest wishes for your success.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Believe me | Your sincere friend | Charles Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Waterhouse."
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Testimonial letter for GRW for position at British Museum.",
+      "editorial_footnotes": "Footnotes1Waterhouse had lost his position at the Zoological Society. For the circumstances, see letter from G. R. Waterhouse, 9 August 1843.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-684",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-684.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-684.xml",
+        "retrieved_at": "2026-09-16T10:53:30.606287+00:00",
+        "sha256": "205101f9919e239fa43ee51ff8a97a58802ea142cff05abe35ffff2694104227",
+        "bytes": 120139,
+        "http_status": 200,
+        "etag": "\"aea87b30152a56d5d1d2c65932802d81\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-684"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-684",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1843-07-26",
+        "xml_latest": "1843-07-26",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[26 July 1843]",
+            "attributes": {
+              "when": "1843-07-26"
+            },
+            "lower": "1843-07-26",
+            "upper": "1843-07-26",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1843-07-26\">[26 July 1843]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Waterhouse, G. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4972.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "Down"
+        ],
+        "xml_notes": [
+          {
+            "text": "5pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-684",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Waterhouse",
+          "recipient_forename": "G. R.",
+          "sorting_date": "1843-07-26",
+          "date": "[26 July 1843]",
+          "sender_address": "Down",
+          "recipient_address": "",
+          "source": "DAR 185: 68",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-684.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 764,
+          "csv_physical_line_start": 767,
+          "csv_physical_line_end": 767,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-684.xml",
+          "xml_sha256": "701a8af6fae667acf1cd5a991e407d46ceb6e1d5236240c99480b4534601f87c",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-684.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-684.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To G. R. Waterhouse [26 July 1843]",
+      "header_text": [
+        "To G. R. Waterhouse [26 July 1843]Down, Bromley KentWednesday"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "Now for a letter in answer to your two ones on classification—on which I have been often thinking. It has long appeared to me, that the root of the difficulty in settling such questions as yours,—whether number of species &c &c should enter as an element in settling the value or existence of a group—lies in our ignorance of what we are searching after in our natural classifications.— Linnæus confesses profound ignorance.— Most authors say it is an endeavour to discover the laws according to which the Creator has willed to produce organized beings— But what empty high-sounding sentences these are— it does not mean order in time of creation, nor propinquity to any one type, as man.— in fact it means just nothing— According to my opinion, (which I give every one leave to hoot at, like I should have, six years since, hooted at them, for holding like views) classification consists in grouping beings according to their actual relationship, ie their consanguinity, or descent from common stocks— In this view all relations of analogy &c &c &, consist of those resemblances between two forms, which they do not owe to having inherited it, from a common stock.— To me, of course, the difficulty of ascertaining true relationship ie a natural classification remains just the same, though I know what I am looking for.— This being the case viz ignorance of a distinct object I think, we ought to look at classification as a simple logical process, i.e. a means of conveying much information through single words— now the laws of classification tryed by this rule—it is clear that neither number of species—nor grade of organization ought to come in, as an element.— For instance, the word Marsupiata implies a great number of facts, common to many animals, and if by introducing another group of animals the definition of Marsupiata is forced to include, any one fact, not applicable to the former animals, then I maintain the second group ought not to have been added to the first. But if they have much in common, a third more general term ought to be invented to include them.— Viewing classification, as a logical process, the only cheque to the splitting of groups, appears to be convenience; & if you had objected to making the Monotremes & the Styloptera orders, on account of the inconvenience of increasing the number of orders I think, it might have been valid. I repeat, that until you can define your object in classifying, you have no right to introduce number of species, or (arbitary) grades of organization, but are bound to follow simple amount of differences of organization.— This, I think, you will find is the rule amongst Botanists, & they have many families very small in number.— This is clearly the rule, on the view of classification, being a genealogical process, exhibiting literal or actual relationship.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "There is one caution, which should not be overlooked, namely the great doubt whether the groups, which are now small, may not have been at some former time abundant: and you will admit fossil & recent beings all come into one system.— In fish, it would appear, that some of the main divisions, which are now least abundant in species, appear formerly to have been most so. It wd take a Chapter to argue, how probable it is that Geology has never revealed & never will reveal, more than one out of a million forms, which have existed. Finally, however, I confess, there is much weight in your argument, that as most orders contain many species, the usual harmony of nature would make you very cautious in admitting a few species to form a group of equal rank with one, containing many species— It is certainly a very curious fact, the existence of only a few groups, apparently of high value & containing only a very few species.— The only doubt, which has ever occurred to me, lies in the rules being so exceedingly arbitary by which the value of groups are judged by. I mean, that perhaps many orders really exist, containing only one or two genera, but that from this very circumstance, they are not viewed as orders but only as families— Perhaps if the Goatsucker & Woodpecker, were varied into very many genera & very many species of each—they would be looked on as orders equal to the Hawks &c &c— (Tell me what you think of this) This is a mere illustration of what I mean.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "—Finally then I protest against number or grades of organization being used as elements in classification, though I believe they have silently been used.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "Have you had patience to read thus far.— Yours ever, C. D.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Waterhouse"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Classification consists of grouping beings according to descent from common stocks. Analogies are resemblances between forms not inherited from common stocks. Neither number of species nor grade of organisation should be considered in classification. Admits that caution is necessary in admitting a few species to form a group of rank equal to one containing many species.",
+      "editorial_footnotes": "Footnotes1CD’s Notebooks B–E and other notes (in DAR 205) of the late 1830s and early 1840s contain many entries recording his effort to work out a theory of classification based on descent with modification. Ospovat 1981, pp. 101–14, provides a good account of CD’s efforts to reconcile his theory with what he considered sound in contemporary taxonomical practice.2Possibly a reference to Linnaeus’ statement in a letter to Paul Dietrich Giseke, quoted in Whewell 1837, 3: 322–3: ‘You ask me for the characters of the natural orders: I confess I cannot give them.’3CD makes the same point in the essay of 1844 (DAR 7: 133; Foundations, p. 202): ‘many naturalists have said that the natural system reveals the plan of the Creator: but without it be specified whether order in time or place, or what else is meant by the plan of the Creator, such expressions appear to me to leave the question exactly where it was.’4English naturalists distinguished between affinities, which an organism shares with other members of the same taxonomic group, and analogies, characteristics which other members of its group may not possess but which appear in members of some other group (Ospovat 1981, p. 105). Darwin here redefines the terms in an evolutionary sense.5Waterhouse was evidently proposing to include Monotremata as a subgroup of Marsupialia because only two species were known (see letter to G. R. Waterhouse, [31 July 1843]).6The order Strepsitera (Kirby), consisting of the single family Stylopidae, contained a few species of parasitic insects commonly regarded as ‘the most anomalous annulose animals with which we are acquainted’ (Westwood 1839–40, 2: 288). The order was one of William Sharp MacLeay’s ‘osculant’ groups and was placed by him between Hymenoptera and Coleoptera (MacLeay 1819–21, pp. 371–2).",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-685",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-685.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-685.xml",
+        "retrieved_at": "2026-09-16T10:53:30.568978+00:00",
+        "sha256": "b6891079414c37baf6768a413b495f7408c6bc3a388a1246fa694ea14a32c984",
+        "bytes": 117572,
+        "http_status": 200,
+        "etag": "\"d238d83a8d06e578bdc7e8c7fdd69ef4\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-685"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-685",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1843-07-31",
+        "xml_latest": "1843-07-31",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[31 July 1843]",
+            "attributes": {
+              "when": "1843-07-31"
+            },
+            "lower": "1843-07-31",
+            "upper": "1843-07-31",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1843-07-31\">[31 July 1843]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Waterhouse, G. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4972.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "Down"
+        ],
+        "xml_notes": [
+          {
+            "text": "5pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-685",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Waterhouse",
+          "recipient_forename": "G. R.",
+          "sorting_date": "1843-07-31",
+          "date": "[31 July 1843]",
+          "sender_address": "Down",
+          "recipient_address": "",
+          "source": "DAR 185: 69",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-685.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 765,
+          "csv_physical_line_start": 768,
+          "csv_physical_line_end": 768,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-685.xml",
+          "xml_sha256": "3b574e14bb0bdba5bd1f9dd65db0b466f07305643a667a7fa0b99f870d496949",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-685.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-685.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To G. R. Waterhouse [31 July 1843]",
+      "header_text": [
+        "To G. R. Waterhouse [31 July 1843]Monday"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I see our argument about the Marsupiata has become almost a verbal one— I have not the slightest objection to the Monotremata & other common Marsupials being united, as I said, under one main group, & that group being called Marsupiata, if I was wrong in supposing that term already used for the common marsupials & in that case I shd have thought some other term ought to have been invented for the group containing the common marsupiata & monotremata. What I should, according to my small proportion of knowledge, object to, would be the putting the monotremata into the same group with the Marsupiata, not from their resemblance but from the Monotremata consisting of only two species.— Even this may be right, but I revert to my old opinion, that all rules for a natural classification are futile until you can clearly explain, what you are aiming at. Until that is done, I must protest against sameness of country (as with the Monotremata) being used— And I think those, who put groups together from opinion are not so much to blame— At least Linnæus must have thought so, when he said the genus gives the characters & not the characters the genus—& yet he leaves undefined what first makes the genus which is to give the characters.— Have you read Whewell’s remarks on this subject in his History of the Inductive Sciences?—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "I have been interested by your examples from the Heteromera & Monkeys— I was aware that this was the case, but had never met such good illustrations: it is an old recognized principle with Botanists. I see no sort of objection to the existence of a natural group with not even one character in common, as long as in one division—the characters A.BC go together, in another division CDE & in third EFG, & in a fourth GHK—ie as long as they are linked indissolubly together, although in the latter links there be not one character the same as in the former.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "I believe (though why I should trouble you with my belief, which must & ought to appear the merest trash & hypothesis?) that if every organism, which ever had lived or does live, were collected together (which is impossible as only a few can have been preserved in a fossil state) a perfect series would be presented, linking all, say the Mammals, into one great, quite indivisible group—and I believe all the orders, families & genera amongst the Mammals are merely artificial terms highly useful to show the relationship of those members of the series, which have not become extinct —",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "But it is no use my going on this way— I beg you, however, to think clearly & define, or at least say you cannot define, (as others have done) what they are searching for by a natural classification—& when you have settled that, it will be easier to settle whether importance of the organs to life (which I suppose is meant by that vague term their value) or the country inhabited or number of species &c & should or shd not form elements in your system.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "body_paragraph": 5,
+          "text": "Do sometime tell me what are the reasons, which tend to unite Aptera & Diptera— How very curious. Do not such facts lead you to suppose, that classification is",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 5"
+        },
+        {
+          "body_paragraph": 6,
+          "text": "almost independent of the characters of the groups, but is governed by the breaks or chasms in the series.—which is the view above given hypothetically by me with respect to the Mammals.— Are the Aptera & Diptera united by some nearly intermediate form.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 6"
+        },
+        {
+          "body_paragraph": 7,
+          "text": "What do you exactly mean by low groups contrasted with high groups—when you speak of them being allowed a greater latitude of character.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 7"
+        },
+        {
+          "body_paragraph": 8,
+          "text": "I shall be curious to hear what your object is in a Natural Classification, with every term clearly defined & no metaphorical words like ⁠⟨⁠“⁠⟩⁠relationship” used, or at at least if used, explained.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 8"
+        },
+        {
+          "body_paragraph": 9,
+          "text": "Farewell— | I shall be rejoiced to hear good news about the British Museum. | Ever yours | C. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 9"
+        },
+        {
+          "body_paragraph": 10,
+          "text": "P.S.— I return you your letter, which I had not thought of destroying.— When you have used them, please to let me have them again, & will you also keep this one letter of mine to be returned; as at some future year, I shall be curious to see, what I think now.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 10"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Waterhouse"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Has no objection to uniting Monotremata and other marsupials but would object to doing so solely on ground that Monotremata consists of only two species. Members of a natural group need not share common character so long as they are linked with those which do. Believes that if every organism that ever lived were collected, a perfect series would be presented. What are reasons that unite Aptera and Diptera?",
+      "editorial_footnotes": "Footnotes1CD reiterated this objection in his review of Waterhouse 1846 (Collected papers 1: 214–17).2William Whewell cites Linnaeus’ aphorism as ‘… the character does not constitute the genus, but the genus the character …’ (Whewell 1837, 3: 321). CD repeats this aphorism in the essay of 1844 (DAR 7: 133v.; Foundations, p. 201), and in the Origin (p. 413).",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-686",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-686.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-686.xml",
+        "retrieved_at": "2026-09-16T10:53:30.501096+00:00",
+        "sha256": "a2e9b6495df9bbcb2e7d63bbd5753470031b75c5c692a0b9e3266f6fa53c78a2",
+        "bytes": 117012,
+        "http_status": 200,
+        "etag": "\"8ebbcd9b93e5c82eb662e320d9fde71a\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-686"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-686",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "to_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1843-08-02",
+        "xml_latest": "1843-08-02",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component",
+          "circa"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[c. 2 Aug 1843]",
+            "attributes": {
+              "when": "1843-08-02"
+            },
+            "lower": "1843-08-02",
+            "upper": "1843-08-02",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1843-08-02\">[c. 2 Aug 1843]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Waterhouse, G. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4972.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "unstated"
+        ],
+        "xml_notes": [
+          {
+            "text": "4pp inc †",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "incoming_context_pending_receipt_and_reply_evidence",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-686",
+          "sender_surname": "Waterhouse",
+          "sender_forename": "G. R.",
+          "recipient_surname": "Darwin",
+          "recipient_forename": "C. R.",
+          "sorting_date": "1843-08-02",
+          "date": "[c. 2 Aug 1843]",
+          "sender_address": "unstated",
+          "recipient_address": "",
+          "source": "DAR 181: 12",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-686.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 766,
+          "csv_physical_line_start": 769,
+          "csv_physical_line_end": 769,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-686.xml",
+          "xml_sha256": "08cb3335cce7b78e065d0a7f9ed5d8ac9924c031a1fc203a0f833fd5da199fe6",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-686.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-686.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": false
+      },
+      "title": "From G. R. Waterhouse [c. 2 August 1843]",
+      "header_text": [
+        "From G. R. Waterhouse [c. 2 August 1843]"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "–Museum three—one from Dr. Richardson who is well known there having worked much in the collection; one from Mr Yarrell & one from Mr. Bowerbank—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "I will make it a point to borrow Whewell’s book from Owen & to read it the moment he returns— As regards Classification of animals some conclusions I have come to are as follows—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "That species of animals belonging to the same genus may have an affinity to each other; genera of the same family may have a mutual affinity; relationship of affinity may likewise exist between orders of the same class, but the degree of affinity is different in the different cases— The affinity between species of the same genus may be called an affinity of the first degree; that of genera to genera, of the same family, of the second, or more remote, degree; and, that of families of the third degree & so on— Then species of one family have affinity with species of other families of the same order an affinity of the third degree only, and species of different orders of the fourth degree only— That some such feeling as this is impressed upon Naturalists may be inferred from the pains that is taken to place prominently the points of resemblance between animals of different groups of high value—as in the case of the affinity of the ornithrhynchus, or the Echidna, to the Reptiles— the differences here I do not find are dwelt upon with the same ‘gout’ as the points of resemblance— The affinity of the Ornithorhynchus to the Echidna in very much closer than that of either of these animals to the Classes Reptilia, or Aves,—& of a different nature as I will undertake to show— That other, and closer links between the Classes may hereafter be found would be stupid to deny, but as a matter of feeling —reasoning from analogies—I do not expect it. There is much to be said on this subject which I will trouble you with hereafter—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "I have been hard at work at brains for some time past & immensely interested with my studies because in some respects I find the result so very different from what I expected. The Whales for instance are placed by Cuvier & many Naturalists at the end of the Class Mammalia, & yet they have a most highly organized brain— I have puzzled myself much about this matter, for although from all I can learn of the Whales they appear to enjoy a considerable stock of intelligence it does not at all come up to what would be inferred from the consideration of the brain alone—and, it has occurred to me that as the brain is a thing to be educated from without it does not follow that what would be termed a highly organized brain is necessarily followed by corresponding intelligence in the animal— The whales have many of them no olfactory nerves & in the others they are in a most rudimentary condition— Their organ of vision does not appear to be particularly good— Of legs they have none & their hands & most unfitted for touch—and yet this animal has to suckle its young &c— he ought to have a good brain to recompense him for the imperfections of the educatory media— Among the Carnivora, the brain of the seal is perhaps one of the highest & this poor brute is likewise in a bad school— I mention this as having connexion with “The physiological importance to life of different structures”—& I may add that in animals of the same group (in the Quadrumana for instance) there is immense difference in the structure of the brain— species of many groups have a much higher brain than the lowest Quadrumana but none have so good a brain as the highest of that order— as a general rule each group begins as it were lower than its predecessor (beginning at the bottom) & terminates higher— each at the same time seems to perfect something—in the organs of respiration, circulation & locomotion the bird is higher than Man—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "body_paragraph": 5,
+          "text": "Having had my bit of chat I will go to bed—so good night | Always sincerely yours | Geo. R. Waterhouse",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 5"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Discusses classification of animals. Degree of affinity different for different taxonomic groups. Discusses affinity of Ornithorhynchus or Echidna to reptiles. Brain of whale is highly developed; on differences among brains of Quadrumana.",
+      "editorial_footnotes": "Footnotes1James Scott Bowerbank. Waterhouse had probably asked Bowerbank and the others mentioned to provide letters supporting his candidacy for a position at the British Museum.2Whewell 1837.3For a similar discussion see Waterhouse 1843.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-688",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-688.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-688.xml",
+        "retrieved_at": "2026-09-16T10:53:31.452540+00:00",
+        "sha256": "7eba8ee8b64208012c24bea82bcd3218643bcda0d71afc43d2ce8e7169b924fb",
+        "bytes": 119940,
+        "http_status": 200,
+        "etag": "\"a1ccca9d9e06319d0a2d9bd1bce5b92c\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-688"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-688",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "to_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1843-08-09",
+        "xml_latest": "1843-08-09",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "9 Aug 1843",
+            "attributes": {
+              "when": "1843-08-09"
+            },
+            "lower": "1843-08-09",
+            "upper": "1843-08-09",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1843-08-09\">9 Aug 1843</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Waterhouse, G. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4972.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "unstated"
+        ],
+        "xml_notes": [
+          {
+            "text": "4pp ††",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "incoming_context_pending_receipt_and_reply_evidence",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-688",
+          "sender_surname": "Waterhouse",
+          "sender_forename": "G. R.",
+          "recipient_surname": "Darwin",
+          "recipient_forename": "C. R.",
+          "sorting_date": "1843-08-09",
+          "date": "9 Aug 1843",
+          "sender_address": "unstated",
+          "recipient_address": "",
+          "source": "DAR 181: 13",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-688.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 768,
+          "csv_physical_line_start": 771,
+          "csv_physical_line_end": 771,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-688.xml",
+          "xml_sha256": "e9296623eb709af3a1c94bab29a9d93dcbe3edf0d0718e433fab81dae9c6d4fe",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-688.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-688.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": false
+      },
+      "title": "From G. R. Waterhouse 9 August 1843",
+      "header_text": [
+        "From G. R. Waterhouse 9 August 18439th August 1843"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I cannot move you a bit though I have been immensely wordy— sometimes I have been betrayed into something approaching to a joke, but then you will have definitions— you nail me to the stake and grumble because I wriggle a bit— Well I forgive you— That’s capital say you— “when you have been— “how much does it come to—” ‘thirteen pence Sir—” “theres a shilling, my man, you make keep the odd penny—” — Well, I will explain what I am aiming at when I attempt to arrange a group in a natural manner—or, in other words, when I attempt a Natural Classification— I think a number of animals may be so arranged as to display (symbolically by their relative positions) a great many known facts relating to their structure, habits, and geographical distribution; and, in proportion as those facts are thus symbolically represented, so in proportion does the classification approach to my idea of a natural one— But as the term ‘natural’ certainly has a very vague meaning when thus used, I have no objection to apply the word ‘useful’ instead— In using the word natural for a kind of classification I merely follow others— it is no doubt presumptuous— But after all I do not see why we should not set up a kind of artificial standard of perfection in classification—, though we may be puzzled to define what that standard is— we know that some classifications are worse than others, and although we do not know what perfection would be, we may for convenience call the top ‘x’ or ‘natural’:—‘arbitrary’ and ‘artificial’ are the terms applied to the bottom—or to classifications of animals which generalize only trivial characters— we may for an extreme case suppose a grouping of the Carnivora according to the colouring of the species—that would be what I should term an extremely artificial classification since it only teaches one point, & that we know by experience to be a comparatively unimportant one—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Your next question is what do I mean by low groups— Those which are furthest removed from a certain standard of perfection—man, I call the lowest— each animal is, taken by itself, perfect, but it is obvious that one may be further removed from a certain type than another— thus one might say, I believe with truth, that man is composed of millions of monads, & something more—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "“Relationship”—by relationship I merely mean resemblance— I use it in a most vague way— Naturalists say one animal may have a relationship of affinity with another, or it may have a relationship of analogy without there being any true affinity— I am very much puzzled about this matter & use the term relationship as a ‘go between’ when I find cases of difficulty— When however I say one animal is nearly related to another, I mean that the two agree in several important points, & the relationship is more distant when there are few points of resemblance and those comparatively unimportant—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "The Aptera (or Lice) appear to me to be most closely linked to the Diptera by means of the Nycteribiæ — by several authors these parasitic insects have been placed in the Order Aptera but Latreille “with that remarkable sagacity (says Westwood) which he so constantly displayed, placed them in the order Diptera, next to Hippobosca”—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "body_paragraph": 5,
+          "text": "Believe me | Ever sincerely yours | Geo. R. Waterhouse",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 5"
+        },
+        {
+          "body_paragraph": 6,
+          "text": "I will take care of your last letter & others—& return mine— I merely wish to extract the heads or subjects as matters for future consideration—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 6"
+        },
+        {
+          "body_paragraph": 7,
+          "text": "I am going to see Robert Brown (as he is always called) by desire of Mr Lyell, about the British Museum Question— he yielded a most unwilling consent to Lyell to see me— Mr L. wishes me to take with me a copy of the minutes relating to the my discharge from the Zool. Soc.— The minutes of the Receipt & Expenditure Committee which recommended my discarge are kept locked up by Mr Ogilby and have been seen by none of the officers, but I am informed it is put entirely upon grounds of economy— it was thought by the Comee. that Fraser (at a lower salary than mine) wd. be enough to take care of the Museum and as regards correspondence & the Transactions &c Mr Ogilby offered his services for nothing— This is now knocked on the head as it should be— I mean to request a copy of the minute from the counsil, but I know Ogilby will do his best to prevent my obtaining it, his offer being refused.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 7"
+        },
+        {
+          "body_paragraph": 8,
+          "text": "You shall hear about these matters—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 8"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Darwin"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Explains what he means when he attempts a \"natural classification\", defining his words and using man as a standard; gives examples. Classification of Aptera and Diptera. Discusses his discharge from the Zoological Society. Is to see Robert Brown about the British Museum position.",
+      "editorial_footnotes": "Footnotes1See Waterhouse 1843.2See letter to G. R. Waterhouse, [26 July 1843], n. 4.3Pierre André Latreille.4Westwood 1835, p. 276.5William Ogilby, secretary of the Zoological Society, 1840–7.6Louis Fraser succeeded Waterhouse as curator of the museum of the Zoological Society in 1843 (see P. C. Mitchell 1929, p. 98).",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-710",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-710.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-710.xml",
+        "retrieved_at": "2026-09-16T10:53:31.875531+00:00",
+        "sha256": "b26f56f303c70e13d00fae54bb787c14b643021b6a2f14cdd8693656c815b5be",
+        "bytes": 112147,
+        "http_status": 200,
+        "etag": "\"60d23aee079030c930eab67519021c92\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-710"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-710",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1843-11-01",
+        "xml_latest": "1843-11-30",
+        "date_structure": "bounded_range",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[Nov 1843]",
+            "attributes": {
+              "notBefore": "1843-11-01",
+              "notAfter": "1843-11-30"
+            },
+            "lower": "1843-11-01",
+            "upper": "1843-11-30",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1843-11-01\" notAfter=\"1843-11-30\">[Nov 1843]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Waterhouse, G. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4972.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "Down"
+        ],
+        "xml_notes": [
+          {
+            "text": "4pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-710",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Waterhouse",
+          "recipient_forename": "G. R.",
+          "sorting_date": "1843-11-01",
+          "date": "[Nov 1843]",
+          "sender_address": "Down",
+          "recipient_address": "",
+          "source": "Natural History Museum, Library and Archives (General Library MSS WAT)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-710.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 795,
+          "csv_physical_line_start": 798,
+          "csv_physical_line_end": 798,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-710.xml",
+          "xml_sha256": "4fb414183773dbd7ba2d7ad6a3577973bac53b140f971f8a5ee0b51ff9e92e69",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-710.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-710.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To G. R. Waterhouse [November 1843]",
+      "header_text": [
+        "To G. R. Waterhouse [November 1843]Down, near Bromley | KentThursday"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I am indeed delighted at your news & most heartily congratulate you on your appointment having come so quickly & so satisfactorily—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "I can only look at it as a step to future promotion; & may my prediction come true. Poor as the place at present is, after what you have gone through at the Zoological Society, the certainty of it must be a great comfort— I should think Kœnig was an odd fish, but I fancy from all I have heard, that he is a well meaning man.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "I suppose you will begin working like a Trojan at fossil Osteology—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "With our united congratulations & kind wishes to Mrs. Waterhouse | believe me | Most truly Your’s | C. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Waterhouse"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Congratulates GRW on appointment to position at British Museum.",
+      "editorial_footnotes": "Footnotes1Waterhouse was appointed assistant in the Mineralogical Department of the British Museum in November 1843 (DNB).2Charles Dietrich Eberhard König was in charge of the Mineralogical Department of the British Museum. Waterhouse worked mainly on fossil Mammalia.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-718",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-718.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-718.xml",
+        "retrieved_at": "2026-09-16T10:53:31.874993+00:00",
+        "sha256": "dd011e9bf69cd311669c14f88f7063bd8d305ed39dbc2e1050872f242f0d4217",
+        "bytes": 117608,
+        "http_status": 200,
+        "etag": "\"255b1626290100a4ecb01829d226fc7d\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-718"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-718",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1843-12-03",
+        "xml_latest": "1843-12-17",
+        "date_structure": "alternative_dates",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "3 Dec 1843",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date1",
+              "when": "1843-12-03",
+              "exclude": "#date2"
+            },
+            "lower": "1843-12-03",
+            "upper": "1843-12-03",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date1\" when=\"1843-12-03\" exclude=\"#date2\">3 Dec 1843</ns0:date>"
+          },
+          {
+            "text": "17 Dec 1843",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date2",
+              "when": "1843-12-17",
+              "exclude": "#date1"
+            },
+            "lower": "1843-12-17",
+            "upper": "1843-12-17",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date2\" when=\"1843-12-17\" exclude=\"#date1\">17 Dec 1843</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Waterhouse, G. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4972.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "Down"
+        ],
+        "xml_notes": [
+          {
+            "text": "4pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-718",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Waterhouse",
+          "recipient_forename": "G. R.",
+          "sorting_date": "1843-12-03",
+          "date": "[3 or 17] Dec 1843",
+          "sender_address": "Down",
+          "recipient_address": "",
+          "source": "Natural History Museum, Library and Archives (General Special Collections MSS DAR A 3)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-718.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 807,
+          "csv_physical_line_start": 810,
+          "csv_physical_line_end": 810,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-718.xml",
+          "xml_sha256": "917572ee37545d60a3ad0e867274a24992ae7ddb104cf935fae5279696712ab0",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-718.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-718.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To G. R. Waterhouse [3 or 17 December 1843]1",
+      "header_text": [
+        "To G. R. Waterhouse [3 or 17 December 1843]1Down, Bromley KentSunday"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I have read your paper with much interest & it has helped to clear my notions considerably, though I do not think I was one of the very guilty ones, against whom you write. By the term “link between any two groups” I never understood (, & I rather doubt, whether many naturalists meant much more) a half way link, but merely one in a long series. I think you have done good service in pointing out how rare half-way-links are, if indeed they exist. If they do exist which I doubt we must, I suspect, look back to ancient geological periods.— There is one thing to observe namely that one cannot have a simple species intermediate between two great families, for if such did exist, it wd form a third natural family. Now amongst vegetables there are some very small families, containing only one or two genera, which certainly seem intermediate between other great families. Now, without you can show to the contrary, the impression on my mind from Owens papers is that Marsupiata form a link (much closer of course to one side than the other) between the Mammalia & Birds & Reptiles— And the Monotremata a still plainer link.— These Mammalian groups, partake of some of the important characters (which no one would consider as merely adaptive) of Birds & Reptiles & I cannot see any objection to considering them as links— I do not know, however, whether you would object to calling them so, as long as they are clearly admitted amongst the Mammalia.— You speak rather undecidedly whether all such affinities are “adaptive”.— I quite admit the validity of this distinction, but it appears to me so vague, when applied to organs of such importance as the intestines & teeth of the wombat, that I think you are bound either clearly to define (a tough job I expect) the distinction or to confess that it is vague.— There is one fact, (which I presume to be a fact) that has long surprised me & is I believe of common occurrence, viz a certain part or organ of a species of a well defined group, resembling closely that part, or organ in another group. Amongst plants it appears to be not very uncommon that a genus in one family has one character of another family. How is this in insects? Owen in describing fossils, is very fond of this method of describing, by saying it has the teeth of this family, the humerus &c of another.— (Do take trouble; if you can spare time; & write me a note on these points)",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "I have one criticism to make about your circles —that is that I think you are bound to state that they do not necessarily represent (without you think they do) groups of equal value & though all touching, the affinities are not necessarily equally strong.— I believe infinite harm has been done by these circles, which catch the eye as of equal size, & inevitably lead the mind to suppose they are of equal value— it is by this artifice, as I believe, the possibility of making the Quinarian system appear probible has chiefly rested: Moreover it shd be stated by everyone, I think, who indulges in these vicious circles, that confessedly there is no standard to judge of the value of groups.— Who can prove that the woodpecker are not a group of equal value with the Hawks.— I suspect that number of species, ie amount of variation of one common type does silently come into play in estimating the value of groups.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "I admire my own impudence in criticising you & doing this I repeat I think you have done good service in pointing that most or all links are not intermediate but fall into to one or other of the two groups,— Are there are not some forms which show alliances to more than two groups? (a case you do not allude to, which surely is real)— as for your wicked circles, I wish they were all d——d together.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "Farewell | Yours impudently | C. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "body_paragraph": 5,
+          "text": "I saw Owen, after you, & he spoke most warmly & cordially about your affairs—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 5"
+        },
+        {
+          "body_paragraph": 6,
+          "text": "N.B. This is vilely written letter, but I cannot express myself off-hand—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 6"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Waterhouse"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Comments on GRW’s paper [Rep. BAAS (1843): 65–7; Ann. & Mag. Nat. Hist. 12 (1843): 399–412]. CD says by \"link\" between any two groups he never understood a half-way link, merely one in a long series. Observes that one cannot have a simple species intermediate between two great families. Criticises GRW’s use of circles to represent groups, which leads to thinking that groups are of equal value.",
+      "editorial_footnotes": "Footnotes1The conjectured dates are based on Waterhouse 1843, which appeared in December, and on CD’s reference in the postscript to his having seen Waterhouse and Owen. According to CD’s Account Book (Down House MS), he travelled to London on 30 November and 14 December.2Waterhouse 1843 argues that systematic groups of animals do not blend into one another and that, when species are well enough understood, they can always be assigned unambiguously to one group or another. His article may have been partly directed against evolutionary theories, like that of Lamarck, which postulated intermediate gradations from one systematic group to another.3Waterhouse 1843 cites several of Owen’s papers; however, CD may also refer to a paper not cited in which Owen commented on the frequent separation of the squamous, petrous, and tympanic portions of the temporal bone in marsupials—a condition that prevails among adult birds and reptiles but not among placental mammals (Owen 1841, p. 383).4Waterhouse had argued that the resemblances between a marsupial wombat and true rodents are merely adaptive and thus not genuine affinities (Waterhouse 1843, p. 406).5Waterhouse had adopted the procedure, popular among followers of William Sharp MacLeay’s quinary system, of representing closely related groups by contiguously placed circles; however, he did not accept all of MacLeay’s interpretations for these circles.",
+      "letter_container_present": true
+    }
+  ],
+  "instructions": "Read every target and context body, header and editorial note in full. Make per-record judgments on incoming prompt identity, knowledge witnesses, date sections, gaps and authorship. Surviving content may be a fragment, printed extract, official report, joint text or no transcript. Do not mark an online placeholder as a full body. Match actual distinctive answers, not nearest date or shared subject. An incoming letter may answer Darwin but is never his voice. Original XML and catalogue dates must remain intact; period-held records cannot become eligible without separate parent adjudication. Direct reply arrows are response -> antecedent; knowledge arrows incoming -> dated Darwin witness. Record exact paragraph-located quotations, competing hypotheses and unlocated references. Search the complete preserved expansion at all_letters.jsonl for cross-correspondent witnesses when your evidence suggests one. No synthetic prompts, no future editorial facts as Darwin knowledge. Submit proposals only; primary agent adjudicates."
+}

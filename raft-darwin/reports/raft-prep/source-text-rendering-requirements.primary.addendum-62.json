@@ -1,0 +1,627 @@
+{
+  "status": "primary_verified_conversion_preparation_requirements",
+  "scope": "Accepted 1856-1857 batch-38 source-text rendering, language, experimental-chain, receipt, attribution and chronology requirements only. Candidate documentation; no converter, transcript, export, training or accepted evidence changes.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-38.json",
+      "sha256": "9e93e66aa3f938f91d0599d5792aecd12a0b4fe4b42315ecb4898e9b94e7b25e"
+    },
+    "parent_decisions": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-38.json",
+      "sha256": "51f9abd62114a4df19078e58c7c4101fa03bf1410f56c0a1c063fcb030cbbf66"
+    },
+    "accepted_ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-38.json",
+      "sha256": "91f6912de603c7822b13c96df0c36005e5b140d05e189684d6fc1644cdd4a5c7"
+    },
+    "experimental_chain_addendum": {
+      "path": "data/annotations/periods/1856-1857/addenda/batch-04-2042-experimental-chain.primary.json",
+      "sha256": "5660acbc303fc36772dc473ee1ae9b494d0c5d9797117ba3dda8881d29a469fb"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "case": "French Robillard sources and missing counterpart materials",
+      "source_ids": [
+        "DCP-LETT-1956",
+        "DCP-LETT-2059"
+      ],
+      "requirement": "Preserve the French bodies as correspondent voice, with French text and attributed receipt/forwarding claims retained rather than fabricated translations. 1956 begins from a Beke-circulated Darwin letter and records Robillard’s limited shell-collecting experience; its final sentence is incomplete and its large-seed issue remains explicitly unresolved. 2059 acknowledges Darwin’s 7 December letter and Cuming’s separate written reply, but both the Cuming text and requested shell-price list are absent; its hurricane paragraph ends mid-sentence. Do not insert Darwin marginal summaries, Beke material, or Cuming wording into either French body, and retain later editorial taxonomic glosses separately.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1956",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1956.html",
+          "source_html_sha256": "5d9cb21d702a49f16929fb3deba9b5bc2000bd7131ccf3b5f28dd59fe142efd7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1956.xml",
+          "xml_sha256": "786200baf0f2c48e59b0a04940d5e83269b49b90e978d9753d3505c389522b6c",
+          "verified_xml_dates": [
+            {
+              "text": "20 Sept 1856",
+              "attributes": {
+                "when": "1856-09-20"
+              },
+              "lower": "1856-09-20",
+              "upper": "1856-09-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-09-20\">20 Sept 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2059",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2059.html",
+          "source_html_sha256": "eac42a0ed502e551780dddc7333f587494fe4784e29ec8ac8f8f940f43bf7771",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2059.xml",
+          "xml_sha256": "47176446c8f7baf05477da031b94cd4d166ea366c4e29623691f6ca65a2efbbf",
+          "verified_xml_dates": [
+            {
+              "text": "26 Feb 1857",
+              "attributes": {
+                "when": "1857-02-26"
+              },
+              "lower": "1857-02-26",
+              "upper": "1857-02-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-02-26\">26 Feb 1857</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "language_policy": "French source; no invented translation; quoted Darwin/Cuming/Beke layers remain attributed",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1956",
+          "body_paragraph": 1,
+          "quote": "Mr. Ch. T. Beke a communiqué ici à la Société d’histoire naturelle",
+          "char_start": 0,
+          "char_end": 66,
+          "source_sha256": "5d9cb21d702a49f16929fb3deba9b5bc2000bd7131ccf3b5f28dd59fe142efd7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1956",
+          "body_paragraph": 2,
+          "quote": "Je ne puis donc rien préciser sur ce point.",
+          "char_start": 805,
+          "char_end": 848,
+          "source_sha256": "5d9cb21d702a49f16929fb3deba9b5bc2000bd7131ccf3b5f28dd59fe142efd7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2059",
+          "body_paragraph": 1,
+          "quote": "J’ai reçu votre lettre du 7 Dbre. dernier",
+          "char_start": 0,
+          "char_end": 41,
+          "source_sha256": "eac42a0ed502e551780dddc7333f587494fe4784e29ec8ac8f8f940f43bf7771",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2059",
+          "body_paragraph": 1,
+          "quote": "afin d’en connaître les prix.",
+          "char_start": 296,
+          "char_end": 325,
+          "source_sha256": "eac42a0ed502e551780dddc7333f587494fe4784e29ec8ac8f8f940f43bf7771",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "case": "Tenant fish and seed report, notebook layers and corrected 2042 chain",
+      "source_ids": [
+        "DCP-LETT-2069",
+        "DCP-LETT-2081",
+        "DCP-LETT-2042"
+      ],
+      "requirement": "Keep Tenant’s species and seed assignments literal: minnows and goldfish take millet, while tench, common carp and barbel take wheat soaked twelve hours. The editorial summary’s wheat-to-minnows wording is wrong, and the apparent missing word after “millet very” must remain an unresolved source artifact. 2081 reports present ingestion of two seed sorts, failure so far with oats, and a promised update if oat ingestion succeeds; no germination result is given. Water-lily/Potamogeton and stork notebook material is a separate Darwin annotation/notebook layer. In corrected 2042 P5, millet is put into fish, given to a stork, and then voided; this does not demonstrate passage through fish digestion. Preserve the chain as an experimental claim with its limitations.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2069",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2069.html",
+          "source_html_sha256": "9945c0951d4422780b3c56c9ecda461395294094137fd13815ec92659d02ede4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2069.xml",
+          "xml_sha256": "c4dcfea9354309b26ef4e83a2848b8e6a944d3c23f341e379db521ffc6239b0d",
+          "verified_xml_dates": [
+            {
+              "text": "31 Mar 1857",
+              "attributes": {
+                "when": "1857-03-31"
+              },
+              "lower": "1857-03-31",
+              "upper": "1857-03-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-03-31\">31 Mar 1857</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2081",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2081.html",
+          "source_html_sha256": "677aca5f94bdddbbfadddf249deece7273fb8febdf4afde8d4ad1fc3b7fdf74d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2081.xml",
+          "xml_sha256": "0f51c7475b4af7dfb2b1487461fb138c09a287fa9b06e9253795a22ca774293f",
+          "verified_xml_dates": [
+            {
+              "text": "23 Apr 1857",
+              "attributes": {
+                "when": "1857-04-23"
+              },
+              "lower": "1857-04-23",
+              "upper": "1857-04-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-04-23\">23 Apr 1857</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2042",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2042.html",
+          "source_html_sha256": "0afa678f34b94b1103c88836c13e0fb1585d73fb51ae1dfab8ec15616eb3f6c9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2042.xml",
+          "xml_sha256": "e8b3c1005e57e7a5dd856d73f07a76bfd87d8ca912bcb3d09e97315e4910c640",
+          "verified_xml_dates": [
+            {
+              "text": "20 Jan [1857]",
+              "attributes": {
+                "when": "1857-01-20"
+              },
+              "lower": "1857-01-20",
+              "upper": "1857-01-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-01-20\">20 Jan [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2069",
+          "body_paragraph": 2,
+          "quote": "the Minnows take the millet very",
+          "char_start": 101,
+          "char_end": 133,
+          "source_sha256": "9945c0951d4422780b3c56c9ecda461395294094137fd13815ec92659d02ede4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2069",
+          "body_paragraph": 2,
+          "quote": "the Tench and Common Carp and Barbel take the Wheat after it is Soaked well in Water for 12 Hours",
+          "char_start": 197,
+          "char_end": 294,
+          "source_sha256": "9945c0951d4422780b3c56c9ecda461395294094137fd13815ec92659d02ede4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2081",
+          "body_paragraph": 1,
+          "quote": "I cannot get them to take Oats",
+          "char_start": 142,
+          "char_end": 172,
+          "source_sha256": "677aca5f94bdddbbfadddf249deece7273fb8febdf4afde8d4ad1fc3b7fdf74d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2042",
+          "body_paragraph": 5,
+          "quote": "millet seed put into Fish & given to Stork & then voided will germinate.",
+          "char_start": 68,
+          "char_end": 140,
+          "source_sha256": "0afa678f34b94b1103c88836c13e0fb1585d73fb51ae1dfab8ec15616eb3f6c9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        }
+      ],
+      "apparatus_proof": [
+        {
+          "letter_id": "DCP-LETT-2081",
+          "literal_text": "3 Water Lily seeds passed through a Stork, but did not germinate",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[3]/div[2]",
+          "source_sha256": "677aca5f94bdddbbfadddf249deece7273fb8febdf4afde8d4ad1fc3b7fdf74d"
+        },
+        {
+          "letter_id": "DCP-LETT-2081",
+          "literal_text": "Yellow Water Lily & Potamogeton Natans",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[2]",
+          "source_sha256": "677aca5f94bdddbbfadddf249deece7273fb8febdf4afde8d4ad1fc3b7fdf74d"
+        }
+      ]
+    },
+    {
+      "case": "Crisp personal observation versus conjectured germination and authorial x note",
+      "source_ids": [
+        "DCP-LETT-2071"
+      ],
+      "requirement": "Render Crisp’s P1 as a personal barbel catch and dissection report: the largest fish had about 200 wheat grains, most entire, with the source traced to mill spillage. His statement that a recently swallowed seed “would probably vegetate” is conjecture, not a demonstrated germination result. Preserve in provenance the superscript x note in P3 attached to the P2 cow-dung reference as an authorial note (“The cow often deposits its excrement in the water as you know.”), separate from editorial footnotes; final eligibility remains subject to the user’s no-footnote export policy, not automatic inclusion. Do not merge Crisp’s barbel account with Tenant’s distinct bait report.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2071",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2071.html",
+          "source_html_sha256": "b9f24387722c1b19f678e7f62a91160d3fc8d8bc023de150b2d256a5aac1fea5",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2071.xml",
+          "xml_sha256": "8aa9fe0b367b6dbb6994794ac19e25c4a2f533135f09e374ff17aa87626c2ae0",
+          "verified_xml_dates": [
+            {
+              "text": "4 Apr 1857",
+              "attributes": {
+                "when": "1857-04-04"
+              },
+              "lower": "1857-04-04",
+              "upper": "1857-04-04",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-04-04\">4 Apr 1857</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2071",
+          "body_paragraph": 1,
+          "quote": "the largest Barbel (about 2 lbs) had about 200 grains of wheat in its stomach",
+          "char_start": 274,
+          "char_end": 351,
+          "source_sha256": "b9f24387722c1b19f678e7f62a91160d3fc8d8bc023de150b2d256a5aac1fea5",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2071",
+          "body_paragraph": 1,
+          "quote": "it would probably vegetate",
+          "char_start": 426,
+          "char_end": 452,
+          "source_sha256": "b9f24387722c1b19f678e7f62a91160d3fc8d8bc023de150b2d256a5aac1fea5",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2071",
+          "body_paragraph": 2,
+          "quote": "You are probably aware that a kernel of green wheat is a good bait for roach",
+          "char_start": 0,
+          "char_end": 76,
+          "source_sha256": "b9f24387722c1b19f678e7f62a91160d3fc8d8bc023de150b2d256a5aac1fea5",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2071",
+          "body_paragraph": 3,
+          "quote": "The cow often deposits its excrement in the water as you know.",
+          "char_start": 37,
+          "char_end": 99,
+          "source_sha256": "b9f24387722c1b19f678e7f62a91160d3fc8d8bc023de150b2d256a5aac1fea5",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        }
+      ],
+      "authorial_note_marker_proof": [
+        {
+          "letter_id": "DCP-LETT-2071",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]/sup",
+          "text": "x",
+          "source_sha256": "b9f24387722c1b19f678e7f62a91160d3fc8d8bc023de150b2d256a5aac1fea5"
+        },
+        {
+          "letter_id": "DCP-LETT-2071",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]/sup",
+          "text": "x",
+          "source_sha256": "b9f24387722c1b19f678e7f62a91160d3fc8d8bc023de150b2d256a5aac1fea5"
+        }
+      ]
+    },
+    {
+      "case": "Sabine nomination request versus later roles and outcomes",
+      "source_ids": [
+        "DCP-LETT-1858",
+        "DCP-LETT-2241"
+      ],
+      "requirement": "Keep Darwin’s April 1856 oral Hooker/Darwin medal discussion and request as a proposal: Sabine is asked to propose Richardson and Darwin offers to second him. Later reversal of roles, later awards and later publication outcomes must remain later evidence, not body content. In 2241, Darwin acknowledges a delayed Sabine note received that morning and offers geological questions; the exact note remains missing, so no institutional minute can replace it. Preserve current requests and oral attribution separately from later nomination results.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1858",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1858.html",
+          "source_html_sha256": "2be4ba67d3a7b755917c5a56211f1bd8ce32404367a995bbade971febf9a8718",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1858.xml",
+          "xml_sha256": "56003a8322f8e64f389cffa0708d01e3e3254adf08dd6c0b7ca796e1d634b9ac",
+          "verified_xml_dates": [
+            {
+              "text": "23 Apr [1856]",
+              "attributes": {
+                "when": "1856-04-23"
+              },
+              "lower": "1856-04-23",
+              "upper": "1856-04-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-04-23\">23 Apr [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2241",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2241.html",
+          "source_html_sha256": "d2076440c3cc5fc779a56bde28bf660f1511dba761e33d616481ef1d2acff446",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2241.xml",
+          "xml_sha256": "1e1829a682b76900551de785ab34bf4e0e75de1a93648366700e85553f1b83de",
+          "verified_xml_dates": [
+            {
+              "text": "16 Mar [1857]",
+              "attributes": {
+                "when": "1857-03-16"
+              },
+              "lower": "1857-03-16",
+              "upper": "1857-03-16",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-03-16\">16 Mar [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1858",
+          "body_paragraph": 1,
+          "quote": "which occurred to Hooker (who is staying here) & myself whilst considering the Royal medals",
+          "char_start": 114,
+          "char_end": 205,
+          "source_sha256": "2be4ba67d3a7b755917c5a56211f1bd8ce32404367a995bbade971febf9a8718",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1858",
+          "body_paragraph": 2,
+          "quote": "if you would propose him, I shd. be proud to second him",
+          "char_start": 32,
+          "char_end": 87,
+          "source_sha256": "2be4ba67d3a7b755917c5a56211f1bd8ce32404367a995bbade971febf9a8718",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2241",
+          "body_paragraph": 1,
+          "quote": "I received your note only this morning",
+          "char_start": 17,
+          "char_end": 55,
+          "source_sha256": "d2076440c3cc5fc779a56bde28bf660f1511dba761e33d616481ef1d2acff446",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "case": "Phillips book receipt and reading boundary",
+      "source_ids": [
+        "DCP-LETT-1828"
+      ],
+      "requirement": "Preserve the explicit January 28 [1856] receipt of Phillips’s book as a physical arrival event. The body thanks Phillips for the present in return for Darwin’s “old & dry works on Rocks”; it does not establish that Darwin had read the whole book, and the missing Phillips cover cannot be reconstructed. Darwin’s prior offer is extant in1822 and is not missing. Keep publication/library identification in apparatus rather than replacing the body’s limited receipt claim.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1828",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1828.html",
+          "source_html_sha256": "a8f6136cd03f6b4b8853a46bfdbd9c8094501f4d27595d64db610a964d4e26a9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1828.xml",
+          "xml_sha256": "bce65be71d99a1db26a1311f98fe063f3af8aef4587552c4bd6696af29ff274a",
+          "verified_xml_dates": [
+            {
+              "text": "28 Jan [1856]",
+              "attributes": {
+                "when": "1856-01-28"
+              },
+              "lower": "1856-01-28",
+              "upper": "1856-01-28",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-01-28\">28 Jan [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1828",
+          "body_paragraph": 1,
+          "quote": "I have received this morning your very kind present",
+          "char_start": 0,
+          "char_end": 51,
+          "source_sha256": "a8f6136cd03f6b4b8853a46bfdbd9c8094501f4d27595d64db610a964d4e26a9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "case": "Global source-aware cleanup and prior coverage",
+      "source_ids": [
+        "DCP-LETT-1956",
+        "DCP-LETT-2059",
+        "DCP-LETT-2069",
+        "DCP-LETT-2081",
+        "DCP-LETT-2071",
+        "DCP-LETT-1858",
+        "DCP-LETT-1828",
+        "DCP-LETT-2042"
+      ],
+      "requirement": "Keep original headers, XML date constraints, body paragraphs, annotations, footnotes, bibliography and later scholarly corrections in separate provenance layers. Do not make these corrected source distinctions into new relationships or export-ready content.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1956",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1956.html",
+          "source_html_sha256": "5d9cb21d702a49f16929fb3deba9b5bc2000bd7131ccf3b5f28dd59fe142efd7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1956.xml",
+          "xml_sha256": "786200baf0f2c48e59b0a04940d5e83269b49b90e978d9753d3505c389522b6c",
+          "verified_xml_dates": [
+            {
+              "text": "20 Sept 1856",
+              "attributes": {
+                "when": "1856-09-20"
+              },
+              "lower": "1856-09-20",
+              "upper": "1856-09-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-09-20\">20 Sept 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2059",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2059.html",
+          "source_html_sha256": "eac42a0ed502e551780dddc7333f587494fe4784e29ec8ac8f8f940f43bf7771",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2059.xml",
+          "xml_sha256": "47176446c8f7baf05477da031b94cd4d166ea366c4e29623691f6ca65a2efbbf",
+          "verified_xml_dates": [
+            {
+              "text": "26 Feb 1857",
+              "attributes": {
+                "when": "1857-02-26"
+              },
+              "lower": "1857-02-26",
+              "upper": "1857-02-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-02-26\">26 Feb 1857</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2069",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2069.html",
+          "source_html_sha256": "9945c0951d4422780b3c56c9ecda461395294094137fd13815ec92659d02ede4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2069.xml",
+          "xml_sha256": "c4dcfea9354309b26ef4e83a2848b8e6a944d3c23f341e379db521ffc6239b0d",
+          "verified_xml_dates": [
+            {
+              "text": "31 Mar 1857",
+              "attributes": {
+                "when": "1857-03-31"
+              },
+              "lower": "1857-03-31",
+              "upper": "1857-03-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-03-31\">31 Mar 1857</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2081",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2081.html",
+          "source_html_sha256": "677aca5f94bdddbbfadddf249deece7273fb8febdf4afde8d4ad1fc3b7fdf74d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2081.xml",
+          "xml_sha256": "0f51c7475b4af7dfb2b1487461fb138c09a287fa9b06e9253795a22ca774293f",
+          "verified_xml_dates": [
+            {
+              "text": "23 Apr 1857",
+              "attributes": {
+                "when": "1857-04-23"
+              },
+              "lower": "1857-04-23",
+              "upper": "1857-04-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-04-23\">23 Apr 1857</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2071",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2071.html",
+          "source_html_sha256": "b9f24387722c1b19f678e7f62a91160d3fc8d8bc023de150b2d256a5aac1fea5",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2071.xml",
+          "xml_sha256": "8aa9fe0b367b6dbb6994794ac19e25c4a2f533135f09e374ff17aa87626c2ae0",
+          "verified_xml_dates": [
+            {
+              "text": "4 Apr 1857",
+              "attributes": {
+                "when": "1857-04-04"
+              },
+              "lower": "1857-04-04",
+              "upper": "1857-04-04",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-04-04\">4 Apr 1857</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1858",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1858.html",
+          "source_html_sha256": "2be4ba67d3a7b755917c5a56211f1bd8ce32404367a995bbade971febf9a8718",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1858.xml",
+          "xml_sha256": "56003a8322f8e64f389cffa0708d01e3e3254adf08dd6c0b7ca796e1d634b9ac",
+          "verified_xml_dates": [
+            {
+              "text": "23 Apr [1856]",
+              "attributes": {
+                "when": "1856-04-23"
+              },
+              "lower": "1856-04-23",
+              "upper": "1856-04-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-04-23\">23 Apr [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1828",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1828.html",
+          "source_html_sha256": "a8f6136cd03f6b4b8853a46bfdbd9c8094501f4d27595d64db610a964d4e26a9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1828.xml",
+          "xml_sha256": "bce65be71d99a1db26a1311f98fe063f3af8aef4587552c4bd6696af29ff274a",
+          "verified_xml_dates": [
+            {
+              "text": "28 Jan [1856]",
+              "attributes": {
+                "when": "1856-01-28"
+              },
+              "lower": "1856-01-28",
+              "upper": "1856-01-28",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-01-28\">28 Jan [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2042",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2042.html",
+          "source_html_sha256": "0afa678f34b94b1103c88836c13e0fb1585d73fb51ae1dfab8ec15616eb3f6c9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2042.xml",
+          "xml_sha256": "e8b3c1005e57e7a5dd856d73f07a76bfd87d8ca912bcb3d09e97315e4910c640",
+          "verified_xml_dates": [
+            {
+              "text": "20 Jan [1857]",
+              "attributes": {
+                "when": "1857-01-20"
+              },
+              "lower": "1857-01-20",
+              "upper": "1857-01-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-01-20\">20 Jan [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": []
+    }
+  ],
+  "coverage": {
+    "fresh_sources": [
+      "DCP-LETT-1956",
+      "DCP-LETT-2059",
+      "DCP-LETT-2069",
+      "DCP-LETT-2081",
+      "DCP-LETT-2071",
+      "DCP-LETT-1858",
+      "DCP-LETT-1828",
+      "DCP-LETT-2042"
+    ],
+    "full_source_layers_read": true,
+    "figures_required": false,
+    "accepted_relationships_added": 0,
+    "export_performed": false
+  },
+  "validation_notes": "Sixteen literal body quotes, nine HTML/XML source pairs, two apparatus locators and two authorial x markers checked against accepted batch38 and the additive2042 correction. No export.",
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-62.draft.json",
+      "sha256": "bfd3f2be9daeb4e2678f19bd4f4dd36bffc832fc0ec569213115d5405d3fe203"
+    }
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md",
+  "primary_verification": {
+    "exact_body_quotes_checked": 16,
+    "unique_source_html_xml_pairs_checked": 9,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "apparatus_locators_checked": 2,
+    "authorial_note_markers_checked": 2
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "primary_corrections": [
+    "Corrected six body-paragraph references while rebuilding every literal quote locator from source; raw DOM paragraph numbering differs from retained body numbering.",
+    "2081 reports actual ingestion and failed oat ingestion, with only a conditional future update.",
+    "1822 contains the prior Darwin offer; only the Phillips cover remains missing.",
+    "Crisp authorial note retained in provenance, with final no-footnote eligibility review explicitly required.",
+    "Removed unrelated copied Daniell coverage sentence."
+  ]
+}

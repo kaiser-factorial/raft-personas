@@ -1,0 +1,242 @@
+{
+  "status": "candidate_only",
+  "scope": "Formatting-only candidate for accepted Beagle Fox-01 and Catherine-01 groups. No link re-adjudication, accepted mutation or export.",
+  "method": "Used accepted primary notes/decisions and direct source HTML. Evidence quotes are feature-bearing body passages with source pins; multipart dates, household voices, excluded annotations and receipt/dispatch boundaries are held explicitly.",
+  "requirements": [
+    {
+      "source_id": "DCP-LETT-207",
+      "requirement": "Keep Darwin’s receipt of Fox’s two widely separated letters as a source-date statement, not as a single-date prompt.",
+      "evidence": {
+        "source_id": "DCP-LETT-207",
+        "evidence_layer": "authorial_body",
+        "quote": "I received your two letters dated at the wide of interval of August & January.",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I received your two letters da')]",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-207.html",
+        "html_sha256": "1c0c370143a8c222aeeb1a4e914d728e6483a9d7e1847ecc9ff38c3bbe00c4ef"
+      },
+      "render_status": "hold",
+      "notes": "The May 23 1833 body reports receipt; the August/January dates belong to the incoming letters."
+    },
+    {
+      "source_id": "DCP-LETT-282",
+      "requirement": "Preserve the July 1835 reply’s explicit receipt of June and November 1834 letters in inverted order; do not collapse their intervals.",
+      "evidence": {
+        "source_id": "DCP-LETT-282",
+        "evidence_layer": "authorial_body",
+        "quote": "I have lately received two of your letters",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I have lately received two of ')]",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-282.html",
+        "html_sha256": "dd23ac949f6a4abe7379babb35b8fa4fe7e01301d033f1a7424d035de2c7f5fa"
+      },
+      "render_status": "hold",
+      "notes": "This is a multipart receipt statement, not evidence that both letters arrived together."
+    },
+    {
+      "source_id": "DCP-LETT-169",
+      "requirement": "Keep the May–June header interval and the separate Susan/Owen letters in the body; do not convert the interval into one composition day.",
+      "evidence": {
+        "source_id": "DCP-LETT-169",
+        "evidence_layer": "authorial_body",
+        "quote": "I have now altogether received three letters; your & Carolines together",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I have now altogether received')]",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-169.html",
+        "html_sha256": "5b844244c5dc9b27b539babf67ed78fc27cb8cbca731866ccb77f88f226eba8d"
+      },
+      "render_status": "hold",
+      "notes": "The body names distinct family inputs and a May 3 receipt for Susan/Owen; preserve each source role."
+    },
+    {
+      "source_id": "DCP-LETT-206",
+      "requirement": "Preserve the explicit May receipt sequence and the later July 20/29 boundary in the related Catherine correspondence; do not merge family letters or dates.",
+      "evidence": {
+        "source_id": "DCP-LETT-206",
+        "evidence_layer": "authorial_body",
+        "quote": "September 12th Caroline: October 14th. Catherine: November 12th. Susan: December 15th. Caroline: & Jan 13th. Caroline:",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'September 12th Caroline: Octob')]",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-206.html",
+        "html_sha256": "92c372d0cae4ee28919b927f77d0f1d0b7d0dcfaeabba6c7f334333a74aa5ad4"
+      },
+      "render_status": "hold",
+      "notes": "This is Darwin’s acknowledgement list of incoming family letters; the date sequence is not a single prompt."
+    },
+    {
+      "source_id": "DCP-LETT-248",
+      "requirement": "Render the July 20 header and body’s received-series boundary separately from the later July 29 section; receipt of the whole series is not one exact event.",
+      "evidence": {
+        "source_id": "DCP-LETT-248",
+        "evidence_layer": "authorial_body",
+        "quote": "I have received the whole series of letters up to yours of November, 1833.",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I have received the whole seri')]",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-248.html",
+        "html_sha256": "5acdceb4f1219272c18d17a3cd87a14ecb537f06ea6443e79597d7c0f13305ee"
+      },
+      "render_status": "hold",
+      "notes": "The source is composed at sea and completed in port; retain its multipart date/receipt structure."
+    },
+    {
+      "source_id": "DCP-LETT-184",
+      "requirement": "Preserve Caroline’s incoming account and its “letter back”/hearsay distinction; do not treat family reports as direct observation by Darwin.",
+      "evidence": {
+        "source_id": "DCP-LETT-184",
+        "evidence_layer": "authorial_body",
+        "quote": "I had however heard excellent accounts of you tho‘ not from you",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I had however heard excellent ')]",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-184.html",
+        "html_sha256": "41c091e410de80c4c2bd71a5168cb15872965a3b7d5f8badd29feea42fccd328"
+      },
+      "render_status": "hold",
+      "notes": "The body explicitly separates heard reports from a letter received; source voice is Caroline.’s."
+    },
+    {
+      "source_id": "DCP-LETT-236",
+      "requirement": "Keep Susan’s January 1834 family letter distinct from Darwin’s later response and its received Journal statement; do not infer physical delivery date beyond the body.",
+      "evidence": {
+        "source_id": "DCP-LETT-236",
+        "evidence_layer": "authorial_body",
+        "quote": "Your Journal is safely packed up, now that we have all read it.",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'Your Journal is safely packed ')]",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-236.html",
+        "html_sha256": "1159cb5817ab9bc47de078f813490c8c4bb121b6a40fbe790033e1ceeff27ba5"
+      },
+      "render_status": "hold",
+      "notes": "The family reading and packing statement is incoming evidence; no synthetic Darwin prompt is supplied."
+    },
+    {
+      "source_id": "DCP-LETT-176",
+      "requirement": "Render the MathML quarter-hour literally as 1/4 and retain the hurried Sullivan parcel/dispatch context.",
+      "evidence": {
+        "source_id": "DCP-LETT-176",
+        "evidence_layer": "authorial_body",
+        "quote": "I have only",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I have only 1/4 of an hour to ')]",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-176.html",
+        "html_sha256": "0411b861f290d84fa9667b2388fd1fd09e2d8a21d8f70a4e94138735bdef7e87"
+      },
+      "render_status": "planned_repair",
+      "notes": "The fraction is in Darwin’s authorial body; parcel dispatch does not prove Catherine’s receipt."
+    },
+    {
+      "source_id": "DCP-LETT-208",
+      "requirement": "Keep the May 29 family letter’s third-party Captain Harding report separate from Catherine’s own voice and later Darwin answer.",
+      "evidence": {
+        "source_id": "DCP-LETT-208",
+        "evidence_layer": "authorial_body",
+        "quote": "We have seen Capt Harding, since Caroline wrote to you; he came to consult Papa",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'We have seen Capt Harding, sin')]",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-208.html",
+        "html_sha256": "4117127c61184d7eb80b1f23956a18a93fac608c90a8b603ac812841adf95fa3"
+      },
+      "render_status": "hold",
+      "notes": "This is Susan/Catherine family correspondence and reported third-party information, not Darwin-authored evidence."
+    },
+    {
+      "source_id": "DCP-LETT-266",
+      "requirement": "Preserve joint speaker boundaries: Caroline’s received letter, Catherine’s own text, and Papa’s message must remain attributable by section.",
+      "evidence": {
+        "source_id": "DCP-LETT-266",
+        "evidence_layer": "authorial_body",
+        "quote": "Papa charges me to give you a message from him",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'Papa charges me to give you a ')]",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-266.html",
+        "html_sha256": "6b7c99ec4c54dd4f8f423ec47fa6a155ae14a86e77283cabf8870ddad1048da6"
+      },
+      "render_status": "hold",
+      "notes": "The body identifies Catherine as writer and explicitly relays Robert Waring Darwin’s message; do not flatten the household voices."
+    }
+  ],
+  "source_pins": [
+    {
+      "source_id": "DCP-LETT-207",
+      "evidence_layer": "authorial_body",
+      "quote": "I received your two letters dated at the wide of interval of August & January.",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I received your two letters da')]",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-207.html",
+      "html_sha256": "1c0c370143a8c222aeeb1a4e914d728e6483a9d7e1847ecc9ff38c3bbe00c4ef"
+    },
+    {
+      "source_id": "DCP-LETT-282",
+      "evidence_layer": "authorial_body",
+      "quote": "I have lately received two of your letters, one dated June & the other November 1834.",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I have lately received two of ')]",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-282.html",
+      "html_sha256": "dd23ac949f6a4abe7379babb35b8fa4fe7e01301d033f1a7424d035de2c7f5fa"
+    },
+    {
+      "source_id": "DCP-LETT-169",
+      "evidence_layer": "authorial_body",
+      "quote": "I have now altogether received three letters; your & Carolines together",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I have now altogether received')]",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-169.html",
+      "html_sha256": "5b844244c5dc9b27b539babf67ed78fc27cb8cbca731866ccb77f88f226eba8d"
+    },
+    {
+      "source_id": "DCP-LETT-206",
+      "evidence_layer": "authorial_body",
+      "quote": "September 12th Caroline: October 14th. Catherine: November 12th. Susan: December 15th. Caroline: & Jan 13th. Caroline:",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'September 12th Caroline: Octob')]",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-206.html",
+      "html_sha256": "92c372d0cae4ee28919b927f77d0f1d0b7d0dcfaeabba6c7f334333a74aa5ad4"
+    },
+    {
+      "source_id": "DCP-LETT-248",
+      "evidence_layer": "authorial_body",
+      "quote": "I have received the whole series of letters up to yours of November, 1833.",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I have received the whole seri')]",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-248.html",
+      "html_sha256": "5acdceb4f1219272c18d17a3cd87a14ecb537f06ea6443e79597d7c0f13305ee"
+    },
+    {
+      "source_id": "DCP-LETT-184",
+      "evidence_layer": "authorial_body",
+      "quote": "I had however heard excellent accounts of you tho‘ not from you",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I had however heard excellent ')]",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-184.html",
+      "html_sha256": "41c091e410de80c4c2bd71a5168cb15872965a3b7d5f8badd29feea42fccd328"
+    },
+    {
+      "source_id": "DCP-LETT-236",
+      "evidence_layer": "authorial_body",
+      "quote": "Your Journal is safely packed up, now that we have all read it.",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'Your Journal is safely packed ')]",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-236.html",
+      "html_sha256": "1159cb5817ab9bc47de078f813490c8c4bb121b6a40fbe790033e1ceeff27ba5"
+    },
+    {
+      "source_id": "DCP-LETT-176",
+      "evidence_layer": "authorial_body",
+      "quote": "I have only 1/4 of an hour to write this",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I have only 1/4 of an hour to ')]",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-176.html",
+      "html_sha256": "0411b861f290d84fa9667b2388fd1fd09e2d8a21d8f70a4e94138735bdef7e87"
+    },
+    {
+      "source_id": "DCP-LETT-208",
+      "evidence_layer": "authorial_body",
+      "quote": "We have seen Capt Harding, since Caroline wrote to you; he came to consult Papa",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'We have seen Capt Harding, sin')]",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-208.html",
+      "html_sha256": "4117127c61184d7eb80b1f23956a18a93fac608c90a8b603ac812841adf95fa3"
+    },
+    {
+      "source_id": "DCP-LETT-266",
+      "evidence_layer": "authorial_body",
+      "quote": "Papa charges me to give you a message from him",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'Papa charges me to give you a ')]",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-266.html",
+      "html_sha256": "6b7c99ec4c54dd4f8f423ec47fa6a155ae14a86e77283cabf8870ddad1048da6"
+    }
+  ],
+  "recommendations": [
+    "Keep source headers, body sections, family relays, third-party reports, footnotes and annotations separate.",
+    "Render 1/4 MathML literally and retain broad/interval dates; receipt and dispatch are distinct events.",
+    "Do not export inferred prompts or merge repeated source material unless a verified artifact establishes duplication."
+  ],
+  "input_hashes": {
+    "data/annotations/beagle-voyage/fox-01.primary.json": "92c68c986d08dd2d4edeed9812168729b14d3502f30ec10ea29c4a629126c020",
+    "data/annotations/beagle-voyage/catherine-01.primary.json": "e26da604e87c81eebd314baa67cfd5dbb2ba44628ab1f3ccba61757560ab7ce7",
+    "reports/beagle-voyage-review/parent-reading/fox-01.primary.json": "2e1d014833f8d1d9e78af62c9f76cf8ecdf18bfd3f5abe9d31f1a57e927ec73c",
+    "reports/beagle-voyage-review/parent-reading/catherine-01.primary.json": "17c2179d5a3cf07fcff300a40de9ff6ab85017e1c3ae536106a8339f2fec75e3",
+    "reports/beagle-voyage-review/parent-decisions/fox-01.primary.json": "23d1028dbbb754228688b6064249624adc04ae934d14cb67bd21a218cc26af2e",
+    "reports/beagle-voyage-review/parent-decisions/catherine-01.primary.json": "a469f765c301aacbe56f1b3a82b22c8fbc82af37137240b526dc1c6c3c00818c"
+  }
+}

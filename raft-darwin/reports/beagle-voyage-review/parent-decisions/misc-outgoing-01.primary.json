@@ -1,0 +1,79 @@
+{
+  "group_id": "misc-outgoing-01",
+  "status": "parent_adjudicated",
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "retained_prior_relationships": [
+    {
+      "id": "own-letter-329-330",
+      "relationship": "refers_to_own_letter",
+      "source_id": "DCP-LETT-329",
+      "target_id": "DCP-LETT-330",
+      "review_status": "reviewed",
+      "confidence": "high",
+      "basis": "329 identifies a just-written letter to Carlisle about donating fossil bones on conditions involving casts. The same-date letter is represented by the reported substance in 330; the edition explicitly cross-references it. The target is a minute-book report, not surviving Darwin prose.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-329",
+          "body_paragraph": 1,
+          "char_start": 0,
+          "char_end": 92,
+          "quote": "I have just written and will send at the same time with this, a letter to Sir Ant: Carlisle.",
+          "source_sha256": "7bee5a7f780ba78b4a0175b1b5b7807b03ddfacb6ca215700b22b43c494644fc"
+        },
+        {
+          "letter_id": "DCP-LETT-330",
+          "body_paragraph": 1,
+          "char_start": 1,
+          "char_end": 57,
+          "quote": "Read a Letter of the 19th Instant from Mr Charles Darwin",
+          "source_sha256": "ca4c4b1de31cf6ca846f39de906fb7a19414f03ec73ea9327b0ca7eb8f715193"
+        }
+      ],
+      "recipient_receipt_established": false,
+      "target_representation": "minute_book_report_not_authorial_transcription",
+      "new_relationship": false,
+      "prior_edge_ids": [
+        "own-letter-329-330"
+      ]
+    }
+  ],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-307",
+      "disposition": "individual_Darwin_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-320",
+      "disposition": "individual_Darwin_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-329",
+      "disposition": "individual_Darwin_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-13858",
+      "disposition": "held_broad_date_fragment_not_exportable_before_cutoff",
+      "training_export_ready": false
+    }
+  ],
+  "unresolved_references": [
+    {
+      "record_id": "DCP-LETT-329",
+      "description": "Owen recommendation not located; could be letter or oral advice. Do not synthesize prompt."
+    },
+    {
+      "record_id": "DCP-LETT-13858",
+      "description": "Broadafter1836 interval extends beyond1859; opposite fragment faces not joined as one sentence."
+    }
+  ],
+  "first_pass_corrections": [
+    "329 recommendation does not alone prove it was a letter.",
+    "330reported letter is not authorial Charles body.",
+    "307/310 home-arrival relative-day statements preserved separately."
+  ]
+}

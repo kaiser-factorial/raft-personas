@@ -1,0 +1,84 @@
+{
+  "policy": "Reviewed additions supplement, never overwrite, raw CSV/XML or the original metadata audit. XML day counts describe encoded attributes only. Full-body exact chronology must also respect date text and section evidence.",
+  "xml_audit_exact_order_review_count": 97,
+  "additional_body_date_review_ids": [
+    "DCP-LETT-448"
+  ],
+  "effective_review_count_after_this_addition": 98,
+  "overrides": [
+    {
+      "id": "DCP-LETT-448",
+      "reason": "Single XML @when conflicts with display span and an explicitly later body section.",
+      "original_xml_constraints": [
+        {
+          "text": "[30 Nov – 1 Dec 1838]",
+          "attributes": {
+            "when": "1838-11-30"
+          },
+          "lower": "1838-11-30",
+          "upper": "1838-11-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1838-11-30\">[30 Nov – 1 Dec 1838]</ns0:date>"
+        }
+      ],
+      "original_display_date": "[30 Nov – 1 Dec 1838]",
+      "effective_exact_order_needs_review": true,
+      "whole_letter_scalar_date": null,
+      "reviewed_composition_span": {
+        "earliest": "1838-11-30",
+        "latest": "1838-12-01"
+      },
+      "sections": [
+        {
+          "id": "DCP-LETT-448:friday",
+          "paragraphs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "date": "1838-11-30",
+          "basis": "Friday Evening opener and displayed 30 November–1 December span"
+        },
+        {
+          "id": "DCP-LETT-448:saturday",
+          "paragraphs": [
+            7,
+            8
+          ],
+          "date": "1838-12-01",
+          "basis": "Saturday Morning internal dateline and displayed date span",
+          "evidence": {
+            "body_paragraph": 7,
+            "quote": "Saturday Morning. I was delighted to receive your letter"
+          }
+        }
+      ],
+      "scope_limit": "This resolves writing sections; matching the newly arrived incoming letter requires separate content adjudication.",
+      "source": {
+        "path": "data/raw/dcp/correspondent-review-1837-1843/DCP-LETT-448.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-448.xml",
+        "retrieved_at": "2026-09-16T09:36:43.203003+00:00",
+        "sha256": "c5900db6cb2fc9bef5a0c1131d1272e0ef8595f2d2866a0032f271e65d6191e4",
+        "bytes": 117064,
+        "http_status": 200,
+        "etag": "\"b01884d2e7d33ac2006264ac5968e719\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-448"
+      },
+      "metadata_provenance": {
+        "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+        "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+        "csv_record_number": 482,
+        "csv_physical_line_start": 485,
+        "csv_physical_line_end": 485,
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-448.xml",
+        "xml_sha256": "7460fc277e09c580e239f8ecc8e81526ce2ef4dbdebd297705dc971276ba0013",
+        "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-448.xml",
+        "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-448.xml",
+        "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+      }
+    }
+  ]
+}

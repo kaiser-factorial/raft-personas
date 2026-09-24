@@ -1,0 +1,229 @@
+{
+  "status": "adjudicated",
+  "reviewers": [
+    {
+      "task": "luna_verify_family_1837",
+      "model": "gpt-5.6-luna",
+      "scope": "five family pilot bodies and three claims"
+    },
+    {
+      "task": "luna_verify_kemp_1843",
+      "model": "gpt-5.6-luna",
+      "scope": "six Kemp pilot bodies and three pairs"
+    },
+    {
+      "task": "luna_pre_voyage",
+      "model": "gpt-5.6-luna",
+      "scope": "all 476 XML records, then text/XML date conflict scan"
+    }
+  ],
+  "accepted_pairs": [
+    "345→346",
+    "444→445",
+    "699→701F",
+    "711→711F",
+    "720→720F"
+  ],
+  "rejected_prompt": "441→445",
+  "pair_count_change": 0,
+  "parent_decisions": [
+    "All five pilot relationships retained after checking Luna rationales and validating every quoted passage.",
+    "The reported 445-safe/31-held XML classifications and period counts stand.",
+    "Add a separate date-review override for 448: XML-only day is incomplete for full-body chronology. Keep all original metadata unchanged.",
+    "Luna proposals remain distinct from parent decisions."
+  ],
+  "quote_checks": [
+    {
+      "letter_id": "DCP-LETT-345",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-345",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-346",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-346",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-345",
+      "locator": "editorial footnote 5",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-444",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-444",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-445",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-445",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-445",
+      "locator": "div#letter div.body-content; retained body block 6",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-444",
+      "locator": "editorial summary",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-441",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-441",
+      "locator": "editorial footnote 9",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-444",
+      "locator": "editorial footnote 1",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-444",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-445",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-699",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-701F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-701F",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-701F",
+      "locator": "div#letter div.body-content; retained body block 9",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-711",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-711",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-711F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-711F",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-711F",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-720",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-720F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-720F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "quote_verified": true
+    }
+  ],
+  "baseline_hashes_unchanged": [
+    {
+      "path": "reports/1837-1843/pilot/review.json",
+      "sha256": "e0a457d4c9c348c2cae384b2e578dd6cf9a82019e6fda1109cb0ceac7babbf63"
+    },
+    {
+      "path": "reports/1837-1843/pilot/graph.json",
+      "sha256": "7abb1e0408328ac556152ad5fdf5c4a4984ae3016e81f32f8ef234ef5c68d9cf"
+    },
+    {
+      "path": "reports/1837-1843/pilot/letters.jsonl",
+      "sha256": "0c0a5a56563fab4cb894902487b207a994d1b48a8e5147a656c7ca6f1243d730"
+    },
+    {
+      "path": "reports/1837-1843/audit.jsonl",
+      "sha256": "dd30c9c29b05ed130912fe9b97dbacb6595547f2e501ed2e37cd21e10918b7c2"
+    },
+    {
+      "path": "reports/1837-1843/summary.json",
+      "sha256": "568ecfc7a5e34d885957d3fdf07059fe7e7a2098c9ec88ba7f4f424de779cdec"
+    },
+    {
+      "path": "reports/correspondence-map/graph.json",
+      "sha256": "b4c6cac13ea1166d35483081eef0a1a44802476c0b8802ef141aaa44eb9af6f0"
+    },
+    {
+      "path": "reports/correspondence-map/summary.json",
+      "sha256": "a447b5dd08cd473221dfd3921ccb355457063b660665e9ddd28fe6f6aa085283"
+    },
+    {
+      "path": "data/annotations/correspondence_links.json",
+      "sha256": "6cd4a48b06544b090264cd4d4bc8396627ba18ae95163d8dd2174432b84fccab"
+    }
+  ],
+  "review_sources": [
+    {
+      "path": "reports/1837-1843/verification/family.review.json",
+      "sha256": "ab3f6720dfb9fc1c761d524591641bb226f0e02e61bb0bb760f9726d5368dc87"
+    },
+    {
+      "path": "reports/1837-1843/verification/kemp.review.json",
+      "sha256": "0b7fdc1991c6ad37840346396ee5cf177282ff39e84be81a91b7900124d124de"
+    },
+    {
+      "path": "reports/1837-1843/verification/period.initial.review.json",
+      "sha256": "f165272e03610a900dc5bdb84242ba851edd8e0782f893f3a6c19be660e456b4"
+    },
+    {
+      "path": "reports/1837-1843/verification/period.review.json",
+      "sha256": "e91c9c88a8464fc0303e5b6382c7540b35c4975646150ea3de995c7fe46eecc8"
+    }
+  ]
+}

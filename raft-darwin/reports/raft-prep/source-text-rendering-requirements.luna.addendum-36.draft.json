@@ -1,0 +1,276 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batches 11–12 source-text rendering, chronology, attribution, receipt and figure requirements only; candidate for root review. No converter, export, transcript, corpus, training or primary evidence changes.",
+  "primary_provenance": {
+    "batches": {
+      "batch-11": {
+        "reading": {
+          "path": "reports/1856-1857/review/parent-reading/batch-11.json",
+          "sha256": "e12bf9456b63600c20f4debd56cce97bb5230bac4df8194c979f0a60b21efc4c"
+        },
+        "decisions": {
+          "path": "reports/1856-1857/review/parent-decisions/batch-11.json",
+          "sha256": "8a9a916008ac6110c7132e760ea71ed38267344696a8b9af825e7b4ea0d6e12c"
+        },
+        "ledger": {
+          "path": "data/annotations/periods/1856-1857/batch-11.json",
+          "sha256": "f3d5723ead2cb75d81b7afdb4c106940e91a3f155fda6ba9191f007305b2c837"
+        }
+      },
+      "batch-12": {
+        "reading": {
+          "path": "reports/1856-1857/review/parent-reading/batch-12.json",
+          "sha256": "7ad8e0680b38969b2a74610d808d7c031ddf1efbd6b99735b66de12b064db9f0"
+        },
+        "decisions": {
+          "path": "reports/1856-1857/review/parent-decisions/batch-12.json",
+          "sha256": "2a251c3190df836d192825e7a78e9d88386d6674f663daadefbd1b8497e96838"
+        },
+        "ledger": {
+          "path": "data/annotations/periods/1856-1857/batch-12.json",
+          "sha256": "00ce4f8a8cdd6fda381f58b8a8785af81a21dead8ef76630f5dc0ea56fe34981"
+        }
+      }
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1855"
+      ],
+      "case": "three actual geological drawings and bounded hypothesis",
+      "requirement": "Preserve all three actual embedded drawings as figures: stepped lava at /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]/span[2]/img, convex radial columns at p[4]/span[3]/img, and longitudinal flow/transverse AA planes at p[9]/span[1]/img. They illustrate Darwin’s tentative viscous-sliding account of columnar structure; the 12-degree case is hypothetical prose, with no scale or measured angle recoverable from the drawings. Keep the Madeira discussion and later publications separate from this April 21 source.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-1855",
+          "quote": "The vertical columns are not always perpendicular to the surface",
+          "retained_body_scope": "retained P2; raw DOM paragraph p[3]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1855",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1855.html",
+          "html_sha256": "3d160457ab2e20bf89c8fcc41d18757c4af9367449a4861aaa90f7390f28494b",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1855.xml",
+          "xml_sha256": "92730385be814efc561ebf0c8f89f58778ac64405bd8320deb435c60ad0ebad9"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1862"
+      ],
+      "case": "two-day posting and flattened diag/ramme list",
+      "requirement": "Keep the May 1–2 composition layers distinct: the May 2 text explicitly says the letter was not posted the previous day, and the added material precedes sending. Preserve the earlier shell list as missing and render the Nanina catalogue’s literal diag/ramme fragments without inventing a restored table. Woodward/Prentice and Curtis reports remain relayed voices; J. E. Gray is not Asa Gray.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-1862",
+          "quote": "This letter was not posted yesterday by accident",
+          "retained_body_scope": "retained P12; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1862",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1862.html",
+          "html_sha256": "377376d1ae6852085aa9e2ca4c16e3488bf0fd4ee4be8b7738c9cdda581a0ebd",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1862.xml",
+          "xml_sha256": "885a1eed83c3c97f39d4d84f016b056e672b7b33ebac2b12372f59ec3e87155d"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1910",
+        "DCP-LETT-1915A",
+        "DCP-LETT-1917"
+      ],
+      "case": "copied Geographical/geological variant and unsent postscript",
+      "requirement": "Preserve 1910 as a Darwin-corrected copy whose P3 wording contains the copyist’s Geographical reading while the underlying geological variant remains separately attributable. Conditional language about asking Hooker is a request, not proof that the paper was forwarded or read. Keep 1915A as a copy/extract with three actual figures and a genuine one-half-million MathML expression; its 12,000-foot versus 1,200 apparatus discrepancy and June 1 diagram heading versus July 1 journal heading remain unresolved. The July 2 postscript is explicitly unsent. In 1917 P5, permission to credit Lyell and proposed wording refer to missing incoming material; do not make 1915A a source-complete prompt.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-1910",
+          "quote": "before I got your letter, I was inclined vehemently to dispute the vast amount of subsidence",
+          "retained_body_scope": "retained P3; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "source_id": "DCP-LETT-1917",
+          "quote": "I have answered all your questions",
+          "retained_body_scope": "retained P1; raw DOM locator to be resolved from source paragraph numbering before implementation",
+          "dom_xpath": ""
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1910",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1910.html",
+          "html_sha256": "25ef24cdfab020639419a3a5a26c9d849f58eb56f964b13b40ba2268689a0901",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1910.xml",
+          "xml_sha256": "8b1e61d1ac6995c7d82fe48d7c9be6a3fb1c43439c259a116f296a96b36ea53a"
+        },
+        {
+          "letter_id": "DCP-LETT-1915A",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1915A.html",
+          "html_sha256": "c68a7e09967cfe3752edb6504cacacdca7c8274cece7a8f6fbfad43162838739",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1915A.xml",
+          "xml_sha256": "245dc0d3db43c91c1f0aea9c1a775743b4dde4fe537f2e497da8f51a503b0c16"
+        },
+        {
+          "letter_id": "DCP-LETT-1917",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1917.html",
+          "html_sha256": "5422b98282a923571e1570ad8f79a330134df70950f16f9ff70b84827cff822d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1917.xml",
+          "xml_sha256": "b53f8865246439a0a3454130f219d762e25a21121423cf78cdf594d951b07c35"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1920"
+      ],
+      "case": "map received versus books promised and work durations",
+      "requirement": "Render the map as received and examined, while books remain promised loans. Keep the separate one-week Hooker-Flora work and one-month broader distribution work as internal duration claims; neither supplies an exact receipt date for Lyell notes, books or Maury sailing directions.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-1920",
+          "quote": "Very many thanks for your two notes & especially for Maury’s map",
+          "retained_body_scope": "retained P2; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1920",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1920.html",
+          "html_sha256": "d4683579dfa12aebd92aad5135d41ea867d04975a4becb59c3867cb0f5124cc4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1920.xml",
+          "xml_sha256": "88c12683e7eb8a56132b229a6039967dc0b1fa54dae2081a3c67220fd9f156af"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1984",
+        "DCP-LETT-1952"
+      ],
+      "case": "Charles reply to Lady Lyell and earlier Bosquet knowledge",
+      "requirement": "Keep 1984 as Charles Darwin’s reply to Lady Lyell’s note addressed to Emma; no Emma prompt text is supplied. Its Bosquet report is already known from the September 9 Darwin source 1952 and must not be counted as a new November receipt or discovery. Correct the explanatory place-name to Madeira: the paper was expected, not submitted. The earlier 1952 drawing report is its own incoming witness with incomplete ending and later taxonomic correction, not a reconstructed 1984 prompt.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-1984",
+          "quote": "I am writing to you in order to answer Lady Lyells note to Emma",
+          "retained_body_scope": "retained P1; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "source_id": "DCP-LETT-1984",
+          "quote": "the Madeira paper will soon be sent in",
+          "retained_body_scope": "retained P4; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1984",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1984.html",
+          "html_sha256": "3ca68facd6385364034499bee116f2efd0d28e53a3c468d52387f6d1ed9268d3",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1984.xml",
+          "xml_sha256": "dd72d52ad3842abc204202391c5f3d8efbef570be0cbeb9da3d8acab3e8b5361"
+        },
+        {
+          "letter_id": "DCP-LETT-1952",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1952.html",
+          "html_sha256": "cfe3aa0d32762fd556a121cb3a734fd33eebe8192a2e6207984474e9126f4aa5",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1952.xml",
+          "xml_sha256": "0e02ad2d6309d696c7c4f59b74e95885d285806a396bd23fb580ff2f782f425e"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2039",
+        "DCP-LETT-2050"
+      ],
+      "case": "flattened mammal counts and separate snail-bath intervals",
+      "requirement": "Preserve 2039’s first 21 retained blocks as a flattened occurrence list, including zero rows, Middle Purbeck 12, Stonesfield 4 and Trias/Stuttgard 1, without manufacturing HTML table columns. Lyell’s paid-for Microlestes casts/drawings are reported as owned, not an enclosure seen by Darwin; the ink docket supplies a catalogue date, not exact receipt or reading. In 2050 keep the current 20-day seawater immersion and separate 7-day bath about six weeks earlier; do not turn them into a continuous 27-day experiment or use the vague Purbeck news to identify the missing January memorandum.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-2039",
+          "quote": "I have casts & beautiful drawings made at my expence when last at Stuttgard of the Microlestes",
+          "retained_body_scope": "retained P22; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[22]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[22]"
+        },
+        {
+          "source_id": "DCP-LETT-2050",
+          "quote": "I have really nothing to suggest to Mr Forbes",
+          "retained_body_scope": "retained P11; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[11]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[11]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2039",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2039.html",
+          "html_sha256": "353be50d03fb49d08bbef7fa8f329288c61fecc65675d5b52a572b93539ff14f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2039.xml",
+          "xml_sha256": "1e1b9cf6e6fd70eabc4f47c3de49a615209f83d0e77e347f395cc9d206268573"
+        },
+        {
+          "letter_id": "DCP-LETT-2050",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2050.html",
+          "html_sha256": "8143c8f4fcbf9b3daa62e312d71de8670a52748d5a5113daafe01d5d3f0cf223",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2050.xml",
+          "xml_sha256": "f607d7f56ceceac41743b502a0108aa43cd1063bdc607b7dc37dd3ebd332e884"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2077"
+      ],
+      "case": "seen Wollaston letter versus summary returned",
+      "requirement": "Render the Wollaston letter as seen by Darwin, preserving the body’s qualified acceptance of possible particular-case proof and its opposition to general continental extension. The editorial synopsis says returns, but the body does not establish a return dispatch. Keep the Madeira copy request and planned hydropathy interval as future plans, not completed receipt or treatment.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-2077",
+          "quote": "I have been particularly glad to see Wollaston’s letter",
+          "retained_body_scope": "retained P1; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2077",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2077.html",
+          "html_sha256": "4ebf0cdaf288a6f6682aa172ecc7ccd57a20bd939b8b6d8f3c6ea4b6722ce17c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2077.xml",
+          "xml_sha256": "edab910237117b86496b52696d590f58fe8d3a2fd3a3f17014d7b30e2572887d"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Retained body paragraph numbers and raw DOM XPaths are separate coordinate systems; preserve both.",
+    "Keep originals, copies, annotations, reported voices, enclosures, drawings, receipt, reading, dispatch and later publication distinct.",
+    "Requirements do not imply relationship acceptance, knowledge activation or export readiness."
+  ],
+  "notes": [
+    "The explanatory requirement uses Madeira, correcting the frozen note’s Madeleine typo without editing that note.",
+    "The earlier Woodward original-recovery probe remains a candidate availability finding and is not evidence of global manuscript unavailability."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/all_letters.jsonl",
+      "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+    },
+    {
+      "path": "reports/1856-1857/audit.jsonl",
+      "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+    }
+  ]
+}

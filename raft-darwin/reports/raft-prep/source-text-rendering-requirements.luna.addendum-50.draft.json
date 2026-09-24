@@ -1,0 +1,269 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Accepted 1856–1857 batch-28 additive source-text/date/voice/rendering requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-28.json",
+      "sha256": "72640803b24030dddeab1ddff9b8ae3313ffba013e5a4ba6c3a88a3504908dba"
+    },
+    "parent_decision": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-28.json",
+      "sha256": "00ad30080e22b0256d2c3c9a8cba75c893c3e79c4c3bc49cc03b71c6801e0ee0"
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-28.json",
+      "sha256": "b69960332173f0a94ed164569eaf93b3e8d6843f4e9384f94c551b8f8c138378"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1970",
+        "DCP-LETT-1988",
+        "DCP-LETT-1989"
+      ],
+      "case": "Daniell island-mammal knowledge witness and date bounds",
+      "requirement": "Preserve the accepted knowledge witness 1988 to 1989: Daniell’s 14 November incoming letter supplies attributed St Thomas and Princes mammal information, and Darwin’s 15 November morning response records its impact on his distribution/soundings idea. Keep the Portuguese historical quotation and any editorial translation or summary in separate layers, and do not treat Daniell’s species claims as verified Darwin knowledge. 1970 remains an 8 October–7 November Daniell source; no surviving section proves that its later paragraphs were sent before 1975–1976, so do not backdate October Tegetmeier material or use 7 November as a receipt date.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1970",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1970.html",
+          "source_html_sha256": "a896992839b220c9aa21d60511cd5155b98cd56c128f4107bbaf81b780eefddb",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1970.xml",
+          "xml_sha256": "ad67bbe09c92ef1bbcdbea79d7c1d12b3c877ce1e6a2174260174e9039c84479"
+        },
+        {
+          "letter_id": "DCP-LETT-1988",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1988.html",
+          "source_html_sha256": "3c2ba821944131cda0bb8b9f294d0dafbd4a4fd2af724142d56a021cecc1c6ac",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1988.xml",
+          "xml_sha256": "7239b5e9988fad3886dda01ce95eaf22ab83fdcc807a156698ed85ae56de2919"
+        },
+        {
+          "letter_id": "DCP-LETT-1989",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1989.html",
+          "source_html_sha256": "d3c4b83c204b91e183762485b7c2202a9648c6ad649de02ea2221d301e6d5702",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1989.xml",
+          "xml_sha256": "0b7bfc74c41a75f4575aaf94124abd585c9567b10f90f9083dbb479ea9428fad"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1988",
+          "body_paragraph": 1,
+          "quote": "information about the mamalia, of St Thomas, & Princes",
+          "source_sha256": "3c2ba821944131cda0bb8b9f294d0dafbd4a4fd2af724142d56a021cecc1c6ac",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1988",
+          "body_paragraph": 2,
+          "quote": "numerous monkeys & civit cats",
+          "source_sha256": "3c2ba821944131cda0bb8b9f294d0dafbd4a4fd2af724142d56a021cecc1c6ac",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1989",
+          "body_paragraph": 4,
+          "quote": "I have had this morning a most cruel stab in the side on my notion of distribution of Mammals in relation to soundings",
+          "source_sha256": "d3c4b83c204b91e183762485b7c2202a9648c6ad649de02ea2221d301e6d5702",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1970",
+          "body_paragraph": 8,
+          "quote": "Nov. 7.",
+          "source_sha256": "a896992839b220c9aa21d60511cd5155b98cd56c128f4107bbaf81b780eefddb",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1981"
+      ],
+      "case": "five-category nine-skin list and raw layout",
+      "requirement": "Preserve 1981’s five-category nine-skin inventory as Darwin body text, including literal diag/ramme transcription markers, category boundaries, and the one cock of doubtful Rangoon origin. The nine offered skins and the later option to send them are not a flattened biological list or proof of receipt; the promised return of the head of the wild Jungle Fowl remains a future custody condition. No figure or table asset is present to replace the raw list.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1981",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1981.html",
+          "source_html_sha256": "096508cd8591ae0182a0b5daee1b2944f960d74365953bd2b83f8b40f790e9ad",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1981.xml",
+          "xml_sha256": "0de0c16e7be6d967ac5cd62c86d669e162a4c171654b81e56f0b18898d0f30c5"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1981",
+          "body_paragraph": 4,
+          "quote": "I have received from the Honble. Walter Elliot of Madras, skins of following poultry, diag 2. Game Cock & Hen (of great size)",
+          "source_sha256": "096508cd8591ae0182a0b5daee1b2944f960d74365953bd2b83f8b40f790e9ad",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1981",
+          "body_paragraph": 9,
+          "quote": "Now if you would like to examine & describe these 9 skins",
+          "source_sha256": "096508cd8591ae0182a0b5daee1b2944f960d74365953bd2b83f8b40f790e9ad",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[10]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2004"
+      ],
+      "case": "currency superscripts and acquisition versus shipment",
+      "requirement": "Render the currency markup in 2004 as £4, 4 shillings and 10 pence according to its superscripted s and d nodes; do not read the flattened sequence as a decimal or an undifferentiated number. Keep already received/sent or collecting skins separate from future shipment choices and the later cost estimate.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2004",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2004.html",
+          "source_html_sha256": "4b35d71c9d9c0f01af1b59db07396348759600ff4a2463ad202c41149743c60c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2004.xml",
+          "xml_sha256": "c415976af00eef22a4dd7aadf726d9c2f668d2c9f80cd41d3fb962e744b3464b"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2004",
+          "body_paragraph": 2,
+          "quote": "The Persian Box alone cost",
+          "source_sha256": "4b35d71c9d9c0f01af1b59db07396348759600ff4a2463ad202c41149743c60c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "markup_verbatim": [
+        {
+          "letter_id": "DCP-LETT-2004",
+          "markup_scope": "body paragraph 2 currency",
+          "verbatim": "£4 s 4 d 10",
+          "source_sha256": "4b35d71c9d9c0f01af1b59db07396348759600ff4a2463ad202c41149743c60c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2048"
+      ],
+      "case": "deleted postscript and surviving postscript",
+      "requirement": "Keep the five authorial rumpless-fowl questions and the separate surviving P.S. in 2048 distinct from footnote 7’s reference to an unavailable deleted postscript requesting a common Dutch or German Pouter. Do not reconstruct deleted text from the footnote or treat the footnote as a body annotation. The surviving German Pouter report is a within-letter revision and does not erase the earlier missing postscript.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2048",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2048.html",
+          "source_html_sha256": "7ea5927036d9cb4bb7332af76cd0c2ba1d3e0deff99914c1d6c39f721b699c5f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2048.xml",
+          "xml_sha256": "0d08685561253fec0f64328f9c6fd83f4fe66ea8582f5229764bb4889b47ca06"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2048",
+          "body_paragraph": 2,
+          "quote": "I certainly shall be very much obliged for an egg or two of any Rumpless Fowl",
+          "source_sha256": "7ea5927036d9cb4bb7332af76cd0c2ba1d3e0deff99914c1d6c39f721b699c5f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2048",
+          "body_paragraph": 8,
+          "quote": "By oddest chance this very morning I have heard of a German Pouter on sale",
+          "source_sha256": "7ea5927036d9cb4bb7332af76cd0c2ba1d3e0deff99914c1d6c39f721b699c5f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]"
+        }
+      ],
+      "apparatus_verbatim": [
+        {
+          "letter_id": "DCP-LETT-2048",
+          "apparatus_scope": "footnote 7",
+          "verbatim": "In a deleted postscript to this letter, CD had requested a common Dutch or German pouter",
+          "source_sha256": "7ea5927036d9cb4bb7332af76cd0c2ba1d3e0deff99914c1d6c39f721b699c5f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[7]/div[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2093",
+        "DCP-LETT-2111",
+        "DCP-LETT-2115",
+        "DCP-LETT-2108",
+        "DCP-LETT-2110"
+      ],
+      "case": "book edition receipt, reading and within-letter revisions",
+      "requirement": "Preserve the edition and reading sequence: on 18 May Darwin still reports that booksellers sent an old edition; on 25 June he has all published numbers and says he will study them; on 19 July he still has not begun reading. Keep 2108’s tail-question plans and 2110’s late correction about three rumpless eggs as separate Darwin paragraphs, with hatching timing and failed instructions intact. Acquisition, planned shipment and later reading are different states.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2093",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2093.html",
+          "source_html_sha256": "36d1ddd6a4adb68be5df0c26d2d2e45ebdef02a5e44a241784f8be114cd36fc7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2093.xml",
+          "xml_sha256": "e1a6630f67717ad5768127a16f52fab520f73dd086276585a0b0ace29e901ddd"
+        },
+        {
+          "letter_id": "DCP-LETT-2111",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2111.html",
+          "source_html_sha256": "b4239ee96d283dc5723ed05bbe82cd419578e810b6b6c794c563817f1046e788",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2111.xml",
+          "xml_sha256": "acf1b37bf4a01138ebf0f2cf942176e26647cc26287ac4f9a0273de48b0cc6e1"
+        },
+        {
+          "letter_id": "DCP-LETT-2115",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2115.html",
+          "source_html_sha256": "c0f77b6374c4fcc86b5ec24d237d7e1c9e299ef0268f4710a927f8de79490472",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2115.xml",
+          "xml_sha256": "e34e613fd57bedff892fe8a4d9800782208cdf480ee4bab3f167edca9c18f09d"
+        },
+        {
+          "letter_id": "DCP-LETT-2108",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2108.html",
+          "source_html_sha256": "5b972dd62ad400dcf8c87e1f82a997684047062f3927f0fdc89d6e5b415c145d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2108.xml",
+          "xml_sha256": "62d0d00c347eaf7f6c67af4aec533941164cd8ed527bab81478dbac25415a85c"
+        },
+        {
+          "letter_id": "DCP-LETT-2110",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2110.html",
+          "source_html_sha256": "c3e53afed535402c86319d1baf7e0c56bb98e4d8a6b9b9c8578af44ebb90b6e5",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2110.xml",
+          "xml_sha256": "d1b0a867e25bdf2a4db592155a38dc1ef60f3258f5e6af3feeffeefcff6d8151"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2093",
+          "body_paragraph": 5,
+          "quote": "they had sent me an old Edition, not edited, apparently, by you",
+          "source_sha256": "36d1ddd6a4adb68be5df0c26d2d2e45ebdef02a5e44a241784f8be114cd36fc7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2111",
+          "body_paragraph": 3,
+          "quote": "I got all the published numbers of the Poultry Book & shall soon study them",
+          "source_sha256": "b4239ee96d283dc5723ed05bbe82cd419578e810b6b6c794c563817f1046e788",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-2115",
+          "body_paragraph": 5,
+          "quote": "I have not begun yet to read Poultry Book",
+          "source_sha256": "c0f77b6374c4fcc86b5ec24d237d7e1c9e299ef0268f4710a927f8de79490472",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2110",
+          "body_paragraph": 1,
+          "quote": "Of the eggs of the rumpless Fowls only 3 hatched—2 jet black & one a little banded",
+          "source_sha256": "c3e53afed535402c86319d1baf7e0c56bb98e4d8a6b9b9c8578af44ebb90b6e5",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    }
+  ],
+  "notes": "Exact body quotations were selected from the preserved source records and matched programmatically to body blocks and unique raw HTML nodes. Markup and apparatus verbatim fields are kept separate where flattened body extraction would conceal MathML/superscript or deleted-text boundaries. Preserve Daniell, Darwin and editorial voices, original date bounds, receipt/reading stages, future shipments, and unavailable sections under current export content policy."
+}

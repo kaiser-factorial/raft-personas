@@ -1,0 +1,310 @@
+{
+  "batch_id": "batch-16",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-731",
+      "disposition": "grounding_candidate_missing_input",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "20 Jan [1844]; preserve original constraints and editorial basis"
+    },
+    {
+      "letter_id": "DCP-LETT-734F",
+      "disposition": "grounding_candidate_no_identified_input",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "5 Feb [1844]; preserve original constraints and editorial basis"
+    },
+    {
+      "letter_id": "DCP-LETT-754F",
+      "disposition": "grounding_candidate_requires_section_dates",
+      "source_kind": "letter with later verso additions",
+      "voice": "individual_darwin",
+      "date_assessment": "June1 applies only to P1–3; P4–5 later and undated"
+    },
+    {
+      "letter_id": "DCP-LETT-755",
+      "disposition": "grounding_candidate_missing_input",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "3 June [1844]; preserve original constraints and editorial basis"
+    },
+    {
+      "letter_id": "DCP-LETT-763F",
+      "disposition": "grounding_candidate_no_identified_input",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "[27 July – 10 Aug 1844]; preserve original constraints and editorial basis"
+    },
+    {
+      "letter_id": "DCP-LETT-770",
+      "disposition": "grounding_candidate_missing_input",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "12 Aug [1844]; preserve original constraints and editorial basis"
+    },
+    {
+      "letter_id": "DCP-LETT-785",
+      "disposition": "incoming_identified_by_response",
+      "source_kind": "letter",
+      "voice": "incoming",
+      "date_assessment": "30 Oct 1844; preserve original constraints and editorial basis"
+    },
+    {
+      "letter_id": "DCP-LETT-787",
+      "disposition": "response_candidate",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "7 Nov [1844]; preserve original constraints and editorial basis"
+    }
+  ],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-785",
+      "target_id": "DCP-LETT-763F",
+      "relationship": "replies_to",
+      "parent_decision": "rejected",
+      "reason": "763F is the earlier specimen dispatch.785 explicitly answers770 concerns about care and possible bag mixing; broad project continuity does not identify763F as the reply antecedent."
+    },
+    {
+      "source_id": "DCP-LETT-787",
+      "target_id": "DCP-LETT-785",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_direct_reply",
+      "reason": "The remote-station parasite examples, request for a South American collector and explicit Aperea question are specifically answered."
+    }
+  ],
+  "direct_reply_pairs": [
+    {
+      "incoming_id": "DCP-LETT-785",
+      "outgoing_id": "DCP-LETT-787",
+      "status": "confirmed_direct_reply",
+      "known_by_date": "1844-11-07",
+      "actual_receipt_date": null,
+      "response_scope": "single_date_surviving_body",
+      "response_sections": [],
+      "response_date_policy": "Single assigned writing day1844-11-07; bound incoming knowledge by distinctive answer, not incoming composition",
+      "rationale": "Darwin answers the remote bird-parasite findings, South American collecting request and exact Aperea/guinea-pig question in785.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-785",
+          "body_paragraph": 2,
+          "quote": "What is your opinion concerning the Aperea being the origin of the Guinea Pig?",
+          "locator": "div#letter div.body-content; retained body block 2",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-785.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-785.xml",
+            "retrieved_at": "2026-09-16T23:58:31.129103+00:00",
+            "sha256": "b85d3ab632208850e7ea38a8db48b1c1d853728aee5b7ebd6f33ebdb3892cac5",
+            "bytes": 116853,
+            "http_status": 200,
+            "etag": "\"7c6290da1a385f896ee50e980d99501c\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-785"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-787",
+          "body_paragraph": 4,
+          "quote": "I have forgotten to answer your question, about the Aperea being identical with the guinea-pig",
+          "locator": "div#letter div.body-content; retained body block 4",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-787.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-787.xml",
+            "retrieved_at": "2026-09-16T23:58:31.781508+00:00",
+            "sha256": "ae3570dde14543e986ee44382c7d0c76f30b2a238feba9fa989cfbf0b744c8ba",
+            "bytes": 112423,
+            "http_status": 200,
+            "etag": "\"f9fe9a44b29633744fd4a4c4d2ae522d\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-787"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-787",
+          "body_paragraph": 1,
+          "quote": "the facts you mention of the identical parasites on the same species of birds at immensely remote stations",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-787.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-787.xml",
+            "retrieved_at": "2026-09-16T23:58:31.781508+00:00",
+            "sha256": "ae3570dde14543e986ee44382c7d0c76f30b2a238feba9fa989cfbf0b744c8ba",
+            "bytes": 112423,
+            "http_status": 200,
+            "etag": "\"f9fe9a44b29633744fd4a4c4d2ae522d\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-787"
+          }
+        }
+      ],
+      "training_export_ready": false
+    }
+  ],
+  "correspondent_replies": [
+    {
+      "response_id": "DCP-LETT-785",
+      "antecedent_id": "DCP-LETT-770",
+      "status": "supported_reply_by_correspondent",
+      "rationale": "The perceived doubt about collection care and identical bag-mixing explanation uniquely identify770 as the last letter answered.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-770",
+          "body_paragraph": 1,
+          "quote": "I may have brought home the dead specimen in the same bag with birds",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-770.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-770.xml",
+            "retrieved_at": "2026-09-16T23:58:28.026898+00:00",
+            "sha256": "2ec31a5b0f0f8ae9624a0e2c78d0c4900b7e2a091ab47e754a46f6ec25724caf",
+            "bytes": 114057,
+            "http_status": 200,
+            "etag": "\"3b84fde846cecaa2dc6f90136e8ca91e\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-770"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-785",
+          "body_paragraph": 1,
+          "quote": "I feared by your last, that you felt I had doubted your statements",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-785.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-785.xml",
+            "retrieved_at": "2026-09-16T23:58:31.129103+00:00",
+            "sha256": "b85d3ab632208850e7ea38a8db48b1c1d853728aee5b7ebd6f33ebdb3892cac5",
+            "bytes": 116853,
+            "http_status": 200,
+            "etag": "\"7c6290da1a385f896ee50e980d99501c\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-785"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-785",
+          "body_paragraph": 1,
+          "quote": "in the way you alluded that by mixing in your bag",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-785.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-785.xml",
+            "retrieved_at": "2026-09-16T23:58:31.129103+00:00",
+            "sha256": "b85d3ab632208850e7ea38a8db48b1c1d853728aee5b7ebd6f33ebdb3892cac5",
+            "bytes": 116853,
+            "http_status": 200,
+            "etag": "\"7c6290da1a385f896ee50e980d99501c\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-785"
+          }
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    }
+  ],
+  "additional_exact_date_review_ids": [
+    "DCP-LETT-754F"
+  ],
+  "dated_sections": [
+    {
+      "letter_id": "DCP-LETT-754F",
+      "status": "main_letter_and_later_verso_additions",
+      "sections": [
+        {
+          "body_paragraphs": [
+            1,
+            2,
+            3
+          ],
+          "date": "1844-06-01",
+          "date_policy": "Main dated letter only"
+        },
+        {
+          "body_paragraphs": [
+            4,
+            5
+          ],
+          "date": null,
+          "date_policy": "Later dead-letter/resend additions; summer1844 possibility is conjectural. Do not attach to June1."
+        }
+      ],
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-754F",
+          "body_paragraph": 4,
+          "quote": "This letter returned by Dead office",
+          "locator": "div#letter div.body-content; retained body block 4",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-754F.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-754F.xml",
+            "retrieved_at": "2026-09-16T23:58:23.400117+00:00",
+            "sha256": "89b6b3986a9aa0645cf2bda8b32f9538733d5433767afe833da43fbb8beb34ae",
+            "bytes": 113670,
+            "http_status": 200,
+            "etag": "\"78cf5e1f017a9fa11686e3a502d7f656\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-754F"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-754F",
+          "quote": "is written on the back of the folded letter.",
+          "locator": "editorial_footnotes",
+          "source": {
+            "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-754F.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-754F.xml",
+            "retrieved_at": "2026-09-16T23:58:23.400117+00:00",
+            "sha256": "89b6b3986a9aa0645cf2bda8b32f9538733d5433767afe833da43fbb8beb34ae",
+            "bytes": 113670,
+            "http_status": 200,
+            "etag": "\"78cf5e1f017a9fa11686e3a502d7f656\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-754F"
+          }
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-754F",
+      "reason": "Reviewer applied a whole-letter June1 date without separating verso additions; these have an unresolved later date."
+    },
+    {
+      "letter_id": "DCP-LETT-787",
+      "reason": "Reviewer record-level unmatched statement contradicts its correct direct-reply proposal; primary confirms785 input."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "mentioned_in": [
+        "DCP-LETT-731"
+      ],
+      "description": "Denny initial request for exotic lice specimens."
+    },
+    {
+      "mentioned_in": [
+        "DCP-LETT-755"
+      ],
+      "description": "Denny note on Martial story and specimen request."
+    },
+    {
+      "mentioned_in": [
+        "DCP-LETT-770"
+      ],
+      "description": "Denny question about possible Aperea specimen error, between763F dispatch and August12 reply."
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-754F",
+      "other_id": "DCP-LETT-734F",
+      "status": "earlier_outgoing_information_not_new_incoming_prompt",
+      "reason": "Darwin earlier sent Martial account with rough notes;754F refers back to that information. The later White book passage is reported source content."
+    }
+  ]
+}

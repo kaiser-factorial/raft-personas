@@ -1,0 +1,287 @@
+{
+  "status": "candidate_only",
+  "scope": "Formatting-only candidate for admitted Beagle Henslow groups 01–02; no link re-adjudication, accepted mutation or export.",
+  "method": "Used accepted primary files, mandatory context-coverage addendum and pinned source HTML. Evidence quotes are feature-bearing body passages; date/voice/receipt and enclosure boundaries are carried as holds. Visual observations are identified as accepted parent provenance rather than newly claimed viewing.",
+  "requirements": [
+    {
+      "source_id": "DCP-LETT-157",
+      "requirement": "Retain Henslow’s Whig question and Ramsay engraving offer as distinct P1 subjects; they are the admitted incoming scope for the separately dated Darwin responses.",
+      "evidence": {
+        "source_id": "DCP-LETT-157",
+        "evidence_layer": "authorial_body",
+        "quote": "Pray are you yet a Whig?",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'Pray are you yet a Whig?')] (feature-specific paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-157.html",
+        "html_sha256": "57ba40529e257613b29d57579c85fdaf10622df3fcbb6dac973ce77e31ade1e4"
+      },
+      "render_status": "planned_repair",
+      "notes": "P1; incoming source. Keep the later academic outcomes in footnotes out of body export."
+    },
+    {
+      "source_id": "DCP-LETT-171",
+      "requirement": "Preserve the May 18 and June 16 body sections as separate dates and scopes, including the June engraving request; do not collapse the multipart letter into one date.",
+      "evidence": {
+        "source_id": "DCP-LETT-171",
+        "evidence_layer": "authorial_body",
+        "quote": "we arrived here on April 4th; when amongst others I received your most kind letter",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'we arrived here on April 4th')] (feature-specific paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-171.html",
+        "html_sha256": "957999cf568bece231345bc23b0a39654bf85a180b23bb9f4627a50be031590a"
+      },
+      "render_status": "hold",
+      "notes": "The accepted primary reading separates P1–P5 May from P6/P10 June; XML carries only the May date."
+    },
+    {
+      "source_id": "DCP-LETT-178",
+      "requirement": "Render the raw three-fourths Diptera fraction as 3/4 and retain the August 15 continuation as a separate dated section.",
+      "evidence": {
+        "source_id": "DCP-LETT-178",
+        "evidence_layer": "authorial_body",
+        "quote": "As I have only",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'As I have only 3/4 of a case')] (feature-specific paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-178.html",
+        "html_sha256": "c00c6a2ac2583e3076fb5366f261499ff29be59c0a85e8ae1b6c513be0d1a4b4"
+      },
+      "render_status": "planned_repair",
+      "notes": "MathML/fraction markup and the August 15 continuation must remain separate from the July 23 opening."
+    },
+    {
+      "source_id": "DCP-LETT-192",
+      "requirement": "Preserve the November 24 continuation and tentative fossil identifications without replacing the source’s approximate opening date or later apparatus names.",
+      "evidence": {
+        "source_id": "DCP-LETT-192",
+        "evidence_layer": "authorial_body",
+        "quote": "We arrived here on the 24th of Octob:",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'We arrived here on the 24th ')] (feature-specific paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-192.html",
+        "html_sha256": "7293ba7dc19dce48961dac3c0add3530e0df03e5d2077c587778a8b5fba0359e"
+      },
+      "render_status": "hold",
+      "notes": "The body changes location/date section at P5; later Mylodon/Tinochorus identifications belong to apparatus."
+    },
+    {
+      "source_id": "DCP-LETT-196",
+      "requirement": "Keep Henslow’s correction of the receipt/forwarding history and the actual figures/table/MathML in their source containers.",
+      "evidence": {
+        "source_id": "DCP-LETT-196",
+        "evidence_layer": "authorial_body",
+        "quote": "The 1st date of your first letter is May 18. & this I received at Cambridge in June, no, it was sent me from Cambridge in July",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'The 1st date of your first l')] (feature-specific paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-196.html",
+        "html_sha256": "188bf5d99fd83a1a200456c45118ca1614bcea1f6638ec21d03c8123bb5a36cb"
+      },
+      "render_status": "planned_repair",
+      "notes": "Accepted visual provenance records two figures, an inline table and MathML; this candidate does not claim new visual inspection."
+    },
+    {
+      "source_id": "DCP-LETT-204",
+      "requirement": "Render the body-length fraction as 1/6 and retain damaged-paper/collection-loss statements as Darwin’s voyage voice, without modern geological conclusions.",
+      "evidence": {
+        "source_id": "DCP-LETT-204",
+        "evidence_layer": "authorial_body",
+        "quote": "half of this cruizes collection",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'half of this cruizes collect')] (feature-specific paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-204.html",
+        "html_sha256": "69b3e40437254e0c844ea34f2231040389af4c798cad98071a3d1550eac9bfdc"
+      },
+      "render_status": "planned_repair",
+      "notes": "The exact MathML fraction occurs in the body; later identifications and interpretations remain separate apparatus."
+    },
+    {
+      "source_id": "DCP-LETT-210",
+      "requirement": "Render the one-half-hour MathML observation literally and preserve the explicit absence of a Henslow handwriting witness in the arrived heap.",
+      "evidence": {
+        "source_id": "DCP-LETT-210",
+        "evidence_layer": "authorial_body",
+        "quote": "fate of my collections",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I have been examining the sa')] (feature-specific paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-210.html",
+        "html_sha256": "762645e6f9b9e63d8fb78098aff98cb5652c26d45da3a78b7bac2a7c3b9c6feb"
+      },
+      "render_status": "hold",
+      "notes": "The accepted note identifies the fraction as 1/2 hour and says no Henslow letter can be activated from this heap."
+    },
+    {
+      "source_id": "DCP-LETT-229",
+      "requirement": "Preserve the four-tooth diagram as an actual figure tied to the fossil description, with tentative identifications and no later jaw reconstruction.",
+      "evidence": {
+        "source_id": "DCP-LETT-229",
+        "evidence_layer": "authorial_body",
+        "quote": "mutilated skeleton",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'the teeth are four in number')] (feature-specific paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-229.html",
+        "html_sha256": "e5690198e15e6afcc363ed2ed272c4e9af8eb064f431203a69df9343c1ab3ee1"
+      },
+      "render_status": "planned_repair",
+      "notes": "The accepted visual reading distinguishes this diagram from 238’s later figure; do not merge them."
+    },
+    {
+      "source_id": "DCP-LETT-274",
+      "requirement": "Render the body’s four-fifths MathML and preserve the interrupted schematic marker as unresolved [GREATER THAN] source material.",
+      "evidence": {
+        "source_id": "DCP-LETT-274",
+        "evidence_layer": "authorial_body",
+        "quote": "The Porphyries, Conglomerates, Sandstones",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'the proportion of the body w')] (feature-specific paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-274.html",
+        "html_sha256": "cd73ae38ad5879f12f6a465ae17b92fc02120461d3e5717510a098e97893ddfc"
+      },
+      "render_status": "hold",
+      "notes": "P6–P8 contain the interrupted 45-degree/[GREATER THAN] schematic marker. Do not invent its missing glyph or smooth it into prose."
+    },
+    {
+      "source_id": "DCP-LETT-295",
+      "requirement": "Render the seven-eighths acre fraction as 7/8 while preserving the explicit “no letters found” statement as a delivery/receipt boundary.",
+      "evidence": {
+        "source_id": "DCP-LETT-295",
+        "evidence_layer": "authorial_body",
+        "quote": "fetched by Auction twelve thousand pounds",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'A fraction (I believe 7/8 th')] (feature-specific paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-295.html",
+        "html_sha256": "9f677c10908005a0f0be3dafd934ace678ed72f88bf9427dc481a56c678e72d6"
+      },
+      "render_status": "planned_repair",
+      "notes": "The body is January 1836 and outside Beagle return; no letter absence should be converted into a universal unread interval."
+    },
+    {
+      "source_id": "DCP-LETT-317",
+      "requirement": "Keep this long Sunday letter’s prospective plant dispatch, specimen logistics and multipart planning in separate paragraphs; do not treat planned dispatch as receipt.",
+      "evidence": {
+        "source_id": "DCP-LETT-317",
+        "evidence_layer": "authorial_body",
+        "quote": "Tomorrow I will procure a box & will send them to Cambridge.— I will keep this letter till I do so.",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'Tomorrow I will procure a bo')] (feature-specific paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-317.html",
+        "html_sha256": "c32812dacb8ae76c08d7ab38fbb7cd1d9ee8c93c0c18e954c597fa7bf75865aa"
+      },
+      "render_status": "hold",
+      "notes": "The box/plant dispatch is planned, while the letter is held; receipt and later Cambridge access are separate events."
+    },
+    {
+      "source_id": "DCP-LETT-318",
+      "requirement": "Preserve the Tuesday evening header, next-morning plant dispatch and four-box logistics as distinct dates/events, including raw closing marker *S 2.",
+      "evidence": {
+        "source_id": "DCP-LETT-318",
+        "evidence_layer": "authorial_body",
+        "quote": "The box starts tomorrow morning by the Fly Coach.— Four boxes were also sent by Marsh’s Wagon to day",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'The box starts tomorrow morn')] (feature-specific paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-318.html",
+        "html_sha256": "69fa3a78e0b3959a884fddf4be48ae86eb55081b404633dfabc1732d28e43a90"
+      },
+      "render_status": "hold",
+      "notes": "The source asks Henslow to report arrival; transport statements do not prove receipt or reading."
+    }
+  ],
+  "source_pins": [
+    {
+      "source_id": "DCP-LETT-157",
+      "evidence_layer": "authorial_body",
+      "quote": "Pray are you yet a Whig?",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'Pray are you yet a Whig?')] (feature-specific paragraph)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-157.html",
+      "html_sha256": "57ba40529e257613b29d57579c85fdaf10622df3fcbb6dac973ce77e31ade1e4"
+    },
+    {
+      "source_id": "DCP-LETT-171",
+      "evidence_layer": "authorial_body",
+      "quote": "we arrived here on April 4th; when amongst others I received your most kind letter",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'we arrived here on April 4th')] (feature-specific paragraph)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-171.html",
+      "html_sha256": "957999cf568bece231345bc23b0a39654bf85a180b23bb9f4627a50be031590a"
+    },
+    {
+      "source_id": "DCP-LETT-178",
+      "evidence_layer": "authorial_body",
+      "quote": "As I have only 3/4 of a case of Diptera &c I have not sent them.",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'As I have only 3/4 of a case')] (feature-specific paragraph)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-178.html",
+      "html_sha256": "c00c6a2ac2583e3076fb5366f261499ff29be59c0a85e8ae1b6c513be0d1a4b4"
+    },
+    {
+      "source_id": "DCP-LETT-192",
+      "evidence_layer": "authorial_body",
+      "quote": "We arrived here on the 24th of Octob:",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'We arrived here on the 24th ')] (feature-specific paragraph)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-192.html",
+      "html_sha256": "7293ba7dc19dce48961dac3c0add3530e0df03e5d2077c587778a8b5fba0359e"
+    },
+    {
+      "source_id": "DCP-LETT-196",
+      "evidence_layer": "authorial_body",
+      "quote": "The 1st date of your first letter is May 18. & this I received at Cambridge in June, no, it was sent me from Cambridge in July",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'The 1st date of your first l')] (feature-specific paragraph)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-196.html",
+      "html_sha256": "188bf5d99fd83a1a200456c45118ca1614bcea1f6638ec21d03c8123bb5a36cb"
+    },
+    {
+      "source_id": "DCP-LETT-204",
+      "evidence_layer": "authorial_body",
+      "quote": "half of this cruizes collection",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'half of this cruizes collect')] (feature-specific paragraph)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-204.html",
+      "html_sha256": "69b3e40437254e0c844ea34f2231040389af4c798cad98071a3d1550eac9bfdc"
+    },
+    {
+      "source_id": "DCP-LETT-210",
+      "evidence_layer": "authorial_body",
+      "quote": "I have been examining the same spot for one-half hour",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'I have been examining the sa')] (feature-specific paragraph)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-210.html",
+      "html_sha256": "762645e6f9b9e63d8fb78098aff98cb5652c26d45da3a78b7bac2a7c3b9c6feb"
+    },
+    {
+      "source_id": "DCP-LETT-229",
+      "evidence_layer": "authorial_body",
+      "quote": "the teeth are four in number, & are all of one kind",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'the teeth are four in number')] (feature-specific paragraph)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-229.html",
+      "html_sha256": "e5690198e15e6afcc363ed2ed272c4e9af8eb064f431203a69df9343c1ab3ee1"
+    },
+    {
+      "source_id": "DCP-LETT-274",
+      "evidence_layer": "authorial_body",
+      "quote": "the proportion of the body which is covered is 4/5",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'the proportion of the body w')] (feature-specific paragraph)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-274.html",
+      "html_sha256": "cd73ae38ad5879f12f6a465ae17b92fc02120461d3e5717510a098e97893ddfc"
+    },
+    {
+      "source_id": "DCP-LETT-295",
+      "evidence_layer": "authorial_body",
+      "quote": "A fraction (I believe 7/8 th) of an acre of land in Sydney, fetched by Auction twelve thousand pounds",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'A fraction (I believe 7/8 th')] (feature-specific paragraph)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-295.html",
+      "html_sha256": "9f677c10908005a0f0be3dafd934ace678ed72f88bf9427dc481a56c678e72d6"
+    },
+    {
+      "source_id": "DCP-LETT-317",
+      "evidence_layer": "authorial_body",
+      "quote": "Tomorrow I will procure a box & will send them to Cambridge.— I will keep this letter till I do so.",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'Tomorrow I will procure a bo')] (feature-specific paragraph)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-317.html",
+      "html_sha256": "c32812dacb8ae76c08d7ab38fbb7cd1d9ee8c93c0c18e954c597fa7bf75865aa"
+    },
+    {
+      "source_id": "DCP-LETT-318",
+      "evidence_layer": "authorial_body",
+      "quote": "The box starts tomorrow morning by the Fly Coach.— Four boxes were also sent by Marsh’s Wagon to day",
+      "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[contains(., 'The box starts tomorrow morn')] (feature-specific paragraph)",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-318.html",
+      "html_sha256": "69fa3a78e0b3959a884fddf4be48ae86eb55081b404633dfabc1732d28e43a90"
+    }
+  ],
+  "recommendations": [
+    "Keep multipart dates and response scopes separate; do not infer receipt from dispatch or header date.",
+    "Render MathML fractions literally and preserve unresolved [GREATER THAN], raw markers and incomplete enclosures as holds.",
+    "Keep authorial body, headers/addresses, footnotes, scholarly apparatus, bibliography, figures and embedded reports in separate layers."
+  ],
+  "input_hashes": {
+    "data/annotations/beagle-voyage/henslow-01.primary.json": "9b719ca086eeddefa94a5926fed9224614c7980258b89738a7853537e208fbbf",
+    "data/annotations/beagle-voyage/henslow-02.primary.json": "a0bab5904111b54f59cd9766e398a624a7db2df5fc0baaf0206f63fbe10cd46e",
+    "data/annotations/beagle-voyage/addenda/henslow-01-02-context-coverage.primary.json": "34eedd992630551bb24cfe3aa38c01d75a8f777265e518067a8430bc7a158c68",
+    "reports/beagle-voyage-review/parent-reading/henslow-01.primary.json": "12758091eec5b631b7b4aa2836bcd9ee1e89ac315dd79ae642e2f298931d8628",
+    "reports/beagle-voyage-review/parent-reading/henslow-02.primary.json": "3064c9eca0275b9f77cf413c5fcdf3f38e290945c3341f219fa00dccf3eb4056",
+    "reports/beagle-voyage-review/parent-decisions/henslow-01.primary.json": "04ba9c99097aee11cbd74cee30f526e9fbaf264faa61dcaa296537873e33ef40",
+    "reports/beagle-voyage-review/parent-decisions/henslow-02.primary.json": "94e9a375773d559b7c2b323bb2c076fe16b748c6edbb91149083923be2e713ca"
+  }
+}

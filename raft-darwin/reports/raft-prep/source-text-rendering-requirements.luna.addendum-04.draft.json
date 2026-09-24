@@ -1,0 +1,124 @@
+{
+  "status": "provisional_readiness_draft",
+  "scope": "Formatting and source-fidelity requirements compiled from accepted primary reading and decisions for 1847–1850 batches 14 and 15. This draft creates no converter, transcript, corpus export or training data.",
+  "primary_provenance": [
+    {
+      "batch_id": "batch-14",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-14.json",
+      "reading_sha256": "339a35828aaa028e6820d8981de9c6a65f60edbec4bc81c8ba5de747afd866c4",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-14.json",
+      "decision_sha256": "c75206a5bb7e4b72ef216797d5c88727c7322e8418a1cba6e8181e0821fe56e8"
+    },
+    {
+      "batch_id": "batch-15",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-15.json",
+      "reading_sha256": "17fecc02992ab940b705f2fad5572c1ca02ac9d5d8eef5b8eb00576affd62355",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-15.json",
+      "decision_sha256": "9a3e19855755733cd8f5e75dfeda8eea67d653537b49193410ba0589cbe7ae0f"
+    }
+  ],
+  "requirements": [
+    {
+      "letter_id": "DCP-LETT-1150",
+      "case": "Incoming notes arrive during composition",
+      "requirement": "Preserve the within-letter chronology: the Auckland/Herschel commission is received in the morning before the main body, while the Owen refusal note is only “just received” by P5. Do not make either input available to earlier paragraphs or collapse receipt into composition date.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1150.html",
+        "source_sha256": "70b63cc79d074b7214beb2792f7b083df9bcb65c857f81b30e60dc3fa58631e4",
+        "locators": "div#letter body P1 and P5; MathML time expressions"
+      },
+      "accepted_primary_note": "Accepted batch 14 within-day event; missing commission/refusal material remains unlocated."
+    },
+    {
+      "letter_id": "DCP-LETT-1301",
+      "case": "Incoming note arrives during composition",
+      "requirement": "Keep the newly arrived Fitch letter confined to the reopening at P4. Earlier P1–3 must not be conditioned by that note merely because it occurs in the same source. Preserve the distinct earlier permission for the carina from the new permission request.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1301.html",
+        "source_sha256": "ef949c89ed2924a9f9aa0caaa3997e5fbb861150bbeccafc104894be01ede7bb",
+        "locators": "div#letter body P1–P4; within-letter reopening"
+      },
+      "accepted_primary_note": "Accepted batch 15; this is a grounding/temporal requirement, not a new graph acceptance."
+    },
+    {
+      "letter_id": "DCP-LETT-1228",
+      "case": "Gratitude before physical pickup",
+      "requirement": "Render Darwin’s thanks separately from physical specimen receipt: the carrier forgot Thursday and was expected Monday at the College. Do not infer that specimens had arrived merely because Darwin expresses gratitude.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1228.html",
+        "source_sha256": "1676f04fadc57282b6959cf4971770dee37e6e5dbc0134e8ac40723aa2731c0d",
+        "locators": "div#letter body P1; quoted carrier timing"
+      },
+      "accepted_primary_note": "Accepted batch 14 receipt distinction; preserve missing note and uncertain location."
+    },
+    {
+      "letter_id": "DCP-LETT-1355",
+      "case": "Accompanying same-author letters and address artifacts",
+      "requirement": "Keep 1355 and 1356 as accompanying Darwin documents sent together, without creating a conversation edge between them. Preserve the address layout and treat stray “diag”/“ramme” markers as rendering artifacts requiring source-aware handling, not original prose.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1355.html",
+        "source_sha256": "66c5bb170b6c9611f9d7b8afbcf4edf13c5202f93355b1869b530120e96116be",
+        "locators": "div#letter body P3–P7; address block; related 1356 body P1"
+      },
+      "accepted_primary_note": "Accepted batch 14 reference observation and correction."
+    },
+    {
+      "letter_id": "DCP-LETT-1356",
+      "case": "Accompanying formal request",
+      "requirement": "Render the formal request as a same-author companion to 1355. Its wording “Could you oblige me by laying this request before the governing Body?” is a request document, not an incoming answer or independent conversational turn.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1356.html",
+        "source_sha256": "e2f9d67f766e6c210b311c55bc4a1a182f4b5e57c387cc7dca439b546cebcffd",
+        "locators": "div#letter body P1; companion relation to 1355"
+      },
+      "accepted_primary_note": "Accepted batch 14; no conversation edge."
+    },
+    {
+      "letter_id": "DCP-LETT-1291",
+      "case": "Editor-relocated postscript and figure",
+      "requirement": "Preserve the editor-relocated P11–P13 postscript as a separately dated/located section. Keep its figure, including the explicitly broken tip, with the source; binding with the 28 January material does not prove a 28 January composition date.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1291.html",
+        "source_sha256": "c8569a44ad5b2e4a4c60a6527daa6fbe0155d37a28f03a45f539f299a2ddc0a7",
+        "locators": "div#letter body P6 and P11–P13; figure node; dated_sections record"
+      },
+      "accepted_primary_note": "Accepted batch 15 exact-date hold and correction."
+    },
+    {
+      "letter_id": "DCP-LETT-1298",
+      "case": "Collapsed species and variety list",
+      "requirement": "Retain the structured list, provisional names and original numbering despite collapsed HTML “diag”/“ramme” markers. Preserve the contemporaneous judgement that P. maximus and sulcatus are only varieties, without harmonising later taxonomy into this source.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1298.html",
+        "source_sha256": "49c2b59a4457e06453827fda0ba51bd39707d823c09c683e2123a4c1793c9d76",
+        "locators": "div#letter body P1; structured list markers"
+      },
+      "accepted_primary_note": "Accepted batch 15; source list and interpretation must remain distinguishable."
+    },
+    {
+      "letter_id": "DCP-LETT-1376",
+      "case": "Uncertain December versus early 1851",
+      "requirement": "Keep the conjectural December 1850 dating and the possibility of early 1851 as a period boundary hold. Do not turn the month guess into an exact date or exclude 1851 solely because the catalogue labels it December.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1376.html",
+        "source_sha256": "6fbb366a2fea3540811af57c8241c54bdb2b745d3e574fecf2bd152ef27c25d8",
+        "locators": "header/date metadata; editorial date note"
+      },
+      "accepted_primary_note": "Accepted batch 15 additional period hold."
+    }
+  ],
+  "implementation_boundary": {
+    "future_requirements": [
+      "Preserve paragraph-level receipt and composition chronology, attributed voices, accompanying documents, diagrams, address layouts, collapsed lists, MathML and date uncertainty at the listed locators.",
+      "Keep response and antecedent fields schema-specific: graph direction is response → antecedent, while receipt and grounding fields have their own semantics.",
+      "Treat the surviving 1215 cover as available cover evidence even though the original essay is missing; do not fabricate the essay. An outgoing diagram belongs with the Darwin answer or grounding record unless an independently supported incoming-question relation exists."
+    ],
+    "not_implemented_here": [
+      "No converter, renderer, transcript, ledger, export or training behavior was changed or run.",
+      "This draft does not create new historical acceptance; it is provisional for root review."
+    ]
+  },
+  "notes": [
+    "Requirements are future implementation constraints derived from accepted root notes, not permission to revise accepted evidence."
+  ]
+}

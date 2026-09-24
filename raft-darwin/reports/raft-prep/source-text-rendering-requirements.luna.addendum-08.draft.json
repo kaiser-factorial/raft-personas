@@ -1,0 +1,287 @@
+{
+  "status": "provisional_readiness_draft",
+  "scope": "Source-fidelity requirements from accepted 1847-1850 batches 26 and 27. No converter, transcript, corpus, ledger or training output is created.",
+  "primary_provenance": [
+    {
+      "batch_id": "batch-26",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-26.json",
+      "reading_sha256": "ad3542f68662ec6fc7b77dc66645c4807a1c0b19c78525c16e3f135ae91bf584",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-26.json",
+      "decision_sha256": "d20759546d93afa461ff77dbabde0ab585bb8c5b3584982a7c79b32502586863",
+      "ledger_path": "data/annotations/periods/1847-1850/batch-26.json",
+      "ledger_sha256": "6ed0ec364f102056a6ee850337d7e9c495139fd8d3caea03d5e6ae0fdfb80bb5"
+    },
+    {
+      "batch_id": "batch-27",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-27.json",
+      "reading_sha256": "ab218208b029831874610242d16076497e9a61c39abd6678285b80580cb37632",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-27.json",
+      "decision_sha256": "701ff5b750c9ce5cceb14bcf456f0f8b18677133457c3708e0a4ad0a86dea3fc",
+      "ledger_path": "data/annotations/periods/1847-1850/batch-27.json",
+      "ledger_sha256": "1e0c38702e6e83690d3c60ac3bd4f45f58aa5720392d86aa9d1d05b6290dd2cb"
+    }
+  ],
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1237",
+        "DCP-LETT-1370"
+      ],
+      "case": "Covington transcription variants, address and box receipt",
+      "requirement": "Keep 1237's explicit Malvern writing location separate from its Down date/address metadata. Preserve Sydney Mail and later de Beer transcription provenance as distinct variants. In 1370 render the Covington letter dated 12 March as received on 25 August and the box as arriving 22 November; neither receipt date identifies the absent incoming text's composition or proves later knowledge was contemporaneous.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1237",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1237.html",
+          "source_sha256": "a42078f2666a44b9fe94ca229e06b5bb474a5164afe4548c29ac68bd576b259e",
+          "locators": "div#letter body P1; editorial apparatus"
+        },
+        {
+          "letter_id": "DCP-LETT-1370",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1370.html",
+          "source_sha256": "2932ace085e7426561a66a972dabca3c649746c050405cec9f2298d4c758fc38",
+          "locators": "div#letter body P1; receipt wording and apparatus"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1237",
+          "body_paragraph": 1,
+          "quote": "I am now not at home (though I have so dated this letter)"
+        },
+        {
+          "letter_id": "DCP-LETT-1370",
+          "body_paragraph": 1,
+          "quote": "I received your letter of the 12th of March on the 25th of August"
+        },
+        {
+          "letter_id": "DCP-LETT-1370",
+          "body_paragraph": 1,
+          "quote": "the box of which you advised me arrived here only yesterday"
+        }
+      ],
+      "normalized_fields": {
+        "1370_box_arrival": "1850-11-22 (relative yesterday to 23 Nov)",
+        "transcription_variants": "Sydney Mail and de Beer remain separate source versions"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1206",
+        "DCP-LETT-1207",
+        "DCP-LETT-1208"
+      ],
+      "case": "Emily Catherine authority and distinct receipt direction",
+      "requirement": "Identify 1206 and 1207 as Emily Catherine Darwin, not Emma. The phrase about an affectionate note this morning is Catherine's receipt of an earlier Darwin note; it is not Darwin's receipt of either incoming letter. Keep 1207's MathML half-past-twelve value as a fraction/rendered value and do not treat successive family reports as a reply pair. 1208's Emma-directed sympathy remains general context without uniquely identifying either source.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1206",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1206.html",
+          "source_sha256": "9d8fcf0e3f1f6ce1c1e446412a9d66169598a00840dc9408473322c66783cf73",
+          "locators": "div#letter body P1; sender metadata"
+        },
+        {
+          "letter_id": "DCP-LETT-1207",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1207.html",
+          "source_sha256": "2eb846b7b5cfe45c389ed030a1ebe023a93dba5cfb066f7d74387efe84c553f7",
+          "locators": "div#letter body P1; MathML time node"
+        },
+        {
+          "letter_id": "DCP-LETT-1208",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1208.html",
+          "source_sha256": "a09a02a0ff09eeac03c22680fdd3c174a04052a9b5615628e74d800d09bdd7ad",
+          "locators": "body and Emma verso apparatus"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1206",
+          "body_paragraph": 1,
+          "quote": "Many thanks for your affectionate note this morning."
+        },
+        {
+          "letter_id": "DCP-LETT-1207",
+          "body_paragraph": 1,
+          "quote": "Our dear Father died this morning about half past 8"
+        },
+        {
+          "letter_id": "DCP-LETT-1207",
+          "body_paragraph": 1,
+          "quote": "continued lying down till about 12 past 12"
+        }
+      ],
+      "normalized_fields": {
+        "1207_time": "half past twelve / 12:30 as rendered from raw MathML; retain source fraction structure"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1621",
+        "DCP-LETT-13801"
+      ],
+      "case": "Incomplete Dixon sources and undated annotations",
+      "requirement": "Preserve missing openings and missing prompts in both Dixon fragments. Attribute claims and proposed experiments to Dixon; keep Darwin ink/pencil directions and the undated Hybridity annotation as separate layers with no implied receipt day. Do not repair the Dixon date from broad Malvern context: 13801's accepted 1849 range and the footnote's erroneous 1848 stay rationale must remain distinguishable.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1621",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1621.html",
+          "source_sha256": "fbef384fac87a54fb77c1c4c400bd7269a6f580bdbe176759c1c49ce19745759",
+          "locators": "div#letter body opening and annotation sections"
+        },
+        {
+          "letter_id": "DCP-LETT-13801",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-13801.html",
+          "source_sha256": "98d50cdeac42c1d53375dec733c451588ac98d52cd81956bda886bef68019b5c",
+          "locators": "div#letter body opening; editorial date note; undated annotations"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1621",
+          "body_paragraph": 1,
+          "quote": "I have greater belief in the hereditary instincts than in the imitated habits of birds"
+        },
+        {
+          "letter_id": "DCP-LETT-1621",
+          "body_paragraph": 2,
+          "quote": "I remember your question about the young Guinea-fowl"
+        },
+        {
+          "letter_id": "DCP-LETT-13801",
+          "body_paragraph": 2,
+          "quote": "Thanks for the introduction to India."
+        }
+      ],
+      "negative_boundary": "Neither fragment supplies the missing incoming Darwin question or an exact receipt/composition day."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1359",
+        "DCP-LETT-13807"
+      ],
+      "case": "Letter versus box receipt and uncertain recipient/location",
+      "requirement": "Represent 1359's June letter and fossil box as jointly received on 20 September 1850, separate from the September source's composition. The Park Street address in 13807 is routing information, not proof Darwin was in London; retain Woodward as most likely rather than certain recipient and preserve its April 1850-January 1851 boundary.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1359",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1359.html",
+          "source_sha256": "af77a10d20bcc1edfa472755977842ac6e3856eb22c3319b12154e01b9b7db0d",
+          "locators": "div#letter body P1; receipt wording"
+        },
+        {
+          "letter_id": "DCP-LETT-13807",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-13807.html",
+          "source_sha256": "126a71637bde6ce2d5f234b30b7482dd21fe4f9dd569e5af3149abc97a36e375",
+          "locators": "div#letter header/address and body P1; editorial recipient/date note"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1359",
+          "body_paragraph": 1,
+          "quote": "I received this morning your letter of the 6th of June & a Box of fossil Cirripedia"
+        },
+        {
+          "letter_id": "DCP-LETT-13807",
+          "body_paragraph": 1,
+          "quote": "I write a line to thank you & Mr Waterhouse much for the specimens which all arrived quite safely"
+        }
+      ],
+      "normalized_fields": {
+        "1359_receipt": "1850-09-20 (explicit source date)",
+        "13807_date": "April 1850-January 1851 editorial range; no exact day"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1349",
+        "DCP-LETT-1111"
+      ],
+      "case": "Known-by upper bounds and future reading/visit states",
+      "requirement": "Preserve 1349's explicit first awareness and future reading of Hodgson's memoir; preserve 1111's completed Studer visit as later than the earlier invitation. Do not treat a promised copy or planned survey as already read or completed, and do not identify missing William/Maria notes merely by topic.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1349",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1349.html",
+          "source_sha256": "a59fef7ae8cea0e7c74c54ddd6c479fde11218b1c5104b700c77d22a23e12451",
+          "locators": "div#letter body P1"
+        },
+        {
+          "letter_id": "DCP-LETT-1111",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1111.html",
+          "source_sha256": "4e784676b328ad28eca390f95fb7cba651b19c9ddc15b194e2eedcf8bc9fa526",
+          "locators": "div#letter body P1; date apparatus"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1349",
+          "body_paragraph": 1,
+          "quote": "I had never even heard of Mr. Hodgson’s Physico=geographical memoir"
+        },
+        {
+          "letter_id": "DCP-LETT-1349",
+          "body_paragraph": 1,
+          "quote": "Whenever I read it"
+        },
+        {
+          "letter_id": "DCP-LETT-1111",
+          "body_paragraph": 1,
+          "quote": "He has been here"
+        }
+      ],
+      "normalized_fields": {
+        "1349_known_by": "no earlier than this letter; future reading only",
+        "1111_visit": "completed by 19 Aug 1847, not the earlier invitation date"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-977",
+        "DCP-LETT-1048"
+      ],
+      "case": "Missing or incomplete sources and figure interpretation",
+      "requirement": "Keep 977's enclosure/index unavailable when the scholarly section contains only a heading. Preserve 1048's measured river/height text and attributed Erasmus calculation as an approximate reconstruction; any figure is not a direct clinometer measurement, and the missing Horner questions cannot be recovered from the diagram or later editorial text.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-977",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-977.html",
+          "source_sha256": "0201580806b2533dab68d7ad32fe28cee7d40646b2dab65b52e223f2fb5adea1",
+          "locators": "div#letter body and div.enclosures; heading-only enclosure"
+        },
+        {
+          "letter_id": "DCP-LETT-1048",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1048.html",
+          "source_sha256": "d8015a0a7eb7384edda557c294c2068b85da6e0d87b94d349d154710fee3820c",
+          "locators": "div#letter body; measurements and figure apparatus"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-977",
+          "body_paragraph": 1,
+          "quote": "I am truly pleased at your approval of my Book"
+        },
+        {
+          "letter_id": "DCP-LETT-1048",
+          "locator": "body/figure apparatus",
+          "quote_status": "No short quote asserted here; preserve the measured inputs and attributed calculation exactly from the accepted source projection."
+        }
+      ],
+      "negative_boundary": "Do not synthesize the absent enclosure, Horner questions, or a direct measurement from editorial summaries."
+    }
+  ],
+  "implementation_boundary": {
+    "future_requirements": [
+      "Preserve sender identity, routing address versus physical location, source variants, receipt events, MathML values, missing openings/enclosures, attributed voices, date ranges and known-by upper bounds as separate fields.",
+      "Render figures and calculations with their evidentiary status; do not promote plans, reports or editorial corrections to completed events."
+    ],
+    "not_implemented_here": [
+      "No converter, transcripts, corpus, code, ledger, export or training behavior was changed or run.",
+      "This provisional draft makes no new historical acceptance."
+    ]
+  },
+  "notes": [
+    "Every asserted quotation is from a named source body paragraph except the explicitly marked 1048 no-quote entry. Normalized values are labeled separately from source text."
+  ]
+}

@@ -1,0 +1,647 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Accepted 1856–1857 batches 14–15 source-text rendering, chronology, attribution, receipt and enclosure requirements only; candidate for root review. No converter, export, transcript, corpus, training or primary evidence changes.",
+  "primary_provenance": {
+    "batches": {
+      "batch-14": {
+        "reading": {
+          "path": "reports/1856-1857/review/parent-reading/batch-14.json",
+          "sha256": "4ccb4ba2a0698985aed8c9dfaf75a5e14bb7f7deb50ab54ae89fae1a6bfc1220"
+        },
+        "decisions": {
+          "path": "reports/1856-1857/review/parent-decisions/batch-14.json",
+          "sha256": "166df5106555c13df27c98d84955124003832f48a32570e2cb9570881ed3daa0"
+        },
+        "ledger": {
+          "path": "data/annotations/periods/1856-1857/batch-14.json",
+          "sha256": "27baaeb9bab4dbcef9cfebbfb9c1f8e453b81ee97328e3dfaa2d121996568534"
+        }
+      },
+      "batch-15": {
+        "reading": {
+          "path": "reports/1856-1857/review/parent-reading/batch-15.json",
+          "sha256": "95fb63258c6443ff378d81f1743465363f4e7a515a2059b9224e16d2970e343e"
+        },
+        "decisions": {
+          "path": "reports/1856-1857/review/parent-decisions/batch-15.json",
+          "sha256": "60a71b4d05df301e35a9db1b193f949d883038d0de7da45f03bc721eaaee5e5f"
+        },
+        "ledger": {
+          "path": "data/annotations/periods/1856-1857/batch-15.json",
+          "sha256": "885fc949c0db05642cc1893deba28dec6d6cdceac5f38941f198bcd0e96744db"
+        }
+      }
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1847"
+      ],
+      "case": "three-and-a-quarter coach time",
+      "requirement": "Preserve the genuine three-and-a-quarter MathML coach-time expression in the invitation, rather than flattening it as 314. Keep the invitation’s proposed April 23/26 dates, thirteen miles to Farnborough and two to Down, and distinguish proposed attendance from later visitor evidence; the abstract is received/seen while its cover is missing.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1847",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1847.xml",
+          "xml_sha256": "72ee1ea6f0beaf4a5f02fc298101ea6ec0d98b56ef8278c7bcb3a3ed8a795516",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1847.html",
+          "source_html_sha256": "a093c3c53d285ddb68916d99bd016fa1c3c6fdc554e3372b5ff0d1ffec412d03",
+          "verified_xml_dates": [
+            {
+              "text": "2 Apr [1856]",
+              "attributes": {
+                "when": "1856-04-02"
+              },
+              "lower": "1856-04-02",
+              "upper": "1856-04-02",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-04-02\">2 Apr [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1847",
+          "body_paragraph": 1,
+          "quote": "A coach leaves Silver cross Charing Cross",
+          "char_start": 725,
+          "char_end": 766,
+          "source_sha256": "a093c3c53d285ddb68916d99bd016fa1c3c6fdc554e3372b5ff0d1ffec412d03",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1847",
+          "body_paragraph": 3,
+          "quote": "Many thanks for the Abstract your lecture",
+          "char_start": 0,
+          "char_end": 41,
+          "source_sha256": "a093c3c53d285ddb68916d99bd016fa1c3c6fdc554e3372b5ff0d1ffec412d03",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        }
+      ],
+      "verified_mixed_number": {
+        "letter_id": "DCP-LETT-1847",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]/math",
+        "integer_immediately_preceding_mathml": "3",
+        "markup": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> &amp; would drop you at Farnborough about 13 miles, &amp; there I would have vehicle to bring you the two miles on here.—",
+        "normalized_reading": "3¼",
+        "context": "coach departure time, retained body P1"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1868",
+        "DCP-LETT-1878"
+      ],
+      "case": "late receipt and prospective posting",
+      "requirement": "Keep 1868 P6’s Chinese Pots note as newly received at the minute, with the main letter’s financial discussion not retroactively activated by that missing note. In 1878, the lecture arrived that morning but remains unread; the two strong notes to Overstone and Lubbock are written but planned for posting tomorrow. Receipt, reading and dispatch must remain separate, and the lecture identity remains uncertain.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1868",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1868.xml",
+          "xml_sha256": "c510add37a346775f9b8b68a8cb1460e68ae4c43cf369836e7ad9747454a6d90",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1868.html",
+          "source_html_sha256": "8100b5136d1bc9f22bf28caef43afed46f4af3847d06376810d5ee3936f148e4",
+          "verified_xml_dates": [
+            {
+              "text": "4 May [1856]",
+              "attributes": {
+                "when": "1856-05-04"
+              },
+              "lower": "1856-05-04",
+              "upper": "1856-05-04",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-05-04\">4 May [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1878",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1878.xml",
+          "xml_sha256": "c7674826606601c86ce4e9cf6e004675f4ad92ad279b6d03a17e3cefaeb8cb4b",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1878.html",
+          "source_html_sha256": "14d467d613e06891c6fba252f486c4ddf508b13a33cd9fd55c4018594007aef4",
+          "verified_xml_dates": [
+            {
+              "text": "27 May [1856]",
+              "attributes": {
+                "when": "1856-05-27"
+              },
+              "lower": "1856-05-27",
+              "upper": "1856-05-27",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-05-27\">27 May [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1868",
+          "body_paragraph": 6,
+          "quote": "this minute received your note in regard to the Chinese Pots",
+          "char_start": 12,
+          "char_end": 72,
+          "source_sha256": "8100b5136d1bc9f22bf28caef43afed46f4af3847d06376810d5ee3936f148e4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"
+        },
+        {
+          "letter_id": "DCP-LETT-1878",
+          "body_paragraph": 1,
+          "quote": "I have just written & will post tomorrow",
+          "char_start": 0,
+          "char_end": 40,
+          "source_sha256": "14d467d613e06891c6fba252f486c4ddf508b13a33cd9fd55c4018594007aef4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1878",
+          "body_paragraph": 2,
+          "quote": "but have not had time yet to look at it",
+          "char_start": 43,
+          "char_end": 82,
+          "source_sha256": "14d467d613e06891c6fba252f486c4ddf508b13a33cd9fd55c4018594007aef4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2020"
+      ],
+      "case": "excluded salute node is dateline",
+      "requirement": "Treat the excluded-looking node containing “13th” as the actual dateline, not a salutation to discard. Preserve the December 13 date and the body’s prospective translation reading, hoped-for Conchoderma dissection, attributed Italian bee classification and separate later question blocks. Historical notebook instructions remain source content, not workflow instructions.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2020",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2020.xml",
+          "xml_sha256": "ccee531c041717b19dc949e37bfaf8f5ad6f1834fb1b80b68f6f9eab7a52be01",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2020.html",
+          "source_html_sha256": "c3f26583c89485ae29c405115d44159ec68daead09a95a96cd1f1dd2cf259d7f",
+          "verified_xml_dates": [
+            {
+              "text": "13 [Dec 1856]",
+              "attributes": {
+                "when": "1856-12-13"
+              },
+              "lower": "1856-12-13",
+              "upper": "1856-12-13",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-12-13\">13 [Dec 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2020",
+          "body_paragraph": 1,
+          "quote": "I think I shall read Translation",
+          "char_start": 57,
+          "char_end": 89,
+          "source_sha256": "c3f26583c89485ae29c405115d44159ec68daead09a95a96cd1f1dd2cf259d7f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "verified_excluded_dateline": {
+        "letter_id": "DCP-LETT-2020",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[1]",
+        "markup": "<p class=\"salute\">13<sup>th</sup></p>\n",
+        "text_content": "13th",
+        "policy": "Keep date evidence despite the salute class; exact raw text has no inserted space."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2119",
+        "DCP-LETT-2118"
+      ],
+      "case": "numbered French Brulle extract, malformed text and incomplete enclosure",
+      "requirement": "Preserve all twelve retained Huxley body blocks, the complete three-part numbered French Brulle extract and separate undated Darwin annotations. The extract is Brulle copied by Huxley with acknowledged alterations/errors, not Huxley endorsed theory. Preserve literal of of in P6 and raw conseacute;quent in the extract; no unsupported silent repair. P1, P4 and the extract depend on cross-references 1/2/3, which must remain intelligible even though raw enclosure places all three in one paragraph. 2118 requests two enclosed fair-copy pages, but full enclosure is not supplied inline; apparatus quotations do not supply the missing whole.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2119",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2119.xml",
+          "xml_sha256": "6796944749f90402d2e91586af128734787c29c7c8e907cc4d0412630e111949",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2119.html",
+          "source_html_sha256": "9333ad81960284d0fa8d20827a6840dec5ef98ce7762c4a1c6bd4e4fbbde48cd",
+          "verified_xml_dates": [
+            {
+              "text": "7 July 1857",
+              "attributes": {
+                "when": "1857-07-07"
+              },
+              "lower": "1857-07-07",
+              "upper": "1857-07-07",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-07-07\">7 July 1857</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2118",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2118.xml",
+          "xml_sha256": "bae2af6e271af38817aaabd1be4e6c3680fb91ccbebd17f34efae3b486e2cd57",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2118.html",
+          "source_html_sha256": "49c12990ca40f299010f4d57ad328228c98bccb5f03e915cb931702b23c9e3c2",
+          "verified_xml_dates": [
+            {
+              "text": "5 July [1857]",
+              "attributes": {
+                "when": "1857-07-05"
+              },
+              "lower": "1857-07-05",
+              "upper": "1857-07-05",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-07-05\">5 July [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2119",
+          "body_paragraph": 6,
+          "quote": "the Heart & Brain of of the Fish",
+          "char_start": 569,
+          "char_end": 601,
+          "source_sha256": "9333ad81960284d0fa8d20827a6840dec5ef98ce7762c4a1c6bd4e4fbbde48cd",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        },
+        {
+          "letter_id": "DCP-LETT-2119",
+          "body_paragraph": 7,
+          "quote": "not the most highly complex, but the most characteristic organs",
+          "char_start": 330,
+          "char_end": 393,
+          "source_sha256": "9333ad81960284d0fa8d20827a6840dec5ef98ce7762c4a1c6bd4e4fbbde48cd",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        },
+        {
+          "letter_id": "DCP-LETT-2119",
+          "body_paragraph": 9,
+          "quote": "it does not at all follow that it should appear relatively earlier",
+          "char_start": 130,
+          "char_end": 196,
+          "source_sha256": "9333ad81960284d0fa8d20827a6840dec5ef98ce7762c4a1c6bd4e4fbbde48cd",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]"
+        },
+        {
+          "letter_id": "DCP-LETT-2118",
+          "body_paragraph": 1,
+          "quote": "read the two enclosed pages",
+          "char_start": 26,
+          "char_end": 53,
+          "source_sha256": "49c12990ca40f299010f4d57ad328228c98bccb5f03e915cb931702b23c9e3c2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "verified_numbered_enclosure": {
+        "letter_id": "DCP-LETT-2119",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]",
+        "full_section_text": "[Enclosure]91) En suivant, comme on l’a fait dans ces derniers temps les phases du developpement des Crustacés, on voit que les pièces de la bouche et des antennes se manifestent avant les pattes; celles ci ne se montrent que par suite des developpements ultérieurs— 2) De leur côté, les antennes sont encore fort peu développées que les pièces de la bouche le sont déjà plus; enfin c’est lorsque les appendices buccaux ont revêtu la forme qu’ils doivent conserver que les pattes commencent à paraître. Il en résulte donc cette conséquence remarkable que les appendices se montrent d’autant plus tôt que leur structure doit être plus complexe. On trouve, en outre, dans ces développements divers une nouvelle preuve de l’analogie des appendices. Ainsi les pattes n’ont pas de transformation à subir elles ne se montrent que quand les autres appendices ont déjà revêtu la forme de mâchoires ou d’antennes. 3) Donc dans un animal articulé les appendices se montrent d’autant plus tard qu’ils ont moins de transformations à subir: c’est le complement de la loi précédente On peut par conseacute;quent juger du degré d’importance et de complication d’un appendice par l’époque même a laquelle il commence à se manifester pp. 282. 283— ",
+        "numbered_parts": [
+          "1)",
+          "2)",
+          "3)"
+        ],
+        "raw_malformed_literal": "conseacute;quent",
+        "body_block_count": 12
+      },
+      "verified_copying_apparatus": {
+        "letter_id": "DCP-LETT-2119",
+        "literal_text": "Huxley copied out the text, with a few alterations and errors",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[4]/div[9]/div[2]",
+        "source_sha256": "9333ad81960284d0fa8d20827a6840dec5ef98ce7762c4a1c6bd4e4fbbde48cd"
+      },
+      "verified_separate_annotations": {
+        "letter_id": "DCP-LETT-2119",
+        "literal_text": "good",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[2]",
+        "source_sha256": "9333ad81960284d0fa8d20827a6840dec5ef98ce7762c4a1c6bd4e4fbbde48cd"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2122"
+      ],
+      "case": "scoped reply and fresh Allman material",
+      "requirement": "Keep 2122’s reply scope to P1–P4 and P6 for Huxley’s July 7 embryological analysis and Darwin’s concessions/withdrawal. P7’s Allman fertilisation report is a fresh, separate Darwin input, not evidence Huxley supplied it. Preserve the conditional Barneoud/Milne Edwards analogy and do not turn the concessions into wholesale abandonment of species theory.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2122",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2122.xml",
+          "xml_sha256": "f49da294ee200990ff8cacbff31d633fe751de06b981d6f6b3fc887509873e8b",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2122.html",
+          "source_html_sha256": "6d64b59043d55d1a05f18fce782f592b65e1838c5113a9ab5af4425b13afb124",
+          "verified_xml_dates": [
+            {
+              "text": "9 July [1857]",
+              "attributes": {
+                "when": "1857-07-09"
+              },
+              "lower": "1857-07-09",
+              "upper": "1857-07-09",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-07-09\">9 July [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2122",
+          "body_paragraph": 1,
+          "quote": "I knew I was on unsafe ground",
+          "char_start": 76,
+          "char_end": 105,
+          "source_sha256": "6d64b59043d55d1a05f18fce782f592b65e1838c5113a9ab5af4425b13afb124",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2122",
+          "body_paragraph": 7,
+          "quote": "Allman’s account of the fertilisation",
+          "char_start": 7,
+          "char_end": 44,
+          "source_sha256": "6d64b59043d55d1a05f18fce782f592b65e1838c5113a9ab5af4425b13afb124",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2144",
+        "DCP-LETT-2166",
+        "DCP-LETT-2143",
+        "DCP-LETT-2150"
+      ],
+      "case": "missing prompts and relational date windows",
+      "requirement": "2144 survives incompletely, with its opening missing; two separately associated Darwin notes remain undated, not Huxley prose. Its response to September 26 question 2143 and October 3 reply 2150 provide a relational window, not exact composition or delivery. Raw XML lower bound 1809 is a technical open bound, not evidence of early writing. 2166 answers a missing forwarded aphid letter, distinct from 2144 classification fragment. Intersect Moor Park November 5–12 stay with before-November-12 bound to retain November 5–11 window without an invented exact date. Crude fertilisation speculation is not settled later pangenesis.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2144",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-2144.xml",
+          "xml_sha256": "b28f74716d089ac1b06fe19e0332a00dfb011c59feef9345a43a0a1c01ad4292",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2144.html",
+          "source_html_sha256": "8ffb0f30ee751b5125efb80c0598b29272488eecc6a6f99691cf061bf40b9c1f",
+          "verified_xml_dates": [
+            {
+              "text": "[before 3 Oct 1857]",
+              "attributes": {
+                "notBefore": "1809-01-01",
+                "notAfter": "1857-10-02"
+              },
+              "lower": "1809-01-01",
+              "upper": "1857-10-02",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1809-01-01\" notAfter=\"1857-10-02\">[before 3 Oct 1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2166",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-2166.xml",
+          "xml_sha256": "6577f555827ebe01034c7fa0be320bed48618255a89fb52d6faa81008213fc47",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2166.html",
+          "source_html_sha256": "a88d7bde0de7b9dde2b27ec12f8c7fddb5316bbf7f8c1b6f8473314dc6f9bdff",
+          "verified_xml_dates": [
+            {
+              "text": "[before 12 Nov 1857]",
+              "attributes": {
+                "notBefore": "1809-01-01",
+                "notAfter": "1857-11-11"
+              },
+              "lower": "1809-01-01",
+              "upper": "1857-11-11",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1809-01-01\" notAfter=\"1857-11-11\">[before 12 Nov 1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2143",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2143.xml",
+          "xml_sha256": "a87328ceaf180caa49a44f14052f79305245eccaa9277262ec9fec4e64edd9a5",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2143.html",
+          "source_html_sha256": "5447ee9a600a2660a81f65392c5f54a23fbf286298b8afd41b3ab7fcb5293fc3",
+          "verified_xml_dates": [
+            {
+              "text": "26 Sept [1857]",
+              "attributes": {
+                "when": "1857-09-26"
+              },
+              "lower": "1857-09-26",
+              "upper": "1857-09-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-09-26\">26 Sept [1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2150",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2150.xml",
+          "xml_sha256": "c315b363e46684e6118fd7076a56e327d531ff62f24ae62c253c7e6b408812b5",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2150.html",
+          "source_html_sha256": "e9ead505c4ab3ac0fac890abfc87c12a92b45ee16f181cd78de109242533b029",
+          "verified_xml_dates": [
+            {
+              "text": "3 Oct [1857]",
+              "attributes": {
+                "when": "1857-10-03"
+              },
+              "lower": "1857-10-03",
+              "upper": "1857-10-03",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-10-03\">3 Oct [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2144",
+          "body_paragraph": 3,
+          "quote": "Your pedigree business is a part of Physiology",
+          "char_start": 0,
+          "char_end": 46,
+          "source_sha256": "8ffb0f30ee751b5125efb80c0598b29272488eecc6a6f99691cf061bf40b9c1f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2143",
+          "body_paragraph": 7,
+          "quote": "to be simply genealogical",
+          "char_start": 182,
+          "char_end": 207,
+          "source_sha256": "5447ee9a600a2660a81f65392c5f54a23fbf286298b8afd41b3ab7fcb5293fc3",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]"
+        },
+        {
+          "letter_id": "DCP-LETT-2150",
+          "body_paragraph": 1,
+          "quote": "I did not in the least expect an answer to my last",
+          "char_start": 58,
+          "char_end": 108,
+          "source_sha256": "e9ead505c4ab3ac0fac890abfc87c12a92b45ee16f181cd78de109242533b029",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2166",
+          "body_paragraph": 1,
+          "quote": "Your letter has been forwarded to me here",
+          "char_start": 0,
+          "char_end": 41,
+          "source_sha256": "a88d7bde0de7b9dde2b27ec12f8c7fddb5316bbf7f8c1b6f8473314dc6f9bdff",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "verified_missing_opening": {
+        "letter_id": "DCP-LETT-2144",
+        "literal_text": "The first may pertain to the section of the letter that is now missing.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[6]/div[2]",
+        "source_sha256": "8ffb0f30ee751b5125efb80c0598b29272488eecc6a6f99691cf061bf40b9c1f"
+      },
+      "verified_separate_darwin_note": {
+        "letter_id": "DCP-LETT-2144",
+        "literal_text": "No doubt there is classification on mere aggregate resemblance.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[7]",
+        "source_sha256": "8ffb0f30ee751b5125efb80c0598b29272488eecc6a6f99691cf061bf40b9c1f"
+      },
+      "verified_moor_park_stay": {
+        "letter_id": "DCP-LETT-2166",
+        "literal_text": "CD travelled to Moor Park, near Farnham, Surrey, on 5 November 1857 and returned to Down",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[2]/div[2]",
+        "source_sha256": "a88d7bde0de7b9dde2b27ec12f8c7fddb5316bbf7f8c1b6f8473314dc6f9bdff"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2185"
+      ],
+      "case": "proof before publication and copied enclosure",
+      "requirement": "Render the explanatory catalogue introduction as proof-reading in December 1857, not as the finished 1865 publication. Preserve the separate copied enclosure and its unresolved copyist blank; “probably attached” is an association, not a proven original enclosure or complete incoming conversation. Page-numbered criticisms remain enclosure text, not new letters or dates.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2185",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2185.xml",
+          "xml_sha256": "87e45bcb049150b912f62e7d59db323202c1c82ce0538c878cd6700d4fd179d3",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2185.html",
+          "source_html_sha256": "b0d7b7c128fd7b60fe11905c412326828339d5b7884835967373e875cebc846a",
+          "verified_xml_dates": [
+            {
+              "text": "16 Dec [1857]",
+              "attributes": {
+                "when": "1857-12-16"
+              },
+              "lower": "1857-12-16",
+              "upper": "1857-12-16",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-12-16\">16 Dec [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2185",
+          "body_paragraph": 4,
+          "quote": "arguments, which you advanced in talk with me",
+          "char_start": 38,
+          "char_end": 83,
+          "source_sha256": "b0d7b7c128fd7b60fe11905c412326828339d5b7884835967373e875cebc846a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-2185",
+          "body_paragraph": 7,
+          "quote": "I return by the same post your pamphlet",
+          "char_start": 0,
+          "char_end": 39,
+          "source_sha256": "b0d7b7c128fd7b60fe11905c412326828339d5b7884835967373e875cebc846a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]"
+        }
+      ],
+      "verified_proof_apparatus": {
+        "letter_id": "DCP-LETT-2185",
+        "literal_text": "CD was at the time reading proof-sheets",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[3]/div[2]/div[2]",
+        "source_sha256": "b0d7b7c128fd7b60fe11905c412326828339d5b7884835967373e875cebc846a"
+      },
+      "verified_copy_association": {
+        "letter_id": "DCP-LETT-2185",
+        "literal_text": "It is likely that the following comments",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[3]/div[4]/div[2]",
+        "source_sha256": "b0d7b7c128fd7b60fe11905c412326828339d5b7884835967373e875cebc846a"
+      },
+      "verified_copy_blank": {
+        "letter_id": "DCP-LETT-2185",
+        "literal_text": "A space was left at this point by the copyist.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[3]/div[5]/div[2]",
+        "source_sha256": "b0d7b7c128fd7b60fe11905c412326828339d5b7884835967373e875cebc846a"
+      },
+      "verified_enclosure_layout": {
+        "letter_id": "DCP-LETT-2185",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]",
+        "paragraph_count": 11,
+        "paragraph_locators": [
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/p[1]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/p[2]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/p[3]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/p[4]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/p[5]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/p[6]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/p[7]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/p[8]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/p[9]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/p[10]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/p[11]"
+        ],
+        "full_section_text": "[Enclosure]4\np. 2. all crust of earth is not formed of strata, as in injected Trap and 5 masses of the wider extent.\np. 6. indefinite series of alterations: according to our present knowledge is not thus too strong, though I believe in it.\n15. Silex chief ingredient of flint; may it not be called sole ingredient.\n18. Sexes never combined in same individual. Quatrefages seems to believe in Serranus being hermaphrodite;6 I forget author’s name.\n20. Is it wise to give, without any allusion to common view, your view of Star-fish &c. being Annulosa; the rest of world looking at them as type of one of the grandest Divisions of animal kingdom.7\n27. I think little expansion is wanted in middle paragraph to show how a fish can be morphologically more complex and physiologically less so than the highest molluscs. I do not quite understand.\nHigher in page. Sentence beginning “the other sense” was not at first clear, as I did not see with what contrasted.\n39. I do not understand how you can say that if only fossils existed there would be no difficulty in practically species—as there is variation amongst fossils, as with recent, there seems to be same difficulty in grouping.\n40. Top sentence strikes me as too long.\n44. Mud being deposited in all parts of sea, sufficient to imbed remains and to be preserved to future generations, I believe this to be the gravest of errors: but I cannot enter into argument much too long.\n57. Is it not bold to say one foot never deposited in one year: think of floods after earthquake, at least add never a foot over wide area. \n                ",
+        "policy": "Page-numbered criticisms plus unnumbered continuation are a copied enclosure, not independently dated correspondence."
+      }
+    }
+  ],
+  "implementation_boundary": [
+    "Retained body scopes and raw DOM paths remain separate coordinate systems.",
+    "Keep source text, copies, enclosures, annotations, reported voices, dates, receipts and publication history separately addressable.",
+    "Requirements do not imply historical relationship acceptance or export readiness."
+  ],
+  "notes": [
+    "2144 is a surviving but incomplete incoming source with an accepted scoped reply; 2166 incoming aphid prompt is missing. These are different source-availability states.",
+    "No converter or export has been created. Prior actual-figure requirements remain separately recorded."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/all_letters.jsonl",
+      "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+    },
+    {
+      "path": "reports/1856-1857/audit.jsonl",
+      "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+    }
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-38.draft.json",
+      "sha256": "60dae8776976285008c3a18d46c2c3caab525eb783a15169aa213fac55428568"
+    }
+  ],
+  "primary_corrections": [
+    "2119 has twelve retained body blocks, not seven. Literal malformed text is conseacute;quent, not candidate invented conseàquent.",
+    "2122 unsafe-ground quote is P1, not P2. Replaced raw DOM locators using exact unique source matches.",
+    "2020 actual dateline is 13th with superscript markup, not spaced 13 th, and occurs in p[1] rather than candidate p[3].",
+    "2144 surviving incoming fragment is not wholly missing. Its separate Darwin notes are undated. Added both dated endpoint sources.",
+    "Added actual MathML, full numbered extract, annotations, missing-opening and proof/copy/blank locators; candidate body quotes alone did not establish those layers."
+  ],
+  "primary_verification": {
+    "exact_body_quotes_checked": 18,
+    "unique_source_html_xml_pairs_checked": 12,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "mathml_mixed_numbers_checked": 1,
+    "excluded_dateline_nodes_checked": 1,
+    "full_enclosure_sections_checked": 2,
+    "enclosure_criticism_blocks_checked": 11,
+    "apparatus_or_annotation_locators_checked": 8
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  }
+}

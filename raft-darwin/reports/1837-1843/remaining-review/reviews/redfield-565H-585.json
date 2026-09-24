@@ -1,0 +1,90 @@
+{
+  "group_id": "redfield-565H-585",
+  "model": "gpt-5.6-luna",
+  "full_read_ids": ["DCP-LETT-565H", "DCP-LETT-585", "DCP-LETT-598A", "DCP-LETT-556"],
+  "full_read_count": 4,
+  "assessments": [
+    {
+      "letter_id": "DCP-LETT-556",
+      "direction": "from_darwin",
+      "date_assessment": "24 February [1840], preserved single-day date.",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5],
+      "summary": "Darwin sends Redfield the Tillard account of the Sabrina volcanic eruption and relates its smoke vortex and waterspouts to Redfield's whirlwinds paper.",
+      "attribution_assessment": "Darwin writes the body; Tillard and Oersted are quoted or reported sources inside Darwin's letter.",
+      "role_in_chain": "Preceding Darwin prompt. Redfield 565H explicitly says it received this letter through Silliman and answers its Tillard reference. It is not an incoming prompt for Darwin 585."
+    },
+    {
+      "letter_id": "DCP-LETT-565H",
+      "direction": "to_darwin",
+      "date_assessment": "6 May 1840, preserved single-day date.",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5],
+      "summary": "Redfield acknowledges Darwin's February letter and Tillard reference, discusses whirlwinds, thanks Darwin for Journal of researches, and promises meteorological papers and New York geological reports.",
+      "attribution_assessment": "Redfield writes the incoming body. His references to Silliman, Oersted, and the promised reports are Redfield's account and do not supply Darwin's voice.",
+      "role_in_chain": "Direct incoming antecedent candidate for Darwin 585. The promised pamphlets/reports and the letter itself are explicitly picked up by Darwin in December."
+    },
+    {
+      "letter_id": "DCP-LETT-585",
+      "direction": "from_darwin",
+      "date_assessment": "[22 December 1840], preserved single-day date; bracketed day editorially supplied.",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4],
+      "summary": "Darwin apologises for delayed thanks because of illness, thanks Redfield for meteorological pamphlets and geological reports, adds a whirlwinds observation from Bruce, and says he has mislaid Redfield's letter so writes via Silliman.",
+      "attribution_assessment": "Darwin writes the body. The Bruce passage is Darwin's remembered source report, not Redfield's voice.",
+      "role_in_chain": "Response witness. It establishes that the promised materials and Redfield's letter were available to Darwin by 22 December 1840, while leaving their physical delivery date unknown."
+    },
+    {
+      "letter_id": "DCP-LETT-598A",
+      "direction": "to_darwin",
+      "date_assessment": "May 1841 bounded range; later than Darwin 585 and unable to prompt it.",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5],
+      "summary": "Redfield sends another New York geological report and a paper on the 1835 New Jersey tornado through John Blunt, with additional geological and meteorological context.",
+      "attribution_assessment": "Redfield writes the incoming body. The report and tornado paper are Redfield's described enclosures, not Darwin prose.",
+      "role_in_chain": "Later alternative and evidence of continuing exchange; it cannot explain Darwin's December 1840 thanks."
+    }
+  ],
+  "claim_verdicts": [
+    {
+      "incoming_id": "DCP-LETT-565H",
+      "outgoing_id": "DCP-LETT-585",
+      "verdict": "accept",
+      "status": "confirmed_direct_reply_with_limited_scope",
+      "rationale": "The link is supported by more than shared meteorological subject matter. 565H says Redfield received Darwin's 24 February letter through Silliman and promises copies of meteorological papers and the two latest New York geological reports. Darwin 585 thanks Redfield for precisely those pamphlets and reports, says he has mislaid 'your letter', and again directs the reply through Silliman. The editorial footnote to 565H independently identifies Darwin's December 1840 letter as the acknowledgment of those gifts. A separate missing covering note is possible, but is not needed to explain the distinctive promised-and-acknowledged materials.",
+      "known_by_date": "1840-12-22",
+      "known_by_scope": "By Darwin's resolved 22 December 1840 writing date, he had the meteorological pamphlets and geological reports, and had received Redfield's letter well enough to describe it as mislaid. This establishes knowledge/availability by that date, not physical delivery date and not that every proposition in 565H was read then.",
+      "actual_receipt_date": null,
+      "response_scope": "Darwin's thanks in paragraph 1 and the mislaid-letter/forwarding explanation in paragraph 4; paragraph 3 continues the whirlwinds discussion with Darwin's Bruce observation but does not reproduce all of Redfield's theory.",
+      "caveats": [
+        "Incoming 6 May is composition date, not a receipt date; Darwin's 22 December writing date supplies the conservative known-by bound.",
+        "The body does not state when the promised enclosures arrived or whether they traveled with 565H.",
+        "The direct link is strongest for the promised pamphlets/reports and mislaid-letter reference; topical continuity alone would be insufficient.",
+        "Redfield's 598A is later and cannot be retroactively used as the source of Darwin's December thanks."
+      ],
+      "evidence": [
+        {"letter_id": "DCP-LETT-565H", "body_paragraph": 1, "quote": "Your letter of Feb 24th transmitted by Profr. Silliman came to hand a few days since"},
+        {"letter_id": "DCP-LETT-565H", "body_paragraph": 4, "quote": "I shall forward you by the British Queen steamer or the first packet ship a few copies of meteorological papers together copies of the two last geological reports"},
+        {"letter_id": "DCP-LETT-585", "body_paragraph": 1, "quote": "my sincere thanks for your most valuable pamphlets on meter-eology"},
+        {"letter_id": "DCP-LETT-585", "body_paragraph": 1, "quote": "and the Geological Reports some of which I have been able to peruse & have been much interested by them"},
+        {"letter_id": "DCP-LETT-585", "body_paragraph": 4, "quote": "As I have mislaid your letter, I am compelled to direct this to the care of Prof. Silliman"},
+        {"letter_id": "DCP-LETT-565H", "locator": "editorial footnote 4", "quote": "CD acknowledged these gifts in December 1840"}
+      ]
+    }
+  ],
+  "alternative_candidates_considered": [
+    {"candidate": "DCP-LETT-556", "assessment": "Rejected as the direct incoming prompt for 585. 556 is Darwin's earlier outgoing letter and is explicitly the letter that 565H acknowledges; it contains the Tillard information but does not promise the pamphlets and geological reports that 585 thanks Redfield for."},
+    {"candidate": "DCP-LETT-598A", "assessment": "Rejected chronologically. 598A is Redfield's May 1841 letter, several months after Darwin's 22 December 1840 reply. Its New Jersey tornado paper and later New York report may continue the exchange, but cannot be the material acknowledged in 585."},
+    {"candidate": "missing Redfield covering letter or enclosure note", "assessment": "Retained only as a caveat, not as a competing identified pair. Darwin's mislaid-letter wording and the exact pamphlet/report categories promised in 565H make 565H the best surviving direct antecedent; an unlocated covering note could have accompanied the materials without displacing that link."}
+  ],
+  "unlocated_references": [
+    {"letter_id": "DCP-LETT-585", "body_paragraph": 1, "description": "The physical dispatch and delivery date of Redfield's promised pamphlets and geological reports are not preserved."},
+    {"letter_id": "DCP-LETT-585", "body_paragraph": 4, "description": "The particular Redfield letter Darwin says he mislaid is not physically recoverable beyond the surviving 565H candidate."}
+  ],
+  "issues": [
+    "The relation is a direct response for the distinctive gifts and mislaid-letter acknowledgment, with response scope recorded rather than treating every meteorological sentence as a point-by-point answer.",
+    "565H's 6 May date is not a receipt date; Darwin's 22 December writing date establishes only a known-by/available-by bound.",
+    "598A is a later continuation and must not be used to condition Darwin's earlier reading."
+  ],
+  "validation": {"body_paragraphs_read_in_full": true, "all_full_read_ids_covered": true, "exact_quotes_checked": 6, "quote_errors": []}
+}

@@ -1,0 +1,213 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batch 08 source-text rendering, chronology, receipt and attribution requirements only; candidate for root review, no converter/export/transcript/corpus/training changes.",
+  "primary_provenance": {
+    "batch": {
+      "reading": {
+        "path": "reports/1856-1857/review/parent-reading/batch-08.json",
+        "sha256": "02e2b5ca2637df70ed804af0e424d93f02ffc83ae2775ec4265e8f11e183c0de"
+      },
+      "decisions": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-08.json",
+        "sha256": "09a8392c317e2f0277a84ed09f52d1503f7eae5f73378cd05c62bd4ce32772e9"
+      }
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "sha256": "b2faa36784d28e7acbc68ca34be100c0e03320595ef561cf8716aa90d35060da"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-2089"
+      ],
+      "case": "eight MathML fraction pairs and the unmarked 18",
+      "requirement": "Preserve the eight genuine fraction nodes in the May 9 letter as MathML, not flattened numerals: 1/10 versus 1/9, 1/22 versus 1/23, 1/28 versus 1/30, and 1/20 versus 1/18. They occur in the comparison rows at /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7] through p[10], each with two math children. The earlier US Compositae figure rendered as plain “18” has no MathML node; retain that source ambiguity rather than silently converting it to 1/8. The letter is Darwin’s dated May 9 [1857] query about Gray’s species/genera counts and tree-sex statistics, so the fractions must remain visually and semantically distinct from prose numerals.",
+      "evidence": [
+        {
+          "quote": "I do not wonder you were somewhat puzzled to make out just the 49 species spoken of in my note",
+          "locator": "body block discussing the 49 species; source HTML"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2089",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2089.html",
+          "html_sha256": "5e168ebd7fd62ddd743c5cf4dd22c2ed9a48a7f8c1c2408dafee9735149358a7"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2098",
+        "DCP-LETT-2109"
+      ],
+      "case": "95/132 interpretation without invented MathML and article-sheet extent",
+      "requirement": "Keep Gray’s explicit count in DCP-LETT-2098 P18 as prose: “Out of 132 trees, those with separated flowers more or less—are 95.—and for the greater part very decidedly separated.” Darwin’s DCP-LETT-2109 P5 says “your fraction of 95132”; its preserved HTML has zero math elements, so render the raw joined digits and expose 95/132 only as a linked interpretive annotation supported by Gray’s explicit 95 of 132. In DCP-LETT-2109 P2, “I have not received the last part of your Silliman Papers: Hooker has” records the missing part and possible loan; the already-read article sheets and a promised corrected duplicate are separate states and must not be collapsed into one received text.",
+      "evidence": [
+        {
+          "quote": "Out of 132 trees, those with separated flowers more or less—are 95.—and for the greater part very decidedly separated.",
+          "locator": "DCP-LETT-2098 /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[18]"
+        },
+        {
+          "quote": "I think your fraction of 95132 is as large as in other cases",
+          "locator": "DCP-LETT-2109 /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2098",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2098.html",
+          "html_sha256": "988dcbe103a9af3a736656be5d535be631ba0abf486ba88eec9fd7b230a69419"
+        },
+        {
+          "letter_id": "DCP-LETT-2109",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2109.html",
+          "html_sha256": "863e894ae5a880f609f5cef979b1c66b40a7920ba5e914b306da45503a24e73f"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2060"
+      ],
+      "case": "bounded March response and excluded postage note",
+      "requirement": "Retain DCP-LETT-2060 as an undated Darwin ALS bounded by the XML apparatus to after March 15 and no later than March 31, 1857; do not assign a day from the displayed [after 15 March] header. The excluded marginal/paratext line “(I have divided my letter to save Postage)” must remain visibly separate from the eight body blocks. The accepted response scope is P1–P6 and the first sentence of P7: Gray’s alpine/range and tree-sex arguments, with Darwin’s qualified crossing hypothesis and cited counterexamples; the remainder of P7 forwards Watson material and is not a response to the same prompt.",
+      "evidence": [
+        {
+          "quote": "I have divided my letter to save Postage",
+          "locator": "excluded annotation /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/div/p"
+        },
+        {
+          "quote": "You ask about my doctrine which led me to expect that Trees would tend to have separate sexes",
+          "locator": "body block P3"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2060",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2060.html",
+          "html_sha256": "b2e4c9cdd17a1d1b836970d5b33b76da1981265731abbc4c0db9e68c5874f29e"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2104"
+      ],
+      "case": "approximate composition date and probable receipt only",
+      "requirement": "Render DCP-LETT-2104 as an incomplete Gray ALS dated approximately 24 May 1857, with the editorial ink docket making June 9 only probable as a receipt date. These are separate constraints: neither proves an exact composition day nor definite June 9 arrival. Preserve the missing beginning, the forwarded Watson categories, the request for criticism of article sheets, and the three enclosures whose texts do not survive. Do not fabricate June 18 crossing remarks from the missing opening.",
+      "evidence": [
+        {
+          "quote": "Now about Protean genera, and Mr. Watson’s very proper discriminations.",
+          "locator": "DCP-LETT-2104 P1 /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2104",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2104.html",
+          "html_sha256": "8f010cb80c7710b62a23acac230703d9fe23f8f9404d70427b6829343ae4dd54"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2109"
+      ],
+      "case": "missing crossing prompt and corrected underwater taxonomy",
+      "requirement": "Keep DCP-LETT-2109’s seven body blocks scoped: P1 answers the Watson-category portion of 2104; P2–P4 answer Gray’s June 1 disjoined-species, introduced-family and tree-sex material; P5 contains the plain 95132 response but no surviving incoming crossing/bud passage; P7 is Darwin’s separate holly observation. Correct the editorial summary’s erroneous “underwater Leguminosae” characterization: the body discusses Podostemon and Subularia under water, while the parenthetical Leguminosae reference is a separate comparison. Do not supply a missing crossing prompt from topic or date proximity.",
+      "evidence": [
+        {
+          "quote": "I must thank you for your two very valuable letters",
+          "locator": "DCP-LETT-2109 P1 /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "quote": "From what I have seen of latter they seemed to me",
+          "locator": "DCP-LETT-2109 P6 /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2109",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2109.html",
+          "html_sha256": "863e894ae5a880f609f5cef979b1c66b40a7920ba5e914b306da45503a24e73f"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2120"
+      ],
+      "case": "grass retraction, dispatch route and later manuscript split",
+      "requirement": "Render Gray’s July 7 letter as acknowledging Darwin’s June 18 letter received the previous week, while preserving its distinct dispatch account: “By a private hand, a passenger by sailing ship to Liverpool I last week sent” Darwin’s Watson correspondence and pamphlet. A dispatch to Liverpool is not proof of Darwin’s receipt or reading. Preserve P9’s explicit retraction after Gray inspected the grasses around his door—“not a soul of them shed a grain of pollen”—and retain the mixed evidence in the rest of the letter. Later Darwin manuscript/chapter splitting is editorial composition history, not a reason to split Gray’s authored letter or invent additional inputs.",
+      "evidence": [
+        {
+          "quote": "By a private hand, a passenger by sailing ship to Liverpool I last week sent addressed to you",
+          "locator": "DCP-LETT-2120 P3 /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "quote": "not a soul of them shed a grain of pollen till the anthers and the stigmas hang out",
+          "locator": "DCP-LETT-2120 P10 /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[10]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2120",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2120.html",
+          "html_sha256": "696be6ee868bb585c08a87c53edd20ec8e07206ea6aade6b4b99dfdb3be16071"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2125"
+      ],
+      "case": "marginal NB and scope of “Our theory”",
+      "requirement": "Keep DCP-LETT-2125’s July 20 response scope to P1–P5. The marginal NB scratched at the left wing-petals is a distinct Darwin annotation layer and must not be merged into the body. In P5, “Our theory” refers to the immediately developed occasional cross-fertilisation/insect mechanism; it is not a licence to attach every later transmutation claim to Gray’s July 7 prompt. Preserve the direct response to extinction and the grass-crossing correction separately.",
+      "evidence": [
+        {
+          "quote": "Our theory will explain why in vegetable & animal kingdom",
+          "locator": "DCP-LETT-2125 P6 /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "quote": "Thank you much for what you say about possibility of crossing of the grasses",
+          "locator": "DCP-LETT-2125 P3"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2125",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2125.html",
+          "html_sha256": "1dd37cbb260281e5cfdc30e132daae45592b38c998f55e53d0c70bf096232357"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Preserve original HTML MathML and plain-text forms as separate evidence layers; do not normalize 95132 or 18 into a fraction in the source text.",
+    "Keep XML date bounds, editorially supplied dates, probable receipt dockets, dispatch routes, body text, exclusions, marginal notes and later manuscript history separately addressable.",
+    "A rendering requirement carries no acceptance, training eligibility, knowledge activation or transcript-export implication."
+  ],
+  "notes": [
+    "This draft is limited to batch 08 findings newly needed for source rendering and chronology fidelity.",
+    "One June 18 Darwin output (DCP-LETT-2109) has two distinct incoming Gray inputs in accepted decisions (DCP-LETT-2104 and DCP-LETT-2098), with narrower paragraph scopes; rendering must support both links without merging them.",
+    "DCP-LETT-2053 remains the accepted incoming endpoint for DCP-LETT-2060 context; it is included only as provenance for the response wording, not as a new requirement case."
+  ],
+  "inputs": {
+    "all_letters": "reports/1856-1857/review/all_letters.jsonl",
+    "audit": "reports/1856-1857/audit.jsonl",
+    "source_ids": [
+      "DCP-LETT-2053",
+      "DCP-LETT-2060",
+      "DCP-LETT-2089",
+      "DCP-LETT-2098",
+      "DCP-LETT-2104",
+      "DCP-LETT-2109",
+      "DCP-LETT-2120",
+      "DCP-LETT-2125"
+    ]
+  }
+}

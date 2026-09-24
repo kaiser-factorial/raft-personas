@@ -1,0 +1,805 @@
+{
+  "status": "adjudicated",
+  "summary": {
+    "period": "1837-1843",
+    "full_read_count": 56,
+    "Darwin_outgoing_full_read_count": 30,
+    "incoming_full_read_count": 26,
+    "raw_period_held_full_read_incoming_ids": [
+      "DCP-LETT-669",
+      "DCP-LETT-690"
+    ],
+    "confirmed_direct_reply_links": 14,
+    "distinct_Darwin_response_letters": 12,
+    "single_date_direct_reply_links": 9,
+    "section_dependent_direct_reply_links": 5,
+    "section_dependent_response_letters": 3,
+    "cross_correspondent_knowledge_links": 5,
+    "incoming_records_with_known_by_evidence": 18,
+    "reverse_reply_links_not_Darwin_outputs": 13,
+    "reviewed_outgoing_without_identified_surviving_prompt": 18,
+    "reviewed_grounding_ids": [
+      "DCP-LETT-423",
+      "DCP-LETT-437",
+      "DCP-LETT-440",
+      "DCP-LETT-463",
+      "DCP-LETT-481",
+      "DCP-LETT-489",
+      "DCP-LETT-564",
+      "DCP-LETT-565F",
+      "DCP-LETT-600",
+      "DCP-LETT-601",
+      "DCP-LETT-622",
+      "DCP-LETT-623",
+      "DCP-LETT-626",
+      "DCP-LETT-667F",
+      "DCP-LETT-672F",
+      "DCP-LETT-691F",
+      "DCP-LETT-704",
+      "DCP-LETT-705F"
+    ],
+    "safe_outgoing_not_yet_full_read": 288,
+    "xml_exact_order_review_count": 97,
+    "effective_whole_letter_exact_date_review_count": 99,
+    "training_export_performed": false,
+    "count_limit": "Counts describe reviewed relationships, not independent or complete RAFT examples; multiple inputs and repeated responses are retained without duplicating response-letter counts. The selected groups are not a pairing-rate estimate for the remaining corpus."
+  },
+  "method": "Three gpt-5.6-luna reviewers verified the pilot and XML audit, then performed bounded full-reading first passes for Emma, Kemp, section dates and specialist incoming context. The primary agent read all 56 distinct bodies and notes, checked competing sources, corrected chronology and judged each accepted relation. Proposals alone do not enter the map.",
+  "decision_file": "data/annotations/expansion_1837_1843.json",
+  "decision_sha256": "3ab8021a1ba240f1ffee308f865aa1528adbaca5d1bb295e7425fe20ee025eef",
+  "model_dispatch": "All three child reviewers were dispatched as gpt-5.6-luna; role labels inside their prose are not model identities.",
+  "review_sources": [
+    {
+      "path": "reports/1837-1843/correspondent-review/emma.review.json",
+      "sha256": "169f8fa6bdde987611010d4d4d466a67bc7d2a199c3be7aa4d812fdd21b9a805"
+    },
+    {
+      "path": "reports/1837-1843/correspondent-review/kemp.review.json",
+      "sha256": "3e5730496f5aae0ed00541872da544cf41820dc24a3f840977a0e95fa753a1b0"
+    },
+    {
+      "path": "reports/1837-1843/correspondent-review/section-dates.review.json",
+      "sha256": "022bd25524018ea9425325e3aef43079ee142b0181670bebb2a042921f41d9d0"
+    },
+    {
+      "path": "reports/1837-1843/correspondent-review/seed-context.review.json",
+      "sha256": "2724da6d4219a73a2cb5f0b62b10152c35458b98e0278e05faf2cc3e25cf19d3"
+    }
+  ],
+  "reviewer_coverage_and_quote_checks": [
+    {
+      "report": "emma.review.json",
+      "quotes": 130,
+      "full_coverage": true
+    },
+    {
+      "report": "kemp.review.json",
+      "quotes": 103,
+      "full_coverage": true
+    },
+    {
+      "report": "section-dates.review.json",
+      "quotes": 18
+    },
+    {
+      "report": "seed-context.review.json",
+      "quotes": 15
+    }
+  ],
+  "parent_exact_quote_count": 133,
+  "parent_quote_checks": [
+    {
+      "letter_id": "DCP-LETT-345",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-345",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-346",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-346",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-444",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-444",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-445",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-445",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-445",
+      "locator": "div#letter div.body-content; retained body block 6",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-699",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-701F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-701F",
+      "locator": "div#letter div.body-content; retained body block 9",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-711",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-711F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-711F",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-720",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-720",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-720F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-720F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-706",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-706",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-710F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-710F",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-713",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-715F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-716",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-716F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-716F",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-492",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-492",
+      "locator": "div#letter div.body-content; retained body block 6",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-493",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-493",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-444",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-448",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-447",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-448",
+      "locator": "div#letter div.body-content; retained body block 7",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-448",
+      "locator": "div#letter div.body-content; retained body block 7",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-464",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-465",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-465",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "locator": "div#letter div.body-content; retained body block 5",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-482",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-482",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-482",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-484",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-484",
+      "locator": "div#letter div.body-content; retained body block 6",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-669",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-672F",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-690",
+      "locator": "div#letter div.body-content; retained body block 5",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-691F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-701",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-705F",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-707",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-710F",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-707",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-708",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-710F",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-445",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-447",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-445",
+      "locator": "div#letter div.body-content; retained body block 11",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-447",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-448",
+      "locator": "div#letter div.body-content; retained body block 7",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-449",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-482",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-482",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-481",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-485",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-481",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-485",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-484",
+      "locator": "div#letter div.body-content; retained body block 7",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-486",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-484",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-486",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-489",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-492",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-489",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-492",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-489",
+      "locator": "div#letter div.body-content; retained body block 7",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-492",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-699",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-691F",
+      "locator": "div#letter div.body-content; retained body block 7",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-706",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-705F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-711",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-710F",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-713",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-711F",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-713",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-716",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-715F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-720",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-716F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-706",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-706",
+      "locator": "div#letter div.body-content; retained body block 8",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-701F",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-701F",
+      "locator": "div#letter div.body-content; retained body block 7",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-448",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-448",
+      "locator": "div#letter div.body-content; retained body block 6",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-448",
+      "locator": "div#letter div.body-content; retained body block 7",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "locator": "div#letter div.body-content; retained body block 7",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-481",
+      "locator": "header_text",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-481",
+      "locator": "div#letter div.body-content; retained body block 6",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-484",
+      "locator": "header_text",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-484",
+      "locator": "div#letter div.body-content; retained body block 7",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-423",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-437",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-437",
+      "locator": "div#letter div.body-content; retained body block 6",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-440",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-448",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-564",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-601",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-601",
+      "locator": "div#letter div.body-content; retained body block 5",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-622",
+      "locator": "div#letter div.body-content; retained body block 8",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-623",
+      "locator": "div#letter div.body-content; retained body block 4",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-626",
+      "locator": "div#letter div.body-content; retained body block 8",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-704",
+      "locator": "div#letter div.body-content; retained body block 3",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-667F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-672F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-691F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-716F",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-464",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-626",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "exact_quote_verified": true
+    },
+    {
+      "letter_id": "DCP-LETT-626",
+      "locator": "div#letter div.body-content; retained body block 8",
+      "exact_quote_verified": true
+    }
+  ],
+  "source_hashes_verified": {
+    "full_body_sources": 56,
+    "XML_sources": 476
+  },
+  "baseline_hashes_unchanged": [
+    {
+      "path": "reports/1837-1843/pilot/review.json",
+      "sha256": "e0a457d4c9c348c2cae384b2e578dd6cf9a82019e6fda1109cb0ceac7babbf63"
+    },
+    {
+      "path": "reports/1837-1843/pilot/graph.json",
+      "sha256": "7abb1e0408328ac556152ad5fdf5c4a4984ae3016e81f32f8ef234ef5c68d9cf"
+    },
+    {
+      "path": "reports/1837-1843/pilot/letters.jsonl",
+      "sha256": "0c0a5a56563fab4cb894902487b207a994d1b48a8e5147a656c7ca6f1243d730"
+    },
+    {
+      "path": "reports/1837-1843/audit.jsonl",
+      "sha256": "dd30c9c29b05ed130912fe9b97dbacb6595547f2e501ed2e37cd21e10918b7c2"
+    },
+    {
+      "path": "reports/1837-1843/summary.json",
+      "sha256": "568ecfc7a5e34d885957d3fdf07059fe7e7a2098c9ec88ba7f4f424de779cdec"
+    },
+    {
+      "path": "reports/correspondence-map/graph.json",
+      "sha256": "b4c6cac13ea1166d35483081eef0a1a44802476c0b8802ef141aaa44eb9af6f0"
+    },
+    {
+      "path": "reports/correspondence-map/summary.json",
+      "sha256": "a447b5dd08cd473221dfd3921ccb355457063b660665e9ddd28fe6f6aa085283"
+    },
+    {
+      "path": "data/annotations/correspondence_links.json",
+      "sha256": "6cd4a48b06544b090264cd4d4bc8396627ba18ae95163d8dd2174432b84fccab"
+    }
+  ],
+  "corrections": [
+    "Kept all five verified pilot pairs; added four single-day pairs and five section-dependent links across three Darwin letters.",
+    "Corrected initial Emma reverse-link 482→481 to 482→466; kept 464→463 unresolved.",
+    "Added overlooked direct follow-ups 444→448 and 716→716F, the two-letter 464/465→466 bundle, and reverse 492→489.",
+    "Accepted 706→701F as an additional reverse reply on the 45-foot requested measurement, contrary to the Luna's candidate-only recommendation.",
+    "Retained section-date review corrections for missed 481 and 484 headers; preserved initial report.",
+    "Fixed body/editorial quote locators during review. A first Kemp continuation snapshot was not retained by its reviewer; do not claim complete intermediate-version preservation for that file.",
+    "Removed unsupported missing-prompt inferences from engagement context, prior housing agreement and Emma's 471 theology letter. The verified reference observations preserve only the documented event or uncertainty."
+  ],
+  "intermediate_version_limit": "Emma and section-date initial reports are preserved. The Kemp reviewer overwrote its first continuation report without retaining a snapshot; final quotes and coverage were independently revalidated."
+}

@@ -1,0 +1,657 @@
+{
+  "status": "primary_verified_conversion_preparation_requirements",
+  "scope": "Accepted 1856-1857 batch-40 source-text rendering, chronology, attribution, special-markup and incomplete-source requirements only. Candidate documentation; no converter, transcript, export, training or accepted evidence changes.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-40.json",
+      "sha256": "5d154d02e2aca78aec96bacba5ab5723164ea2ae8875f3bff1c6cb44829eda96"
+    },
+    "parent_decisions": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-40.json",
+      "sha256": "5a676615dfa682a739a9186da71e0ddffc965a99d07c044e8ae8e9f527649cd5"
+    },
+    "accepted_ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-40.json",
+      "sha256": "cf0030e238f5d34b49b64b317c2ea0abab6fe8a002657ae92e8d66e35b129dca"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "case": "1861 uncertain addressee, hands and excised continuation",
+      "source_ids": [
+        "DCP-LETT-1861"
+      ],
+      "requirement": "Preserve the uncertain Miss Holland identity (Mary or Lucy) and distinguish Wollaston’s visiting entomologist attribution from Darwin’s voice. The possible Emma interlineations and different hands remain manuscript uncertainty; the excised continuation is identified as Emma’s in the apparatus, but its missing wording cannot be reconstructed or assigned to Charles.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1861",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1861.html",
+          "source_html_sha256": "23b06f2b9d818b7e2632a2614f69a1238759b694411800241d327608e0d1e062",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1861.xml",
+          "xml_sha256": "06e590b5d0d9f011aaa4280dd25bc4d2b24b980dfdd4f08df39cfbdee35ee889",
+          "verified_xml_dates": [
+            {
+              "text": "[May 1856]",
+              "attributes": {
+                "notBefore": "1856-05-01",
+                "notAfter": "1856-05-31"
+              },
+              "lower": "1856-05-01",
+              "upper": "1856-05-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1856-05-01\" notAfter=\"1856-05-31\">[May 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1861",
+          "body_paragraph": 1,
+          "quote": "a first-rate Entomologist has been staying with me",
+          "char_start": 41,
+          "char_end": 91,
+          "source_sha256": "23b06f2b9d818b7e2632a2614f69a1238759b694411800241d327608e0d1e062",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1861",
+          "body_paragraph": 2,
+          "quote": "Emma demands the rest of this note",
+          "char_start": 0,
+          "char_end": 34,
+          "source_sha256": "23b06f2b9d818b7e2632a2614f69a1238759b694411800241d327608e0d1e062",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "apparatus_proof": [
+        {
+          "letter_id": "DCP-LETT-1861",
+          "literal_text": "Mary Holland or her younger sister Lucy",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[1]/div[2]",
+          "source_sha256": "23b06f2b9d818b7e2632a2614f69a1238759b694411800241d327608e0d1e062"
+        },
+        {
+          "letter_id": "DCP-LETT-1861",
+          "literal_text": "possibly Emma Darwin’s",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[3]/div[2]",
+          "source_sha256": "23b06f2b9d818b7e2632a2614f69a1238759b694411800241d327608e0d1e062"
+        },
+        {
+          "letter_id": "DCP-LETT-1861",
+          "literal_text": "Emma Darwin’s note has been excised.",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[5]/div[2]",
+          "source_sha256": "23b06f2b9d818b7e2632a2614f69a1238759b694411800241d327608e0d1e062"
+        }
+      ]
+    },
+    {
+      "case": "2618 relative receipt and open date",
+      "source_ids": [
+        "DCP-LETT-2618"
+      ],
+      "requirement": "Render the Sunday evening item with its relative date only: Darwin received Horner’s note and Lepsius memorandum “this morning,” learned of the work, and says he now knows where to look. That establishes receipt of the note/memorandum, not completed reading of the referenced work or a precise calendar day; preserve its bounded two-year date window and the absent memorandum. Verso biblical chronology remains a separate possible Horner layer.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2618",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2618.html",
+          "source_html_sha256": "c6288791460ba11775b3ece47432e2b8cdb661dd334b0ec70640ac19d8ff8977",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2618.xml",
+          "xml_sha256": "0d29ba6601ec85fd12d920ca0638c35beadc039749c492c7073235974ed3b760",
+          "verified_xml_dates": [
+            {
+              "text": "[1856–7]",
+              "attributes": {
+                "notBefore": "1856-01-01",
+                "notAfter": "1857-12-31"
+              },
+              "lower": "1856-01-01",
+              "upper": "1857-12-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1856-01-01\" notAfter=\"1857-12-31\">[1856–7]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2618",
+          "body_paragraph": 1,
+          "quote": "I received your note with Lepsius’ memorandum this morning",
+          "char_start": 0,
+          "char_end": 58,
+          "source_sha256": "c6288791460ba11775b3ece47432e2b8cdb661dd334b0ec70640ac19d8ff8977",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2618",
+          "body_paragraph": 1,
+          "quote": "I shall now know where to look",
+          "char_start": 128,
+          "char_end": 158,
+          "source_sha256": "c6288791460ba11775b3ece47432e2b8cdb661dd334b0ec70640ac19d8ff8977",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "case": "1838 Hutton quarter MathML and incomplete ending",
+      "source_ids": [
+        "DCP-LETT-1838"
+      ],
+      "requirement": "Keep Hutton’s claims about reversion, civilization and mixed breeds attributed historical arguments. Preserve the actual one-quarter MathML in the goat backcross passage and do not render it as 14 or a guessed decimal. The pigeon passage ends incomplete; later Variation wording cannot supply its missing ending. Hutton lacks trustworthy information on the requested goose points, offers only casual observations, and promises further inquiry; do not flatten these evidential levels.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1838",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1838.html",
+          "source_html_sha256": "ff811ed18e3fa6a6c9c4c14dd92c5826481461cbb28fbd88e88409ec2e8971b1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1838.xml",
+          "xml_sha256": "bc2f240a1d70bd79028b819d8fb931670abd59ef5e4c1f2303780b19b3d1ffe7",
+          "verified_xml_dates": [
+            {
+              "text": "8 Mar 1856",
+              "attributes": {
+                "when": "1856-03-08"
+              },
+              "lower": "1856-03-08",
+              "upper": "1856-03-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-03-08\">8 Mar 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1838",
+          "body_paragraph": 4,
+          "quote": "On my return from Afghanisthan in 1841, I brought with me two half bred male Goats",
+          "char_start": 0,
+          "char_end": 82,
+          "source_sha256": "ff811ed18e3fa6a6c9c4c14dd92c5826481461cbb28fbd88e88409ec2e8971b1",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1838",
+          "body_paragraph": 4,
+          "quote": "the produce altho’ now only 14 wild",
+          "char_start": 275,
+          "char_end": 310,
+          "source_sha256": "ff811ed18e3fa6a6c9c4c14dd92c5826481461cbb28fbd88e88409ec2e8971b1",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        }
+      ],
+      "verified_mathml": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]/math",
+        "markup": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>",
+        "numerator": "1",
+        "denominator": "4",
+        "rendered_fraction": "1/4",
+        "source_sha256": "ff811ed18e3fa6a6c9c4c14dd92c5826481461cbb28fbd88e88409ec2e8971b1"
+      }
+    },
+    {
+      "case": "6538 fragment page number, list structure and date hold",
+      "source_ids": [
+        "DCP-LETT-6538"
+      ],
+      "requirement": "Keep opening retained block P1 “2” in provenance as a page number; exclude it from final letter prose. Keep the continuation, German/French colour terms, raw spelling and list structure without guessing the unidentified sender, Hofacker attribution, or pencil bread/Darwin additions. The conjectured 1857–61 range remains conjectured and does not establish period eligibility or a missing prompt.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-6538",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-6538.html",
+          "source_html_sha256": "7d5138a7d8369c72ec7829838a15a2cd200563f50431abfacff9607a1351e69a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-6538.xml",
+          "xml_sha256": "e8ddc8bf4d2295d66ff7bd6dcc6eb3042fc21677544e96b2863fc45b2c31d1bf",
+          "verified_xml_dates": [
+            {
+              "text": "[1857–61?]",
+              "attributes": {
+                "notBefore": "1857-01-01",
+                "notAfter": "1861-12-31"
+              },
+              "lower": "1857-01-01",
+              "upper": "1861-12-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1857-01-01\" notAfter=\"1861-12-31\">[1857–61?]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-6538",
+          "body_paragraph": 1,
+          "quote": "2",
+          "char_start": 0,
+          "char_end": 1,
+          "source_sha256": "7d5138a7d8369c72ec7829838a15a2cd200563f50431abfacff9607a1351e69a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[1]"
+        },
+        {
+          "letter_id": "DCP-LETT-6538",
+          "body_paragraph": 7,
+          "quote": "Silber, schwarz, roth & gray schimmel",
+          "char_start": 39,
+          "char_end": 76,
+          "source_sha256": "7d5138a7d8369c72ec7829838a15a2cd200563f50431abfacff9607a1351e69a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "page_number_exclusion": {
+        "letter_id": "DCP-LETT-6538",
+        "body_paragraph": 1,
+        "quote": "2",
+        "char_start": 0,
+        "char_end": 1,
+        "source_sha256": "7d5138a7d8369c72ec7829838a15a2cd200563f50431abfacff9607a1351e69a"
+      }
+    },
+    {
+      "case": "2025 open date and partial book reading",
+      "source_ids": [
+        "DCP-LETT-2025"
+      ],
+      "requirement": "Keep “Wednesday after February 16, 1857” as an open lower/date relation; the XML upper 1882 bound is metadata, not a precise day. Darwin recommends only pages 38–91 of Siebold and says the book supplied facts relevant to his bee enquiries; do not convert that into full-book reading, an identified Innes answer, or completed correspondence.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2025",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2025.html",
+          "source_html_sha256": "8bbe905cf4b8bcfe92d14819e824435c1ed17dd4284d209e9904bcd48e8b6a42",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2025.xml",
+          "xml_sha256": "73be899c1fd7c36d1cded1e0981e46d22a089c7000bc335864fc13c6bc7820e3",
+          "verified_xml_dates": [
+            {
+              "text": "[after 16 Feb 1857]",
+              "attributes": {
+                "notBefore": "1857-02-17",
+                "notAfter": "1882-12-31"
+              },
+              "lower": "1857-02-17",
+              "upper": "1882-12-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1857-02-17\" notAfter=\"1882-12-31\">[after 16 Feb 1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2025",
+          "body_paragraph": 1,
+          "quote": "I strongly recommend you to read enclosed beginning at p. 38 to 91.",
+          "char_start": 0,
+          "char_end": 67,
+          "source_sha256": "8bbe905cf4b8bcfe92d14819e824435c1ed17dd4284d209e9904bcd48e8b6a42",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2025",
+          "body_paragraph": 1,
+          "quote": "I have found in this Book some facts, such as I was enquiring from you in regard to Bees.",
+          "char_start": 140,
+          "char_end": 229,
+          "source_sha256": "8bbe905cf4b8bcfe92d14819e824435c1ed17dd4284d209e9904bcd48e8b6a42",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "case": "2058 Kippist annotation, £20 and trailing address",
+      "source_ids": [
+        "DCP-LETT-2058"
+      ],
+      "requirement": "Keep the subscription enclosure as Darwin’s body-level enclosure statement. The £20 amount and bank are supplied by the Kippist annotation in apparatus, not Darwin’s body; the trailing “R Kippist Esq” is an address layer excluded from future body content. Do not turn institutional routing into a completed payment event or silently merge the February account entry with the letter date.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2058",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2058.html",
+          "source_html_sha256": "b0cfc56740c81d260cd06ba1008f09a0adfafb1f4f840c83f594365a5d0defaa",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2058.xml",
+          "xml_sha256": "2d971818800b22e7383a1c84792f91a884d4fcdd7e2fca3d950dca4b9d530679",
+          "verified_xml_dates": [
+            {
+              "text": "23 Feb [1857]",
+              "attributes": {
+                "when": "1857-02-23"
+              },
+              "lower": "1857-02-23",
+              "upper": "1857-02-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-02-23\">23 Feb [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2058",
+          "body_paragraph": 1,
+          "quote": "I beg leave to enclose to you my Subscription",
+          "char_start": 0,
+          "char_end": 45,
+          "source_sha256": "b0cfc56740c81d260cd06ba1008f09a0adfafb1f4f840c83f594365a5d0defaa",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2058",
+          "body_paragraph": 2,
+          "quote": "R Kippist Esq",
+          "char_start": 33,
+          "char_end": 46,
+          "source_sha256": "b0cfc56740c81d260cd06ba1008f09a0adfafb1f4f840c83f594365a5d0defaa",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "amount_apparatus_proof": {
+        "letter_id": "DCP-LETT-2058",
+        "literal_text": "Cheque for £20 on Union Bk. of London",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/div[2]",
+        "source_sha256": "b0cfc56740c81d260cd06ba1008f09a0adfafb1f4f840c83f594365a5d0defaa"
+      }
+    },
+    {
+      "case": "1827 beetle collection and missing offer",
+      "source_ids": [
+        "DCP-LETT-1827"
+      ],
+      "requirement": "Correct the subject to beetles/Coleoptera. Darwin responds to an offer of specimens and discusses possible British Museum/Waterhouse arrangements, but no completed donation or named specimen transfer is established. Preserve the missing kind-letter/offer boundary and the historical advice that children should collect themselves; later accession or later children’s collecting reports does not replace the body.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1827",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1827.html",
+          "source_html_sha256": "5b3bd17a643d5ef14d706d2c3815904866c5977e26981985ec5cc3e432a83cf2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1827.xml",
+          "xml_sha256": "898a2b8fe8f73b2955e3b81146e41e72a4774216eb52825c9cf3d925318aefed",
+          "verified_xml_dates": [
+            {
+              "text": "26 Jan [1856]",
+              "attributes": {
+                "when": "1856-01-26"
+              },
+              "lower": "1856-01-26",
+              "upper": "1856-01-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-01-26\">26 Jan [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1827",
+          "body_paragraph": 1,
+          "quote": "I shall be very glad to be of any sort of use to you in regard to the Beetles",
+          "char_start": 0,
+          "char_end": 77,
+          "source_sha256": "5b3bd17a643d5ef14d706d2c3815904866c5977e26981985ec5cc3e432a83cf2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1827",
+          "body_paragraph": 2,
+          "quote": "offer the collection to Dr. J. E. Gray for British Museum",
+          "char_start": 89,
+          "char_end": 146,
+          "source_sha256": "5b3bd17a643d5ef14d706d2c3815904866c5977e26981985ec5cc3e432a83cf2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ]
+    },
+    {
+      "case": "2015 childcare offer, repetition and missing prompt",
+      "source_ids": [
+        "DCP-LETT-2015"
+      ],
+      "requirement": "Preserve Darwin’s thanks and refusal of Lady Lubbock’s offered childcare: the family keeps the boys at home because Henrietta is unwell and the governess is absent. “had had better” is an unresolved repetition in the witness unless authoritative witness justifies cleanup. Do not reconstruct the missing offer or import later governess and child-count apparatus into the letter.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2015",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2015.html",
+          "source_html_sha256": "ff34f1b7d9970f8d003ead894c1859d2b6ee9f6fe3e191560a71cc5146105b4c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2015.xml",
+          "xml_sha256": "4bcf70ce1c0817f93d7ed3cff1dc9d301615c0cb1e12db3eca2b9c7d44d57f13",
+          "verified_xml_dates": [
+            {
+              "text": "[8 Dec 1856]",
+              "attributes": {
+                "when": "1856-12-08"
+              },
+              "lower": "1856-12-08",
+              "upper": "1856-12-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-12-08\">[8 Dec 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2015",
+          "body_paragraph": 1,
+          "quote": "we think we had had better keep our little Boys at home",
+          "char_start": 230,
+          "char_end": 285,
+          "source_sha256": "ff34f1b7d9970f8d003ead894c1859d2b6ee9f6fe3e191560a71cc5146105b4c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2015",
+          "body_paragraph": 2,
+          "quote": "We have now half-a dozen Boys",
+          "char_start": 52,
+          "char_end": 81,
+          "source_sha256": "ff34f1b7d9970f8d003ead894c1859d2b6ee9f6fe3e191560a71cc5146105b4c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ]
+    },
+    {
+      "case": "source-aware cleanup and chronology boundary",
+      "source_ids": [
+        "DCP-LETT-1861",
+        "DCP-LETT-2618",
+        "DCP-LETT-1838",
+        "DCP-LETT-6538",
+        "DCP-LETT-2025",
+        "DCP-LETT-2058",
+        "DCP-LETT-1827",
+        "DCP-LETT-2015"
+      ],
+      "requirement": "Keep headers, original XML date constraints, body, excluded addresses, annotations, footnotes and bibliography as separate layers. No later outcome, apparatus attribution, date range, or generic topic may be used to fabricate missing incoming text or complete a damaged body. Prior accepted evidence remains immutable.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1861",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1861.html",
+          "source_html_sha256": "23b06f2b9d818b7e2632a2614f69a1238759b694411800241d327608e0d1e062",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1861.xml",
+          "xml_sha256": "06e590b5d0d9f011aaa4280dd25bc4d2b24b980dfdd4f08df39cfbdee35ee889",
+          "verified_xml_dates": [
+            {
+              "text": "[May 1856]",
+              "attributes": {
+                "notBefore": "1856-05-01",
+                "notAfter": "1856-05-31"
+              },
+              "lower": "1856-05-01",
+              "upper": "1856-05-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1856-05-01\" notAfter=\"1856-05-31\">[May 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2618",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2618.html",
+          "source_html_sha256": "c6288791460ba11775b3ece47432e2b8cdb661dd334b0ec70640ac19d8ff8977",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2618.xml",
+          "xml_sha256": "0d29ba6601ec85fd12d920ca0638c35beadc039749c492c7073235974ed3b760",
+          "verified_xml_dates": [
+            {
+              "text": "[1856–7]",
+              "attributes": {
+                "notBefore": "1856-01-01",
+                "notAfter": "1857-12-31"
+              },
+              "lower": "1856-01-01",
+              "upper": "1857-12-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1856-01-01\" notAfter=\"1857-12-31\">[1856–7]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1838",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1838.html",
+          "source_html_sha256": "ff811ed18e3fa6a6c9c4c14dd92c5826481461cbb28fbd88e88409ec2e8971b1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1838.xml",
+          "xml_sha256": "bc2f240a1d70bd79028b819d8fb931670abd59ef5e4c1f2303780b19b3d1ffe7",
+          "verified_xml_dates": [
+            {
+              "text": "8 Mar 1856",
+              "attributes": {
+                "when": "1856-03-08"
+              },
+              "lower": "1856-03-08",
+              "upper": "1856-03-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-03-08\">8 Mar 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-6538",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-6538.html",
+          "source_html_sha256": "7d5138a7d8369c72ec7829838a15a2cd200563f50431abfacff9607a1351e69a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-6538.xml",
+          "xml_sha256": "e8ddc8bf4d2295d66ff7bd6dcc6eb3042fc21677544e96b2863fc45b2c31d1bf",
+          "verified_xml_dates": [
+            {
+              "text": "[1857–61?]",
+              "attributes": {
+                "notBefore": "1857-01-01",
+                "notAfter": "1861-12-31"
+              },
+              "lower": "1857-01-01",
+              "upper": "1861-12-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1857-01-01\" notAfter=\"1861-12-31\">[1857–61?]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2025",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2025.html",
+          "source_html_sha256": "8bbe905cf4b8bcfe92d14819e824435c1ed17dd4284d209e9904bcd48e8b6a42",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2025.xml",
+          "xml_sha256": "73be899c1fd7c36d1cded1e0981e46d22a089c7000bc335864fc13c6bc7820e3",
+          "verified_xml_dates": [
+            {
+              "text": "[after 16 Feb 1857]",
+              "attributes": {
+                "notBefore": "1857-02-17",
+                "notAfter": "1882-12-31"
+              },
+              "lower": "1857-02-17",
+              "upper": "1882-12-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1857-02-17\" notAfter=\"1882-12-31\">[after 16 Feb 1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2058",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2058.html",
+          "source_html_sha256": "b0cfc56740c81d260cd06ba1008f09a0adfafb1f4f840c83f594365a5d0defaa",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2058.xml",
+          "xml_sha256": "2d971818800b22e7383a1c84792f91a884d4fcdd7e2fca3d950dca4b9d530679",
+          "verified_xml_dates": [
+            {
+              "text": "23 Feb [1857]",
+              "attributes": {
+                "when": "1857-02-23"
+              },
+              "lower": "1857-02-23",
+              "upper": "1857-02-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-02-23\">23 Feb [1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1827",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1827.html",
+          "source_html_sha256": "5b3bd17a643d5ef14d706d2c3815904866c5977e26981985ec5cc3e432a83cf2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1827.xml",
+          "xml_sha256": "898a2b8fe8f73b2955e3b81146e41e72a4774216eb52825c9cf3d925318aefed",
+          "verified_xml_dates": [
+            {
+              "text": "26 Jan [1856]",
+              "attributes": {
+                "when": "1856-01-26"
+              },
+              "lower": "1856-01-26",
+              "upper": "1856-01-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-01-26\">26 Jan [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2015",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2015.html",
+          "source_html_sha256": "ff34f1b7d9970f8d003ead894c1859d2b6ee9f6fe3e191560a71cc5146105b4c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2015.xml",
+          "xml_sha256": "4bcf70ce1c0817f93d7ed3cff1dc9d301615c0cb1e12db3eca2b9c7d44d57f13",
+          "verified_xml_dates": [
+            {
+              "text": "[8 Dec 1856]",
+              "attributes": {
+                "when": "1856-12-08"
+              },
+              "lower": "1856-12-08",
+              "upper": "1856-12-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-12-08\">[8 Dec 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": []
+    }
+  ],
+  "coverage": {
+    "fresh_sources": [
+      "1861",
+      "2618",
+      "1838",
+      "6538",
+      "2025",
+      "2058",
+      "1827",
+      "2015"
+    ],
+    "full_bodies_apparatus_bibliographies_read": true,
+    "figures_required": false,
+    "accepted_relationships_added": 0,
+    "export_performed": false
+  },
+  "validation_notes": "Sixteen literal quotes, eight source pairs, four apparatus locators, one actual MathML quarter and embedded page number checked. No export.",
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-64.draft.json",
+      "sha256": "cb4aba9817f3c48afecac233824d739a90085739265aa78b42623cba6b8a9f0f"
+    }
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md",
+  "primary_verification": {
+    "exact_body_quotes_checked": 16,
+    "unique_source_html_xml_pairs_checked": 8,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "apparatus_locators_checked": 4,
+    "mathml_fractions_checked": 1,
+    "embedded_page_number_checked": 1
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "primary_corrections": [
+    "6538 unidentified person is sender, not Darwin recipient; retained P1 page number and P7 list quote corrected.",
+    "1861 excised continuation is explicitly Emma’s; uncertainty applies to interlineations, not that apparatus attribution.",
+    "2618 distinction concerns reading the referenced work, not categorical denial of inspecting its memorandum.",
+    "1838 trustworthy-information gap distinguished from casual observations.",
+    "2015 literal half-a dozen spacing restored; repetition kept unresolved rather than certified authorial.",
+    "Removed unrelated copied Daniell and child-count wording; rebuilt all DOM locators."
+  ]
+}

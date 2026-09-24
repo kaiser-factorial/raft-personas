@@ -1,0 +1,1567 @@
+{
+  "status": "primary_source_verified_exact_cuts",
+  "rules": {
+    "path": "scripts/clear_raft_residual_headers.py",
+    "sha256": "3f973a417d518a00c53bfc9f9985cf7674a1b2a2e2c02aafcb9b56f6ffee85fd"
+  },
+  "changes": [
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1184",
+      "paragraph": 5,
+      "source_sha256": "6b3484fa794574a47d5a78ec4014f96c1526451624b042d3177676e36b1a82e1",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 80,
+        "original_excerpt": "Pray believe me | My dear Sir | Yours very faithfully | C. Darwin J. Higgins Esq",
+        "source_sha256": "6b3484fa794574a47d5a78ec4014f96c1526451624b042d3177676e36b1a82e1"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " J. Higgins Esq",
+      "literal_boundary": " J. Higgins Esq"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1238",
+      "paragraph": 3,
+      "source_sha256": "f1230843a38410faf69fd0b4e012b6ea24e6e5beb23d0b37a3296d180c4e79e1",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 88,
+        "original_excerpt": "I hope that your Father is well. In Haste, | Yours sincerely, C. Darwin. Sunday morning.",
+        "source_sha256": "f1230843a38410faf69fd0b4e012b6ea24e6e5beb23d0b37a3296d180c4e79e1"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Sunday morning.",
+      "literal_boundary": " Sunday morning."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1301",
+      "paragraph": 3,
+      "source_sha256": "ef949c89ed2924a9f9aa0caaa3997e5fbb861150bbeccafc104894be01ede7bb",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 55,
+        "original_excerpt": "Yours very faithfully | C. Darwin Down Farnborough Kent",
+        "source_sha256": "ef949c89ed2924a9f9aa0caaa3997e5fbb861150bbeccafc104894be01ede7bb"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Down Farnborough Kent",
+      "literal_boundary": " Down Farnborough Kent"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1334",
+      "paragraph": 3,
+      "source_sha256": "d1eb7f3238f1286bd29f85fc4e02003027e724dc670809e0c9d3bfaa549dc56a",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 62,
+        "original_excerpt": "Believe me | Yours very faithfully | C. Darwin J. Higgins, Esq",
+        "source_sha256": "d1eb7f3238f1286bd29f85fc4e02003027e724dc670809e0c9d3bfaa549dc56a"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " J. Higgins, Esq",
+      "literal_boundary": " J. Higgins, Esq"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1359",
+      "paragraph": 7,
+      "source_sha256": "af77a10d20bcc1edfa472755977842ac6e3856eb22c3319b12154e01b9b7db0d",
+      "original_span": {
+        "paragraph": 7,
+        "start": 0,
+        "end": 86,
+        "original_excerpt": "Any parcel addressed as at the head of this letter, will reach me.— Sept. 20th. 1850.—",
+        "source_sha256": "af77a10d20bcc1edfa472755977842ac6e3856eb22c3319b12154e01b9b7db0d"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Sept. 20th. 1850.—",
+      "literal_boundary": " Sept. 20th. 1850.—"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-138",
+      "paragraph": 6,
+      "source_sha256": "5d5da255da9685dd7ffbe381653717b9857490432b7148c4d4cfcf17eed2c1e2",
+      "original_span": {
+        "paragraph": 6,
+        "start": 0,
+        "end": 15,
+        "original_excerpt": "Wednesday 28th.",
+        "source_sha256": "5d5da255da9685dd7ffbe381653717b9857490432b7148c4d4cfcf17eed2c1e2"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Wednesday 28th."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-138",
+      "paragraph": 7,
+      "source_sha256": "5d5da255da9685dd7ffbe381653717b9857490432b7148c4d4cfcf17eed2c1e2",
+      "original_span": {
+        "paragraph": 7,
+        "start": 0,
+        "end": 10,
+        "original_excerpt": "Shrewsbury",
+        "source_sha256": "5d5da255da9685dd7ffbe381653717b9857490432b7148c4d4cfcf17eed2c1e2"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Shrewsbury"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1385",
+      "paragraph": 2,
+      "source_sha256": "8e556ed0ea0884aa40ae3890349764a552888c5feb9899858b76daafdadcf0bf",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 29,
+        "original_excerpt": "C. Darwin Down Jan 1st. 1851.",
+        "source_sha256": "8e556ed0ea0884aa40ae3890349764a552888c5feb9899858b76daafdadcf0bf"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Down Jan 1st. 1851.",
+      "literal_boundary": " Down Jan 1st. 1851."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1427",
+      "paragraph": 2,
+      "source_sha256": "108bf8f108207d88599a7dc430e86accf9b43f6eadc1cc5b5141416627942824",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 54,
+        "original_excerpt": "Dear Sir | Yours faithfully | C Darwin J S Disnurr Esq",
+        "source_sha256": "108bf8f108207d88599a7dc430e86accf9b43f6eadc1cc5b5141416627942824"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " J S Disnurr Esq",
+      "literal_boundary": " J S Disnurr Esq"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1465F",
+      "paragraph": 3,
+      "source_sha256": "5f6c5a2ea52c29d23c50d7f7a90a7d35bb7a41c882bdfab4045d4af1221869ee",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 15,
+        "original_excerpt": "Josiah Wedgwood",
+        "source_sha256": "5f6c5a2ea52c29d23c50d7f7a90a7d35bb7a41c882bdfab4045d4af1221869ee"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Josiah Wedgwood"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1465F",
+      "paragraph": 4,
+      "source_sha256": "5f6c5a2ea52c29d23c50d7f7a90a7d35bb7a41c882bdfab4045d4af1221869ee",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 16,
+        "original_excerpt": "Mss. Salt & Son.",
+        "source_sha256": "5f6c5a2ea52c29d23c50d7f7a90a7d35bb7a41c882bdfab4045d4af1221869ee"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Mss. Salt & Son."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1466",
+      "paragraph": 3,
+      "source_sha256": "fb855815f4746333c051b71144c8005bad33bdb1a39f61a67c2f26791cb5f40f",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 141,
+        "original_excerpt": "You are at full liberty to show this letter to any one; and I beg to remain, my dear Sir, Yours sincerely, | Charles Darwin. Adam White, Esq.",
+        "source_sha256": "fb855815f4746333c051b71144c8005bad33bdb1a39f61a67c2f26791cb5f40f"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Adam White, Esq.",
+      "literal_boundary": " Adam White, Esq."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1479",
+      "paragraph": 2,
+      "source_sha256": "572b0a24db368b0f9bec8a92a458fefd06a03b5442f8bef6ffbe23beece0f40c",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 72,
+        "original_excerpt": "I beg to remain | Your’s faithfully & obliged | C. Darwin G. Hyndman Esq",
+        "source_sha256": "572b0a24db368b0f9bec8a92a458fefd06a03b5442f8bef6ffbe23beece0f40c"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " G. Hyndman Esq",
+      "literal_boundary": " G. Hyndman Esq"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1494",
+      "paragraph": 2,
+      "source_sha256": "5e66c88a19013d28e213b146333d84bee4f65d090ca75940f55897ffee4c98e6",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 69,
+        "original_excerpt": "Believe me | My dear Sir | Yours sincerely | C. Darwin J. Higgins Esq",
+        "source_sha256": "5e66c88a19013d28e213b146333d84bee4f65d090ca75940f55897ffee4c98e6"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " J. Higgins Esq",
+      "literal_boundary": " J. Higgins Esq"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1503",
+      "paragraph": 5,
+      "source_sha256": "c22135bd4926bd3563b30bd47e365b6e9a5d09cde379df885154c737bde7b42b",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 46,
+        "original_excerpt": "Yours very truly | C. Darwin Jos. Wedgwood Esq",
+        "source_sha256": "c22135bd4926bd3563b30bd47e365b6e9a5d09cde379df885154c737bde7b42b"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Jos. Wedgwood Esq",
+      "literal_boundary": " Jos. Wedgwood Esq"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1524",
+      "paragraph": 2,
+      "source_sha256": "d5b6e621ae50ff9030b50fe4175052fbc3c47620f977c9c98d0192b46a52ffe6",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 62,
+        "original_excerpt": "My dear Sir | Your’s very faithfully | C. Darwin J. Murray Esq",
+        "source_sha256": "d5b6e621ae50ff9030b50fe4175052fbc3c47620f977c9c98d0192b46a52ffe6"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " J. Murray Esq",
+      "literal_boundary": " J. Murray Esq"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1650",
+      "paragraph": 2,
+      "source_sha256": "aa2a9487451337ca20d92f8873f3ac2f7339d2e9087a0474dcebd1d686078f52",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 37,
+        "original_excerpt": "Charles Darwin Down March 19th. 1855.",
+        "source_sha256": "aa2a9487451337ca20d92f8873f3ac2f7339d2e9087a0474dcebd1d686078f52"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Down March 19th. 1855.",
+      "literal_boundary": " Down"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1744",
+      "paragraph": 4,
+      "source_sha256": "f55f655ba6fcdf23debc8a8ad3603d30d2904634577f3f959cc4d62cbe5ca9c0",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 34,
+        "original_excerpt": "Ch. Darwin. Down Augt. 18th. 1855.",
+        "source_sha256": "f55f655ba6fcdf23debc8a8ad3603d30d2904634577f3f959cc4d62cbe5ca9c0"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Down Augt. 18th. 1855.",
+      "literal_boundary": " Down"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-1930",
+      "paragraph": 2,
+      "source_sha256": "2e8bc8b8c5dcda562cf89362154b80c44bb20dc270f6e70e66ea2b1ec3e7a5d1",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 61,
+        "original_excerpt": "Sir | Your obed. servt | Ch Darwin To the Secy | Royal Socy.—",
+        "source_sha256": "2e8bc8b8c5dcda562cf89362154b80c44bb20dc270f6e70e66ea2b1ec3e7a5d1"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " To the Secy | Royal Socy.—",
+      "literal_boundary": " To the Secy"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-2066",
+      "paragraph": 9,
+      "source_sha256": "36afcdd300ad75469c53a03562725dca83055aec5b36ea6c492ca9a708772f86",
+      "original_span": {
+        "paragraph": 9,
+        "start": 0,
+        "end": 46,
+        "original_excerpt": "So adios | Ever yours | C. Darwin March 15th.—",
+        "source_sha256": "36afcdd300ad75469c53a03562725dca83055aec5b36ea6c492ca9a708772f86"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " March 15th.—",
+      "literal_boundary": " March 15th.—"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-2181F",
+      "paragraph": 3,
+      "source_sha256": "6bf044d707b43717d31f75f63f05e73ddc25ceed453f04a1823bb98980a91c63",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 21,
+        "original_excerpt": "To | John Higgins Esq",
+        "source_sha256": "6bf044d707b43717d31f75f63f05e73ddc25ceed453f04a1823bb98980a91c63"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "To | John Higgins Esq"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-2454",
+      "paragraph": 8,
+      "source_sha256": "3c27b810b27964dca4d0059f198ccee4b492b2cf9142964ddcac7b6faf0d5951",
+      "original_span": {
+        "paragraph": 8,
+        "start": 0,
+        "end": 17,
+        "original_excerpt": "Down Bromley Kent",
+        "source_sha256": "3c27b810b27964dca4d0059f198ccee4b492b2cf9142964ddcac7b6faf0d5951"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Down Bromley Kent"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-2454",
+      "paragraph": 9,
+      "source_sha256": "3c27b810b27964dca4d0059f198ccee4b492b2cf9142964ddcac7b6faf0d5951",
+      "original_span": {
+        "paragraph": 9,
+        "start": 0,
+        "end": 14,
+        "original_excerpt": "Ap. 24. 1859.—",
+        "source_sha256": "3c27b810b27964dca4d0059f198ccee4b492b2cf9142964ddcac7b6faf0d5951"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Ap. 24. 1859.—"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-2463A",
+      "paragraph": 2,
+      "source_sha256": "df1bd3364c4fb8235a97e68325b982a85de90bb4633ead84ed573d95e91dc8c0",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 50,
+        "original_excerpt": "Yours very sincerely | C. Darwin Down Bromley Kent",
+        "source_sha256": "df1bd3364c4fb8235a97e68325b982a85de90bb4633ead84ed573d95e91dc8c0"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Down Bromley Kent",
+      "literal_boundary": " Down"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-339",
+      "paragraph": 2,
+      "source_sha256": "80f3f33cbfbfdf8d92f968a37a3345ea74c51ca285465bddb3d26650465d7453",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 71,
+        "original_excerpt": "Adios, you best of good old Fellows | Chas. Darwin. 3. Fitz William St.",
+        "source_sha256": "80f3f33cbfbfdf8d92f968a37a3345ea74c51ca285465bddb3d26650465d7453"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 3. Fitz William St.",
+      "literal_boundary": " 3. Fitz William St."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-352",
+      "paragraph": 4,
+      "source_sha256": "ae7a2a30ade7b21202a2128b19c776d4fe8bd36ca68a6aac3e3d0d6555cb707e",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 29,
+        "original_excerpt": "C. Darwin March 27th. | 1837.",
+        "source_sha256": "ae7a2a30ade7b21202a2128b19c776d4fe8bd36ca68a6aac3e3d0d6555cb707e"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " March 27th. | 1837.",
+      "literal_boundary": " March 27th."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-361",
+      "paragraph": 5,
+      "source_sha256": "43e23c479fb535cc1e1928c09475956e5f7d9bed23aa312f4c1d30c2761d054c",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 36,
+        "original_excerpt": "36 Grt Marlborough St.— 18th. June.—",
+        "source_sha256": "43e23c479fb535cc1e1928c09475956e5f7d9bed23aa312f4c1d30c2761d054c"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "36 Grt Marlborough St.— 18th. June.—"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-362",
+      "paragraph": 2,
+      "source_sha256": "eb5b82dd6eb51c9a0d23761e2ae2552b73c325b97f7ad62578019dacf6985996",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 69,
+        "original_excerpt": "Floreat Entomologia | Yours most truly | Chas. Darwi⁠⟨⁠n⁠⟩⁠ Wednesday",
+        "source_sha256": "eb5b82dd6eb51c9a0d23761e2ae2552b73c325b97f7ad62578019dacf6985996"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Wednesday",
+      "literal_boundary": " Wednesday"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-366F",
+      "paragraph": 6,
+      "source_sha256": "72987e87f6483d0b431dbbdb53f076d5db4cc59b0b6f65d1de45dda958f24010",
+      "original_span": {
+        "paragraph": 6,
+        "start": 0,
+        "end": 24,
+        "original_excerpt": "36 Grt Marlborough Stt.—",
+        "source_sha256": "72987e87f6483d0b431dbbdb53f076d5db4cc59b0b6f65d1de45dda958f24010"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "36 Grt Marlborough Stt.—"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-368",
+      "paragraph": 7,
+      "source_sha256": "f06dabca4774cd8d6810ad1d6d8a351f60f8a3d666ae4054f3bd9ae392bc0806",
+      "original_span": {
+        "paragraph": 7,
+        "start": 0,
+        "end": 77,
+        "original_excerpt": "My dear Henslow | Ever yours | C. Darwin 36 Grt Marlboroug Stt.— then Tuesday",
+        "source_sha256": "f06dabca4774cd8d6810ad1d6d8a351f60f8a3d666ae4054f3bd9ae392bc0806"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 36 Grt Marlboroug Stt.— then Tuesday",
+      "literal_boundary": " 36 Grt"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-369",
+      "paragraph": 4,
+      "source_sha256": "b415bede994cad61aa0643c5816eb8530f55e87208f481f28f7d5a71356117aa",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 39,
+        "original_excerpt": "Truly yours.— | Chas. Darwin August 2d.",
+        "source_sha256": "b415bede994cad61aa0643c5816eb8530f55e87208f481f28f7d5a71356117aa"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " August 2d.",
+      "literal_boundary": " August 2d."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-370",
+      "paragraph": 2,
+      "source_sha256": "cf9de0c3b35c94ca753b8893bd1ddb0abf84b84e1a848b42b75cbd4e4470fa17",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 82,
+        "original_excerpt": "Dear Sir | Yours very truly | Charles Darwin August 3d. then 36 Grt. Marlbro’ St.—",
+        "source_sha256": "cf9de0c3b35c94ca753b8893bd1ddb0abf84b84e1a848b42b75cbd4e4470fa17"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " August 3d. then 36 Grt. Marlbro’ St.—",
+      "literal_boundary": " August 3d."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-370A",
+      "paragraph": 5,
+      "source_sha256": "9325a997e67f7d98aa15e2b49de2385ea4215610662222fb4093defe8c58ab29",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 113,
+        "original_excerpt": "I have the honor to remain | Sir | Your faithful & obedient servant | Charles Darwin 36 | Great Marlborough Stt.—",
+        "source_sha256": "9325a997e67f7d98aa15e2b49de2385ea4215610662222fb4093defe8c58ab29"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 36 | Great Marlborough Stt.—",
+      "literal_boundary": " 36 | Great"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-370F",
+      "paragraph": 6,
+      "source_sha256": "1c97a5f61681e5d766354db8462c20cda56d203ce52cccb15245a226a686c779",
+      "original_span": {
+        "paragraph": 6,
+        "start": 0,
+        "end": 26,
+        "original_excerpt": "36 | Great Marlborough St.",
+        "source_sha256": "1c97a5f61681e5d766354db8462c20cda56d203ce52cccb15245a226a686c779"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "36 | Great Marlborough St."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-372",
+      "paragraph": 4,
+      "source_sha256": "a03102caf48ecbde99921d893f993ad9ba184e89cbe370ed0bbf2e75b17e8dd0",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 59,
+        "original_excerpt": "My dear Madam | Yours Most truly | Chas. Darwin Wednesday.—",
+        "source_sha256": "a03102caf48ecbde99921d893f993ad9ba184e89cbe370ed0bbf2e75b17e8dd0"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Wednesday.—",
+      "literal_boundary": " Wednesday"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-383",
+      "paragraph": 6,
+      "source_sha256": "5dc1c1e3c12365693595d4597e85d664bd2e3952cabf4b100d49a617c38820e3",
+      "original_span": {
+        "paragraph": 6,
+        "start": 0,
+        "end": 33,
+        "original_excerpt": "Charles Darwin October 20th. 1837",
+        "source_sha256": "5dc1c1e3c12365693595d4597e85d664bd2e3952cabf4b100d49a617c38820e3"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " October 20th. 1837",
+      "literal_boundary": " October 20th."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-395",
+      "paragraph": 5,
+      "source_sha256": "5f78bcd6f9b4f889a34133c26397b6694207709d7ae8cdcefadfdefd6e312134",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 21,
+        "original_excerpt": "36 Grt. Marlbro’ St.—",
+        "source_sha256": "5f78bcd6f9b4f889a34133c26397b6694207709d7ae8cdcefadfdefd6e312134"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "36 Grt. Marlbro’ St.—"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-408F",
+      "paragraph": 3,
+      "source_sha256": "cc059a42b3443aab69c5cdccb4fa2a49fa07ebf1a1aee35dc3905e7c452641a0",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 11,
+        "original_excerpt": "Good Friday",
+        "source_sha256": "cc059a42b3443aab69c5cdccb4fa2a49fa07ebf1a1aee35dc3905e7c452641a0"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Good Friday"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-412",
+      "paragraph": 5,
+      "source_sha256": "9246a80dea2eae22fc7c326807133e5dd8cc84ddb87c22cf79ab4ce15ccd39f7",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 47,
+        "original_excerpt": "Yours most truly | Chas. Darwin Tuesday Morning",
+        "source_sha256": "9246a80dea2eae22fc7c326807133e5dd8cc84ddb87c22cf79ab4ce15ccd39f7"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Tuesday Morning",
+      "literal_boundary": " Tuesday Morning"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-412",
+      "paragraph": 6,
+      "source_sha256": "9246a80dea2eae22fc7c326807133e5dd8cc84ddb87c22cf79ab4ce15ccd39f7",
+      "original_span": {
+        "paragraph": 6,
+        "start": 0,
+        "end": 22,
+        "original_excerpt": "36 Grt. Marlbro’ Stt.—",
+        "source_sha256": "9246a80dea2eae22fc7c326807133e5dd8cc84ddb87c22cf79ab4ce15ccd39f7"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "36 Grt. Marlbro’ Stt.—"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-419",
+      "paragraph": 9,
+      "source_sha256": "80ac2b81bdebe70bbc2e7e29ee2790ff25bfa9238c90442a34e070855d9f3ea2",
+      "original_span": {
+        "paragraph": 9,
+        "start": 0,
+        "end": 24,
+        "original_excerpt": "Friday36 Gt. Marlbro’ St",
+        "source_sha256": "80ac2b81bdebe70bbc2e7e29ee2790ff25bfa9238c90442a34e070855d9f3ea2"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Friday36 Gt. Marlbro’ St"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-426",
+      "paragraph": 2,
+      "source_sha256": "6f4a99b2a2764ac76b2bae2b6a1de7b1b01b15e45957b4ca090eed211a3dbfec",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 35,
+        "original_excerpt": "Charles Darwin September 7th. 1838.",
+        "source_sha256": "6f4a99b2a2764ac76b2bae2b6a1de7b1b01b15e45957b4ca090eed211a3dbfec"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " September 7th. 1838.",
+      "literal_boundary": " September 7th."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-427",
+      "paragraph": 5,
+      "source_sha256": "d06e1bd1efea9300cd982abc5d3db14fc238a179bd9af287b401ecdb2e394e37",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 88,
+        "original_excerpt": "Believe me dear Sir | Yours very truly obliged | Charles Darwin 36 Great Marlborough St.",
+        "source_sha256": "d06e1bd1efea9300cd982abc5d3db14fc238a179bd9af287b401ecdb2e394e37"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 36 Great Marlborough St.",
+      "literal_boundary": " 36 Great"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-430",
+      "paragraph": 3,
+      "source_sha256": "b4b3be94bcd182db9be4f8ce9321e4ea824cf33781d6b2f075dbc62418d1aa09",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 59,
+        "original_excerpt": "Believe me | Yours truly obliged | Charles Darwin Friday 2d",
+        "source_sha256": "b4b3be94bcd182db9be4f8ce9321e4ea824cf33781d6b2f075dbc62418d1aa09"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Friday 2d",
+      "literal_boundary": " Friday 2d"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-430",
+      "paragraph": 4,
+      "source_sha256": "b4b3be94bcd182db9be4f8ce9321e4ea824cf33781d6b2f075dbc62418d1aa09",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 20,
+        "original_excerpt": "36 Grt. Marlbro’ St.",
+        "source_sha256": "b4b3be94bcd182db9be4f8ce9321e4ea824cf33781d6b2f075dbc62418d1aa09"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "36 Grt. Marlbro’ St."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-454",
+      "paragraph": 2,
+      "source_sha256": "48c319c2260a55ccdb33e089d0366107f1e8af8734191e8d46bf9014c84ed7b9",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 43,
+        "original_excerpt": "Ever yours | C. Darwin 36 Great Marlbro’ St",
+        "source_sha256": "48c319c2260a55ccdb33e089d0366107f1e8af8734191e8d46bf9014c84ed7b9"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 36 Great Marlbro’ St",
+      "literal_boundary": " 36 Great"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-459",
+      "paragraph": 2,
+      "source_sha256": "9276068bb8c6bb760dd0be9a44277de801e07e3f6390c511a325a315a049960a",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 66,
+        "original_excerpt": "Believe me | Most truly yours— | Chas. Darwin 36 Grt. Marlbro’ Str",
+        "source_sha256": "9276068bb8c6bb760dd0be9a44277de801e07e3f6390c511a325a315a049960a"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 36 Grt. Marlbro’ Str",
+      "literal_boundary": " 36 Grt."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-461",
+      "paragraph": 5,
+      "source_sha256": "294b8ded128b4d0153b6d45c680b0d9c45ea4bc874e0a6e1d31800ceb1c1d587",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 111,
+        "original_excerpt": "With many excuses for troubling you with these suggestions. Believe me Truly Yours | Chas. Darwin Decemb 25th.—",
+        "source_sha256": "294b8ded128b4d0153b6d45c680b0d9c45ea4bc874e0a6e1d31800ceb1c1d587"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Decemb 25th.—",
+      "literal_boundary": " Decemb 25th."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-473",
+      "paragraph": 3,
+      "source_sha256": "87c131776186f63db04765ef5a5f49141d647ec1e730eb8d959552c69aa481f9",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 59,
+        "original_excerpt": "Believe me | Most truly Yours | Chas. Darwin Monday Morning",
+        "source_sha256": "87c131776186f63db04765ef5a5f49141d647ec1e730eb8d959552c69aa481f9"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Monday Morning",
+      "literal_boundary": " Monday Morning"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-473",
+      "paragraph": 4,
+      "source_sha256": "87c131776186f63db04765ef5a5f49141d647ec1e730eb8d959552c69aa481f9",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 18,
+        "original_excerpt": "12 Upper Gower St.",
+        "source_sha256": "87c131776186f63db04765ef5a5f49141d647ec1e730eb8d959552c69aa481f9"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "12 Upper Gower St."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-483",
+      "paragraph": 4,
+      "source_sha256": "c71c87ecf332f29e9334055a470d0770ea1a5dd40e02030e415e248bdd16acba",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 65,
+        "original_excerpt": "Believe me | Most truly yours | Chas. Darwin 12 Upper Gower Stt.—",
+        "source_sha256": "c71c87ecf332f29e9334055a470d0770ea1a5dd40e02030e415e248bdd16acba"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 12 Upper Gower Stt.—",
+      "literal_boundary": " 12 Upper"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-491",
+      "paragraph": 5,
+      "source_sha256": "f5af1057a4ad2950a5a971849ff420976caae5b32b200baea436d76aa8cbccf4",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 47,
+        "original_excerpt": "Yours truly | Chas. Darwin 12 Upper Gower Stt.—",
+        "source_sha256": "f5af1057a4ad2950a5a971849ff420976caae5b32b200baea436d76aa8cbccf4"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 12 Upper Gower Stt.—",
+      "literal_boundary": " 12 Upper"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-496",
+      "paragraph": 4,
+      "source_sha256": "60419b296a4e992ef9fe5c3af54708bd5924ca0fc92a8911e446118a474af83e",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 82,
+        "original_excerpt": "Believe me dear Whewell | Your’s truly obliged | Chas. Darwin 12 Upper Gower Stt.—",
+        "source_sha256": "60419b296a4e992ef9fe5c3af54708bd5924ca0fc92a8911e446118a474af83e"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 12 Upper Gower Stt.—",
+      "literal_boundary": " 12 Upper"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-497",
+      "paragraph": 5,
+      "source_sha256": "ed1560be04754e0fde1bd78c9a715f227627a47d9854eb72da1d5e50d4b07386",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 62,
+        "original_excerpt": "Believe me | Most truly Yours | Chas. Darwin 12 Upper Gower St",
+        "source_sha256": "ed1560be04754e0fde1bd78c9a715f227627a47d9854eb72da1d5e50d4b07386"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 12 Upper Gower St",
+      "literal_boundary": " 12 Upper"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-514",
+      "paragraph": 2,
+      "source_sha256": "048c3fcc93b0ccac5223ef66ec41feee9602f3ee0699fcfab3977ae8388734ed",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 40,
+        "original_excerpt": "Charles Darwin 12 Upper Gower St. London",
+        "source_sha256": "048c3fcc93b0ccac5223ef66ec41feee9602f3ee0699fcfab3977ae8388734ed"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 12 Upper Gower St. London",
+      "literal_boundary": " 12 Upper"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-514",
+      "paragraph": 3,
+      "source_sha256": "048c3fcc93b0ccac5223ef66ec41feee9602f3ee0699fcfab3977ae8388734ed",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 17,
+        "original_excerpt": "May 29th.— 1839.—",
+        "source_sha256": "048c3fcc93b0ccac5223ef66ec41feee9602f3ee0699fcfab3977ae8388734ed"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "May 29th.— 1839.—"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-515",
+      "paragraph": 3,
+      "source_sha256": "2646c9fea11e62e4f834f12e087c5ca6f25e0b34e42fc26e299eca56f8c160ac",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 62,
+        "original_excerpt": "Believe me | Very truly yours | Chas. Darwin 12 Upper Gower St",
+        "source_sha256": "2646c9fea11e62e4f834f12e087c5ca6f25e0b34e42fc26e299eca56f8c160ac"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 12 Upper Gower St",
+      "literal_boundary": " 12 Upper"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-515",
+      "paragraph": 4,
+      "source_sha256": "2646c9fea11e62e4f834f12e087c5ca6f25e0b34e42fc26e299eca56f8c160ac",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 10,
+        "original_excerpt": "May 31st.—",
+        "source_sha256": "2646c9fea11e62e4f834f12e087c5ca6f25e0b34e42fc26e299eca56f8c160ac"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "May 31st.—"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-517",
+      "paragraph": 2,
+      "source_sha256": "8a77e06a03af33dae58a39217c292061d4722f84f317f3f9d9bc8133be3ab9bb",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 21,
+        "original_excerpt": "Chas Darwin June 6th.",
+        "source_sha256": "8a77e06a03af33dae58a39217c292061d4722f84f317f3f9d9bc8133be3ab9bb"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " June 6th.",
+      "literal_boundary": " June 6th."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-517",
+      "paragraph": 3,
+      "source_sha256": "8a77e06a03af33dae58a39217c292061d4722f84f317f3f9d9bc8133be3ab9bb",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 18,
+        "original_excerpt": "12 Upper Gower St.",
+        "source_sha256": "8a77e06a03af33dae58a39217c292061d4722f84f317f3f9d9bc8133be3ab9bb"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "12 Upper Gower St."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-530",
+      "paragraph": 3,
+      "source_sha256": "e3c39f613fe0f210d03ba1070ec35c1125a3153927d591e6eb6dc399c608fc48",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 73,
+        "original_excerpt": "Believe me dear Sir | Yours respectfully | Chas. Darwin 12 Upper Gower St",
+        "source_sha256": "e3c39f613fe0f210d03ba1070ec35c1125a3153927d591e6eb6dc399c608fc48"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 12 Upper Gower St",
+      "literal_boundary": " 12 Upper"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-530",
+      "paragraph": 4,
+      "source_sha256": "e3c39f613fe0f210d03ba1070ec35c1125a3153927d591e6eb6dc399c608fc48",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 9,
+        "original_excerpt": "Aug 7th.—",
+        "source_sha256": "e3c39f613fe0f210d03ba1070ec35c1125a3153927d591e6eb6dc399c608fc48"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Aug 7th.—"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-580",
+      "paragraph": 2,
+      "source_sha256": "b119d394f84253b9bb1be2f8c1fa3569cbaaca75547dc7bc83db4ce2b9e0a8dd",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 29,
+        "original_excerpt": "Charles Darwin November 18th.",
+        "source_sha256": "b119d394f84253b9bb1be2f8c1fa3569cbaaca75547dc7bc83db4ce2b9e0a8dd"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " November 18th.",
+      "literal_boundary": " November 18th."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-595",
+      "paragraph": 11,
+      "source_sha256": "b0cff504ea6e7a03e856f60d1810b9c99da39ad885ad32c4c349e8f118613d86",
+      "original_span": {
+        "paragraph": 11,
+        "start": 0,
+        "end": 40,
+        "original_excerpt": "Farewell | Ever yours | C. Darwin Friday",
+        "source_sha256": "b0cff504ea6e7a03e856f60d1810b9c99da39ad885ad32c4c349e8f118613d86"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Friday",
+      "literal_boundary": " Friday"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-597",
+      "paragraph": 5,
+      "source_sha256": "1679a4655e29a0962f3edc22b5eaaf8370865000623ad989b758da3b8979073f",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 58,
+        "original_excerpt": "My dear Lonsdale | Most truly Your’s | C. Darwin Wednesday",
+        "source_sha256": "1679a4655e29a0962f3edc22b5eaaf8370865000623ad989b758da3b8979073f"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Wednesday",
+      "literal_boundary": " Wednesday"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-598F",
+      "paragraph": 3,
+      "source_sha256": "3bb5be906af48519fa30c424809754c59cc498803374ec3a855e6af355dfe6e6",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 17,
+        "original_excerpt": "May 8th. Saturday",
+        "source_sha256": "3bb5be906af48519fa30c424809754c59cc498803374ec3a855e6af355dfe6e6"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "May 8th. Saturday"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-599",
+      "paragraph": 4,
+      "source_sha256": "909216582903b82545c0d886f2ec3c8b30c05bd205c8a39c93bdc784c65032a9",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 65,
+        "original_excerpt": "Believe me dear Jenyns | Most truly your’s | C. Darwin June 24th—",
+        "source_sha256": "909216582903b82545c0d886f2ec3c8b30c05bd205c8a39c93bdc784c65032a9"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " June 24th—",
+      "literal_boundary": " June 24th"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-606",
+      "paragraph": 5,
+      "source_sha256": "4f399a8776f75ff9ff7819e692850d3d21e416d82a7b3ae528a618ebace2883c",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 53,
+        "original_excerpt": "Your affect friend | Charles Darwin 12 Upper Gower St",
+        "source_sha256": "4f399a8776f75ff9ff7819e692850d3d21e416d82a7b3ae528a618ebace2883c"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 12 Upper Gower St",
+      "literal_boundary": " 12 Upper"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-609F",
+      "paragraph": 3,
+      "source_sha256": "1d8a0c17544b5af703eb4707474978f3aa019833852288d75e656bd487d21ca5",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 20,
+        "original_excerpt": "12 Upper Gower Stt.—",
+        "source_sha256": "1d8a0c17544b5af703eb4707474978f3aa019833852288d75e656bd487d21ca5"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "12 Upper Gower Stt.—"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-618",
+      "paragraph": 5,
+      "source_sha256": "e91884fe754fbde3ff4868c87194e4558f90819cb558d697e81d3ab7beec7a3e",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 25,
+        "original_excerpt": "C. Darwin Feb. 7th. 1842.",
+        "source_sha256": "e91884fe754fbde3ff4868c87194e4558f90819cb558d697e81d3ab7beec7a3e"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Feb. 7th. 1842.",
+      "literal_boundary": " Feb. 7th."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-618",
+      "paragraph": 6,
+      "source_sha256": "e91884fe754fbde3ff4868c87194e4558f90819cb558d697e81d3ab7beec7a3e",
+      "original_span": {
+        "paragraph": 6,
+        "start": 0,
+        "end": 16,
+        "original_excerpt": "12 Up. Gower St.",
+        "source_sha256": "e91884fe754fbde3ff4868c87194e4558f90819cb558d697e81d3ab7beec7a3e"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "12 Up. Gower St."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-63",
+      "paragraph": 5,
+      "source_sha256": "61db340ee4dbcdb21e1af2245439b75df18b204e19af85d42770ad340ffb3fc3",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 9,
+        "original_excerpt": "Cambridge",
+        "source_sha256": "61db340ee4dbcdb21e1af2245439b75df18b204e19af85d42770ad340ffb3fc3"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Cambridge"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-647",
+      "paragraph": 3,
+      "source_sha256": "acb2f223f9a808908613cd8db279adef6bd9cd2fe311e979582290e9c661cd2f",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 32,
+        "original_excerpt": "Charles Darwin October 4th. 1842",
+        "source_sha256": "acb2f223f9a808908613cd8db279adef6bd9cd2fe311e979582290e9c661cd2f"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " October 4th. 1842",
+      "literal_boundary": " October 4th."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-650",
+      "paragraph": 2,
+      "source_sha256": "c85e1d10b2888052799d7da1bcaf933b03b13ec48f509b4946670651d161e6ef",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 110,
+        "original_excerpt": "With many thanks Believe me | My dear Sir | Yours very sincerely | C. Darwin Octob. 13th To Col. Jackson &c &c",
+        "source_sha256": "c85e1d10b2888052799d7da1bcaf933b03b13ec48f509b4946670651d161e6ef"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Octob. 13th To Col. Jackson &c &c",
+      "literal_boundary": " Octob. 13th"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-667",
+      "paragraph": 4,
+      "source_sha256": "747861939f402d73f09037b2a5ec711fcd0a5ed35e4dd4c1cfe7b3737f9e1a74",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 82,
+        "original_excerpt": "Believe me, dear FitzRoy, | Your ever truly obliged, | Charles Darwin. March 31st.",
+        "source_sha256": "747861939f402d73f09037b2a5ec711fcd0a5ed35e4dd4c1cfe7b3737f9e1a74"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " March 31st.",
+      "literal_boundary": " March 31st."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-672",
+      "paragraph": 2,
+      "source_sha256": "9748cf82d06ed85b7a47fe4444fa80443acaa77f8173c08795f5558c526d9906",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 48,
+        "original_excerpt": "Yours very sincerely | Charles Darwin April 23d.",
+        "source_sha256": "9748cf82d06ed85b7a47fe4444fa80443acaa77f8173c08795f5558c526d9906"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " April 23d.",
+      "literal_boundary": " April 23d."
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-680",
+      "paragraph": 3,
+      "source_sha256": "4471dcc0c35748b3c2656dfc12d398c40b63fac88fd5fc10534aaa3d9b5d1920",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 67,
+        "original_excerpt": "Believe me | Dear Sir | Yours faithfully | C. Darwin H. Colburn Esq",
+        "source_sha256": "4471dcc0c35748b3c2656dfc12d398c40b63fac88fd5fc10534aaa3d9b5d1920"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " H. Colburn Esq",
+      "literal_boundary": " H. Colburn Esq"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-851",
+      "paragraph": 7,
+      "source_sha256": "180f536cce52180e39a0065f9606e5655652a1442455b6aa5961b4a7b3a75526",
+      "original_span": {
+        "paragraph": 7,
+        "start": 0,
+        "end": 20,
+        "original_excerpt": "To | J. Murray Esqe—",
+        "source_sha256": "180f536cce52180e39a0065f9606e5655652a1442455b6aa5961b4a7b3a75526"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "To | J. Murray Esqe—"
+    },
+    {
+      "role": "grounding",
+      "source_id": "DCP-LETT-96",
+      "paragraph": 7,
+      "source_sha256": "5a976069d1a7c6e260c0d69bc35e6ba9ffc17e6aa9bd00c58e8abf495f5e1fef",
+      "original_span": {
+        "paragraph": 7,
+        "start": 0,
+        "end": 19,
+        "original_excerpt": "Shrewsbury Thursday",
+        "source_sha256": "5a976069d1a7c6e260c0d69bc35e6ba9ffc17e6aa9bd00c58e8abf495f5e1fef"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Shrewsbury Thursday"
+    },
+    {
+      "role": "answer",
+      "source_id": "DCP-LETT-506",
+      "paragraph": 3,
+      "source_sha256": "5ffb487fe98365fd0878b343a12d2c6304bd1a82c87bec7253a51c23ee8ddf12",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 62,
+        "original_excerpt": "Believe me | Most truly Yours | Chas. Darwin 12 Upper Gower St",
+        "source_sha256": "5ffb487fe98365fd0878b343a12d2c6304bd1a82c87bec7253a51c23ee8ddf12"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 12 Upper Gower St",
+      "literal_boundary": " 12 Upper"
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-785",
+      "paragraph": 4,
+      "source_sha256": "b85d3ab632208850e7ea38a8db48b1c1d853728aee5b7ebd6f33ebdb3892cac5",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 78,
+        "original_excerpt": "Believe me | Dr Sir | Yours respectfully | Henry Denny Chas Darwin Esq | &c &c",
+        "source_sha256": "b85d3ab632208850e7ea38a8db48b1c1d853728aee5b7ebd6f33ebdb3892cac5"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Chas Darwin Esq | &c &c",
+      "literal_boundary": " Chas Darwin Esq"
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-802",
+      "paragraph": 4,
+      "source_sha256": "b398307329317e717adff0ab8d842111fe6730015076871860f741ce58190cbb",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 71,
+        "original_excerpt": "I am, dear Sir, | very sincerely yours | W B Carpenter Chas Darwin Esq.",
+        "source_sha256": "b398307329317e717adff0ab8d842111fe6730015076871860f741ce58190cbb"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Chas Darwin Esq.",
+      "literal_boundary": " Chas Darwin Esq."
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-816",
+      "paragraph": 6,
+      "source_sha256": "60995ed7f1cede8a404158df740e5d2b85753dcc1f4ee8abd3d1afc987922619",
+      "original_span": {
+        "paragraph": 6,
+        "start": 0,
+        "end": 92,
+        "original_excerpt": "I am | My dear Sir | Most sincerely yours | Charles Hamn Smith Charles Darwin Esq | &c &c &c",
+        "source_sha256": "60995ed7f1cede8a404158df740e5d2b85753dcc1f4ee8abd3d1afc987922619"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Charles Darwin Esq | &c &c &c",
+      "literal_boundary": " Charles Darwin Esq"
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-979",
+      "paragraph": 3,
+      "source_sha256": "09855ab7aaa4a9bc2fffd9615dc72d9400fcb3be3b849f1768a0c1d586875f20",
+      "original_span": {
+        "paragraph": 3,
+        "start": 0,
+        "end": 88,
+        "original_excerpt": "Believe me my dear Sir. | faithfully yours. | G. Grey. Charles Darwin Esq. | &c. &c. &c.",
+        "source_sha256": "09855ab7aaa4a9bc2fffd9615dc72d9400fcb3be3b849f1768a0c1d586875f20"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Charles Darwin Esq. | &c. &c. &c.",
+      "literal_boundary": " Charles Darwin Esq."
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-1158",
+      "paragraph": 12,
+      "source_sha256": "699439e6f907791e5c43e469bbb58a72896881949d76a1cb48258a3f258735e8",
+      "original_span": {
+        "paragraph": 12,
+        "start": 0,
+        "end": 40,
+        "original_excerpt": "Shalkunj—50’ S.E. of Mirzapore, March 4—",
+        "source_sha256": "699439e6f907791e5c43e469bbb58a72896881949d76a1cb48258a3f258735e8"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Shalkunj—50’ S.E. of Mirzapore, March 4—"
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-1158",
+      "paragraph": 13,
+      "source_sha256": "699439e6f907791e5c43e469bbb58a72896881949d76a1cb48258a3f258735e8",
+      "original_span": {
+        "paragraph": 13,
+        "start": 0,
+        "end": 12,
+        "original_excerpt": "Dear Darwin—",
+        "source_sha256": "699439e6f907791e5c43e469bbb58a72896881949d76a1cb48258a3f258735e8"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Dear Darwin—"
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-1158",
+      "paragraph": 18,
+      "source_sha256": "699439e6f907791e5c43e469bbb58a72896881949d76a1cb48258a3f258735e8",
+      "original_span": {
+        "paragraph": 18,
+        "start": 0,
+        "end": 20,
+        "original_excerpt": "Mirzapore March 8th.",
+        "source_sha256": "699439e6f907791e5c43e469bbb58a72896881949d76a1cb48258a3f258735e8"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Mirzapore March 8th."
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-1158",
+      "paragraph": 19,
+      "source_sha256": "699439e6f907791e5c43e469bbb58a72896881949d76a1cb48258a3f258735e8",
+      "original_span": {
+        "paragraph": 19,
+        "start": 0,
+        "end": 7,
+        "original_excerpt": "Dear D.",
+        "source_sha256": "699439e6f907791e5c43e469bbb58a72896881949d76a1cb48258a3f258735e8"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Dear D."
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-1158",
+      "paragraph": 22,
+      "source_sha256": "699439e6f907791e5c43e469bbb58a72896881949d76a1cb48258a3f258735e8",
+      "original_span": {
+        "paragraph": 22,
+        "start": 0,
+        "end": 16,
+        "original_excerpt": "Benares Feby 16.",
+        "source_sha256": "699439e6f907791e5c43e469bbb58a72896881949d76a1cb48258a3f258735e8"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Benares Feby 16."
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-1600",
+      "paragraph": 6,
+      "source_sha256": "eed1c369b356e2836962870323db1c3acddc7df106e9791a0e2abf90c772753b",
+      "original_span": {
+        "paragraph": 6,
+        "start": 0,
+        "end": 41,
+        "original_excerpt": "Ever dr Darwin Yr | J D Hooker Kew Monday",
+        "source_sha256": "eed1c369b356e2836962870323db1c3acddc7df106e9791a0e2abf90c772753b"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Kew Monday",
+      "literal_boundary": " Kew Monday"
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-1790",
+      "paragraph": 14,
+      "source_sha256": "a35c0b15c028c2da3ad1ce596b462b64c6368461548859d7b43d2339e4a12d9e",
+      "original_span": {
+        "paragraph": 14,
+        "start": 0,
+        "end": 24,
+        "original_excerpt": "W. H. B. 5th December 55",
+        "source_sha256": "a35c0b15c028c2da3ad1ce596b462b64c6368461548859d7b43d2339e4a12d9e"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " 5th December 55",
+      "literal_boundary": " 5th December 55"
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-1883",
+      "paragraph": 80,
+      "source_sha256": "b891bcce5b723c0b83f288d4c84b8dfc7a285c0ff5d9c846dcdc891ce95da518",
+      "original_span": {
+        "paragraph": 80,
+        "start": 0,
+        "end": 26,
+        "original_excerpt": "Hastings | May 31. | 1856.",
+        "source_sha256": "b891bcce5b723c0b83f288d4c84b8dfc7a285c0ff5d9c846dcdc891ce95da518"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Hastings | May 31. | 1856."
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-1951",
+      "paragraph": 21,
+      "source_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73",
+      "original_span": {
+        "paragraph": 21,
+        "start": 0,
+        "end": 15,
+        "original_excerpt": "Ch. Darwin Esq.",
+        "source_sha256": "1a119448acb902aa2c11675a476091ccfdd9b48c4373a0fb8ba6257a9c506e73"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Ch. Darwin Esq."
+    },
+    {
+      "role": "answer",
+      "source_id": "DCP-LETT-1986",
+      "paragraph": 10,
+      "source_sha256": "385831739617a35a57cac050d51d8d34181c62d2962fd1bebe18aa1cc0785587",
+      "original_span": {
+        "paragraph": 10,
+        "start": 0,
+        "end": 14,
+        "original_excerpt": "P.S. Wednesday",
+        "source_sha256": "385831739617a35a57cac050d51d8d34181c62d2962fd1bebe18aa1cc0785587"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " Wednesday",
+      "literal_boundary": " Wednesday"
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-1026F",
+      "paragraph": 5,
+      "source_sha256": "bb78cc8826213416b20bbcf4c4e490b975573018e50551f8e7992398f8b2079e",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 16,
+        "original_excerpt": "C. R. Darwin Esq",
+        "source_sha256": "bb78cc8826213416b20bbcf4c4e490b975573018e50551f8e7992398f8b2079e"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "C. R. Darwin Esq"
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-2366",
+      "paragraph": 6,
+      "source_sha256": "5aa93466f841bc1122c8c005039835115fe09965eacb69b9c6e2c7e6140af7a6",
+      "original_span": {
+        "paragraph": 6,
+        "start": 0,
+        "end": 70,
+        "original_excerpt": "Believe me | Yours very truly | Willm. Allport Leighton C. Darwin Esq.",
+        "source_sha256": "5aa93466f841bc1122c8c005039835115fe09965eacb69b9c6e2c7e6140af7a6"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " C. Darwin Esq.",
+      "literal_boundary": " C. Darwin Esq."
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-2443",
+      "paragraph": 2,
+      "source_sha256": "e563d4734c757f011697161e3fd038df9ad0a4adf0bdaa8d66064626ac1cb7f2",
+      "original_span": {
+        "paragraph": 2,
+        "start": 0,
+        "end": 64,
+        "original_excerpt": "Yours very faithfully | (signed) John Murray. Charles Darwin Esq",
+        "source_sha256": "e563d4734c757f011697161e3fd038df9ad0a4adf0bdaa8d66064626ac1cb7f2"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " (signed) John Murray. Charles Darwin Esq",
+      "literal_boundary": " (signed)"
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-2476G",
+      "paragraph": 4,
+      "source_sha256": "a27dae53016cf2cca461d7da0e2d0ebb6a04b8cc94243f084d66615e91f7281f",
+      "original_span": {
+        "paragraph": 4,
+        "start": 0,
+        "end": 61,
+        "original_excerpt": "I am | My Dear Sir | Yours faithfully | (signed) John Higgins",
+        "source_sha256": "a27dae53016cf2cca461d7da0e2d0ebb6a04b8cc94243f084d66615e91f7281f"
+      },
+      "action": "exclude_trailing_dateline_or_addressee",
+      "removed": " (signed) John Higgins",
+      "literal_boundary": " (signed)"
+    },
+    {
+      "role": "question",
+      "source_id": "DCP-LETT-2476G",
+      "paragraph": 5,
+      "source_sha256": "a27dae53016cf2cca461d7da0e2d0ebb6a04b8cc94243f084d66615e91f7281f",
+      "original_span": {
+        "paragraph": 5,
+        "start": 0,
+        "end": 21,
+        "original_excerpt": "Charles R. Darwin Esq",
+        "source_sha256": "a27dae53016cf2cca461d7da0e2d0ebb6a04b8cc94243f084d66615e91f7281f"
+      },
+      "action": "exclude_standalone_header",
+      "removed": "Charles R. Darwin Esq"
+    }
+  ],
+  "retained_authorial_postal_instructions": [
+    "1032F",
+    "1269",
+    "1698",
+    "2182F",
+    "659"
+  ],
+  "new_currency_hold": "DCP-LETT-2357",
+  "note": "Signatures and authored closing prose retained; datelines, recipient routing and metadata omitted."
+}

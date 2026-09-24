@@ -1,0 +1,424 @@
+{
+  "batch_id": "batch-09",
+  "model": "gpt-5.6-luna",
+  "status": "first_pass_complete",
+  "record_reviews": [
+    {
+      "letter_id": "DCP-LETT-3132",
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-3132.html",
+      "source_sha256": "5012bbca1db196157dd76244fdc670065b8756f4ac175f6b5bbb5e92095d2ad5",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "source_kind": "preserved HTML transcription of a contemporary copy, with an incomplete original and full scholarly apparatus",
+      "summary": "Lyell’s twenty-five surviving body blocks continue his 3 October critique of the Origin. He argues that creation could give Galápagos species a South American stamp, presses Lamarckian monad-production and progressive development, and says adding a principle of improvement makes selection indistinguishable from a mysterious creative power. He then comments on chapters X and XI, migration and specific centres, asks focused questions about primrose/cowslip intermediates, coccygeal vertebrae, rudimentary versus prophetic organs and Apteryx, and ends by predicting the book will mark an era. The body is not a catalogue synopsis: it contains Lyell’s direct objections and questions, with paragraph 13’s Gaudin/Heer report and blocks 14 and 16 acting as manuscript/page notes.",
+      "date_assessment": "The TEI sent date is 4 October 1859 exactly (1859-10-04); the source note says the preserved text is mostly a contemporary copy in Mary Elizabeth Lyell’s hand, with an incomplete original scrap in DAR 170:81. Composition, copy/transmission, dispatch and Darwin’s receipt are separate; the body does not establish when Darwin received it.",
+      "attribution_assessment": "Lyell is the incoming author of the surviving argument, but the physical witness is a copy and an incomplete autograph fragment. The Gaudin report, Heer report, Huxley quotation and references to Agassiz/Owen/Grove are embedded reported voices, while editorial footnotes supply later publication references and must not be treated as Lyell body prose.",
+      "proposed_prompt_ids": [
+        "DCP-LETT-2503"
+      ],
+      "alternative_candidates_considered": [
+        {
+          "id": "DCP-LETT-2501",
+          "assessment": "2501 is Lyell’s 3 October letter and supplies the opening proof-review exchange; 3132 is a distinct 4 October continuation. 2503’s wording about the long letter of 3d and still longer of 4th supports a two-input response, so the whole of 2503 cannot be assigned to either incoming letter alone."
+        },
+        {
+          "id": "DCP-LETT-2507",
+          "assessment": "2507 answers Lyell’s continuing climate/progression objections but does not identify these 4 October chapter questions as its sole prompt; it follows the exchange later in October."
+        }
+      ],
+      "unmatched_reason": "The strongest candidate is the partial 3132→2503 reply. Lyell’s original 4 October letter is not fully preserved, and 3132 itself is mostly a contemporary copy with an incomplete autograph, so receipt and exact section-to-section attribution remain bounded.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-3132",
+          "body_paragraph": 21,
+          "locator": "div#letter div.body-content; retained body block 21",
+          "quote": "Are there no intermediate or transitional forms between the primrose & the cowslip? when they are from the seed of one plant."
+        },
+        {
+          "letter_id": "DCP-LETT-3132",
+          "body_paragraph": 23,
+          "locator": "div#letter div.body-content; retained body block 23",
+          "quote": "Grove once suggested to me that rudimentary organs may be quite as often the germs of organs about to be enjoyed by descendants as the remains of organs became abortive."
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-2503",
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2503.html",
+      "source_sha256": "d67c2e289617d2b2a718908d3b8353af510998a0b7a3f8d7ed2cf21540f67521",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "source_kind": "preserved HTML source with full body and scholarly apparatus",
+      "summary": "Darwin answers Lyell's 3 and 4 October letters point by point, softening the eye passage, correcting living naturalists, and defending natural selection against creation and climate objections; Madeira birds and primrose experiments receive specific treatment.",
+      "date_assessment": "XML date 11 October 1859; Darwin to Lyell.",
+      "attribution_assessment": "25 body blocks; no figure.",
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No additional link is asserted unless a preserved incoming source has a distinctive body-level question or acknowledgement. Current batch-09 pass reverified the full body and apparatus; no prior review is treated as an accepted decision.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2503",
+          "body_paragraph": 1,
+          "locator": "div#letter div.body-content; retained body block 1",
+          "quote": "I thank you cordially for giving me so much of your valuable time in writing me the long letter of 3d & still longer of 4th.—"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-2507",
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2507.html",
+      "source_sha256": "c5a7f17c8aa79eae619354e6480e1b2e9f1c74251de5c2196c9155d70ab7388f",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_kind": "preserved HTML source with full body and scholarly apparatus",
+      "summary": "Darwin responds to Lyell on feral Australian organisms, drought, climate, American types and continued creative intervention, arguing natural selection can explain vertebrate change from a simple ancestor.",
+      "date_assessment": "XML date 20 October 1859; Darwin to Lyell.",
+      "attribution_assessment": "9 body blocks; no figure.",
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No additional link is asserted unless a preserved incoming source has a distinctive body-level question or acknowledgement. Current batch-09 pass reverified the full body and apparatus; no prior review is treated as an accepted decision.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2507",
+          "body_paragraph": 3,
+          "locator": "div#letter div.body-content; retained body block 3",
+          "quote": "There is one point in your letter, which I did not notice, about the animals (& many plants) naturalised in Australia"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-2508F",
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2508F.html",
+      "source_sha256": "ea41daab6d7e00df8d1ae98607285557daed662704359fabb9c8e6054b288f88",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "source_kind": "preserved HTML source with full body and scholarly apparatus",
+      "summary": "Lyell asks Darwin to expand Pallas's multiple canine-stock theory, testing it against gestation, human races and specific centres, while also discussing Hooker's migration question.",
+      "date_assessment": "XML date 22 October 1859; Lyell to Darwin.",
+      "attribution_assessment": "14 body blocks; no figure.",
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No additional link is asserted unless a preserved incoming source has a distinctive body-level question or acknowledgement. Current batch-09 pass reverified the full body and apparatus; no prior review is treated as an accepted decision.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2508F",
+          "body_paragraph": 2,
+          "locator": "div#letter div.body-content; retained body block 2",
+          "quote": "I wish you would enlarge a little in a letter on that point"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-2510",
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2510.html",
+      "source_sha256": "63e01325e855f8d04b66365a6018250ca162e5ee6dc7f458a868b5ed1f75dd07",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "source_kind": "preserved HTML source with full body and scholarly apparatus",
+      "summary": "Darwin explains Pallas's hypothetical wolf/jackal/fox ancestry and crossing theory, then distinguishes human from natural selection and defends improvement as relational adaptation.",
+      "date_assessment": "XML date 25 October 1859; Darwin to Lyell.",
+      "attribution_assessment": "11 body blocks; no figure.",
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No additional link is asserted unless a preserved incoming source has a distinctive body-level question or acknowledgement. Current batch-09 pass reverified the full body and apparatus; no prior review is treated as an accepted decision.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2510",
+          "body_paragraph": 1,
+          "locator": "div#letter div.body-content; retained body block 1",
+          "quote": "The doctrine of Pallas applied to our domestic breeds"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-2494",
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2494.html",
+      "source_sha256": "48a2b81c2c88255b4df817b5703fe263d021552d2c3c782abf855e87b2f98ce6",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "source_kind": "preserved HTML source with full body and scholarly apparatus",
+      "summary": "Darwin sends four corrected sheets and explains changes made after Lyell's remark about Eocene and recent climates. He asks Lyell to consider distribution at a species' range centre, praises Hooker's agreement on organic relations, discusses glacial distribution and the geological-record chapter, and thanks Lyell's Aberdeen eulogy. The source shows a narrow proof-review response to Lyell's remarks, but the relevant incoming letter is not retained.",
+      "date_assessment": "XML date is 25 September 1859 with an editorial footnote and bracketed year. Darwin is author; Lyell and Hooker are the addressed/reported voices. The planned departure on 29 September and arrival on 1 October are travel constraints, not receipt dates for Lyell.",
+      "attribution_assessment": "The body has 8 paragraphs; no retained figure.",
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No additional link is asserted unless a preserved incoming source has a distinctive body-level question or acknowledgement. Current batch-09 pass reverified the full body and apparatus; no prior review is treated as an accepted decision.",
+      "evidence": []
+    },
+    {
+      "letter_id": "DCP-LETT-2496",
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2496.html",
+      "source_sha256": "96f89464dae1ba040cbe8748ba7345934d9e9d0564befe0bc5fa76b3862efe8c",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_kind": "preserved HTML source with full body and scholarly apparatus",
+      "summary": "Darwin sends final sheets without an index and asks Lyell to reread the Recapitulation as a judge. He reflects on the difficulty of seeing the problem before solving it, then develops the contrast between divergence, extinction, sterile crosses and hybrids, saying he had 'struck my colours' over neuter insects. Murray's 1,250-copy print run and the approaching second-edition possibility close the letter. This is a reflective outgoing response to Lyell's review/reading, but the specific incoming comments are not preserved here.",
+      "date_assessment": "XML date is 30 September 1859 exactly; Darwin is author and Lyell recipient. The cover-note wording cited in the footnote is editorial evidence of the same exchange, not a second body voice. Dispatch of sheets is stated; receipt and reading remain unconfirmed.",
+      "attribution_assessment": "The body has 7 paragraphs; no retained figure.",
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No additional link is asserted unless a preserved incoming source has a distinctive body-level question or acknowledgement. Current batch-09 pass reverified the full body and apparatus; no prior review is treated as an accepted decision.",
+      "evidence": []
+    },
+    {
+      "letter_id": "DCP-LETT-2501",
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2501.html",
+      "source_sha256": "6ee3754a973b17cc44422e729269f1651e30ba479abd4c9fa6e7a608b5228769",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_kind": "preserved HTML source with full body and scholarly apparatus",
+      "summary": "Lyell's 19-block letter says he has finished the Origin and praises its sustained reasoning, while recommending concrete examples in a future edition. He challenges Darwin on Lamarck and Geoffroy, the eye objection, condensed passages, Madeira birds and storms, and the relation of natural selection to a principle of improvement. He explicitly reports missing pages 400–409 and asks Darwin to send old proofs to Scarborough. This is a substantive incoming critique with multiple separable prompt spans; its direct preserved response is Darwin 2503, while later Pallas correspondence is a different exchange.",
+      "date_assessment": "XML date is 3 October 1859 exactly; Lyell is the incoming author and Darwin the recipient. The letter records Lyell's completed reading, but not when Darwin received or answered it beyond Darwin's later acknowledgement. Paragraph 16 establishes missing proof pages as a documentary gap.",
+      "attribution_assessment": "The body has 19 paragraphs; no retained figure.",
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No additional link is asserted unless a preserved incoming source has a distinctive body-level question or acknowledgement. Current batch-09 pass reverified the full body and apparatus; no prior review is treated as an accepted decision.",
+      "evidence": []
+    }
+  ],
+  "additional_record_reviews": [],
+  "proposed_links": [
+    {
+      "source_id": "DCP-LETT-3132",
+      "target_id": "DCP-LETT-2503",
+      "relationship": "replies_to",
+      "status": "candidate_only",
+      "reason": "2503 explicitly thanks Lyell for the “still longer” letter of 4th and answers its distinctive objections about American types, progressive creative power, primrose/cowslip and rudimentary organs. Because 2503 also answers Lyell’s 3rd letter and a missing proof exchange, only a partial response scope is supportable.",
+      "known_by_date": null,
+      "actual_receipt_date": null,
+      "response_scope": "DCP-LETT-2503 P3-P21 where its answer topics overlap 3132; do not attribute P1-P2 or every answer to 3132.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-3132",
+          "body_paragraph": 13,
+          "locator": "div#letter div.body-content; retained body block 13",
+          "quote": "In a letter of Gaudins some months ago he told me of Heer of Zurich having made out a fine Miocene Flora in Iceland"
+        },
+        {
+          "letter_id": "DCP-LETT-2503",
+          "body_paragraph": 3,
+          "locator": "div#letter div.body-content; retained body block 3",
+          "quote": "Birds which have struggled in their own homes when settled in a body nearly simultaneously in new country"
+        }
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-2501",
+      "target_id": "DCP-LETT-2503",
+      "relationship": "replies_to",
+      "status": "candidate_only",
+      "reason": "2503 names Lyell’s letter of 3d as one of two inputs. 2501 is that 3 October reading letter, but 2503 also answers the 4 October continuation 3132; preserve the split rather than treating 2501 as the whole antecedent.",
+      "known_by_date": null,
+      "actual_receipt_date": null,
+      "response_scope": "2503 P1-P3 and P8-P16 only as a partial scope; exact paragraph attribution between 2501 and 3132 remains uncertain.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2501",
+          "body_paragraph": 1,
+          "locator": "div#letter div.body-content; retained body block 1",
+          "quote": "I have just finished your volume & right glad I am that I did my best with Hooker to persuade you to publish it"
+        },
+        {
+          "letter_id": "DCP-LETT-2503",
+          "body_paragraph": 1,
+          "locator": "div#letter div.body-content; retained body block 1",
+          "quote": "I thank you cordially for giving me so much of your valuable time in writing me the long letter of 3d & still longer of 4th.—"
+        }
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-2508F",
+      "target_id": "DCP-LETT-2510",
+      "relationship": "replies_to",
+      "status": "candidate_only",
+      "reason": "2510 directly defines and answers Lyell’s Pallas/dog questions, including the multiple wild stocks and gestation issue; other paragraphs answer broader earlier objections.",
+      "known_by_date": null,
+      "actual_receipt_date": null,
+      "response_scope": "2510 P1-P3 and P7-P10.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2508F",
+          "body_paragraph": 2,
+          "locator": "div#letter div.body-content; retained body block 2",
+          "quote": "I wish you would enlarge a little in a letter on that point"
+        },
+        {
+          "letter_id": "DCP-LETT-2510",
+          "body_paragraph": 1,
+          "locator": "div#letter div.body-content; retained body block 1",
+          "quote": "The doctrine of Pallas applied to our domestic breeds, we will say to Dogs, is as follows."
+        }
+      ]
+    }
+  ],
+  "unlocated_references": [
+    {
+      "reference": "Missing complete original of Lyell 4 October letter / DAR 170:81 scrap",
+      "mentioned_in": [
+        "DCP-LETT-3132"
+      ],
+      "reason": "The preserved HTML identifies a contemporary copy and incomplete original; no complete autograph body is available here."
+    },
+    {
+      "reference": "Lyell letter of 4 October is distinct from 3 October letter",
+      "mentioned_in": [
+        "DCP-LETT-2503",
+        "DCP-LETT-3132"
+      ],
+      "reason": "2503 states it answers a long letter of 3d and a still longer letter of 4th; preserve two incoming sources and partial scopes."
+    }
+  ],
+  "date_sections": [],
+  "issues": [
+    {
+      "type": "copy_and_apparatus",
+      "note": "3132 body is mostly a contemporary copy; editorial footnotes identify source fragments and later printed works. Those layers are retained separately from the authorial body."
+    },
+    {
+      "type": "visuals",
+      "note": "No figure asset is associated with these eight records in the 1858-1859 manifest; no visual claim is made."
+    }
+  ]
+}

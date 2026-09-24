@@ -1,0 +1,75 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856-1857 batch-30 source-text rendering, attribution, date and extent requirements only. Candidate documentation; no converter, transcript, export, training or accepted evidence changes.",
+  "primary_provenance": {
+    "parent_reading": {"path": "reports/1856-1857/review/parent-reading/batch-30.json", "sha256": "c20abcb4edc847d78558bf110d7ef0c15f618a92cd1f4de4ccb36e022fddda50"},
+    "parent_decisions": {"path": "reports/1856-1857/review/parent-decisions/batch-30.json", "sha256": "b7e54b7df0ac9dc452f506f9695ed5f0d9cfcd38c94c74fc60bd54e83b69088a"},
+    "ledger": {"path": "data/annotations/periods/1856-1857/batch-30.json", "sha256": "8e6f5988e72929ba2c2e8d0efad600b80584331b4053e4f33e24d83e6294f83c"},
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": ["DCP-LETT-2000", "DCP-LETT-2019"],
+      "case": "Family letters: incomplete body, genuine half fractions and unresolved currency marks",
+      "requirement": "Keep 2000's surviving four body blocks ending mid-sentence; its terminal absence cannot be repaired from footnotes. Preserve the actual 10½ time in retained P3 as MathML 10 plus a one-half fraction. In 2019, preserve the completed six-block family account and its separate final Darwin note, with the Brougham 10½ guineas and armchair £6 12s 6d represented from their MathML/superscript markup. The vase text is literally £7 followed by a bare s with no shilling numeral, and the clock cost is bare 86 with no currency unit: retain those unresolved forms rather than infer £7s, 86 shillings or 8s 6d.",
+      "source_provenance": [
+        {"letter_id": "DCP-LETT-2000", "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2000.html", "source_html_sha256": "e68b124b6e851b09269eb64aa639a5d6323dbe400607ee763d68c1e770b037d5", "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2000.xml", "xml_sha256": "3fabe5554b5ec5486ef007d9cd5447e383177052c23076182d075921d049357c"},
+        {"letter_id": "DCP-LETT-2019", "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2019.html", "source_html_sha256": "4cb43c85fb437d2a2478ddde016db686501a585e51a9d56e07731cd798dbbf94", "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2019.xml", "xml_sha256": "27601dbbd07aa560da14c68861157fde4a8abe2e52afd44ebcf7b52b3a8629fb"}
+      ],
+      "exact_source_evidence": [
+        {"letter_id": "DCP-LETT-2000", "body_paragraph": 3, "quote": "Georgy staid till 10½ very jolly", "source_sha256": "e68b124b6e851b09269eb64aa639a5d6323dbe400607ee763d68c1e770b037d5", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]", "mathml": "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"},
+        {"letter_id": "DCP-LETT-2000", "body_paragraph": 4, "quote": "The grey mare has been growing thin ... whether she will not be too frisky for you", "source_sha256": "e68b124b6e851b09269eb64aa639a5d6323dbe400607ee763d68c1e770b037d5", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]", "extent_hold": "surviving body ends mid-sentence"},
+        {"letter_id": "DCP-LETT-2019", "body_paragraph": 4, "quote": "The Brougham 10½ guineas. The 3 Vases sold for £7 s.— An American clock which cost when new 86 sold for 15s.— The arm chair fetched £6 s 12 d 6", "source_sha256": "4cb43c85fb437d2a2478ddde016db686501a585e51a9d56e07731cd798dbbf94", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]", "markup_note": "Brougham contains MathML mfrac 1/2; currency symbols/units are superscript elements; vase lacks a shilling numeral and clock cost has no unit."}
+      ]
+    },
+    {
+      "source_ids": ["DCP-LETT-2029"],
+      "case": "Unsigned note with conjectured year and recipient",
+      "requirement": "Render the one surviving unsigned autograph note as an attributed Darwin note, retaining the supplied [1857?] year and conjectured W. E. Darwin recipient as uncertainty. Preserve its indirect request to tell Mr Linton about Darwin's belief that paired canaries and goldfinches produced fewer young and his request for facts about hybrid or first-cross eggs. Do not turn the Rugby apparatus or later Brent/Descent references into a fixed date, a confirmed recipient, or a missing Linton reply.",
+      "source_provenance": {"letter_id": "DCP-LETT-2029", "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2029.html", "source_html_sha256": "3d902165024bd99f3c42365ec88b1953894cba3cb04fde584a1edbc8e02fdf81", "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2029.xml", "xml_sha256": "fe4ff8452233bcc416449c1c7c28307a3b9c9ce0fd4a0df7ee47660724dda1db"},
+      "exact_source_evidence": [{"letter_id": "DCP-LETT-2029", "body_paragraph": 1, "quote": "I had always thought that canaries & goldfinches, when paired, produced fewer young-birds than the pure parents ... I shall be very much obliged for any facts about the eggs either of hybrids or of first crosses", "source_sha256": "3d902165024bd99f3c42365ec88b1953894cba3cb04fde584a1edbc8e02fdf81", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p"}]
+    },
+    {
+      "source_ids": ["DCP-LETT-2097"],
+      "case": "Uncertain account reading and reimbursement",
+      "requirement": "Preserve Darwin's explicit uncertainty when deciphering William's outlay: the body gives the unlabelled string '1 12 0' and says Darwin sends that amount. Do not normalize it into pounds, shillings and pence without a source witness. Keep the Manchester expedition as William's reported account and distinguish Darwin's reimbursement from receipt of the missing account or the separate Mayor banking letter.",
+      "source_provenance": {"letter_id": "DCP-LETT-2097", "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2097.html", "source_html_sha256": "3b1cb30e677ca5c02419c9e933262c22f6d4acfb5c928784dcbd0ac950e2d799", "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2097.xml", "xml_sha256": "635ae22e34cabeedc1a300db1e6072f1e76ca0d498a3dde47562a401d010cb2a"},
+      "exact_source_evidence": [{"letter_id": "DCP-LETT-2097", "body_paragraph": 3, "quote": "we rather think that your outlay was, 1 12 0 & accordingly I send that", "source_sha256": "3b1cb30e677ca5c02419c9e933262c22f6d4acfb5c928784dcbd0ac950e2d799", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"}]
+    },
+    {
+      "source_ids": ["DCP-LETT-2091"],
+      "case": "Composition versus planned posting",
+      "requirement": "Keep the May 13 composition date separate from the planned dispatch of the flute and note on May 14. The letter says Darwin has received William's Sunday and Tuesday letters, while the physical delivery dates of those inputs remain unknown. Preserve the £40 allowance as a proposal for summer discussion and Moor Park/Malvern as future plans, not completed receipts or events.",
+      "source_provenance": {"letter_id": "DCP-LETT-2091", "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2091.html", "source_html_sha256": "d870296366b67c951bbf0a4bac4c8ca16de1042a9a982c2e3bd6ad1731530f9d", "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2091.xml", "xml_sha256": "5444710cb11ff4992e9f7d6570ad9b5ed6e4dfc503f49f137070fafcb356c3b1"},
+      "exact_source_evidence": [{"letter_id": "DCP-LETT-2091", "body_paragraph": 3, "quote": "it shall go off tomorrow morning by the Post together with this note", "source_sha256": "d870296366b67c951bbf0a4bac4c8ca16de1042a9a982c2e3bd6ad1731530f9d", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"}]
+    },
+    {
+      "source_ids": ["DCP-LETT-1804", "DCP-LETT-1805"],
+      "case": "Quoted voices and the two different Snows",
+      "requirement": "Preserve 1804's four-page Leonard quotation as embedded quoted child voice and keep its enclosing letter note untranscribed; in the same paragraph Snow is explicitly the dog. Preserve 1805's Snow as the person who arrived in the carriage, and do not merge either Snow with the other source or with the missing enclosure. Keep 1804's 77-year Beech-ring observation separate from the proposed seed-burial experiment and 1805's reading/debating advice separate from the future barrister joke and incomplete lip-surgery outcome.",
+      "source_provenance": [
+        {"letter_id": "DCP-LETT-1804", "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1804.html", "source_html_sha256": "10f0ba5aa16b4e39f6c2f42cfc039bfef2cf6f61b5bc67639b3b46c78387a1e2", "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1804.xml", "xml_sha256": "ac0d0c9c2b1e34070afc1eafefb21fcef2abcd613523f7f43d39a7a08f6da885"},
+        {"letter_id": "DCP-LETT-1805", "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1805.html", "source_html_sha256": "d2ebb8d8346d7612d6c8bbdbc40d8e1878953092f9b61d5d6970930603b19e70", "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1805.xml", "xml_sha256": "999431c8e67cae62f474c741c5b14319075421690d56a4816d822e0f7c140dff"}
+      ],
+      "exact_source_evidence": [
+        {"letter_id": "DCP-LETT-1804", "body_paragraph": 2, "quote": "I enclose a note from Lenny ... Snow, the dog has come back, very fat", "source_sha256": "10f0ba5aa16b4e39f6c2f42cfc039bfef2cf6f61b5bc67639b3b46c78387a1e2", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"},
+        {"letter_id": "DCP-LETT-1804", "body_paragraph": 3, "quote": "by the rings it is 77 years old: I am going to try whether there are any seeds in the earth from right under it", "source_sha256": "10f0ba5aa16b4e39f6c2f42cfc039bfef2cf6f61b5bc67639b3b46c78387a1e2", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"},
+        {"letter_id": "DCP-LETT-1805", "body_paragraph": 6, "quote": "Snow came here today, in the carriage which took Harry back", "source_sha256": "d2ebb8d8346d7612d6c8bbdbc40d8e1878953092f9b61d5d6970930603b19e70", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"}
+      ]
+    },
+    {
+      "source_ids": ["DCP-LETT-2095"],
+      "case": "Incomplete November 1857 letter and no recovered tutor prompt",
+      "requirement": "Preserve the two surviving body blocks and terminal scope of 2095, including the morning refusal from tutor Wilson and Darwin's new letter to Mr Mayor. Keep the supplied [Nov 1857] range (1-30 November) rather than inventing a day or borrowing later 1858 payment evidence. The grey-mare sale and Catherine's visitor/art lessons remain proposals, not completed events; the missing Wilson reply and any covering material remain unavailable.",
+      "source_provenance": {"letter_id": "DCP-LETT-2095", "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2095.html", "source_html_sha256": "a60b28e5854da690f29ee2867713cc0c8bc36599da2ebd4443c6486f23b495c5", "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2095.xml", "xml_sha256": "a114496029340a34b2abdc294f22cdfc3c2cec9310d069449fef18faa110c663"},
+      "exact_source_evidence": [{"letter_id": "DCP-LETT-2095", "body_paragraph": 2, "quote": "I wrote a few days since to Mr Wilson, the Tutor, near Norwich & got an answer this morning saying that his house was full", "source_sha256": "a60b28e5854da690f29ee2867713cc0c8bc36599da2ebd4443c6486f23b495c5", "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"}]
+    }
+  ],
+  "coverage": {
+    "source_ids": ["DCP-LETT-1804", "DCP-LETT-2000", "DCP-LETT-2019", "DCP-LETT-2029", "DCP-LETT-1805", "DCP-LETT-2091", "DCP-LETT-2097", "DCP-LETT-2095"],
+    "html_and_xml_hashes_verified": true,
+    "body_paragraphs_are_retained_projection_numbers": true,
+    "dom_locators_are_raw_html_xpath": true,
+    "figures": "No figures are attached to these eight source records in the accepted batch-30 reading; no visual claim is made beyond source markup inspection."
+  }
+}

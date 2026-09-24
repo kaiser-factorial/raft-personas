@@ -1,0 +1,275 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batch-27 Tegetmeier source-text rendering, chronology, markup and provenance requirements only. Requirements documentation candidate; no converter, transcript, corpus, ledger, accepted-evidence or export changes.",
+  "primary_provenance": {
+    "batch_id": "batch-27",
+    "period": "1856-1857",
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-27.json",
+      "sha256": "3f1c029951a2333426e1348a02e6b85996b912c8f681bf063dc1c28ab86b7597"
+    },
+    "parent_decision": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-27.json",
+      "sha256": "abef69d98e55fbccd94542cccf5c75425e79e50472c7cc135500fa5e3f18c690"
+    },
+    "accepted_ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-27.json",
+      "sha256": "4f0b4bc89df1b8018a035aa8a7b6bea76b36d3e609b517a0d4360d704474c0fc"
+    }
+  },
+  "requirements": [
+    {
+      "case": "Literal dispatch addresses in 1860, 1943 and 2068",
+      "source_ids": [
+        "DCP-LETT-1860",
+        "DCP-LETT-1943",
+        "DCP-LETT-2068"
+      ],
+      "requirement": "Preserve the literal address text as attributed Darwin body content, including the raw tokens diag, ramme and [SYMBOL]. These are shipping instructions embedded in postscripts/body blocks, not letter headers and not diagrams. The preserved HTML has zero img/table/MathML for these records; do not invent a diagram, expand the tokens, or treat the addresses as metadata. Render paragraph boundaries exactly so C. Darwin, carrier/care-of lines, post office and forwarding text remain ordered body prose.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1860",
+          "body_paragraph": 5,
+          "quote": "addressed exactly as follows. diag C. Darwin Esq.",
+          "source_html_sha256": "5dccc7ae59488d02f5b03401a05bd030c3219baea067ea672246b3d3293c0956",
+          "dom_locator": "div#letter div.body-content; retained body block 5"
+        },
+        {
+          "letter_id": "DCP-LETT-1860",
+          "body_paragraph": 8,
+          "quote": "Borough.ramme Mr Snow is our Carrier & leaves the Nag’s Head every Thursday morning.",
+          "source_html_sha256": "5dccc7ae59488d02f5b03401a05bd030c3219baea067ea672246b3d3293c0956",
+          "dom_locator": "div#letter div.body-content; retained body block 8"
+        },
+        {
+          "letter_id": "DCP-LETT-1943",
+          "body_paragraph": 1,
+          "quote": "send it exactly thus addressed per Coach diag Ch. Darwin Esqe",
+          "source_html_sha256": "d979eb4c285a1f8bfa2feee14c8b8fef3193d6b8eccbae73e9ab468dd3a49517",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1943",
+          "body_paragraph": 5,
+          "quote": "Kentramme",
+          "source_html_sha256": "d979eb4c285a1f8bfa2feee14c8b8fef3193d6b8eccbae73e9ab468dd3a49517",
+          "dom_locator": "div#letter div.body-content; retained body block 5"
+        },
+        {
+          "letter_id": "DCP-LETT-2068",
+          "body_paragraph": 3,
+          "quote": "For live Birds, I find the following the quickest address. diag C. Darwin",
+          "source_html_sha256": "15dc8458c3063a55efcd941317ccd8503c681cca3f0ff56f06f59081b4ba8386",
+          "dom_locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "letter_id": "DCP-LETT-2068",
+          "body_paragraph": 6,
+          "quote": "[SYMBOL] Kent (To be forwarded)ramme",
+          "source_html_sha256": "15dc8458c3063a55efcd941317ccd8503c681cca3f0ff56f06f59081b4ba8386",
+          "dom_locator": "div#letter div.body-content; retained body block 6"
+        }
+      ]
+    },
+    {
+      "case": "1913 uncertain July date and within-letter vertebra correction",
+      "source_ids": [
+        "DCP-LETT-1913"
+      ],
+      "requirement": "Retain the XML/editorial date as July 1856 without selecting a day. Keep P3 and P9 together: P3 reports a casual, explicitly non-quotable impression of an extra cervical vertebra while reserving uncertainty about the back; P9 later retracts confidence as a possible simple blunder because the neck was not cleaned. Do not replace either stage with the later twelve-cervical published result, and keep the planned paper/show material separate from completed findings.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1913",
+          "body_paragraph": 3,
+          "quote": "With respect to vertebræ, I shd. not like to be quoted;",
+          "source_html_sha256": "6bbb3406dae0a2a35251bb7b0bcb6f7cf083060a8a8d5230d94333ada78f523b",
+          "dom_locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "letter_id": "DCP-LETT-1913",
+          "body_paragraph": 3,
+          "quote": "they certainly seemed to have an extra neck vertebra;",
+          "source_html_sha256": "6bbb3406dae0a2a35251bb7b0bcb6f7cf083060a8a8d5230d94333ada78f523b",
+          "dom_locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "letter_id": "DCP-LETT-1913",
+          "body_paragraph": 9,
+          "quote": "I have just looked at skeleton & I believe I have made simple blunder; but the neck has not been well cleaned & I cannot make out certainly.",
+          "source_html_sha256": "6bbb3406dae0a2a35251bb7b0bcb6f7cf083060a8a8d5230d94333ada78f523b",
+          "dom_locator": "div#letter div.body-content; retained body block 9"
+        }
+      ]
+    },
+    {
+      "case": "1935 open August range",
+      "source_ids": [
+        "DCP-LETT-1935"
+      ],
+      "requirement": "Represent 1935 as [15–22 August 1856], not an exact day. The clear Runt chart is acknowledged but its text is unavailable; the Victoria/Smyrna assessment is conditional and concerns proportions rather than beauty. The later dead-Runt acceptance in 1943 is a subsequent practical decision and must not erase the earlier open range or missing chart.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1935",
+          "body_paragraph": 1,
+          "quote": "I write one line merely to thank you for your most clear chart of the Runts.",
+          "source_html_sha256": "e4ad5e1bf90689934094514e7b44e28a29e5df07436d38e270a77fa2eea19e63",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1935",
+          "body_paragraph": 1,
+          "quote": "I do not think they differ in proportions & that is my sole object.",
+          "source_html_sha256": "e4ad5e1bf90689934094514e7b44e28a29e5df07436d38e270a77fa2eea19e63",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1935",
+          "body_paragraph": 2,
+          "quote": "Far from thinking that you treated me “cavalierly” at Anerly",
+          "source_html_sha256": "e4ad5e1bf90689934094514e7b44e28a29e5df07436d38e270a77fa2eea19e63",
+          "dom_locator": "div#letter div.body-content; retained body block 2"
+        }
+      ]
+    },
+    {
+      "case": "1957 first Poultry Book number and bookseller confusion",
+      "source_ids": [
+        "DCP-LETT-1957"
+      ],
+      "requirement": "Preserve Darwin’s contemporary statement that he has obtained only the first number of Tegetmeier’s Poultry Book. Later apparatus/bookseller identification is a separate layer and cannot be used as knowledge of the completed work or silently rewrite the body. The Finnikin/Turner query, Dorking observations and possible Cochin cross remain questions or qualified observations, not settled breed conclusions.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1957",
+          "body_paragraph": 3,
+          "quote": "Would you object at any time to put in Cottage Gardener, a query whether any one in England has Finnikin or Turner Pigeons?",
+          "source_html_sha256": "d96eba33cde5bd173223e283d0c66180e6814556746d6fbab601ce54a876a945",
+          "dom_locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "letter_id": "DCP-LETT-1957",
+          "body_paragraph": 4,
+          "quote": "the good woman assured me that this was their general, but not quite invariable characteristic.",
+          "source_html_sha256": "d96eba33cde5bd173223e283d0c66180e6814556746d6fbab601ce54a876a945",
+          "dom_locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "letter_id": "DCP-LETT-1957",
+          "body_paragraph": 5,
+          "quote": "I have only got as yet 1st nor of the Poultry Book, so do not know yet how you are getting on.",
+          "source_html_sha256": "d96eba33cde5bd173223e283d0c66180e6814556746d6fbab601ce54a876a945",
+          "dom_locator": "div#letter div.body-content; retained body block 5"
+        }
+      ]
+    },
+    {
+      "case": "Missing sources and layered provenance",
+      "source_ids": [
+        "DCP-LETT-1860",
+        "DCP-LETT-1913",
+        "DCP-LETT-1935",
+        "DCP-LETT-1943",
+        "DCP-LETT-1957",
+        "DCP-LETT-2068"
+      ],
+      "requirement": "Keep missing notes, charts, covers, specimen arrivals and later published interpretations unavailable or prospective where the accepted notes hold them so. Shipping offers do not prove dispatch or receipt; catalogues and later Variation statements do not become contemporaneous knowledge. Export content may use attributed surviving Darwin prose only, with headings, address metadata, footnotes, bibliography, annotations, apparatus and unresolved markup excluded or held.",
+      "exact_source_evidence": []
+    }
+  ],
+  "source_provenance": [
+    {
+      "letter_id": "DCP-LETT-1860",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1860.html",
+      "html_sha256": "5dccc7ae59488d02f5b03401a05bd030c3219baea067ea672246b3d3293c0956",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1860.xml",
+      "xml_sha256": "d86d25cf92911375a465189dc9e09a14833fb0dd3d54f6860b39fb915ea252ab",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+      "voice": "Darwin body; headers, annotations, scholarly material and later apparatus remain separate"
+    },
+    {
+      "letter_id": "DCP-LETT-1913",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1913.html",
+      "html_sha256": "6bbb3406dae0a2a35251bb7b0bcb6f7cf083060a8a8d5230d94333ada78f523b",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1913.xml",
+      "xml_sha256": "bf2aa4d7f1349865e0eb9dbe3e59adf48cd637f01e916fd410130ec8f3804c6a",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+      "voice": "Darwin body; headers, annotations, scholarly material and later apparatus remain separate"
+    },
+    {
+      "letter_id": "DCP-LETT-1935",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1935.html",
+      "html_sha256": "e4ad5e1bf90689934094514e7b44e28a29e5df07436d38e270a77fa2eea19e63",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1935.xml",
+      "xml_sha256": "ae69601cc738c66912ec09d42ddf29412742c5e8f53cf7399d158ea6ade18bb3",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+      "voice": "Darwin body; headers, annotations, scholarly material and later apparatus remain separate"
+    },
+    {
+      "letter_id": "DCP-LETT-1943",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1943.html",
+      "html_sha256": "d979eb4c285a1f8bfa2feee14c8b8fef3193d6b8eccbae73e9ab468dd3a49517",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1943.xml",
+      "xml_sha256": "387c8fea5a5f85facb9e92ce5c7be4f61565a6742ad60dfb03724814389a54c4",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+      "voice": "Darwin body; headers, annotations, scholarly material and later apparatus remain separate"
+    },
+    {
+      "letter_id": "DCP-LETT-1957",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1957.html",
+      "html_sha256": "d96eba33cde5bd173223e283d0c66180e6814556746d6fbab601ce54a876a945",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1957.xml",
+      "xml_sha256": "ff490ec6f79842bf36ac16deff3ad1fb1e51f489b819e7c574515b7b1a9d196e",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+      "voice": "Darwin body; headers, annotations, scholarly material and later apparatus remain separate"
+    },
+    {
+      "letter_id": "DCP-LETT-2068",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2068.html",
+      "html_sha256": "15dc8458c3063a55efcd941317ccd8503c681cca3f0ff56f06f59081b4ba8386",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2068.xml",
+      "xml_sha256": "f2ff6ec095fe690055fa670a2d7ed5cf6b3f8a2262db12f89ea13205b6e8449f",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+      "voice": "Darwin body; headers, annotations, scholarly material and later apparatus remain separate"
+    }
+  ],
+  "date_voice_and_missing_source_holds": [
+    {
+      "ids": [
+        "DCP-LETT-1913"
+      ],
+      "hold": "July 1856 has no exact day; tentative vertebra observation and P9 retraction are one letter-layer sequence."
+    },
+    {
+      "ids": [
+        "DCP-LETT-1935"
+      ],
+      "hold": "15–22 August 1856 range remains open; clear chart content is unavailable."
+    },
+    {
+      "ids": [
+        "DCP-LETT-1860",
+        "DCP-LETT-1943",
+        "DCP-LETT-2068"
+      ],
+      "hold": "Literal shipping addresses are body text; no figure/table/MathML exists and [SYMBOL] remains unresolved."
+    },
+    {
+      "ids": [
+        "DCP-LETT-1957"
+      ],
+      "hold": "First-number Poultry Book claim is the contemporary body; later bookseller correction is apparatus/later knowledge."
+    }
+  ],
+  "export_checks": [
+    "Do not put shipping addresses into header metadata; preserve them only if the scoped Darwin body is exported and retain literal tokens pending a supported rendering repair.",
+    "Do not invent absent Runt chart text, missing notes, catalogue contents, or later published vertebra/breed conclusions.",
+    "Run scripts/period_review.py check_quotes against preserved period sources; quote fields above are exact body substrings.",
+    "No accepted relationship is admitted by this addendum; batch-27 ledger and parent decision remain authoritative."
+  ],
+  "validation": {
+    "quote_count": 15,
+    "quote_method": "scripts/period_review.py check_quotes; exact body substrings checked against preserved HTML",
+    "requirements_only": true,
+    "export_performed": false,
+    "accepted_files_modified": false
+  }
+}

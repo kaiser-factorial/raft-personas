@@ -1,0 +1,76 @@
+{
+  "status": "primary_verified_format_preparation",
+  "source_hashes": [
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/__init__.py",
+      "verified": true
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/convo_structurer.py",
+      "verified": true
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/project.py",
+      "verified": true
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/generate_finetune.py",
+      "verified": true
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/memories.py",
+      "verified": true
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/sources.py",
+      "verified": true
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/oai_finetune.py",
+      "verified": true
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/prompt_manager.py",
+      "verified": true
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/embeddings_helpers.py",
+      "verified": true
+    },
+    {
+      "path": "/opt/anaconda3/lib/python3.13/site-packages/raft/files_helper.py",
+      "verified": true
+    },
+    {
+      "path": "/Users/corinakaiser/Projects/opbdh_root/opbdh/src/opbdh/_ft_runner.py",
+      "verified": true
+    },
+    {
+      "path": "HANDOFF.md",
+      "verified": true
+    },
+    {
+      "path": "docs/reference/raft-grok-2026-09-16.txt",
+      "verified": true
+    },
+    {
+      "path": "docs/reference/raft-grok-2026-09-16.provenance.json",
+      "verified": true
+    },
+    {
+      "path": "darwin_0/raft.json",
+      "verified": true
+    }
+  ],
+  "fixture_rerun_passed": true,
+  "fixture_script_sha256": "27b3946f5ce3e99f8ead27e243f0b79a75d9b61d11746f7779c358de5453a06d",
+  "fixture_output_sha256": "eb120e6b9a0afebe28eed24d397b08f99ada1bfe93684e431eb31ba942d71b0f",
+  "primary_corrections": [
+    "Restored missing final hexadecimal f in __init__.py hash (agent value had only 63 characters).",
+    "Added actual assertions for context preservation/loss and each independently missing operational date/url key."
+  ],
+  "limitations": [
+    "Mocked retrieval; real Chroma behavior source-inspected, not end-to-end tested.",
+    "No real transcript export, embeddings, LLM calls, tokenizer/collator run or training."
+  ]
+}

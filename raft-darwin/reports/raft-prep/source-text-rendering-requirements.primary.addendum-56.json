@@ -1,0 +1,418 @@
+{
+  "status": "primary_verified_conversion_preparation_requirements",
+  "scope": "Accepted 1856-1857 batch-33 source-text rendering, chronology, attribution, receipt and special-markup requirements only. Candidate documentation; no converter, transcript, export, training or accepted evidence changes.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-33.json",
+      "sha256": "77197ba512bc42918016d547117bc27dd6af5147adbea18380c351d48690c2a6"
+    },
+    "parent_decisions": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-33.json",
+      "sha256": "b9c8d858378070bdcfdf9cfeb5bccfee2c2e68bb16db3499a8b9e3c3f4bdf390"
+    },
+    "accepted_ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-33.json",
+      "sha256": "e2818cf6b9cc1a065614c5e2f211f2e5ef4208f2480f340f0754a1966e68659f"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "case": "1833 prospective same-steamer wording, missing Atkinson enclosure, and unnormalised taxonomy",
+      "source_ids": [
+        "DCP-LETT-1833"
+      ],
+      "requirement": "The February26 Blyth letter forecasts likely same-steamer carriage, not completed Darwin receipt. Atkinson enclosure is unpreserved. Preserve original Harting Leopard and Panthera [var] Varia in raw evidence, but do not declare uncertain artifacts authorial or export them unchanged by default. Any final repair requires an authoritative witness; keep unresolved text held. Actual Greek text and attributed Chinese Repository quotation remain distinct from Blyth interpretations and Egyptian-geese speculation.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1833",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1833.html",
+          "source_html_sha256": "cd02ddaa69aa753bc16533d391af3e0155dc311d8d6a2268b4a93ea1264440fb",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1833.xml",
+          "xml_sha256": "6610c9251391ef02fc53247d0726d64ad38b2c4780e6beaf204c25dfd6153554",
+          "verified_xml_dates": [
+            {
+              "text": "26 Feb 1856",
+              "attributes": {
+                "when": "1856-02-26"
+              },
+              "lower": "1856-02-26",
+              "upper": "1856-02-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-02-26\">26 Feb 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1833",
+          "body_paragraph": 1,
+          "quote": "you will probably get this letter by the same steamer which conveys my last",
+          "char_start": 47,
+          "char_end": 122,
+          "source_sha256": "cd02ddaa69aa753bc16533d391af3e0155dc311d8d6a2268b4a93ea1264440fb",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1833",
+          "body_paragraph": 2,
+          "quote": "These two being the Guepard or ‘Harting Leopard’ and the true Pard.",
+          "char_start": 523,
+          "char_end": 590,
+          "source_sha256": "cd02ddaa69aa753bc16533d391af3e0155dc311d8d6a2268b4a93ea1264440fb",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1833",
+          "body_paragraph": 2,
+          "quote": "their Panthera [ var] Varia the female, of the Pard",
+          "char_start": 759,
+          "char_end": 810,
+          "source_sha256": "cd02ddaa69aa753bc16533d391af3e0155dc311d8d6a2268b4a93ea1264440fb",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        }
+      ],
+      "apparatus_proof": [
+        {
+          "letter_id": "DCP-LETT-1833",
+          "literal_text": "The portion of the letter referred to has not been preserved.",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[3]/div[2]",
+          "source_sha256": "cd02ddaa69aa753bc16533d391af3e0155dc311d8d6a2268b4a93ea1264440fb"
+        }
+      ]
+    },
+    {
+      "case": "1845 multipart composition and explicit 6 May receipt",
+      "source_ids": [
+        "DCP-LETT-1845"
+      ],
+      "requirement": "Represent this undated thirteen-page Blyth memorandum as multipart: material precedes the inserted 22 March section, P4 is explicitly headed March 22, and the valediction says he will not write that day, so completion is later than the inserted date. Preserve Darwin’s top annotation “Received May 6/56/” as an explicit receipt event, while keeping it separate from Blyth’s composition date and from the date Darwin finished reading. The P3 and P4 half fractions are MathML, not literal “12”; retain their fraction structure and the surrounding words. Preserve the actual low-headed shaggy bovine/musk-ox sketch as a viewed figure drawn from memory of an Arctic navigator’s portrait, with no scale or live specimen claim. Receipt annotation remains metadata outside future content. Completion afterMarch22 follows editorial interpretation of multipart wording, not a separately dated final heading; exact final day remains unknown.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1845",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1845.html",
+          "source_html_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1845.xml",
+          "xml_sha256": "da6cd86e526dfa844bc2c519b55bada80ffe34233e5f9cf1629e1f685556b513",
+          "verified_xml_dates": [
+            {
+              "text": "[c. 22 Mar 1856]",
+              "attributes": {
+                "when": "1856-03-22"
+              },
+              "lower": "1856-03-22",
+              "upper": "1856-03-22",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-03-22\">[c. 22 Mar 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1845",
+          "body_paragraph": 4,
+          "quote": "—March 22/— Since last writing",
+          "char_start": 0,
+          "char_end": 30,
+          "source_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1845",
+          "body_paragraph": 6,
+          "quote": "I shall not have time to write to you today",
+          "char_start": 0,
+          "char_end": 43,
+          "source_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-1845",
+          "body_paragraph": 4,
+          "quote": "This “important observation” must now, therefore, be deferred for a future opportunity.",
+          "char_start": 418,
+          "char_end": 505,
+          "source_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1845",
+          "body_paragraph": 3,
+          "quote": "shank feathered 12 way down",
+          "char_start": 4185,
+          "char_end": 4212,
+          "source_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1845",
+          "body_paragraph": 4,
+          "quote": "settling again just in the way, 12 doz. times in succession.",
+          "char_start": 357,
+          "char_end": 417,
+          "source_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1845",
+          "body_paragraph": 2,
+          "quote": "judging from what looks to be a capital portrait of the ‘Musk Ox’, published by one of the Arctic navigators, somewhat thus (from memory on my part),",
+          "char_start": 2715,
+          "char_end": 2864,
+          "source_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ],
+      "annotation_proof": [
+        {
+          "letter_id": "DCP-LETT-1845",
+          "literal_text": "Received May 6/56/",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[14]",
+          "source_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9"
+        }
+      ],
+      "special_markup": [
+        {
+          "letter_id": "DCP-LETT-1845",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]/math",
+          "raw_mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+          "rendered_value": "1/2",
+          "source_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9"
+        },
+        {
+          "letter_id": "DCP-LETT-1845",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]/math",
+          "raw_mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+          "rendered_value": "1/2",
+          "source_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9"
+        }
+      ],
+      "visual_readings": [
+        {
+          "letter_id": "DCP-LETT-1845",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]/span[28]/img",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1845.html",
+          "source_html_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9",
+          "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1845.jpg",
+          "alt": "diagram",
+          "figure_path": "data/raw/dcp/1856-1857/figures/DCP-LETT-1845-1.jpg",
+          "retrieved_at": "2026-09-17T08:59:41.858810+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1845.jpg",
+          "bytes": 47863,
+          "sha256": "9eddfb9ea1c3b9b175e52d905f77abe545bf804e5f433596a149478e8616466b",
+          "visual_observation": "Actually viewed left-facing low-headed shaggy bovine profile, rounded heavy torso, short tail and legs on a ground line. No labels or scale. Body explicitly says drawn from memory of an Arctic navigator’s portrait, with possibly still lower head, so do not treat as an observed or measured specimen."
+        }
+      ]
+    },
+    {
+      "case": "1849 Scott copy, Blyth interpolation, flat bilingual list, and annotation date",
+      "source_ids": [
+        "DCP-LETT-1849"
+      ],
+      "requirement": "Treat the eight-page item as an undated Blyth memorandum supplied an editorial date solely from a Darwin pencil annotation. The annotation reads April 3 1856 but does not say Received; it must not be rendered as an explicit delivery or reading date. Preserve authorial layers: P2 introduces a difficult left-handed copy of Dr David Scott’s letter, P3 onward interleaves Scott’s quoted pigeon observations with Blyth’s own observations and comparisons, and P21 marks Blyth’s judgement. The English/Hindustani list is flattened prose, not a reconstructed table or image; preserve literal diag/ramme in raw evidence but resolve layout artifacts with source support before any final export. Do not guess illegible/unknown names or drop substantive names with markup fragments. Preserve the later comparison with 1845 as a substantive observation update: pink feet are explicitly reported here after the earlier dark-foot observation was deferred, but the two sources remain separate voices and dates.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1849",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1849.html",
+          "source_html_sha256": "8572a36cc4785fca8f19e2d6c483632896477ece2a1a76aa51ed0b22a3778daf",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1849.xml",
+          "xml_sha256": "b66fdb6c2d5947d31c1e7f07993bae07a3ea3d75fbfe5d27c7cb68a5e828b057",
+          "verified_xml_dates": [
+            {
+              "text": "[3 Apr 1856]",
+              "attributes": {
+                "when": "1856-04-03"
+              },
+              "lower": "1856-04-03",
+              "upper": "1856-04-03",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-04-03\">[3 Apr 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1849",
+          "body_paragraph": 2,
+          "quote": "transcribed from a letter, recd. from Dr. David Scott",
+          "char_start": 44,
+          "char_end": 97,
+          "source_sha256": "8572a36cc4785fca8f19e2d6c483632896477ece2a1a76aa51ed0b22a3778daf",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1849",
+          "body_paragraph": 3,
+          "quote": "diag ‘English Hindustáni Runts. 1. Kábūli Kabuta (literally Kábul Pigeon).",
+          "char_start": 301,
+          "char_end": 375,
+          "source_sha256": "8572a36cc4785fca8f19e2d6c483632896477ece2a1a76aa51ed0b22a3778daf",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1849",
+          "body_paragraph": 8,
+          "quote": "Gáhu ramme",
+          "char_start": 0,
+          "char_end": 10,
+          "source_sha256": "8572a36cc4785fca8f19e2d6c483632896477ece2a1a76aa51ed0b22a3778daf",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        },
+        {
+          "letter_id": "DCP-LETT-1849",
+          "body_paragraph": 21,
+          "quote": "according to my judgement",
+          "char_start": 2643,
+          "char_end": 2668,
+          "source_sha256": "8572a36cc4785fca8f19e2d6c483632896477ece2a1a76aa51ed0b22a3778daf",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[21]"
+        }
+      ],
+      "annotation_proof": [
+        {
+          "letter_id": "DCP-LETT-1849",
+          "literal_text": "April 3. 1856",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[15]",
+          "source_sha256": "8572a36cc4785fca8f19e2d6c483632896477ece2a1a76aa51ed0b22a3778daf"
+        }
+      ]
+    },
+    {
+      "case": "cross-source rendering and chronology boundary",
+      "source_ids": [
+        "DCP-LETT-1845",
+        "DCP-LETT-1849",
+        "DCP-LETT-1833"
+      ],
+      "requirement": "Keep source text, quoted witnesses, annotations and later scholarly summaries in distinct provenance layers. These three accepted records are incoming context without a surviving current Darwin reply; no direct, reverse or knowledge edge is added by shared pigeon, museum, taxonomy or hatching topics. The 1845 dark-foot line is explicitly deferred after unsuccessful searches, while 1849 reports pink feet; render this as a dated revision in Blyth’s observations, not as a normalized contradiction-free statement. Do not use sequence docket numbers or editorial date annotations to infer receipt, response or Darwin knowledge.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1845",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1845.html",
+          "source_html_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1845.xml",
+          "xml_sha256": "da6cd86e526dfa844bc2c519b55bada80ffe34233e5f9cf1629e1f685556b513",
+          "verified_xml_dates": [
+            {
+              "text": "[c. 22 Mar 1856]",
+              "attributes": {
+                "when": "1856-03-22"
+              },
+              "lower": "1856-03-22",
+              "upper": "1856-03-22",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-03-22\">[c. 22 Mar 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1849",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1849.html",
+          "source_html_sha256": "8572a36cc4785fca8f19e2d6c483632896477ece2a1a76aa51ed0b22a3778daf",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1849.xml",
+          "xml_sha256": "b66fdb6c2d5947d31c1e7f07993bae07a3ea3d75fbfe5d27c7cb68a5e828b057",
+          "verified_xml_dates": [
+            {
+              "text": "[3 Apr 1856]",
+              "attributes": {
+                "when": "1856-04-03"
+              },
+              "lower": "1856-04-03",
+              "upper": "1856-04-03",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-04-03\">[3 Apr 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1833",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1833.html",
+          "source_html_sha256": "cd02ddaa69aa753bc16533d391af3e0155dc311d8d6a2268b4a93ea1264440fb",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1833.xml",
+          "xml_sha256": "6610c9251391ef02fc53247d0726d64ad38b2c4780e6beaf204c25dfd6153554",
+          "verified_xml_dates": [
+            {
+              "text": "26 Feb 1856",
+              "attributes": {
+                "when": "1856-02-26"
+              },
+              "lower": "1856-02-26",
+              "upper": "1856-02-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-02-26\">26 Feb 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1845",
+          "body_paragraph": 4,
+          "quote": "This “important observation” must now, therefore, be deferred for a future opportunity.",
+          "char_start": 418,
+          "char_end": 505,
+          "source_sha256": "6cbcd675c83ee4bd19e9013f7c7b7a33da198bba16f909d175238cc14a69acf9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1849",
+          "body_paragraph": 3,
+          "quote": "our wild Pigeons here have pink feet",
+          "char_start": 178,
+          "char_end": 214,
+          "source_sha256": "8572a36cc4785fca8f19e2d6c483632896477ece2a1a76aa51ed0b22a3778daf",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "new_source_ids_read": [
+      "DCP-LETT-1833",
+      "DCP-LETT-1845",
+      "DCP-LETT-1849"
+    ],
+    "all_target_and_context_sources_in_parent_reading": true,
+    "figures_viewed": [
+      "DCP-LETT-1845-1.jpg"
+    ],
+    "mathml_nodes_verified": 2,
+    "receipt_annotations_verified": [
+      "DCP-LETT-1845",
+      "DCP-LETT-1849"
+    ],
+    "accepted_relationships_added": 0,
+    "export_performed": false
+  },
+  "validation_notes": "Root verified15 literal retained-body quotations,3 source HTML/XML pairs,3 apparatus/annotation locators,2 MathML nodes and actual pinned1845 figure. These are documentation requirements, not implemented export.",
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-56.draft.json",
+      "sha256": "2b1935d8a094ac4da3088e8bb46c20630054c0ffceaeac743cc1c66d128a0326"
+    }
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md",
+  "primary_verification": {
+    "exact_body_quotes_checked": 15,
+    "unique_source_html_xml_pairs_checked": 3,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "apparatus_annotation_locators_checked": 3,
+    "mathml_nodes_checked": 2,
+    "figure_hash_and_locator_checked": 1
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "primary_corrections": [
+    "Candidate1833 body numbers included salutation offset; source body indexes corrected to1/2.",
+    "Candidate1845 deferred-observation body index corrected from3 to4. Its missing-half excerpt was not literal source text and was replaced with exact flattened text plus independent MathML proof.",
+    "Candidate editorial summary was not source body evidence; removed and replaced by actual Blyth memory-portrait quotation.",
+    "Candidate raw-preservation language could leave layout errors in final content; final source-supported cleanup remains mandatory. Do not assert unknown variant markers are authorial merely because raw HTML contains them.",
+    "Annotation locators independently resolved;1849 date note is not labelled receipt."
+  ]
+}

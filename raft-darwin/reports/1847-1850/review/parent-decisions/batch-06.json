@@ -1,0 +1,414 @@
+{
+  "batch_id": "batch-06",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-1319",
+      "disposition": "incoming_scoped_reverse_reply",
+      "source_kind": "multi-day letter",
+      "voice": "Hooker with separate attributed observations and scholarly Darwin notes",
+      "date_assessment": "6 and 7 Apr 1850; preserve separate dated sections and relative receipt bounds.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1339",
+      "disposition": "joint_input_response_candidate",
+      "source_kind": "letter",
+      "voice": "Darwin",
+      "date_assessment": "13 June [1850]; preserve separate dated sections and relative receipt bounds.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1371",
+      "disposition": "incoming_scoped_reverse_reply",
+      "source_kind": "letter with diagram",
+      "voice": "Hooker with separate attributed observations and scholarly Darwin notes",
+      "date_assessment": "26 Nov 1850; preserve separate dated sections and relative receipt bounds.",
+      "training_export_ready": false
+    }
+  ],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-1319",
+      "target_id": "DCP-LETT-1300",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_with_corrected_April7_scope",
+      "reason": "February letter explicitly arrivedApril7morning inP8; first-passApril6P1–3scope is temporally wrong."
+    },
+    {
+      "source_id": "DCP-LETT-1339",
+      "target_id": "DCP-LETT-1319",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_joint_reply_with_broader_specific_support",
+      "reason": "Theory-effect question, distinct Sikkim plants, philosophical reassurance and Falconer reconciliation support multiple sections; candidate-onlyP6scope missed explicitP5response."
+    }
+  ],
+  "direct_reply_pairs": [
+    {
+      "incoming_id": "DCP-LETT-1257",
+      "outgoing_id": "DCP-LETT-1339",
+      "status": "accepted_joint_input_scope",
+      "known_by_date": "1850-06-13",
+      "actual_receipt_date": null,
+      "response_scope": "1339P2 verse, cold-finger reading and inverted strata; P6 Malcolmson correction, within joint answer also responding1319.",
+      "response_sections": [],
+      "response_date_policy": "June13 with supplied1850year; incoming1319keeps separateApril6/7composition. About a fortnight ago is approximate and not a receipt date for both inputs.",
+      "rationale": "Stratification verse and vivid reading episode uniquely identify1257, independently of the general last-letter acknowledgment.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1257",
+          "body_paragraph": 2,
+          "quote": "Stratification is vexation, Foliation’s twice as bad",
+          "char_start": 0,
+          "char_end": 52,
+          "source_sha256": "e4b1395d881061a7260ae1a53124e7d79cc22fa2ba7c3e76c3f82abda2867c79"
+        },
+        {
+          "letter_id": "DCP-LETT-1339",
+          "body_paragraph": 2,
+          "quote": "Your verses on stratification are capital",
+          "char_start": 0,
+          "char_end": 41,
+          "source_sha256": "9a2ac1034ad311536c77fafc001248891db849aa5b32e97c5978c7f96e9e5e87"
+        },
+        {
+          "letter_id": "DCP-LETT-1339",
+          "body_paragraph": 6,
+          "quote": "Dr. Malcolmson, the geologist, is certainly dead.",
+          "char_start": 238,
+          "char_end": 287,
+          "source_sha256": "9a2ac1034ad311536c77fafc001248891db849aa5b32e97c5978c7f96e9e5e87"
+        }
+      ],
+      "training_export_ready": false,
+      "group_id": "joint-response-1339-to-1257-and-1319",
+      "whole_output_must_not_be_duplicated": true
+    },
+    {
+      "incoming_id": "DCP-LETT-1319",
+      "outgoing_id": "DCP-LETT-1339",
+      "status": "accepted_joint_input_scope",
+      "known_by_date": "1850-06-13",
+      "actual_receipt_date": null,
+      "response_scope": "1339P2 river/geography discussion, P3 philosophical reassurance, P5 theory/variation and distinct plants, P6 Falconer reconciliation.",
+      "response_sections": [],
+      "response_date_policy": "June13 with supplied1850year; incoming1319keeps separateApril6/7composition. About a fortnight ago is approximate and not a receipt date for both inputs.",
+      "rationale": "Specific question about effect of species work and distinct Himalayan Rubi/willows versus NorthAmerica make this much stronger than the first-pass limited Falconer candidate.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1319",
+          "body_paragraph": 2,
+          "quote": "in what direction they had carried your other views",
+          "char_start": 758,
+          "char_end": 809,
+          "source_sha256": "16159be3d50f43916e123aa8e7abfefd3c509eb0b859218e4fbeccf6af7e6568"
+        },
+        {
+          "letter_id": "DCP-LETT-1339",
+          "body_paragraph": 5,
+          "quote": "You ask what effect studying species has had on my variation theories",
+          "char_start": 128,
+          "char_end": 197,
+          "source_sha256": "9a2ac1034ad311536c77fafc001248891db849aa5b32e97c5978c7f96e9e5e87"
+        },
+        {
+          "letter_id": "DCP-LETT-1319",
+          "body_paragraph": 3,
+          "quote": "Its many willows are all well marked species",
+          "char_start": 460,
+          "char_end": 504,
+          "source_sha256": "16159be3d50f43916e123aa8e7abfefd3c509eb0b859218e4fbeccf6af7e6568"
+        },
+        {
+          "letter_id": "DCP-LETT-1339",
+          "body_paragraph": 5,
+          "quote": "Your remarks on the distinctness (so unpleasant to me) of the Himmalaya rubi willows &c compared with those of N. America",
+          "char_start": 889,
+          "char_end": 1010,
+          "source_sha256": "9a2ac1034ad311536c77fafc001248891db849aa5b32e97c5978c7f96e9e5e87"
+        },
+        {
+          "letter_id": "DCP-LETT-1339",
+          "body_paragraph": 6,
+          "quote": "I am extremely glad you are cordial with him again",
+          "char_start": 73,
+          "char_end": 123,
+          "source_sha256": "9a2ac1034ad311536c77fafc001248891db849aa5b32e97c5978c7f96e9e5e87"
+        }
+      ],
+      "training_export_ready": false,
+      "group_id": "joint-response-1339-to-1257-and-1319",
+      "whole_output_must_not_be_duplicated": true
+    }
+  ],
+  "correspondent_replies": [
+    {
+      "response_id": "DCP-LETT-1319",
+      "antecedent_id": "DCP-LETT-1260",
+      "status": "accepted_scoped_reverse_reply",
+      "response_scope": "April6 sectionP1–6, especiallyP2 species/barnacle explanation andP4 moraine concession; not April7new February-letter acknowledgment.",
+      "rationale": "Darwin challenged floating-ice dam theory and complained of reversal in preference for his species/barnacle work; Hooker answers both distinct points before receiving1300 next day.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1260",
+          "body_paragraph": 3,
+          "quote": "I cannot help believing your dam is a lateral moraine",
+          "char_start": 307,
+          "char_end": 360,
+          "source_sha256": "9ebebffae806cdfc1e530313ef29932de510feac45e9ed2e42e1b8a57d62a800"
+        },
+        {
+          "letter_id": "DCP-LETT-1319",
+          "body_paragraph": 4,
+          "quote": "You reason rightly about my Pons petrosa of Yangma valley",
+          "char_start": 0,
+          "char_end": 57,
+          "source_sha256": "16159be3d50f43916e123aa8e7abfefd3c509eb0b859218e4fbeccf6af7e6568"
+        },
+        {
+          "letter_id": "DCP-LETT-1319",
+          "body_paragraph": 4,
+          "quote": "It is undoubtedly a vast moraine",
+          "char_start": 124,
+          "char_end": 156,
+          "source_sha256": "16159be3d50f43916e123aa8e7abfefd3c509eb0b859218e4fbeccf6af7e6568"
+        },
+        {
+          "letter_id": "DCP-LETT-1260",
+          "body_paragraph": 7,
+          "quote": "you say in your letter that you care more for my species work than for the Barnacles",
+          "char_start": 908,
+          "char_end": 992,
+          "source_sha256": "9ebebffae806cdfc1e530313ef29932de510feac45e9ed2e42e1b8a57d62a800"
+        },
+        {
+          "letter_id": "DCP-LETT-1319",
+          "body_paragraph": 2,
+          "quote": "Probably I spoke too strongly about your specific work & Barnacles",
+          "char_start": 0,
+          "char_end": 66,
+          "source_sha256": "16159be3d50f43916e123aa8e7abfefd3c509eb0b859218e4fbeccf6af7e6568"
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    },
+    {
+      "response_id": "DCP-LETT-1319",
+      "antecedent_id": "DCP-LETT-1300",
+      "status": "accepted_scoped_reverse_reply",
+      "response_scope": "April7P8, sentence beginning This morning through congratulations on seven children; notApril6P1–3.",
+      "rationale": "Express February-letter identification with incomplete water cure and seventh child makes this supported, not a broad candidate from two-month-old letters.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1319",
+          "body_paragraph": 8,
+          "quote": "This morning brought your kind letter of February",
+          "char_start": 1189,
+          "char_end": 1238,
+          "source_sha256": "16159be3d50f43916e123aa8e7abfefd3c509eb0b859218e4fbeccf6af7e6568"
+        },
+        {
+          "letter_id": "DCP-LETT-1319",
+          "body_paragraph": 8,
+          "quote": "the cold water system has wrought you much good but not a cure",
+          "char_start": 1261,
+          "char_end": 1323,
+          "source_sha256": "16159be3d50f43916e123aa8e7abfefd3c509eb0b859218e4fbeccf6af7e6568"
+        },
+        {
+          "letter_id": "DCP-LETT-1300",
+          "body_paragraph": 1,
+          "quote": "My health has of late kept stationary",
+          "char_start": 913,
+          "char_end": 950,
+          "source_sha256": "f00a15c23dd562db24267af699c332f33500b33b50f50675770c00c340484c8d"
+        },
+        {
+          "letter_id": "DCP-LETT-1300",
+          "body_paragraph": 3,
+          "quote": "our fourth Boy & seventh child!",
+          "char_start": 73,
+          "char_end": 104,
+          "source_sha256": "f00a15c23dd562db24267af699c332f33500b33b50f50675770c00c340484c8d"
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    },
+    {
+      "response_id": "DCP-LETT-1371",
+      "antecedent_id": "DCP-LETT-1339",
+      "status": "accepted_scoped_reverse_reply",
+      "response_scope": "1371P8–14 mountain-chain and transverse-river argument; other expedition/plant/news material adds subjects.",
+      "rationale": "Explicit reference to double chains and later elevation of the one crossed by watercourses answers the distinctive hypothesis in1339P2; further diagram clarifies the disagreement.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1339",
+          "body_paragraph": 2,
+          "quote": "with respect to rivers penetrating transversely the higher of two parallel chains",
+          "char_start": 1223,
+          "char_end": 1304,
+          "source_sha256": "9a2ac1034ad311536c77fafc001248891db849aa5b32e97c5978c7f96e9e5e87"
+        },
+        {
+          "letter_id": "DCP-LETT-1339",
+          "body_paragraph": 2,
+          "quote": "the breached chain was the younger or subsequently raised one",
+          "char_start": 1366,
+          "char_end": 1427,
+          "source_sha256": "9a2ac1034ad311536c77fafc001248891db849aa5b32e97c5978c7f96e9e5e87"
+        },
+        {
+          "letter_id": "DCP-LETT-1371",
+          "body_paragraph": 8,
+          "quote": "I have been puzzling over what you say of double Mt chains, & of the posterior elevation of that intersected by the water-courses",
+          "char_start": 0,
+          "char_end": 129,
+          "source_sha256": "7e96a5ddd4242e110bb6d2ec612fceba80e35d26f54eccc29bdfee1be2b59877"
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    }
+  ],
+  "cross_correspondent_knowledge": [],
+  "dated_sections": [
+    {
+      "letter_id": "DCP-LETT-1319",
+      "sections": [
+        {
+          "paragraphs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "date": "1850-04-06",
+          "input_excluded": "DCP-LETT-1300",
+          "note": "Earlier letters received about two months ago;1260 specifically answered."
+        },
+        {
+          "paragraphs": [
+            7,
+            8
+          ],
+          "date": "1850-04-07",
+          "note": "Februaryletter1300received this morning; its explicit response begins withinP8.",
+          "new_input_response_span": {
+            "letter_id": "DCP-LETT-1319",
+            "body_paragraph": 8,
+            "quote": "This morning brought your kind letter of February, whereby I learn that the cold water system has wrought you much good but not a cure—as also that you are the happy father of 7, upon which I wish Mrs Darwin & yourself all congratulations.",
+            "char_start": 1189,
+            "char_end": 1428,
+            "source_sha256": "16159be3d50f43916e123aa8e7abfefd3c509eb0b859218e4fbeccf6af7e6568"
+          }
+        }
+      ]
+    }
+  ],
+  "receipt_events": [
+    {
+      "letter_id": "DCP-LETT-1319",
+      "object_ids": [
+        "DCP-LETT-1300"
+      ],
+      "recipient": "J.D.Hooker",
+      "actual_receipt_date": "1850-04-07",
+      "time_description": "this morning",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1319",
+          "body_paragraph": 8,
+          "quote": "This morning brought your kind letter of February",
+          "char_start": 1189,
+          "char_end": 1238,
+          "source_sha256": "16159be3d50f43916e123aa8e7abfefd3c509eb0b859218e4fbeccf6af7e6568"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1319",
+      "object_ids": [
+        "DCP-LETT-1260"
+      ],
+      "recipient": "J.D.Hooker",
+      "actual_receipt_date": null,
+      "relative_date": "About two months beforeApril6; plural full letters, only1260specifically identified here.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1319",
+          "body_paragraph": 1,
+          "quote": "I received your kind & full letters 2 months ago",
+          "char_start": 225,
+          "char_end": 273,
+          "source_sha256": "16159be3d50f43916e123aa8e7abfefd3c509eb0b859218e4fbeccf6af7e6568"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1339",
+      "object_ids": [
+        "DCP-LETT-1319"
+      ],
+      "recipient": "Charles Darwin",
+      "actual_receipt_date": null,
+      "known_by_date": "1850-06-13",
+      "relative_date": "Last letter about a fortnight ago; not exactMay30 and not established for1257.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1339",
+          "body_paragraph": 1,
+          "quote": "your last letter, received about a fortnight ago",
+          "char_start": 31,
+          "char_end": 79,
+          "source_sha256": "9a2ac1034ad311536c77fafc001248891db849aa5b32e97c5978c7f96e9e5e87"
+        }
+      ]
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-1319",
+      "kind": "original_note_inside_footnote",
+      "description": "Footnote2 transcribes Darwin species abstract plus later markings. Its April6date labels Hooker source, not English note composition onApril6."
+    },
+    {
+      "letter_id": "DCP-LETT-1339",
+      "kind": "publication_intent",
+      "description": "Fossil pedunculate volume going to press is not completed publication; later1851delays remain editorial future."
+    },
+    {
+      "letter_id": "DCP-LETT-1371",
+      "kind": "partial_receipt_and_prospective_collection",
+      "description": "VictoriaRegiaproofs arrived despite missing letters; barnacle collection promised but not accomplished according to later journal. A1851publication imprint does not erase1850proof receipt."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-1319",
+      "description": "Enclosed scraps, other plural letters received about two months ago, and seven delayed Frances Henslow letters."
+    },
+    {
+      "letter_id": "DCP-LETT-1371",
+      "description": "Colvile dispatch assurance and many missing mails; intended remittance account not independently verified."
+    }
+  ],
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-1319",
+      "description": "SeparateApril6reply to1260fromApril7reply to1300. First-pass scope would leak next-day incoming content into earlier section."
+    },
+    {
+      "letter_id": "DCP-LETT-1339",
+      "description": "Whole-source comparison establishes joint1257/1319inputs, including explicitP5response overlooked in first pass."
+    },
+    {
+      "letter_id": "DCP-LETT-1371",
+      "description": "Primary adds limited reverse reply to1339on double-chain/river-crossing argument; diagram retained."
+    }
+  ]
+}

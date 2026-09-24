@@ -1,0 +1,90 @@
+{
+  "status": "candidate_source_recovery",
+  "scope": "DCP-LETT-2479A only",
+  "source_html": "data/raw/dcp/1858-1859/pages/DCP-LETT-2479A.html",
+  "source_html_sha256": "eaf6dfb1fe4cd1aacecaabd9d5d258c321a4d172ea7d1e54eed4a088166a4c17",
+  "followup_directory": "reports/1858-1859/review/followups/2479A-printed-witness",
+  "authoritative_witness": {
+    "authority": "Darwin Online, Complete Work of Charles Darwin Online",
+    "record_url": "https://darwin-online.org.uk/converted/published/1915_RichardHillLetter_F3483.html",
+    "facsimile_url": "https://darwin-online.org.uk/converted/pdf/1915_RichardHillLetter_F3483.pdf",
+    "local_facsimile": "reports/1858-1859/review/followups/2479A-printed-witness/cundall1915-darwin-online.pdf",
+    "local_facsimile_sha256": "183c1f29408bea0b7ccee2249111299c17e57f6c61905f4c8c7aa97c51f0459c",
+    "printed_pages_viewed": [562, 563],
+    "page_images": [
+      "reports/1858-1859/review/followups/2479A-printed-witness/cundall1915-page-1.png",
+      "reports/1858-1859/review/followups/2479A-printed-witness/cundall1915-page-2.png"
+    ],
+    "bibliographic_identity": "Frank Cundall, Darwin and Hill, West India Committee Circular, 28 December 1915, pp. 562–563"
+  },
+  "source_reading": {
+    "dcp_body": "Read the complete preserved DCP HTML body, footnotes, bibliography and summary. The body is Darwin's outgoing letter to Richard Hill, dated 8 August [1859] by Cundall 1915; the body has seven retained blocks after the salutation, followed by separate footnotes and bibliography.",
+    "dcp_bibliography_locator": "#DCP-BIBL-1685",
+    "dcp_bibliography_text": "Cundall, Frank. 1915. Darwin and Hill. West India Committee Circular, 28 December 1915.",
+    "dcp_date_note_locator": "#Lfoot.f1",
+    "dcp_date_note_text": "The date as given in Cundall 1915.",
+    "witness_scope": "The scanned article has editorial introduction on printed p. 562 and the complete printed Darwin letter across the lower part of p. 562 and p. 563. The scan is a printed witness, not the Darwin manuscript."
+  },
+  "evidenced_mappings": [
+    {
+      "issue": "honey passage",
+      "printed_locator": "Cundall 1915 facsimile, printed p. 563, lower-left column, Darwin letter paragraph beginning ‘I have delayed answering your last kind note’",
+      "printed_reading": "The quality of honey was astonishing and so excellent that honey for him then repaid the cost of the hive.",
+      "dcp_locator": "DCP-LETT-2479A retained body paragraph 1; div#letter div.body-content > p:nth-of-type(2)",
+      "dcp_reading": "The quality of honey was astonishing and so excellent that honey for him then repaid the cost of the hive.",
+      "assessment": "The awkward ‘honey for him then’ wording is already present in the printed witness and is retained by DCP. No independent manuscript reading was recovered, so it must remain unresolved rather than silently restored."
+    },
+    {
+      "issue": "European-cells duplication",
+      "printed_locator": "Cundall 1915 facsimile, printed p. 563, lower-left column",
+      "printed_reading": "the size of the cells of European cells are so uniform",
+      "dcp_locator": "DCP-LETT-2479A retained body paragraph 1; div#letter div.body-content > p:nth-of-type(2)",
+      "dcp_reading": "the size of the cells of European cells are so uniform",
+      "assessment": "The repeated ‘cells’ is present in the printed witness and in DCP. It may be a printed or transcription error, but this investigation supplies no manuscript basis for emendation. Preserve the literal layer and any cleaned derivative separately."
+    },
+    {
+      "issue": "bracketed query",
+      "printed_locator": "Cundall 1915 facsimile, printed p. 563, lower-left column",
+      "printed_reading": "some wild [?] man proposed them as a standard unit of measurement!",
+      "dcp_locator": "DCP-LETT-2479A retained body paragraph 1, with footnote marker 4; footnote #Lfoot.f4",
+      "dcp_reading": "some wild [?] man proposed them as a standard unit of measurement!",
+      "assessment": "The bracketed question mark is a Cundall editorial query, confirmed by DCP footnote 4 (‘The query was inserted by Frank Cundall in Cundall 1915.’). It is not a Darwin annotation and cannot be exported as Darwin voice or resolved by guesswork."
+    },
+    {
+      "issue": "until versus will",
+      "printed_locator": "Cundall 1915 facsimile, printed p. 563, lower-left column",
+      "printed_reading": "perhaps 2 or 3 drones: until you oblige me by trying to get them from Mr. Wilkie’s Stock",
+      "dcp_locator": "DCP-LETT-2479A retained body paragraph 1, footnote marker 5; footnote #Lfoot.f5",
+      "dcp_reading": "perhaps 2 or 3 drones: until you oblige me by trying to get them from Mr. Wilkie’s Stock",
+      "assessment": "The printed witness reads ‘until’. DCP preserves that reading but its footnote says ‘Cundall probably misread this word: the sense would indicate that CD wrote ‘will’.’ This is an editorial alternative, not an observed manuscript correction; retain both the printed/DCP reading and the attributed uncertainty."
+    },
+    {
+      "issue": "fractions",
+      "printed_locator": "Cundall 1915 facsimile, printed p. 563, lower-left column",
+      "printed_reading": "The printed page shows a fractional 1/2 before ‘dozen dead Bees’ and another before ‘oz.’; the intervening words include ‘perhaps 2 or 3 drones’ and ‘as they could not weigh one’.",
+      "dcp_locator": "DCP-LETT-2479A retained body paragraph 1; MathML mfrac nodes in div#letter div.body-content > p:nth-of-type(2)",
+      "dcp_reading": "The retained projection reads ‘obtain 1/2 dozen dead Bees and perhaps 2 or 3 drones: until’ and later ‘as they could not weigh one 1/2 oz.’; the raw HTML stores each 1/2 as a MathML mfrac.",
+      "assessment": "The DCP MathML preserves the two one-half fractions represented typographically in the printed witness. Rendering may make the fraction explicit, but it does not authorize changing any of the disputed prose."
+    },
+    {
+      "issue": "date and article provenance",
+      "printed_locator": "Cundall 1915 facsimile, printed pp. 562–563; letter heading on p. 563",
+      "printed_reading": "Down, Bromley, Kent. Aug. 8th, [1859].",
+      "dcp_locator": "DCP-LETT-2479A opener and #Lfoot.f1",
+      "dcp_reading": "To Richard Hill 8 August [1859]",
+      "assessment": "The date is a Cundall-supplied printed-witness date, exactly as DCP records. This establishes the printed source and date apparatus, not a manuscript date independently verified here."
+    }
+  ],
+  "unresolved_limits": [
+    "No Darwin manuscript or independent contemporary witness was located in this bounded investigation; Cundall 1915 remains the cited printed witness.",
+    "The scan supports the literal readings above but cannot determine whether ‘honey for him then’, duplicated ‘cells’, or ‘until’ reflect Cundall typography, an earlier copy, or Darwin's manuscript.",
+    "The Cundall bracketed [?] is editorial and must remain separate from Darwin's authorial text.",
+    "This candidate report does not admit or alter the existing 2479A relationship, RAFT eligibility, transcript, or accepted evidence."
+  ],
+  "validation": {
+    "metadata_json": "reports/1858-1859/review/followups/2479A-printed-witness/retrieval-metadata.json parsed successfully",
+    "facsimile": "two-page PDF downloaded, rendered, and both printed pages viewed at original rendered resolution",
+    "hashes": "PDF and rendered page hashes recorded in retrieval-metadata.json",
+    "exact_dcp_quotes": "checked against the preserved HTML body and footnote text"
+  }
+}

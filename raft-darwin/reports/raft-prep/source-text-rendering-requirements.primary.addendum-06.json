@@ -1,0 +1,427 @@
+{
+  "status": "primary_verified_readiness_requirements",
+  "scope": "Accepted1847–1850batches19–22; one cumulative export remains deferred.",
+  "draft_reviewed": {
+    "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-06.draft.json",
+    "sha256": "fc114b3c395598dfa705166fa599a37aa23f35f9fbd5d6c9cd40ce3086d1324d",
+    "preserved_unchanged": true
+  },
+  "primary_provenance": [
+    {
+      "batch_id": "batch-19",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-19.json",
+      "reading_sha256": "d5b2333c32623b9261316f1b06fb08b5ea2c8dfa15257aa487e94ae3479d8bb9",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-19.json",
+      "decision_sha256": "d61e568d08be4c515eea96f8acb7707fe1e6a83fae4c990da9123d88bfdb43f4",
+      "accepted_ledger_path": "data/annotations/periods/1847-1850/batch-19.json",
+      "accepted_ledger_sha256": "bbec439aaf8bbe4daf9aa16e8c99df2cecd76ca31db92d8a113f38c1b9a6cd55"
+    },
+    {
+      "batch_id": "batch-20",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-20.json",
+      "reading_sha256": "d17565ac44bc0b17a1c8bc20fdbe9c637563fe5e58ace98a1ddc2dc3787544a3",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-20.json",
+      "decision_sha256": "75c3f0d57a6c7930d28c85be135d05a1e14ffe925965c7f401191f5796fc1232",
+      "accepted_ledger_path": "data/annotations/periods/1847-1850/batch-20.json",
+      "accepted_ledger_sha256": "bdf0520205a6675e8028f8dbf999238ccc115cf14fc6f0c1b7f65a0bebe3bcbf"
+    },
+    {
+      "batch_id": "batch-21",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-21.json",
+      "reading_sha256": "0e73c2a7c8a7d5f59709a183be621801e53be109de1abaefab8248737d68fe66",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-21.json",
+      "decision_sha256": "3420264d4b8362d6cc30369c84a5443160ee80fe92586bbd8fa0248f9ffd622d",
+      "accepted_ledger_path": "data/annotations/periods/1847-1850/batch-21.json",
+      "accepted_ledger_sha256": "23a3a601675e8e3229c8cc9ea9022ab0c92ea31b68ef240a945a8d1b75373a99"
+    },
+    {
+      "batch_id": "batch-22",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-22.json",
+      "reading_sha256": "517a3e8acafc3fb7638336f3f06a0e15a9755a8c3ca49a911b968a5f0eb83594",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-22.json",
+      "decision_sha256": "392358df39ee5b9b1d1c6f4312a0b6f8349daf961a22d994d4afed277f497cc4",
+      "accepted_ledger_path": "data/annotations/periods/1847-1850/batch-22.json",
+      "accepted_ledger_sha256": "d73edd4734a9325dd7103b77aceb97c8d95f4504d1271dfc1245771ef10cf28f"
+    }
+  ],
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1283"
+      ],
+      "case": "October 7 Sunday versus original Monday and October 4 inference",
+      "requirement": "Preserve the assigned 7 October date together with the literal weekday conflict (7 October 1849 was Sunday, while the source says Monday) and contextual 8 October alternative. Do not derive an exact October 4 receipt from the next-Monday reasoning. Keep the Hooker enclosure and Henslow/Benefit Clubs material in their separate knowledge layers.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1283",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1283.html",
+          "source_sha256": "551a7655a63bb351e0fd35b2fc3e174b88ca044585d3ff224ca2646f4ea3f0e7",
+          "locators": "div#letter header/date metadata; body P1 and P4; editorial footnotes",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1283.xml",
+          "xml_sha256": "63efa5427b7080362cf283bc81a56af95b42b99698c44a1a078ae7746560c4e1"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1283",
+        "body_paragraph": 1,
+        "quote": "your long letter on Benefit Clubs"
+      },
+      "accepted_primary_note": "Accepted batch 19 date and knowledge hold.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1284",
+        "DCP-LETT-1220"
+      ],
+      "case": "Former 1220 letter distinguished from current 1247 enclosure",
+      "requirement": "Render 1284’s recollection as referring to the former 1220 letter, especially the Falconer grievance, not as a transcription or identification of the current 1247 enclosure. Preserve the independently established 9 April 1849 known-by bound through 1239; the 1284 October window is not an exact composition date.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1284",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1284.html",
+          "source_sha256": "5aa0483c9cf2a9547cbf1ad5d749fb7858d0af92bb303f6c74a6f28cc9a516fa",
+          "locators": "div#letter body P1; 1284 editorial date evidence; 1220 body P9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-1284.xml",
+          "xml_sha256": "8c4e97ccf87307fa637d8c74af5920b1dbe81ab2a0e18f31568f384543d9aef2"
+        },
+        {
+          "letter_id": "DCP-LETT-1220",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1220.html",
+          "source_sha256": "ce38e5f442488ef74edcc5d601f4f8cc5ba4d9002779320bf1f0f35c1e01395d",
+          "locators": "div#letter body P1; 1284 editorial date evidence; 1220 body P9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1220.xml",
+          "xml_sha256": "7d0b182122d1a24ae50626dbb1f40f6857f90d0ff18da9bc9f94c2734e78361e"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1284",
+        "body_paragraph": 1,
+        "quote": "I remember in former letter his saying that he had not told his Father how ill Falconer had behaved"
+      },
+      "accepted_primary_note": "Accepted batch 19 cross-correspondent knowledge decision.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1293"
+      ],
+      "case": "One and a half hours and seventh surviving child",
+      "requirement": "Render integer1 plus rawMathML1/2 as one and a half hours. Preserve literal seventh child in Darwin prose; explain seventh surviving versus eighth birth only in attributed metadata, not by adding unspoken surviving to the letter.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1293",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1293.html",
+          "source_sha256": "b2590b2b4ab6a4ae040dfed485db10cc39eb7fe264c44af877382b208f8090e4",
+          "locators": "div#letter body P1; MathML nodes",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1293.xml",
+          "xml_sha256": "0e539bdfc83681e9d88b39eaaeb0d282545ffafef2870374c4dc8c0b2cbc2a3d"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1293",
+        "body_paragraph": 1,
+        "quote": "I kept her in a state of insensibility of 1 & 12 hours"
+      },
+      "accepted_primary_note": "Accepted batch 19 correction.",
+      "evidence_rendering_policy": "Raw MathML and separate integer verified; flattened quote is not normalized output.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1310"
+      ],
+      "case": "Conjectural March 8 and relative yesterday",
+      "requirement": "Keep March 8 as conjectural, with March 15 possible but disfavoured rather than impossible. Treat “arrived here only yesterday” as a relative statement tied to a misdirected letter, not as proof of an exact March 7 arrival or composition date. Preserve “suppose” in the membership claim as uncertainty.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1310",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1310.html",
+          "source_sha256": "75e5ccfd3c8a4075c42531e261205f8503665929bbc5075e623c9c8981d4f0f0",
+          "locators": "Body P1 receipt, P2 publication acceptance and P4 supposed membership; editorial date footnote1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1310.xml",
+          "xml_sha256": "9edcac6c98caf2db429e3bb86618cad3a5ba1a7079e99492fb1d16f6d2c9a933"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1310",
+        "body_paragraph": 1,
+        "quote": "Your letter having been directed Farnham made an astonishing tour & arrived here only yesterday"
+      },
+      "accepted_primary_note": "Accepted batch 20 exact-date and receipt hold.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1305A"
+      ],
+      "case": "Prospective delivery",
+      "requirement": "Render “I will leave them directed ... on Thursday next” as an intended future deposit, not verified dispatch, London presence or receipt. Returning Plumularia belongs to same-author continuity and does not prove delivery of the new material.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1305A",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1305A.html",
+          "source_sha256": "2059e35599097445d9e2f185d3aa9a053ac4080adc0e8d086f3b30608cc577ba",
+          "locators": "div#letter body P2 and P5; receipt/prospective event",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1305A.xml",
+          "xml_sha256": "c31f2be3cdf0e242594a7255858f29fc106d675831cbff345b20d531d21b4748"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1305A",
+        "body_paragraph": 2,
+        "quote": "I will leave them directed to you at Geolog. Soc. on Thursday next"
+      },
+      "accepted_primary_note": "Accepted batch 20 prospective-delivery correction.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1191",
+        "DCP-LETT-1190"
+      ],
+      "case": "Buckland date versus same-day arrival and separate Cresy note",
+      "requirement": "Keep Buckland’s 1190 note as the enclosed source used in 1191, but do not infer that its written date equals physical arrival. Separate it from the Cresy note that 1191 says was received “this morning.” Preserve the accepted knowledge-only relation and its exact-day hold.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1191",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1191.html",
+          "source_sha256": "0e507ffa98e12ca391ff52c8d4a0f1af617c726c25db201a2a776171bfcb72f7",
+          "locators": "div#letter body P1; 1191 receipt wording; 1190 body P1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1191.xml",
+          "xml_sha256": "7c87925db7d1aefc729575122b512748cf911c7ec45cc4e4b068f97f03935299"
+        },
+        {
+          "letter_id": "DCP-LETT-1190",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1190.html",
+          "source_sha256": "4e258b23a8d2fd9e10572b47a015379644553aaf0bcc903500ae10053d8866a6",
+          "locators": "div#letter body P1; 1191 receipt wording; 1190 body P1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1190.xml",
+          "xml_sha256": "8784dd2d5db374669f23473d05843e062a511983ae6aad6836141f8165c617c3"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1191",
+        "body_paragraph": 1,
+        "quote": "I enclose the Dean’s note to me; you will see that he does not believe that there is going to be any appointment"
+      },
+      "accepted_primary_note": "Accepted batch 21 cross-correspondent knowledge decision.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1171"
+      ],
+      "case": "Read, heard and planned publication states",
+      "requirement": "Represent distinct knowledge states: a paper or letter copied/read, reports merely heard, and works still planned for future inspection. In particular, “From all I hear” about Somerville is not a reading witness, while Odart remains future. Do not collapse possession, hearing, reading and intended publication into one availability flag.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1171",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1171.html",
+          "source_sha256": "80c3f477ae8a0bd9d99486e36a7b5c44e50c3583cb6156afbb6b37eb6ab921ad",
+          "locators": "div#letter body P1–P2; editorial date/read-state notes",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1171.xml",
+          "xml_sha256": "2c42e43f3bc83ac5b35cffd7cb28e319085f6939a18751864bfb7b4228655f6f"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1171",
+        "body_paragraph": 2,
+        "quote": "From all I hear, I should expect that Mrs. Somerville’s Phys. Geography would suit you"
+      },
+      "accepted_primary_note": "Accepted batch 21 reading-state correction.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1545"
+      ],
+      "case": "Half-hour MathML",
+      "requirement": "Preserve the raw 1/2-hour value as a fraction and keep Russell and Captain Owen anecdotes attributed to their reported sources. Do not flatten 1/2 to 12 or export reported material as unqualified Darwin voice.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1545",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1545.html",
+          "source_sha256": "180d654f63bdbe610a903ef975178c0acd19ae41270b339d025bfb597dff56e2",
+          "locators": "Body P3, integer-free MathML 1/2; P1 attributed Russell and Captain Owen accounts",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-1545.xml",
+          "xml_sha256": "eddc58d060767c1e25f34c366886121c3108ddd3bc6856dd4df09417141c8ea5"
+        }
+      ],
+      "exact_source_evidence": {
+        "letter_id": "DCP-LETT-1545",
+        "body_paragraph": 3,
+        "quote": "which would not take you more than 12 an hour"
+      },
+      "accepted_primary_note": "Accepted batch 21 correction and boundary hold.",
+      "evidence_rendering_policy": "Flattened 12 in exact source quote is a locator, not intended output; raw MathML confirms one half.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1176"
+      ],
+      "case": "Saturday and Sunday family sections",
+      "requirement": "Preserve P1–2 as Saturday and P3–7 as Sunday under the assigned May20–21range. First section explicitly not dispatched that day. Later thanks and family news cannot condition earlier prose without independent evidence.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1176",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1176.html",
+          "source_sha256": "407eedad3aff1cb852e90226b7e20b1881e71c3a4c932e3019e55feb2711128a",
+          "locators": "P3 Sunday boundary; P1dispatch statement; P2morning acknowledgment",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1176.xml",
+          "xml_sha256": "6b7742d6f80eee2ad99f03eb29c559129e85fe943648568bd72748c0a059f981"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch22 primary reading and decisions; future implementation requirement.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1180"
+      ],
+      "case": "New note and changed travel plan on Sunday",
+      "requirement": "Preserve P1Saturday and P2–4Sunday under assigned May27–28range. Saturday uncertain travel changes toSundayabandonment; Sunday note and child acknowledgment must not be backdated.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1180",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1180.html",
+          "source_sha256": "87e153f5030ce2c3febb72c5023f3664ad3afe869b318893bb2a53c2aa073421",
+          "locators": "P2Sunday boundary and departure change; P4child note",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1180.xml",
+          "xml_sha256": "44d10db33528cc5d3293d6e465542ffc735c81b5f89c997702b5e6877cd1a4de"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch22 primary reading and decisions; future implementation requirement.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1132"
+      ],
+      "case": "Pencil and overtracing provenance",
+      "requirement": "Emma ink tracing of Darwin pencil is a material transmission layer, not an Emma conversational turn. Preserve visible author alterations and source uncertainty.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1132",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1132.html",
+          "source_sha256": "36779b4aef67f7cf7f2b9c4215d27643a4c29d4dfb4c2c9a28be08d693f7c683",
+          "locators": "Editorial footnote1; complete body source",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1132.xml",
+          "xml_sha256": "83a731019e980956c001463abf35bb2e9e26470cc7f4f84c0b19c6cc5de09aa7"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch22 primary reading and decisions; future implementation requirement.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1177"
+      ],
+      "case": "Reading before logged completion",
+      "requirement": "Retain demonstrated Godolphin reading in May22letter alongside May31completion log. Do not defer all content availability to the later log or claim exact completion before then. Sévigné translation edition remains unspecified.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1177",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1177.html",
+          "source_sha256": "4a74f63235fc6e47b34a2388bb55f029d6297eba3e7f0b51dc2eae39f1ba9a0e",
+          "locators": "P3reading account; footnote4completion log",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1177.xml",
+          "xml_sha256": "980d5affcab54d7f423254c5bc0bf0ef0852db3097473eb915ef0f2c199bd39f"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch22 primary reading and decisions; future implementation requirement.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1164",
+        "DCP-LETT-1173"
+      ],
+      "case": "Lost manuscript versus resend",
+      "requirement": "Do not treat March enclosure as successful delivery: May7reports lost parcel, registered resend and acknowledgment still requested. Published1849chapter is not a preserved replacement for the missing manuscript version. Erasmus translation remains separately authored and unavailable.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1164",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1164.html",
+          "source_sha256": "4ea10626e86f4be295afdf757542d7338e8a0a7dfc53ec882acd937726692e8a",
+          "locators": "1164P1;1173P1–2;1173footnote1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1164.xml",
+          "xml_sha256": "25ce90906d4e0ffd26ef539f87b1044806d61b71caa2f53167f6db2e0b33bd22"
+        },
+        {
+          "letter_id": "DCP-LETT-1173",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1173.html",
+          "source_sha256": "8a0f1bcfad02cc0c6b45ab5010d194961b9cdc1b1e9dc00e3d7e52a509a54b5f",
+          "locators": "1164P1;1173P1–2;1173footnote1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1173.xml",
+          "xml_sha256": "a5384c868a945a131dfcb90d428f0f4d9618c42ddc71e6bad7441828d92dc24f"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch22 primary reading and decisions; future implementation requirement.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1183"
+      ],
+      "case": "Later recipient annotation",
+      "requirement": "June13Herschel annotation reports failed colour-change observation and destroyed specimen, after DarwinJune6letter. Keep that separate from Darwin response voice and earlier knowledge; no delivered reply established.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1183",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1183.html",
+          "source_sha256": "4ac7be98d133b60ee6acdc9ac843f40bd1259a1edb18e13bb4f233e173f98193",
+          "locators": "Body P1; editorial footnote2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1183.xml",
+          "xml_sha256": "2dbf978e3ce355d8128ee5744c23a482fa7425ccb96d842e0be0999c176b41e9"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch22 primary reading and decisions; future implementation requirement.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1246"
+      ],
+      "case": "Uncertain source order and expected remedy",
+      "requirement": "Murray note thought written before Herschel contact is uncertain. All will be made right is expectation, not independently verified printing correction. Missing incoming texts stay missing.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1246",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1246.html",
+          "source_sha256": "bb8904c03f7d52c03a339169283e94c479250251f4b9661e5cb931e30784cf8a",
+          "locators": "P1note ordering and future remedy",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1246.xml",
+          "xml_sha256": "0b9a538d68bb40cbe3261c782b390269474356940071bbd68c0397bbbb34bfa3"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch22 primary reading and decisions; future implementation requirement.",
+      "implemented": false
+    }
+  ],
+  "primary_corrections_to_draft": [
+    "1545claimed exact quote 1/2hour was normalized text at wrong paragraph; corrected to actualP3locator and rawMathML evidence.",
+    "1293irrelevant portrait quote replaced with actual fraction span. Surviving is an editorial explanation, not a word to insert into author child count.",
+    "1310membership uncertainty isP4, notP1–2. Added seven verified batch22requirements."
+  ],
+  "verification": {
+    "draft_primary_hash_checks": 9,
+    "source_html_xml_pairs_checked": 18,
+    "primary_note_decision_ledger_sets_pinned": 4,
+    "errors": 0,
+    "method": "Primary substantive review against own accepted full readings, rawMathML and explicit date/voice sections; corrected draft quote/locator mistakes before exact paragraph substring and hash validation."
+  },
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "future_requirements": [
+      "Freeze only after cumulative adjudication through1859-11-24.",
+      "Normalize rendering with raw-source provenance; keep originals immutable.",
+      "A knowledge-use edge is not a direct prompt, and a null activation date never means always available.",
+      "Split demonstrably dated sections to avoid later inputs conditioning earlier responses."
+    ]
+  }
+}

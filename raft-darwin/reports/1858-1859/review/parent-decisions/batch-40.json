@@ -1,0 +1,113 @@
+{
+  "batch_id": "batch-40",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-2416",
+      "source_kind": "Darwin letter (copy witness where stated)",
+      "voice": "Charles Darwin",
+      "date_assessment": "20 Feb [1859]",
+      "disposition": "unpaired_darwin_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2489",
+      "source_kind": "Darwin letter (copy witness where stated)",
+      "voice": "Charles Darwin",
+      "date_assessment": "11 Sept [1859]",
+      "disposition": "unpaired_darwin_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2538",
+      "source_kind": "Darwin letter (copy witness where stated)",
+      "voice": "Charles Darwin",
+      "date_assessment": "[after 21 Nov 1859]",
+      "disposition": "period_boundary_hold",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2420",
+      "source_kind": "Darwin letter (copy witness where stated)",
+      "voice": "Charles Darwin",
+      "date_assessment": "24 [Feb 1859]",
+      "disposition": "unpaired_darwin_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2498A",
+      "source_kind": "Darwin letter (copy witness where stated)",
+      "voice": "Charles Darwin",
+      "date_assessment": "[22 or 29] Oct 1859",
+      "disposition": "exact_date_alternatives_hold",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2380",
+      "source_kind": "Darwin letter (copy witness where stated)",
+      "voice": "Charles Darwin",
+      "date_assessment": "12 Dec [1858]",
+      "disposition": "unpaired_darwin_grounding_candidate",
+      "training_export_ready": false
+    }
+  ],
+  "corrections": [
+    {
+      "kind": "missed_visual",
+      "description": "Contrary to worker no-figure statement, 2420 contains an actual billiard-frame diagram; root viewed it and records the preserved image hash."
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-2380",
+      "kind": "separate_approximate_receipts",
+      "description": "Note and treatise arrived on separate approximate dates; no exact receipt is invented.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2380",
+          "body_paragraph": 1,
+          "quote": "I received about a week ago your very kind note of Oct. 28th & a few days subsequently the Treatise on Pigeons.",
+          "char_start": 0,
+          "char_end": 111,
+          "source_sha256": "0436da8aaa7664970c66f751f4c389cde01f7fdb023ed3c0d522b9acd01ffe1e"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-2498A",
+      "kind": "authorial_routing_not_header",
+      "description": "The address immediately following this sentence is a body shipping instruction, retained as content; dispatch remains future.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2498A",
+          "body_paragraph": 1,
+          "quote": "(in 3 or 4 weeks’ time) per Railway addressed as follows—",
+          "char_start": 148,
+          "char_end": 205,
+          "source_sha256": "bbfa688eab306e94d7302e70e32ec4f06beb3ccb324b051fc2ac2cf2fa643fc3"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-2420",
+      "kind": "currency_rendering",
+      "description": "Original superscript-style unit ordering and accounting note support £53 18s; source stays unchanged.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2420",
+          "body_paragraph": 2,
+          "quote": "The whole affair has only cost £53 s18.0",
+          "char_start": 1155,
+          "char_end": 1195,
+          "source_sha256": "a043bbc2bd5cbca7fac8f41406a0ca86dfae78d852adffb0236df9657d7ce2f4"
+        }
+      ]
+    }
+  ],
+  "summary": "Six targets and six contexts independently covered, with ten fresh source readings, two explicitly verified accepted reuses and one actual figure. No new relationship edges; preserve missing prompts and date holds."
+}

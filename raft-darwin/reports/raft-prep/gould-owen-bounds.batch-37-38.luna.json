@@ -1,0 +1,236 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Batches 37–38 additive source-text/date/voice formatting requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "batches": {
+      "reports/1851-1855/review/parent-reading/batch-37.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-37.json",
+        "sha256": "2038d47821e11f85db128a2bd5d5436cf3a5cca9ce0b4148dd2a60b557d9dfc4"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-37.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-37.json",
+        "sha256": "826610be88876e68b259476f34de74641c319c9e4e3af5bfc3a8b777dc537ee4"
+      },
+      "reports/1851-1855/review/parent-reading/batch-38.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-38.json",
+        "sha256": "e2f4dd988a5f3c3567368049a7ac271e2e4acdb14fd8889d6f34f349972462e5"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-38.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-38.json",
+        "sha256": "13ef244e74a9348545cdf2367f7c190c2073624dc5eb2f6b132555060337468f"
+      }
+    },
+    "ledgers": {
+      "data/annotations/periods/1851-1855/batch-37.json": "294e3d1a0fd5c6f6188b1a33b332d0f6a1f2a51a503fe53b8fe3e7de6c7aac8e",
+      "data/annotations/periods/1851-1855/batch-38.json": "7e53c992ab8c496886ddc61c21c2675362843b90e9a4409b2bfa6df35b84a65d"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1627",
+        "DCP-LETT-1554F"
+      ],
+      "case": "book nominal year, receipt and partial custody",
+      "requirement": "Keep the nominal January 1855 date of 1627 separate from the physical receipt on December 31, 1854 and from selected inspection rather than complete reading. Preserve 1554F as a complete four-page photocopy of an ALS and distinguish Galton’s note and Andersson’s offer from delivered African observations. Forwarding requests and future specimens do not establish a surviving incoming prompt or completed custody.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1627",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1627.html",
+          "source_html_sha256": "6a5d0e49d3edf7c3ee6617b251feca004b44475e10529babb075879808b6ae21",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1627.xml",
+          "xml_sha256": "3bb3112353aae7a62f839ccc9838012a2e168fcfbc67bbaf3f3396810c16f498"
+        },
+        {
+          "letter_id": "DCP-LETT-1554F",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1554F.html",
+          "source_html_sha256": "bc71e6a11bdfaed0b348c2799b7beee53a6e38b03187affa363db98194e58366",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1554F.xml",
+          "xml_sha256": "9deed7f1fb0309887225b4ba9ea689c9b2c7c31597886fd9c0c704969e28dfd1"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1627",
+          "body_paragraph": 1,
+          "quote": "I received your kind present yesterday.",
+          "source_sha256": "6a5d0e49d3edf7c3ee6617b251feca004b44475e10529babb075879808b6ae21",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "source_layer": "body"
+        },
+        {
+          "letter_id": "DCP-LETT-1554F",
+          "body_paragraph": 1,
+          "quote": "Many thanks for your note & your trouble in searching out about the Pigeons.",
+          "source_sha256": "bc71e6a11bdfaed0b348c2799b7beee53a6e38b03187affa363db98194e58366",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "source_layer": "body"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-13834",
+        "DCP-LETT-1526F"
+      ],
+      "case": "Owen recipient insertion and synopsis-only record",
+      "requirement": "Preserve the Owen recipient attribution and its uncertain insertion: 13834 says a specimen was probably shown and left with Owen, not that custody is verified. 1526F has no surviving transcription and consists only of an editorial synopsis; do not voice its address or enclosure instructions as Darwin prose or reconstruct the missing source. Discrete date alternatives remain separate.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-13834",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-13834.html",
+          "source_html_sha256": "0ae73d8c7efd7ca3849ef66ab802066cd8c0420d69c17eb58e1809ed84ba352e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-13834.xml",
+          "xml_sha256": "b7c5b0a2b9be12af696c071301e3116d4683d1ad3c622961455a4c071e173ebe"
+        },
+        {
+          "letter_id": "DCP-LETT-1526F",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1526F.html",
+          "source_html_sha256": "2b9d8ba792aa85f95accb4a9d04db8aea4d4e73ab584309b02a7aa82509d6ff4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1526F.xml",
+          "xml_sha256": "d40803f22e95f9a1f5f6a14b9f7b852879bd32057b3cc02b3e8999d5323d4653"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-13834",
+          "body_paragraph": 1,
+          "quote": "which I rather think I left with you",
+          "source_sha256": "0ae73d8c7efd7ca3849ef66ab802066cd8c0420d69c17eb58e1809ed84ba352e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "source_layer": "body"
+        }
+      ],
+      "editorial_synopsis_evidence": {
+        "letter_id": "DCP-LETT-1526F",
+        "source_layer": "editorial_synopsis",
+        "text": "The transcript of this letter is not yet available online.",
+        "source_sha256": "2b9d8ba792aa85f95accb4a9d04db8aea4d4e73ab584309b02a7aa82509d6ff",
+        "note": "Not treated as authorial quotation and intentionally excluded from exact body quote validation."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1710",
+        "DCP-LETT-1386"
+      ],
+      "case": "lost tabular layout and raw non-MathML fraction damage",
+      "requirement": "Preserve 1710’s species/condition sequence as raw paragraph text because the source no longer exposes the likely multi-column table; do not reconstruct a table or merge later results. Preserve 1386’s literal “45s” with its superscript s and no fraction markup; do not silently render it as four-fifths. These are source-format holds, not generic numeric normalization tasks.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1710",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1710.html",
+          "source_html_sha256": "2041c92b871248dfc265abfd954ff12eef88c4a2a3243e1ae9d5c047c0c23e3d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1710.xml",
+          "xml_sha256": "695e37e349780642256d815d56fa69d245185e81a2fa797a97c30ac095b07897"
+        },
+        {
+          "letter_id": "DCP-LETT-1386",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1386.html",
+          "source_html_sha256": "4b34c3e41008a6fba825441a8a9935fddb6963b602d75fac4cf0d0cc7c75288c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1386.xml",
+          "xml_sha256": "e1b2f8ed5eac1835d8def0e903a6ecdcf7350af125848a6e78feadf93d1ec8ee"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1710",
+          "body_paragraph": 12,
+          "quote": "Celery after 85 days.—",
+          "source_sha256": "2041c92b871248dfc265abfd954ff12eef88c4a2a3243e1ae9d5c047c0c23e3d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[13]",
+          "source_layer": "body"
+        },
+        {
+          "letter_id": "DCP-LETT-1710",
+          "body_paragraph": 13,
+          "quote": "Onion",
+          "source_sha256": "2041c92b871248dfc265abfd954ff12eef88c4a2a3243e1ae9d5c047c0c23e3d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[14]",
+          "source_layer": "body"
+        },
+        {
+          "letter_id": "DCP-LETT-1386",
+          "body_paragraph": 1,
+          "quote": "45s of them require a mere touch",
+          "source_sha256": "4b34c3e41008a6fba825441a8a9935fddb6963b602d75fac4cf0d0cc7c75288c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "source_layer": "body"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1662",
+        "DCP-LETT-1699",
+        "DCP-LETT-1391"
+      ],
+      "case": "Gärtner abstract/knowledge and receipt versus experiment stages",
+      "requirement": "Keep Darwin’s later Gärtner reading and request for Berkeley’s interpretation distinct from Berkeley’s missing note and from later experimental accidents. 1662 records reading the abstract and planning a 41-variety pea bed; 1699 acknowledges Berkeley’s salting account, reports a drying accident and separately notes 56-day germination. 1391’s safe specimen arrival and still-open drawing charge are later custody/account stages; do not backdate or infer a completed experiment from acknowledgement.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1662",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1662.html",
+          "source_html_sha256": "312bdbb9a8715371743f299fac512d4c52711d39abd2f44cc519b20dd7cdf9a0",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1662.xml",
+          "xml_sha256": "7bf2a2b4058bcddbe50408bce51ed397cb66a401b15c1075eb8e994a5a70c622"
+        },
+        {
+          "letter_id": "DCP-LETT-1699",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1699.html",
+          "source_html_sha256": "f1888bb590990a98c2767d79b20e369f4c94a83ef46dde631ea2184f2cdcc35a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1699.xml",
+          "xml_sha256": "edfe693c5d4ed7625ad26d6bd89189d9bfff9ac7327a7dc47f9f248468f16831"
+        },
+        {
+          "letter_id": "DCP-LETT-1391",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1391.html",
+          "source_html_sha256": "d88ea8ec5a55425dc8ed6fe32bc46dbfe9ed4e71755bb0b3d80f5f71ae777198",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1391.xml",
+          "xml_sha256": "0725ccab439867955b46d2bffa449296a41b176c6c101331996286b291c40beb"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1662",
+          "body_paragraph": 1,
+          "quote": "I am going to plant in 2 or 3 days a bed with 41 reputed varieties of Peas",
+          "source_sha256": "312bdbb9a8715371743f299fac512d4c52711d39abd2f44cc519b20dd7cdf9a0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "source_layer": "body"
+        },
+        {
+          "letter_id": "DCP-LETT-1662",
+          "body_paragraph": 2,
+          "quote": "I have been reading straight through Gærtner",
+          "source_sha256": "312bdbb9a8715371743f299fac512d4c52711d39abd2f44cc519b20dd7cdf9a0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "source_layer": "body"
+        },
+        {
+          "letter_id": "DCP-LETT-1699",
+          "body_paragraph": 3,
+          "quote": "some of my seeds have germinated after 56 days immersion",
+          "source_sha256": "f1888bb590990a98c2767d79b20e369f4c94a83ef46dde631ea2184f2cdcc35a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+          "source_layer": "body"
+        },
+        {
+          "letter_id": "DCP-LETT-1391",
+          "body_paragraph": 2,
+          "quote": "The specimens all arrived quite safe",
+          "source_sha256": "d88ea8ec5a55425dc8ed6fe32bc46dbfe9ed4e71755bb0b3d80f5f71ae777198",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "source_layer": "body"
+        }
+      ]
+    }
+  ],
+  "validation_plan": {
+    "quote_validator": "scripts/period_review.py check_quotes",
+    "exact_source_evidence_count": 10,
+    "actual_dom_method": "Body quotations resolve to unique preserved HTML p nodes via lxml getpath. The 1526F synopsis is explicitly marked non-authorial and has no body locator.",
+    "verification_uncertainty": "1386, 1710 and the 1526F synopsis retain unresolved source-format or transcription limits; no derived fractions, table, or missing prompt is supplied."
+  }
+}

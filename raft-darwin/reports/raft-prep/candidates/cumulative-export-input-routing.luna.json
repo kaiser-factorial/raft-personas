@@ -1,0 +1,90 @@
+{
+  "status": "inventory_only",
+  "created": "2026-09-17",
+  "scope": "Preparation map for one cumulative RAFT export after primary adjudication. No export, transcript, corpus, updater, training, or accepted-artifact mutation.",
+  "policy_input": {
+    "path": "docs/raft-export-content-policy.md",
+    "sha256": "c7220b8e79bf44f2ac9d98b61676471e72d2b9a5fb360b4590d6c0972a3f916d",
+    "rules_to_implement": [
+      "Only attributed letter prose enters question/answer/grounding; headings, addresses, datelines, summaries, notes, footnotes, bibliography and navigation stay in audit metadata.",
+      "Keep composition, posting, receipt, reading and demonstrated-knowledge dates distinct; incoming availability is a conservative bound and never replaces the Darwin response date.",
+      "Use one established Darwin response or safely dated response section per transcript; preserve scoped relationships and deduplicate shared response bodies.",
+      "Unresolved transcription artifacts, dates, attribution, text scope or source identity hold an entry explicitly; never synthesize a prompt."
+    ]
+  },
+  "authoritative_inputs": [
+    {
+      "period": "1828-1836",
+      "paths": [
+        {"path": "data/annotations/correspondence_links.json", "sha256": "6cd4a48b06544b090264cd4d4bc8396627ba18ae95163d8dd2174432b84fccab", "role": "accepted legacy direct/knowledge graph and relation definitions"},
+        {"path": "reports/1828-1836/receipt_evidence.json", "sha256": "04e258474c88d2be733138f2a7a209bec97151c1834667ebd51e33c4e5d513a7", "role": "receipt/known-by evidence"},
+        {"path": "reports/1828-1836/audit.jsonl", "role": "source identity, XML constraints, body eligibility and provenance"},
+        {"path": "reports/1828-1836/safe_within_period.jsonl", "role": "period-eligible records"}
+      ],
+      "example_keys": {"pair": "edges[].{id,source_id,target_id,relationship,review_status,exact_receipt_date,receipt_constraints}", "legacy_pair": "edges[].{id,incoming_id,outgoing_id,known_by_date,actual_receipt_date,response_scope,training_export_ready}"}
+    },
+    {
+      "period": "1837-1843",
+      "paths": [
+        {"path": "reports/1837-1843/correspondence-map/graph.json", "sha256": "5328c33d6af9881fcccdb118143082735e0e6f01893f11222f97dc3a418d44b3", "role": "composed accepted graph, nodes, scoped sections, receipt events and candidates"},
+        {"path": "data/annotations/expansion_1837_1843.json", "role": "base append-only adjudications"},
+        {"path": "data/annotations/henslow_lyell_1837_1843.json", "role": "additive adjudication"},
+        {"path": "data/annotations/remaining_1837_1843/batch-*.json", "role": "additive remaining review ledgers; include only parent-adjudicated files"},
+        {"path": "reports/1837-1843/correspondence-map/summary.json", "role": "counts/status, never text authority"}
+      ],
+      "example_keys": {"node": "nodes[].{id,individual_Darwin_voice_eligible,text_scope,known_by_date,training_export_ready,body_source,metadata_provenance}", "pair": "edges[].{id,type,source,target,is_Darwin_response,response_scope,response_sections,response_paragraphs}", "knowledge": "cross-correspondent observations / incoming_knowledge_dates with source evidence"}
+    },
+    {
+      "periods": ["1844-1846", "1847-1850", "1851-1855", "1856-1857", "1858-1859"],
+      "paths": [
+        {"path": "data/annotations/periods/{period}/batch-*.json", "role": "authoritative v2 parent-adjudicated ledgers; select status=parent_adjudicated"},
+        {"path": "reports/{period}/review/ledger-integrity-audit.json", "role": "integrity verification and input hashes, not adjudication"},
+        {"path": "reports/{period}/review/letters.jsonl", "role": "body/source records referenced by ledger"},
+        {"path": "reports/{period}/review/summary.json", "role": "period status/counts, not text authority"}
+      ],
+      "example_ledger": "data/annotations/periods/1858-1859/batch-41.json",
+      "example_keys": {"pair": "direct_reply_pairs[].{incoming_id,outgoing_id,status,known_by_date,actual_receipt_date,response_scope,response_sections,response_paragraphs,response_date_policy,training_export_ready}", "knowledge": "cross_correspondent_knowledge[].{incoming_id,witness_id,known_by_date,status,evidence}", "grounding": "letter_adjudications[].{letter_id,disposition,voice,training_export_ready,paragraphs_read,source}; use only Darwin individual voice and eligible scope"}
+    },
+    {
+      "corpus": "Beagle voyage additive ledgers",
+      "paths": [
+        {"path": "data/annotations/beagle-voyage/{group}.primary.json", "role": "parent-adjudicated additive groups"},
+        {"path": "data/annotations/beagle-voyage/addenda/*.primary.json", "role": "scoped corrections/additions; apply after base group"},
+        {"path": "reports/beagle-voyage-review/ledger-integrity-audit.json", "role": "group hashes and quote/visual checks"}
+      ],
+      "example_keys": {"pair": "direct_reply_pairs[].{incoming_id,outgoing_id,status,known_by_date,actual_receipt_date,response_scope,response_sections,training_export_ready}", "grounding": "letter_adjudications[].{disposition,training_export_ready}; sources[].{body_source,metadata_provenance}", "addendum": "retained_prior_relationships[] / addendum-specific scope records"}
+    }
+  ],
+  "routing_model": {
+    "direct_pairs": {"source": "direct_reply_pairs plus accepted graph edges whose relationship is replies_to/replies_to equivalent", "direction": "incoming_id is question; outgoing_id must be Darwin-authored response", "required": ["both source records primary-read", "response_scope or response_sections", "known_by_date preserved", "actual_receipt_date nullable", "training_export_ready explicitly true only after final checks"], "dedup_key": "(incoming_id,outgoing_id,response_scope canonicalized)", "body_dedup": "one response letter may produce multiple scoped links but shared Darwin prose must be emitted once per selected transcript unit"},
+    "response_scopes": {"precedence": ["explicit accepted response_sections/paragraph fragments", "explicit response_paragraphs", "single_date_direct_reply only when declared", "never infer from whole body when a scope exists"], "keep": ["paragraph numbers", "char offsets/fragments", "section date policy", "excluded or held spans"], "hold_if": ["scope is absent for a multi-topic response", "source artifact is unresolved", "scope relies only on footnote/annotation"]},
+    "knowledge_dates": {"source": "cross_correspondent_knowledge, receipt_events, dated_sections, legacy receipt evidence", "semantics": "known_by_date is an upper bound on Darwin knowledge, not delivery or composition", "ordering": "incoming must be strictly earlier than response date when used for retrieval; same-day cases require explicit ordering evidence", "dedup_key": "(incoming_id,witness_id,known_by_date,scope)"},
+    "grounding_dispositions": {"include": ["individual Darwin voice eligible", "accepted date policy and body scope", "source hash verified", "not consumed as an answer in a selected pair unless scoped remainder is explicitly retained"], "exclude_or_hold": ["non-Darwin voice", "institutional/joint/unresolved authorship", "body unavailable", "period/date hold", "unresolved transcription artifact", "editorial apparatus only"], "dedup_key": "(letter_id,voice_scope,date_policy)"},
+    "supplemental_recovered_sources": {"route": "candidate followup reports and source manifests -> primary adjudication -> additive ledger only if accepted", "example": "reports/1858-1859/review/followups/batch41-brewer/DCP-LETT-2421.candidate.md and sources/manifest.json", "rule": "never read candidate files as authoritative graph edges; preserve source URL/hash/time and keep third-party prose out of Darwin grounding"}
+  },
+  "precedence_and_dedup": [
+    "Primary-adjudicated ledgers override Luna/reviewer proposals; accepted graphs are authoritative only for the period whose builder composes them.",
+    "Within a period, base ledger precedes explicitly named additive correction/addendum; identical relationship keys are retained once, with the latest explicit scoped correction recorded in audit.",
+    "A retained prior relationship is carried forward once and does not become a new pair merely because another period/context ledger repeats it.",
+    "Deduplicate by stable letter IDs plus relationship and response scope, never by nearest date, subject, URL alone, or text similarity.",
+    "Preserve original CSV/XML dates and hashes; inferred known-by/receipt dates are separate fields and cannot rewrite source metadata."
+  ],
+  "reusable_entrypoints": [
+    {"path": "scripts/curate_period.py", "symbols": ["curate", "relationship_keys"], "use": "v2 period ledger validation/composition; do not invoke during export preparation"},
+    {"path": "scripts/build_expansion_review.py", "symbols": ["load_decisions", "load_letters", "adjudication_scopes", "validate_section_coverage"], "use": "1837-1843 graph composition and scoped text checks"},
+    {"path": "scripts/prepare_remaining_expansion.py", "symbols": ["main"], "use": "maps remaining 1837-1843 inputs; not an exporter"},
+    {"path": "scripts/period_review.py", "symbols": ["load", "scholarly_sections", "bibliography_sections", "visual_nodes"], "use": "source apparatus/visual validation"},
+    {"path": "scripts/verify_period_ledgers.py", "use": "period hash/ledger checks where available"}
+  ],
+  "schema_mismatches_primary_must_settle": [
+    "1828-1836 uses legacy graph/receipt structures and lacks the v2 ledger envelope; define a normalized adapter and retain legacy relation semantics.",
+    "1837-1843 graph edges use source/target/type while v2 ledgers use incoming_id/outgoing_id and relationship; define direction conversion, especially reverse correspondent replies.",
+    "Graph nodes, v2 letter_adjudications, and Beagle dispositions use different voice/text-scope field names; define one export eligibility and remainder-scope vocabulary.",
+    "Some accepted relationships are section-dependent or dated-section scoped, while RAFT transcript schema has one transcript-level date; settle transcript splitting/date representation before export.",
+    "Beagle additive ledgers expose retained_prior_relationships and addenda outside the period batch sequence; define ordering and duplicate precedence explicitly.",
+    "Source provenance varies between body_source/metadata_provenance, embedded graph source objects, and legacy audit paths; require one audit-sidecar schema with source URL, retrieval time, bytes, SHA-256 and pin.",
+    "training_export_ready is intentionally false in current ledgers; primary must define the final transition gate and ensure no candidate/review record is mistaken for approval.",
+    "Legacy unlocated/reference nodes attest events or receipt without text; decide whether they remain audit-only (recommended by policy) and prevent prompt generation."
+  ],
+  "not_run": ["period state updaters", "RAFT export", "transcript/corpus creation", "training", "external calls"]
+}

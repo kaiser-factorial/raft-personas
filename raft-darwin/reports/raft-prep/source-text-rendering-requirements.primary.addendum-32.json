@@ -1,0 +1,530 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Accepted 1856–1857 batch 08 source-text rendering, chronology, receipt and attribution requirements only; candidate for root review, no converter/export/transcript/corpus/training changes.",
+  "primary_provenance": {
+    "batch": {
+      "reading": {
+        "path": "reports/1856-1857/review/parent-reading/batch-08.json",
+        "sha256": "02e2b5ca2637df70ed804af0e424d93f02ffc83ae2775ec4265e8f11e183c0de"
+      },
+      "decisions": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-08.json",
+        "sha256": "09a8392c317e2f0277a84ed09f52d1503f7eae5f73378cd05c62bd4ce32772e9"
+      }
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-08.json",
+      "sha256": "b2faa36784d28e7acbc68ca34be100c0e03320595ef561cf8716aa90d35060da"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-2089"
+      ],
+      "case": "Eight MathML fractions in four pairs and an unmarked 18",
+      "requirement": "Preserve eight genuine MathML fractions in retained body P6–9 of 2089: 1/10 versus 1/9, 1/22 versus 1/23, 1/28 versus 1/30, and 1/20 versus 1/18. Earlier P4 US Compositae plain 18 has no MathML; retain this source ambiguity rather than silently converting it to 1/8. Keep retained paragraph numbers distinct from raw DOM indices.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2089",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2089.xml",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2089.html",
+          "source_html_sha256": "5e168ebd7fd62ddd743c5cf4dd22c2ed9a48a7f8c1c2408dafee9735149358a7",
+          "xml_sha256": "86042b22edd48270d40928620419585c2363efb29b99c7a82572a9d5fb4a04cc",
+          "verified_xml_dates": [
+            {
+              "text": "9 May [1857]",
+              "attributes": {
+                "when": "1857-05-09"
+              },
+              "lower": "1857-05-09",
+              "upper": "1857-05-09",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-05-09\">9 May [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2089",
+          "body_paragraph": 4,
+          "quote": "Compositæ form 18",
+          "char_start": 111,
+          "char_end": 128,
+          "source_sha256": "5e168ebd7fd62ddd743c5cf4dd22c2ed9a48a7f8c1c2408dafee9735149358a7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-2089",
+          "body_paragraph": 6,
+          "quote": "Compositæ 110 19",
+          "char_start": 0,
+          "char_end": 16,
+          "source_sha256": "5e168ebd7fd62ddd743c5cf4dd22c2ed9a48a7f8c1c2408dafee9735149358a7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"
+        }
+      ],
+      "verified_mathml": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]/math[1]",
+          "numerator": "1",
+          "denominator": "10",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]/math[2]",
+          "numerator": "1",
+          "denominator": "9",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]/math[1]",
+          "numerator": "1",
+          "denominator": "22",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>22</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]/math[2]",
+          "numerator": "1",
+          "denominator": "23",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>23</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]/math[1]",
+          "numerator": "1",
+          "denominator": "28",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>28</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]/math[2]",
+          "numerator": "1",
+          "denominator": "30",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>30</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[10]/math[1]",
+          "numerator": "1",
+          "denominator": "20",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>20</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[10]/math[2]",
+          "numerator": "1",
+          "denominator": "18",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>18</mn></mfrac></math>"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2098",
+        "DCP-LETT-2109"
+      ],
+      "case": "95/132 interpretation without invented MathML and article-sheet extent",
+      "requirement": "2098 retained P17 supplies explicit 95 of 132 trees. Darwin 2109 P4 has plain 95132 with zero math elements; preserve raw text and document the supported 95/132 interpretation separately. P1 requests a further/corrected paper copy, despite earlier article sheets already read. Receipt of one version does not prove receipt of all versions or an expected sequel.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2098",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2098.xml",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2098.html",
+          "source_html_sha256": "988dcbe103a9af3a736656be5d535be631ba0abf486ba88eec9fd7b230a69419",
+          "xml_sha256": "61315bf36f01864fdc3a35a624425924c6d4075cde2d9ce532b555e1ae20490d",
+          "verified_xml_dates": [
+            {
+              "text": "1 June 1857",
+              "attributes": {
+                "when": "1857-06-01"
+              },
+              "lower": "1857-06-01",
+              "upper": "1857-06-01",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-06-01\">1 June 1857</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2109",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2109.xml",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2109.html",
+          "source_html_sha256": "863e894ae5a880f609f5cef979b1c66b40a7920ba5e914b306da45503a24e73f",
+          "xml_sha256": "1f31c3e1cad98cd5dd342956acc362e776879a50a39d85c2f72ccc821cdefc74",
+          "verified_xml_dates": [
+            {
+              "text": "18 June [1857]",
+              "attributes": {
+                "when": "1857-06-18"
+              },
+              "lower": "1857-06-18",
+              "upper": "1857-06-18",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-06-18\">18 June [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2098",
+          "body_paragraph": 17,
+          "quote": "Out of 132 trees, those with separated flowers more or less—are 95.",
+          "char_start": 0,
+          "char_end": 67,
+          "source_sha256": "988dcbe103a9af3a736656be5d535be631ba0abf486ba88eec9fd7b230a69419",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[18]"
+        },
+        {
+          "letter_id": "DCP-LETT-2109",
+          "body_paragraph": 4,
+          "quote": "your fraction of 95132",
+          "char_start": 216,
+          "char_end": 238,
+          "source_sha256": "863e894ae5a880f609f5cef979b1c66b40a7920ba5e914b306da45503a24e73f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-2109",
+          "body_paragraph": 1,
+          "quote": "I have not received the last part of your Silliman Papers",
+          "char_start": 303,
+          "char_end": 360,
+          "source_sha256": "863e894ae5a880f609f5cef979b1c66b40a7920ba5e914b306da45503a24e73f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "verified_absence_of_mathml": true
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2060"
+      ],
+      "case": "bounded March response and excluded postage note",
+      "requirement": "Retain DCP-LETT-2060 as an undated Darwin ALS bounded by the XML apparatus to after March 15 and no later than March 31, 1857; do not assign a day from the displayed [after 15 March] header. The excluded marginal/paratext line “(I have divided my letter to save Postage)” must remain visibly separate from the eight body blocks. The accepted response scope is P1–P6 and the first sentence of P7: Gray’s alpine/range and tree-sex arguments, with Darwin’s qualified crossing hypothesis and cited counterexamples; the remainder of P7 forwards Watson material and is not a response to the same prompt.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2060",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2060.xml",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2060.html",
+          "source_html_sha256": "b2e4c9cdd17a1d1b836970d5b33b76da1981265731abbc4c0db9e68c5874f29e",
+          "xml_sha256": "de59d76ea7d229967fb1c9ed448ff0cc4cd1f987a50308fddd68c0941cf41ee7",
+          "verified_xml_dates": [
+            {
+              "text": "[after 15 Mar 1857]",
+              "attributes": {
+                "notBefore": "1857-03-16",
+                "notAfter": "1857-03-31"
+              },
+              "lower": "1857-03-16",
+              "upper": "1857-03-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1857-03-16\" notAfter=\"1857-03-31\">[after 15 Mar 1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2060",
+          "body_paragraph": 3,
+          "quote": "You ask about my doctrine which led me to expect that Trees would tend to have separate sexes",
+          "char_start": 0,
+          "char_end": 93,
+          "source_sha256": "b2e4c9cdd17a1d1b836970d5b33b76da1981265731abbc4c0db9e68c5874f29e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-2060",
+          "body_paragraph": 7,
+          "quote": "I have sent his note (1) & Essay (2)",
+          "char_start": 645,
+          "char_end": 681,
+          "source_sha256": "b2e4c9cdd17a1d1b836970d5b33b76da1981265731abbc4c0db9e68c5874f29e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]"
+        }
+      ],
+      "verified_excluded_postage_note": {
+        "letter_id": "DCP-LETT-2060",
+        "literal_text": "(I have divided my letter to save Postage)",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/div/p",
+        "source_sha256": "b2e4c9cdd17a1d1b836970d5b33b76da1981265731abbc4c0db9e68c5874f29e"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2104"
+      ],
+      "case": "approximate composition date and probable receipt only",
+      "requirement": "2104 is an incomplete Gray ALS composed circa May 24, 1857. Separate Darwin ink June 9 docket is only probably a receipt date according to apparatus; neither establishes an exact composition day or definite arrival. Preserve missing opening, Watson categories, article-sheet request and three absent enclosures. Do not restore June 18 crossing remarks from this missing opening.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2104",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2104.xml",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2104.html",
+          "source_html_sha256": "8f010cb80c7710b62a23acac230703d9fe23f8f9404d70427b6829343ae4dd54",
+          "xml_sha256": "d0f20f6d26fc088c9480bbf2c994c7a26bbc1da8c2b42757df714f9985ab818b",
+          "verified_xml_dates": [
+            {
+              "text": "[c. 24 May 1857]",
+              "attributes": {
+                "when": "1857-05-24"
+              },
+              "lower": "1857-05-24",
+              "upper": "1857-05-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-05-24\">[c. 24 May 1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2104",
+          "body_paragraph": 1,
+          "quote": "Mr. Watson’s very proper discriminations",
+          "char_start": 30,
+          "char_end": 70,
+          "source_sha256": "8f010cb80c7710b62a23acac230703d9fe23f8f9404d70427b6829343ae4dd54",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]"
+        },
+        {
+          "letter_id": "DCP-LETT-2104",
+          "body_paragraph": 8,
+          "quote": "Kindly post the 3 enclosed letters",
+          "char_start": 0,
+          "char_end": 34,
+          "source_sha256": "8f010cb80c7710b62a23acac230703d9fe23f8f9404d70427b6829343ae4dd54",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        }
+      ],
+      "verified_receipt_docket": {
+        "letter_id": "DCP-LETT-2104",
+        "literal_text": "June 9th—1857",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[2]",
+        "source_sha256": "8f010cb80c7710b62a23acac230703d9fe23f8f9404d70427b6829343ae4dd54"
+      },
+      "verified_dating_apparatus": {
+        "letter_id": "DCP-LETT-2104",
+        "literal_text": "probably records the date of receipt",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]",
+        "source_sha256": "8f010cb80c7710b62a23acac230703d9fe23f8f9404d70427b6829343ae4dd54"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2109"
+      ],
+      "case": "missing crossing prompt and corrected underwater taxonomy",
+      "requirement": "2109 has seven retained body blocks: P1 includes response to Watson categories in2104, P2–4 answer June1 material, P5 crossing/bud discussion lacks its complete surviving incoming passage, P7 adds Darwin holly observation. The plain95132 fraction is inP4, notP5. Original summary wrongly groups Leguminosae under water; body places Podostemon/Subularia under water and Leguminosæ in separate parentheses. Preserve original summary as evidence but correct this description in derived records.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2109",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2109.xml",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2109.html",
+          "source_html_sha256": "863e894ae5a880f609f5cef979b1c66b40a7920ba5e914b306da45503a24e73f",
+          "xml_sha256": "1f31c3e1cad98cd5dd342956acc362e776879a50a39d85c2f72ccc821cdefc74",
+          "verified_xml_dates": [
+            {
+              "text": "18 June [1857]",
+              "attributes": {
+                "when": "1857-06-18"
+              },
+              "lower": "1857-06-18",
+              "upper": "1857-06-18",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-06-18\">18 June [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2109",
+          "body_paragraph": 5,
+          "quote": "Podostemon & Subularia under water (& Leguminosæ)",
+          "char_start": 1510,
+          "char_end": 1559,
+          "source_sha256": "863e894ae5a880f609f5cef979b1c66b40a7920ba5e914b306da45503a24e73f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2109",
+          "body_paragraph": 7,
+          "quote": "20 stigmas",
+          "char_start": 173,
+          "char_end": 183,
+          "source_sha256": "863e894ae5a880f609f5cef979b1c66b40a7920ba5e914b306da45503a24e73f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2120"
+      ],
+      "case": "grass retraction, dispatch route and later manuscript split",
+      "requirement": "2120 P1 acknowledges June18 received last week; P2 separately reports shipborne dispatch to Liverpool of Watson correspondence, pamphlet and First Lessons. This does not prove Darwin receipt/read. P9 corrects Gray earlier untested grass claim after fresh inspection; P10 retains Compositae uncertainty. Later Darwin splitting of pages for filing is manuscript custody history, not multiple composition dates or different incoming authors.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2120",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2120.xml",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2120.html",
+          "source_html_sha256": "696be6ee868bb585c08a87c53edd20ec8e07206ea6aade6b4b99dfdb3be16071",
+          "xml_sha256": "a154a83b2fb4cbd20b586904bfe94aceccb3fc1eb234836cda67a68bd1f61584",
+          "verified_xml_dates": [
+            {
+              "text": "7 July 1857",
+              "attributes": {
+                "when": "1857-07-07"
+              },
+              "lower": "1857-07-07",
+              "upper": "1857-07-07",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-07-07\">7 July 1857</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2120",
+          "body_paragraph": 2,
+          "quote": "By a private hand, a passenger by sailing ship to Liverpool I last week sent",
+          "char_start": 0,
+          "char_end": 76,
+          "source_sha256": "696be6ee868bb585c08a87c53edd20ec8e07206ea6aade6b4b99dfdb3be16071",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2120",
+          "body_paragraph": 9,
+          "quote": "not a soul of them shed a grain of pollen",
+          "char_start": 306,
+          "char_end": 347,
+          "source_sha256": "696be6ee868bb585c08a87c53edd20ec8e07206ea6aade6b4b99dfdb3be16071",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]"
+        },
+        {
+          "letter_id": "DCP-LETT-2120",
+          "body_paragraph": 10,
+          "quote": "my hasty statement may need equal correction",
+          "char_start": 16,
+          "char_end": 60,
+          "source_sha256": "696be6ee868bb585c08a87c53edd20ec8e07206ea6aade6b4b99dfdb3be16071",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[11]"
+        }
+      ],
+      "verified_filing_apparatus": {
+        "letter_id": "DCP-LETT-2120",
+        "literal_text": "This letter was divided into two parts by CD.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[11]/div[2]",
+        "source_sha256": "696be6ee868bb585c08a87c53edd20ec8e07206ea6aade6b4b99dfdb3be16071"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2125"
+      ],
+      "case": "marginal NB and scope of “Our theory”",
+      "requirement": "2125 P1–5 is the accepted response. Preserve the scratched-left-wing-petals NB in its source body position with explicit marginal-addition provenance: it is Darwin-authored letter content, not an unrelated later annotation to remove. P5 Our theory refers occasional cross-fertilization; retain the separate extinction/common-descent argument and grass correction in their own context.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2125",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2125.xml",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2125.html",
+          "source_html_sha256": "1dd37cbb260281e5cfdc30e132daae45592b38c998f55e53d0c70bf096232357",
+          "xml_sha256": "e5bab6f7a2e1d4f5470ffc6392792031f45f776a1478856a893725429d79ccce",
+          "verified_xml_dates": [
+            {
+              "text": "20 July [1857]",
+              "attributes": {
+                "when": "1857-07-20"
+              },
+              "lower": "1857-07-20",
+              "upper": "1857-07-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-07-20\">20 July [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2125",
+          "body_paragraph": 4,
+          "quote": "the wing-petals on the left-side alone are all scratched by the tarsi of the Bees",
+          "char_start": 857,
+          "char_end": 938,
+          "source_sha256": "1dd37cbb260281e5cfdc30e132daae45592b38c998f55e53d0c70bf096232357",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-2125",
+          "body_paragraph": 5,
+          "quote": "Our theory will explain why in vegetable & animal kingdom",
+          "char_start": 0,
+          "char_end": 57,
+          "source_sha256": "1dd37cbb260281e5cfdc30e132daae45592b38c998f55e53d0c70bf096232357",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        }
+      ],
+      "verified_marginal_apparatus": {
+        "letter_id": "DCP-LETT-2125",
+        "literal_text": "This sentence was added in the margin.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[6]/div[2]",
+        "source_sha256": "1dd37cbb260281e5cfdc30e132daae45592b38c998f55e53d0c70bf096232357"
+      }
+    }
+  ],
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "notes": [
+    "This draft is limited to batch 08 findings newly needed for source rendering and chronology fidelity.",
+    "One June 18 Darwin output (DCP-LETT-2109) has two distinct incoming Gray inputs in accepted decisions (DCP-LETT-2104 and DCP-LETT-2098), with narrower paragraph scopes; rendering must support both links without merging them.",
+    "DCP-LETT-2053 remains the accepted incoming endpoint for DCP-LETT-2060 context; it is included only as provenance for the response wording, not as a new requirement case."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/all_letters.jsonl",
+      "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+    },
+    {
+      "path": "reports/1856-1857/audit.jsonl",
+      "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+    }
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-32.draft.json",
+      "sha256": "15abf5d042889fd3e24149abb6027589714fce29673fa957a3d1b365a7ee2892"
+    }
+  ],
+  "original_input_description": {
+    "all_letters": "reports/1856-1857/review/all_letters.jsonl",
+    "audit": "reports/1856-1857/audit.jsonl",
+    "source_ids": [
+      "DCP-LETT-2053",
+      "DCP-LETT-2060",
+      "DCP-LETT-2089",
+      "DCP-LETT-2098",
+      "DCP-LETT-2104",
+      "DCP-LETT-2109",
+      "DCP-LETT-2120",
+      "DCP-LETT-2125"
+    ]
+  },
+  "primary_corrections": [
+    "Replaced mismatched source quote and raw-DOM paragraph counts with exact retained-body evidence plus separate verified XPath.",
+    "Eight fractions form four pairs, not eight pairs.",
+    "2109 fraction is P4; missing crossing discussion is P5.",
+    "2125 marginal NB is Darwin-authored content to retain, with marginal provenance, not an excluded later annotation.",
+    "2120 physical filing split does not create additional correspondence or composition dates."
+  ],
+  "primary_verification": {
+    "exact_body_quotes_checked": 16,
+    "unique_source_html_xml_pairs_checked": 7,
+    "all_primary_and_input_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "mathml_fractions_verified": 8,
+    "no_mathml_in_2109_verified": true,
+    "paratext_and_apparatus_locators_verified": 5
+  }
+}

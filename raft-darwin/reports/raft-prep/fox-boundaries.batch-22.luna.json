@@ -1,0 +1,259 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Batch-22 additive conversion/date/provenance boundaries only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "batch_id": "batch-22",
+    "reading_path": "reports/1851-1855/review/parent-reading/batch-22.json",
+    "reading_sha256": "ed2a27076be5b9a87dc641841bc8be45bd35295e7d8eeda87defc5a7804072be",
+    "decision_path": "reports/1851-1855/review/parent-decisions/batch-22.json",
+    "decision_sha256": "9c102389ad14ee16443cf1675c72bf0798f52f9ebca5f02857ab19cc9ea33641",
+    "ledger_path": "data/annotations/periods/1851-1855/batch-22.json",
+    "ledger_sha256": "ff84fa3787436e4bb417602b67f0c797b155dbda3bf6458bbdbf5f0116480101"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1698"
+      ],
+      "case": "MathML one-third bone-weight comparison",
+      "requirement": "Preserve the MathML mfrac 1/3 as a fraction and provide only a traceable derived rendering; never flatten it to 13. Keep the specimen-preparation narrative as historical source prose, not agent procedure instructions.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1698",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1698.html",
+        "source_sha256": "d2b66c8eb2552c2fdb93319b09e39cfc382197e1f0a7d5bc116e32464c28fc14",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1698.xml",
+        "xml_sha256": "4b1c4d42766b5927a82e185a67d53bbc29bfe2dfe88e13bab8dfa0689de8a5b2",
+        "locators": [
+          "P2 MathML mfrac",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]/math/mfrac"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1698",
+          "body_paragraph": 3,
+          "quote": "one-third greater",
+          "source_sha256": "d2b66c8eb2552c2fdb93319b09e39cfc382197e1f0a7d5bc116e32464c28fc14"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-22",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-22.json",
+        "reading_sha256": "ed2a27076be5b9a87dc641841bc8be45bd35295e7d8eeda87defc5a7804072be",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-22.json",
+        "decision_sha256": "9c102389ad14ee16443cf1675c72bf0798f52f9ebca5f02857ab19cc9ea33641",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-22.json",
+        "ledger_sha256": "ff84fa3787436e4bb417602b67f0c797b155dbda3bf6458bbdbf5f0116480101",
+        "accepted_note": "June 11 supplied 1855: raw MathML in P2 gives one-third greater total bone weight, not flat 13; first duckling damaged in transit and comparison delayed.",
+        "accepted_decision": "dated_grounding_unpaired; preserve MathML and do not restate preparation as instructions.",
+        "ledger_requirement": "Fraction semantics and source-prose boundary retained."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1728"
+      ],
+      "case": "MathML one-half hour with procedure boundary",
+      "requirement": "Preserve MathML mfrac 1/2 as derived one-half hour, never flat 12. Keep all specimen-preparation details as quoted historical prose only, without converting them into operational instructions.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1728",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1728.html",
+        "source_sha256": "74fed72eefce2dec394de25ba96ceeb68bf613c577230d80d326b6023f966878",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1728.xml",
+        "xml_sha256": "49a4d799f3c3566f32d2f0955459d52857f4d91d7b3686be3bda12cc7fcd7ecd",
+        "locators": [
+          "P2 MathML mfrac",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]/math/mfrac"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1728",
+          "body_paragraph": 2,
+          "quote": "I tried Chloroform & Ether",
+          "source_sha256": "74fed72eefce2dec394de25ba96ceeb68bf613c577230d80d326b6023f966878"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-22",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-22.json",
+        "reading_sha256": "ed2a27076be5b9a87dc641841bc8be45bd35295e7d8eeda87defc5a7804072be",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-22.json",
+        "decision_sha256": "9c102389ad14ee16443cf1675c72bf0798f52f9ebca5f02857ab19cc9ea33641",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-22.json",
+        "ledger_sha256": "ff84fa3787436e4bb417602b67f0c797b155dbda3bf6458bbdbf5f0116480101",
+        "accepted_note": "July 22 supplied 1855: raw P2 MathML is one-half hour, not flat twelve; specimen-preparation description is source prose.",
+        "accepted_decision": "dated_grounding_unpaired; preserve fraction and do not operationalize procedure.",
+        "ledger_requirement": "MathML and historical-procedure boundaries retained."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1745",
+        "DCP-LETT-1766"
+      ],
+      "case": "Literal diag/ramme list damage and list topology",
+      "requirement": "Preserve literal diag/ramme fragments, item order, punctuation, and broken list transitions in the authorial specimen lists. Do not infer a missing image or table, silently repair names, or flatten lists into normalized data.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1745",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1745.html",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1745.xml",
+          "xml_sha256": "4bbdc954294ae95067c2a5070924512ecc7f71a56e57f7589f071cd799f11189",
+          "locators": [
+            "P1-P7 specimen list",
+            "raw HTML XPath //p[contains(.,\"diag\")]",
+            "no image/table node"
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1766",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1766.html",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1766.xml",
+          "xml_sha256": "37305b13f141d6df0ae5ca8aef318fc38c2d2c41a7b4d7744af4db042e546a1e",
+          "locators": [
+            "P2-P4 and P10-P18 lists",
+            "raw HTML XPath //p[contains(.,\"diag\")]",
+            "no image/table node"
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1766",
+          "body_paragraph": 2,
+          "quote": "diag 1. Dorking",
+          "source_sha256": "74ee1d657358b72a23c3036a54eb7fb2bf14eb9a44a44b43a58f9d8b3c17b27b"
+        },
+        {
+          "letter_id": "DCP-LETT-1745",
+          "body_paragraph": 1,
+          "quote": "Many thanks for the little Dorking received this morning.",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-22",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-22.json",
+        "reading_sha256": "ed2a27076be5b9a87dc641841bc8be45bd35295e7d8eeda87defc5a7804072be",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-22.json",
+        "decision_sha256": "9c102389ad14ee16443cf1675c72bf0798f52f9ebca5f02857ab19cc9ea33641",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-22.json",
+        "ledger_sha256": "ff84fa3787436e4bb417602b67f0c797b155dbda3bf6458bbdbf5f0116480101",
+        "accepted_note": "1745 August 22 and 1766 October 14: raw HTML contains diag/ramme fragments around numbered specimen lists; no image/table node. Preserve list order and damage.",
+        "accepted_decision": "dated_grounding_unpaired; no fabricated figure/table or repair.",
+        "ledger_requirement": "Raw list topology and damaged tokens remain held."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1704",
+        "DCP-LETT-1733"
+      ],
+      "case": "Order versus receipt and extract versus full-book reading",
+      "requirement": "Represent specimen orders, promised items, physical receipts, and later intended acquisitions as distinct events. Preserve 1733’s received Wood extract separately from the whole book Darwin says he will obtain; do not infer full-book reading or uniform specimen ages from apparatus.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1704",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1704.html",
+          "source_sha256": "32d28a249b247775cc9e372186a2e47c29fd266aa17b604cef412181ae30687b",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1704.xml",
+          "xml_sha256": "add4f6577d3413bf9efe372596759c63f3ad639b3ee2194ca9dc5d3c2cc96463",
+          "locators": [
+            "P1 received duckling",
+            "P3 seed observations"
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1733",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1733.html",
+          "source_sha256": "b8357b767bd0fefdb245f34ee693fd6b8c4f5e6a6013c2ba7d3c5e4043f74e8d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1733.xml",
+          "xml_sha256": "291a7ee3feb1d3fdb831861bbdc1968b04259172bd875a52861e797eb41b135f",
+          "locators": [
+            "P1-P3 receipt and book extract",
+            "footnote age conflict"
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1704",
+          "body_paragraph": 1,
+          "quote": "I have received safely the young Duckling",
+          "source_sha256": "32d28a249b247775cc9e372186a2e47c29fd266aa17b604cef412181ae30687b"
+        },
+        {
+          "letter_id": "DCP-LETT-1733",
+          "body_paragraph": 3,
+          "quote": "Thank you for extract from Wood: I shall get the Book.",
+          "source_sha256": "b8357b767bd0fefdb245f34ee693fd6b8c4f5e6a6013c2ba7d3c5e4043f74e8d"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-22",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-22.json",
+        "reading_sha256": "ed2a27076be5b9a87dc641841bc8be45bd35295e7d8eeda87defc5a7804072be",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-22.json",
+        "decision_sha256": "9c102389ad14ee16443cf1675c72bf0798f52f9ebca5f02857ab19cc9ea33641",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-22.json",
+        "ledger_sha256": "ff84fa3787436e4bb417602b67f0c797b155dbda3bf6458bbdbf5f0116480101",
+        "accepted_note": "1704 distinguishes received duckling from ordered Almond Tumblers/Runts; 1733 distinguishes received extract from whole book to be obtained and preserves apparatus/body age conflict.",
+        "accepted_decision": "dated_grounding_unpaired; receipt, order, extract and full reading remain separate.",
+        "ledger_requirement": "No automatic acquisition or reading inference."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1745"
+      ],
+      "case": "Spanish-chick claimed dispatch, absent receipt, and later can-get postscript",
+      "requirement": "Keep the missing Fox claim that a Spanish chick was sent distinct from Darwin’s absent receipt and the later P13 postscript saying one can be obtained. Do not render claimed dispatch as delivery or later availability as earlier knowledge; preserve the uncertain old Wilmot attribution.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1745",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1745.html",
+        "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1745.xml",
+        "xml_sha256": "4bbdc954294ae95067c2a5070924512ecc7f71a56e57f7589f071cd799f11189",
+        "locators": [
+          "P1 claimed/absent receipt",
+          "P8-P13 postscript",
+          "Wilmot attribution apparatus"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1745",
+          "body_paragraph": 1,
+          "quote": "Many thanks for the little Dorking received this morning.",
+          "source_sha256": "fc265d8a28ae4ae0a10b0a4b8891c1c743eaa1681ab173a6ab38a97b7ab10cfa"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-22",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-22.json",
+        "reading_sha256": "ed2a27076be5b9a87dc641841bc8be45bd35295e7d8eeda87defc5a7804072be",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-22.json",
+        "decision_sha256": "9c102389ad14ee16443cf1675c72bf0798f52f9ebca5f02857ab19cc9ea33641",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-22.json",
+        "ledger_sha256": "ff84fa3787436e4bb417602b67f0c797b155dbda3bf6458bbdbf5f0116480101",
+        "accepted_note": "August 22: missing Fox letter seems to claim Spanish chick sent, but Darwin has not received it; P13 says he can get one later. Old Spanish cock attribution to uncertain Wilmot remains distinct.",
+        "accepted_decision": "dated_grounding_unpaired; no receipt or backdating from later can-get postscript.",
+        "ledger_requirement": "Claimed dispatch, absent receipt, and later availability separated."
+      }
+    }
+  ],
+  "implementation_boundary": {
+    "converter_created": false,
+    "normalized_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false
+  },
+  "notes": [
+    "Primary notes, decisions, ledger and source files remain authoritative.",
+    "No raw damage, date, list topology, receipt event, or source-procedure wording is silently repaired.",
+    "Root must independently verify before any primary addendum."
+  ]
+}

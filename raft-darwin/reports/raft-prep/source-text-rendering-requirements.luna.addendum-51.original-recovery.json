@@ -1,0 +1,188 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Accepted Davy publication reconciliation addendum 51: additive source-text/date/voice requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "reconciliation": {
+      "path": "data/annotations/reconciliation/1855-1856-davy-publications.primary.json",
+      "sha256": "61bee457d50d09b33c544180809949f2f49079c1030c23769ba895acdc450682"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+    "reconciliation_status": "primary_admitted_printed_letter_witnesses_and_historical_reply_relationships"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1651A"
+      ],
+      "case": "printed authorial letter versus DCP synopsis",
+      "requirement": "Treat the recovered Philosophical Transactions 146 (1856), pp. 21–29 printing as an authentic attributed John Davy letter witness, while retaining DCP 1651A as an editorial synopsis with separate version metadata. Preserve the printed dateline 21 March 1855 and the fact that publication in 1856 is later source-version provenance; do not claim that the printed wording was compared with a manuscript original. Keep the contemporary third-person Proceedings abstract separate from Davy’s letter voice.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1651A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1651A.html",
+          "source_html_sha256": "6bab4cbc12216fb1a77903db312f3c7fcb97a394d23f2df2ff11927a42d63bb7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1651A.xml",
+          "xml_sha256": "c9df26c44f77a8c857b781d60c38ee5668dff4642ab7b5f29ad15cc6382d4e9f"
+        }
+      ],
+      "publication_witnesses": [
+        {
+          "path": "reports/1856-1857/review/followups/davy-papers/philosophical-transactions-vol146-1856.pdf",
+          "sha256": "2b7451bef18277aceaeac4fee1dccd4a98d2f883721d4bf0a2a402bb3a4629d8",
+          "printed_pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "source_id": "DCP-LETT-1651A",
+          "role": "full printed letter"
+        },
+        {
+          "path": "reports/1856-1857/review/followups/davy-papers/proceedings-vol7-1854-55.pdf",
+          "sha256": "0fbe7c960190e9d50f34da462327d36a423c699997673d96e37ac3d4ddc66bc0",
+          "printed_pages": [
+            362,
+            363
+          ],
+          "source_id": "DCP-LETT-1651A-abstract",
+          "role": "contemporary third-person abstract; not letter text"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1651A",
+        "DCP-LETT-1653",
+        "DCP-LETT-1654"
+      ],
+      "case": "document found, reading and Royal Society forwarding",
+      "requirement": "Preserve the two scoped Darwin replies to the recovered printed 1651A letter. 1653 records that Darwin found the paper on returning home late on March 24, acknowledges it on March 25 and plans forwarding in two or three days; 1654 explicitly says he has read it on March 26, sends it that day and asks for Royal Society acknowledgment. Keep discovery, substantive reading, dispatch and later Royal Society receipt as separate temporal events; the 1651A Royal Society receipt on March 27 does not replace Darwin’s March 24–26 access dates.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1651A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1651A.html",
+          "source_html_sha256": "6bab4cbc12216fb1a77903db312f3c7fcb97a394d23f2df2ff11927a42d63bb7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1651A.xml",
+          "xml_sha256": "c9df26c44f77a8c857b781d60c38ee5668dff4642ab7b5f29ad15cc6382d4e9f"
+        },
+        {
+          "letter_id": "DCP-LETT-1653",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1653.html",
+          "source_html_sha256": "9c583795b98c4c43aec4b72b173a6898da8e9226e01bdfabc728d21ca71f9f23",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1653.xml",
+          "xml_sha256": "5564afb51401ec96e7ffc5fca46190cd572483ed69612f4eacfd739e8617c90f"
+        },
+        {
+          "letter_id": "DCP-LETT-1654",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1654.html",
+          "source_html_sha256": "e9c6feafefac62470db22467a7e7f28bb0987128f5ef59d4fb4859c12cb0d66d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1654.xml",
+          "xml_sha256": "9558679dfdfcb9f064120711e70f034f5958bbefa8fb783e289a26a5c563a55e"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1653",
+          "body_paragraph": 1,
+          "quote": "found your Paper",
+          "source_sha256": "9c583795b98c4c43aec4b72b173a6898da8e9226e01bdfabc728d21ca71f9f23",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1653",
+          "body_paragraph": 3,
+          "quote": "In two or three days I will forward it to the Royal Socy.",
+          "source_sha256": "9c583795b98c4c43aec4b72b173a6898da8e9226e01bdfabc728d21ca71f9f23",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1654",
+          "body_paragraph": 1,
+          "quote": "I have just read your Paper",
+          "source_sha256": "e9c6feafefac62470db22467a7e7f28bb0987128f5ef59d4fb4859c12cb0d66d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1654",
+          "body_paragraph": 1,
+          "quote": "I will send it today to the Royal Socy.",
+          "source_sha256": "e9c6feafefac62470db22467a7e7f28bb0987128f5ef59d4fb4859c12cb0d66d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1816A",
+        "DCP-LETT-1819A"
+      ],
+      "case": "separate 1856 printed letter and impossible prompt direction",
+      "requirement": "Keep 1819A’s printed John Davy letter dated 10 January 1856 and its Royal Society receipt on 15 January / meeting reading on 7 February distinct from Darwin’s 1816A letter of 3 January. 1819A cannot prompt the earlier 1816A; the earlier Darwin letter refers to an already-existing “very kind note” and publication delay. Do not turn topical continuation or later Royal Society handling into a new reverse pair, and retain the DCP synopses alongside the printed witness metadata.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1816A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1816A.html",
+          "source_html_sha256": "3737eb57d87267132e92e46a41a5bde4b7362204a61b55f285d0a495956a2acb",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1816A.xml",
+          "xml_sha256": "a29dd75f11e87c5ce5555a141b220ae2170c603abeddc797a0154dcd062367bb"
+        },
+        {
+          "letter_id": "DCP-LETT-1819A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1819A.html",
+          "source_html_sha256": "0a7c3347d34650cf2f0c9b127e556e0ea662b9827bcb2a769d33231d6196a52d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1819A.xml",
+          "xml_sha256": "10bdcca8dcb41fcb632635bf90ca68d194e90407df4ea5806f6ca376275ac807"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1816A",
+          "body_paragraph": 1,
+          "quote": "your very kind note",
+          "source_sha256": "3737eb57d87267132e92e46a41a5bde4b7362204a61b55f285d0a495956a2acb",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1653",
+        "DCP-LETT-1654"
+      ],
+      "case": "bibliography and source-layer boundary",
+      "requirement": "Keep the 1653 and 1654 DCP bibliography entries that point toward the 1856 Charr continuation separate from their body content, which concerns Darwin’s reading and response to the 1855 Salmonidae paper. Do not use bibliography/title metadata to redate the correspondence or treat the contemporary abstract as Darwin grounding. Full printed Davy text remains an attributed publication witness; no scan/OCR or reconstructed manuscript transcript is admitted by this candidate.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1653",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1653.html",
+          "source_html_sha256": "9c583795b98c4c43aec4b72b173a6898da8e9226e01bdfabc728d21ca71f9f23",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1653.xml",
+          "xml_sha256": "5564afb51401ec96e7ffc5fca46190cd572483ed69612f4eacfd739e8617c90f"
+        },
+        {
+          "letter_id": "DCP-LETT-1654",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1654.html",
+          "source_html_sha256": "e9c6feafefac62470db22467a7e7f28bb0987128f5ef59d4fb4859c12cb0d66d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1654.xml",
+          "xml_sha256": "9558679dfdfcb9f064120711e70f034f5958bbefa8fb783e289a26a5c563a55e"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1654",
+          "body_paragraph": 2,
+          "quote": "The case of the ovum exposed on the moss for three days",
+          "source_sha256": "e9c6feafefac62470db22467a7e7f28bb0987128f5ef59d4fb4859c12cb0d66d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ]
+    }
+  ],
+  "notes": "Exact DCP body quotations were selected from preserved HTML and matched programmatically to the corresponding body paragraph and unique raw DOM node. Printed PDF and contemporary abstract provenance is pinned separately; no printed prose is represented as a DCP body quote. Preserve composition, printing, discovery, reading, dispatch and Royal Society receipt stages, source voices, bibliography mismatch and impossible prompt direction."
+}

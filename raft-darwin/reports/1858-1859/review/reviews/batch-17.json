@@ -1,0 +1,479 @@
+{
+  "batch_id": "batch-17",
+  "period": "1858-1859",
+  "model": "gpt-5.6-luna",
+  "status": "first_pass_complete",
+  "scope_note": "Full source first pass for all 10 targets and 4 packet contexts; 2249 is partial surviving text with missing list and cover. 2302-1 figure was visually inspected.",
+  "record_reviews": [
+    {
+      "letter_id": "DCP-LETT-2218",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2218.html",
+      "source_sha256": "a9ec0dd87c94476a8704e6aa5c763df0bfec4483d69344a9fa693e72427d1133",
+      "xml_sha256": "fe759bd37003d5a000828a212f06116854bb106427f20670312d438307adb388",
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "summary": "This complete February 21 letter asks Gray a narrowly defined methodological question: whether botanists unconsciously record varieties more in large or small genera, expressly distinguishing recording bias from the number of varieties. It separately asks for published evidence on geographical ranges of varieties and offers to forward letters. No Gray answer survives in this packet.",
+      "date_assessment": "1858-02-21",
+      "attribution_assessment": "from_darwin",
+      "classification": "safe_within_period",
+      "evidence": [],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No unambiguous incoming prompt is identified for this Darwin output in the packet; the substantive subject and chronology are recorded above.",
+      "source_kind": "letter"
+    },
+    {
+      "letter_id": "DCP-LETT-2249",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2249.html",
+      "source_sha256": "8c553b342e4201c041d6e0faa06640bc46bb814c2570b5e9d49fcbfdf8493c6c",
+      "xml_sha256": "091b896fb4850b15415f2e4584a3b5322d7c9f3d94545df179c8ffc4db89d901",
+      "paragraphs_read": [
+        1,
+        2,
+        3
+      ],
+      "summary": "This is a three-block, partial surviving Gray record: a catalogue-style description of a 146-genera list, one literal Gray sentence saying most listed forms are distinct while a few probably are not, and a signature. The 146-genera list and Gray’s covering note are absent; the synopsis cannot stand in for that missing body. CD’s April annotations concern tabulation instructions.",
+      "date_assessment": "1809-01-01/1858-04-02 (catalogue lower bound is unusable; editorially before 3 Apr 1858)",
+      "attribution_assessment": "to_darwin",
+      "classification": "ambiguous_period",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2249",
+          "body_paragraph": 1,
+          "quote": "Gives a list of 146 genera taken from A. Gray 1856, indicating those species in each genus that could be considered closely related. CD has added to the manuscript the number of close species in each genus.",
+          "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]"
+        }
+      ],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [
+        {
+          "id": "DCP-LETT-2218",
+          "assessment": "2218 is Darwin’s earlier question, not a Gray incoming answer; the preserved 2249 text does not contain Gray’s response to it."
+        }
+      ],
+      "unmatched_reason": "Only the catalogue synopsis and one literal Gray sentence survive; the 146-genera list and covering note are unavailable.",
+      "source_kind": "partial surviving list with catalogue synopsis and literal sentence"
+    },
+    {
+      "letter_id": "DCP-LETT-2252",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2252.html",
+      "source_sha256": "874eab5cb17c22a1bc9c2b675b261df74a61064ddea6aed489574b50c8192260",
+      "xml_sha256": "69dabc2d0bddc55f221d034aa043d30eaa5087d310e02bc319ffc7cedb3ab385",
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "summary": "Darwin’s April 4 reply says he received Gray’s list the previous day and is tabulating it, then separately says he received “the answer to my question” and summarizes Gray’s view that botanists tend to omit varieties in smaller genera. Thus the preserved 2249 list supports only the list-receipt portion; the answer-bearing covering note remains missing.",
+      "date_assessment": "1858-04-04",
+      "attribution_assessment": "from_darwin",
+      "classification": "safe_within_period",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2252",
+          "body_paragraph": 1,
+          "quote": "Therefore you may believe how delighted I was to get your list, which is now being tabulated.—",
+          "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2252",
+          "body_paragraph": 2,
+          "quote": "I am, also, particularly obliged for the answer to my question: Hooker & several (not all) other Botanists differ from you",
+          "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "proposed_prompt_ids": [
+        "DCP-LETT-2249"
+      ],
+      "alternative_candidates_considered": [
+        {
+          "id": "DCP-LETT-2218",
+          "assessment": "The February question is thematically related, but the answer itself is not in 2249; 2252 explicitly distinguishes the received list from the missing answer-bearing material."
+        }
+      ],
+      "unmatched_reason": "No unambiguous incoming prompt is identified for this Darwin output in the packet; the substantive subject and chronology are recorded above.",
+      "source_kind": "letter"
+    },
+    {
+      "letter_id": "DCP-LETT-2288",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2288.html",
+      "source_sha256": "4b824c7294b51914a6c6962794208b08f78dc86e70830e43e4f3428caae29e01",
+      "xml_sha256": "47119e0f96c0dcabcfadad0c6c34885eebe4377b21cfe2383892da1cd2af6a10",
+      "paragraphs_read": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Gray’s June 21 note gives firsthand observations: pollen is already on stigmas in Dicentra, Adlumia and Corydalis before insects can enter, leading him to conclude Fumariaceae are arranged for self-fertilization. Its source apparatus marks CD’s later notes separately. It cannot answer Darwin’s July 4 letter because it predates it; Darwin says the May 21 note is still unanswered and a June 21 letter had not yet arrived.",
+      "date_assessment": "1858-06-21",
+      "attribution_assessment": "to_darwin",
+      "classification": "safe_within_period",
+      "evidence": [],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "A June 21 Gray note predates Darwin’s July 4 response and concerns a different May 21 note; no direct reply edge.",
+      "source_kind": "letter"
+    },
+    {
+      "letter_id": "DCP-LETT-2302",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2302.html",
+      "source_sha256": "0b6e47f59cca5fda9f495e79154fa39bf3080a8a5ff71592b6879b5aca5f4271",
+      "xml_sha256": "11486dee87bdf6a181dd6cc7efa33e8650654f26c900a6dcb3a6b07e85613ca1",
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "summary": "Darwin’s July 4 reply reports direct bee observations in Dicentra, Fumaria and Corydalis, proposes a general rule linking nectary position and stigma placement, and asks Gray to date Darwin’s earlier natural-selection sketch because Wallace’s independently similar abstract was sent to the Linnean Society. The preserved diagram shows the contrasting hood/nectary arrangements of Dicentra versus Fumaria/Corydalis. Gray’s June 21 note is not the received prompt.",
+      "date_assessment": "1858-07-04",
+      "attribution_assessment": "from_darwin",
+      "classification": "safe_within_period",
+      "evidence": [],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No unambiguous incoming prompt is identified for this Darwin output in the packet; the substantive subject and chronology are recorded above.",
+      "source_kind": "letter"
+    },
+    {
+      "letter_id": "DCP-LETT-2321",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2321.html",
+      "source_sha256": "27d6f2ed056a3cce99a42d5fb9e5b0c3359a7f0a9b0d5e26beda3ada0e170f05",
+      "xml_sha256": "b56de78d6b0a82010d61c7de2959495173f840230d9bc7fd8a73b044b7fc6f29",
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "summary": "Darwin’s August 11 letter responds to an unlocated Gray note dated July 27. It lays out a migration/climate hypothesis from Pliocene and glacial changes, mountain refugia, tropical intrusions and Japan’s possible former land connection, and asks specifically about Alpine Japanese collections. It then revisits Fumariaceae and cross-pollination. The two subject blocks require a missing Gray input; no preserved context identifies it.",
+      "date_assessment": "1858-08-11",
+      "attribution_assessment": "from_darwin",
+      "classification": "safe_within_period",
+      "evidence": [],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No unambiguous incoming prompt is identified for this Darwin output in the packet; the substantive subject and chronology are recorded above.",
+      "source_kind": "letter"
+    },
+    {
+      "letter_id": "DCP-LETT-2364",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2364.html",
+      "source_sha256": "b25d9020eb65ca58db668d250bee5515f873778af1ccdc6be4ff26e227371c1f",
+      "xml_sha256": "415f51ddf2ea785ca18368b92a5213c84b3f85a2ee49a6038aac733ea605aebb",
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "summary": "Darwin’s November 18 request seeks published or observed evidence on whether dark-complexioned, black-haired Europeans are more or less liable to yellow fever than light-complexioned Europeans. He notes uncertainty about having asked similar questions before and mentions his Gardeners’ Chronicle notice. The editorial apparatus identifies Gray’s later forwarding to Engelmann, but no reply or incoming evidence is preserved here.",
+      "date_assessment": "1858-11-18",
+      "attribution_assessment": "from_darwin",
+      "classification": "safe_within_period",
+      "evidence": [],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No distinctive preserved incoming Gray endpoint establishes a direct source-complete prompt; editorial references or publication receipt remain knowledge/reading limits.",
+      "source_kind": "letter"
+    },
+    {
+      "letter_id": "DCP-LETT-2520",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2520.html",
+      "source_sha256": "a6e58cd2eaaca3df357def19e0867a7d2106317da6d620952963fccbc79230f4",
+      "xml_sha256": "85d1bbe14084013226a62360dadc6e3327361360197293f35d7595da926a419c",
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "summary": "Darwin sends Gray the Origin abstract and requests a complete straight-through reading plus an assessment of weakest and best parts. He contrasts Gray/Dana’s post-glacial migration view with his own pre-glacial account and admits this is based on one hasty prior reading of Gray’s Japan work. This is a request and forecast of future reading, not evidence that Gray’s book had yet been read by Darwin or that a Gray prompt survives.",
+      "date_assessment": "1859-11-11",
+      "attribution_assessment": "from_darwin",
+      "classification": "safe_within_period",
+      "evidence": [],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No distinctive preserved incoming Gray endpoint establishes a direct source-complete prompt; editorial references or publication receipt remain knowledge/reading limits.",
+      "source_kind": "letter"
+    },
+    {
+      "letter_id": "DCP-LETT-2592",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2592.html",
+      "source_sha256": "66a2d8a2a68de0014be38044760a5f4feda64e9686dd04dff939083e6c7a953a",
+      "xml_sha256": "e4f58c1471b18f536b44471ae0da5bf161689abc64c2c0b8ffdcd170b6ad389a",
+      "paragraphs_read": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Darwin’s December 21 personal note says a long Gray letter has just arrived, but postpones substantive response because of illness and business. It seeks Gray’s help arranging an American edition of Origin and discusses sales. The response is outside the period and supplies no identifiable Gray body or narrower answer scope.",
+      "date_assessment": "1859-12-21 (outside period)",
+      "attribution_assessment": "from_darwin",
+      "classification": "outside_period_later",
+      "evidence": [],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No distinctive preserved incoming Gray endpoint establishes a direct source-complete prompt; editorial references or publication receipt remain knowledge/reading limits.",
+      "source_kind": "letter"
+    },
+    {
+      "letter_id": "DCP-LETT-2599",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2599.html",
+      "source_sha256": "65047b274738d15155a0e84a01309296db31f663c792c7440304a1afa38287f9",
+      "xml_sha256": "917817eaf038b87d71f5427e2ed77c1c2df7222dfc38dd6e3a61a6dcfc03baf2",
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "summary": "Darwin’s December 24 letter is outside the period. He acknowledges Gray’s Memoir but says he has not read it, debates Gray’s post-glacial climate argument against his own distribution theory, and promises careful reading later. He explicitly says he has seen only a fragment and that the book was sent by Murray, so it cannot establish completed receipt/reading or a source-complete Gray prompt.",
+      "date_assessment": "1859-12-24 (outside period)",
+      "attribution_assessment": "from_darwin",
+      "classification": "outside_period_later",
+      "evidence": [],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No distinctive preserved incoming Gray endpoint establishes a direct source-complete prompt; editorial references or publication receipt remain knowledge/reading limits.",
+      "source_kind": "letter"
+    },
+    {
+      "letter_id": "DCP-LETT-2125",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2125.html",
+      "source_sha256": "1dd37cbb260281e5cfdc30e132daae45592b38c998f55e53d0c70bf096232357",
+      "xml_sha256": "e5bab6f7a2e1d4f5470ffc6392792031f45f776a1478856a893725429d79ccce",
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "summary": "Darwin’s 20 July 1857 letter is a complete 7-block Darwin argument about descent, extinction, continuous distributions, and insect-mediated crossing. It is prior-period context, not a new Gray prompt in 1858–59; it explicitly builds on an earlier Gray note and supplies the conceptual background for Gray 2129.",
+      "date_assessment": "1857-07-20",
+      "attribution_assessment": "from_darwin",
+      "classification": "safe_within_period",
+      "evidence": [],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No unambiguous incoming prompt is identified for this Darwin output in the packet; the substantive subject and chronology are recorded above.",
+      "source_kind": "letter"
+    },
+    {
+      "letter_id": "DCP-LETT-2129",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2129.html",
+      "source_sha256": "d7fa043273e9b57f499fa5bb5865b5ed69f1c27c1ea105c6107d6be39c81327d",
+      "xml_sha256": "5c7eae938b1ac777cb7e88dd8aa7b60404915f53de864c473cc3b96d4eec254e",
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "summary": "Gray’s August 1857 two-page answer argues that constitutional varieties tend to persist by seed and that plants may sport in the wild. He leaves a section missing after asking about the law of variation, then addresses bud fertilization, Adlumia and Fumaria, and asks Darwin to post an enclosure. The CD annotations “Ch. 4” and “Ch. 3” are a separate scholarly layer.",
+      "date_assessment": "1857-08-01/1857-08-31",
+      "attribution_assessment": "to_darwin",
+      "classification": "safe_within_period",
+      "evidence": [],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No unambiguous incoming prompt is identified for this Darwin output in the packet; the substantive subject and chronology are recorded above.",
+      "source_kind": "letter"
+    },
+    {
+      "letter_id": "DCP-LETT-2136",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2136.html",
+      "source_sha256": "025d1b66200f33f468b8dfbb0ebe007514f19abe9a783ea7aea38ad19a62ff75",
+      "xml_sha256": "7227ae9f650d7c4096f128c58735a048e9edd0e1ae394251183dccba0d5a",
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "summary": "Darwin answers Gray’s prior theory discussion with a sustained defense of descent, then reports his numerical flora analysis (1005 versus 917 species; 88/50 and 48/46 ratios as flattened source text), a reversed expectation about close species in large versus small genera, and a small covered/uncovered kidney-bean experiment. The enclosed abstract is a Darwin-authored enclosure, not Gray input.",
+      "date_assessment": "1857-09-05",
+      "attribution_assessment": "from_darwin",
+      "classification": "safe_within_period",
+      "evidence": [],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No unambiguous incoming prompt is identified for this Darwin output in the packet; the substantive subject and chronology are recorded above.",
+      "source_kind": "letter"
+    },
+    {
+      "letter_id": "DCP-LETT-2176",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "surviving_transcription_available": true,
+      "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2176.html",
+      "source_sha256": "a5b13cce4c9b9a1e8f2e8c4d0e9bb3931d7a0e818cbe5bba154a70a135cd6e6c",
+      "xml_sha256": "a2225793316fd7c0e34ac6a249d8e865a457ad48cc3ce8b2b703583dbc31b016",
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "summary": "Darwin explicitly thanks Gray for criticism and specimens, defines natural selection as preservation and inheritance of useful variation, discusses Fumaria crossing and a barnacle observation, and asks Gray to examine lists of close species by large and small orders. The final Lobelia paragraph is a fresh request. The editorial note says the Gray letter being answered is unlocated.",
+      "date_assessment": "1857-11-29",
+      "attribution_assessment": "from_darwin",
+      "classification": "safe_within_period",
+      "evidence": [],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": [],
+      "unmatched_reason": "No unambiguous incoming prompt is identified for this Darwin output in the packet; the substantive subject and chronology are recorded above.",
+      "source_kind": "letter"
+    }
+  ],
+  "additional_record_reviews": [],
+  "proposed_links": [
+    {
+      "relation": "supports_partial_reply",
+      "confidence": "high",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2249",
+          "body_paragraph": 1,
+          "quote": "Gives a list of 146 genera taken from A. Gray 1856, indicating those species in each genus that could be considered closely related. CD has added to the manuscript the number of close species in each genus.",
+          "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]"
+        },
+        {
+          "letter_id": "DCP-LETT-2252",
+          "body_paragraph": 1,
+          "quote": "Therefore you may believe how delighted I was to get your list, which is now being tabulated.—",
+          "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2252",
+          "body_paragraph": 2,
+          "quote": "I am, also, particularly obliged for the answer to my question: Hooker & several (not all) other Botanists differ from you",
+          "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "source_id": "DCP-LETT-2249",
+      "target_id": "DCP-LETT-2252",
+      "relationship": "replies_to",
+      "status": "candidate_only",
+      "reason": "DCP-LETT-2252 body paragraph 1 only: receipt and tabulation of Gray’s preserved close-species list. Do not extend to paragraph 2, whose answer-bearing Gray text is missing."
+    }
+  ],
+  "unlocated_references": [
+    "Gray answer to DCP-LETT-2218’s recording-bias question; Gray July 27 1858 note answered by 2321; Gray May 21 1858 note referenced by 2302; Gray response to 2364 yellow-fever request; Gray substantive source behind 2520/2599 Memoir discussion."
+  ],
+  "date_sections": [
+    {
+      "letter_id": "DCP-LETT-2249",
+      "constraint": "XML broad lower bound 1809-01-01 to 1858-04-02; editorial chronology places receipt before 3 April 1858, but composition date is undetermined and the broad lower bound is not evidence."
+    },
+    {
+      "letter_id": "DCP-LETT-2592",
+      "constraint": "24 December 1859, outside period."
+    },
+    {
+      "letter_id": "DCP-LETT-2599",
+      "constraint": "24 December 1859, outside period."
+    }
+  ],
+  "issues": [
+    "DCP-LETT-2249 HTML is served under the 1844-1846 raw directory despite being a 1858 record; packet metadata and matching hash were used, without treating path period as date evidence.",
+    "Bibliographies and editorial notes were read as apparatus only; no contemporary reading or voice was inferred from them."
+  ],
+  "negative_candidate_assessments": [
+    {
+      "output_id": "DCP-LETT-2302",
+      "candidate_id": "DCP-LETT-2288",
+      "assessment": "Chronology and explicit wording reject this pairing: 2288 is 21 June, while 2302 says the June 21 letter had not yet arrived and instead refers to an unanswered May 21 note."
+    },
+    {
+      "output_id": "DCP-LETT-2321",
+      "candidate_id": "DCP-LETT-2288",
+      "assessment": "The content is about migration/climate and Japan, whereas 2288 is a Fumariaceae self-fertilization note; 2321 explicitly answers an unlocated July 27 note."
+    }
+  ]
+}

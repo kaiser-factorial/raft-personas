@@ -1,0 +1,51 @@
+{
+  "status": "candidate_visual_asset_review",
+  "scope": "DCP-LETT-196 (two figures), DCP-LETT-229, and DCP-LETT-238",
+  "manifest": "data/raw/dcp/beagle-voyage/figures/manifest.json",
+  "source_reading": [
+    {
+      "letter_id": "DCP-LETT-196",
+      "title": "From J. S. Henslow 15–21 January 1833",
+      "source_html": "data/raw/dcp/body-date-search-37-337/DCP-LETT-196.html",
+      "source_html_sha256": "188bf5d99fd83a1a200456c45118ca1614bcea1f6638ec21d03c8123bb5a36cb",
+      "figure_contexts": [
+        {"retained_body_paragraph": 1, "quote": "note all that may be useful—most of all, the relative positions of rocks giving a little sketch thus."},
+        {"retained_body_paragraph": 3, "quote": "those of the same place is enough except you have plenty of single label per month to"}
+      ],
+      "assessment": "The two images are embedded in Henslow's surviving body at separate points. The first accompanies instructions to record relative rock positions; the second is part of Henslow's packing and labelling discussion. The HTML body and the images are available; the figure shapes alone do not supply a missing prompt or prove a reply link."
+    },
+    {
+      "letter_id": "DCP-LETT-229",
+      "title": "To J. S. Henslow, 12 November 1833",
+      "source_html": "data/raw/dcp/body-date-search-37-337/DCP-LETT-229.html",
+      "source_html_sha256": "e5690198e15e6afcc363ed2ed272c4e9af8eb064f431203a69df9343c1ab3ee1",
+      "figure_contexts": [
+        {"retained_body_paragraph": 1, "quote": "I have one mutilated skeleton of the animal of which I sent the jaw with 4 small teeth."}
+      ],
+      "assessment": "Darwin's figure is embedded directly after his reference to the jaw with four small teeth. It is a surviving illustration attached to an otherwise complete outgoing letter, while the visual itself does not identify a particular earlier Henslow prompt."
+    },
+    {
+      "letter_id": "DCP-LETT-238",
+      "title": "To J. S. Henslow, March 1834",
+      "source_html": "data/raw/dcp/body-date-search-37-337/DCP-LETT-238.html",
+      "source_html_sha256": "378b913a8acd9ab2df0f9198ac64ca858971581b0f81314e29810a5c1f8e8a7a",
+      "figure_contexts": [
+        {"retained_body_paragraph": 2, "quote": "some part of the skeleton of an animal, of which I formerly sent the jaw, which had four teeth on each side in shape like this."}
+      ],
+      "assessment": "Darwin embeds a second jaw-tooth sketch while discussing another imperfect Megatherium head and the previously sent jaw. The figure is preserved and visually distinct in its terminal stroke from the downloaded 229 image at the viewed resolution; that rendering difference is a source-fidelity observation, not proof of different anatomical subjects or a new correspondence edge."
+    }
+  ],
+  "visual_observations": [
+    {"figure_file": "DCP-LETT-196-1.jpg", "observation": "Sloping layered geological-style sketch with internal marks and labels."},
+    {"figure_file": "DCP-LETT-196-2.jpg", "observation": "Vertical axis with repeated lateral wedge or leaf-like forms."},
+    {"figure_file": "DCP-LETT-229.jpg", "observation": "Four decreasing loop or oval outlines with an additional curved terminal stroke."},
+    {"figure_file": "DCP-LETT-238.jpg", "observation": "Four decreasing loop or oval outlines without the extra terminal stroke visible in 229."}
+  ],
+  "candidate_disposition": "All four assets are preserved as source-rendering evidence. No relationship, scientific identification, receipt, or missing-prompt claim is accepted by this candidate report.",
+  "validation": {
+    "json_structure": "validated after write",
+    "source_quotes": "matched to retained body paragraphs in the source projection",
+    "image_hashes": "verified against downloaded files",
+    "visuals": "all four successful downloads viewed at original resolution"
+  }
+}

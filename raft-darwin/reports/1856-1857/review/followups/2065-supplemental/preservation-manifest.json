@@ -1,0 +1,38 @@
+{
+  "status": "raw_public_source_preserved",
+  "record_id": "DCP-LETT-2065",
+  "retrieved_at": "2026-09-17T10:02:08Z",
+  "scope": "Additive preservation only; no frozen corpus, projection, packet, ledger, decision, or export changes.",
+  "sources": [
+    {
+      "kind": "editorial_html",
+      "url": "https://darwin-editorial.darwinproject.ac.uk/view/letters/DCP-LETT-2065",
+      "local_path": "reports/1856-1857/review/followups/2065-supplemental/2065.html",
+      "headers_path": "reports/1856-1857/review/followups/2065-supplemental/2065.html.headers.txt",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 123177,
+      "etag": "\"b789a67760d6c2684e93dad1731d8d2a\"",
+      "sha256": "01e34c622bda4a113c963bdda9c8c9112793d489f96e83aee5badb92579c2d69",
+      "identity_check": "title contains From H. C. Watson to Asa Gray and 13 March 1857; letter details contain DCP-LETT-2065"
+    },
+    {
+      "kind": "public_xml_endpoint_html_rendition",
+      "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2065.xml",
+      "local_path": "reports/1856-1857/review/followups/2065-supplemental/2065.xml",
+      "headers_path": "reports/1856-1857/review/followups/2065-supplemental/2065.xml.headers.txt",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 123957,
+      "etag": "\"754d82180a69c352b99598b7ac7f5f58\"",
+      "sha256": "e22cc80a5e23e2377c3f13fa0c2cbea00d91100d04b6efe487d98562ac847393",
+      "identity_check": "rendered letter page contains DCP-LETT-2065, From Hewett Cottrell Watson, To Asa Gray, and 13 March 1857"
+    }
+  ],
+  "source_integrity_notes": [
+    "Both requests returned HTTP 200 and nonzero bodies.",
+    "The .xml URL returned a text/html editorial rendition, not XML media; the file is preserved with its requested .xml endpoint suffix and content type recorded explicitly.",
+    "The local catalogue row independently records Watson → Gray, 13 Mar 1857, DAR 181: 36, DCP-LETT-2065.xml; its line SHA-256 is 4b51b22ff911926251342521331ff3a357d37113c06c50d1bf1497bd11201175.",
+    "Raw preservation now permits parent-side parsing and hash pinning. It does not establish receipt by Gray or turn this third-party source into a Darwin training target."
+  ]
+}

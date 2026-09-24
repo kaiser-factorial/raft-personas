@@ -1,0 +1,141 @@
+{
+  "group_id": "treasury-381A-402A",
+  "model": "gpt-5.6-luna",
+  "status": "bounded_chain_verified",
+  "full_read_ids": ["DCP-LETT-378A", "DCP-LETT-381A", "DCP-LETT-402A", "DCP-LETT-415A", "DCP-LETT-415B"],
+  "source_reviews": [
+    {
+      "letter_id": "DCP-LETT-378A",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3],
+      "date_assessment": "Single XML day 20 September 1837; Darwin-authored outgoing letter to A. Y. Spearman.",
+      "attribution_assessment": "Darwin voice throughout. It acknowledges the Treasury's 31 August grant, proposes Smith, Elder and Company as publisher, and encloses the plan and supporting documents for Treasury consideration.",
+      "evidence": [
+        {"letter_id": "DCP-LETT-378A", "body_paragraph": 1, "quote": "acknowledge the receipt of your letter of August 31st"},
+        {"letter_id": "DCP-LETT-378A", "body_paragraph": 2, "quote": "the plan suggested by Smith, Elder and Cony appears to me very much the best"},
+        {"letter_id": "DCP-LETT-378A", "body_paragraph": 2, "quote": "place this and the accompanying documents for their Lordships consideration at an early day"}
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-381A",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2],
+      "date_assessment": "Single XML day 11 October 1837; preserved as a Treasury out-letter with no date uncertainty.",
+      "attribution_assessment": "The surviving institutional response is authored/signed by Francis Thornhill Baring, not A. Y. Spearman. Baring reports the Lords Commissioners' command to Darwin and responds to Darwin's 20 September plan.",
+      "evidence": [
+        {"letter_id": "DCP-LETT-381A", "locator": "header_text", "quote": "[Francis Thornhill Baring] 11 October 1837"},
+        {"letter_id": "DCP-LETT-381A", "body_paragraph": 1, "quote": "Having laid before the Lords &c your Letter of 20th. ulto. & the accompanying Plan"},
+        {"letter_id": "DCP-LETT-381A", "body_paragraph": 1, "quote": "my Lords will be glad to hear that you are proceeding in the Work in the manner therein suggested"}
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-402A",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4],
+      "date_assessment": "Single XML day 16 February 1838; Darwin-authored outgoing letter to A. Y. Spearman.",
+      "attribution_assessment": "Darwin voice throughout. He invokes the September plan and the October approval, files Smith and Elder's first-part account, notes that a copy went to the Chancellor of the Exchequer, and asks Treasury how the publisher should draw.",
+      "evidence": [
+        {"letter_id": "DCP-LETT-402A", "body_paragraph": 1, "quote": "the plan proposed in the documents accompanying my letter September 20th 1837"},
+        {"letter_id": "DCP-LETT-402A", "body_paragraph": 1, "quote": "which received (October 11th) the entire approval of the Lords Commissioner"},
+        {"letter_id": "DCP-LETT-402A", "body_paragraph": 1, "quote": "enclose the account of Mrss. Smith and Elder for the first part of the work"}
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-415A",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4],
+      "date_assessment": "Single XML day 24 May 1838; Darwin-authored outgoing letter to Charles Wood.",
+      "attribution_assessment": "Darwin voice in the surviving request and address block. He asks the Admiralty for permission to engrave a published chart of Ascension Island for his scientific account of its geology.",
+      "evidence": [
+        {"letter_id": "DCP-LETT-415A", "body_paragraph": 1, "quote": "beg the permission of the Lords of the Admiralty"},
+        {"letter_id": "DCP-LETT-415A", "body_paragraph": 1, "quote": "a copy of the published Admiralty chart of that island, engraved"},
+        {"letter_id": "DCP-LETT-415A", "body_paragraph": 2, "quote": "To | Charles Wood Esqr"}
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-415B",
+      "source_record_read_in_full": true,
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2],
+      "date_assessment": "XML day 26 May 1838; header retains editorial brackets around the year.",
+      "attribution_assessment": "Francis Beaufort's institutional reply to Darwin. It reports an Admiralty command and gives practical instructions for taking a transfer proof; it is not Darwin voice and does not make Beaufort interchangeable with Charles Wood.",
+      "evidence": [
+        {"letter_id": "DCP-LETT-415B", "locator": "header_text", "quote": "From Francis Beaufort 26 May [1838]"},
+        {"letter_id": "DCP-LETT-415B", "body_paragraph": 1, "quote": "supply you with a copy of our plan of Ascension Id. in order to its being engraved"},
+        {"letter_id": "DCP-LETT-415B", "body_paragraph": 2, "quote": "send your lithographer to this office with the proper ink for taking a transfer proof"}
+      ]
+    }
+  ],
+  "proposed_links": [
+    {
+      "source_id": "DCP-LETT-381A",
+      "target_id": "DCP-LETT-378A",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "381A explicitly states that Baring laid before the Lords Commissioners Darwin's 20 September letter and accompanying plan, then communicates their entire approval. This is a direct institutional administrative response, not merely evidence that Treasury knew of Darwin's project.",
+      "known_by_date": "1837-10-11",
+      "actual_receipt_date": null,
+      "response_scope": "Whole surviving body of 381A; it is a two-paragraph administrative response to 378A's plan and request.",
+      "evidence": [
+        {"letter_id": "DCP-LETT-378A", "body_paragraph": 2, "quote": "the accompanying documents for their Lordships consideration"},
+        {"letter_id": "DCP-LETT-381A", "body_paragraph": 1, "quote": "Having laid before the Lords &c your Letter of 20th. ulto. & the accompanying Plan"},
+        {"letter_id": "DCP-LETT-381A", "body_paragraph": 1, "quote": "their entire approval of the proposals contained therein"}
+      ],
+      "caveats": ["381A is Baring's institutional communication on behalf of the Treasury Lords; Baring must not be aliased to Spearman, the addressee of 378A."]
+    },
+    {
+      "source_id": "DCP-LETT-402A",
+      "target_id": "DCP-LETT-381A",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "402A explicitly cites the October 11 approval communicated in 381A while submitting the first Smith and Elder account and asking how the publisher should draw on Treasury. It is a direct administrative follow-up to the approval, with 378A retained as the originating plan rather than duplicated as a second reply edge.",
+      "known_by_date": "1838-02-16",
+      "actual_receipt_date": null,
+      "response_scope": "Whole surviving body of 402A; paragraph 1 carries the explicit approval reference and account filing, paragraphs 2-4 complete the administrative request.",
+      "evidence": [
+        {"letter_id": "DCP-LETT-381A", "body_paragraph": 1, "quote": "my Lords will be glad to hear that you are proceeding in the Work"},
+        {"letter_id": "DCP-LETT-402A", "body_paragraph": 1, "quote": "which received (October 11th) the entire approval"},
+        {"letter_id": "DCP-LETT-402A", "body_paragraph": 1, "quote": "communicate to me, according to what form Mrss. Smith and Elder ought to draw on the Treasury"}
+      ],
+      "caveats": ["402A is addressed to Spearman, while 381A is Baring's signed Treasury response to Darwin; the chain is institutional and must preserve both representatives' identities."]
+    },
+    {
+      "source_id": "DCP-LETT-415B",
+      "target_id": "DCP-LETT-415A",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "415B supplies the exact Ascension chart copy and transfer-proof procedure requested in 415A two days earlier. This is a reverse institutional administrative reply to Darwin's request, not a Darwin prompt or a knowledge-only link.",
+      "known_by_date": "1838-05-26",
+      "actual_receipt_date": null,
+      "response_scope": "Whole surviving body of 415B; paragraph 1 fulfills the chart request and paragraph 2 gives the reproduction procedure.",
+      "evidence": [
+        {"letter_id": "DCP-LETT-415A", "body_paragraph": 1, "quote": "a copy of the published Admiralty chart of that island, engraved"},
+        {"letter_id": "DCP-LETT-415B", "body_paragraph": 1, "quote": "supply you with a copy of our plan of Ascension Id. in order to its being engraved"},
+        {"letter_id": "DCP-LETT-415B", "body_paragraph": 2, "quote": "reproduce as many impressions as you may think fit"}
+      ],
+      "caveats": ["415A is Darwin to Charles Wood; 415B is Francis Beaufort to Darwin. The distinct officials are linked by the request and fulfillment, not by aliasing their identities."]
+    }
+  ],
+  "institutional_identity": {
+    "DCP-LETT-378A": "Darwin to A. Y. Spearman",
+    "DCP-LETT-381A": "Francis Thornhill Baring to Darwin, communicating the Lords Commissioners' approval",
+    "DCP-LETT-402A": "Darwin to A. Y. Spearman",
+    "DCP-LETT-415A": "Darwin to Charles Wood, requesting Admiralty chart permission",
+    "DCP-LETT-415B": "Francis Beaufort to Darwin, supplying the Ascension plan and transfer-proof instructions",
+    "warning": "Baring and Spearman are distinct institutional representatives. The 381A-to-378A edge is supported by explicit content, but not because the named people are interchangeable."
+  },
+  "excluded_duplicate": {
+    "letter_id": "DCP-LETT-377",
+    "reason": "The earlier Treasury grant context is acknowledged in 378A and is already accepted; no duplicate link is proposed here."
+  },
+  "issues": [
+    "These are direct administrative follow-ups concerning Treasury support for Zoology of the Voyage of H.M.S. Beagle, not knowledge-only topic links.",
+    "The chain crosses representatives: Darwin writes Spearman, Baring communicates the Lords Commissioners' decision, and Darwin writes Spearman again. Preserve Baring versus Spearman attribution.",
+    "The enclosed Smith and Elder statements/accounts are referenced as administrative enclosures; their existence does not alter the direct body-level links or supply additional Darwin voice."
+  ],
+  "validation": {"exact_quotes_checked": 24, "quote_errors": [], "all_records_covered": true}
+}

@@ -1,0 +1,129 @@
+{
+  "batch_id": "batch-15",
+  "status": "parent_adjudicated",
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-562F",
+      "target_id": "DCP-LETT-560",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_reverse_reply",
+      "reason": "Milne explicitly acknowledges the distinctive warning in560."
+    },
+    {
+      "source_id": "DCP-LETT-565",
+      "target_id": "DCP-LETT-557F",
+      "relationship": "replies_to",
+      "parent_decision": "candidate_only_not_accepted",
+      "reason": "565 thanks for a Journal gift, but does not acknowledge557F or its Redfield forwarding request. That letter does not enclose the book; a separate book dispatch or covering note is a live alternative."
+    }
+  ],
+  "correspondent_replies": [
+    {
+      "response_id": "DCP-LETT-562F",
+      "antecedent_id": "DCP-LETT-560",
+      "status": "supported_reply_by_correspondent",
+      "rationale": "Explicit acknowledgement of Darwin warning about coincident earthquakes identifies560, beyond the accompanying published paper.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-560",
+          "body_paragraph": 3,
+          "quote": "without any other connection than mere chance",
+          "locator": "div#letter div.body-content; retained body block 3",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-560.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-560.xml",
+            "retrieved_at": "2026-09-16T10:54:30.618113+00:00",
+            "sha256": "4aa254f2e1d5f4143f5578243e26ad6c7196c198c4d56e1cd72ea675e7e03735",
+            "bytes": 118251,
+            "http_status": 200,
+            "etag": "\"a0646d9bf3182b76579f86b322af34e9\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-560"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-562F",
+          "body_paragraph": 3,
+          "quote": "warning me against too ready a belief in the connection between earthquakes",
+          "locator": "div#letter div.body-content; retained body block 3",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-562F.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-562F.xml",
+            "retrieved_at": "2026-09-16T10:54:31.207093+00:00",
+            "sha256": "44d28c6d59104f03662b65c5899e0ef019b7e40cb96e19ed38b142a26212f720",
+            "bytes": 120550,
+            "http_status": 200,
+            "etag": "\"12436e6234f81b5130b0ca013c26e159\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-562F"
+          }
+        }
+      ],
+      "response_paragraphs": null,
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    }
+  ],
+  "rejected_or_candidate_links": [
+    {
+      "source_id": "DCP-LETT-565",
+      "target_id": "DCP-LETT-557F",
+      "status": "candidate_only_not_accepted",
+      "reason": "Book receipt is explicit but no acknowledgement of Redfield routing; no unique letter identification.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-565",
+          "body_paragraph": 1,
+          "quote": "yr delightful volume this day received",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-565.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-565.xml",
+            "retrieved_at": "2026-09-16T10:54:34.874542+00:00",
+            "sha256": "e6791432d2f348f78dba0c6f4e43d43e8127672dd6e503a9561e94db43bceb8c",
+            "bytes": 115590,
+            "http_status": 200,
+            "etag": "\"74b1fc4865b9968322069160a86b6e0a\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-565"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-557F",
+          "body_paragraph": 1,
+          "quote": "hopes that Prof. Silliman received some time since a copy",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-557F.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-557F.xml",
+            "retrieved_at": "2026-09-16T10:54:34.751145+00:00",
+            "sha256": "9b43b23fa2dd9d7e9928b9c35642ab5675e64c9091fe9f5fa5c72b81072c9ab3",
+            "bytes": 112662,
+            "http_status": 200,
+            "etag": "\"782d96a3dad86b676070427946402cdb\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-557F"
+          }
+        }
+      ]
+    }
+  ],
+  "source_kind_corrections": {
+    "DCP-LETT-360A": "Darwin letter in amanuensis hand",
+    "DCP-LETT-576": "Darwin questions relayed through Elizabeth Wedgwood and Frances Allen, with separately preserved Smith answers",
+    "DCP-LETT-583": "outgoing fragment"
+  },
+  "text_scope_overrides": {
+    "DCP-LETT-576": {
+      "original_intended_recipient": "Elizabeth Wedgwood",
+      "eventual_recipient": "G.N. Smith via Frances Allen",
+      "incoming_answers_in_editorial_notes": true,
+      "incoming_answers_not_Darwin_voice": true,
+      "answers_not_available_on_outgoing_date": true
+    }
+  },
+  "corrections": [
+    "Rejected automatic promotion565 to557F: acknowledgement of a book is not proof of a reply to a separate forwarding note.",
+    "Smith inserted answers to576 must remain separate from Darwin questions and must not be backdated to their dispatch."
+  ]
+}

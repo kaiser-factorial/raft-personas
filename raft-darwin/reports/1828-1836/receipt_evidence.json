@@ -1,0 +1,160 @@
+{
+  "scope": "Manual case study prompted by letter 301. Three incoming letters linked to two outgoing letters; not a corpus-wide receipt or reply audit.",
+  "source_manifest": "data/raw/dcp/receipt-case-301-306/manifest.json",
+  "baseline_audit": "reports/1828-1836/audit.jsonl",
+  "baseline_audit_modified": false,
+  "matches": [
+    {
+      "incoming_letter_id": "DCP-LETT-296",
+      "responding_letter_id": "DCP-LETT-302",
+      "relationship": "acknowledged_received_and_responded_to",
+      "match_confidence": "high",
+      "match_basis": "Darwin identifies Catherine and January 1836; the surviving 29 January letter mentions printed extracts, Erasmus furnishing his house, and the expected Parker child, all taken up in the reply. Earliest inferred receipt is 1 June from his arrival two days before the reply.",
+      "original_csv": {
+        "id": "DCP-LETT-296",
+        "sender_surname": "Darwin",
+        "sender_forename": "Catherine",
+        "recipient_surname": "Darwin",
+        "recipient_forename": "C. R.",
+        "sorting_date": "1836-01-29",
+        "date": "29 Jan 1836",
+        "sender_address": "Shrewsbury",
+        "recipient_address": "",
+        "source": "DAR 97 (ser. 2): 28–9",
+        "languages": "",
+        " extent": "",
+        " filename": "DCP-LETT-296.xml"
+      },
+      "receipt": {
+        "location": "Cape of Good Hope",
+        "exact_date": null,
+        "inferred_not_before": "1836-06-01",
+        "known_by": "1836-06-03",
+        "known_by_basis": "Explicit acknowledgment in DCP-LETT-302; this is an upper bound, not the delivery day."
+      },
+      "available_for_attested_response": "DCP-LETT-302",
+      "conservative_memory_activation_date": "1836-06-03",
+      "other_same_day_events_require_ordering_evidence": true,
+      "complete_list_of_inbound_context": false
+    },
+    {
+      "incoming_letter_id": "DCP-LETT-287",
+      "responding_letter_id": "DCP-LETT-306",
+      "relationship": "acknowledged_received_and_responded_to",
+      "match_confidence": "high",
+      "match_basis": "Darwin explicitly identifies Catherine's October letter. The surviving 30 October 1835 letter agrees in sender and month; the year follows the sequence and the comparison with the later January letter received at the Cape.",
+      "original_csv": {
+        "id": "DCP-LETT-287",
+        "sender_surname": "Darwin",
+        "sender_forename": "Catherine",
+        "recipient_surname": "Darwin",
+        "recipient_forename": "C. R.",
+        "sorting_date": "1835-10-30",
+        "date": "30 Oct 1835",
+        "sender_address": "Shrewsbury",
+        "recipient_address": "",
+        "source": "DAR 97 (ser. 2): 22–3",
+        "languages": "",
+        " extent": "",
+        " filename": "DCP-LETT-287.xml"
+      },
+      "receipt": {
+        "location": "Ascension",
+        "exact_date": null,
+        "inferred_not_before": null,
+        "known_by": "1836-08-04",
+        "known_by_basis": "Explicit acknowledgment in DCP-LETT-306; this is an upper bound, not the delivery day."
+      },
+      "available_for_attested_response": "DCP-LETT-306",
+      "conservative_memory_activation_date": "1836-08-04",
+      "other_same_day_events_require_ordering_evidence": true,
+      "complete_list_of_inbound_context": false
+    },
+    {
+      "incoming_letter_id": "DCP-LETT-288",
+      "responding_letter_id": "DCP-LETT-306",
+      "relationship": "acknowledged_received_and_responded_to",
+      "match_confidence": "high",
+      "match_basis": "Darwin explicitly identifies Susan's November letter and responds to the reported praise of his collections by Sedgwick, which appears in the surviving 22 November 1835 letter.",
+      "original_csv": {
+        "id": "DCP-LETT-288",
+        "sender_surname": "Darwin",
+        "sender_forename": "S. E.",
+        "recipient_surname": "Darwin",
+        "recipient_forename": "C. R.",
+        "sorting_date": "1835-11-22",
+        "date": "22 Nov 1835",
+        "sender_address": "Shrewsbury",
+        "recipient_address": "",
+        "source": "DAR 97 (ser. 2): 24–5",
+        "languages": "",
+        " extent": "",
+        " filename": "DCP-LETT-288.xml"
+      },
+      "receipt": {
+        "location": "Ascension",
+        "exact_date": null,
+        "inferred_not_before": null,
+        "known_by": "1836-08-04",
+        "known_by_basis": "Explicit acknowledgment in DCP-LETT-306; this is an upper bound, not the delivery day."
+      },
+      "available_for_attested_response": "DCP-LETT-306",
+      "conservative_memory_activation_date": "1836-08-04",
+      "other_same_day_events_require_ordering_evidence": true,
+      "complete_list_of_inbound_context": false
+    }
+  ],
+  "observations": [
+    {
+      "source_letter_id": "DCP-LETT-301",
+      "type": "negative_knowledge_report",
+      "date": "1836-04-29",
+      "scope": "Correspondence and news from home; do not generalize mechanically to every correspondent.",
+      "evidence_anchor": "the date of the last letter I received was 13 months ago",
+      "interpretation": "The newest letter he mentions was itself dated about thirteen months earlier. This does not date its arrival or prove that no local letters reached him. Preserve the approximation; do not turn it into a precise global exclusion cutoff."
+    },
+    {
+      "source_letter_id": "DCP-LETT-302",
+      "type": "receipt_and_missing_batch_report",
+      "date": "1836-06-03",
+      "scope": "Catherine's January letter received; older home correspondence still missing.",
+      "evidence_anchor": "Nine months’ letters are wandering over the wide ocean",
+      "interpretation": "Receipt of a newer letter does not establish receipt of all earlier letters. His expectation that the missing letters would arrive only after England is a contemporary prediction, not an actual receipt date."
+    },
+    {
+      "source_letter_id": "DCP-LETT-304",
+      "type": "missing_batch_report",
+      "date": "1836-07-09",
+      "scope": "Missing mail discussed with Henslow.",
+      "evidence_anchor": "I daresay, amongst them there was a letter from you",
+      "interpretation": "The missing-mail report extends beyond family correspondence, but a specific Henslow letter in the missing batch is conjectural."
+    },
+    {
+      "source_letter_id": "DCP-LETT-305",
+      "type": "unopened_mail_report",
+      "date_of_main_letter": "1836-07-18",
+      "date_of_final_flap_note": null,
+      "scope": "A mail bundle reported at dispatch.",
+      "evidence_anchor": "There are letters, but the bundle has not been opened.",
+      "interpretation": "Do not make the unseen bundle's contents available to this response. The flap note is undated; the bundle contents are not enumerated."
+    },
+    {
+      "source_letter_id": "DCP-LETT-306",
+      "type": "receipt_acknowledgment",
+      "date": "1836-08-04",
+      "scope": "Catherine October 1835 and Susan November 1835 letters.",
+      "evidence_anchor": "At Ascension I received Catherines letter of October & yours of November",
+      "interpretation": "Both are known by this reply; exact receipt dates at Ascension remain unresolved. The location and sequence place the receipt in July, but no precise July day is assigned."
+    }
+  ],
+  "training_implications": [
+    "Keep composition date and availability evidence separate; never replace an original date.",
+    "Use the identified incoming letter or letters as actual correspondence context for the attested reply.",
+    "For general memory retrieval, the conservative activation date is a known-by upper bound. Same-day order still needs evidence; the named reply is explicitly supported.",
+    "Do not infer that all earlier letters became available when a newer letter arrived.",
+    "Delivery at a port and reading a bundle are separate events.",
+    "The quoted report of Sedgwick in Susan's letter is information conveyed to Darwin through an included incoming letter; no separate third-party letter has been added.",
+    "Preserve unpaired Darwin letters as dated grounding, without inventing missing inbound prompts."
+  ],
+  "training_performed": false
+}

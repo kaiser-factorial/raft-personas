@@ -1,0 +1,51 @@
+{
+  "status": "additive_visual_correction_candidate",
+  "record_id": "DCP-LETT-2136",
+  "scope": "Second visual check of the original Harvard manuscript leaves in the preserved scan. The earlier proportions-recovery-note.json is retained unchanged.",
+  "source": {
+    "edition": "Charles Darwin letters to Asa Gray, 1855-1881 (inclusive), Internet Archive scan",
+    "pdf_path": "reports/1856-1857/review/followups/2136-proportions/harvard-gray-letters.pdf",
+    "pdf_sha256": "176d071e1a7b33006f1715ad7d44b775d323d70bd1ed1026d2ed58a6138a4be4",
+    "source_record": "DCP-LETT-2136, Darwin to Asa Gray, 5 September [1857], Archives of the Gray Herbarium, Harvard University (48)",
+    "independent_provenance_correction": "The PDF is not merely a modern Wikisource-generated transcript: its relevant pages are scanned images of the historical Harvard correspondence volume's manuscript leaves, while the separate text layer reproduces a printed transcription. The manuscript images therefore supply independent visual evidence for the fraction bars and digits."
+  },
+  "page_checks": [
+    {
+      "pdf_page_1_based": 79,
+      "rendered_image": "reports/1856-1857/review/followups/2136-proportions/original-page-79.png",
+      "visual_hash": "b01b299409f1a3f17a00e2dc1e3f722619f80a434d5f442cf0fdc493350d2361",
+      "locator": "lower manuscript spread, right-hand page, lower-right quadrant",
+      "observation": "The original handwriting shows four stacked numerator-over-denominator forms in the paragraph beginning with the US Flora comparison. The adopted visible numerators are 88, 50, 48, and 46, each over a denominator written as 1000, with horizontal fraction bars."
+    },
+    {
+      "pdf_page_1_based": 80,
+      "rendered_image": "reports/1856-1857/review/followups/2136-proportions/original-page-80.png",
+      "visual_hash": "f5fee51e449d7ca99213d6de4789e00711ae2e1375856d67e4fc74790c8de11b",
+      "locator": "lower manuscript spread continues the letter after the proportion paragraph",
+      "observation": "The letter continues into the close-species question and the kidney-bean experiment. This confirms that the proportion paragraph on page 79 belongs to the Darwin-to-Gray letter body; it is not an enclosure or later editorial insertion."
+    },
+    {
+      "pdf_page_1_based": 83,
+      "rendered_image": "reports/1856-1857/review/followups/2136-proportions/original-page-83.png",
+      "visual_hash": "f293159be4ae7d78173a4efc50a2d5ec51f2ecf1655e1b02c605018dc9fa08ed",
+      "locator": "left-hand page ends the letter/abstract; right-hand page begins with Roman numeral I",
+      "observation": "The right-hand leaf begins the separately headed enclosure, ‘I. It is wonderful what the principle of Selection by Man…’. The visual hand and Roman-numeral heading mark the letter-to-enclosure boundary; the four proportions remain in the preceding letter body."
+    }
+  ],
+  "fraction_reading": {
+    "literal_visual_forms": [
+      "88 over 1000, in ‘the large genera have [88/1000] varieties’",
+      "50 over 1000, in ‘the small genera only [50/1000]’",
+      "48 over 1000, in ‘vars. marked by big-type are only in proportion [48/1000]’",
+      "46 over 1000, the comparison endpoint in ‘[48/1000] to [46/1000]’"
+    ],
+    "strikeout_uncertainty": "Dark overwriting/struck marks occur around the numerator areas, especially the 88 and 50 forms and the lower 48-to-46 comparison. The final legible numerals are clear enough to identify 88, 50, 48 and 46, but the scan does not support reconstructing every superseded predecessor or deciding whether each dark stroke is a correction, cancellation, or ink overlap. The denominator 1000 is repeatedly legible beneath the bars.",
+    "conclusion": "The original manuscript visually resolves the missing typography as stacked fractions 88/1000, 50/1000, 48/1000 and 46/1000. This is a visual transcription of the manuscript layout, not a silent rewrite of the frozen HTML strings, which remain 881000, 501000, 481000 and 461000."
+  },
+  "supersedes_only_for_candidate_review": "The prior note's claim that no public original scan was located and that the independent PDF was only a printed transcript is corrected for candidate purposes by this visual check. No accepted evidence, raw source, packet, ledger, or export was modified.",
+  "validation": {
+    "visuals_viewed": [79, 80, 83],
+    "render_command": "pdftoppm -f 79 -l 79 -png -r 220 ...; repeated for 80 and 83",
+    "figure_or_diagram": "No separate figure; the relevant evidence is manuscript fraction typography in the letter body."
+  }
+}

@@ -1,0 +1,280 @@
+{
+ "note": "Files excluded from the GitHub copy. Nothing here was deleted: the local originals are the source of truth. Hashes let a rebuild be checked; they do not prove one is possible.",
+ "run2_pending": "reports/1859-post-origin, reports/1860..1868, reports/research and data/annotations are still being written and are NOT in the repository or in this manifest. Add them after the run.",
+ "upstream": {
+  "name": "Epsilon (epsilon.ac.uk) project data",
+  "repo": "https://github.com/cambridge-collection/epsilon-data",
+  "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+  "csv": "csv/darwin-correspondence.csv",
+  "csv_sha256": "cbe31878e4557db7f1e96f4c1fccdfa3144a88b2e8f2dcbf7441f8d430d73f9a",
+  "licence": "CC BY-NC 4.0",
+  "per_file_hashes": "data/raw carries its own per-source manifests with paths and hashes; not duplicated here."
+ },
+ "data_raw_local_summary": {
+  "dcp": {
+   "files": 7826,
+   "bytes": 892746644
+  },
+  "epsilon": {
+   "files": 7139,
+   "bytes": 48519809
+  },
+  "supplemental": {
+   "files": 2,
+   "bytes": 2367796
+  }
+ },
+ "generated_by_hints": [
+  "scripts/prepare_period.py",
+  "scripts/curate_remaining_review.py",
+  "scripts/prepare_remaining_expansion.py",
+  "scripts/period_review.py"
+ ],
+ "excluded_files": [
+  {
+   "path": "reports/1837-1843/audit.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 5778980,
+   "lines": 476,
+   "sha256": "dd30c9c29b05ed130912fe9b97dbacb6595547f2e501ed2e37cd21e10918b7c2"
+  },
+  {
+   "path": "reports/1837-1843/remaining-review/all_letters.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 7732278,
+   "lines": 476,
+   "sha256": "3beca7b8c3da89b7d5ca1bdb22dc7d2754db8389c2e709836e25d244b16e9811"
+  },
+  {
+   "path": "reports/1837-1843/remaining-review/letters.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 6818296,
+   "lines": 363,
+   "sha256": "7889c799cb13a3a420d32949e9e6b55830656967080cfed91dad9ceacedb483c"
+  },
+  {
+   "path": "reports/1844-1846/ambiguous_or_later.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 9141840,
+   "lines": 306,
+   "sha256": "da9008d4c8b7366a3d1173c5e91ee3ba1690d5b7e2f0f44029ced66c34fbf34b"
+  },
+  {
+   "path": "reports/1844-1846/audit.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 10016339,
+   "lines": 624,
+   "sha256": "8ce9bd5bdb1c74ab91f750e46d5f145324d5e9dffaa726ba66060fb0ea630cb2"
+  },
+  {
+   "path": "reports/1844-1846/discovery_audit.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 10161528,
+   "lines": 677,
+   "sha256": "da5302d251f507688e859fde2686cc8d5e65d71cd35d49e264c0982805dfed12"
+  },
+  {
+   "path": "reports/1844-1846/review/all_letters.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 19011751,
+   "lines": 1359,
+   "sha256": "31a0a266b06ce5efb30f2c3a0c55f87f58bc99776137d39b4143095243ae05b1"
+  },
+  {
+   "path": "reports/1844-1846/review/letters.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 12931571,
+   "lines": 624,
+   "sha256": "9b7b64a074ead550cb2408c8651737d3d4feae596f5e4b6f53e87a72149f1edc"
+  },
+  {
+   "path": "reports/1847-1850/ambiguous_or_later.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 8946278,
+   "lines": 298,
+   "sha256": "1d2a3cb156efa344af7dada6e9133a919ee6a97772d85898d4b606bcb2b25e01"
+  },
+  {
+   "path": "reports/1847-1850/audit.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 9932874,
+   "lines": 656,
+   "sha256": "05e01a6dc1ba34f5086fafe822e0171378c79e0cb58e5af04b113e8ad4750898"
+  },
+  {
+   "path": "reports/1847-1850/discovery_audit.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 10287119,
+   "lines": 716,
+   "sha256": "5be522c156c9af0480ec1f668124ea5e766e9f6080df7554d12985f8598abaf4"
+  },
+  {
+   "path": "reports/1847-1850/review/all_letters.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 21707081,
+   "lines": 1724,
+   "sha256": "35891766e48ceeb09eea3dd40b6c9643517cf76e6e5ca54d65130ea40299df06"
+  },
+  {
+   "path": "reports/1847-1850/review/letters.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 12924066,
+   "lines": 656,
+   "sha256": "ab3f4ba5b1c80716c65a8d0f5c29ff6a6d01363544638e4462e5a7a26d625846"
+  },
+  {
+   "path": "reports/1851-1855/ambiguous_or_later.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 9118243,
+   "lines": 294,
+   "sha256": "30ce990b226e79e6f68f2b633f6a36f2f652ac0b672f51606ad6111a2b1ec7ec"
+  },
+  {
+   "path": "reports/1851-1855/audit.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 10317359,
+   "lines": 733,
+   "sha256": "7138dfbf158e1ddfd91bb7b7cca447e3db0c12211149f65ec66f27864c820480"
+  },
+  {
+   "path": "reports/1851-1855/discovery_audit.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 10492039,
+   "lines": 793,
+   "sha256": "f1ab10bea594b3134f6beb7e155581d48e0f5c0693cfe08bec52921df490a931"
+  },
+  {
+   "path": "reports/1851-1855/review/all_letters.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 25186197,
+   "lines": 2169,
+   "sha256": "7e0015da63df1da3212188340435de9e6ccc9cde4c71e923aa503e90893aa1f9"
+  },
+  {
+   "path": "reports/1851-1855/review/letters.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 13882768,
+   "lines": 733,
+   "sha256": "e2266faf12b9ca89043c473ab2b4e8bb3aa720116a54e9396ad53184783b87e0"
+  },
+  {
+   "path": "reports/1856-1857/ambiguous_or_later.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 9318891,
+   "lines": 286,
+   "sha256": "69596f10331fc8df0b94bd4ac26cd6f47cd528524c2d3abae0acb1fa6c218153"
+  },
+  {
+   "path": "reports/1856-1857/audit.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 10432105,
+   "lines": 694,
+   "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+  },
+  {
+   "path": "reports/1856-1857/discovery_audit.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 10604237,
+   "lines": 757,
+   "sha256": "54ec5ec48b939b02297e60e3155b31e76fa18f044f8c9da93ebbe1e2098f349f"
+  },
+  {
+   "path": "reports/1856-1857/review/all_letters.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 28755698,
+   "lines": 2589,
+   "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+  },
+  {
+   "path": "reports/1856-1857/review/followups/2136-proportions/harvard-gray-letters.pdf",
+   "why": "downloaded third-party PDF",
+   "bytes": 25800287,
+   "lines": 117145,
+   "sha256": "176d071e1a7b33006f1715ad7d44b775d323d70bd1ed1026d2ed58a6138a4be4"
+  },
+  {
+   "path": "reports/1856-1857/review/followups/davy-papers/philosophical-transactions-vol146-1856.pdf",
+   "why": "downloaded third-party PDF",
+   "bytes": 85387034,
+   "lines": 420498,
+   "sha256": "2b7451bef18277aceaeac4fee1dccd4a98d2f883721d4bf0a2a402bb3a4629d8"
+  },
+  {
+   "path": "reports/1856-1857/review/followups/davy-papers/proceedings-vol7-1854-55.pdf",
+   "why": "downloaded third-party PDF",
+   "bytes": 45301052,
+   "lines": 207281,
+   "sha256": "0fbe7c960190e9d50f34da462327d36a423c699997673d96e37ac3d4ddc66bc0"
+  },
+  {
+   "path": "reports/1856-1857/review/followups/davy-papers/proceedings-vol8-1856-57.pdf",
+   "why": "downloaded third-party PDF",
+   "bytes": 46674143,
+   "lines": 212886,
+   "sha256": "8ae5ce2b38cf07a66db094ec9a13959f597417183ebdfc33c1b502fb811e4ff3"
+  },
+  {
+   "path": "reports/1856-1857/review/letters.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 13890380,
+   "lines": 694,
+   "sha256": "d3feb27f178ebd638dd544ddb4ad84203da5d304d8c240dded25f60bb5827d94"
+  },
+  {
+   "path": "reports/1858-1859/ambiguous_or_later.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 9464322,
+   "lines": 340,
+   "sha256": "64fd87a4b099ba5e3366f7d826df5dd75a22ff8764ab951567e301faaddb3ea9"
+  },
+  {
+   "path": "reports/1858-1859/audit.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 10465041,
+   "lines": 707,
+   "sha256": "90066eb77cfd9e4b55e8f308abd5e2f255e2ed13cbb6c21ee9a9728d8aaa6810"
+  },
+  {
+   "path": "reports/1858-1859/discovery_audit.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 10645137,
+   "lines": 773,
+   "sha256": "9a53ff1d129a899e44dd96ffb1fb5d605a6bca0e97e268c8aee1a3997d62acbb"
+  },
+  {
+   "path": "reports/1858-1859/review/all_letters.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 32043221,
+   "lines": 3031,
+   "sha256": "e1a2e7b5ed4db5640e9dc8265ce72db7ecc223b2ce7d2c8b0ad704a40da12931"
+  },
+  {
+   "path": "reports/1858-1859/review/followups/2479A-printed-witness/cundall1915-darwin-online.pdf",
+   "why": "downloaded third-party PDF",
+   "bytes": 374127,
+   "lines": 1866,
+   "sha256": "183c1f29408bea0b7ccee2249111299c17e57f6c61905c4f8c7aa97c51f0459c"
+  },
+  {
+   "path": "reports/1858-1859/review/letters.jsonl",
+   "why": "machine-derived family, >=5MB",
+   "bytes": 13754899,
+   "lines": 707,
+   "sha256": "04873793fd6ad08fd5f4c8be33eb132dc90028295d5350fa7185c4d08c43434e"
+  },
+  {
+   "path": "reports/raft-export/inputs/rendered-staging.json",
+   "why": "rendered letter text staged for export",
+   "bytes": 25679143,
+   "lines": 339427,
+   "sha256": "3a6c59b2fc01c1391201e5175a08d16f789bce6e02cd35baeccd957049ad6764"
+  },
+  {
+   "path": "reports/raft-prep/rendered-staging.working.json",
+   "why": "rendered letter text staged for export",
+   "bytes": 25679143,
+   "lines": 339427,
+   "sha256": "3a6c59b2fc01c1391201e5175a08d16f789bce6e02cd35baeccd957049ad6764"
+  }
+ ]
+}

@@ -1,0 +1,218 @@
+{
+  "status": "primary_verified_readiness_requirements",
+  "scope": "Source-fidelity requirements from accepted 1847–1850 batches 14–16; one cumulative export remains deferred until research reconciliation.",
+  "draft_reviewed": {
+    "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-04.draft.json",
+    "sha256": "16df434a27411c8abf63878216a4c5fd7b8ec3662912f0f22eeb08b368ae44f2",
+    "preserved_unchanged": true
+  },
+  "primary_provenance": [
+    {
+      "batch_id": "batch-14",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-14.json",
+      "reading_sha256": "339a35828aaa028e6820d8981de9c6a65f60edbec4bc81c8ba5de747afd866c4",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-14.json",
+      "decision_sha256": "c75206a5bb7e4b72ef216797d5c88727c7322e8418a1cba6e8181e0821fe56e8",
+      "accepted_ledger_path": "data/annotations/periods/1847-1850/batch-14.json",
+      "accepted_ledger_sha256": "840e4de4b0fafc90d31fcd4a24e4efa38238e3da0db7d2f5ea41406e171a8c3a"
+    },
+    {
+      "batch_id": "batch-15",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-15.json",
+      "reading_sha256": "17fecc02992ab940b705f2fad5572c1ca02ac9d5d8eef5b8eb00576affd62355",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-15.json",
+      "decision_sha256": "9a3e19855755733cd8f5e75dfeda8eea67d653537b49193410ba0589cbe7ae0f",
+      "accepted_ledger_path": "data/annotations/periods/1847-1850/batch-15.json",
+      "accepted_ledger_sha256": "3075e6e2422e1f322e2991f4591c6982193419a758993f7b6713b38fccea2eb7"
+    },
+    {
+      "batch_id": "batch-16",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-16.json",
+      "reading_sha256": "a1ab298ffb4e263134caa96d3471e067c3f83de229fbf7fb9e07dcd004ac5c19",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-16.json",
+      "decision_sha256": "78d705d3eed48ba1b8261f2fcbb14d313bf86ed69f212fbea6a484d557d63257",
+      "accepted_ledger_path": "data/annotations/periods/1847-1850/batch-16.json",
+      "accepted_ledger_sha256": "69cd3e9070f707a4c0d14c79248b966b4eac66bff14cfa9a3f2ad00789717e5a"
+    }
+  ],
+  "requirements": [
+    {
+      "letter_id": "DCP-LETT-1150",
+      "case": "Incoming notes arrive during composition",
+      "requirement": "The morning Auckland/Herschel commission is already available when the main body begins. The Owen refusal note arrives only by P5 and must not condition earlier composition. Preserve both missing-input records with their distinct receipt order; one letter date cannot erase that sequence.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1150.html",
+        "source_sha256": "70b63cc79d074b7214beb2792f7b083df9bcb65c857f81b30e60dc3fa58631e4",
+        "locators": "div#letter body P1 and P5; MathML time expressions",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1150.xml",
+        "xml_sha256": "f3a028af82143846914001acb2358a7621d345c1daea2745c566ba62028c31ee"
+      },
+      "accepted_primary_note": "Accepted batch 14 within-day event; missing commission/refusal material remains unlocated.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1301",
+      "case": "Incoming note arrives during composition",
+      "requirement": "Keep the newly arrived Fitch letter confined to the reopening at P4. Earlier P1–3 must not be conditioned by that note merely because it occurs in the same source. Preserve the distinct earlier permission for the carina from the new permission request.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1301.html",
+        "source_sha256": "ef949c89ed2924a9f9aa0caaa3997e5fbb861150bbeccafc104894be01ede7bb",
+        "locators": "div#letter body P1–P4; within-letter reopening",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1301.xml",
+        "xml_sha256": "8b87bfb53b5fb1f29d1b0acc5e7c353fb2dc11533c06b32873fd27ad20f1c487"
+      },
+      "accepted_primary_note": "Accepted batch 15; this is a grounding/temporal requirement, not a new graph acceptance.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1228",
+      "case": "Gratitude before physical pickup",
+      "requirement": "Render Darwin’s thanks separately from physical specimen receipt: the carrier forgot Thursday and was expected Monday at the College. Do not infer that specimens had arrived merely because Darwin expresses gratitude.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1228.html",
+        "source_sha256": "1676f04fadc57282b6959cf4971770dee37e6e5dbc0134e8ac40723aa2731c0d",
+        "locators": "div#letter body P1; quoted carrier timing",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1228.xml",
+        "xml_sha256": "8c0a31bdf6475426c514eb03e0e1180fa9e47d54c497790940921192cb14a3d9"
+      },
+      "accepted_primary_note": "Accepted batch 14 receipt distinction; preserve missing note and uncertain location.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1355",
+      "case": "Accompanying same-author letters and address artifacts",
+      "requirement": "Keep 1355 and 1356 as accompanying Darwin documents sent together, without creating a conversation edge between them. Preserve the address layout and treat stray “diag”/“ramme” markers as rendering artifacts requiring source-aware handling, not original prose.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1355.html",
+        "source_sha256": "66c5bb170b6c9611f9d7b8afbcf4edf13c5202f93355b1869b530120e96116be",
+        "locators": "div#letter body P3–P7; address block; related 1356 body P1",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1355.xml",
+        "xml_sha256": "714c1ecb70acfe642736cd5291a61e088fc2238d063171383cd9158d64cd8abe"
+      },
+      "accepted_primary_note": "Accepted batch 14 reference observation and correction.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1356",
+      "case": "Accompanying formal request",
+      "requirement": "Render the formal request as a same-author companion to 1355. Its wording “Could you oblige me by laying this request before the governing Body?” is a request document, not an incoming answer or independent conversational turn.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1356.html",
+        "source_sha256": "e2f9d67f766e6c210b311c55bc4a1a182f4b5e57c387cc7dca439b546cebcffd",
+        "locators": "div#letter body P1; companion relation to 1355",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1356.xml",
+        "xml_sha256": "8b2c9ab06e90103108258e130d2e6f380ea21e22884f7e8d29836e74e2203348"
+      },
+      "accepted_primary_note": "Accepted batch 14; no conversation edge.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1291",
+      "case": "Editor-relocated postscript and figure",
+      "requirement": "P11–13 postscript is bound with January 28 material but editorially assigned to January 15; retain both provenance and uncertain exact completion. The curved-valve figure with broken-tip label belongs to P2 in the main body, not to that postscript. Keep it with its actual source location.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1291.html",
+        "source_sha256": "c8569a44ad5b2e4a4c60a6527daa6fbe0155d37a28f03a45f539f299a2ddc0a7",
+        "locators": "Body P2 figure; P11–13 postscript; editorial footnote 7",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1291.xml",
+        "xml_sha256": "ad1c43709d48fdecd73d71527373aaaf8f0815d6d91807b46cf55ba065e9af91"
+      },
+      "accepted_primary_note": "Accepted batch 15 exact-date hold and correction.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1298",
+      "case": "Collapsed species and variety list",
+      "requirement": "Retain the structured list, provisional names and original numbering despite collapsed HTML “diag”/“ramme” markers. Preserve the contemporaneous judgement that P. maximus and sulcatus are only varieties, without harmonising later taxonomy into this source.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1298.html",
+        "source_sha256": "49c2b59a4457e06453827fda0ba51bd39707d823c09c683e2123a4c1793c9d76",
+        "locators": "Body P1–4 split structured list; P5 four-new-species assessment",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1298.xml",
+        "xml_sha256": "7b5318bf7a4fcd2aabbe67a4a7a66c1c18a0111b21ca6e82b990318695598474"
+      },
+      "accepted_primary_note": "Accepted batch 15; source list and interpretation must remain distinguishable.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1376",
+      "case": "Uncertain December versus early 1851",
+      "requirement": "Keep the conjectural December 1850 dating and the possibility of early 1851 as a period boundary hold. Do not turn the month guess into an exact date or exclude 1851 solely because the catalogue labels it December.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1376.html",
+        "source_sha256": "6fbb366a2fea3540811af57c8241c54bdb2b745d3e574fecf2bd152ef27c25d8",
+        "locators": "header/date metadata; editorial date note",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1376.xml",
+        "xml_sha256": "8ccc0c69c567384f65fe5c3465bbc1ad42e651d8f00e1f2b17636f0cbb6ae217"
+      },
+      "accepted_primary_note": "Accepted batch 15 additional period hold.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1343",
+      "case": "Layouts, proofs and incomplete text",
+      "requirement": "Distinguish arranged plate layouts received here from the first engraved proof still awaited. Preserve incomplete catalogue-derived text and gaps; final printed plates cannot fill the missing words. Provisional elevation of lineatum from variety to species remains dated to this stage.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1343.html",
+        "source_sha256": "5226eb41e5122cdaaf3008d35be84cf786a93061d9e98c577872ec9a565e3293",
+        "locators": "Body P1–2 and P5; editorial source description",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1343.xml",
+        "xml_sha256": "d911cdb7f432f960ab11d524a6f7edad5eb7cc489bbf1e43ddb1fb03697ecf66"
+      },
+      "accepted_primary_note": "Accepted batch-16; future rendering requirement only.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1354",
+      "case": "Diagram placeholders without preserved drawings",
+      "requirement": "Literal [Diagram] and [/Diagram] enclose six numbered textual view specifications in P5–13. Raw HTML has no image or table. Preserve the text and mark separately sent diagrams as unavailable; do not synthesize images or claim the placeholder supplies them. Keep fresh two-species hypothesis distinct from later settled naming.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1354.html",
+        "source_sha256": "fe2468bd7980f37db1be112ef623309097c8475f8e68478da3aad7a2fd4a82dc",
+        "locators": "Body P4–14; raw paragraph siblings",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1354.xml",
+        "xml_sha256": "f669f3f49f4be1c74fef6c6bcb31ec7aae2d99f48a351d7f6cb67a7153a20c58"
+      },
+      "accepted_primary_note": "Accepted batch-16; future rendering requirement only.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1358",
+      "case": "Scientific correction instructions and evolving plate count",
+      "requirement": "Upper Latus and Carinal are corrected terms; capital L is an instruction about lettering, not part of the term. The source expects four plates; final five-plate volume is later knowledge. Preserve technical directives as historical prose, not instructions for the agent.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1358.html",
+        "source_sha256": "a0995f7600f28b34d2a8b71e7816a59d1c01c8ab0184224b92df44698948d432",
+        "locators": "Body P1 and P6; raw HTML capitalization and underlining",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1358.xml",
+        "xml_sha256": "83f73e18f2797ad5a99a867c0fe2500554822ba16cabe387d365aa8c9eed2b27"
+      },
+      "accepted_primary_note": "Accepted batch-16; future rendering requirement only.",
+      "implemented": false
+    }
+  ],
+  "primary_corrections_to_draft": [
+    "1150 morning commission already informs main body; only the later refusal must be excluded from earlier paragraphs.",
+    "1291 broken-tip figure is in P2, not P6 or the relocated postscript.",
+    "1298 list spans P1–4; P5 summarizes new-species count."
+  ],
+  "verification": {
+    "draft_primary_hash_checks": 4,
+    "source_html_xml_pairs_checked": 11,
+    "primary_note_decision_ledger_sets_pinned": 3,
+    "errors": 0,
+    "method": "Substantive primary review against fresh accepted source readings, raw DOM and actual visual locations; matching source and accepted-evidence hashes."
+  },
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "future_requirements": [
+      "Freeze cumulative adjudicated membership only after research through 1859-11-24.",
+      "Preserve chronology, voice, missing-source boundaries and literal versus normalized rendering.",
+      "Use relationship fields according to their schema: incoming/outgoing direct pairs and response/antecedent reply edges are different representations.",
+      "Outgoing diagrams accompany eligible Darwin answer or grounding; they are not an invented question."
+    ]
+  }
+}

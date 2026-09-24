@@ -1,0 +1,193 @@
+{
+  "batch_id": "batch-13",
+  "status": "parent_adjudicated",
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-676",
+      "target_id": "DCP-LETT-671A",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_as_direct_reply",
+      "reason": "Both endpoints are Darwin outgoing letters. 676 fulfils an earlier promise in671A about the same unlocated Mantell input; this is a continuation, not a surviving prompt-response pair."
+    }
+  ],
+  "additional_period_hold_ids": [
+    "DCP-LETT-631"
+  ],
+  "additional_exact_date_review_ids": [
+    "DCP-LETT-631"
+  ],
+  "source_kind_corrections": {
+    "DCP-LETT-13770H": "valediction-only fragment",
+    "DCP-LETT-675": "incoming fragment with uncertain attached postscripts",
+    "DCP-LETT-458": "official secretary acknowledgement",
+    "DCP-LETT-511": "official secretary acknowledgement",
+    "DCP-LETT-511A": "official secretary acknowledgement"
+  },
+  "text_scope_overrides": {
+    "DCP-LETT-631": {
+      "effective_period_eligible": false,
+      "period_hold_reason": "Editorial note explicitly allows composition as late as November1848; raw XML remains unchanged."
+    },
+    "DCP-LETT-675": {
+      "body_segments": [
+        {
+          "paragraphs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "scope": "main surviving fragment"
+        },
+        {
+          "paragraphs": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "scope": "separate postscripts, probable attachment only",
+          "same_letter_assignment": "uncertain"
+        }
+      ]
+    }
+  },
+  "date_evidence": [
+    {
+      "letter_id": "DCP-LETT-631",
+      "locator": "editorial_footnotes",
+      "quote": "any Shrewsbury visit from the summer of 1841 to November 1848",
+      "assessment": "An explicit later possibility outweighs the narrow preferred XML window for conservative period selection. Preserve both in separate fields."
+    }
+  ],
+  "rejected_or_candidate_links": [
+    {
+      "source_id": "DCP-LETT-676",
+      "target_id": "DCP-LETT-671A",
+      "status": "rejected_as_prompt_pair",
+      "reason": "Both are outgoing; related continuation only.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-676",
+          "body_paragraph": 1,
+          "quote": "Capt. FitzRoy has read your letter to me attentively",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-676.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-676.xml",
+            "retrieved_at": "2026-09-16T10:54:22.021549+00:00",
+            "sha256": "d1da9243815223f8ed003db305799606a267c09519f20f99c83252165ddbf952",
+            "bytes": 111611,
+            "http_status": 200,
+            "etag": "\"2f95ed959f41f9a313a1ae20a3d8db44\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-676"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-671A",
+          "body_paragraph": 1,
+          "quote": "I will write & inform you whether I succeed.",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-671A.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-671A.xml",
+            "retrieved_at": "2026-09-16T10:54:21.851574+00:00",
+            "sha256": "707552cb55a5a3bb0078dac8600f442b77400177f6dda16f3be2dd6c6f2d15ce",
+            "bytes": 112076,
+            "http_status": 200,
+            "etag": "\"87da171e284b284f2618db062f1421bb\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-671A"
+          }
+        }
+      ]
+    }
+  ],
+  "reference_observations": [
+    {
+      "id": "REF-R13-MANTELL-MISSING",
+      "witness_id": "DCP-LETT-671A",
+      "additional_witness_ids": [
+        "DCP-LETT-676"
+      ],
+      "type": "shared_unlocated_incoming",
+      "description": "Mantell request for assistance to his son is acknowledged April21 and its forwarding result reported May13. Original input missing; no fabricated text.",
+      "known_by_date": "1843-04-21",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-671A",
+          "body_paragraph": 1,
+          "quote": "plain & very reasonable statement in your letter",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-671A.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-671A.xml",
+            "retrieved_at": "2026-09-16T10:54:21.851574+00:00",
+            "sha256": "707552cb55a5a3bb0078dac8600f442b77400177f6dda16f3be2dd6c6f2d15ce",
+            "bytes": 112076,
+            "http_status": 200,
+            "etag": "\"87da171e284b284f2618db062f1421bb\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-671A"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-676",
+          "body_paragraph": 1,
+          "quote": "Capt. FitzRoy has read your letter to me attentively",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-676.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-676.xml",
+            "retrieved_at": "2026-09-16T10:54:22.021549+00:00",
+            "sha256": "d1da9243815223f8ed003db305799606a267c09519f20f99c83252165ddbf952",
+            "bytes": 111611,
+            "http_status": 200,
+            "etag": "\"2f95ed959f41f9a313a1ae20a3d8db44\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-676"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null
+    }
+  ],
+  "corrections": [
+    "Rejected outgoing-to-outgoing reply proposal676 to671A while retaining the shared missing Mantell source.",
+    "631 receives a separate editorial period hold; original XML evidence is preserved.",
+    "675 late postscripts are not asserted to belong certainly to the May10 main fragment."
+  ]
+}

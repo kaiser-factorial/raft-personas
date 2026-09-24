@@ -1,0 +1,4031 @@
+{
+ "created_from": "reports/paragraph-split",
+ "reserve": 15,
+ "note_transcript_field": "`transcript` is the CURRENT filename and is rewritten whenever select_kind.py renumbers. Join on `url`, which is stable.",
+ "letter_mode": 49,
+ "split_mode": 183,
+ "letter_mode_no_pair": 34,
+ "letter_mode_reserved": 15,
+ "pairs_adjudicated": 219,
+ "pairs_emitted": 183,
+ "grounding_original": 1405,
+ "grounding_unprompted": 108,
+ "grounding_withheld": {
+  "answers_something": 307,
+  "signoff": 35,
+  "fragment": 10,
+  "signature": 2,
+  "postscript": 6,
+  "letter_mode_letter": 219
+ },
+ "policy_note": "Grounding gains Darwin's unprompted paragraphs from SPLIT-MODE letters only. They answer nothing in the incoming letter and are never a training target in any mode, so this is not a reservation leak; retrieval additionally filters on date_num < transcript date. Letter-mode letters contribute nothing, their whole reply being the target. Tagged '[derived: unprompted]' to be reversible.",
+ "records": [
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0004.json",
+   "date": "1832-04-05",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0001.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-164.xml#raft-response-DCP-LETT-164-1832-04-05-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0005.json",
+   "date": "1832-05-18",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0002.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-171.xml#raft-response-DCP-LETT-171-1832-05-18-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0006.json",
+   "date": "1832-06-16",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0003.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-171.xml#raft-response-DCP-LETT-171-1832-06-16-section-1"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0008.json",
+   "date": "1833-05-23",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0004.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-207.xml#raft-response-DCP-LETT-207-1833-05-23-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0010.json",
+   "date": "1833-11-13",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0005.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-230.xml#raft-response-DCP-LETT-230-1833-11-13-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0011.json",
+   "date": "1834-04-06",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0006.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-242.xml#raft-response-DCP-LETT-242-1834-04-06-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0013.json",
+   "date": "1834-07-29",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0007.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-248.xml#raft-response-DCP-LETT-248-1834-07-29-section-1"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0017.json",
+   "date": "1836-06-03",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0008.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-302.xml#raft-response-DCP-LETT-302-1836-06-03-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0021.json",
+   "date": "1838-02-16",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0009.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-402A.xml#raft-response-DCP-LETT-402A-1838-02-16-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0023.json",
+   "date": "1838-08-18",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0010.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-424A.xml#raft-response-DCP-LETT-424A-1838-08-18-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0024.json",
+   "date": "1838-09-14",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0011.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-428.xml#raft-response-DCP-LETT-428-1838-09-14-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0025.json",
+   "date": "1838-11-27",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0012.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-445.xml#raft-response-DCP-LETT-445-1838-11-27-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0027.json",
+   "date": "1838-12-01",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0013.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-448.xml#raft-response-DCP-LETT-448-1838-12-01-section-1"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0030.json",
+   "date": "1839-01-07",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0014.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-484.xml#raft-response-DCP-LETT-484-1839-01-07-section-1"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0034.json",
+   "date": "1843-10-09",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0015.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-701F.xml#raft-response-DCP-LETT-701F-1843-10-09-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0043.json",
+   "date": "1844-03-11",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0016.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-740.xml#raft-response-DCP-LETT-740-1844-03-11-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0046.json",
+   "date": "1844-09-08",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0017.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-776.xml#raft-response-DCP-LETT-776-1844-09-08-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0053.json",
+   "date": "1844-12-25",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0018.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-803.xml#raft-response-DCP-LETT-803-1844-12-25-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0060.json",
+   "date": "1845-05-13",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0019.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-867.xml#raft-response-DCP-LETT-867-1845-05-13-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0061.json",
+   "date": "1845-08-25",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0020.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-905.xml#raft-response-DCP-LETT-905-1845-08-25-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0065.json",
+   "date": "1846-02-10",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0021.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-951.xml#raft-response-DCP-LETT-951-1846-02-10-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0072.json",
+   "date": "1848-05-10",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0022.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1174.xml#raft-response-DCP-LETT-1174-1848-05-10-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0073.json",
+   "date": "1848-08-29",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0023.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1197.xml#raft-response-DCP-LETT-1197-1848-08-29-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0075.json",
+   "date": "1849-03-28",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0024.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1236.xml#raft-response-DCP-LETT-1236-1849-03-28-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0076.json",
+   "date": "1849-04-09",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0025.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1239.xml#raft-response-DCP-LETT-1239-1849-04-09-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0077.json",
+   "date": "1851-04-20",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0026.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1406.xml#raft-response-DCP-LETT-1406-1851-04-20-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0078.json",
+   "date": "1851-04-21",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0027.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1408.xml#raft-response-DCP-LETT-1408-1851-04-21-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0083.json",
+   "date": "1854-03-01",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0028.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1556.xml#raft-response-DCP-LETT-1556-1854-03-01-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0084.json",
+   "date": "1854-03-26",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0029.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1562.xml#raft-response-DCP-LETT-1562-1854-03-26-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0089.json",
+   "date": "1854-11-15",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0030.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1601.xml#raft-response-DCP-LETT-1601-1854-11-15-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0093.json",
+   "date": "1855-06-08",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0031.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1695.xml#raft-response-DCP-LETT-1695-1855-06-08-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0094.json",
+   "date": "1855-06-10",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0032.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1696.xml#raft-response-DCP-LETT-1696-1855-06-10-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0103.json",
+   "date": "1856-04-21",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0033.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1856.xml#raft-response-DCP-LETT-1856-1856-04-21-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0116.json",
+   "date": "1856-11-12",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0034.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1986.xml#raft-response-DCP-LETT-1986-1856-11-12-section-1"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0117.json",
+   "date": "1856-11-18",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0035.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1991.xml#raft-response-DCP-LETT-1991-1856-11-18-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0120.json",
+   "date": "1856-12-03",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0036.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2010.xml#raft-response-DCP-LETT-2010-1856-12-03-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0121.json",
+   "date": "1857-02-22",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0037.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2057.xml#raft-response-DCP-LETT-2057-1857-02-22-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0123.json",
+   "date": "1857-07-01",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0038.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2116.xml#raft-response-DCP-LETT-2116-1857-07-01-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0125.json",
+   "date": "1857-09-05",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0039.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2136.xml#raft-response-DCP-LETT-2136-1857-09-05-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0127.json",
+   "date": "1857-12-04",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0040.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2180.xml#raft-response-DCP-LETT-2180-1857-12-04-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0128.json",
+   "date": "1857-12-18",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0041.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2189.xml#raft-response-DCP-LETT-2189-1857-12-18-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0129.json",
+   "date": "1857-12-22",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0042.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2192.xml#raft-response-DCP-LETT-2192-1857-12-22-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0134.json",
+   "date": "1858-03-05",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0043.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2235.xml#raft-response-DCP-LETT-2235-1858-03-05-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0139.json",
+   "date": "1858-08-05",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0044.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2313.xml#raft-response-DCP-LETT-2313-1858-08-05-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0141.json",
+   "date": "1858-11-14",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0045.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2361.xml#raft-response-DCP-LETT-2361-1858-11-14-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0145.json",
+   "date": "1858-11-25",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0046.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2371.xml#raft-response-DCP-LETT-2371-1858-11-25-section-1"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0150.json",
+   "date": "1859-03-11",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0047.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2429.xml#raft-response-DCP-LETT-2429-1859-03-11-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0152.json",
+   "date": "1859-04-02",
+   "reserved_from_splitting": false,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0048.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2445.xml#raft-response-DCP-LETT-2445-1859-04-02-section-0"
+  },
+  {
+   "kind": "whole_letter",
+   "source": "transcript-0155.json",
+   "date": "1859-10-11",
+   "reserved_from_splitting": true,
+   "status": "adjudicated_upstream",
+   "transcript": "transcript-0049.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2503.xml#raft-response-DCP-LETT-2503-1859-10-11-section-0"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0001.json",
+   "date": "1831-08-30",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1,
+    2,
+    4
+   ],
+   "topic": "Darwin's potential expedition opportunity; Condolences for Ramsay's de",
+   "item_id": "b1-046",
+   "verdict_reason": "Darwin's decline of the Beagle offer, answering Henslow's proposal and Ramsay's death.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0050.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-107.xml#raft-response-DCP-LETT-107-1831-08-30-section-0-para-1-2-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0002.json",
+   "date": "1831-09-23",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Advice on Mathematics and Navigation; Personal Updates and Future Plan",
+   "item_id": "b1-014",
+   "verdict_reason": "Answers Whitley's wish to meet before sailing and thanks him for the kind letter and wishes.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0051.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-135A.xml#raft-response-DCP-LETT-135A-1831-09-23-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0003.json",
+   "date": "1831-10-30",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1,
+    2,
+    4
+   ],
+   "topic": "financial misunderstanding and consignment; expedition updates and per",
+   "item_id": "b1-028",
+   "verdict_reason": "Answers the billing error and the consignment directions; whole-letter to whole-reply.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0052.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-144.xml#raft-response-DCP-LETT-144-1831-10-30-section-0-para-1-2-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0007.json",
+   "date": "1833-05-22",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Correspondence and family updates",
+   "item_id": "b1-007",
+   "verdict_reason": "Catherine's tally of letters sent/received prompts Darwin's acknowledgment of the string of letters.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0053.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-206.xml#raft-response-DCP-LETT-206-1833-05-22-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0007.json",
+   "date": "1833-05-22",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Cruising and natural history",
+   "item_id": "b1-042",
+   "verdict_reason": "Quotes back 'the good people of Shropshire, who say I shall find cruizing in the South-seas stupid work'.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0054.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-206.xml#raft-response-DCP-LETT-206-1833-05-22-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0009.json",
+   "date": "1833-06-02",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Darwin's current location and activities; Salutations and personal ref",
+   "item_id": "b1-019",
+   "verdict_reason": "Thanks Herbert for the letter and picks up his parchment/lawyer joke and the Barmouth memories.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0055.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-209.xml#raft-response-DCP-LETT-209-1833-06-02-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0009.json",
+   "date": "1833-06-02",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Health and exercise concerns; Political situation in England",
+   "item_id": "b1-040",
+   "verdict_reason": "Reacts to Herbert's political news and to his want-of-exercise illness.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0056.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-209.xml#raft-response-DCP-LETT-209-1833-06-02-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0012.json",
+   "date": "1834-07-20",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1,
+    3
+   ],
+   "topic": "Journal and letters received",
+   "item_id": "b1-052",
+   "verdict_reason": "Acknowledges the series of letters and responds to the family reading his Journal aloud.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0057.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-248.xml#raft-response-DCP-LETT-248-1834-07-20-section-0-para-1-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0012.json",
+   "date": "1834-07-20",
+   "incoming_paras": [
+    4
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Specimens and geological findings",
+   "item_id": "b1-050",
+   "verdict_reason": "Opens 'You ask me about the specimens which I send to Cambridge' \u2014 the question's explicit query.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0058.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-248.xml#raft-response-DCP-LETT-248-1834-07-20-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0014.json",
+   "date": "1834-08-09",
+   "incoming_paras": [
+    1,
+    2,
+    4
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3
+   ],
+   "topic": "fossil bones and specimens; fossil bones and specimens; well-being and",
+   "item_id": "b1-049",
+   "verdict_reason": "Responds to the Clift/fossil-bones news and to his father's remarks on money and carriage.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0059.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-253.xml#raft-response-DCP-LETT-253-1834-08-09-section-0-para-1-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0015.json",
+   "date": "1835-04-23",
+   "incoming_paras": [
+    3
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Col. Leighton's death",
+   "item_id": "b1-001",
+   "verdict_reason": "Darwin explicitly condoles on Col. Leighton's death, the news in the question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0060.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-275.xml#raft-response-DCP-LETT-275-1835-04-23-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0015.json",
+   "date": "1835-04-23",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Langtons' trip to Madeira",
+   "item_id": "b1-053",
+   "verdict_reason": "Sends love to Charlotte at Madeira/West Indies, the news of the question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0061.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-275.xml#raft-response-DCP-LETT-275-1835-04-23-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0015.json",
+   "date": "1835-04-23",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    4
+   ],
+   "topic": "Erasmus' visit to Cambridge",
+   "item_id": "b1-036",
+   "verdict_reason": "Takes up Susan's account of Erasmus at Cambridge with Whewell and Sedgwick.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0062.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-275.xml#raft-response-DCP-LETT-275-1835-04-23-section-0-para-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0016.json",
+   "date": "1835-12-27",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Concerns about health and voyage; Family news and connections",
+   "item_id": "b1-022",
+   "verdict_reason": "Responds to the news that Charlotte and Mr Langton are going to Rio.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0063.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-289.xml#raft-response-DCP-LETT-289-1835-12-27-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0018.json",
+   "date": "1836-08-04",
+   "incoming_paras": [
+    1,
+    5
+   ],
+   "reply_paras": [
+    1,
+    3
+   ],
+   "topic": "Journal arrival and reactions; Travel updates and safety",
+   "item_id": "b1-051",
+   "verdict_reason": "Thanks for the letters and singles out Sedgwick's praise quoted in the question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0064.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-306.xml#raft-response-DCP-LETT-306-1836-08-04-section-0-para-1-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0019.json",
+   "date": "1837-02-27",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Lyell's speech and friendship; Family updates and visits",
+   "item_id": "b1-035",
+   "verdict_reason": "Explicitly answers 'You enquired in yr. last letter about Lyell's Speech' and the Cambridge news asked for.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0065.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-346.xml#raft-response-DCP-LETT-346-1837-02-27-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0019.json",
+   "date": "1837-02-27",
+   "incoming_paras": [
+    3
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Chronology of the Old Testament",
+   "item_id": "b1-016",
+   "verdict_reason": "Explicitly answers Catherine's puzzle about what is new in Herschel's Old Testament chronology.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0066.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-346.xml#raft-response-DCP-LETT-346-1837-02-27-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0020.json",
+   "date": "1837-09-20",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3
+   ],
+   "topic": "Publication funding and arrangements; Salutations and closing remarks",
+   "item_id": "b1-012",
+   "verdict_reason": "Direct formal reply to the Treasury's grant conditions and request for a plan.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0067.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-378A.xml#raft-response-DCP-LETT-378A-1837-09-20-section-0-para-1-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0022.json",
+   "date": "1838-02-22",
+   "incoming_paras": [
+    1,
+    2,
+    3
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Conduct of Mr. Geo. Gray",
+   "item_id": "b1-010",
+   "verdict_reason": "Formal testimonial precisely answering Children's inquiry into G. R. Gray's conduct.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0068.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-402F.xml#raft-response-DCP-LETT-402F-1838-02-22-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0026.json",
+   "date": "1838-11-30",
+   "incoming_paras": [
+    1,
+    4
+   ],
+   "reply_paras": [
+    1,
+    4
+   ],
+   "topic": "Personal updates and sentiments; Literary references and reading",
+   "item_id": "b1-024",
+   "verdict_reason": "Answers Emma's scolding that no trifle is too small, writing 'as if you really were my own dear wife'.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0069.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-448.xml#raft-response-DCP-LETT-448-1838-11-30-section-0-para-1-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0026.json",
+   "date": "1838-11-30",
+   "incoming_paras": [
+    2,
+    3
+   ],
+   "reply_paras": [
+    2,
+    3
+   ],
+   "topic": "House and furniture discussions; House and furniture discussions",
+   "item_id": "b1-025",
+   "verdict_reason": "Pots and pans, the 'poor old gentleman' retort and the servant question all come straight from the question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0070.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-448.xml#raft-response-DCP-LETT-448-1838-11-30-section-0-para-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0028.json",
+   "date": "1839-01-01",
+   "incoming_paras": [
+    1,
+    2,
+    6
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "House and domestic arrangements; Health and well-being concerns",
+   "item_id": "b1-030",
+   "verdict_reason": "Answers Margaret/the maid, the linen, and Emma's delight over Macaw Cottage.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0071.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-466.xml#raft-response-DCP-LETT-466-1839-01-01-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0028.json",
+   "date": "1839-01-01",
+   "incoming_paras": [
+    4,
+    8,
+    9
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Salutations and goodbyes; Respirator request for Papa",
+   "item_id": "b1-008",
+   "verdict_reason": "Directly answers the respirator request for Uncle Jos plus the goodbyes.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0072.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-466.xml#raft-response-DCP-LETT-466-1839-01-01-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0029.json",
+   "date": "1839-01-06",
+   "incoming_paras": [
+    1,
+    3,
+    5
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Housewarming and domestic arrangements; Social gatherings and events; ",
+   "item_id": "b1-015",
+   "verdict_reason": "Scolding for writing 'your house' quotes Emma's opening line; same domestic thread, though chatty.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0073.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-484.xml#raft-response-DCP-LETT-484-1839-01-06-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0029.json",
+   "date": "1839-01-06",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    2,
+    6
+   ],
+   "topic": "Correspondence and family updates",
+   "item_id": "b1-045",
+   "verdict_reason": "Answers both 'tell me when you receive this' and 'I hope you will manage to finish Glen Roy'.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0074.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-484.xml#raft-response-DCP-LETT-484-1839-01-06-section-0-para-2-6"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0031.json",
+   "date": "1839-01-26",
+   "incoming_paras": [
+    1,
+    6
+   ],
+   "reply_paras": [
+    1,
+    3
+   ],
+   "topic": "Plans for upcoming marriage; Self-importance and expectations",
+   "item_id": "b1-017",
+   "verdict_reason": "Echoes Emma's 'don't think yourself of such great consequence' and settles the Monday/Tuesday plans.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0075.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-493.xml#raft-response-DCP-LETT-493-1839-01-26-section-0-para-1-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0032.json",
+   "date": "1839-04-16",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "marriage gift and appreciation",
+   "item_id": "b1-026",
+   "verdict_reason": "Thanks Whewell for the marriage gift and mentions beginning Hermann und Dorothea.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0076.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-506.xml#raft-response-DCP-LETT-506-1839-04-16-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0033.json",
+   "date": "1840-12-22",
+   "incoming_paras": [
+    3,
+    4
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "interest in geological reports; meteorological papers and reports",
+   "item_id": "b1-041",
+   "verdict_reason": "Thanks Redfield for the meteorological pamphlets and geological reports he announced.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0077.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-585.xml#raft-response-DCP-LETT-585-1840-12-22-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0033.json",
+   "date": "1840-12-22",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "whirlwinds and volcanic phenomena; whirlwinds and atmospheric currents",
+   "item_id": "b1-020",
+   "verdict_reason": "Postscript offers a whirlwind observation on exactly the rotatory-action discussion raised.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0078.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-585.xml#raft-response-DCP-LETT-585-1840-12-22-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0035.json",
+   "date": "1843-10-14",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Atriplex plant identification discussion; General news and salutations",
+   "item_id": "b1-047",
+   "verdict_reason": "Answers Henslow on the Atriplex identification and reacts to his tumulus-modelling takings.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0079.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-705.xml#raft-response-DCP-LETT-705-1843-10-14-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0036.json",
+   "date": "1843-11-01",
+   "incoming_paras": [
+    1,
+    3,
+    4,
+    5,
+    8
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Plant discovery and publication concerns; Interest in ancient vegetati",
+   "item_id": "b1-023",
+   "verdict_reason": "Weighs Kemp's soil/seed precautions against Babington's identification \u2014 the same evidential question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0080.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-710F.xml#raft-response-DCP-LETT-710F-1843-11-01-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0036.json",
+   "date": "1843-11-01",
+   "incoming_paras": [
+    2,
+    6
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Advice on publication and evidence",
+   "item_id": "b1-021",
+   "verdict_reason": "Answers Kemp's deference on publication: papers safe, disappointment, advice given to best judgment.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0081.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-710F.xml#raft-response-DCP-LETT-710F-1843-11-01-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0037.json",
+   "date": "1843-11-09",
+   "incoming_paras": [
+    1,
+    3
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Gratitude and Respect Exchange; Pleasure in Investigation",
+   "item_id": "b1-009",
+   "verdict_reason": "Darwin remarks on the 'pleasant tone of your last letter' \u2014 exactly Kemp's gracious paragraph.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0082.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-711F.xml#raft-response-DCP-LETT-711F-1843-11-09-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0037.json",
+   "date": "1843-11-09",
+   "incoming_paras": [
+    2,
+    4
+   ],
+   "reply_paras": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "topic": "Seed Investigation and Findings; Return of Papers",
+   "item_id": "b1-032",
+   "verdict_reason": "Answers Kemp's 'worse than useless to publish' and his offer not to have papers returned.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0083.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-711F.xml#raft-response-DCP-LETT-711F-1843-11-09-section-0-para-2-3-4-6"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0037.json",
+   "date": "1843-11-09",
+   "incoming_paras": [
+    5
+   ],
+   "reply_paras": [
+    5
+   ],
+   "topic": "Closing Salutations",
+   "item_id": "b1-037",
+   "verdict_reason": "Closing salutation answering a closing salutation.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0084.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-711F.xml#raft-response-DCP-LETT-711F-1843-11-09-section-0-para-5"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0038.json",
+   "date": "1843-11-22",
+   "incoming_paras": [
+    2,
+    3,
+    4
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Discussion of Mr. Babington's opinion; Permission for publication hand",
+   "item_id": "b1-043",
+   "verdict_reason": "Answers Kemp's permission to publish and praises his account of the manner of planting.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0085.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-715F.xml#raft-response-DCP-LETT-715F-1843-11-22-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0039.json",
+   "date": "1843-12-01",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1,
+    2,
+    4
+   ],
+   "topic": "Approval of paper and evidence; Egyptian Wheat evidence and doubts",
+   "item_id": "b1-031",
+   "verdict_reason": "Kemp's appeal to the Egyptian Wheat precedent prompts Brown's scepticism and Darwin's witness questions.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0086.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-716F.xml#raft-response-DCP-LETT-716F-1843-12-01-section-0-para-1-2-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0040.json",
+   "date": "1843-12-07",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "discovery of the seed",
+   "item_id": "b1-003",
+   "verdict_reason": "Responds to Kemp's witness testimony and enclosed certificates ('needlessly scrupulous', 'testimonial of yourself').",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0087.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-720F.xml#raft-response-DCP-LETT-720F-1843-12-07-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0040.json",
+   "date": "1843-12-07",
+   "incoming_paras": [
+    3
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "salutations and closing remarks",
+   "item_id": "b1-029",
+   "verdict_reason": "Closing salutation answering a closing salutation.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0088.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-720F.xml#raft-response-DCP-LETT-720F-1843-12-07-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0041.json",
+   "date": "1843-12-12",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3
+   ],
+   "topic": "Acknowledgment of assistance offer; Botanical geography and collection",
+   "item_id": "b1-039",
+   "verdict_reason": "Answers Hooker's botanical-geography queries (beech limit, Alerce, Galapagos, Ascension, King's collection).",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0089.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-722.xml#raft-response-DCP-LETT-722-1843-12-12-section-0-para-1-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0042.json",
+   "date": "1844-03-06",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    4,
+    5
+   ],
+   "topic": "Flora of Pacific Islands",
+   "item_id": "b2-013",
+   "verdict_reason": "Darwin's Lesson/Pacific-flora uniformity remark responds to Hooker's claim of dissimilarity between island floras.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0090.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-738.xml#raft-response-DCP-LETT-738-1844-03-06-section-0-para-4-5"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0044.json",
+   "date": "1844-03-31",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Galapagos Islands Flora Observations",
+   "item_id": "b2-034",
+   "verdict_reason": "Answers the Galapagos flora report with how and where he collected on each island.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0091.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-744.xml#raft-response-DCP-LETT-744-1844-03-31-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0044.json",
+   "date": "1844-03-31",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    2,
+    3,
+    4
+   ],
+   "topic": "Distribution of Plant Genera",
+   "item_id": "b2-045",
+   "verdict_reason": "Clarifies the genus-range question that Hooker's statistics answered; the Swainson aside is a single related follow-up.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0092.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-744.xml#raft-response-DCP-LETT-744-1844-03-31-section-0-para-2-3-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0045.json",
+   "date": "1844-04-17",
+   "incoming_paras": [
+    2,
+    3,
+    4
+   ],
+   "reply_paras": [
+    5
+   ],
+   "topic": "Geographical distribution of species",
+   "item_id": "b2-036",
+   "verdict_reason": "Reacts to the geographical-law letter and specifically to Hooker's clarification of 'typical forms'.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0093.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-746.xml#raft-response-DCP-LETT-746-1844-04-17-section-0-para-5"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0047.json",
+   "date": "1844-11-07",
+   "incoming_paras": [
+    1,
+    2,
+    3
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "topic": "Parasites and their distribution; Parasites of birds and mammals; Spec",
+   "item_id": "b2-046",
+   "verdict_reason": "Whole reply answers Denny on parasites, the Aperea/guinea-pig identity and procuring S. American specimens.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0094.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-787.xml#raft-response-DCP-LETT-787-1844-11-07-section-0-para-1-2-3-4-5"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0048.json",
+   "date": "1844-11-10",
+   "incoming_paras": [
+    1,
+    2,
+    6,
+    9
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Antarctic ice and Infusoria; Kindness and correspondence; Seeds and pl",
+   "item_id": "b2-035",
+   "verdict_reason": "Thanks for the seed and the antarctic-ice/infusoria notes and discusses the brash ice.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0095.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-789.xml#raft-response-DCP-LETT-789-1844-11-10-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0048.json",
+   "date": "1844-11-10",
+   "incoming_paras": [
+    3,
+    4,
+    5
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Variability in species and genera",
+   "item_id": "b2-043",
+   "verdict_reason": "Takes up the Lycopodium variability case and extends it to variable genera.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0096.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-789.xml#raft-response-DCP-LETT-789-1844-11-10-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0049.json",
+   "date": "1844-11-11",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Response to delayed correspondence; Equability of climate and species;",
+   "item_id": "b2-031",
+   "verdict_reason": "The single monster reply paragraph tracks Hooker's equability argument point by point; only the books digression is unasked.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0097.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-789.xml#raft-response-DCP-LETT-789-1844-11-11-section-1-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0050.json",
+   "date": "1844-11-18",
+   "incoming_paras": [
+    1,
+    8
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Acknowledgment of correspondence obligation; Invitation and holiday pl",
+   "item_id": "b2-014",
+   "verdict_reason": "Declines the Kew invitation raised in the question and returns the invitation for December.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0098.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-792.xml#raft-response-DCP-LETT-792-1844-11-18-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0051.json",
+   "date": "1844-12-02",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Visit arrangements and travel details",
+   "item_id": "b2-018",
+   "verdict_reason": "Accepts the proposed Saturday visit and gives coach/rail instructions.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0099.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-796.xml#raft-response-DCP-LETT-796-1844-12-02-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0052.json",
+   "date": "1844-12-16",
+   "incoming_paras": [
+    1,
+    11,
+    14
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Gratitude for hospitality received; Personal updates and correspondenc",
+   "item_id": "b2-009",
+   "verdict_reason": "Blanket thanks explicitly covering 'every single paragraph in your letter'; prompted, and volunteers nothing substantive.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0100.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-800.xml#raft-response-DCP-LETT-800-1844-12-16-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0052.json",
+   "date": "1844-12-16",
+   "incoming_paras": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    12,
+    13
+   ],
+   "reply_paras": [
+    2,
+    3
+   ],
+   "topic": "Discussion on geological specimens; Geological observations and findin",
+   "item_id": "b2-051",
+   "verdict_reason": "Reacts to the long botanico-geographical letter and the enclosed sketch/notes it offered.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0101.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-800.xml#raft-response-DCP-LETT-800-1844-12-16-section-0-para-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0054.json",
+   "date": "1844-12-25",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Pampas specimen structure comparison",
+   "item_id": "b2-049",
+   "verdict_reason": "Thanks Carpenter for the microscopic account of the Pampas specimen and asks leave to publish it.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0102.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-803A.xml#raft-response-DCP-LETT-803A-1844-12-25-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0054.json",
+   "date": "1844-12-25",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Sending specimens to Bowerbank",
+   "item_id": "b2-050",
+   "verdict_reason": "Answers the offer to send the sections to Bowerbank and to keep the specimens.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0103.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-803A.xml#raft-response-DCP-LETT-803A-1844-12-25-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0054.json",
+   "date": "1844-12-25",
+   "incoming_paras": [
+    3
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Thanks and repayment offer",
+   "item_id": "b2-010",
+   "verdict_reason": "Answers Carpenter's request to cut the ticketed specimens, with thanks and offer to pay for the cutting.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0104.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-803A.xml#raft-response-DCP-LETT-803A-1844-12-25-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0055.json",
+   "date": "1845-01-26",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    7
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Island discovery and comparison; Acknowledgment of incoming letter; Re",
+   "item_id": "b2-011",
+   "verdict_reason": "Gives the requested opinion that Tainen = Pouynipete and the coral-reef book reference asked for in the postscript.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0105.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-820.xml#raft-response-DCP-LETT-820-1845-01-26-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0055.json",
+   "date": "1845-01-26",
+   "incoming_paras": [
+    4,
+    5,
+    6
+   ],
+   "reply_paras": [
+    3,
+    4
+   ],
+   "topic": "Personal health and greetings",
+   "item_id": "b2-026",
+   "verdict_reason": "Closing thanks with compliments to Miss Smith, prompted by her remembrance in the question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0106.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-820.xml#raft-response-DCP-LETT-820-1845-01-26-section-0-para-3-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0056.json",
+   "date": "1845-03-19",
+   "incoming_paras": [
+    6
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Botanical observations and literature",
+   "item_id": "b2-027",
+   "verdict_reason": "Asks for the variation pamphlet, cites the simple-leaved strawberry and judges Hinds - all raised in the question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0107.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-842.xml#raft-response-DCP-LETT-842-1845-03-19-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0056.json",
+   "date": "1845-03-19",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Humboldt's influence and discussions",
+   "item_id": "b2-008",
+   "verdict_reason": "Responds to the Humboldt-in-Paris news; the Ehrenberg aside flows from the Berlin sentence in the same paragraph.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0108.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-842.xml#raft-response-DCP-LETT-842-1845-03-19-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0056.json",
+   "date": "1845-03-19",
+   "incoming_paras": [
+    3,
+    5
+   ],
+   "reply_paras": [
+    4
+   ],
+   "topic": "Migration of species and plants; Migration of species and plants",
+   "item_id": "b2-022",
+   "verdict_reason": "Answers Humboldt's anti-migration arguments; only the one-line Ehrenberg opener is extraneous.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0109.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-842.xml#raft-response-DCP-LETT-842-1845-03-19-section-0-para-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0057.json",
+   "date": "1845-03-26",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Acknowledgment of previous correspondence; Morphology and related lite",
+   "item_id": "b2-038",
+   "verdict_reason": "Acknowledges the pamphlet and returns Wilkes and the Pacific MS as the question directed.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0110.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-846.xml#raft-response-DCP-LETT-846-1845-03-26-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0058.json",
+   "date": "1845-03-31",
+   "incoming_paras": [
+    1,
+    3,
+    4,
+    8
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Correspondence and book exchange; Species distribution and migration; ",
+   "item_id": "b2-029",
+   "verdict_reason": "Acknowledges Wilkes/MS, the continental tour and the great men, and rebukes his 'gatherer of facts' self-deprecation.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0111.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-847.xml#raft-response-DCP-LETT-847-1845-03-31-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0059.json",
+   "date": "1845-04-16",
+   "incoming_paras": [
+    6
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Book recommendations and requests",
+   "item_id": "b2-042",
+   "verdict_reason": "Answers the book recommendations point for point (Kingdon, Jussieu, the pamphlet).",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0112.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-849.xml#raft-response-DCP-LETT-849-1845-04-16-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0059.json",
+   "date": "1845-04-16",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Species origin and distribution",
+   "item_id": "b2-003",
+   "verdict_reason": "Answers Hooker's Cyttaria-in-Van-Diemen's-Land origin puzzle with means of distribution.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0113.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-849.xml#raft-response-DCP-LETT-849-1845-04-16-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0059.json",
+   "date": "1845-04-16",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    4
+   ],
+   "topic": "Lectures and personal plans",
+   "item_id": "b2-023",
+   "verdict_reason": "Responds to the lecturing plans and the 'modest assurance' to lecture from notes.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0114.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-849.xml#raft-response-DCP-LETT-849-1845-04-16-section-0-para-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0062.json",
+   "date": "1845-09-03",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Grandfather's death and condolences",
+   "item_id": "b2-021",
+   "verdict_reason": "Condolence on the grandfather's death, exactly prompted.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0115.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-912.xml#raft-response-DCP-LETT-912-1845-09-03-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0062.json",
+   "date": "1845-09-03",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Chair of Botany election details",
+   "item_id": "b2-001",
+   "verdict_reason": "Reply para directly answers the Chair-of-Botany canvass news (names Balfour, the only competitor mentioned in the question).",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0116.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-912.xml#raft-response-DCP-LETT-912-1845-09-03-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0062.json",
+   "date": "1845-09-03",
+   "incoming_paras": [
+    5,
+    10
+   ],
+   "reply_paras": [
+    5,
+    6
+   ],
+   "topic": "Botanical and geological observations; Distribution of plant species",
+   "item_id": "b2-028",
+   "verdict_reason": "Answers the Forbes land-bridge speculation and the representative-species-along-coast work.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0117.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-912.xml#raft-response-DCP-LETT-912-1845-09-03-section-0-para-5-6"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0063.json",
+   "date": "1845-09-10",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Credibility of foreign authors",
+   "item_id": "b2-007",
+   "verdict_reason": "Thanks for the offer of L'Espece and for the criticisms of it, exactly what the question offers.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0118.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-915.xml#raft-response-DCP-LETT-915-1845-09-10-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0063.json",
+   "date": "1845-09-10",
+   "incoming_paras": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Variation and species definition; Geographical distribution of species",
+   "item_id": "b2-032",
+   "verdict_reason": "Answers Hooker's point that only one who has described many species may judge species.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0119.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-915.xml#raft-response-DCP-LETT-915-1845-09-10-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0064.json",
+   "date": "1845-09-18",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Geographical Distribution of Plants",
+   "item_id": "b3-031",
+   "verdict_reason": "Darwin's reaction to the Lathyrus maritimus at Cape Tres Montes riddle.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0120.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-917.xml#raft-response-DCP-LETT-917-1845-09-18-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0064.json",
+   "date": "1845-09-18",
+   "incoming_paras": [
+    3,
+    4
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Discussion on Plant Propagation; Species and Variation Discussion",
+   "item_id": "b3-010",
+   "verdict_reason": "Responds to Hooker's disclaimer about Darwin not having worked out species.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0121.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-917.xml#raft-response-DCP-LETT-917-1845-09-18-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0066.json",
+   "date": "1846-03-13",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    6
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Forbes' letter and opinions; Botanical connections and migration; Migr",
+   "item_id": "b3-027",
+   "verdict_reason": "Darwin's opinion of Forbes, the Azores objection and the Sargassum, all raised in the question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0122.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-961.xml#raft-response-DCP-LETT-961-1846-03-13-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0066.json",
+   "date": "1846-03-13",
+   "incoming_paras": [
+    8
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Polymorphism and species distinction",
+   "item_id": "b3-020",
+   "verdict_reason": "Direct reply to Hooker's polymorphism argument, conceding it in his sense.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0123.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-961.xml#raft-response-DCP-LETT-961-1846-03-13-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0066.json",
+   "date": "1846-03-13",
+   "incoming_paras": [
+    7
+   ],
+   "reply_paras": [
+    4
+   ],
+   "topic": "Galapagos and botanical duties",
+   "item_id": "b3-021",
+   "verdict_reason": "Answers the Galapagos duplicates point; the sister's-marriage congratulation is a half-sentence aside inside the same short paragraph.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0124.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-961.xml#raft-response-DCP-LETT-961-1846-03-13-section-0-para-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0067.json",
+   "date": "1846-03-25",
+   "incoming_paras": [
+    2,
+    3,
+    4,
+    5,
+    8
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Scientific observations and requests",
+   "item_id": "b3-054",
+   "verdict_reason": "Answers Ehrenberg's dust, Ascension grasses and Cordillera specimen points.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0125.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-965.xml#raft-response-DCP-LETT-965-1846-03-25-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0067.json",
+   "date": "1846-03-25",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Illness and personal circumstances",
+   "item_id": "b3-053",
+   "verdict_reason": "Sympathy for Ehrenberg's wife's long illness, prompted by that sentence.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0126.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-965.xml#raft-response-DCP-LETT-965-1846-03-25-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0068.json",
+   "date": "1846-09-03",
+   "incoming_paras": [
+    3,
+    4
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Species and geographical distribution",
+   "item_id": "b3-039",
+   "verdict_reason": "Answers both the S. American Geology progress and the identical/representative species list.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0127.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-996.xml#raft-response-DCP-LETT-996-1846-09-03-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0069.json",
+   "date": "1846-10-02",
+   "incoming_paras": [
+    1,
+    12
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Meeting with Capt. Sulivan; Potential visit to Down",
+   "item_id": "b3-029",
+   "verdict_reason": "Answers the Sulivan visit question with dates and an invitation.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0128.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1003.xml#raft-response-DCP-LETT-1003-1846-10-02-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0069.json",
+   "date": "1846-10-02",
+   "incoming_paras": [
+    2,
+    3,
+    6,
+    7,
+    8
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Distribution of plant species; Plants and soil qualities; Flora and sp",
+   "item_id": "b3-045",
+   "verdict_reason": "Thanks for the distribution information and books, and reacts to the Linn. Trans. publication plan.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0129.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1003.xml#raft-response-DCP-LETT-1003-1846-10-02-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0069.json",
+   "date": "1846-10-02",
+   "incoming_paras": [
+    5,
+    10
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Workload and future projects; Geological work and projects",
+   "item_id": "b3-007",
+   "verdict_reason": "Hooker's 'how glad I shall be when your S.A. is done' prompts Darwin's account of his future prospect of work.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0130.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1003.xml#raft-response-DCP-LETT-1003-1846-10-02-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0069.json",
+   "date": "1846-10-02",
+   "incoming_paras": [
+    4
+   ],
+   "reply_paras": [
+    6
+   ],
+   "topic": "Examining Flora and collaboration",
+   "item_id": "b3-013",
+   "verdict_reason": "Answers Hooker's wish to work on the chalk and clay floras.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0131.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1003.xml#raft-response-DCP-LETT-1003-1846-10-02-section-0-para-6"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0070.json",
+   "date": "1846-11-10",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Mysterious note and its implications",
+   "item_id": "b3-052",
+   "verdict_reason": "Direct reply to Grey's return of the mysteriously forwarded note.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0132.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1021.xml#raft-response-DCP-LETT-1021-1846-11-10-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0071.json",
+   "date": "1847-06-17",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3
+   ],
+   "topic": "lodgings and personal arrangements; salutations and valedictions",
+   "item_id": "b3-032",
+   "verdict_reason": "Accepts the Magdalen Hall rooms and asks that Mrs Jacobson be thanked, prompted by the lodgings note.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0133.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1098.xml#raft-response-DCP-LETT-1098-1847-06-17-section-0-para-1-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0074.json",
+   "date": "1849-02-19",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "topic": "Type-species and nomenclature issues; Type-species definition and issu",
+   "item_id": "b3-055",
+   "verdict_reason": "Engages Strickland's type-species argument throughout; only the closing Malvern sentence is incidental.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0134.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1227.xml#raft-response-DCP-LETT-1227-1849-02-19-section-0-para-1-2-3-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0079.json",
+   "date": "1852-07-29",
+   "incoming_paras": [
+    2,
+    11,
+    12
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Rental income and farming challenges; Acknowledgment and future arrang",
+   "item_id": "b3-025",
+   "verdict_reason": "Acknowledges Higgins's long letter advising continuance of the 15 per cent allowance.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0135.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1484G.xml#raft-response-DCP-LETT-1484G-1852-07-29-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0080.json",
+   "date": "1852-08-02",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Lease and rental arrangements concerns",
+   "item_id": "b3-009",
+   "verdict_reason": "Point-for-point reply to Higgins on leases and the effect of the Australian gold discoveries.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0136.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1485.xml#raft-response-DCP-LETT-1485-1852-08-02-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0081.json",
+   "date": "1853-03-30",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "reply_paras": [
+    1,
+    2,
+    4
+   ],
+   "topic": "Alcippe classification and similarities; Cirripede classification chal",
+   "item_id": "b3-023",
+   "verdict_reason": "Answers Hancock on ranking Alcippe and on the cushions/bosses of the cirri.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0137.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1509.xml#raft-response-DCP-LETT-1509-1853-03-30-section-0-para-1-2-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0082.json",
+   "date": "1853-11-05",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3,
+    6
+   ],
+   "topic": "Royal Medal for Natural Science",
+   "item_id": "b3-033",
+   "verdict_reason": "Full response to the Royal Medal news, including the Lindley candidacy.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0138.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1540.xml#raft-response-DCP-LETT-1540-1853-11-05-section-0-para-1-2-3-6"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0082.json",
+   "date": "1853-11-05",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    5
+   ],
+   "topic": "Mrs. Hooker's health update",
+   "item_id": "b3-034",
+   "verdict_reason": "One-line sympathy answering 'my wife recovers slowly'.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0139.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1540.xml#raft-response-DCP-LETT-1540-1853-11-05-section-0-para-5"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0082.json",
+   "date": "1853-11-05",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    7
+   ],
+   "topic": "Foreign evidence on Barnacles",
+   "item_id": "b3-038",
+   "verdict_reason": "Picks up the phrase 'foreign evidence' from the medal letter and queries it.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0140.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1540.xml#raft-response-DCP-LETT-1540-1853-11-05-section-0-para-7"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0085.json",
+   "date": "1854-06-27",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Darwin's congratulations on childbirth",
+   "item_id": "b3-042",
+   "verdict_reason": "Congratulations on the birth and the chloroform question, prompted by the news.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0141.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1573.xml#raft-response-DCP-LETT-1573-1854-06-27-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0085.json",
+   "date": "1854-06-27",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    4
+   ],
+   "topic": "highness and lowness in animals",
+   "item_id": "b4-049",
+   "verdict_reason": "Darwin's views on highness and lowness answer Hooker's direct request.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0142.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1573.xml#raft-response-DCP-LETT-1573-1854-06-27-section-0-para-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0086.json",
+   "date": "1854-07-07",
+   "incoming_paras": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "topic": "Discussion on botanical classifications; Salutations and personal upda",
+   "item_id": "b4-050",
+   "verdict_reason": "References, plants vs larval stages, parallelism and Forbes all answer the quoted paragraphs.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0143.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1577.xml#raft-response-DCP-LETT-1577-1854-07-07-section-0-para-1-2-3-4-5-6"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0086.json",
+   "date": "1854-07-07",
+   "incoming_paras": [
+    7
+   ],
+   "reply_paras": [
+    7
+   ],
+   "topic": "Request for subscriptions",
+   "item_id": "b4-017",
+   "verdict_reason": "Offer to subscribe answers the prospectus postscript.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0144.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1577.xml#raft-response-DCP-LETT-1577-1854-07-07-section-0-para-7"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0087.json",
+   "date": "1854-09-07",
+   "incoming_paras": [
+    3,
+    7
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Botanical literature and classification; Interest in Balanidae book",
+   "item_id": "b4-053",
+   "verdict_reason": "Sending the Barnacle book answers Hooker's request for it.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0145.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1588.xml#raft-response-DCP-LETT-1588-1854-09-07-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0087.json",
+   "date": "1854-09-07",
+   "incoming_paras": [
+    2,
+    5
+   ],
+   "reply_paras": [
+    3,
+    4
+   ],
+   "topic": "Fertilization and plant classification; Individuality in plants",
+   "item_id": "b4-034",
+   "verdict_reason": "Braun/individuality reply answers Hooker's individuality paragraph.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0146.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1588.xml#raft-response-DCP-LETT-1588-1854-09-07-section-0-para-3-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0088.json",
+   "date": "1854-11-05",
+   "incoming_paras": [
+    6
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Linn. Soc. meeting invitation",
+   "item_id": "b4-033",
+   "verdict_reason": "Declines the Tuesday Linnean meeting; exact match.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0147.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1597.xml#raft-response-DCP-LETT-1597-1854-11-05-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0090.json",
+   "date": "1855-03-07",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Godron correspondence and troubles",
+   "item_id": "b4-002",
+   "verdict_reason": "Sorrow over the Godron hunt directly answers Hooker's Godron paragraph.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0148.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1643.xml#raft-response-DCP-LETT-1643-1855-03-07-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0090.json",
+   "date": "1855-03-07",
+   "incoming_paras": [
+    4
+   ],
+   "reply_paras": [
+    6,
+    7
+   ],
+   "topic": "Linnean Society and Journal",
+   "item_id": "b4-001",
+   "verdict_reason": "Thanks for Bennett + Linnean Journal zeal answer exactly Hooker's para 4.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0149.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1643.xml#raft-response-DCP-LETT-1643-1855-03-07-section-0-para-6-7"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0091.json",
+   "date": "1855-03-25",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "topic": "Geographical distribution of species; Acknowledgment and correspondenc",
+   "item_id": "b4-037",
+   "verdict_reason": "Acknowledges safe arrival of Davy's paper, prompted by his covering paragraph.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0150.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1653.xml#raft-response-DCP-LETT-1653-1855-03-25-section-0-para-1-2-3-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0092.json",
+   "date": "1855-03-26",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1,
+    5
+   ],
+   "topic": "Geographical distribution of species",
+   "item_id": "b4-004",
+   "verdict_reason": "Acknowledgement and thanks for the Memoir are prompted by Davy's covering paragraph.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0151.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1654.xml#raft-response-DCP-LETT-1654-1855-03-26-section-0-para-1-5"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0092.json",
+   "date": "1855-03-26",
+   "incoming_paras": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "reply_paras": [
+    2,
+    3,
+    4
+   ],
+   "topic": "Experiments on fish ova",
+   "item_id": "b4-021",
+   "verdict_reason": "Davy's para 5 announces the experiments; Darwin's comments on them are genuinely prompted.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0152.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1654.xml#raft-response-DCP-LETT-1654-1855-03-26-section-0-para-2-3-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0095.json",
+   "date": "1855-07-14",
+   "incoming_paras": [
+    1,
+    2,
+    3
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Grasses and species variation; Thistles and species identification; Co",
+   "item_id": "b4-011",
+   "verdict_reason": "Festuca naming, S. Australia fact and thistle case all raised in the quoted paragraphs.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0153.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1717.xml#raft-response-DCP-LETT-1717-1855-07-14-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0096.json",
+   "date": "1855-07-21",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Interest in scientific collaboration; Marking close species request; C",
+   "item_id": "b4-016",
+   "verdict_reason": "Thanks for marking close species and the Essay on Species wish are both in the question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0154.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1725.xml#raft-response-DCP-LETT-1725-1855-07-21-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0096.json",
+   "date": "1855-07-21",
+   "incoming_paras": [
+    9
+   ],
+   "reply_paras": [
+    4
+   ],
+   "topic": "Experiments on seeds",
+   "item_id": "b4-026",
+   "verdict_reason": "Immersion results answer Gray's remarks on the sea-water seed paper.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0155.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1725.xml#raft-response-DCP-LETT-1725-1855-07-21-section-0-para-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0097.json",
+   "date": "1855-07-22",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3
+   ],
+   "topic": "apologies and acknowledgment of neglect; glass colors and experiments;",
+   "item_id": "b4-031",
+   "verdict_reason": "Thanks for glass specimens and follow-up questions answer Hunt's whole letter.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0156.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1727.xml#raft-response-DCP-LETT-1727-1855-07-22-section-0-para-1-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0098.json",
+   "date": "1855-07-31",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Glasses for plant experiments; Support for ongoing experiments",
+   "item_id": "b4-028",
+   "verdict_reason": "Reports writing to the glassmakers using Hunt's name, as instructed.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0157.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1734.xml#raft-response-DCP-LETT-1734-1855-07-31-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0099.json",
+   "date": "1855-11-09",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3
+   ],
+   "topic": "Specimens of Beans from Norway; Naming of Specimens",
+   "item_id": "b4-019",
+   "verdict_reason": "Seeds received, planted, floated and named; answers Crowe's request for names.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0158.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1777.xml#raft-response-DCP-LETT-1777-1855-11-09-section-0-para-1-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0099.json",
+   "date": "1855-11-09",
+   "incoming_paras": [
+    4
+   ],
+   "reply_paras": [
+    5
+   ],
+   "topic": "Salutations and Thanks",
+   "item_id": "b4-055",
+   "verdict_reason": "Closing thanks answer Crowe's sign-off.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0159.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1777.xml#raft-response-DCP-LETT-1777-1855-11-09-section-0-para-5"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0100.json",
+   "date": "1855-12-07",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "reply_paras": [
+    2,
+    3
+   ],
+   "topic": "Distribution of land mollusca species",
+   "item_id": "b4-010",
+   "verdict_reason": "Reply discusses Madeira/St Helena and Bulimus Bengalensis, both supplied by Benson's list.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0160.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4354.xml#raft-response-DCP-LETT-4354-1855-12-07-section-0-para-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0101.json",
+   "date": "1856-03-15",
+   "incoming_paras": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Scotch Deer Hound breeding ideas",
+   "item_id": "b4-046",
+   "verdict_reason": "Congratulations and follow-up questions on the Scotch Deer Hound match Fox's account.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0161.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1843.xml#raft-response-DCP-LETT-1843-1856-03-15-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0101.json",
+   "date": "1856-03-15",
+   "incoming_paras": [
+    8
+   ],
+   "reply_paras": [
+    2,
+    3
+   ],
+   "topic": "Poultry anatomy and research",
+   "item_id": "b4-025",
+   "verdict_reason": "Poultry/pigeon anatomy progress and the Tegetmeier correction are on the topic Fox raised.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0162.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1843.xml#raft-response-DCP-LETT-1843-1856-03-15-section-0-para-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0101.json",
+   "date": "1856-03-15",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    4
+   ],
+   "topic": "Sebright Bantam offer",
+   "item_id": "b4-048",
+   "verdict_reason": "Accepts the offered Sebright Bantam.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0163.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1843.xml#raft-response-DCP-LETT-1843-1856-03-15-section-0-para-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0102.json",
+   "date": "1856-03-18",
+   "incoming_paras": [
+    1,
+    5
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Seed variation and observations; Request for Black Peas",
+   "item_id": "b4-012",
+   "verdict_reason": "Thanks for the pea remarks plus sending the black peas Berkeley asked for.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0164.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1843A.xml#raft-response-DCP-LETT-1843A-1856-03-18-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0104.json",
+   "date": "1856-05-03",
+   "incoming_paras": [
+    3
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Rock Dove specimens request",
+   "item_id": "b4-038",
+   "verdict_reason": "Request for a wild Rock Dove follows Edmondston's remark on the islands' rock doves.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0165.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1867.xml#raft-response-DCP-LETT-1867-1856-05-03-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0104.json",
+   "date": "1856-05-03",
+   "incoming_paras": [
+    5
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Drifted trees information",
+   "item_id": "b4-022",
+   "verdict_reason": "One-line thanks for the drifted-trees information.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0166.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1867.xml#raft-response-DCP-LETT-1867-1856-05-03-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0105.json",
+   "date": "1856-05-27",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "species variability and classification; salutations and acknowledgment",
+   "item_id": "b4-047",
+   "verdict_reason": "Thanks and the islands-antiquity dispute answer Woodward's discussion.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0167.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1879.xml#raft-response-DCP-LETT-1879-1856-05-27-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0105.json",
+   "date": "1856-05-27",
+   "incoming_paras": [
+    9
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "islands and continents comparison",
+   "item_id": "b4-023",
+   "verdict_reason": "Disputes Woodward's doctrine of ancient islands, exactly the quoted paragraph.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0168.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1879.xml#raft-response-DCP-LETT-1879-1856-05-27-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0106.json",
+   "date": "1856-06-01",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Birds of Madeira observations; Birds of Madeira observations; Birds of",
+   "item_id": "b4-052",
+   "verdict_reason": "Thanks for the Madeira bird notes; prompted by Harcourt's whole letter.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0169.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1885F.xml#raft-response-DCP-LETT-1885F-1856-06-01-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0107.json",
+   "date": "1856-06-25",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Continental extensions and geological changes; Movement and geological",
+   "item_id": "b4-027",
+   "verdict_reason": "Long reasoning against continental extension answers Lyell's challenge.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0170.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1910.xml#raft-response-DCP-LETT-1910-1856-06-25-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0108.json",
+   "date": "1856-07-05",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "transportation and growth of plants",
+   "item_id": "b4-039",
+   "verdict_reason": "Entada reply answers Hooker's seed-washing dogma.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0171.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1919.xml#raft-response-DCP-LETT-1919-1856-07-05-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0108.json",
+   "date": "1856-07-05",
+   "incoming_paras": [
+    2,
+    3
+   ],
+   "reply_paras": [
+    3,
+    4
+   ],
+   "topic": "pollination and fertilization processes; fertility without impregnatio",
+   "item_id": "b4-007",
+   "verdict_reason": "Answers both the Aristolochia/Viscum case and the bees-fertile-without-impregnation query.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0172.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1919.xml#raft-response-DCP-LETT-1919-1856-07-05-section-0-para-3-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0108.json",
+   "date": "1856-07-05",
+   "incoming_paras": [
+    4
+   ],
+   "reply_paras": [
+    6
+   ],
+   "topic": "Ray Club publication strategy",
+   "item_id": "b4-014",
+   "verdict_reason": "Ray Society defence answers Hooker's Ray Club proposal directly.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0173.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1919.xml#raft-response-DCP-LETT-1919-1856-07-05-section-0-para-6"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0109.json",
+   "date": "1856-07-13",
+   "incoming_paras": [
+    8
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Cross hybrid impregnation theory",
+   "item_id": "b5-043",
+   "verdict_reason": "Clears up the hybrid/crossing misunderstanding Hooker's question created.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0174.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1924.xml#raft-response-DCP-LETT-1924-1856-07-13-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0109.json",
+   "date": "1856-07-13",
+   "incoming_paras": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "reply_paras": [
+    3,
+    4
+   ],
+   "topic": "Chili and New Zealand plants",
+   "item_id": "b5-033",
+   "verdict_reason": "Answers Chile/NZ list, multiple centres and asks for Mueller's reference; Forbes mention is a clause inside a responsive paragraph.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0175.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1924.xml#raft-response-DCP-LETT-1924-1856-07-13-section-0-para-3-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0110.json",
+   "date": "1856-08-05",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    10
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Geological theories and distribution; Migration vs. Continental Extens",
+   "item_id": "b5-012",
+   "verdict_reason": "Answers Lyell's letters, continental extension, Epacrideae, means of dispersal, specific centres; leak limited to clauses inside responsive paragraphs.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0176.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1938.xml#raft-response-DCP-LETT-1938-1856-08-05-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0111.json",
+   "date": "1856-08-06",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Discussion on species limitation; Salutations and meeting plans",
+   "item_id": "b5-019",
+   "verdict_reason": "Declines Cheltenham, citing Jenyns's paper named in the question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0177.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1939.xml#raft-response-DCP-LETT-1939-1856-08-06-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0111.json",
+   "date": "1856-08-06",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    2,
+    3
+   ],
+   "topic": "Observations on plant hybrids",
+   "item_id": "b5-005",
+   "verdict_reason": "Answers Centaurea/Aegilops and the offer of seeds, both raised in the paragraph.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0178.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1939.xml#raft-response-DCP-LETT-1939-1856-08-06-section-0-para-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0112.json",
+   "date": "1856-08-24",
+   "incoming_paras": [
+    2,
+    3,
+    5
+   ],
+   "reply_paras": [
+    1,
+    3
+   ],
+   "topic": "Intermediate varieties in botany; Application of botanical principles;",
+   "item_id": "b5-021",
+   "verdict_reason": "Answers intermediate varieties and variability of naturalised plants, both raised.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0179.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1944.xml#raft-response-DCP-LETT-1944-1856-08-24-section-0-para-1-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0113.json",
+   "date": "1856-09-29",
+   "incoming_paras": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Mammoth Cave Animals and Species; Geographical Distribution of Genera;",
+   "item_id": "b5-007",
+   "verdict_reason": "Whole Dana letter as question; reply thanks and follows up on caves and gar-pike.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0180.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1964.xml#raft-response-DCP-LETT-1964-1856-09-29-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0114.json",
+   "date": "1856-10-12",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11,
+    12,
+    13
+   ],
+   "reply_paras": [
+    2,
+    3,
+    4
+   ],
+   "topic": "Introduced and social plants; Range of species and genera",
+   "item_id": "b5-010",
+   "verdict_reason": "Thanks for social plants, the quarter-not-ranging-north figure, and range vs genus size - all in question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0181.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1973.xml#raft-response-DCP-LETT-1973-1856-10-12-section-0-para-2-3-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0115.json",
+   "date": "1856-11-11",
+   "incoming_paras": [
+    6
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Invitation to Phil. Club",
+   "item_id": "b5-035",
+   "verdict_reason": "Accepts the dinner invitation that the question extends.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0182.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1986.xml#raft-response-DCP-LETT-1986-1856-11-11-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0118.json",
+   "date": "1856-11-19",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Tenant management and improvements",
+   "item_id": "b5-009",
+   "verdict_reason": "Acknowledgment/thanks prompted by the news of the tenant's management; rent detail is adjacent.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0183.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1993.xml#raft-response-DCP-LETT-1993-1856-11-19-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0118.json",
+   "date": "1856-11-19",
+   "incoming_paras": [
+    2,
+    3
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Tenant claim and payment options; Decision on tenant plans",
+   "item_id": "b5-024",
+   "verdict_reason": "Chooses among the three modes Higgins set out.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0184.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1993.xml#raft-response-DCP-LETT-1993-1856-11-19-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0119.json",
+   "date": "1856-11-23",
+   "incoming_paras": [
+    3
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Owl seed germination notice",
+   "item_id": "b5-034",
+   "verdict_reason": "Answers the request to send the owl-seed notice to the Linnean.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0185.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1997.xml#raft-response-DCP-LETT-1997-1856-11-23-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0122.json",
+   "date": "1857-05-25",
+   "incoming_paras": [
+    9
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Geological discoveries and principles",
+   "item_id": "b5-047",
+   "verdict_reason": "Single-line reaction to Dana's mention of Lyell's Supplement.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0186.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2094.xml#raft-response-DCP-LETT-2094-1857-05-25-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0124.json",
+   "date": "1857-07-20",
+   "incoming_paras": [
+    8,
+    9,
+    10
+   ],
+   "reply_paras": [
+    3,
+    4
+   ],
+   "topic": "crossing and fertilization in plants",
+   "item_id": "b5-026",
+   "verdict_reason": "Answers grasses, Papilionaceae and Fumaria exactly as raised by Gray.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0187.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2125.xml#raft-response-DCP-LETT-2125-1857-07-20-section-0-para-3-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0126.json",
+   "date": "1857-10-03",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Cuvier's definition of classification; Morphology and scientific class",
+   "item_id": "b5-030",
+   "verdict_reason": "Directly answers Huxley's Cuvierian definition of classification.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0188.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2150.xml#raft-response-DCP-LETT-2150-1857-10-03-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0126.json",
+   "date": "1857-10-03",
+   "incoming_paras": [
+    3
+   ],
+   "reply_paras": [
+    4,
+    5
+   ],
+   "topic": "Genealogical classification preference",
+   "item_id": "b5-015",
+   "verdict_reason": "Genealogical-classification thought experiment answers Huxley's 'pedigree business' objection.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0189.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2150.xml#raft-response-DCP-LETT-2150-1857-10-03-section-0-para-4-5"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0130.json",
+   "date": "1857-12-25",
+   "incoming_paras": [
+    4
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Dana's metaphysical ideas",
+   "item_id": "b5-053",
+   "verdict_reason": "Gives the requested opinion of Dana's metaphysical ideas on species.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0190.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2194.xml#raft-response-DCP-LETT-2194-1857-12-25-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0130.json",
+   "date": "1857-12-25",
+   "incoming_paras": [
+    3
+   ],
+   "reply_paras": [
+    4
+   ],
+   "topic": "Tasmanian Flora introduction",
+   "item_id": "b5-042",
+   "verdict_reason": "Regrets Hooker's plan to leave conclusion-drawing to others.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0191.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2194.xml#raft-response-DCP-LETT-2194-1857-12-25-section-0-para-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0131.json",
+   "date": "1858-01-15",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Leguminous affair and hybrids; Wellington Clover case details; Bees an",
+   "item_id": "b5-051",
+   "verdict_reason": "Answers the Wellington clover case and the humble-bee/Leguminosae questions.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0192.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2203.xml#raft-response-DCP-LETT-2203-1858-01-15-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0131.json",
+   "date": "1858-01-15",
+   "incoming_paras": [
+    5
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Social invitation and plans",
+   "item_id": "b5-041",
+   "verdict_reason": "Declines the Tuesday invitation.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0193.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2203.xml#raft-response-DCP-LETT-2203-1858-01-15-section-0-para-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0132.json",
+   "date": "1858-02-28",
+   "incoming_paras": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "reply_paras": [
+    1,
+    3
+   ],
+   "topic": "Acknowledgment of received materials; Genera classification and variab",
+   "item_id": "b5-001",
+   "verdict_reason": "A1+A3 thank for DC vols and answer the big-genera screed; only stray clause is 'written to Sinclair'.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0194.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2228.xml#raft-response-DCP-LETT-2228-1858-02-28-section-0-para-1-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0133.json",
+   "date": "1858-03-04",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Differences in genera observations; Expectations of finding new plants",
+   "item_id": "b5-038",
+   "verdict_reason": "Thanks Babington for his opinion and reports his own tabulations in reply.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0195.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2233.xml#raft-response-DCP-LETT-2233-1858-03-04-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0135.json",
+   "date": "1858-03-16",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "topic": "Botanical classification and variability; Monotypic vs polytypic gener",
+   "item_id": "b5-002",
+   "verdict_reason": "Full reply to Hooker's resume of objections; topic and paragraphs align.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0196.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2242.xml#raft-response-DCP-LETT-2242-1858-03-16-section-0-para-1-2-3-4-5"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0136.json",
+   "date": "1858-05-06",
+   "incoming_paras": [
+    2,
+    3
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Distribution of plant species; Expertise on plant species",
+   "item_id": "b5-016",
+   "verdict_reason": "Reacts directly to the willow fact and the word 'rasper'.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0197.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2269.xml#raft-response-DCP-LETT-2269-1858-05-06-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0136.json",
+   "date": "1858-05-06",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Health and well-being updates; Personal news and salutations",
+   "item_id": "b5-008",
+   "verdict_reason": "Hopes the sea does Mrs Hooker good - genuine reaction to the news.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0198.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2269.xml#raft-response-DCP-LETT-2269-1858-05-06-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0137.json",
+   "date": "1858-06-27",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Influence of parent on offspring",
+   "item_id": "b5-032",
+   "verdict_reason": "Seizes on the Call-Duck fact offered in the paragraph.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0199.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2296.xml#raft-response-DCP-LETT-2296-1858-06-27-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0137.json",
+   "date": "1858-06-27",
+   "incoming_paras": [
+    3,
+    5
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Influence of parent on offspring; Historical anecdotes and observation",
+   "item_id": "b5-040",
+   "verdict_reason": "Addresses the sow-cheek anecdote raised in the question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0200.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2296.xml#raft-response-DCP-LETT-2296-1858-06-27-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0138.json",
+   "date": "1858-07-21",
+   "incoming_paras": [
+    13
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Proofs and publication details",
+   "item_id": "b5-020",
+   "verdict_reason": "Returns the proof sheets Hooker sent and discusses the Linnean abstract.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0201.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2311.xml#raft-response-DCP-LETT-2311-1858-07-21-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0138.json",
+   "date": "1858-07-21",
+   "incoming_paras": [
+    1,
+    5,
+    6,
+    7,
+    9,
+    10
+   ],
+   "reply_paras": [
+    4,
+    5,
+    7
+   ],
+   "topic": "Darwin's views on large genera; Arguments on genera variability",
+   "item_id": "b5-011",
+   "verdict_reason": "Replies to Hooker's concurrence on big genera and to the decreasing-genera puzzle.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0202.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2311.xml#raft-response-DCP-LETT-2311-1858-07-21-section-0-para-4-5-7"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0138.json",
+   "date": "1858-07-21",
+   "incoming_paras": [
+    2,
+    3,
+    4,
+    11,
+    12
+   ],
+   "reply_paras": [
+    6
+   ],
+   "topic": "Influence of species classification",
+   "item_id": "b5-003",
+   "verdict_reason": "Directly takes up Hooker's suggestion to purge Floras of stragglers.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0203.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2311.xml#raft-response-DCP-LETT-2311-1858-07-21-section-0-para-6"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0140.json",
+   "date": "1858-10-22",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Inquiry about Kattywar horses",
+   "item_id": "b5-014",
+   "verdict_reason": "Thanks prompted by Poole's offer of replies.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0204.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2346H.xml#raft-response-DCP-LETT-2346H-1858-10-22-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0140.json",
+   "date": "1858-10-22",
+   "incoming_paras": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ],
+   "reply_paras": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "topic": "Details on horse coloration",
+   "item_id": "b5-022",
+   "verdict_reason": "Follow-up questions all keyed to Poole's answers on dun colour and stripes.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0205.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2346H.xml#raft-response-DCP-LETT-2346H-1858-10-22-section-0-para-2-3-4-5-6-7-8"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0142.json",
+   "date": "1858-11-21",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Observations on bean variations; Permission for publication",
+   "item_id": "b5-028",
+   "verdict_reason": "Thanks for bean specimens, verdict on variation vs crossing, and for permission to publish.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0206.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2368.xml#raft-response-DCP-LETT-2368-1858-11-21-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0143.json",
+   "date": "1858-11-23",
+   "incoming_paras": [
+    1,
+    9
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Darwin's opinion on your essay; Writing Lyell's eloge",
+   "item_id": "b6-021",
+   "verdict_reason": "Answers only the Lyell eloge request; incomplete but nothing unprompted.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0207.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2369.xml#raft-response-DCP-LETT-2369-1858-11-23-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0144.json",
+   "date": "1858-11-24",
+   "incoming_paras": [
+    9
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Lyell's eloge writing",
+   "item_id": "b6-003",
+   "verdict_reason": "Direct reaction to Hooker's plea about the Lyell eloge.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0208.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2371.xml#raft-response-DCP-LETT-2371-1858-11-24-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0146.json",
+   "date": "1858-12-24",
+   "incoming_paras": [
+    8,
+    9,
+    10
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Personal updates and news",
+   "item_id": "b6-002",
+   "verdict_reason": "Congratulates on salary/house and gives the room cost Hooker explicitly asked for.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0209.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2384.xml#raft-response-DCP-LETT-2384-1858-12-24-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0146.json",
+   "date": "1858-12-24",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    2,
+    3
+   ],
+   "topic": "Plant distribution and migration",
+   "item_id": "b6-009",
+   "verdict_reason": "Directly engages Hooker's India/Australia distribution facts with the N-to-S migration argument.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0210.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2384.xml#raft-response-DCP-LETT-2384-1858-12-24-section-0-para-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0146.json",
+   "date": "1858-12-24",
+   "incoming_paras": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "reply_paras": [
+    4,
+    5
+   ],
+   "topic": "Geological and botanical connections; Paleozoic plants in Australia",
+   "item_id": "b6-039",
+   "verdict_reason": "Answers the MS loan, transmigration date, Australian palaeozoic plants and Chobham sands, all asked.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0211.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2384.xml#raft-response-DCP-LETT-2384-1858-12-24-section-0-para-4-5"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0147.json",
+   "date": "1858-12-31",
+   "incoming_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "topic": "Australian plant classification debate; Plant competition and naturali",
+   "item_id": "b6-015",
+   "verdict_reason": "Sustained reply to Hooker's 'Australian forms are highest' argument, point for point.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0212.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2388.xml#raft-response-DCP-LETT-2388-1858-12-31-section-0-para-1-2-3-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0148.json",
+   "date": "1859-01-28",
+   "incoming_paras": [
+    2,
+    5
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+   ],
+   "topic": "Naturalization of Australian plants; Wollaston medal award",
+   "item_id": "b6-042",
+   "verdict_reason": "Long rebuttal on naturalised Australian plants and the Nilgherries; only a three-word thanks for glaciers is extra.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0213.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2406.xml#raft-response-DCP-LETT-2406-1859-01-28-section-0-para-1-2-3-4-5-8"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0148.json",
+   "date": "1859-01-28",
+   "incoming_paras": [
+    3,
+    4
+   ],
+   "reply_paras": [
+    6
+   ],
+   "topic": "Election of Alphonse DeCandolle",
+   "item_id": "b6-004",
+   "verdict_reason": "Responds squarely to De Candolle's begged election and Asa Gray's claims.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0214.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2406.xml#raft-response-DCP-LETT-2406-1859-01-28-section-0-para-6"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0149.json",
+   "date": "1859-02-09",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    1,
+    3
+   ],
+   "topic": "Health and personal well-being; Salutations and closing remarks",
+   "item_id": "b6-031",
+   "verdict_reason": "Thanks and replies to the news of Lubbock's brother; brief but genuine.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0215.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2411.xml#raft-response-DCP-LETT-2411-1859-02-09-section-0-para-1-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0149.json",
+   "date": "1859-02-09",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Anatomical differences in species",
+   "item_id": "b6-025",
+   "verdict_reason": "Concedes Lubbock's difficulty about allied forms differing in important organs.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0216.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2411.xml#raft-response-DCP-LETT-2411-1859-02-09-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0151.json",
+   "date": "1859-03-16",
+   "incoming_paras": [
+    2
+   ],
+   "reply_paras": [
+    1,
+    3,
+    4
+   ],
+   "topic": "Embryology and metamorphosis of insects",
+   "item_id": "b6-036",
+   "verdict_reason": "Concedes the Aphis error and follows up on Dufour, prompted by Lubbock's embryology note.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0217.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2434.xml#raft-response-DCP-LETT-2434-1859-03-16-section-0-para-1-3-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0151.json",
+   "date": "1859-03-16",
+   "incoming_paras": [
+    1,
+    4
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Meeting arrangements and confirmation; Well wishes and salutations",
+   "item_id": "b6-044",
+   "verdict_reason": "Accepts Lubbock's proposed Saturday visit.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0218.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2434.xml#raft-response-DCP-LETT-2434-1859-03-16-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0153.json",
+   "date": "1859-07-01",
+   "incoming_paras": [
+    1,
+    2,
+    3
+   ],
+   "reply_paras": [
+    1,
+    3
+   ],
+   "topic": "Fossils and geological formations; Acknowledgment of errors",
+   "item_id": "b6-010",
+   "verdict_reason": "Thanks Ramsay and drafts the sentence using exactly the Longmynd/Laurentian facts supplied.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0219.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2851.xml#raft-response-DCP-LETT-2851-1859-07-01-section-0-para-1-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0154.json",
+   "date": "1859-07-18",
+   "incoming_paras": [
+    1,
+    2,
+    3
+   ],
+   "reply_paras": [
+    1
+   ],
+   "topic": "Acknowledgment of received correspondence; Shooting rights at Beesby E",
+   "item_id": "b6-038",
+   "verdict_reason": "Settles the Beesby shooting question exactly as Higgins suggested.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0220.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2476H.xml#raft-response-DCP-LETT-2476H-1859-07-18-section-0-para-1"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0154.json",
+   "date": "1859-07-18",
+   "incoming_paras": [
+    4
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Closing salutations and thanks",
+   "item_id": "b6-018",
+   "verdict_reason": "Valediction correctly paired with Higgins's valediction; trivial but genuinely prompted.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0221.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2476H.xml#raft-response-DCP-LETT-2476H-1859-07-18-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0156.json",
+   "date": "1859-10-20",
+   "incoming_paras": [
+    2,
+    4,
+    5,
+    9,
+    10
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Creative power and natural selection",
+   "item_id": "b6-035",
+   "verdict_reason": "Answers Lyell's demand for continued intervention of creative power, which the quoted paragraphs make.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0222.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2507.xml#raft-response-DCP-LETT-2507-1859-10-20-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0157.json",
+   "date": "1859-10-25",
+   "incoming_paras": [
+    1,
+    2,
+    4,
+    6,
+    7
+   ],
+   "reply_paras": [
+    1,
+    2,
+    3
+   ],
+   "topic": "Pallas doctrine and dog origins",
+   "item_id": "b6-032",
+   "verdict_reason": "Expounds Pallas's doctrine, gestation period and races of man exactly as Lyell requested.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0223.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2510.xml#raft-response-DCP-LETT-2510-1859-10-25-section-0-para-1-2-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0157.json",
+   "date": "1859-10-25",
+   "incoming_paras": [
+    5
+   ],
+   "reply_paras": [
+    4
+   ],
+   "topic": "migration of plants during glacial",
+   "item_id": "b6-037",
+   "verdict_reason": "One-line reply to Lyell's point about migration across the tropical zone.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0224.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2510.xml#raft-response-DCP-LETT-2510-1859-10-25-section-0-para-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0157.json",
+   "date": "1859-10-25",
+   "incoming_paras": [
+    9,
+    10
+   ],
+   "reply_paras": [
+    5,
+    6
+   ],
+   "topic": "principle of improvement and adaptation",
+   "item_id": "b6-040",
+   "verdict_reason": "Full reply to Lyell on 'principle of improvement' and 'power of adaptation'.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0225.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2510.xml#raft-response-DCP-LETT-2510-1859-10-25-section-0-para-5-6"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0158.json",
+   "date": "1859-10-31",
+   "incoming_paras": [
+    1,
+    4,
+    5
+   ],
+   "reply_paras": [
+    1,
+    3
+   ],
+   "topic": "domestic dogs and wild ancestors; variation and hybridism forces; impo",
+   "item_id": "b6-012",
+   "verdict_reason": "Answers Pallas, crossing, and Hooker's centripetal/centrifugal terms, all raised by Lyell.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0226.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2513.xml#raft-response-DCP-LETT-2513-1859-10-31-section-0-para-1-3"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0159.json",
+   "date": "1859-11-03",
+   "incoming_paras": [
+    1,
+    2,
+    5
+   ],
+   "reply_paras": [
+    1,
+    3,
+    4,
+    5,
+    6
+   ],
+   "topic": "Approval of book specimen copy; Agreement on book pricing; Corrections",
+   "item_id": "b6-001",
+   "verdict_reason": "Answers Murray on specimen copy, price and the \u00a372 corrections; all points raised in the question.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0227.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2514.xml#raft-response-DCP-LETT-2514-1859-11-03-section-0-para-1-3-4-5-6"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0159.json",
+   "date": "1859-11-03",
+   "incoming_paras": [
+    3
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Distribution of book copies",
+   "item_id": "b6-043",
+   "verdict_reason": "Responds to Murray on circulating copies and the foreign ones.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0228.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2514.xml#raft-response-DCP-LETT-2514-1859-11-03-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0160.json",
+   "date": "1859-11-22",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1,
+    4
+   ],
+   "topic": "Appreciation of Darwin's Book; Response to Athen\u00e6um Review",
+   "item_id": "b6-022",
+   "verdict_reason": "Thanks for the praise, responds on the Athenaeum review and Woodward, sends regards to the Lyells, all raised.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0229.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2542.xml#raft-response-DCP-LETT-2542-1859-11-22-section-0-para-1-4"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0160.json",
+   "date": "1859-11-22",
+   "incoming_paras": [
+    4
+   ],
+   "reply_paras": [
+    2
+   ],
+   "topic": "Huxley's Potential Lecture",
+   "item_id": "b6-023",
+   "verdict_reason": "Direct reaction to the news that Huxley may lecture.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0230.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2542.xml#raft-response-DCP-LETT-2542-1859-11-22-section-0-para-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0161.json",
+   "date": "1859-11-23",
+   "incoming_paras": [
+    1,
+    2
+   ],
+   "reply_paras": [
+    1,
+    2
+   ],
+   "topic": "Origin of domestic dogs; Hybridization and domestication theories; Gen",
+   "item_id": "b6-027",
+   "verdict_reason": "Answers Lyell's objection to the multiple origin of dogs.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0231.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2543.xml#raft-response-DCP-LETT-2543-1859-11-23-section-0-para-1-2"
+  },
+  {
+   "kind": "derived_paragraph_pair",
+   "source": "transcript-0162.json",
+   "date": "1859-11-24",
+   "incoming_paras": [
+    1
+   ],
+   "reply_paras": [
+    3
+   ],
+   "topic": "Explanation of rattle snake",
+   "item_id": "b6-029",
+   "verdict_reason": "Gives the rattlesnake explanation Lyell asked to be told.",
+   "status": "derived_adjudicated",
+   "transcript": "transcript-0232.json",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2547.xml#raft-response-DCP-LETT-2547-1859-11-24-section-0-para-3"
+  }
+ ]
+}

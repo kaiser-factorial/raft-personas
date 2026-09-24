@@ -1,0 +1,447 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Additive source-fidelity requirements from accepted 1851–1855 batches 14–19. Primary source, quote, date, DOM and asset checks performed; no conversion implemented.",
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1501"
+      ],
+      "case": "Literal 125th numeric damage and attached diagrams",
+      "requirement": "Preserve literal source HTML 125 with superscript th; do not silently render 125 inches or reconstruct 1/25. Hold reliable numeric rendering. Preserve both diagrams as image assets and provenance pins, with no agent prose substituted for imagery.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1501",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1501.html",
+        "source_sha256": "6c924d860f2d48b953a498184223139776d343b8d079d38044661b39d762ad72",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1501.xml",
+        "xml_sha256": "af494d7c63dd3df4aa97ecdc62b3bb4ddec33ffd16038923737d3d9cc9211ff1",
+        "locators": [
+          "Extracted P10 numeric damage and first figure; extracted P11 second figure"
+        ],
+        "verified_dom_locators": [
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[11]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1501",
+          "body_paragraph": 10,
+          "quote": "Total length 125th of an inch.",
+          "char_start": 487,
+          "char_end": 517,
+          "source_sha256": "6c924d860f2d48b953a498184223139776d343b8d079d38044661b39d762ad72"
+        }
+      ],
+      "accepted_primary_basis": {
+        "accepted_batch": "batch-14",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-14.json",
+        "reading_sha256": "7c2f525dd82dee7b528caca3b3b9d01c342ae83a06e1119eecd668a8824275d8",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-14.json",
+        "decision_sha256": "2d94b0eb962dac959a518a8cbe2b985c1d022e721324c4d8db4e4616549da26c",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-14.json",
+        "ledger_sha256": "865e494a13d869d3dc9cdc1455a8cd84fe5c7c097d284f53d8dccc5a32ec1f41",
+        "accepted_note": "Raw P10 literal 125 with superscript th and no fraction markup; diagrams at extracted P10/P11. Accepted primary numeric evidence uses P10.",
+        "accepted_decision": "dated_grounding_unpaired; reliable length rendering held.",
+        "ledger_requirement": "retain numeric hold and image pins."
+      },
+      "primary_dom_evidence": [
+        {
+          "letter_id": "DCP-LETT-1501",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[11]",
+          "raw_html": "<p><span class=\"underline\">Male Alcippe</span>. Almost every female has from 1–3 or more males attached to her on both sides, externally, near the upper end of the horny shield or disc on the peduncle, in two little bags, where I have put a cross. \n    <span class=\"figure blockCentred width33\">\n        <img src=\"/sites/default/files/dcp_lett_1501_1.jpg\" alt=\"diagram\">\n    </span> \nThe male is as transparent as glass; its lower end, (answering to the peduncle) is three lobed &amp; caricatures the form of the same part in Alcippe; the other part (or capitulum), is flattened, <span class=\"underline\">much produced</span> &amp; of nearly same width througout, with <span class=\"underline\">small</span> orifice at upper end. Total length 125<sup>th</sup> of an inch. In the lower part we have an <span class=\"underline\">eye</span>, &amp; great testis &amp; vesicula seminalis: in the capitulum we have nothing but a tremendously long penis coiled up &amp; which can be exserted. There is <span class=\"underline\">no mouth</span> <span class=\"underline\">no stomach</span> <span class=\"underline\">no cirri</span>, no <span class=\"underline\">proper thorax</span>! The whole animal is reduced to an envelope (homologically consisting of 3 first segments of head) containing the testes, vesicula, &amp; penis. In male Ibla, we have hardly any cirri or thorax; in some male Scalpellums no mouth; here both negatives are united. I know it to be male of Alcippe from absolute identity of the pupæ of both sexes. &amp; other reasons— I believe the males occur on every female: in one case I found <span class=\"underline\">12</span> males &amp; two pupæ on point of metamorphosis <span class=\"underline\">permanently</span> attached by cement to one female!<sup id=\"back-mark-Lfoot.f4\" class=\"footnote\" data-target=\"#Lfoot.f4\">4</sup></p>\n",
+          "source_sha256": "6c924d860f2d48b953a498184223139776d343b8d079d38044661b39d762ad72"
+        },
+        {
+          "letter_id": "DCP-LETT-1501",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]",
+          "raw_html": "<p><span class=\"underline\">Excavation of burrow</span>. The outer skin or even the whole thickened edge of orifice into sack with its strong sharp spines is periodically &amp; often moulted: there is great difference in the state of the star-headed spines on the <span class=\"underline\">new</span> underlying, &amp; the <span class=\"underline\">old</span> worn spines on the old membrane: this being the case, &amp; there being good motive power, in the long, &amp; transverse &amp; adductor muscles; I do not doubt the excavation is wholly mechanical.\n    <span class=\"figure blockCentred width33\">\n        <img src=\"/sites/default/files/dcp_lett_1501_2.jpg\" alt=\"diagram\">\n    </span> \nFrom the position of the larval antennæ, Alcippe after metamorphosis must occupy a position fully as much inclined or more inclined, than as drawn, &amp; so would with only little change assume the position which it holds in the shell. Though I cannot demonstrate, I can show good reason to believe, that it moves its position, when first boring into the shell, just as Lithotrya does, a row of horny discs representing the calcareous overlapping discs in that genus. With respect to the edging or rim of shell, observed by you: it is quite inorganic, and has no more relation to Alcippe than the main part of the supporting coral-reef has to a coral: when dissolved in acid, it is found to contain all sorts of rubbish, even of foreign animals: it is a kind of natural mortar.— The rudely radiating dark lines &amp; punctures in shell <span class=\"underline\">over</span> peduncle of Alcippe are formed by a minute Annelid.—<sup id=\"back-mark-Lfoot.f5\" class=\"footnote\" data-target=\"#Lfoot.f5\">5</sup></p>\n",
+          "source_sha256": "6c924d860f2d48b953a498184223139776d343b8d079d38044661b39d762ad72"
+        }
+      ],
+      "verified_visual_readings": [
+        {
+          "letter_id": "DCP-LETT-1501",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[11]/span[2]/img",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1501.html",
+          "source_html_sha256": "6c924d860f2d48b953a498184223139776d343b8d079d38044661b39d762ad72",
+          "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1501_1.jpg",
+          "alt": "diagram",
+          "figure_path": "data/raw/dcp/1851-1855/figures/DCP-LETT-1501-1.jpg",
+          "retrieved_at": "2026-09-17T06:15:23.804022+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1501_1.jpg",
+          "bytes": 38323,
+          "sha256": "92c6f23f968feae5ec7914f943e0ba979519c1b4d73400e1ccf98169278ad930",
+          "visual_observation": "Viewed schematic female outline with Mouth and orifice into sack labels and a Males label pointing toward a cross at one side; another cross lies on the other side. It illustrates P10 male attachment positions, not the anatomy of the reduced male itself."
+        },
+        {
+          "letter_id": "DCP-LETT-1501",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]/span[4]/img",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1501.html",
+          "source_html_sha256": "6c924d860f2d48b953a498184223139776d343b8d079d38044661b39d762ad72",
+          "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1501_2.jpg",
+          "alt": "diagram",
+          "figure_path": "data/raw/dcp/1851-1855/figures/DCP-LETT-1501-2.jpg",
+          "retrieved_at": "2026-09-17T06:15:24.439019+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1501_2.jpg",
+          "bytes": 19922,
+          "sha256": "9565de50b3650ee004a94ce71f387a396262393569b2c38cb0b20d94077988f7",
+          "visual_observation": "Viewed unlabelled sketch of an inclined small body above a horizontal surface, with a dotted outline below the surface. Read with P11 proposed initial position and burrow; angle, scale and depth are not quantitatively specified."
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1478A"
+      ],
+      "case": "Translated Danish draft and scoped response",
+      "requirement": "Preserve translated-from-Danish-draft status and reverse-response direction. P1–5 compare the requested specimens; P6 discusses prior receipt and scientific views, P7 midden work, P8 a draft docket. No proven final wording, dispatch or Darwin receipt is supplied; no Darwin training answer is created from Steenstrup prose.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1478A",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1478A.html",
+        "source_sha256": "f20da85e91f400a677c1a6b83d8bf92330d1f2de5fc3ec458f301c2dc06da20f",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1478A.xml",
+        "xml_sha256": "9745d65f66e37c6b0eec393330fb06fbf79cbe805fa22bcdda0c74a138b1f201",
+        "locators": [
+          "P1–5",
+          "P6–8"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1478A",
+          "body_paragraph": 3,
+          "quote": "On examining the two connected shell, you sent me",
+          "source_sha256": "f20da85e91f400a677c1a6b83d8bf92330d1f2de5fc3ec458f301c2dc06da20f"
+        }
+      ],
+      "accepted_primary_basis": {
+        "accepted_batch": "batch-19",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-19.json",
+        "reading_sha256": "6dc903cf9f4f92667d225d523aa5e929a547e2fd49ffb85d03feaa9f9b7e4c5c",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-19.json",
+        "decision_sha256": "d6fdc5083c3b0f4a62848b9573b8669ff80b8263159c853b54095f2f72501b92",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-19.json",
+        "ledger_sha256": "8d37a815d8a09c216c407c2e2c0383a24020ca38ee03219898f044b1efca138e",
+        "accepted_note": "April 8 1852 translation from Danish draft; P1–5 answer January 3 comparison, P6–8 are separate layers.",
+        "accepted_decision": "incoming_reverse_draft_reply; final wording, dispatch and Darwin receipt unverified.",
+        "ledger_requirement": "preserve translated draft and scoped response."
+      },
+      "primary_dom_evidence": [],
+      "verified_visual_readings": []
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2107"
+      ],
+      "case": "Uncertain year and incomplete published extract",
+      "requirement": "Keep published incomplete extract, printed/editorial date conflict, and missing note/tracings separate. Do not collapse uncertain year into exact day or treat editorial reconstruction as full authentic source.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-2107",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-2107.html",
+        "source_sha256": "82340264a685a91decaa93955f02a0061270a155f3af47eb6f7e0c333b20dd2f",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-2107.xml",
+        "xml_sha256": "af8861c3675ef8f989273301c8ea71f70a1057e21298c63faf0362c6069ca126",
+        "locators": [
+          "published incomplete extract P1–3",
+          "printed carrier/date apparatus"
+        ],
+        "verified_dom_locators": [
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2107",
+          "body_paragraph": 1,
+          "quote": "I thank you much for your note of the 13th of May, and the tracings of the curious Bopyrid.",
+          "source_sha256": "82340264a685a91decaa93955f02a0061270a155f3af47eb6f7e0c333b20dd2f"
+        }
+      ],
+      "accepted_primary_basis": {
+        "accepted_batch": "batch-18",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-18.json",
+        "reading_sha256": "ed0b89066880f2728e6f2e4aabc8d56e92a6ddc56be9f5bffb01c8cc156cb604",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-18.json",
+        "decision_sha256": "2ce422882bba8995155c0aed962da2ba2b24799523a3a8797462d3d393d41a24",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-18.json",
+        "ledger_sha256": "389600c3f5f30dd64079bdb4705aa5b9e7121588547cc6531e58710e257c81fc",
+        "accepted_note": "Printed carrier gives 1857; editors propose 1851 and possibly June 15 1851; raw XML day is not independent proof; missing note/tracings cannot be reconstructed.",
+        "accepted_decision": "dated_grounding_unpaired_with_date_hold; export false.",
+        "ledger_requirement": "retain date hold and unavailable portions."
+      },
+      "primary_dom_evidence": [
+        {
+          "letter_id": "DCP-LETT-2107",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]",
+          "raw_html": "<div class=\"footnotes\"><h2>Footnotes</h2><div id=\"Lfoot.f1\" class=\"footnote\"><div class=\"note_number\"><a href=\"#back-mark-Lfoot.f1\">1</a></div><div><a href=\"#DCP-BIBL-2857\">Gilman 1899</a> gives the year as 1857. However, both the address ‘Down, Farnborough, Kent’, used by CD prior to October 1855, and the subject of the letter suggest an earlier date. CD had mentioned his intention to send Dana specimens of parasitic Crustacea found attached to cirripedes in a letterto J. D. Dana, 24 February [1850] (<i>Correspondence</i> vol. 4). In <i>Living</i> <i>Cirripedia</i> (1851): 55 n., CD described these forms as related to <i>Bopyrus</i>. This suggests that the letter may have been written as early as 15 June 1851, perhaps in response to Dana’s letter of 13 May (now missing) mentioned in the text.</div></div><div id=\"Lfoot.f2\" class=\"footnote\"><div class=\"note_number\"><a href=\"#back-mark-Lfoot.f2\">2</a></div><div>See n. 1, above.</div></div><div id=\"Lfoot.f3\" class=\"footnote\"><div class=\"note_number\"><a href=\"#back-mark-Lfoot.f3\">3</a></div><div>In 1851, Dana was engaged in preparing his report on Crustacea collected by the United States Exploring Expedition (Dana 1852–3).</div></div></div>",
+          "source_sha256": "82340264a685a91decaa93955f02a0061270a155f3af47eb6f7e0c333b20dd2f"
+        }
+      ],
+      "verified_visual_readings": []
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1589"
+      ],
+      "case": "Complete 77-entry enclosure with separators",
+      "requirement": "Preserve enclosure as numbered list 1–77 plus two unnumbered separator rows, retaining ditto dashes, tentative punctuation, varieties and localities. Do not flatten to table or reinterpret entries as specimen count.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1589",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1589.html",
+        "source_sha256": "60ba1c49e0aab96b5491307da8a6403faa12619c72288bb7bb3f1348d2de499c",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1589.xml",
+        "xml_sha256": "ec87196be380c253228a00b62d88e3ea28ab87059795ec3c94fda34541c03567",
+        "locators": [
+          "body P1",
+          "preserved enclosure list items 1–77 plus two separators"
+        ],
+        "verified_dom_locators": [
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/ul"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1589",
+          "body_paragraph": 1,
+          "quote": "As you formerly were very kind in sending me so many valuable fossil cirripedes, I am anxious to make some, though a very inadequate return.",
+          "source_sha256": "60ba1c49e0aab96b5491307da8a6403faa12619c72288bb7bb3f1348d2de499c"
+        }
+      ],
+      "accepted_primary_basis": {
+        "accepted_batch": "batch-19",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-19.json",
+        "reading_sha256": "6dc903cf9f4f92667d225d523aa5e929a547e2fd49ffb85d03feaa9f9b7e4c5c",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-19.json",
+        "decision_sha256": "d6fdc5083c3b0f4a62848b9573b8669ff80b8263159c853b54095f2f72501b92",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-19.json",
+        "ledger_sha256": "8d37a815d8a09c216c407c2e2c0383a24020ca38ee03219898f044b1efca138e",
+        "accepted_note": "Full enclosure has 77 numbered taxonomic entries including varieties, plus two separators; no inference of 77 individual specimens or exactly 77 species. Dispatch still future when route found.",
+        "accepted_decision": "dated_grounding_unpaired; dispatch and receipt distinct.",
+        "ledger_requirement": "preserve list topology and separators."
+      },
+      "primary_dom_evidence": [
+        {
+          "letter_id": "DCP-LETT-1589",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div/ul",
+          "list_item_count": 79,
+          "numbered_entry_count": 77,
+          "separator_li_positions": [
+            62,
+            65
+          ],
+          "first_entry": "1 Balanus flosculus & var. sordidus",
+          "last_entry": "77. Lithotrya dorsalis",
+          "source_sha256": "60ba1c49e0aab96b5491307da8a6403faa12619c72288bb7bb3f1348d2de499c"
+        }
+      ],
+      "verified_visual_readings": []
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1630"
+      ],
+      "case": "MathML mixed number, separately positioned diagram, and summary conflict",
+      "requirement": "Derive 4½ feet from literal 4 plus MathML 1/2, never flattened 412. Geological discussion references the sketch in extracted P5; preserved HTML embeds it with the closing at DOM p[9]. Record observed DOM placement without inventing physical manuscript attachment. Keep body house uncertainty instead of summary certainty.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1630",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1630.html",
+        "source_sha256": "d1f7ca0be852e9df5d01a5823fa2627f57aed2c61af30b3c6c93e38d73e102e5",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1630.xml",
+        "xml_sha256": "7d1dc6951f88cdc2e662c724b548ed424b7699856da99f8f54905d4ee979dba1",
+        "locators": [
+          "Extracted P1 house uncertainty",
+          "Extracted P5 geological text and mixed number",
+          "DOM p[9] closing containing image"
+        ],
+        "verified_dom_locators": [
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1630",
+          "body_paragraph": 1,
+          "quote": "I hope we have succeeded in a House, after infinite trouble, but am not sure",
+          "source_sha256": "d1f7ca0be852e9df5d01a5823fa2627f57aed2c61af30b3c6c93e38d73e102e5"
+        }
+      ],
+      "accepted_primary_basis": {
+        "accepted_batch": "batch-15",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-15.json",
+        "reading_sha256": "8d20cb335d1e9e268274b683c8a42c8d6925a5691f45f47dee6ae7e3225bc376",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-15.json",
+        "decision_sha256": "518f37e73d63e0fde9331b47b142ad368d334f1637ffd70f3e7c452ab3d762e5",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-15.json",
+        "ledger_sha256": "d13d89c82401bec5f7cc8001be24e9ab0e8981094468f64bc096a187ba0ac2c9",
+        "accepted_note": "January 14 1855; raw MathML four and one-half feet, full enclosed sketch viewed; body says house uncertain contrary to summary.",
+        "accepted_decision": "dated_grounding_unpaired; quoted/editorial voices separate.",
+        "ledger_requirement": "Retain source-backed MathML, observed DOM placement, actual asset pins and body/summary distinction."
+      },
+      "primary_dom_evidence": [
+        {
+          "letter_id": "DCP-LETT-1630",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]",
+          "raw_html": "<p>Your expectation of the metamorphic schists sending veins into neighbouring rocks is quite new to me; but I much doubt whether you have any right to assume fluidity from almost any amount of molecular change; I have seen in fine volcanic sandstone, clear evidence of all the calcareous matter travelling at least 4<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> feet in distance to concretions on either hand (p. 113 of S. America). I have <span class=\"underline\">not</span> examined carefully (from not soon enough seeing all the difficulties) but I believe from what I have seen, that the folia in the metamorphic schists (I do not here refer to the so-called beds) are not of great length, but thin out, &amp; are succeeded by others; &amp; the notion that I have of the molecular movements is shown in the indistinct sketch herewith sent; the quartz of the strata might here move into the position of the folia, without much more movement of molecules than in the formation of concretions: I further suspect in such cases as this, where there is a great original abundance of quartz, that great branching, contemporaneous veins of segregation (as sometimes called) of quartz would be formed; I can only thus understand the relation which exists between the distorted foliation (not appearing due to injection) and the presence of such great veins.—</p>\n",
+          "source_sha256": "d1f7ca0be852e9df5d01a5823fa2627f57aed2c61af30b3c6c93e38d73e102e5"
+        },
+        {
+          "letter_id": "DCP-LETT-1630",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]",
+          "raw_html": "<p>Most truly yours | C. Darwin \n    \n    <span class=\"figure blockCentred width55\">\n        <img src=\"/sites/default/files/dcp_lett_1630.jpg\" alt=\"diagram\">\n    </span>\n\n</p> \n                ",
+          "source_sha256": "d1f7ca0be852e9df5d01a5823fa2627f57aed2c61af30b3c6c93e38d73e102e5"
+        }
+      ],
+      "verified_visual_readings": [
+        {
+          "letter_id": "DCP-LETT-1630",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]/span/img",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1630.html",
+          "source_html_sha256": "d1f7ca0be852e9df5d01a5823fa2627f57aed2c61af30b3c6c93e38d73e102e5",
+          "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1630.jpg",
+          "alt": "diagram",
+          "figure_path": "data/raw/dcp/1851-1855/figures/DCP-LETT-1630-1.jpg",
+          "retrieved_at": "2026-09-17T06:20:59.773607+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1630.jpg",
+          "bytes": 259049,
+          "sha256": "d579e6e820d9ddd6a81c0ab747e80da0c9a366a4adc1a256a42981bc1c054d5f",
+          "visual_observation": "Viewed labelled sketch: comparatively shallow strata and two quartz layers are crossed by steep foliation lines, some marked as folia of pure quartz. Lines and lens-like patches depict the proposed movement of material discussed in P5; no scale or numerical movement distance is encoded. The image is physically attached to the closing paragraph, not to P5 in the DOM."
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1453",
+        "DCP-LETT-1534"
+      ],
+      "case": "Separate letter, specimen, and book receipt/reading events",
+      "requirement": "Model letter receipt, specimen arrival, book receipt, physical route, and actual reading separately. Do not infer full reading, same-day receipt, or dispatch completion from a book/specimen arriving or from editorial summary.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1453",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1453.html",
+          "source_sha256": "045d433c8287537344d089b2316bc6772bad56dfb865107e1774375e6b9b090d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1453.xml",
+          "xml_sha256": "9fd389df8044dbe01ffc4647e083138b8d037907cda29c8ea3315129c6679873",
+          "locators": [
+            "P1 letter/specimen/book timing"
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1534",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1534.html",
+          "source_sha256": "106ba510c65cbebd4ac27540ebba5314b744c67d3325e6950bb7c3ac3f70bee8",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1534.xml",
+          "xml_sha256": "af0967592dbb68081e8559f6be31b34c8fbc1dd865a4699d41bb38b3dc2d677a",
+          "locators": [
+            "P1 Geological Society note/report versus home arrival"
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1453",
+          "body_paragraph": 1,
+          "quote": "for your very kind & valuable letter of the 18th of February",
+          "source_sha256": "045d433c8287537344d089b2316bc6772bad56dfb865107e1774375e6b9b090d"
+        },
+        {
+          "letter_id": "DCP-LETT-1534",
+          "body_paragraph": 1,
+          "quote": "I found at the Geological Society your note of the 4th of May with Dr. Owens Report; & then on my return home I found arrived your",
+          "source_sha256": "106ba510c65cbebd4ac27540ebba5314b744c67d3325e6950bb7c3ac3f70bee8"
+        },
+        {
+          "letter_id": "DCP-LETT-1453",
+          "body_paragraph": 1,
+          "quote": "which did not arrive for some time after your letter",
+          "char_start": 179,
+          "char_end": 231,
+          "source_sha256": "045d433c8287537344d089b2316bc6772bad56dfb865107e1774375e6b9b090d"
+        },
+        {
+          "letter_id": "DCP-LETT-1453",
+          "body_paragraph": 2,
+          "quote": "I have not as yet examined it",
+          "char_start": 73,
+          "char_end": 102,
+          "source_sha256": "045d433c8287537344d089b2316bc6772bad56dfb865107e1774375e6b9b090d"
+        },
+        {
+          "letter_id": "DCP-LETT-1534",
+          "body_paragraph": 2,
+          "quote": "I have as yet only looked at the wonderfully good illustrations",
+          "char_start": 35,
+          "char_end": 98,
+          "source_sha256": "106ba510c65cbebd4ac27540ebba5314b744c67d3325e6950bb7c3ac3f70bee8"
+        }
+      ],
+      "accepted_primary_basis": {
+        "accepted_batch": "batch-18",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-18.json",
+        "reading_sha256": "ed0b89066880f2728e6f2e4aabc8d56e92a6ddc56be9f5bffb01c8cc156cb604",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-18.json",
+        "decision_sha256": "2ce422882bba8995155c0aed962da2ba2b24799523a3a8797462d3d393d41a24",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-18.json",
+        "ledger_sha256": "389600c3f5f30dd64079bdb4705aa5b9e7121588547cc6531e58710e257c81fc",
+        "accepted_note": "1453 separates Dana letter, delayed Acasta specimen, and recent book copies; 1534 separates note/report at Geological Society from Dana work at home and says Owen illustrations inspected but text not yet read.",
+        "accepted_decision": "dated grounding with access/receipt distinctions; no automatic full-reading inference.",
+        "ledger_requirement": "preserve event layers and distinct routes."
+      },
+      "primary_dom_evidence": [],
+      "verified_visual_readings": []
+    }
+  ],
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false
+  },
+  "inputs": [
+    {
+      "path": "docs/raft-formatting-readiness.md",
+      "sha256": "281873ff17de05a70bbe00c72ec4ddbdbb75f10065fb431e42742203b13e1706"
+    },
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-12.json",
+      "sha256": "0b930fe38132973295622ce0706ff40b050ec4d16f02fdd0c6ab71c811638ce1"
+    },
+    {
+      "path": "reports/raft-prep/rendering-readiness.after-addendum-11.luna.json",
+      "sha256": "8837b3ef22ac059631eee1716b3db552757d073b4199d005752476f8ef31b870"
+    }
+  ],
+  "notes": [
+    "Requirements only. Source-specific primary decisions remain authoritative. Candidate provenance pins and exact quotes checked against immutable accepted inputs; relevant raw DOM revisited. Existing primary actual-figure observations and assets hash-verified, with no modern description substituted as historical letter wording.",
+    "Raw source damage and date uncertainty remain holds; no missing prompt or final draft wording reconstructed."
+  ],
+  "draft_reviewed": {
+    "path": "reports/raft-prep/rendering-readiness.after-addendum-12.luna.json",
+    "sha256": "9e0861e8aa5a935726ca105143be6a82e41954a4e798b2f55a2247748202d418"
+  },
+  "primary_corrections": [
+    {
+      "letter_id": "DCP-LETT-1501",
+      "description": "Candidate incorrectly labelled numeric damage P3 and quoted unrelated cushion text. Accepted decision and raw HTML put Total length 125th in extracted P10, DOM p[11]. Replace locator and exact evidence; accepted batch-14 evidence was already correct."
+    },
+    {
+      "letter_id": "DCP-LETT-1630",
+      "description": "DOM embeds the image in closing paragraph. This is evidence about preserved HTML placement, not independent proof of original physical attachment to manuscript. Keep reference in P5 distinct from displayed image location."
+    },
+    {
+      "letter_id": "DCP-LETT-1478A",
+      "description": "P8 is the draft docket, distinct from P6 prior receipt/scientific views and P7 midden research. Do not flatten all remaining blocks to scientific prose."
+    },
+    {
+      "letter_id": "DCP-LETT-1589",
+      "description": "77 numbered taxonomic entries include varieties; not 77 individual animals or necessarily 77 distinct species. Two separator li nodes give 79 total."
+    }
+  ]
+}

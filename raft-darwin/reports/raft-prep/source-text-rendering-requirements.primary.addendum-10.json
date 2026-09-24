@@ -1,0 +1,416 @@
+{
+  "status": "primary_verified_readiness_requirements",
+  "scope": "Accepted 1847–1850 batches 32–34; export remains deferred.",
+  "primary_provenance": [
+    {
+      "batch_id": "batch-32",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-32.json",
+      "reading_sha256": "22e2b576368d664c3a22d8d4522fe28afb573cc37da0c4d2a5382b31b912da67",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-32.json",
+      "decision_sha256": "679f89ced8f85df44f3528c4abae84d1e73251527bd0e9175201be6eb979a9a5",
+      "ledger_path": "data/annotations/periods/1847-1850/batch-32.json",
+      "ledger_sha256": "5ce09795a578b9a87daeecd5806fdf2ff7b4d6eef790f3c7da2a217f4079c0d2"
+    },
+    {
+      "batch_id": "batch-33",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-33.json",
+      "reading_sha256": "c5a059f2661aaf7303a81d4a66fd93f0a0c5bf04e22bb0ea535dd77ece165336",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-33.json",
+      "decision_sha256": "c43d008917d11e98fe11b65b09916d0458bb6cd691e82657cdbc851b3427b20a",
+      "ledger_path": "data/annotations/periods/1847-1850/batch-33.json",
+      "ledger_sha256": "1f8bfcbbfaed41560f7d6c4be59456fa2ff7346b10bb189c2f32cce51c460418"
+    },
+    {
+      "batch_id": "batch-34",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-34.json",
+      "reading_sha256": "803f8d674ae87dfe75f8c5392f04cc564227203d8d5fbf94bff50937373710bf",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-34.json",
+      "decision_sha256": "3b9630a55b73fd931d962577d29aa28c157d36364c5e93dde239abf0eaeccae4",
+      "ledger_path": "data/annotations/periods/1847-1850/batch-34.json",
+      "ledger_sha256": "6fe6ed2356afca8f82abe3433a35cea7efe0466bc29dbd89273529b01d58e453"
+    }
+  ],
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1289",
+        "DCP-LETT-1121"
+      ],
+      "case": "Omitted species list and unpublished draft repetition",
+      "requirement": "Preserve 1289's six prose blocks and absence of the referenced 73-species list. Keep 1121 as an unpublished draft with repeated argument/enquiry sequences and literal 212-foot wording; do not silently collapse repetitions or import later published conclusions.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1289",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1289.html",
+          "source_sha256": "8c6144e31fa82391b0aef43e2421de66b14e37374a951c1e2564afa83a50250f",
+          "locators": "div#letter body; six blocks; missing list",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1289.xml",
+          "xml_sha256": "867de9fd88c6603e9b2a19764a50433120851607274f522dcbe82ab30e0d26df"
+        },
+        {
+          "letter_id": "DCP-LETT-1121",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1121.html",
+          "source_sha256": "c8c50b564ae0c3bf42b806f4c54293b034abdf850a625229720ae99bb766b65b",
+          "locators": "div#letter body P1; draft sequences",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1121.xml",
+          "xml_sha256": "9488b380069b2691ef680cbc9bb209f7241ed38a1a5b8ff52a6b9b9ab8f2a064"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1121",
+          "body_paragraph": 1,
+          "quote": "I am still inclined to abide by the marine theory",
+          "char_start": 8279,
+          "char_end": 8328,
+          "source_sha256": "c8c50b564ae0c3bf42b806f4c54293b034abdf850a625229720ae99bb766b65b"
+        },
+        {
+          "letter_id": "DCP-LETT-1121",
+          "body_paragraph": 1,
+          "quote": "the whole 212 vertical feet of fall in this valley",
+          "char_start": 10090,
+          "char_end": 10140,
+          "source_sha256": "c8c50b564ae0c3bf42b806f4c54293b034abdf850a625229720ae99bb766b65b"
+        }
+      ],
+      "unavailable_status": "1289's 73-species list and Dana cover are absent; do not synthesize.",
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1369F",
+        "DCP-LETT-1307"
+      ],
+      "case": "Edition-specific reading and missing manuscript",
+      "requirement": "Keep the first edition read before 1369F separate from the fifth edition received that morning and still awaiting reading. For 1307, a response proves Darwin read the missing manuscript by 4 March 1850, but does not restore its absent text or diagrams.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1369F",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1369F.html",
+          "source_sha256": "ae41dd56bdfe330c3eefe0b0e20d4136ed2295b5f96ea1b4f6e6df3d7a1645c3",
+          "locators": "div#letter body P1-P3",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1369F.xml",
+          "xml_sha256": "eff5a435ab77a9bb3d71d2dff611dcd9d9cb59015df7bc05765eddbf8c3667ae"
+        },
+        {
+          "letter_id": "DCP-LETT-1307",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1307.html",
+          "source_sha256": "f58f6b13001b6b3f9c01a1f4414746b376cf68d6fc6c3bbff8c9c2b646b6541d",
+          "locators": "div#letter body P1",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1307.xml",
+          "xml_sha256": "bf6fe789f20b75c8b4f380c3e48cdd0573017e8f458146f64a1bfa257b8dde57"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1369F",
+          "body_paragraph": 2,
+          "quote": "since I read it as a first Edition",
+          "char_start": 216,
+          "char_end": 250,
+          "source_sha256": "ae41dd56bdfe330c3eefe0b0e20d4136ed2295b5f96ea1b4f6e6df3d7a1645c3"
+        },
+        {
+          "letter_id": "DCP-LETT-1369F",
+          "body_paragraph": 3,
+          "quote": "I shall read your ideas on Education",
+          "char_start": 151,
+          "char_end": 187,
+          "source_sha256": "ae41dd56bdfe330c3eefe0b0e20d4136ed2295b5f96ea1b4f6e6df3d7a1645c3"
+        },
+        {
+          "letter_id": "DCP-LETT-1307",
+          "body_paragraph": 1,
+          "quote": "I have read over your paper with attention",
+          "char_start": 0,
+          "char_end": 42,
+          "source_sha256": "f58f6b13001b6b3f9c01a1f4414746b376cf68d6fc6c3bbff8c9c2b646b6541d"
+        }
+      ],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-13843",
+        "DCP-LETT-1195"
+      ],
+      "case": "Known-by versus exact arrival and calendar conflict",
+      "requirement": "Record 13843 as known by 9 January 1850, with note/drawings safely returned but exact arrival unknown; preserve blank receipts and subscriber list as explicitly absent. For 1195 keep written Saturday 20 August alongside calendar Sunday conflict and do not silently change the date. Chloroform thanks and later loan evidence remain separate.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-13843",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-13843.html",
+          "source_sha256": "1cb9bb906c96f7dcd26dd62af58c836ef763951ab285aa40d0654718b43b02d7",
+          "locators": "div#letter body P1/P4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-13843.xml",
+          "xml_sha256": "34d53357d25b4555aca499a9a7e8bbe443ffa16324a774323fd62b223964f111"
+        },
+        {
+          "letter_id": "DCP-LETT-1195",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1195.html",
+          "source_sha256": "6f78c806547da52246ffd69005b710cf57f240df63e453b97a72a0fc4bfa7759",
+          "locators": "header/date and body",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1195.xml",
+          "xml_sha256": "7b0d441f18c44c161640850da1f0c7613752873f482a5ef341015bb05d9ecf6e"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-13843",
+          "body_paragraph": 1,
+          "quote": "drawings safely returned",
+          "char_start": 72,
+          "char_end": 96,
+          "source_sha256": "1cb9bb906c96f7dcd26dd62af58c836ef763951ab285aa40d0654718b43b02d7"
+        },
+        {
+          "letter_id": "DCP-LETT-13843",
+          "body_paragraph": 4,
+          "quote": "I received no “blank receipts” or “list of Subscribers”",
+          "char_start": 72,
+          "char_end": 127,
+          "source_sha256": "1cb9bb906c96f7dcd26dd62af58c836ef763951ab285aa40d0654718b43b02d7"
+        }
+      ],
+      "normalized_fields": {
+        "13843_known_by": "1850-01-09; arrival day unknown",
+        "1195_date": "written Saturday 20 August 1848; calendar conflict retained"
+      },
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1062"
+      ],
+      "case": "Mixed cover, copied proposal, date and voice",
+      "requirement": "Render Henry Allen Wedgwood as sender of the 21 February cover and Hensleigh as named principal in the copied 22 February proposal. Keep the relocated forwarding sentence as historical source text, not an agent instruction; separate unconditional Henry allotment from conditional family/financing terms and do not infer Darwin receipt or April purchase.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1062",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1062.html",
+          "source_sha256": "b898798d5b83c2263589229645071228389607c586c31bb367359f9cbcb70b86",
+          "locators": "div#letter body P3-P4; cover and copied proposal",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1062.xml",
+          "xml_sha256": "5513aea8d34b1248ab479ecfdf7bcd1a194971adccf9706556c0d2ebd1c75851"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1062",
+          "body_paragraph": 3,
+          "quote": "London— 22d Feb 1847 My dear Sir",
+          "char_start": 48,
+          "char_end": 80,
+          "source_sha256": "b898798d5b83c2263589229645071228389607c586c31bb367359f9cbcb70b86"
+        },
+        {
+          "letter_id": "DCP-LETT-1062",
+          "body_paragraph": 4,
+          "quote": "I am authorised by Mr Hensleigh Wedgwood",
+          "char_start": 0,
+          "char_end": 40,
+          "source_sha256": "b898798d5b83c2263589229645071228389607c586c31bb367359f9cbcb70b86"
+        }
+      ],
+      "accepted_section_scopes": {
+        "letter_id": "DCP-LETT-1062",
+        "description": "February 21 cover and February 22 copied authorization are not one proved composition or receipt day.",
+        "sections": [
+          {
+            "body_paragraphs": [
+              1,
+              2
+            ],
+            "date_label": "21 February 1847 cover"
+          },
+          {
+            "body_paragraph": 3,
+            "text_before": "London— 22d Feb 1847 My dear Sir",
+            "description": "Forwarding note relocated from first page, cover attribution."
+          },
+          {
+            "body_paragraph": 3,
+            "text_from": "London— 22d Feb 1847 My dear Sir",
+            "continues_body_paragraphs": [
+              4
+            ],
+            "date_label": "22 February 1847 copied proposal"
+          }
+        ],
+        "training_export_ready": false
+      },
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1267"
+      ],
+      "case": "Incomplete surviving ending and permission versus completion",
+      "requirement": "Preserve the abrupt surviving ending after other fossil without inventing missing prose or claiming an explicit truncation marker exists. The description is unfinished. Darwin proposes treating silence as permission; this is not demonstrated consent, drawing completion or specimen return. Keep James de Carle Sowerby separate from George Brettingham Sowerby Jr and later editorial knowledge.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1267",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1267.html",
+          "source_sha256": "3e7962778aeecc0458866b62739e0af1e603de043f12374e94f2089fa10b28b1",
+          "locators": "div#letter body; abrupt ending and permission request",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1267.xml",
+          "xml_sha256": "4483d4087e749595b84dcd298c6ae19550cbb49eeda712aadcec0afc8aee6538"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1267",
+          "body_paragraph": 7,
+          "quote": "but numbers of specimens of other fossil",
+          "char_start": 65,
+          "char_end": 105,
+          "source_sha256": "3e7962778aeecc0458866b62739e0af1e603de043f12374e94f2089fa10b28b1"
+        }
+      ],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1090F"
+      ],
+      "case": "Physical letter order and wrong-way-first note",
+      "requirement": "Keep the displayed wrong-way-first note within the same letter and preserve the apparatus about its location on the first-sheet verso, while the main text continues on a second torn sheet. Do not turn it into another message or silently reorder prose without locators. Missing May 21 proposal and exact project remain unavailable; John Allen is the named recipient, despite summary JS.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1090F",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1090F.html",
+          "source_sha256": "27af652e4aeeb9ee8108ab0cf454562da60f20914cd1c031a8ee2ad49f40ffd8",
+          "locators": "div#letter body P1/P4; physical-order apparatus",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1090F.xml",
+          "xml_sha256": "07374a62c473040ee13530b1691cead895c801416d842cca1ed759ae147975f4"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1090F",
+          "body_paragraph": 1,
+          "quote": "your note of the 21st",
+          "char_start": 21,
+          "char_end": 42,
+          "source_sha256": "27af652e4aeeb9ee8108ab0cf454562da60f20914cd1c031a8ee2ad49f40ffd8"
+        },
+        {
+          "letter_id": "DCP-LETT-1090F",
+          "body_paragraph": 4,
+          "quote": "I see that I have written this note the wrong way first",
+          "char_start": 0,
+          "char_end": 55,
+          "source_sha256": "27af652e4aeeb9ee8108ab0cf454562da60f20914cd1c031a8ee2ad49f40ffd8"
+        }
+      ],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1263"
+      ],
+      "case": "Inclusive date label versus XML bound, order versus reading",
+      "requirement": "Preserve on or before October 24, 1849 separately from raw XML latest October 23 and uninformative 1809 lower bound. Do not pick a day or treat ordered books as read. Retain literal diag and ramme artifacts unless a better source justifies a documented correction. Humboldt author is Karl Wilhelm, not Alexander; later reading dates belong in provenance rather than current answer text.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1263",
+          "locators": "Header and XML date constraints; body P1–7 and footnotes",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1263.html",
+          "source_sha256": "7f8c6685904a95232765d214af2cf91f0fb28b0ed862f4d1c94fbcd440a22c3d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-1263.xml",
+          "xml_sha256": "925d0b295bd88a7adac6eaf4966c212eadfe999ce3337a925ad35a22726e54c0"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1263",
+          "body_paragraph": 1,
+          "quote": "diag —— Footprints of a Creator",
+          "char_start": 74,
+          "char_end": 105,
+          "source_sha256": "7f8c6685904a95232765d214af2cf91f0fb28b0ed862f4d1c94fbcd440a22c3d"
+        }
+      ],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1081",
+        "DCP-LETT-1369F"
+      ],
+      "case": "Delayed note delivery and exact same-day book receipt",
+      "requirement": "Patterson note dated March 9 reached Darwin April 16 under the supplied 1847 year, after sitting at the Society; letter date is not access date. Sedgwick fifth edition arrived October 11 under supplied 1850, after collection requested the day before. Demonstrated receipt is still distinct from complete reading, and bracketed years remain editorially supplied.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1081",
+          "locators": "1081 P1; 1369F P1–3; accepted batch 32 receipt events",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1081.html",
+          "source_sha256": "aa92f7bb0d68a8b02a5c8cc8ac401bec0132ec27fac9163f93bfd30acbdcd239",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1081.xml",
+          "xml_sha256": "cae597b541f934e82cb9199969433bd9b7a0d0585f3f021848203e0b8a74ba6a"
+        },
+        {
+          "letter_id": "DCP-LETT-1369F",
+          "locators": "1081 P1; 1369F P1–3; accepted batch 32 receipt events",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1369F.html",
+          "source_sha256": "ae41dd56bdfe330c3eefe0b0e20d4136ed2295b5f96ea1b4f6e6df3d7a1645c3",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1369F.xml",
+          "xml_sha256": "eff5a435ab77a9bb3d71d2dff611dcd9d9cb59015df7bc05765eddbf8c3667ae"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1081",
+          "body_paragraph": 1,
+          "quote": "I received only yesterday your note of the 9th. of March & very kind present",
+          "char_start": 0,
+          "char_end": 76,
+          "source_sha256": "aa92f7bb0d68a8b02a5c8cc8ac401bec0132ec27fac9163f93bfd30acbdcd239"
+        },
+        {
+          "letter_id": "DCP-LETT-1369F",
+          "body_paragraph": 1,
+          "quote": "receiving your Discourse this morning",
+          "char_start": 86,
+          "char_end": 123,
+          "source_sha256": "ae41dd56bdfe330c3eefe0b0e20d4136ed2295b5f96ea1b4f6e6df3d7a1645c3"
+        }
+      ],
+      "implemented": false
+    }
+  ],
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false
+  },
+  "notes": [
+    "Requirements only; accepted source and primary adjudication provenance remains authoritative. No new relationship acceptance or conversion performed."
+  ],
+  "draft_provenance_hash_corrections": [
+    {
+      "path": "reports/1847-1850/review/parent-reading/batch-32.json",
+      "draft_hash": "22e2fb576368d664c3a22d8d4522fe28afb573cc37da0c4d2a5382b31b912da67",
+      "actual_hash": "22e2b576368d664c3a22d8d4522fe28afb573cc37da0c4d2a5382b31b912da67"
+    }
+  ],
+  "draft_reviewed": {
+    "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-10.draft.json",
+    "sha256": "e7289888dbeb1921c775713fee05cd9dfdc985f71833bdb74d355ead33b88b3c",
+    "preserved_unchanged": true
+  },
+  "primary_corrections_to_draft": [
+    "1267 has an abrupt ending but no explicit truncation marker; requirement and literal evidence corrected.",
+    "Added omitted 1263 inclusive-versus-XML date conflict and order-versus-reading requirement.",
+    "Clarified displayed versus physical order in 1090F and added exact delayed-receipt cases."
+  ],
+  "verification": {
+    "primary_note_decision_ledger_sets_pinned": 3,
+    "source_html_xml_pairs_checked": 11,
+    "exact_body_quotes_checked": 15,
+    "errors_after_primary_correction": 0,
+    "method": "Comparison with accepted independent primary readings and source markup inspected during adjudication; all source HTML/XML hashes and exact body quotes checked. Mixed-date section scope copied from accepted batch 33."
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "status": "provisional_readiness_draft",
+  "scope": "Formatting and source-fidelity requirements compiled from accepted primary reading and decisions for 1847–1850 batch 17. This draft creates no converter, transcript, corpus export or training data.",
+  "primary_provenance": {
+    "batch_id": "batch-17",
+    "reading_path": "reports/1847-1850/review/parent-reading/batch-17.json",
+    "reading_sha256": "15abe2624706f6032299891669788dcc94e135b6383b9af6e3c37b4e7d42ae02",
+    "decision_path": "reports/1847-1850/review/parent-decisions/batch-17.json",
+    "decision_sha256": "9abdf978148b8f5cac688e32465059162315e484e2f757032342446c401739a2",
+    "ledger_path": "data/annotations/periods/1847-1850/batch-17.json",
+    "ledger_sha256": "903f339800c93ebf03248e35e8cd6364e10e830fbb8a61cc8eb50c642bbaae67"
+  },
+  "requirements": [
+    {
+      "letter_id": "DCP-LETT-1262",
+      "case": "Alternate October 29/30 date, MathML and figure",
+      "requirement": "Preserve the unresolved 29 or 30 October 1849 alternatives. Render the raw MathML quarter inch as 1/4 inch, and keep the actual small tiered cup diagram with the letter. Do not replace the figure with prose or confuse it with the later missing Lithotrya plate in 1378.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1262.html",
+        "source_sha256": "0b1abd047664c2839114e81bc201b4b380f2ce03b2f10d87844636241ea86b92",
+        "locators": "header/date metadata; body P1–P3; figure node and figure asset"
+      },
+      "exact_source_evidence": [
+        {
+          "body_paragraph": 1,
+          "quote": "Your specimens arrived quite safe: I have as yet taken only a cursory glance at them"
+        },
+        {
+          "body_paragraph": 3,
+          "quote": "the animal often rises 14 of an inch in its hole from thickness of cup"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch 17 exact-date and visual reading."
+    },
+    {
+      "letter_id": "DCP-LETT-1311",
+      "case": "Broad date range and April 6 possibility",
+      "requirement": "Keep the broad Saturday range [26 January–March 1850] alongside the next-letter rationale that permits Saturday 6 April if 1316 is dated 7 April. Do not silently extend the encoded March endpoint or force 1316 to 31 March. Preserve that new specimens and questions become available only in their stated sequence.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1311.html",
+        "source_sha256": "0908ed5891702fc0260c78228d0bddf4825f93b79bbfc17b1b97a691cc9c0b36",
+        "locators": "header/date metadata; editorial footnote 1; body P1–P4"
+      },
+      "exact_source_evidence": [
+        {
+          "body_paragraph": 1,
+          "quote": "I will despatch the Box with large bottle on next Wednesday"
+        },
+        {
+          "body_paragraph": 4,
+          "quote": "I have not yet!! looked at Alcippe"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch 17; the dating chain is interdependent and remains a hold."
+    },
+    {
+      "letter_id": "DCP-LETT-1327",
+      "case": "Publication versus first explicit reading",
+      "requirement": "Do not activate Hancock’s 1848 paper from its publication date alone. Preserve Darwin’s first explicit reading in May 1850, his enclosure of one Lithotrya specimen, and his continuing uncertainty about the basal cup and boring mechanism.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1327.html",
+        "source_sha256": "7e45eedb2e9d7647b0a21731f9aa3515061d50ba1ad0b6527515c134d6d2fb39",
+        "locators": "header/date metadata; body P1–P3; editorial footnotes 1–2"
+      },
+      "exact_source_evidence": [
+        {
+          "body_paragraph": 1,
+          "quote": "I have only just read your very interesting paper on the boring of Mollusca in the Annals"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch 17 delayed-reading observation."
+    },
+    {
+      "letter_id": "DCP-LETT-1378",
+      "case": "Fractions and missing drawing",
+      "requirement": "Render the raw MathML as 1/20 or 1/16 inch, retaining Darwin’s alternatives. Preserve the literal “[SYMBOL HERE]” as a missing drawing with no image node; a later published plate cannot silently substitute for the absent enclosure. Keep the statement “I have not yet looked at Alcippe!” as a contemporary examination hold.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1378.html",
+        "source_sha256": "5732c2ae7fa4b4fdf6d5b88c5777ca6705e4f49d28ba9ecca5e697c1bdf5b465",
+        "locators": "body P1–P2 and P6; MathML nodes; missing image boundary; editorial footnote 3"
+      },
+      "exact_source_evidence": [
+        {
+          "body_paragraph": 1,
+          "quote": "thanks to the enclosed drawing [SYMBOL HERE] (which please return) sent me by Steenstrup without text"
+        },
+        {
+          "body_paragraph": 2,
+          "quote": "each new one, at each fresh exuviation being placed 120 th or 116 th of inch"
+        },
+        {
+          "body_paragraph": 6,
+          "quote": "I have not yet looked at Alcippe!"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch 17; drawing receipt is separately established by 1330, while the memoir and visual remain distinct."
+    },
+    {
+      "letter_id": "DCP-LETT-1330",
+      "case": "Drawing known before later memoir chronology",
+      "requirement": "Preserve that Darwin acknowledges Steenstrup’s Lithotrya drawing by 20 May 1850 and calls the indicated boring method new to him. This establishes knowledge of the drawing by that date, not receipt or reading of the later memoir and not a direct incoming-letter edge.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1330.html",
+        "source_sha256": "769a16a14a5c5732bcad5cf59bcb1c5e5dadd64f0171bf581340f80a19857106",
+        "locators": "body P1; editorial footnotes 1–4"
+      },
+      "exact_source_evidence": [
+        {
+          "body_paragraph": 1,
+          "quote": "I thank you much for the drawing of Lithotrya: I think I may have the same species from Timor"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch 17 additional full reading; outgoing witness and missing incoming drawing text remain separate."
+    }
+  ],
+  "implementation_boundary": {
+    "future_requirements": [
+      "Preserve exact MathML, figures, missing-image placeholders, source paragraph boundaries, publication versus reading states, and alternative date ranges at the listed locators.",
+      "Keep hearing, possession, dispatch, physical receipt, reading and anatomical examination as separate states; later taxonomy and memoir publication cannot backdate earlier knowledge.",
+      "Carry source and ledger hashes into derived artifacts for later verification."
+    ],
+    "not_implemented_here": [
+      "No converter, renderer, transcript, ledger, export or training behavior was changed or run.",
+      "This draft does not create new historical acceptance and remains provisional for primary verification."
+    ]
+  },
+  "notes": [
+    "Requirements are future implementation constraints derived from accepted root notes, not permission to revise accepted evidence."
+  ]
+}

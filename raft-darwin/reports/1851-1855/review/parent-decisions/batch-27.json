@@ -1,0 +1,163 @@
+{
+  "batch_id": "batch-27",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-1735",
+      "disposition": "incoming_evidence_unpaired",
+      "source_kind": "Blyth ALS with separate annotation apparatus",
+      "voice": "Blyth prose; quoted and reported voices separately attributed; no Darwin answer body",
+      "date_assessment": "4 Aug 1855; composition only, no proven Darwin receipt; do not give later notes same date",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1746",
+      "disposition": "incoming_evidence_unpaired",
+      "source_kind": "Blyth ALS with separate annotation apparatus and quoted Hutton extracts plus memorandum",
+      "voice": "Blyth prose; quoted and reported voices separately attributed; no Darwin answer body",
+      "date_assessment": "22–3 Aug 1855; composition only, no proven Darwin receipt; do not give later notes same date",
+      "training_export_ready": false
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-1735",
+      "kind": "missing_darwin_letter_and_date_discrepancy",
+      "description": "June 18 outgoing unlocated; April 20 self-reference differs from 1670 April 21. Retain possible relationship as unresolved, not exact knowledge edge.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1735",
+          "body_paragraph": 1,
+          "quote": "receiving yours of the 18th. June",
+          "char_start": 31,
+          "char_end": 64,
+          "source_sha256": "16761efccd6a428f2afbc82838e75442aebafae2b5b677f0a059d4eb5aacbfae"
+        },
+        {
+          "letter_id": "DCP-LETT-1735",
+          "body_paragraph": 1,
+          "quote": "epistle of the 20th. April",
+          "char_start": 125,
+          "char_end": 151,
+          "source_sha256": "16761efccd6a428f2afbc82838e75442aebafae2b5b677f0a059d4eb5aacbfae"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1735",
+      "kind": "shipment_and_publication_stage",
+      "description": "Same-steamer shipment forecast distinct from arrival; Somali report not yet certainly printed.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1735",
+          "body_paragraph": 1,
+          "quote": "I fear that this will scarcely be out in time",
+          "char_start": 519,
+          "char_end": 564,
+          "source_sha256": "16761efccd6a428f2afbc82838e75442aebafae2b5b677f0a059d4eb5aacbfae"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1746",
+      "kind": "third_party_forwarded_extracts",
+      "description": "Hutton-to-Blyth letter known to Blyth by this writing; original full Hutton source absent, interwoven comments stay Blyth.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1746",
+          "body_paragraph": 1,
+          "quote": "I had actually despatched the accompanying memoranda",
+          "char_start": 0,
+          "char_end": 52,
+          "source_sha256": "a1aa22ff3fc9bcde0d7f696341415caa707ce227856280ae754c4fa6c4172522"
+        },
+        {
+          "letter_id": "DCP-LETT-1746",
+          "body_paragraph": 1,
+          "quote": "so I recalled it only just in time",
+          "char_start": 211,
+          "char_end": 245,
+          "source_sha256": "a1aa22ff3fc9bcde0d7f696341415caa707ce227856280ae754c4fa6c4172522"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1746",
+      "kind": "internal_enclosure_boundary",
+      "description": "Blyth signature and miscellaneous-notes heading occur within P8; date Aug23 occurs at enclosure closing P15.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1746",
+          "body_paragraph": 8,
+          "quote": "Yours truly ever | E Blyth— Miscellaneous Notes for Mr. Darwin",
+          "char_start": 0,
+          "char_end": 62,
+          "source_sha256": "a1aa22ff3fc9bcde0d7f696341415caa707ce227856280ae754c4fa6c4172522"
+        },
+        {
+          "letter_id": "DCP-LETT-1746",
+          "body_paragraph": 15,
+          "quote": "Augt. 23/55—",
+          "char_start": 28,
+          "char_end": 40,
+          "source_sha256": "a1aa22ff3fc9bcde0d7f696341415caa707ce227856280ae754c4fa6c4172522"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1746",
+      "kind": "negative_source_access",
+      "description": "Referenced Rüppell travels not seen, unlike cited systematic work.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1746",
+          "body_paragraph": 10,
+          "quote": "his ‘travels’ I have never seen.",
+          "char_start": 366,
+          "char_end": 398,
+          "source_sha256": "a1aa22ff3fc9bcde0d7f696341415caa707ce227856280ae754c4fa6c4172522"
+        }
+      ]
+    }
+  ],
+  "dated_sections": [
+    {
+      "letter_id": "DCP-LETT-1746",
+      "sections": [
+        {
+          "scope": "P1–7 and signature start P8",
+          "date_policy": "Opening header August 22, 1855; retain original source relation to accompanying memorandum."
+        },
+        {
+          "scope": "P8 after Miscellaneous Notes heading through P15",
+          "date_policy": "Enclosure closing August 23, 1855; no single earlier date assigned to composite."
+        },
+        {
+          "scope": "P16 P.S.",
+          "date_policy": "After dated closing in preserved rendering; same or later exact writing time not independently established."
+        }
+      ]
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-1735",
+      "description": "Darwin June 18 outgoing and separately full three-page DAR 203 abstract; no missing text reconstruction."
+    },
+    {
+      "letter_id": "DCP-LETT-1746",
+      "description": "Full original Thomas Hutton letter to Blyth; preserve only selected verbatim excerpts with Blyth interjections."
+    }
+  ],
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-1735",
+      "description": "Worker generic bracket/range qualification does not apply to exact August 4 label, and Hutton extract claim belongs to 1746. Primary full-source notes control."
+    }
+  ]
+}

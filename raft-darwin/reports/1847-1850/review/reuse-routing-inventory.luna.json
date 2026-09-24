@@ -1,0 +1,4153 @@
+{
+  "schema_version": 1,
+  "kind": "provisional_reuse_routing_inventory",
+  "period": "1847-1850",
+  "scope": "packets 35-58; index-independent of current-period note membership",
+  "criteria": {
+    "A": "index entry has source_record_read_in_full=true and body_read_in_full=true, accepted ledger exists, current HTML/XML hashes match",
+    "B": "same source/hash/ledger conditions, body_read_in_full=false, and accepted ledger explicitly records body unavailable",
+    "C": "all remaining IDs; fresh source reading required"
+  },
+  "inputs": [
+    {
+      "path": "reports/1847-1850/review/prior-primary-reading-index.json",
+      "sha256": "df2ffc4ac2955de27e719579650942af4997bd425b3f6acc56e4a6804fb03353"
+    },
+    {
+      "path": "data/raw/dcp/1847-1850/figures/manifest.json",
+      "sha256": "cdadd9a2166c86ce9eca8a7ede76b9eaedcfee9a89e00c9546b35a9e3e3ad6f5"
+    }
+  ],
+  "packets": [
+    {
+      "batch": 35,
+      "target_count": 15,
+      "context_count": 4,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-883",
+        "DCP-LETT-1638",
+        "DCP-LETT-1644",
+        "DCP-LETT-2277",
+        "DCP-LETT-2333F",
+        "DCP-LETT-3428",
+        "DCP-LETT-3429",
+        "DCP-LETT-3879F",
+        "DCP-LETT-4399",
+        "DCP-LETT-5789",
+        "DCP-LETT-6731",
+        "DCP-LETT-9107",
+        "DCP-LETT-9112",
+        "DCP-LETT-9523",
+        "DCP-LETT-1027",
+        "DCP-LETT-1031",
+        "DCP-LETT-1032",
+        "DCP-LETT-1035"
+      ],
+      "B_reusable_source_body_unavailable": [
+        "DCP-LETT-13816A"
+      ],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [
+        {
+          "ledger": "data/annotations/periods/1847-1850/batch-01.json",
+          "field": "previously_recorded_relationships",
+          "index": 0,
+          "relationship": {
+            "response_id": "DCP-LETT-1032",
+            "antecedent_id": "DCP-LETT-1031",
+            "relationship": "replies_to",
+            "status": "previously_recorded_not_recounted",
+            "source": "data/annotations/periods/1844-1846/batch-09.json"
+          }
+        }
+      ],
+      "matched_index_entries": {
+        "DCP-LETT-13816A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-01.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-01.json",
+            "html_sha256": "3d4b86d4f8afd49510e43395496b43697c382bb028be0f3789de10f8efd0f1cd",
+            "xml_sha256": "4df1a5f7b5818958c8db9eb1de0acf27b5aee6ae1747c281787935c5b213766f",
+            "body_read_in_full": false
+          }
+        ],
+        "DCP-LETT-883": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-05.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-05.json",
+            "html_sha256": "00a814160ac1a3d28fdb7bb02314803502fe18883b2b60e1482cc72fea8f83a2",
+            "xml_sha256": "9b7240eb4275a226fc1328255d68da652aca7cced703387f6b42eb733399a45d",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-06.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-06.json",
+            "html_sha256": "00a814160ac1a3d28fdb7bb02314803502fe18883b2b60e1482cc72fea8f83a2",
+            "xml_sha256": "9b7240eb4275a226fc1328255d68da652aca7cced703387f6b42eb733399a45d",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1638": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "5c76fac6c3aaf489288974f9a86319ec15b11b8b11982f0af9c7daddfa8d3a17",
+            "xml_sha256": "a1af4b15f5c4a370ed8e698c73c54ae8b9a96c748fe93822aa26888f80ac2154",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1644": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "3bc909335bef12a870883d9ae3426b3316d989efb5c6e91961f9c68c0451ac67",
+            "xml_sha256": "3eb32bebe360ae4a16517b9d01d9a0a8f56804c1087535191496348865b77d32",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2277": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "a8a12479de2a488665fc47c0bc17aec0122fa35e967e1ef8545821cdbe977752",
+            "xml_sha256": "cf6399ae02236ea730640b6466c34805b8fa1248048d8f219074e11d1904de70",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2333F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "c8ad9fc9d6ab2aab628be831e770681b9ae34f531c3c282a51b2ac2e86c325ac",
+            "xml_sha256": "c0f1dc9e5aa782e657d1330b63a6f0b7112ba6e0b114c6c33d00c0079d01a9b8",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3428": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "c020b7444586bbec76afe2c61a161e86e4601a5b03ad48cc35a433b144c0ceeb",
+            "xml_sha256": "c9d2cbaed808b4f25b634913b8a95eadad4e50d16f43d1c751e5408063faace6",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3429": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "61a650cb02a07ad1c93ddc81567d94e80a16403b45a85e84b47fff263e7ddce3",
+            "xml_sha256": "06fbf8a0010c5e882d56677a4ecd0d400992a506fc681ad1726f001c248fdce9",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3879F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "ffc0b9c954563e387b464faae7eb111d3914752c9ea0c24606b4dfeffb52b1c4",
+            "xml_sha256": "3d5ec84ba0414f7b85acf027d4b1f8e2bf302c529ba09a45891091b942f0c4d8",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-4399": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "1bafa5ac7a56d6a449fcf7657d47290f455946467bc9a44b91c97c60649cdfe1",
+            "xml_sha256": "4f8c918a4bce035f65d780b41ddc7b39c0fe68fdca356c0be1bccd8236075225",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5789": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "a8b3add85adf0086bc6a70f1b224ed1ca0a42dd4826741739e3aa119a6402468",
+            "xml_sha256": "ef930e67dc2af1eaf81c3756483742dd9ad8ddac0ab96d158d239057d133198f",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6731": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "9125e4c14da5bed009781adbb1df7aaf62657f44bcb484aa9d8906e9cd484000",
+            "xml_sha256": "3280729b6a33937ac9634b5b373065672070cf6a966310d2ea85111a7c4ef6ab",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-9107": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "e74d6ded054061974bed59e4344e4f527f44ad3dff2f27a91d3638a121b31d53",
+            "xml_sha256": "ce0374c956441a87dce0751100b876a8e64829952e5ff4cc6e7927191298186d",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-9112": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "594009997b1304a9fac2b6a24a4b6c3dbdbd4bbedcb69e0fdd92d14ad1bd66a9",
+            "xml_sha256": "f6c5a924ac44ddf281ad1f1f89cb771831a01f14d799e3820ca31d90391d37ca",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-9523": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-32.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-32.json",
+            "html_sha256": "e5897b53585efb6355b4d6bb3f75856677e9478be6c1c7f8e5b0b57f9555a27c",
+            "xml_sha256": "f663fe419e8b6d3d068e8782675e6e6898560d0402357dde4b4df08085609a66",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1027": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-09.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-09.json",
+            "html_sha256": "2f76851e05ebbdabedb6bf8c066ac74f44e6902ba64de35c8f04ee92da955042",
+            "xml_sha256": "c557c3c4b0638a9a301e828a8c16d0307276d9cc5cf8111d32f9338a24517783",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1031": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-09.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-09.json",
+            "html_sha256": "ceb956053ba566c38c9fd382077a3439f02aa64cd16a463ab242d676fae66d2d",
+            "xml_sha256": "031f0685fa0111db62441346eace96488ce98f100ed3147d14cd0fde24f14a47",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1032": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-09.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-09.json",
+            "html_sha256": "812a2292dfe7c1162411ad27771b7e7f5eeddc8e40ca889c18bbc9f2e08652fe",
+            "xml_sha256": "ed82e825242496607a36ec37f6ed4f8b67e6a5721f40d66600144fef9f23d3a7",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1035": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-09.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-09.json",
+            "html_sha256": "f2f688a2188d1f4820db6a5c239e65e268999555a2020457016df7e4b69fc072",
+            "xml_sha256": "fc313dbb6d24bba27bcdc72042c2ee44c40a36f952b16f6dc0e566cd28039704",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 36,
+      "target_count": 18,
+      "context_count": 0,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-6519F",
+        "DCP-LETT-6520F",
+        "DCP-LETT-7345F",
+        "DCP-LETT-7387G",
+        "DCP-LETT-7387H",
+        "DCP-LETT-7420",
+        "DCP-LETT-8364",
+        "DCP-LETT-8365",
+        "DCP-LETT-5556",
+        "DCP-LETT-8848A",
+        "DCP-LETT-9092F",
+        "DCP-LETT-13794",
+        "DCP-LETT-10287F",
+        "DCP-LETT-10520F",
+        "DCP-LETT-11593F",
+        "DCP-LETT-11613",
+        "DCP-LETT-11638",
+        "DCP-LETT-11754F"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-7420",
+        "DCP-LETT-9092F",
+        "DCP-LETT-11613",
+        "DCP-LETT-11638"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-6519F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "985f1517c7da4f499d44a17671b007b7b5ae14fb8e42b5a3952ca16ca8bb6b1c",
+            "xml_sha256": "d6b379ad869e183fe6e41eb4aa2269f67fc1a94943b25245ce9b5451f31fd2fc",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6520F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "cf331dcd386448fc2009d7391c455e620fd9085adb58a8f40a2c3536d3c71ce0",
+            "xml_sha256": "bc51cdb4e04581b857e59ee22d25746a358973fe54b8b4e27184f17aacf1fe02",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7345F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "522ca25a1f77e7f7d3d15eac90807db3a4d7b62d7dc333d6eee21fb4ffb5d6e4",
+            "xml_sha256": "6ac5c9aca851c30278a5aa221b9ca028339d8bbd4fd4bf94d28483e12ae2f47b",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7387G": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "3ecb7dc572928f7f69b66d5c1dcad44384001877d6a76d695253d7e1ee036090",
+            "xml_sha256": "0903a734c04de6238c82c46c687f13f87fd229a01e07fc343849a0229142c115",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7387H": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "061ed63de9f6063af5443f699933a10ecf32fc26895c7b7f6e8232e9c5adbca1",
+            "xml_sha256": "e5de76d580a29f3f45ecf3e4baf7702f65092a732b96b1b805d9c64501aebf04",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7420": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "d27b24a6a431b9b6d5cf8095617253b8cd550e813b26db50d93b3a3469d0f917",
+            "xml_sha256": "9795a79894a3d3a4efe20da90102434ca77a2c93306f327628d287b3f893fd73",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8364": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "e094e18baac4845057889e463e63e3a95e7eae6c74f50acce680ea906cc5f00a",
+            "xml_sha256": "c50173527f8c26769228594b39b948e32f8894669fbd2ed9d188a88410c7ee3a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8365": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "e5afc651478130f700e6fe4752425a4994ebdf5745fc3cd51fa004634e86c3e5",
+            "xml_sha256": "fa4e2ee5d43db4e96d8b65464fa24faeba458743799d2ed3177c1e8cb5b2c9b9",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5556": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "765eb821372ee04cba949e2fbc550e72fb62f057255a9c8f182e91caa4b926f5",
+            "xml_sha256": "32b1a313c81d456ad71f8454e3d24125b268d1445cf290a8e718f9dd7a316b57",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8848A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "d48dd5a0a9dd34ed24c428d20dd80aeee62ab11f535fe70904da39bd7e9d81ed",
+            "xml_sha256": "44f31f8f8a9aada164fd3e4a32a408f591a603118536e42e919df3421a1c341d",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-9092F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "3ffe483a50791eb1a0941fd36df6c0ef7286937647012d057177e08c95bb7cbc",
+            "xml_sha256": "995373c8b8b33c91c76dc4d2c0a819e13f25e00630cbf98df8f8109a5d0d4220",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13794": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "3811f75343caa3880ce60cf2a049f9c6bf18b2191af966541f6845bfa9d6f947",
+            "xml_sha256": "ce0a5a75cd7e8268f70f924a69e5407b795a43faaa37aed71857ee955ab25ac8",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-10287F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "312d71c7a4e9793375c2b90035c957d442f54718502ab5752b81f71ab370f6f7",
+            "xml_sha256": "76ecf07b1eff48c96beade79003b5edb6452426d99c7c4920d1f4e8db88750b4",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-10520F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "ae35940fc36062eb63c65f62d982221a2f9ee531fc137965e18a1d6daa7c6e4a",
+            "xml_sha256": "68540d5ccbdd41d73becfd43b6d1c58a43b5677d4bc711b1dcb4ce9dafcba007",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11593F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "4e0e7950082755ffdf8f13f78f31bd56c0d1d10b4ccf2029ed5df4426ff78ee1",
+            "xml_sha256": "6d4766720014d8d5389de8b5bf38cfca162cc63b07e40c7ecc5ee64ec0722b18",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11613": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "44b0f18a2aa25431b0653811fe5061aa37d5a70700ddb14a61781ef48fb1514d",
+            "xml_sha256": "a5d14a980c3a7da0150f3e1aa997499850f77335a3ce48e0b949befa42e74d42",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-34.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-34.json",
+            "html_sha256": "44b0f18a2aa25431b0653811fe5061aa37d5a70700ddb14a61781ef48fb1514d",
+            "xml_sha256": "a5d14a980c3a7da0150f3e1aa997499850f77335a3ce48e0b949befa42e74d42",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11638": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "bcd2a2c6d567d454a25be7a251e949429e303ec159f622e39867bf46c5220c4a",
+            "xml_sha256": "8c9401bb043c2b9c741a26bd103773ebb50d350ef2fe8759321bf9658e53bf93",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-34.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-34.json",
+            "html_sha256": "bcd2a2c6d567d454a25be7a251e949429e303ec159f622e39867bf46c5220c4a",
+            "xml_sha256": "8c9401bb043c2b9c741a26bd103773ebb50d350ef2fe8759321bf9658e53bf93",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11754F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "765d5720bffed391cab6dd26bd23c40e2497cc2fd398a56df1e98c86eb484050",
+            "xml_sha256": "c7e8af5c204e9a6e85c17b167d76bfa1a21b200fd4fedc6f83abbf4316e69481",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-34.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-34.json",
+            "html_sha256": "765d5720bffed391cab6dd26bd23c40e2497cc2fd398a56df1e98c86eb484050",
+            "xml_sha256": "c7e8af5c204e9a6e85c17b167d76bfa1a21b200fd4fedc6f83abbf4316e69481",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 37,
+      "target_count": 6,
+      "context_count": 3,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-12074B",
+        "DCP-LETT-12084",
+        "DCP-LETT-12126F",
+        "DCP-LETT-12645",
+        "DCP-LETT-12379F",
+        "DCP-LETT-13192F",
+        "DCP-LETT-11613",
+        "DCP-LETT-11638",
+        "DCP-LETT-11754F"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-12074B",
+        "DCP-LETT-12126F",
+        "DCP-LETT-11613",
+        "DCP-LETT-11638"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-12074B": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-34.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-34.json",
+            "html_sha256": "16a22f7c70abd4ce651a6b43e6471568cb38f53a1dad59bc2b93f2c02b881c51",
+            "xml_sha256": "1ce5827903735bb58b5146e8bd9a2406af2d637137211894af4effd2ced30f53",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12084": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-34.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-34.json",
+            "html_sha256": "9058950545665fc26a22b16872fb70d7d3f137bb7ef80e7c61ed21ddb2925bfa",
+            "xml_sha256": "4cd3b428073d37d913f7e876936909c9eef1ddd7b853a5c7e46ac81943486590",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12126F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-34.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-34.json",
+            "html_sha256": "002ad62e6bb0d9d325d57536adf78015e5f83277a6a0cb576fec6af6c9f9045a",
+            "xml_sha256": "bc678522ad82b346607ceb6fb5f6fd674532aa90bba8b11323d734067aa08eae",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12645": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-34.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-34.json",
+            "html_sha256": "fc7e85b66f48d3e3f81cbe5520b7723b9bb019d94ee4c62564375ae0af5cd0d2",
+            "xml_sha256": "e9a2ac467462604643720aaa873896f4863ba29e049c5812d48af7c6854a0c5e",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12379F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-34.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-34.json",
+            "html_sha256": "858be5b594ca1438ba20c1fadabae73d9e38bd351b08b31b83aae18e8c6c9f32",
+            "xml_sha256": "d1bb8459336e04963f4412357fd425a0955544cdf77a3cccd48d607263f7761b",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13192F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-34.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-34.json",
+            "html_sha256": "836ce8c2ae94bb929d9d2934546b5c398befa0a76daeefa51297e04d6eae0621",
+            "xml_sha256": "497fadef53395c7cb8b2b7b02909fa09284fda034aba2a011bcb2864e58114be",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11613": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "44b0f18a2aa25431b0653811fe5061aa37d5a70700ddb14a61781ef48fb1514d",
+            "xml_sha256": "a5d14a980c3a7da0150f3e1aa997499850f77335a3ce48e0b949befa42e74d42",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-34.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-34.json",
+            "html_sha256": "44b0f18a2aa25431b0653811fe5061aa37d5a70700ddb14a61781ef48fb1514d",
+            "xml_sha256": "a5d14a980c3a7da0150f3e1aa997499850f77335a3ce48e0b949befa42e74d42",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11638": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "bcd2a2c6d567d454a25be7a251e949429e303ec159f622e39867bf46c5220c4a",
+            "xml_sha256": "8c9401bb043c2b9c741a26bd103773ebb50d350ef2fe8759321bf9658e53bf93",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-34.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-34.json",
+            "html_sha256": "bcd2a2c6d567d454a25be7a251e949429e303ec159f622e39867bf46c5220c4a",
+            "xml_sha256": "8c9401bb043c2b9c741a26bd103773ebb50d350ef2fe8759321bf9658e53bf93",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11754F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-33.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-33.json",
+            "html_sha256": "765d5720bffed391cab6dd26bd23c40e2497cc2fd398a56df1e98c86eb484050",
+            "xml_sha256": "c7e8af5c204e9a6e85c17b167d76bfa1a21b200fd4fedc6f83abbf4316e69481",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-34.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-34.json",
+            "html_sha256": "765d5720bffed391cab6dd26bd23c40e2497cc2fd398a56df1e98c86eb484050",
+            "xml_sha256": "c7e8af5c204e9a6e85c17b167d76bfa1a21b200fd4fedc6f83abbf4316e69481",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 38,
+      "target_count": 13,
+      "context_count": 0,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-2144",
+        "DCP-LETT-2166",
+        "DCP-LETT-3022",
+        "DCP-LETT-3896",
+        "DCP-LETT-5343",
+        "DCP-LETT-5814",
+        "DCP-LETT-6148",
+        "DCP-LETT-2971",
+        "DCP-LETT-3039",
+        "DCP-LETT-3583",
+        "DCP-LETT-4327",
+        "DCP-LETT-4417",
+        "DCP-LETT-5824F"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-2144": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "8ffb0f30ee751b5125efb80c0598b29272488eecc6a6f99691cf061bf40b9c1f",
+            "xml_sha256": "b28f74716d089ac1b06fe19e0332a00dfb011c59feef9345a43a0a1c01ad4292",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2166": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "a88d7bde0de7b9dde2b27ec12f8c7fddb5316bbf7f8c1b6f8473314dc6f9bdff",
+            "xml_sha256": "6577f555827ebe01034c7fa0be320bed48618255a89fb52d6faa81008213fc47",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3022": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "def0016a152b250759bb50405dee3fd2dff664f02a832623b4377f73ab672443",
+            "xml_sha256": "b2d616dd5fda517a9e123a7c6da810594f7c77ffe7cf3212560672635b631114",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3896": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "4b85a4414bce29564a6342f7a2094ac1cdb775f23447db3a37337699b8a1d5c0",
+            "xml_sha256": "bfa847bb815e64c44cab83a57a6e3bc156a3a9328d4b78e80ada796a6c648ddc",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5343": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "9fa3054dd7c8b5142b9bb809f45819a531fcd4bf92bd9dcea521b0c05e43d92d",
+            "xml_sha256": "c23658e6bd7a3af36fb2a1ccee95285c76860755556f4860d58a21000d81e515",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5814": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "0348cc8313497c949cfa8eb253a99db5dea103189829b80716478347347b88e4",
+            "xml_sha256": "18a7903f469660ee9ef8bc7fc5dacc59b788fff23e8903087f8a29facef4f864",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6148": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "483ce62e4bcceb43a0abd7a53208a747338202b48cdcaa40994b8d39bc613c92",
+            "xml_sha256": "ce3a7f9387a03f492c4fd17ada0d2aa1beb63da7bc7a2dea2204ed30485fd63b",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2971": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "e116b0ab5dabc36a95384367c056af8648b3577c5d409b78f5050a89e0584e13",
+            "xml_sha256": "2953eab497f56e76dd715e47cf235dcb6d9bbd1cad4aad8117bbe9d42613d90e",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3039": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "52e51ac3dff9e5a41ddf01f9b0b4865980b9a84e068b5711aed1bd7395583582",
+            "xml_sha256": "8edbee0700583df6b815b9bd083d5f6412a7ea058f489988ed7eb6e12079b8f0",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3583": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "ae0c0e2c2822072c26649a8b09e028b9740bdab2cbb17380963808c1a6332c2b",
+            "xml_sha256": "581380ed772fe5c4359218c5f098068450e0d711f53bd5571b101c0f52b9d0e8",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-4327": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "2e292deae3a006f1bc21622ab35a716908c7ed457fcc42f1c8b6d3a624c61e6f",
+            "xml_sha256": "d499082f283bf46c782b7af54979c6631d06f48267704ae5eab052b7b0970e32",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-4417": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "df680953df7987684d37a0ec0afff3e36ff746f18acdc7403d6d560bf082206f",
+            "xml_sha256": "da7e8b106550746e3bb3a5b6e12bc3b99ee6448dbe382b1c705d52dc58cc67c2",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5824F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-35.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-35.json",
+            "html_sha256": "40fe2bfe895b3e1729fe0848184fd72136dea93a7ee6b1de05eb389be9a2ee56",
+            "xml_sha256": "25ca53202d4534cb61c8af13c4d0b57806354fbb238568e3e3b3d34237ccf8e8",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 39,
+      "target_count": 7,
+      "context_count": 0,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-3887",
+        "DCP-LETT-9084",
+        "DCP-LETT-10958",
+        "DCP-LETT-11498",
+        "DCP-LETT-11600",
+        "DCP-LETT-12026",
+        "DCP-LETT-12746"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-3887"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-3887": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-36.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-36.json",
+            "html_sha256": "abb9286490b277a2bc7e9922babab5c8a097fb98f075aae7cf070c8f5f4c4870",
+            "xml_sha256": "22ccce405cb2c6607320104324be7654384ac1928f02a045a806218baabf7f49",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-9084": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-36.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-36.json",
+            "html_sha256": "e92e0761b9f78cc6b9b61b80e2c066126cb14d5878aa2d02bc627aac7b949be9",
+            "xml_sha256": "d06dd57f5eb340aa56a148d4976c124b7a3dc8c67e4cb3f1941f3ded0a1ac0d3",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-10958": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-36.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-36.json",
+            "html_sha256": "faba42aa09ae84eef5370ae395cb44a0462000709e5061803b0de4b4db7ff885",
+            "xml_sha256": "8885ffd981ca19c718f52a2ec0641a72392c1dd72d0e5f9890c6aecb37cd3755",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11498": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-36.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-36.json",
+            "html_sha256": "1ddcba5112d48c894ed4892d9d60ccc54456e8419844d2ac3d64c4c098a9330f",
+            "xml_sha256": "71dc134b5074f7922390e38a3d6182bd8a99c3f385757d10a59fd6727680ac4d",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11600": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-36.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-36.json",
+            "html_sha256": "043a4be2bc6a97143030e10d8d9a1e84a7020242a55ce782bc4b1282511581f7",
+            "xml_sha256": "77307aa985ea06508a0e7cde011f75cbd56c39f432e43dd6040e85c1aedf710a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12026": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-36.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-36.json",
+            "html_sha256": "dab539dce77ae2846cd198aa59ad9b44b82af6487c0c1492abd10ba59d97a7fb",
+            "xml_sha256": "ccb1373ceedb2e9902bcf0269aea2f9e89d71fd5e42ed2b9230d0df00a3a65f5",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12746": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-36.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-36.json",
+            "html_sha256": "eee12175e531ce45ea4c5d2010de2c6950e2c1e7d5c6b5e6870a96c395150052",
+            "xml_sha256": "38a424e445c1bd03035c5a2ee8e0e7fd92af0604bb5642b4362749146eb11d05",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 40,
+      "target_count": 7,
+      "context_count": 0,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-5964",
+        "DCP-LETT-5985",
+        "DCP-LETT-6078",
+        "DCP-LETT-6537",
+        "DCP-LETT-5748",
+        "DCP-LETT-6249",
+        "DCP-LETT-6421"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-5964": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-37.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-37.json",
+            "html_sha256": "df3a03ecb02e10f167b21d87245328376934537ef0dcfb6e230bc957fa840f21",
+            "xml_sha256": "0d1071301224e724d1e2375eb34ed0ef3e484edc7bada6ffa7398881395cc6d1",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5985": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-37.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-37.json",
+            "html_sha256": "e8274f89f1c82af4cdf43de2318e0a49eab5404fb2183d7ea8818402a4d0bdd9",
+            "xml_sha256": "7b2df19eb0f9fa1037bdef5fd687f5438196c65e560d8f586ea0ef591a0901e1",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6078": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-37.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-37.json",
+            "html_sha256": "ee531e119c9d9019503a77847be02688b8f274fb9538127e178d04dd093e6018",
+            "xml_sha256": "66a707a1b0c9260b1ac69a502151a2712dd4e96e50b215bfcced63db520a5f91",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6537": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-37.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-37.json",
+            "html_sha256": "3ce6215c8ff0b3df2a23312d677e2890032303a932df2b7fcdd58e0a30187dda",
+            "xml_sha256": "cd9faaf3de3ce57384290926c52d3f0ffd29eb4b8f5a9341e354c233f0adf399",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5748": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-37.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-37.json",
+            "html_sha256": "b4120ed181e5198e89f6a1e84e484a00dcbb275044ca4a79434c44bd9049a5d8",
+            "xml_sha256": "cca3643a9bc701f63743bfee77393143f218e280832b6c784c191b2abe7519c0",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6249": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-37.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-37.json",
+            "html_sha256": "65643418cf58f94c887cba4c1a0ac039827dc2375017c9036c9131f0e30d4d84",
+            "xml_sha256": "65e231f8bcaaaaa8fe9ecbfd557ad92881dc8adcd15b6019312a0ff15e92b53a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6421": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-37.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-37.json",
+            "html_sha256": "4d9c03632f6719473a898baa06080d6b2fe4189533a05149ef9410725f5aebed",
+            "xml_sha256": "03ec67f83ba16e8f3ae1c472cc3f73868c356bb966bece19a490896e4a559b18",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 41,
+      "target_count": 18,
+      "context_count": 7,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-13858",
+        "DCP-LETT-13925F",
+        "DCP-LETT-13867G",
+        "DCP-LETT-13867",
+        "DCP-LETT-10070F",
+        "DCP-LETT-8932",
+        "DCP-LETT-4687",
+        "DCP-LETT-5878",
+        "DCP-LETT-6700",
+        "DCP-LETT-7712",
+        "DCP-LETT-9389",
+        "DCP-LETT-1619",
+        "DCP-LETT-2135",
+        "DCP-LETT-5771",
+        "DCP-LETT-13770H",
+        "DCP-LETT-514",
+        "DCP-LETT-570F",
+        "DCP-LETT-584",
+        "DCP-LETT-631",
+        "DCP-LETT-13873",
+        "DCP-LETT-779",
+        "DCP-LETT-653F"
+      ],
+      "B_reusable_source_body_unavailable": [
+        "DCP-LETT-13865",
+        "DCP-LETT-4217F"
+      ],
+      "C_fresh_source_reading": [
+        "DCP-LETT-10366F"
+      ],
+      "figure_asset_ids": [],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-13858": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "ce067a8916ea82640bc0c5116e3c9ed11e42195a137a1e2426e692f7b7519880",
+            "xml_sha256": "bcc677055457cfa3bed70debab2bf20b719ca04f3e925f1d09f9a079cb889b79",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13925F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "e0da1c663f689d09df03ff59f0a16925afa24c2131359b33b591bab3b5640600",
+            "xml_sha256": "bde57167502e2edeacc33589b09627ecf9990aa0b2fcd687f7d4ed240a35cd5e",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13867G": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "5a85eaab9d6ab306e7c0c03712a139bf60ed6825b850c1486ded1f54ca17a862",
+            "xml_sha256": "65169c645a550f39fb01253548aac2de39cc5abfb424e869f05e26e00b9b9b82",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13865": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "7afc0fb5ebaa15f4078965355261128c506aafe7bf501094a0e1938a5b3dcbd3",
+            "xml_sha256": "8f7e008d206e0ceb838289cb2122367138744a1edf2222872cb8f0f56300e97b",
+            "body_read_in_full": false
+          }
+        ],
+        "DCP-LETT-13867": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "aefb4c8681357f99e84946b92e183c886879307be678e08c1f82ee7f8a9e04f0",
+            "xml_sha256": "e132c5910f887b89bacbc5e93a81a57aafcdd1f52dd36f36cc05816b6ded6b9c",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-10070F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "010143e496190740908cbc4c776f97042b831c5eb284484291fa8b45f191b123",
+            "xml_sha256": "1115389dc75abdc3bc240de5e765e5e461f3eaea4097058f803d2baafee982c9",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8932": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "e5896d1020546440ed7709747aa3349f1aa70514aa356e68e0df7a0193884dff",
+            "xml_sha256": "15250219251496b2195d998ef7ffc5a1e8c9a19c5ed5618c5475efeaaf4fb4cc",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-4687": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "9bbe9371d53c7edf93b90dc89dae3c60c2cc4e0f4ff3eef3bbbb365d6ef7d726",
+            "xml_sha256": "ec91962dc8756d5f62a8a71823ccf8e0d6582d935ff92cfc59789f2b5102296f",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5878": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "eb16772bce7dbc70875be6f11b8009eaa9e7215414598f601604d26c2c0c3a2c",
+            "xml_sha256": "7537a6ad1f41fd56ff01355fc614496cd83fe70653b9c6aba1de11a734feb116",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6700": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "c4b12cedcba5b5de03db8e2d2118aabca2f7172d78948fec9b5d177fc96b55dc",
+            "xml_sha256": "82dd04808cbb0b7fe3e9be08b336c4ed9758698c20a4f7af6b71d8165ac55a46",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7712": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "e59533ca494a7853a5cbd3a508b778baa5cd1d4580a7868fdcfb5dec48859feb",
+            "xml_sha256": "53fce713c155d3bf87f5dd253a4fa7174c24aacd4ba621c7953b057d5e36d2e3",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-9389": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "a36a9c5ded9810bb06803ed7559836d9b08cc32bfbfe8b591a141c4d637e5da8",
+            "xml_sha256": "a7bc4891c51a187ad0f15c3135b9b960b13fd1018be48e2bada6a8b298670f42",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1619": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "aa8c817cdb5b4717dd6eb757efe4451910d9591e191b5089a55a72f5815f0a31",
+            "xml_sha256": "8c4cb680eb93742733049148cfedf1fa465aeea54d6a217a55206178ec4634e9",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2135": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "00e731fc696d414390adaa4a387cc22881f2e31e4cd2225dc5bfd87726e84267",
+            "xml_sha256": "7101dca0d6c3f7bb924b2e87215f6ac4e9716098da1d6e5648ad28d9c5c1daaa",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-10366F": [],
+        "DCP-LETT-5771": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "0c46959696b30f023ca82728dc4702f139e8e4e4e01c0feeb8b34bd0a9dd758a",
+            "xml_sha256": "0162e807cce5b165360fbedb5ca5b957bf0bdb2f1f258d5b072e0d49f9d9cb52",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13770H": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "27a02d39d50fe4f467c1528a7fc0e35f532a28da4733db40ea6bdc351795d5ae",
+            "xml_sha256": "588e0cc0db7ca5eb0321ab8e9e19b4505d7853e14f7f15d8077ad4cc4d991c10",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-4217F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "a2425fa97f1216c324d903ac46383d95f444154ef431103bffbaf2fc57478bce",
+            "xml_sha256": "1ca08cdbe5999638d0cbf643bd5ef33b5c562cb87b2e3f7273ced94426ba46a4",
+            "body_read_in_full": false
+          }
+        ],
+        "DCP-LETT-514": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-28.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-28.json",
+            "html_sha256": "048c3fcc93b0ccac5223ef66ec41feee9602f3ee0699fcfab3977ae8388734ed",
+            "xml_sha256": "615dfec634b1a82d040fb702416b1a5ca7efa5e7fcd9bcb4f1542744925b8234",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "048c3fcc93b0ccac5223ef66ec41feee9602f3ee0699fcfab3977ae8388734ed",
+            "xml_sha256": "615dfec634b1a82d040fb702416b1a5ca7efa5e7fcd9bcb4f1542744925b8234",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-570F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-28.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-28.json",
+            "html_sha256": "c3525b828f522a6615b4a7d4c04bc5a27e210e713be02f928556a0bca0c0e545",
+            "xml_sha256": "944fe4c1b7ee8e0561dc3450134c7b7e5d30fbaf37e8f6d77eea41af181c8b23",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "c3525b828f522a6615b4a7d4c04bc5a27e210e713be02f928556a0bca0c0e545",
+            "xml_sha256": "944fe4c1b7ee8e0561dc3450134c7b7e5d30fbaf37e8f6d77eea41af181c8b23",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-584": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "104df8db61798ef42fd79a0342c44c9bba0515937583f8be4b8c230d252d1323",
+            "xml_sha256": "a2c8286dcdeed3eb56e9eb77b829e330239191df484992aec6d9b51798901c51",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "104df8db61798ef42fd79a0342c44c9bba0515937583f8be4b8c230d252d1323",
+            "xml_sha256": "a2c8286dcdeed3eb56e9eb77b829e330239191df484992aec6d9b51798901c51",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-631": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "13457819d94f480679c42f8c9ea86ed3be5ce57a5c83d7e3cfa5f14cd3ea101d",
+            "xml_sha256": "40e6c8f52d05a0e93060bc47b14be36c0985885fc8d509bc5b4dfb2753fe85e7",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "13457819d94f480679c42f8c9ea86ed3be5ce57a5c83d7e3cfa5f14cd3ea101d",
+            "xml_sha256": "40e6c8f52d05a0e93060bc47b14be36c0985885fc8d509bc5b4dfb2753fe85e7",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13873": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-28.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-28.json",
+            "html_sha256": "3f4f91e08a26c084c007815bc0885cbb4438eba35d44f6a3f84edfdad783934a",
+            "xml_sha256": "6de4a78ebec43c2ecf334fc5406bfe1370c2636f96e6690151eeb456e852046b",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-779": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-28.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-28.json",
+            "html_sha256": "dd7d592ee46a13d4540f7a3500bcc2ceb6069c06884deb71ee1bcef06c455231",
+            "xml_sha256": "7a7aca8254a6b65caaae3e553d432d80631d954aedfedb3ebdad7010599abec1",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-653F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "ee60c1dd659fe381b21329b1af1960d049024d4952c7b86ab64ac3753f53ca37",
+            "xml_sha256": "421f44b0ab659a851bc4959c5f65ec1aeb234b373acbfce46884330fdef4edd5",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 42,
+      "target_count": 10,
+      "context_count": 4,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-12951",
+        "DCP-LETT-6540",
+        "DCP-LETT-7110",
+        "DCP-LETT-10249",
+        "DCP-LETT-13838",
+        "DCP-LETT-10757",
+        "DCP-LETT-11085",
+        "DCP-LETT-749",
+        "DCP-LETT-864A",
+        "DCP-LETT-873",
+        "DCP-LETT-874",
+        "DCP-LETT-890",
+        "DCP-LETT-968"
+      ],
+      "B_reusable_source_body_unavailable": [
+        "DCP-LETT-3240"
+      ],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-10757"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-3240": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "4cb9c43c9d8ffe6d11e8fc26472df0507151ec10481294c5d978f56fbf01671f",
+            "xml_sha256": "0910c8b331ef4e093993b2aae8c56fb40e3fc80abd3c78822bb32ae3e765b5e6",
+            "body_read_in_full": false
+          }
+        ],
+        "DCP-LETT-12951": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "b4d7e985b7b7e4e3cd839aacf824d78bf9de863cd70f5a73f17d8efe9c8e93e1",
+            "xml_sha256": "9b52882101e39788040e9a6d0293e7b07c7213138c072c58d8b54452183aafd0",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6540": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-39.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-39.json",
+            "html_sha256": "d83db2df8edd20938776ee7d8cdfe0770de6dfa57a9b4880a4373a19a72a96de",
+            "xml_sha256": "7fe3f0b72833748109d07cc01de5cd27f40c35363b1eb9c642f418fc82e14c90",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7110": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-39.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-39.json",
+            "html_sha256": "09de9c061b007cad467fe4e1099cba9717f211dc1fc5661e5dab178c8f42fcb8",
+            "xml_sha256": "3b51421508c0c0f91c0e0f5ad17604a763bba031624dc9ac250e26e328158cd1",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-10249": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-39.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-39.json",
+            "html_sha256": "43e97531011213d06ad5a34f91d985576f03690ef47954ca9c4793870d916768",
+            "xml_sha256": "d614164bc66b017ae4d459323efa206bea8dfff36786139ee2b17bee5e1dfd4b",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13838": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-39.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-39.json",
+            "html_sha256": "bd83b608db10eef2c933203b430cd3950fcff07a72a4f2d20a9b26979239e2cf",
+            "xml_sha256": "8908f5f0e4f6c251f0695055ccc02aa47a2e5a243f375d5809701252af3f2a4c",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-10757": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-39.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-39.json",
+            "html_sha256": "830330d9957e49bde1c05b96bf07f6e9383a274082f2bdd0a21ef064db946ae5",
+            "xml_sha256": "8dbd2b20b98fe56c580e95236debe19ab1b424b941de83991a3aa807995ddd39",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11085": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-39.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-39.json",
+            "html_sha256": "0bd024bf9bec49ef423e0dd87d462283edf7cdc3888b340b1e04f127d1026f7d",
+            "xml_sha256": "8241cd712740b79ce4d3da32a738d7cd1f9b14c11b3ef692707febfb10317b8f",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-749": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-13.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-13.json",
+            "html_sha256": "0a65989e72bdbc92fa1b692c1faf0907de1a392d1cae4121a014a2161934e37e",
+            "xml_sha256": "c3ea480ed45dfa9b3a143641281fafc325f7d1cbbbe862da57137d58782a4345",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-864A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-13.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-13.json",
+            "html_sha256": "e9f2d996a35f5e08fb133c2ecadc5af5b8be1f3f9b2e04b0eff35f3587201869",
+            "xml_sha256": "ff8c96a8eba31c39892fcafe6a85dc10f8499fc74016ad60cbf199b40b9ac3e5",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-873": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-13.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-13.json",
+            "html_sha256": "c754e8ead9ac78fae1cfd6c4ffc9b0f97566d3c83833c232d1b081cd37bccfd6",
+            "xml_sha256": "b8ef7e075a5b74008bbf594a1cbb8ea77de6281cfeae63d5b2f91e30283f7da2",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-874": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-13.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-13.json",
+            "html_sha256": "0bff144dd71d1643a50ff861dc854fb1e1cf9f4f7fbaf754c85b11ca696091af",
+            "xml_sha256": "44f4f32b3f7b452070ff55abacfa742b28bef8a350be83819e351d0cde463a2a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-890": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-13.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-13.json",
+            "html_sha256": "745119008b149a1597cc54df80470821e9b0860343ba99d0bdaf9323a4ede7f0",
+            "xml_sha256": "a0efe2d371a3832323d61673dc1f27d7a164a6d6830303af0257d4a46d49fa82",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-968": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-13.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-13.json",
+            "html_sha256": "5b9a1200391c19d722b433eec98ed0d00487097be2c988ca29242099491a9355",
+            "xml_sha256": "48673be3092acfd08654c5dc5a4fe6b931990c8d4d21e771b4723d8941ff0f21",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 43,
+      "target_count": 4,
+      "context_count": 0,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-8412",
+        "DCP-LETT-8744",
+        "DCP-LETT-7452",
+        "DCP-LETT-5338"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-8412"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-8412": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-39.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-39.json",
+            "html_sha256": "98ca4b412531f764b49483267f84cd3bc233352235921a4659efd82706358c1a",
+            "xml_sha256": "e9c8dfc2212d5b1c2d473495d762641c0bd001fc0f42e98396dd9eaadbe673bc",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8744": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-39.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-39.json",
+            "html_sha256": "99640ac48a29168bd199258b24822b100d1a4375a3788b15338643cf251dfd12",
+            "xml_sha256": "b8717052c43f703415c8e9fad3dbffd4a5c00f68fd08a4202c7b9fc64254a677",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7452": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-39.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-39.json",
+            "html_sha256": "a71a78c3b5f46759bb8cfa4e2f3f706121df5ebcf2f17afe5eae112c9eec9f24",
+            "xml_sha256": "f4af22edf8880186062b2555a58bded5336f42ec91af5350f37025630bdca1f5",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5338": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-39.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-39.json",
+            "html_sha256": "966b3c562d2ffaabd61e0859f01204e66e58eace4f473689f079fbc8122c758e",
+            "xml_sha256": "6817fead03eb1e2cac9d44257a8f72568dc843fca660e7e3202f4652f91fa4bb",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 44,
+      "target_count": 14,
+      "context_count": 4,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-1470",
+        "DCP-LETT-1686A",
+        "DCP-LETT-1723",
+        "DCP-LETT-1771",
+        "DCP-LETT-1787",
+        "DCP-LETT-1802",
+        "DCP-LETT-1803",
+        "DCP-LETT-2012",
+        "DCP-LETT-2105",
+        "DCP-LETT-2127",
+        "DCP-LETT-2169",
+        "DCP-LETT-2359",
+        "DCP-LETT-3042",
+        "DCP-LETT-3061",
+        "DCP-LETT-756",
+        "DCP-LETT-777",
+        "DCP-LETT-778"
+      ],
+      "B_reusable_source_body_unavailable": [
+        "DCP-LETT-791F"
+      ],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-3042"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-1470": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "78b34f8d1bc74fed33538282e62d88846fb63878933fba8fb8f27df729344666",
+            "xml_sha256": "4a8e8a8fa2b9e1dbca7280202462183178a23eb746680f90d89df2901bc17516",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1686A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "ad546f038813f27149b8368b6216748292c6be3a087c3f99d834a0f9c7315b26",
+            "xml_sha256": "c934b582c71a802631def94e8c40373060321ca8c50183d7c3e5039dfff8bb6f",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1723": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "37dabf95e59254577a81ba138bbadef4ae905dc39fb851bfa38e53b3ca6d8e93",
+            "xml_sha256": "e11cf1f2e9dfe9e5738a2a06a3824330132b52e34f3215908a187efa2a2452e7",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1771": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "ecdf2cb7b3cad6288cd25873004a4dc96fefa52a4372264549410c052b5d9e93",
+            "xml_sha256": "17125e1120f539fd6bfb6f41db50b0a74713ac6919ff3fdbd2a5b09bd2b6a3ff",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1787": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "57854d75a70afc60495bad8c6adec9e0513eab09f7e389b878e9747597d85f6e",
+            "xml_sha256": "db97a3f71082194b45f6518ce069c4b6da80b55c47fb85e16e687d60639e6c46",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1802": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "3c1568888152371a3b44d778b425b352415afa82f040da118dccdba875c87b2f",
+            "xml_sha256": "75b0cb9a9ab6c5319ee37777721172dd567dc70de88e6564b44bc98453ab22b0",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1803": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "d4a57e21006c92f84ac51bafc8a51a7927f10b6581ce409174bf48579192895a",
+            "xml_sha256": "e8f81d85df4bf5c8331bbf43ef610eddc35c0462e4ded76d3c26623f07eec1a4",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2012": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "cbeaaee3c24aafdc470d87e4f2261583354911fb7ff86d885f13eb80fa527547",
+            "xml_sha256": "2eae88637fcfaf26aff420f08f9d4b2c20e9ed7e6c6b71588d116897ebedd857",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2105": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "c1b5d3cb553162c02fd23d689a57a7182b1dcab37866a2b013c0b2e05409fab1",
+            "xml_sha256": "da74c3ef756abc3f452ab57d89696ae1b0126e6e902ac9db88977582ee01d789",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2127": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "1ba7d537564d77af4edae6d76108b7bc6d1c9d0c8faa5f679d3a0e069c803fc2",
+            "xml_sha256": "270f57cfb597ba5a7263f64909ffd06c52100cbf4a7dd48ebe0b7ea3a2315dc8",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2169": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "6d5901aa25e46065c7cb3521cf727b63770dc8c6886feda167a4b25bb87d9d10",
+            "xml_sha256": "f6e4bcbdbd0e148e47743d039e52db2271bd52b8bbccf29956340e06a730a0b8",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2359": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "78e4a661539e30c2597c267bba63e08b47497cf3940da566fa318f6a656e1363",
+            "xml_sha256": "443ff8ff3e31468213ea6dff0e6e3539b810b6a7b07f4de3b22f980a7c353877",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "78e4a661539e30c2597c267bba63e08b47497cf3940da566fa318f6a656e1363",
+            "xml_sha256": "443ff8ff3e31468213ea6dff0e6e3539b810b6a7b07f4de3b22f980a7c353877",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3042": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "006bb584dad6752ba1682281379593b58fc5f8bbd7b7a0ff7133dd3952e6b806",
+            "xml_sha256": "a398bcc2f38a27ed1d3b0166954ef1809830c78b4553d9edcc3dfc947ef5d43c",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "006bb584dad6752ba1682281379593b58fc5f8bbd7b7a0ff7133dd3952e6b806",
+            "xml_sha256": "a398bcc2f38a27ed1d3b0166954ef1809830c78b4553d9edcc3dfc947ef5d43c",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3061": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "a604309b995d6c5f7780c1cf456c7bf73cd77c39b3a9cc744df6e8070799fcf6",
+            "xml_sha256": "ad2f895f9c253252d49c38caa348a069633e631d6e769ca2b34d6d47ac7c6daa",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "a604309b995d6c5f7780c1cf456c7bf73cd77c39b3a9cc744df6e8070799fcf6",
+            "xml_sha256": "ad2f895f9c253252d49c38caa348a069633e631d6e769ca2b34d6d47ac7c6daa",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-756": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-22.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-22.json",
+            "html_sha256": "c5b8bb04720fa65a5ff3a9884d17d3ff2f14a8e83e9f18a572ed055b26ea194e",
+            "xml_sha256": "3f9107ab6777adb0fb18645e062e2c0cfde2d2c1e72a89910570650895533817",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-777": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-22.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-22.json",
+            "html_sha256": "abccbfb2931ba0888b1116f40c9a13e4aa114a58ce200a49c192c86757c880e6",
+            "xml_sha256": "162c9dc9794dcb5e167c775df8131466eb8ef91228b383bf314650a402c155c8",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-778": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-22.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-22.json",
+            "html_sha256": "57729ab3a664db5a963e17b8f43166f3ab54328c5a23cf2baa067f017a6fbbe4",
+            "xml_sha256": "310b2652a633a8eb5e26460b5d98b38f19ad0f43095f257ca285685fe6982448",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-791F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-22.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-22.json",
+            "html_sha256": "15d91b3f93a319e8f3a318c952781c5cf4531ecd5f9903643d402f2faccad785",
+            "xml_sha256": "62597f13a788dd9311ae27253335ad37762e044a978d9e7285753d0239efa1a7",
+            "body_read_in_full": false
+          }
+        ]
+      }
+    },
+    {
+      "batch": 45,
+      "target_count": 9,
+      "context_count": 3,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-3182",
+        "DCP-LETT-3252",
+        "DCP-LETT-3253",
+        "DCP-LETT-3798",
+        "DCP-LETT-4269",
+        "DCP-LETT-4629",
+        "DCP-LETT-5001",
+        "DCP-LETT-5188",
+        "DCP-LETT-5189",
+        "DCP-LETT-2359",
+        "DCP-LETT-3042",
+        "DCP-LETT-3061"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-3042"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-3182": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "83b6aeb1a74be263e0b859d55424da1b954dbfd846f295243da72f478b2b001b",
+            "xml_sha256": "577dc05640e1a5d83f251300edb1d70dc6fd40f31e580c6d1a60b48b453a5baf",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3252": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "4343dfa8d8a188a292da59dbab98cb23aada7579d9ec6e2847330aace0c2444e",
+            "xml_sha256": "59fcfa6afba5eef83bcfff5a024c773a85a79d904cfc4d5fc56c807dc8501748",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3253": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "24e527de773e6ea0f50ecbfafcb7d0112b725a1cc58c3dcc47659272e5d2416b",
+            "xml_sha256": "4480ee12903ddff7db73feb16ca5c9c27af7cdd691b99d104242b633c069f238",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3798": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "2ed5fdd66839f60895c0274d90a5151a62ad89c76c6aec73389f0df9a51bab26",
+            "xml_sha256": "731cb12481a8a1d4d745060a1e897cf786ce4f4d7498d0b837a89045329a8bf9",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-4269": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "7eeb8b0075f3eab3cea829e64b26f94a975274fb04b97c4c41f07e6f7f9140eb",
+            "xml_sha256": "71c7c12117733949741a7df9713f8f2b6e4b63e12eb41a3ed1598ddc564aafb7",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-4629": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "59992fee6ea9c70cacc1f36c1e79f5d4af7c1d7d43109db3072be8ad03a6f68f",
+            "xml_sha256": "79c4f80d762ce94c590fe4a2353f65a6ccfc3123735bf4b1c32aa8533f2ae502",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5001": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "b7c3cdacf678bdb53b70de8a6a83ed9cb6cbb107c50b5bab1d2cf9867b1f33a4",
+            "xml_sha256": "9671a69a0d32a06a3384ab8ba07a21ba3df807a10755dc76a63533ce2193d365",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5188": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "6e8b0b1f3d032f6a71f7fa822202eb8af5de0cefc51af3264e80379ce704fdae",
+            "xml_sha256": "2203db881de549c2389eefd51eb145291ba03f61ddb3934c9262b8cfc0823995",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5189": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "721eea0bd5e1802bce052bb54e47b9dbd63856c58750396fc6bdbc98d1808d16",
+            "xml_sha256": "4cce05ce6798c1c741fb7b89fdddbcbebf6b3f8a7f05a0919eb1c8eacaf9676f",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2359": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "78e4a661539e30c2597c267bba63e08b47497cf3940da566fa318f6a656e1363",
+            "xml_sha256": "443ff8ff3e31468213ea6dff0e6e3539b810b6a7b07f4de3b22f980a7c353877",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "78e4a661539e30c2597c267bba63e08b47497cf3940da566fa318f6a656e1363",
+            "xml_sha256": "443ff8ff3e31468213ea6dff0e6e3539b810b6a7b07f4de3b22f980a7c353877",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3042": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "006bb584dad6752ba1682281379593b58fc5f8bbd7b7a0ff7133dd3952e6b806",
+            "xml_sha256": "a398bcc2f38a27ed1d3b0166954ef1809830c78b4553d9edcc3dfc947ef5d43c",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "006bb584dad6752ba1682281379593b58fc5f8bbd7b7a0ff7133dd3952e6b806",
+            "xml_sha256": "a398bcc2f38a27ed1d3b0166954ef1809830c78b4553d9edcc3dfc947ef5d43c",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3061": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-40.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-40.json",
+            "html_sha256": "a604309b995d6c5f7780c1cf456c7bf73cd77c39b3a9cc744df6e8070799fcf6",
+            "xml_sha256": "ad2f895f9c253252d49c38caa348a069633e631d6e769ca2b34d6d47ac7c6daa",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-41.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-41.json",
+            "html_sha256": "a604309b995d6c5f7780c1cf456c7bf73cd77c39b3a9cc744df6e8070799fcf6",
+            "xml_sha256": "ad2f895f9c253252d49c38caa348a069633e631d6e769ca2b34d6d47ac7c6daa",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 46,
+      "target_count": 13,
+      "context_count": 0,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-3147",
+        "DCP-LETT-3188",
+        "DCP-LETT-3204A",
+        "DCP-LETT-3248A",
+        "DCP-LETT-3778",
+        "DCP-LETT-3594",
+        "DCP-LETT-3658A",
+        "DCP-LETT-3661A",
+        "DCP-LETT-3826",
+        "DCP-LETT-3840",
+        "DCP-LETT-3883F",
+        "DCP-LETT-3951",
+        "DCP-LETT-3966"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-3147": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "f905d66278c846c7436d1faa442f5f8e802c60045ed157b9e8e442d56be71cb8",
+            "xml_sha256": "5d33b7b365b91ceacb58de6b0cd4cfdbd34323008621a482f7132f9ee7306ec6",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3188": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "f4b0f2cc740b13d85b77e94e25345737e0088957744f6fc05d0f9f57a912c1ac",
+            "xml_sha256": "a09769f8fb33ee79f39070ee7ce7fa0279de82133bb019c8c5e492e242aa9894",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3204A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "66fd4cf3e3f6da2c000ad2a5114aecc10121e1becfeddaf7182569d2437c7ca9",
+            "xml_sha256": "7f08112e94ff873a300c3dad43c5117db4c644998cb70ac468ffcfb5e607bf22",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3248A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "afa210558b61106a0d26d67c2f08050e14f6f0fa7e09ec2666c4cc5bdbfd699a",
+            "xml_sha256": "ca58399ecea46608954dedd55681b270288b642287ed662f5ef12835e1c33fa0",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3778": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "cf747eaf04680b5dfabcada817b235691be3b48544beff81028bce0325207924",
+            "xml_sha256": "e5065dfc26b39abb24b4f4f18f35f603cd648570750e1db0f7a5df8c007977e0",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3594": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "c896aa2db8e671afdbb71fa41dc28e3bc745bb6e4c8e1527140fd57079989a6e",
+            "xml_sha256": "02f81706359c09510186cc4fda882152f6ec509afefe330275d508e4d029f9b6",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3658A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "43d7abf5de18127552feeb42fdec2f518fdff59aa21614a3dfe1b8a5a252b249",
+            "xml_sha256": "c2794310064fe070ea18d437332bb9b7fef5debc4e03f7638fe3585da17b9c44",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3661A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "5b008fe1d2a4e04d4d01c2ea7c74591700e83bd5659f379c4a5c54f9c8705104",
+            "xml_sha256": "51bf521debc0a13c62700f66f6ee2910c9703cd2ae6387986211cb45c126d61a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3826": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "b6ca5c4cc12b596f891f8a493f36807f60feab49a5bfa975d9fcbb920bc3be0b",
+            "xml_sha256": "dc9fa674091ddc725c1545096b73627c7056ae9bcf75081b8f96d00613b8df64",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3840": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "61c806298a3373329a30faa7b1241d7a60d87c31e6178beb600e7a04f560eae8",
+            "xml_sha256": "719bea2cd83851cd8686295bf437368c65883954516d05555442642a336a3bf1",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3883F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "130ee8b272a2029af5d7e648e9a24a4d6e11c7fb641959685d6c5e63ad7dda57",
+            "xml_sha256": "918affaca16a7802245201bf8720c62ed655ed4f22159658c9fe878b6620aa54",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3951": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "be712c1fddb6b605ea60536f81ffaf7f709508e611fd9926adbe316687d81c62",
+            "xml_sha256": "c634167b3ecf60e928e5b685d87145ddb4af42530aa5e7872ebadc323dfc948a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3966": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-42.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-42.json",
+            "html_sha256": "19b2082dfdf331a5ce60652b8cdb225c3a37419b7fdb854d5ceb2d7d2f59ce3b",
+            "xml_sha256": "ef4b531aa212cc0b2bcf16f6f8c832d7c6091f5e10bb59cac5c29352102be61d",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 47,
+      "target_count": 16,
+      "context_count": 1,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-7720",
+        "DCP-LETT-8765",
+        "DCP-LETT-8809",
+        "DCP-LETT-8838",
+        "DCP-LETT-8853",
+        "DCP-LETT-8985",
+        "DCP-LETT-11945",
+        "DCP-LETT-8826",
+        "DCP-LETT-12955",
+        "DCP-LETT-13338",
+        "DCP-LETT-11313",
+        "DCP-LETT-8132",
+        "DCP-LETT-13776",
+        "DCP-LETT-11271F",
+        "DCP-LETT-13772F",
+        "DCP-LETT-13772",
+        "DCP-LETT-1768"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-7720": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "acf4f025fa71127616375167c124e021e1aab1f0b82d3528f8b5790fbf93e683",
+            "xml_sha256": "40b046df5a25ac60296778662d9e8b1d058d30f49a939820b0b3b5426acd9de4",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8765": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "1bb75b616951a489bef6ab7101ce86ad72e1c81dbbb2c49789ba4ef1fcaedf47",
+            "xml_sha256": "e044b93d90fb573d60f6abc3327e93555fb8a3a00f7b37fa4d63cd7d42cdc970",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8809": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "8dcd86aca4c2b20f7843b4fc100ed46ee159e1df54e64e8eb0b3d31e59abf58d",
+            "xml_sha256": "2225bca64225dcec878ff875a79557d73a4c378ca535fb1d6dd0b5084745f265",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8838": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "fda9591af72f7f53921f3eb3f73790c81add135b46b92c1eb000c8d4ca8e03da",
+            "xml_sha256": "09b333e8a6fce7a0cf20cff55886b1440eff8141863bb0eba28b81c2535d52dc",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8853": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "d5cd07bf66c0a8ac8e88dc8ead26ee9a7cffc1947be5d43bac9f9db6da5ad875",
+            "xml_sha256": "6fdb7f9d542537dcc737bfacdef8b1c19dcc07e2c079d6330f03b99d0faf524d",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8985": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "7bdc80a2c4e2592abf19cbabdc924521c112d9ca7eaed622cf1cd78186559515",
+            "xml_sha256": "5a83e15c8b01d661b5423d42489f8eaaf473df5d6e3bb4974850fb37400e2dc0",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11945": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "c814874ec8013665f9b15ba9dcb4fa8f6ad87655fe0fe5f5363da52369715c46",
+            "xml_sha256": "dfa60c23aebc4f4451e796cadeab33978a02bb51c537dc6c3c4a15450d0316e6",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8826": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "3612f3830fb7c767e5484c14c172c6e493a3fbb4f7d62bd75bdf037bfee44c76",
+            "xml_sha256": "7275cf40284cbc204907bae88a8d812e492eb03fcbcffeb7f648ccfc002ef388",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12955": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "396460a56cde7c6836469b908f7ccfd695d441d97a84939b0b01c7f88f68860c",
+            "xml_sha256": "0d326590b268bd55df7cd62cdfc5df41c54454a1b8f89fbcbe0324282e01d057",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13338": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "1c109e4568b13541c9620a7cd742199363b0d3c97ecf3ac01cf05b05d1f5f2b6",
+            "xml_sha256": "6cc2ca549b493e2c3e9160dff47a5ba634a8ac80ffa4f03958e3ae79050d8bc3",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11313": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "a950be18b6f53bca4b1158ca86755edeebb758e25d2f6a1f9c1469f57677ed28",
+            "xml_sha256": "6f2cdb3b7e3ee21b563574eb54e5a0e520b9df5744ba66e62c4d42c2188d6497",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8132": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "d41f64c1607ef912ce7cf22f40c270eea312afd656479e0b6eda358add8e6d61",
+            "xml_sha256": "3e8c9564fce8b74909f448a6ebe3cbaa81a5065d1ca59755e1abaeea37b45341",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13776": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "f8d5d394d06f657b0d0bab47e35d5dc1f0f3a2aa85e77419c1f1840709030672",
+            "xml_sha256": "8b3caa91348096312531777a01ba04e972c5d73fc71cc6e19172a6bf74257241",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11271F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "afb6f7273c51a2da49dcbb103405b5beb1d18220b26e2b7ead44341b79fe48b2",
+            "xml_sha256": "6f8f25a3c8f0b749b4780e0fc3e77325a8d47d9a3c0a1febe1bd769071ae4701",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13772F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "09297bcf28e85fecf0b2cb4c2fc907bf1630b26a85d90949f6f565f2bb4543da",
+            "xml_sha256": "38864034402fdf141d24a4d163aea85299598844563c1760dea7c563717667dd",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13772": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-43.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-43.json",
+            "html_sha256": "a63ab47bc5e064568b8758ec18e337e002f4081cd59b5165a0fb2da316034b80",
+            "xml_sha256": "b386ff2c5e5e13a6d7ada3bd13ea7d7618e4561548ba4a1ace1a1b2c9fe231f7",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1768": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-30.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-30.json",
+            "html_sha256": "e1428cbf9f72111db1a12576e2f15fb90addab848cd67784cf8b84e34522f36c",
+            "xml_sha256": "67acb8cfd70b556eb3df84e030850ae513b6a2b416bc2760d6346fb8c0ef351b",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 48,
+      "target_count": 16,
+      "context_count": 8,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-2278",
+        "DCP-LETT-4688",
+        "DCP-LETT-4965",
+        "DCP-LETT-5746",
+        "DCP-LETT-3128A",
+        "DCP-LETT-3137A",
+        "DCP-LETT-3156A",
+        "DCP-LETT-3182A",
+        "DCP-LETT-4903",
+        "DCP-LETT-13808",
+        "DCP-LETT-5762",
+        "DCP-LETT-4730",
+        "DCP-LETT-8889",
+        "DCP-LETT-182",
+        "DCP-LETT-435",
+        "DCP-LETT-727",
+        "DCP-LETT-678",
+        "DCP-LETT-827",
+        "DCP-LETT-859",
+        "DCP-LETT-588",
+        "DCP-LETT-13809"
+      ],
+      "B_reusable_source_body_unavailable": [
+        "DCP-LETT-1549",
+        "DCP-LETT-4654",
+        "DCP-LETT-4744F"
+      ],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-2278"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [
+        {
+          "ledger": "data/annotations/periods/1847-1850/batch-27.json",
+          "field": "cross_correspondent_knowledge",
+          "index": 2,
+          "relationship": {
+            "incoming_id": "DCP-LETT-727",
+            "witness_id": "DCP-LETT-1048",
+            "status": "accepted",
+            "direct_prompt": false,
+            "known_by_date": "1847-01-31",
+            "actual_receipt_date": null,
+            "rationale": "Explicit brother attribution for height/base angle calculation in Santa Cruz lava discussion, with editorial identification of727, supports use of Erasmus calculation source. Horner immediate question note missing; do not reclassify as direct reply to Erasmus.",
+            "witness_date_policy": "Conservative latest January1847bound, not exact Sunday composition or actual earlier calculation receipt. Any earlier independent bound remains separately usable.",
+            "evidence": [
+              {
+                "letter_id": "DCP-LETT-727",
+                "body_paragraph": 1,
+                "quote": "1412 miles base with 200ft",
+                "char_start": 5,
+                "char_end": 31,
+                "source_sha256": "4ba69eba65e0e0d125fc735ab79ece730138acb50f4c1b740ffe9684ed073783"
+              },
+              {
+                "letter_id": "DCP-LETT-727",
+                "body_paragraph": 3,
+                "quote": "35 miles with 674 feet",
+                "char_start": 0,
+                "char_end": 22,
+                "source_sha256": "4ba69eba65e0e0d125fc735ab79ece730138acb50f4c1b740ffe9684ed073783"
+              },
+              {
+                "letter_id": "DCP-LETT-1048",
+                "body_paragraph": 3,
+                "quote": "Being out of practise my Brother calculated them",
+                "char_start": 137,
+                "char_end": 185,
+                "source_sha256": "d8015a0a7eb7384edda557c294c2068b85da6e0d87b94d349d154710fee3820c"
+              }
+            ]
+          }
+        }
+      ],
+      "matched_index_entries": {
+        "DCP-LETT-2278": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "640d3664df49b3ead40e7a9a9404835753f38faeaa33e38004425cac01710694",
+            "xml_sha256": "a0793cced5d680ab001473abbdff789a4be1c5e8d4488a2677379da259615d6b",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-4688": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "aaaa5b6f336e78ecaf5b7af582eb45aec1c242e138dd263e94aa2780302a90d8",
+            "xml_sha256": "2dcd12027241419976ffdd4d3a283d16d3852d16afebfbe424934d8fd16ba059",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-4965": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "093e5b7c8d72e77481316015a74a38e8923b40ab26c66749e575a919858c89f4",
+            "xml_sha256": "783e1ddafd04ff037e18d65f36649cf29fe301d5429fb8261512c1806b023b83",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5746": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "2216c2897cddfa666dc037850db3cdf083cf6f858a0788c5a5863e91b6260f0e",
+            "xml_sha256": "75e910143dd6558cbb844ead28324b6095dd7785fe2236470f46fb8f335a5b53",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3128A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "e7fd5c0dbe4b2174bc74d9549412e5aa53d45a2c6b6a26bee03da879697acccc",
+            "xml_sha256": "6474003d6451619d0a68e029dba7e95342b3f6ed1953f303f3cb0c79630ddd63",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3137A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "c867c842e2651eded8193ab8f834bd49b49725a325d5e8859d517f480fbe2582",
+            "xml_sha256": "e9e2dc2696e5335db775fa79f58382bfb2b8f9fad45a496c050745bd924dc7ae",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3156A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "7b104330846a10b877b14402202f858412a104b79e2a0c3f60a873a42976e02d",
+            "xml_sha256": "0a67a6f8f44b3cefd716008bd41a43bc85160f6db8d79fd6dc0cd4353c7a5d0e",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3182A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "5b0202a31ddaacfbd1eae0eea49c6bf95c353a3bbb31566f81cc6c196c8c81af",
+            "xml_sha256": "3d895ce748111602683cab4c2ffc181b628ddc10f6ffd74494a8daee81d31d60",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-4903": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "b13c7236c5fbd359d9b176ca16903ce927c0c180f589ef8b5bfc4fd55dee179f",
+            "xml_sha256": "8aff0aef770e6fb51845a44cce6f5901ca3ccaf7b8fba26f2aa2e78e790e048c",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13808": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "174eae0611d594c59d5dd66503d1e32f967a5231be2aac50374c0869c448fab1",
+            "xml_sha256": "d18240458fdf66a407bbed8000e0b4dfdaea0f4b125d1173ead3f80e7fe1fa18",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5762": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "a217c70681a03e42719869fd5ee4ad262f4bfce50a000b87f806a9e4c84a8d05",
+            "xml_sha256": "d6e159240943cf1434f242ccec497a7a90932629e5ae5fbb5b38a07a173d10f4",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1549": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "bc5355bf9457edbe966901727be7f9566f388b6749bce605f786494273532863",
+            "xml_sha256": "57dab6b8cf4bf56da7e4b03e0d81f7ee740c8d152ea1e5228956ff797fc95831",
+            "body_read_in_full": false
+          }
+        ],
+        "DCP-LETT-4654": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "c9621d2e294e7a80e6db15f6acb13ac2602133584a474ab963a94a019ca93bf3",
+            "xml_sha256": "599f1afecb54d4d8a4c0a7e99d48ed118fdf18fef0b95c8e217bf42069a24aab",
+            "body_read_in_full": false
+          }
+        ],
+        "DCP-LETT-4744F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "7001835c07afa549facbc438cd6ab5df3b12e95df7ab5ba8891f29382b8ca020",
+            "xml_sha256": "9a61fc21a8bae905f73515abbbcc76fe443d7c0337825a7b240b3c631971c4f6",
+            "body_read_in_full": false
+          }
+        ],
+        "DCP-LETT-4730": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "eefe59e53c1f772a9ffecc8aaf5f374ce7bda053910036fb432620d13ed4c0cb",
+            "xml_sha256": "3f2173aa6dabe5ac37aae55a34c129ce1099b76e701cb3c5f7bf6142140118d5",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8889": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "7464ff819db0209f87f2196129bd247fa18c3b052377bc8c1232ee333c884346",
+            "xml_sha256": "cdaf882d96a240ab71684365a308a12f3402e16582b9b8922eceb06b1de63dc5",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-182": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-18.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-18.json",
+            "html_sha256": "4d2d00f219d3adb53aa37e9a231564e1cac937a38da867c17b53da3ef05621a7",
+            "xml_sha256": "56448dec3299f51685f0e5cea8ac30eba1b13aa8901dd29114c2512b6469694c",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "4d2d00f219d3adb53aa37e9a231564e1cac937a38da867c17b53da3ef05621a7",
+            "xml_sha256": "56448dec3299f51685f0e5cea8ac30eba1b13aa8901dd29114c2512b6469694c",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-435": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-18.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-18.json",
+            "html_sha256": "e5026fce9a9c15c59075171063ab7499de02b4cd9ca30717eb118fe5641bdb5e",
+            "xml_sha256": "5e9004c571bf7d5ccdd39a2a05b9852543d7c6f45310bd6ef5ddc36fb6d9501b",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "e5026fce9a9c15c59075171063ab7499de02b4cd9ca30717eb118fe5641bdb5e",
+            "xml_sha256": "5e9004c571bf7d5ccdd39a2a05b9852543d7c6f45310bd6ef5ddc36fb6d9501b",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-727": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-18.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-18.json",
+            "html_sha256": "4ba69eba65e0e0d125fc735ab79ece730138acb50f4c1b740ffe9684ed073783",
+            "xml_sha256": "c3726c4724616d26274217be7b8a512350ca317e81b3772f96eb6a508db1334e",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-678": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-18.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-18.json",
+            "html_sha256": "96cea1b8f89ace5a5ff7e90c5a4f04b02e47603626f984ed5134db80387c8b7f",
+            "xml_sha256": "ddebb2ca7b77d6d83d75c90b04068cb8d2175efcb60a8238bb65a9dc058b0a65",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-827": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-17.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-17.json",
+            "html_sha256": "7ef932a6bf2fe5e5a554521b4d8eb0bc31ce30eeb179ce73e620409d32d27f63",
+            "xml_sha256": "d4ed51bf91fdce1e46b14886a778d32a364e7347a4636c200ce4c72f3345e578",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-859": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-17.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-17.json",
+            "html_sha256": "42d22fecd21c45e5983d6e6d72ac9e5eb9df0725119f0aeb4b15ce782cf812df",
+            "xml_sha256": "264448173a1a776d4ce901800a19e119a9abb7f5a981ec5dea9e1c29252efc46",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-588": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-17.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-17.json",
+            "html_sha256": "f04e17bed4c9e665627faa191f64257e55fd8802d2d59ce8fc92b0caf228ad0e",
+            "xml_sha256": "53c3aa9dfa60f151233fd4f844567e1675bcde388c0a712be8c3aef5e0d0198f",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13809": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-17.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-17.json",
+            "html_sha256": "0fb02f2a739a5bfca1f7c6fd096be325ef3253d367908fa3daad7b174898ce5d",
+            "xml_sha256": "e4a224c5fc975767bf4dd3fafaaba47db244a335f46163581224d1bb1f15375d",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 49,
+      "target_count": 10,
+      "context_count": 8,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-578F",
+        "DCP-LETT-5075F",
+        "DCP-LETT-6338",
+        "DCP-LETT-8833",
+        "DCP-LETT-3038",
+        "DCP-LETT-6612",
+        "DCP-LETT-901",
+        "DCP-LETT-2902",
+        "DCP-LETT-3402",
+        "DCP-LETT-3408",
+        "DCP-LETT-401",
+        "DCP-LETT-408F",
+        "DCP-LETT-409A",
+        "DCP-LETT-905",
+        "DCP-LETT-919",
+        "DCP-LETT-990",
+        "DCP-LETT-13812",
+        "DCP-LETT-1004"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-578F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "ed66c2698475693ed71696413b23198690d8abe23133fe532f2183d60ee51c78",
+            "xml_sha256": "d021fa426e70e2bfbb5724b225342051b68c92d3213fbc4ff978e9e0cc14ad45",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5075F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "7bfa3dbe2902522378b4f720cd4c7a79e7516ed16e7eb3a30bd451a3b49df43e",
+            "xml_sha256": "4e111d6a79c9a4c9fd8ce72c90e6cea979d2515329d977b63c94cb1268eb96e6",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6338": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "841aeeef92789c247c07e1bb3702ddf6a0b4274201d4db8d84867955677c7100",
+            "xml_sha256": "52d2a19c746da68d7f890848086175f3680b263a0da7294fbacd09b205d965f9",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8833": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "04eb782a544451fd1e77bda956e1993f3f471f4a130b237c5f481bea2a32458b",
+            "xml_sha256": "77072c75ecc0d3cc87e76f8d1c7cc634a6e9a6a61ef51f4fbe7183fc9d99518f",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3038": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "0cda9c5fdf496e40eb64dcae3895e516cd5f1a900745f7ecb7baa9e2874a4a82",
+            "xml_sha256": "afa0580665af51778b7a86c5e7d2f2456df31fbbe5cf00a3b7af290faa5eb6b2",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6612": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "3466753fd6aecd835465feff3fa37be18d7666fe596c44646e020d745ad5ce3b",
+            "xml_sha256": "bb37cc19d9929bee3d8269da74a493a03d46a3ddd5baa0acd6526ad7e2e42460",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-901": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-15.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-15.json",
+            "html_sha256": "a767ebf251d49decee60424ad25e8bbf33bc6c74c25c608101a4951c41c4bb8f",
+            "xml_sha256": "702847e408b004d642aecd82c64a1819f75956b3e76dca98c4eaeb055334d918",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2902": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-38.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-38.json",
+            "html_sha256": "a1d3f5412e7d592695e368e2268de1e9829db49212c53a3ef4ca5d38e94afa9f",
+            "xml_sha256": "081cb4450488e94f6877d9a351827940cbcd91fcf20c19cdfab0db172c7ddeca",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3402": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "1e28598d00b1cad9d074c5175ec6b80f25833dd7e0d4dc2db92fafb636e6ce31",
+            "xml_sha256": "dab3e95100f9ea4bde285fb66903e5876cdde144d30cb5200a29fe211a5d1381",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3408": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "d58362b128e680cb10dc29bc65230bb77125d402ac1581d0dce4ec58890bade0",
+            "xml_sha256": "a37d6dd3ed207eaffd5ae058e9037e4b7c50a45e1331cdd2e5cda19e1763bf59",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-401": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "2490bcd2d9755bf0c5dfa14602f89d3f2301eb73dc5a909faa327ab69cbdd97c",
+            "xml_sha256": "bd3326954148a697e0d99f1c898724ddbc325eb93f017f31ed9b26a456f8924e",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "2490bcd2d9755bf0c5dfa14602f89d3f2301eb73dc5a909faa327ab69cbdd97c",
+            "xml_sha256": "bd3326954148a697e0d99f1c898724ddbc325eb93f017f31ed9b26a456f8924e",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-408F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "cc059a42b3443aab69c5cdccb4fa2a49fa07ebf1a1aee35dc3905e7c452641a0",
+            "xml_sha256": "5ed84906dc57feed600a814f2e3c114f8af4c134a2227a8bb7f9443da9b08b16",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "cc059a42b3443aab69c5cdccb4fa2a49fa07ebf1a1aee35dc3905e7c452641a0",
+            "xml_sha256": "5ed84906dc57feed600a814f2e3c114f8af4c134a2227a8bb7f9443da9b08b16",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-409A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "8b0f430211c6b2d8ca0807fc48ab8daabd44cc01f8a073e713a7b98b31bad179",
+            "xml_sha256": "d1e16ab90d2767aa1be06a2b9267db32e8e9201e9a665f4bb935e6d31ec15d2d",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "8b0f430211c6b2d8ca0807fc48ab8daabd44cc01f8a073e713a7b98b31bad179",
+            "xml_sha256": "d1e16ab90d2767aa1be06a2b9267db32e8e9201e9a665f4bb935e6d31ec15d2d",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-905": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-15.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-15.json",
+            "html_sha256": "d84b1072985dc60dbcfb5f3d12787f8fb3b6a429780ee5ac30a1607abd05cb3e",
+            "xml_sha256": "315cdc469034e1cc6b158ca0103f4eabeabf1d7f9eb9bd77a1d1bab6ad493130",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-919": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-15.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-15.json",
+            "html_sha256": "c50dab718302ac93e114232d196336a752b9807e77033ab9615b79d20fed5ba6",
+            "xml_sha256": "dc536da2f24d811e63de61474fda82f8d2e11befde635b3a4d5aafd49b6d9fbf",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-990": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-15.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-15.json",
+            "html_sha256": "4f2eb61903e851036f1557023d73f66ea3f9a6d594a90a45d6f05a3698aee5b5",
+            "xml_sha256": "c381db5bb1f6a3443c28757d9ff96b1f3528aaa60a23103736ffe472383ed8b1",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13812": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "979a0aa96af7ba6040914e1918f244af65d1460a8f622b9a06677468a6388aa5",
+            "xml_sha256": "33144a601d71ae4f7b6eed1294237371cb8968ab58870f3be4cd043837397d5c",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1004": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-15.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-15.json",
+            "html_sha256": "4f184dfe3adf2cea6a71fe30f824048f358f206fe2d3a5125aa01c5a73db3f06",
+            "xml_sha256": "738cd28c062cc83993c24ff444e5e934924db18c649503d88172a8c18babb453",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 50,
+      "target_count": 17,
+      "context_count": 2,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-3526",
+        "DCP-LETT-3584",
+        "DCP-LETT-2070",
+        "DCP-LETT-7470",
+        "DCP-LETT-3960",
+        "DCP-LETT-4363",
+        "DCP-LETT-3464",
+        "DCP-LETT-5827",
+        "DCP-LETT-1544",
+        "DCP-LETT-10890A",
+        "DCP-LETT-8134",
+        "DCP-LETT-2032",
+        "DCP-LETT-3853F",
+        "DCP-LETT-1865",
+        "DCP-LETT-11027",
+        "DCP-LETT-332",
+        "DCP-LETT-644"
+      ],
+      "B_reusable_source_body_unavailable": [
+        "DCP-LETT-1439",
+        "DCP-LETT-1555"
+      ],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-3526": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "3faf91314af0ebaf82a65fc981154684f052b41d2b69a54a6ca75128a55d6fba",
+            "xml_sha256": "39fca0c3c21d0cbad11c71903707caa6eb9d517623f44d9e937266dc094aacb3",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3584": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "f9ad8392938a9e320668bd7ea0cefdb2e1afd76fa65652cfa7d216175246779e",
+            "xml_sha256": "d0ce090a6699bf96f4439914feb9f6a036b4d93b690fab6371eb56d7e550308a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1439": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "66182645415c6a487c084af5f03d59d3740ac51bae81b796e67e4410e0db27d8",
+            "xml_sha256": "68be595cf2148a6f387fa4b571c9fd70f103b909aaf654c5457e2bad8e9af3a6",
+            "body_read_in_full": false
+          }
+        ],
+        "DCP-LETT-1555": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-44.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-44.json",
+            "html_sha256": "9c163b77b46da5874c93fa694ff6185b93e0e7d3adcadc016b5e765967a9cb2d",
+            "xml_sha256": "4759adfa97c09819f6438a41b8cc2f35554654d6856880096f1bf6141e4f8047",
+            "body_read_in_full": false
+          }
+        ],
+        "DCP-LETT-2070": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "bbe876cd48159c408d629c7e277d0d44e0af6ec6c5555844b2c41ed3477362cf",
+            "xml_sha256": "d02d893c7cbc9aede2982655544de5fc493fdd0b49e9fd219a3338f896f0cc30",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7470": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "97d669296e26c915c1956ba36d4b1e970b98dbdf9cfa24c7c7ae0bc56a8e7b61",
+            "xml_sha256": "9cdec22c01297ac21982199398e937046ce08956b9eaa7d53ff6805bc3889af7",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3960": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "a6bd5657a57dd5020366eafac72f77747aebaadd5759b293e8892f9a9e72908d",
+            "xml_sha256": "0292ef3ff7c392ed7ea06624f754c5647dcd70c4b3dd7caf71ef1f7ecda1e701",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-4363": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "f6bdc884e17d87690347a8ddae8488302bcb3b880c5b09611cfb9d71dbafbfc5",
+            "xml_sha256": "7cfef23a82ad9c3e93b570b6c28db73e696579e91b56e63ac7ca9a4e1bbddcd3",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3464": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "41a304d41c0cf6d762d18d27a53f03dbdc8fe3196c9c11c11697e3a2c380144b",
+            "xml_sha256": "2370bf462bb05f54b1e8d0f74bdcb7fb88f1d29c5fec4145bc5950f6dcd1b787",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5827": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "799180eb966339f606e31a55ac0fbaefa7abbfc4ab81063c1766e884c3f518b5",
+            "xml_sha256": "095c36681e8a889b6428d512feafc0911cbedcf8d83998be31be370d0f964593",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1544": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "2713dceb0af6e1a1cd7faed8cbb7d7cf746246987307cd8ded15652dbb059aa3",
+            "xml_sha256": "76dc05d8fc568838d5caa8f03b8dfc5b1ceb45e0294ee79a8da394168f123fc8",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-10890A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "e6d9f55fe8f6376f9d4b3562a2f5e4d70da658366ddefbef2bb123d30fd25a47",
+            "xml_sha256": "bb716a7e5c245542f84e0fc41a708d000fbd7c81f83e6951789f52b1644ed8df",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8134": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "6a585d1b0cbd34a4826729b038d9d54e379f98bf85f51981b5bd054dce2f84ad",
+            "xml_sha256": "170969bd34a0420b64fad92d3a19cd31f6448099a382b22f57c980cf4a60d41a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2032": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "dc48fd35f333030ac1c149d8065d9ae3fac88f8357bd3874b4dd5084bee32771",
+            "xml_sha256": "9b6dce4f4101832c29d39a75a280116500b1416b007050f5853fbd376548b2e4",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3853F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "4422874d4a45b1a032b6f98b67c28f7fd7e4d3272010143daba678ea7207937a",
+            "xml_sha256": "aece25f2eb1714fd1749db89af049747a54893f6fcb1b60407212acaca40580d",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1865": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "6a53affe2a141c872f14c138fc3a1d34da6097c4741e3f48777e1e161bbf9be3",
+            "xml_sha256": "f511386c21c96d185ed020df2c0bc454c48ac2201c9e89f834014030dadc85af",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11027": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "cda09b38871cb99fa1d6db3fa7e337f89517447fdbed51ab6cdaa2bcf4ad23fe",
+            "xml_sha256": "7b45acf50faef2545471af349ce7deb0bd4089c14da4adfbd0a6bf62afa37921",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-332": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "ffca518f0ab2d084c7a04545486b87a41e13e25e00e8183b4f9a5236103e59ce",
+            "xml_sha256": "b8367ca5239499b05f6009681343c27c85ac05922989834db07715b1c3128d72",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-644": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-46.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-46.json",
+            "html_sha256": "bdb0b0d68c25102eb56132b5a4271fab7030d81d8f5382bc6858d1cd79b18d38",
+            "xml_sha256": "119bc81007c76868539e9e955aa3155486fde3c8bd4d5e6646ecd37b3b3c0e0a",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 51,
+      "target_count": 10,
+      "context_count": 7,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-6572",
+        "DCP-LETT-8854",
+        "DCP-LETT-12879",
+        "DCP-LETT-10598",
+        "DCP-LETT-809",
+        "DCP-LETT-9448",
+        "DCP-LETT-10533F",
+        "DCP-LETT-6911",
+        "DCP-LETT-9206F",
+        "DCP-LETT-2249",
+        "DCP-LETT-228",
+        "DCP-LETT-547",
+        "DCP-LETT-549",
+        "DCP-LETT-867",
+        "DCP-LETT-956",
+        "DCP-LETT-989",
+        "DCP-LETT-995"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-809"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-6572": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "8b09748d2a1a1ea52e40a35fa4683a40586fe78095c85e80904036bcda1138ca",
+            "xml_sha256": "b841cbd5bb3e19b506e9a1035230d281d3a3367844728a9c4f896eb824f23834",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8854": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "ffbec84681cc3fb1d35a50673a5e35d3af7338820b6a882ae3213e48c0ddf911",
+            "xml_sha256": "1f054acb30848bcc14842da3b6e6968c086b52282f27fb1185eb2b97277ebadc",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12879": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "177286975cd40a32d43c6e97ace2288a76125ba2b2d6000882523d598151abf7",
+            "xml_sha256": "7046e5475bfd9cfab9f42e7d8a9aa7042997f021086367ececff9feedd7761e4",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-10598": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "aef9569e35af6ebcd648740cbcca080dc88577b4992bf216644f991db0960598",
+            "xml_sha256": "f300edbdb38cb9d6255489ed3f3cbf04979cc0bc6114be9aca0654c42439a3d9",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-809": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-17.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-17.json",
+            "html_sha256": "a7b4cbbe7536b8c47c84abe16b71d2f7670b4f93f60a7f898fe19cb7f43b1bcc",
+            "xml_sha256": "4cba3dfb047140a247631349c40157bf4a8ca20953db50254ad7b8ea717a9db9",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-9448": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "2f90cf6db807a9f76f7c6b9e31261c9c9730469dfe90335a19a926733d877bbd",
+            "xml_sha256": "c66ffe5f6def4c113fac3d30e3cbfdb88e010e2626125f2d7cce46fa954df572",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-10533F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "7eb9a50820a4d7c3f5b7bf675ffb16c46010970c93e3392f75b99ab958baf235",
+            "xml_sha256": "ccbdd7740bb1bf136a53e77e50fba13cc90f0ca47f205f13ea61965f8db3ca8d",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6911": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "609b1baf51c6b6590295fa44adaee7cc5b38a8b8cd6a33682b312555163ea3c2",
+            "xml_sha256": "897886982ffeaf3c7844fc263a305915ed391338852def0f955bbfb402e56684",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-9206F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "6a175602cf89d0ab4736e936d42a4e73acf76065d06a23f3dc2494519ba93ebf",
+            "xml_sha256": "2567accb85f6b6e5982f55b41327981e816bbfaa92d143029c3818849413f4e9",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2249": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "8c553b342e4201c041d6e0faa06640bc46bb814c2570b5e9d49fcbfdf8493c6c",
+            "xml_sha256": "091b896fb4850b15415f2e4584a3b5322d7c9f3d94545df179c8ffc4db89d901",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-228": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "e92209ac360961c4c8c8089d0db514c45127b8bbe38bb485b4c8e42a98bf843c",
+            "xml_sha256": "c22b91d47d6176b2a3f2edee35acebc0aac18542d05d9dad952f8ff821c99720",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-547": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "c61d260343083b32e071d958c79f3ba5fa933d9a257c92b4cc8c81a6cf9f8c11",
+            "xml_sha256": "30e2f4a050d03aa5cd7cf445372f70c4d7275d2ae9a64e0fb5afb582436eaa17",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-549": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "9337d8626b29959097090d5f806be95b153e526cb574ed01e62e160e9d16f255",
+            "xml_sha256": "999e0c524854866299eba309b8a67cb6d827cfb36223ed4305d58fc999e8e72b",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-867": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-17.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-17.json",
+            "html_sha256": "b33cba8ea122479672606fb44fcf975ed6daa409a9ea99bad0b397e23e2d9806",
+            "xml_sha256": "f657fd5587cb96ad82bb8302614ad6750e2929cdf4e391557f26b181f8945d35",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-956": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-07.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-07.json",
+            "html_sha256": "f6e532852d92eb5bc347241e8378ce5ded72c03c6735563ba95bb3cf0912d4f0",
+            "xml_sha256": "8ad392ceab4028285fd5a7afc94e3b31ac38dbe92940a6243595caf34e1f80b2",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-17.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-17.json",
+            "html_sha256": "f6e532852d92eb5bc347241e8378ce5ded72c03c6735563ba95bb3cf0912d4f0",
+            "xml_sha256": "8ad392ceab4028285fd5a7afc94e3b31ac38dbe92940a6243595caf34e1f80b2",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-989": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-17.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-17.json",
+            "html_sha256": "b3298eda5851279735971cc968abee6a7dc9fc6d9e75b3cf40937215db968044",
+            "xml_sha256": "08192ea4d9a235907b227bacbda8327a04126ed306e243bef2c5295086b77e64",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-995": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-17.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-17.json",
+            "html_sha256": "1eb4c65668684be731ad926ba61cbe655b332698ef2b8ece45b7ab0a204aea7c",
+            "xml_sha256": "67f1dd5690ac0eac0dc89d8b940ae793c7ca857a10bfbd3eb129cc8618941bbd",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 52,
+      "target_count": 12,
+      "context_count": 10,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-13814",
+        "DCP-LETT-8703F",
+        "DCP-LETT-5840",
+        "DCP-LETT-5702",
+        "DCP-LETT-7529",
+        "DCP-LETT-5059F",
+        "DCP-LETT-3150F",
+        "DCP-LETT-571",
+        "DCP-LETT-6311",
+        "DCP-LETT-970",
+        "DCP-LETT-12874F",
+        "DCP-LETT-8718",
+        "DCP-LETT-339",
+        "DCP-LETT-476A",
+        "DCP-LETT-487",
+        "DCP-LETT-548C",
+        "DCP-LETT-660F",
+        "DCP-LETT-868",
+        "DCP-LETT-895",
+        "DCP-LETT-921",
+        "DCP-LETT-988",
+        "DCP-LETT-1005"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-13814"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-13814": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "bd20e93dabb001796b9c42f46c05cfc6a732f1faebaa2fcc0a258b8830e9a558",
+            "xml_sha256": "2728fce46d0639b344e8fc2b0437d787cf37253eea7e70c2dedb6a8270454688",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8703F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "125b891e57652ca045a64f295676872986448c9ac470542c48fd38add5f9c95a",
+            "xml_sha256": "02b70062364a6e7744ec189005bd4ba47b0bdd6a88ed27ff440381b680278276",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5840": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "6d005de0095a9fb44dfd2812d9aabdc21e543793324a609d31ae8f4ad79bb8f3",
+            "xml_sha256": "9bf5084948fe6699b3b2b703f31cb833ebabcd21ad51173e103f57b7768942cc",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5702": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-47.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-47.json",
+            "html_sha256": "bea58b66ee4c40f7833b279ddcb8d37c268802b3ae72451a00a82c7fbf8fecfa",
+            "xml_sha256": "0b7b4c858038a0b2128aa872699ee98dc86acde48a9b2b0a63dbd11dfbb01f52",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7529": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "d502d3ec8e30092cb4826ee2648083ce2709baccd9df87a8e4b57290dccf5e5c",
+            "xml_sha256": "eea434199293d93b4fde42c9b254f711dc2b1b7ce2b1d320c92f3e09edb40628",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5059F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "37a23bad51b784013cde8c731460c48644a1c5b91295edb195c99bb6d1fc212e",
+            "xml_sha256": "f02af2e12f2cc7d0a76b3a4d49d5344659f739a8f116f73e37f25c96965c1a80",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3150F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-45.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-45.json",
+            "html_sha256": "52990fc3066345293d37939bd6d043f401a55f42dee8ab1913ab0f829f13ddfb",
+            "xml_sha256": "ce524429d5f8e044e16537250553fde6a39ad9a90df6dae5c2225106c1bf93f2",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-571": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "3a32198435911d43c565a77433686c72880447f67f3e52990dd47c13905e7283",
+            "xml_sha256": "bdc853ac5d431ec9d12d1c42370c845d0e49cedc35bfc6997c1cd6a2064e61fe",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6311": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "474e9d527c734b00801be6e39d15e5e66035568ff9e7dba6ac49c4b4c68edb61",
+            "xml_sha256": "f4446bc1f90cd8575b2e5c790aa756f81540d5af37998471b05dd40aa1c84a81",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-970": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "e68b212241115eb5d824cfeadeac85bbc063b8b7cb539a6a900e2494963ab812",
+            "xml_sha256": "5f126712c06659df9ed64dd7752b6d3c4098103cf2ef669524aae9493b5464a1",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12874F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "aa29e8f19dfa32e223d4467e0d44d830f205dd60d53273483805608e9f9afc38",
+            "xml_sha256": "a45f7336accbf2a26b03ff5dc54c7d4af649a0aaec1abe1f9698ca8453351503",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8718": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "1de9f76f2f0822cfcc87c43ef15adb8eca464b840409d663e6366ad1b8a69e98",
+            "xml_sha256": "d6d4025907723d13d1aa633cd266bd62ec9042308f4965a8322f24fc190391f9",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-339": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "80f3f33cbfbfdf8d92f968a37a3345ea74c51ca285465bddb3d26650465d7453",
+            "xml_sha256": "27315817c3336e532469ede484ff326f510e197fb59b744dd2c806de991ca25e",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "80f3f33cbfbfdf8d92f968a37a3345ea74c51ca285465bddb3d26650465d7453",
+            "xml_sha256": "27315817c3336e532469ede484ff326f510e197fb59b744dd2c806de991ca25e",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-476A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "cd45e5732d254a5dd5fd6455aef96aff364701e4d9e1feb8b35d6c144a385a1e",
+            "xml_sha256": "5d1914ecf524369a133b0200f5837d3ba2b42b9df631e941f6798bf82b7997e6",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "cd45e5732d254a5dd5fd6455aef96aff364701e4d9e1feb8b35d6c144a385a1e",
+            "xml_sha256": "5d1914ecf524369a133b0200f5837d3ba2b42b9df631e941f6798bf82b7997e6",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-487": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "66a9c7730a22fe5e152e2b2a29458acf99a1b74ad3fd86617230324e308422f3",
+            "xml_sha256": "c26f18bc2b96709156ad73ba360febac78e71374d9a80398680ffd8dd8efeea8",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "66a9c7730a22fe5e152e2b2a29458acf99a1b74ad3fd86617230324e308422f3",
+            "xml_sha256": "c26f18bc2b96709156ad73ba360febac78e71374d9a80398680ffd8dd8efeea8",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-548C": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "b3a21b464e67b0487bbab222d9375899297c3b4c974f52f80511387b12a94e52",
+            "xml_sha256": "7bec5c91e2930f1e591c3657205410bf17bd829f74600e80b70fd062784d804c",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-660F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "494b3ffc0cc54916fc6837be506f65cc6906033eb5b7f407f3e5bbb33cedf5a5",
+            "xml_sha256": "feede16b0bfe2e2e931993d56024157c47bdc9427241bccf8ac9ad132a4df9f1",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-868": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-23.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-23.json",
+            "html_sha256": "75b84b4a0aea3309adde9e75978a91135561e6082a716f3e2e8dc879da8a7870",
+            "xml_sha256": "55c9f63eb9b1c18e873b29e5d547fd39211085be004e75f01f88b273fd848e85",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-895": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-23.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-23.json",
+            "html_sha256": "cdc05fafcf696c235c39a8f6fac7d5ca7c92960889c2225812332028f6456bee",
+            "xml_sha256": "6e63abd450f626d57b58e33504a6b6cbce5b2846c02a0c667c76beceb6e22bcf",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-921": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-23.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-23.json",
+            "html_sha256": "7f8a9d8263f025cf92a9b6ead8753c1469a949c847c926199b3603ba9e841375",
+            "xml_sha256": "8ce048511850bf40c392c9a896d0fa30cfc0aaad152377f886cb58676589dd43",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-988": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-29.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-29.json",
+            "html_sha256": "5469a941bffdeaa90b992d480e3b1ca6212c32de4a1e98d45b7237f1a456a546",
+            "xml_sha256": "601f5d85fd07bea0423282af8f26a02e13ad28935aceea10f6fff491777305ac",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1005": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-23.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-23.json",
+            "html_sha256": "cf91f0cc314f8274e364dfacf8b17b4fc2fc772ada1573c3f4466e72c6870996",
+            "xml_sha256": "9aefe714b6147b4d30e15ca9d10eaeed4250b4fa801f1d3403dcef57e2f46775",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 53,
+      "target_count": 10,
+      "context_count": 3,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-2096",
+        "DCP-LETT-3074",
+        "DCP-LETT-5481F",
+        "DCP-LETT-8456",
+        "DCP-LETT-6374",
+        "DCP-LETT-669",
+        "DCP-LETT-8129",
+        "DCP-LETT-11415",
+        "DCP-LETT-8312",
+        "DCP-LETT-5261",
+        "DCP-LETT-668",
+        "DCP-LETT-690",
+        "DCP-LETT-999"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-8129",
+        "DCP-LETT-11415",
+        "DCP-LETT-8312"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-2096": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "c1afe5b7b67f3bb10f34775ce4294992a36b03db20c4650bea39b4b906ecee71",
+            "xml_sha256": "4c8c4bb24511be57f0ab664d08e3c8ecdf01ba5b416ce466aaca8c4a31f477f7",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3074": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "40af575421231aecb24eb9c4c435299cae36ca2a527f5b19579d5580251915ea",
+            "xml_sha256": "4ecca5ebe50e0dfa0ab77f67d6327386d92d1f11f79c2890cd6fc921bff8845a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5481F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "4921b2c67a9dd7bccb9a496e7b9d6fe7e1a15ed91f0e258c237c5253eb6f4152",
+            "xml_sha256": "870ea3fd61cc678e3792d88eaae2ec264b71a6d237731468b5dd054025605753",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8456": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "9c01530ae347ffe73e5a41e6d5e663275c1c059a3cca46a3b842001e6fcda071",
+            "xml_sha256": "84961e41aa27ae3acb903ea0229a9edd70e6cac14d111e1de160b6eebe87420d",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6374": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "d45a5fe28190dae6342423cb754d09402417700e39678ae93ea8d9c9d2b9a0f5",
+            "xml_sha256": "c363d4ab037d91cd35aedd3456be4b52f4b8268bbf6a9348afe1e2ffe51a3dd6",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-669": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "8dcf42ea5753cbc756feef8be20b3e238549195d183b5cd0d1e63e5f5368ba56",
+            "xml_sha256": "067769e4277b6acc8096289e366121fb888c88c678d335a9c858e3918f71716b",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8129": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-49.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-49.json",
+            "html_sha256": "42cf4112e1821026c050986a4abde2a6126daf4ab9dd76cd06e2875bf2bc26ce",
+            "xml_sha256": "ce6213b0d428d847e06828a31582b5ea25565efdd0adb5ddb3ae227f297370c8",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11415": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-49.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-49.json",
+            "html_sha256": "c571d2e3aaff9beef56ce0c20500afef53b0509c156b4a7cbc455d8fb97df974",
+            "xml_sha256": "1709be6202745a6a2bed12d5194a71a5eb7c10f5d918b241ea19be968f23c241",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8312": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-49.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-49.json",
+            "html_sha256": "0057c7445ce076966880918c02697ec2b08ed4bd942f25e3d7cd3ca2eb9a28c7",
+            "xml_sha256": "1e6a4426b73de0e443d6b93cea6b45551e47764996d57369a7f00d03af688e65",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5261": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-49.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-49.json",
+            "html_sha256": "a9e4f5c276ae98fe991e034cc77ce69ece2d1be8a2cad29b62b2166591923556",
+            "xml_sha256": "45ce6244b85920aa8c0d6e651245c4c51d71534fa3288b5003dec3d2ab209642",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-668": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-30.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-30.json",
+            "html_sha256": "19c08f3eb6ff1792c4585a9096d1e4f0c0e98ea64464e1f92781268e35eae482",
+            "xml_sha256": "7b6a4edea302b4959d6ccc2faee6deff9ece95d52956632855026e940a9452b0",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "19c08f3eb6ff1792c4585a9096d1e4f0c0e98ea64464e1f92781268e35eae482",
+            "xml_sha256": "7b6a4edea302b4959d6ccc2faee6deff9ece95d52956632855026e940a9452b0",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-690": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-30.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-30.json",
+            "html_sha256": "fa5a99bb9d3833f0e68273e5c170a8992efafe69167652c7214e35f8087f59bb",
+            "xml_sha256": "8ad535014cebded4bae3e947146553a1eec8d1cd5139afd170747652ed5da3ea",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-48.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-48.json",
+            "html_sha256": "fa5a99bb9d3833f0e68273e5c170a8992efafe69167652c7214e35f8087f59bb",
+            "xml_sha256": "8ad535014cebded4bae3e947146553a1eec8d1cd5139afd170747652ed5da3ea",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-999": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-30.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-30.json",
+            "html_sha256": "c316745b1aa893759a579a0649f0fd111317e72a38fd7a68dcc6de1d5c5188fc",
+            "xml_sha256": "fc9c61c4eab21718864af89b108db8a6dd9ef578d54b61853738324233db5593",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 54,
+      "target_count": 6,
+      "context_count": 4,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-559",
+        "DCP-LETT-6520",
+        "DCP-LETT-12778F",
+        "DCP-LETT-7788",
+        "DCP-LETT-3895",
+        "DCP-LETT-3292A",
+        "DCP-LETT-533",
+        "DCP-LETT-535",
+        "DCP-LETT-548",
+        "DCP-LETT-1147"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-559"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-559": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-49.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-49.json",
+            "html_sha256": "0136152cb912f05f868a7ab252b452b68916705668f125136be82b01baeceb8a",
+            "xml_sha256": "8ce9a37814014c45f1ef07d182b466e0b37fe0e7310b1c1404fbfd716159308b",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6520": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-49.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-49.json",
+            "html_sha256": "c0727b967a661034e4a1da46dd4c397aaf7c16843c0e36ca84573a4957372f70",
+            "xml_sha256": "50ddb2aca895b3892a43006c90a57f8ef26bb1a5a190e01e83980819f278ff3a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12778F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-49.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-49.json",
+            "html_sha256": "2c0844c5b6fbc121366d6f33498223d2aa639f3638a737976a015ecbed6558af",
+            "xml_sha256": "fe980bf5b339f848fb7068ccda656409e9e16bc18bf911d5e76238c75388a9b5",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7788": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-50.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-50.json",
+            "html_sha256": "55ece46e34b7ee7ff6aa228f6ec8c9b27d212981fd73d5f582d7da46faed2b60",
+            "xml_sha256": "86bb124059ebd7fbbfd571450b39e9f39be6ababcfea61eac169e8657425b612",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3895": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-50.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-50.json",
+            "html_sha256": "4dc4463c1bb9345b3a8c11751c1e5d0630bb9813da99fd41ae570a2c9c55bbca",
+            "xml_sha256": "b4cd9d1343edc3ec3e5f9d63e44dae476ec5a9b3f37346aea3accb325dc21ecd",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3292A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-50.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-50.json",
+            "html_sha256": "6c0a7e8cda544cc76c1d5d6eacfa7a5e57e41ebb1e2aebe1f47eed399882c822",
+            "xml_sha256": "f625b3665247dea6d6aa588cfeb405a9db8d82da52ad6d9a7759b49c51b3a42d",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-533": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-49.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-49.json",
+            "html_sha256": "4c031d14698b7d00aa2346e3f227d40ca0d57ec33d52ffdcde85686aff81c2b9",
+            "xml_sha256": "774d405cfcd4a38b50d818af74a999236222d9163077aa146f35646e2551276f",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-535": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-49.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-49.json",
+            "html_sha256": "aa993e4d155c96b0a3735d94da6387bda5dcb1e494bb36a68e6a177b63a32e77",
+            "xml_sha256": "432731d9f6b8ce54b606e56a2bd2b55cee65039f7a9c1184331dc1e98c0d62b1",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-548": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-49.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-49.json",
+            "html_sha256": "5cf4bc4f041fb152200c28754d147e9c20e1072844a61a923e49af7c070362de",
+            "xml_sha256": "4b76f3adece13b02a10e282895cd32aebce44890972943b6dbc0e66f137e21c8",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1147": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-49.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-49.json",
+            "html_sha256": "2d96b4f90a47b1ca9b77906445a0768dd72273cc856ea381609e8c53c481b1b6",
+            "xml_sha256": "97e12376cf4ff9ba6945d0fa9bb78ee06c579e8311892765316904030fa13277",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 55,
+      "target_count": 11,
+      "context_count": 4,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-7361",
+        "DCP-LETT-7411",
+        "DCP-LETT-1786",
+        "DCP-LETT-4735F",
+        "DCP-LETT-6134",
+        "DCP-LETT-11765",
+        "DCP-LETT-7415",
+        "DCP-LETT-6442",
+        "DCP-LETT-2235A",
+        "DCP-LETT-6690",
+        "DCP-LETT-356F",
+        "DCP-LETT-940",
+        "DCP-LETT-1017",
+        "DCP-LETT-1019",
+        "DCP-LETT-1020"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-7415"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-7361": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-50.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-50.json",
+            "html_sha256": "a09ff327da0b63310d732ad7ffdc69c60468e984802d6556755e4d3a01f71af2",
+            "xml_sha256": "9ffe596ac22ab4e559e78ea5717df59ef75ac5c5ad301526f21965d3d8166822",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7411": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-50.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-50.json",
+            "html_sha256": "c7d6f94b248e0f910a3866614f36023a7052f32f2cf155d9dc22ed0c8abb43ef",
+            "xml_sha256": "490b13913f90961f968b3a9b307e284655c2ce567aec1486932dc24fe5455ad0",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1786": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-50.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-50.json",
+            "html_sha256": "86021c15ab0f3c4dc482a8dee3e7ee126fd54aa0f5e0a565f0c37ea90d47c7c3",
+            "xml_sha256": "4445bb4d8bf7d8ad031916c99e021c14bc7ceaf4e7a1fc2189794719dc64a3df",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-4735F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-50.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-50.json",
+            "html_sha256": "6abd988a3b4c99eb7edb4d7083d91fb6ae3b873fd825dc2670a18827ee333254",
+            "xml_sha256": "d4c26731e3f53913e113b3b4352763340f71033314063050fe7c4a3a5f9ef729",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6134": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-51.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-51.json",
+            "html_sha256": "46c943d441d2e2997b80d09f6e5a2093e9e2e390bd3daeb582faf498b3fecb55",
+            "xml_sha256": "daaf71aaccd3e10dbc9b2d511486920a6d74fb53c1fe427391d8d6d8b26838ae",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11765": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-51.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-51.json",
+            "html_sha256": "78fa5958f540b5a30460f0104b364846d9c6e56c2b77dc9d74326f944bbcfe0f",
+            "xml_sha256": "d42185108115e9f72543f38fc7b11b4d9a1d9638af0b00335df9a203ad267596",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7415": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-51.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-51.json",
+            "html_sha256": "0b68a60e26a9720089df1159fe6706dd02a382ae97407177c7c1622f55b77400",
+            "xml_sha256": "857b38f832f3435730cb64e7919b52af9a0dfcc85d28c082595330d223c7680c",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6442": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-51.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-51.json",
+            "html_sha256": "0fdcf0b6ee834a49746b8e3611b65f33b2d831312983e431329a2c814b931a72",
+            "xml_sha256": "704be8c1ede04a94e0b4b4f517ba980e9502d4503acc87a4b1ea775b41b13e4f",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2235A": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-51.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-51.json",
+            "html_sha256": "c125e73d129bbfc72fc23ae0327d0c7a5a5326b465c3d9fd937d25b5b212ece1",
+            "xml_sha256": "f02287008fc6e4db9ffa2b9dba17a6f85220f9bf417151a581c5623aef5471c4",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6690": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-51.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-51.json",
+            "html_sha256": "779aa534d5bf223b46724ad8b831c53e12c331f7433667aff6f5e8eede554434",
+            "xml_sha256": "3e44b194c823651d37ce2a1396b072d3c43a2c4173d344440da131a6b93df075",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-356F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-51.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-51.json",
+            "html_sha256": "fc526c4f44d78629baf5bbaeb27325bfd54ccd9bb3c1267608dd17f9b4c4d1df",
+            "xml_sha256": "4eefa70ca13a748ab49b8da42b3bd8c8df7382625f115652bc1a8a3494acc31a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-940": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-18.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-18.json",
+            "html_sha256": "ebba984245163b9a1a82dd07e5528c8e2af58bc903b06737a282d51d48329a30",
+            "xml_sha256": "68fcfc433e2c7c848281a5d18d8efe10b21584de61ab6e93e00af51bc108f51e",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1017": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-18.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-18.json",
+            "html_sha256": "26492c23bcc281ec4052d991edd73b502d1edb890e784313e28f12a3b0537e01",
+            "xml_sha256": "cbf08e2a9acdecb30904501c481c17a98088f391f3c16c724fac4727690b24c9",
+            "body_read_in_full": true
+          },
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-25.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-25.json",
+            "html_sha256": "26492c23bcc281ec4052d991edd73b502d1edb890e784313e28f12a3b0537e01",
+            "xml_sha256": "cbf08e2a9acdecb30904501c481c17a98088f391f3c16c724fac4727690b24c9",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1019": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-18.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-18.json",
+            "html_sha256": "63ba5894915a08e48f924fef6f15d99beefcce9c3a13d236e9a55f46b17a04a6",
+            "xml_sha256": "fbf3ad121050861593e86d21b4fdf7ad989373df2d68d206a862532115157984",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1020": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-18.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-18.json",
+            "html_sha256": "4e6433fc55c4a5bb791b647877e560bacd00f660571aefd2a5ccf8c8e07b60c9",
+            "xml_sha256": "cd676e6c7b058c4d853cbc804d0ace65eb6df13209178c3994024b05a75c5f66",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 56,
+      "target_count": 17,
+      "context_count": 0,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-4727",
+        "DCP-LETT-12578",
+        "DCP-LETT-7588",
+        "DCP-LETT-2499",
+        "DCP-LETT-3358",
+        "DCP-LETT-5755",
+        "DCP-LETT-6048",
+        "DCP-LETT-5203",
+        "DCP-LETT-3681",
+        "DCP-LETT-10524F",
+        "DCP-LETT-12390F",
+        "DCP-LETT-6352F",
+        "DCP-LETT-13539",
+        "DCP-LETT-7073",
+        "DCP-LETT-5592",
+        "DCP-LETT-2031"
+      ],
+      "B_reusable_source_body_unavailable": [
+        "DCP-LETT-10330F"
+      ],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [
+        "DCP-LETT-6048"
+      ],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-4727": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-51.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-51.json",
+            "html_sha256": "4a19cf94c854e8b49ae77a881a39195949624e95153085eea5a4b5dca7bf0bfc",
+            "xml_sha256": "d35c3c6c4f2bb3c07886f3397cedd72ab208da64a2926ac3c5978827fe554b50",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12578": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-51.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-51.json",
+            "html_sha256": "4ba0e76a704f17c1465d3985cb9f80b6d506e995f6636b477fdcd2197693460d",
+            "xml_sha256": "d70eb7adb97fb47907ee35f07982be38df0ede696bb4fc1956b29e322539dece",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7588": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "780d0628f7a82a86cc7f0e19eb8383e4cf8eac3efa84a524c2e31f21a9c28cc3",
+            "xml_sha256": "0d4a27596ec984a62f1f7fb1ba8b5e2d884017dc7d7e2eb4157b7cef0a3dd0fe",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2499": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-30.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-30.json",
+            "html_sha256": "89f2bb1264c183fb5d1b2a06f0149da6861d8b4da0cb2bfa22593081f5c6b00a",
+            "xml_sha256": "d97006bfd8cfd6e510e70609851f5896fb7e8f61466c0364d058139873c50808",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3358": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "0dbb0efb84ace52a2f149e0615760b53707c2ece9f83d0e81196e9fb08f92619",
+            "xml_sha256": "ea8732e0bf9eada57e5ac7b7a4d2f27d365f1a7f253363c49f5e8dde7cc49e3b",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5755": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "2b0f0f8e5c498c4fda9413d590942aa724e9096abdf836d6174fd0de2a5bc110",
+            "xml_sha256": "81ca11f2f4525fac13695ea1ea2bf690038c31a562b213db9c80b2f161c54cc5",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6048": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "af06bc18fef1f2a7931be751f35e9b8e06de04f3f38bfe941d2a087d9fe2201c",
+            "xml_sha256": "7d98ded8f4f80d994e8192275afa174b87b20741e8cfdc3aae68315d3ff2da89",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5203": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "143c62ac19ade2ef714751e720d776707432d1c6215d60abbc0326c5566faebd",
+            "xml_sha256": "34e67001ff22e9377900f6d7e42f44792442eb483054584020320f1d25e87cad",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3681": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "b8eeff3cec88ec30e9bafebdfca47fbaabf538f60a6fc858420c451ffe148918",
+            "xml_sha256": "4ae67dcf65166fe091ae7aba786b01f481354ce0a6fa8ad595066b1025ca9c6a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-10524F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "e477c3b9d4afba364c476c22782ccc24936263c9f0b0e1f674a0d06c24af1551",
+            "xml_sha256": "3e6e8b77560382de74a84f1514b0912e2b694b0bc56dda5f62c5c0d04031a06e",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12390F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "81345c2d46fcfede2f758334e5f3790fe798522703e64db0d8c8f71803831f2d",
+            "xml_sha256": "d91a431c243b0088493d52dd100f7f8fdf0f07047b6a61ffad3705dadbeb08f8",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6352F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "308c690d0d13b237c571ef7b58c7d391ee5bd75eab5f682515fc18c5f8c6cdde",
+            "xml_sha256": "53322bec2690748b02a61b3e3b9943f97ded5d0aa0b03c45a24edfd0fbafcbed",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-13539": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "d799025ae87b8d249ac8afaed583626dde510b991b3537312c8f62c3d84f421d",
+            "xml_sha256": "23ee13556ea47f5ebd9fbe19eb7de885aa703afe66a45ed2ffcc67e303ffacf2",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7073": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "aa9cca3ff68e15922b4e96e19432a6a4d49aa3e6a9bfdf952f916bbb5159d227",
+            "xml_sha256": "2093d4c51d05a05da47740ee9e9134ef33f924608c2171431d413e61eecd222e",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-10330F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "080f695e7c953b2c7969c09689bab7b07e9a2ac055a5a51129576b692376dcbd",
+            "xml_sha256": "e39563b79fb4a610f159f41ea74fc7c307e18068b2c2ff92ca60f3e6674c70e7",
+            "body_read_in_full": false
+          }
+        ],
+        "DCP-LETT-5592": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "893a809ed20a5b7bad60bdb79dca8ea62b1a350f274ae90e29804531b56a6c4f",
+            "xml_sha256": "97c3dab369d653f3c370bc0b2035209418d843c5c741d3fb50858e7a15119752",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-2031": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "f3f89b9cb7f29011ffa53e67fb5526bae56cd04870c37a200345a8c970f0cf94",
+            "xml_sha256": "74c889f55a7141a56c4f93545375b86063647c6623c2e69be348d22ff9425dfe",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 57,
+      "target_count": 16,
+      "context_count": 0,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-9220",
+        "DCP-LETT-8711",
+        "DCP-LETT-12962",
+        "DCP-LETT-7240F",
+        "DCP-LETT-3363",
+        "DCP-LETT-7051",
+        "DCP-LETT-1617",
+        "DCP-LETT-3838",
+        "DCP-LETT-524F",
+        "DCP-LETT-9304",
+        "DCP-LETT-6270",
+        "DCP-LETT-12946",
+        "DCP-LETT-11891",
+        "DCP-LETT-8890",
+        "DCP-LETT-12713F",
+        "DCP-LETT-7522"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-9220": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "7c4e3c6809ad4a090c37dfc63bbff11a93fb32c22b666d1d47fe554c51660ea1",
+            "xml_sha256": "a6400cb3d2d6249aa2b0e087c2d1174b295f63775fff536221ef15aad7027bc6",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8711": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "7d1dbc465a1b1bbc2d99f505dad6f4d623213cee6f57abc92067872d1ac487e8",
+            "xml_sha256": "5f3b7853ef934f9c5bd641dad6c1ffdaf31f48dcd3ba4700ee205da309873001",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12962": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "9b66a00e51037e5e754cbfc2c53a6d120de52a7242e0eac1d3bd3529bef6be77",
+            "xml_sha256": "770795660baa02364e29fea29734d647ef498d70a3700a7fe9d186a89e6e688e",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7240F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-52.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-52.json",
+            "html_sha256": "1a63b4a75b9bc8a79e5531cbddf166d37a88eb703055e9eff66091a9507c193f",
+            "xml_sha256": "42e75599dd9b20fe355813bd2544cda4521508317c558bf67bf0c4383c9cc2c1",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3363": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "0b35e5833348efd117c2d0721515b1cd9a7028db48f2de8153a024c420ae0bf8",
+            "xml_sha256": "6a62c759034bb5a475cfb2b12540d376cfed3c92d686c4555dd24f9befd7a2ba",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7051": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "bbdfcfcce116d2270d64f131e5881341c0df01c877cfc6d383b626b7b99e68dd",
+            "xml_sha256": "0b62a402f2fa2e6fb3d877195a2b2db4cb12dc39b57745434d19d13b023aebf5",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-1617": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "a6d79b394a9918e0d1df5ea9be002af17ca432a90c1bba28b2240a3aafb93b30",
+            "xml_sha256": "6d6efdf4c1477dd34c002a1a66a75789584b56c0dfe81b467a083edb9f1cb846",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-3838": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "ca8f8d788dae6e9f68282aa1b157f89bfc889f2b1946e954f380b2f141c4e857",
+            "xml_sha256": "2c61732a650893317cb88566e9b7b3553f18fc3a5496b636b2c7fe6a8b117e23",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-524F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "5bf539935dd89d50242f862190e86bb78c67c950f39e3a2b100796ae6de428e6",
+            "xml_sha256": "6998cdc87793753748a5f1a94cc7734b7c9495af996e5d7bbd6d1bfcf2a9de8e",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-9304": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "1edab4f0f9e05585c1698d7d53505060c6db184242316a116a4de906abe639b3",
+            "xml_sha256": "1c1f5b1600921389fde44203b9436146aac29c3a84d04f5d9277a8563e277e33",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-6270": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "8f5f7880b8d16050bd521b8ee3cc83a408a9aec9921d67106410385a2e8f4452",
+            "xml_sha256": "abf8b91e15726757dbd022e94360c60c45aede834834aba7d2a2f1aeb07c3fa1",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12946": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "bcfb4229d1842ce3f480cd085f4041f1c9cc1f010acbf5f781e9de456c69ee64",
+            "xml_sha256": "ca155362c6303508cb05354b8e26dc32cb1966cb8287fc949800538ef311705b",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-11891": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "97be5ea75dc336061cda62a02c1753e7d9000f99a4e5a40e6680f981284f7801",
+            "xml_sha256": "5274b7e46b3b1eaccd8b8feae3e0949846235675edb78a8d38d42ab140406610",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-8890": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "a827b487e39d1fdce334e86b2913904fe411d6707d3330a97fe1787e7b04e14d",
+            "xml_sha256": "741d778145d2d8cbc92ea07cd82ff8b608fdf8ac32e9fe63ff23cbb024ac01e3",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12713F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "de4715f5215daaf7174e5043eff4852c4c16402d210b5a578b335ad309f37f44",
+            "xml_sha256": "4ee85133fce689400ee8081f807986769b0f297c0d7ccdd19020cee7657beb07",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-7522": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "c093fb933e2dce8140831eef842c2646a0e55be4b0731692da985beb09f99654",
+            "xml_sha256": "ecc4bfa90ab8d4882d05ac8e04f7ce21fb68a634d99b104905e8b2655b0dd6b6",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    },
+    {
+      "batch": 58,
+      "target_count": 3,
+      "context_count": 0,
+      "A_reusable_full_hash_verified": [
+        "DCP-LETT-9705F",
+        "DCP-LETT-5313F",
+        "DCP-LETT-12380"
+      ],
+      "B_reusable_source_body_unavailable": [],
+      "C_fresh_source_reading": [],
+      "figure_asset_ids": [],
+      "missing_visual_reading_despite_asset": [],
+      "accepted_relationship_references": [],
+      "matched_index_entries": {
+        "DCP-LETT-9705F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "7debb45db7898c385f4c138f3de82b617c4fd86d9fd579caf03796d61e4c1d35",
+            "xml_sha256": "d79238b6c53befc969835f345ef0e58f2230bcf735abd2cbeaa0a17a3a07aaa7",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-5313F": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "ab95c2a323e836a3aabd1fb64c6ef8f4e7f7843ad4443f26e3efd42d2fa2ad1d",
+            "xml_sha256": "82e6f5894a8f87fd9dfa891e732ff7663213beea6ef43c9e637d73b2a7528b8a",
+            "body_read_in_full": true
+          }
+        ],
+        "DCP-LETT-12380": [
+          {
+            "primary_note": "reports/1844-1846/review/parent-reading/batch-53.json",
+            "accepted_ledger": "data/annotations/periods/1844-1846/batch-53.json",
+            "html_sha256": "70f8e4857e3f4caa4d28e1c0c5bab14d55ed92f819fb04aee0076c23ac97c124",
+            "xml_sha256": "c02457e44847634d0f5a552b26d228ebfdff777bbbc38e6aa87b7a408d08b137",
+            "body_read_in_full": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "status": "candidate_only",
+  "scope": "Formatting-only candidate requirements for 1858-1859 packets 51-60. No converter, export, accepted evidence, ledger or source mutation.",
+  "method": "Read complete preserved source bodies and relevant apparatus layers through the packet/review records; selected feature-bearing body or metadata passages, exact source paths and SHA-256 pins. Special markup and visual requirements are marked planned repair or hold; raw preservation is not treated as clean export readiness.",
+  "requirements": [
+    {
+      "source_id": "DCP-LETT-1812",
+      "requirement": "Requests skins of domestic breeds or races of poultry, pigeons, rabbits, cats, and dogs from any unfrequented region.",
+      "evidence": {
+        "source_id": "DCP-LETT-1812",
+        "evidence_layer": "authorial_body",
+        "quote": "Skins Any domestic breed or race, of Poultry, Pigeons, Rabbits, Cats, & even dogs, if not too large, which has been bred for many generations in any little visited region, would be of great value",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"Any domestic breed or race\")]; attached list begins in following retained blocks",
+        "html_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1812.html",
+        "html_sha256": "3987d1c0a2e398a82169faf0b013ef5edb4f07dde82eb9af731fa2677c803b68"
+      },
+      "render_status": "hold",
+      "notes": "This is an earlier research memorandum with a forwarding list, not a current incoming letter."
+    },
+    {
+      "source_id": "DCP-LETT-3887",
+      "requirement": "Preserve the phyllotaxy diagrams and numeric sequence as layout-dependent source material; do not flatten the cylinder/spire sketch into a prose table.",
+      "evidence": {
+        "source_id": "DCP-LETT-3887",
+        "evidence_layer": "authorial_body",
+        "quote": "Thus Bud 2 would occupy the space betw: 13 & 14 Bud 3 betw: 5, 6; Bud 4 betw: 18, 19. &.c &c & thus every space would be filled but No bud would grow on the top of another.",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"Thus Bud 2\")]; adjacent B figure/diagram nodes",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-3887.html",
+        "html_sha256": "abb9286490b277a2bc7e9922babab5c8a097fb98f075aae7cf070c8f5f4c4870"
+      },
+      "render_status": "planned_repair",
+      "notes": "Figure and sequence layout are part of the evidence; preserve the authorial explanation and figure association."
+    },
+    {
+      "source_id": "DCP-LETT-6700",
+      "requirement": "Keep the incomplete first page, table enclosure, and approximate ratio distinct; do not export the numerical table as a complete contemporary observation.",
+      "evidence": {
+        "source_id": "DCP-LETT-6700",
+        "evidence_layer": "authorial_body",
+        "quote": "the approximate ratios worked out, for the whole year it is nearly 74 males to 68 females",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"approximate ratios\")]; Table I enclosure and MathML/table layer",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-6700.html",
+        "html_sha256": "c4b12cedcba5b5de03db8e2d2118aabca2f7172d78948fec9b5d177fc96b55dc"
+      },
+      "render_status": "hold",
+      "notes": "The first page is missing and the table is compiled from Field accounts, only a portion of dogs; later date bounds exclude it from this period."
+    },
+    {
+      "source_id": "DCP-LETT-6540",
+      "requirement": "Keep the mixed source layer explicit: Preyer’s inquiries and Darwin’s responses are interleaved material, not one homogeneous authorial body.",
+      "evidence": {
+        "source_id": "DCP-LETT-6540",
+        "evidence_layer": "authorial_body",
+        "quote": "Replies to inquiries about his life and career.",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"Replies to inquiries\")]; source-layer apparatus identifies interleaved question/answer blocks",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-6540.html",
+        "html_sha256": "d83db2df8edd20938776ee7d8cdfe0770de6dfa57a9b4880a4373a19a72a96de"
+      },
+      "render_status": "hold",
+      "notes": "Do not attribute every block to Darwin or treat the later published composite as a contemporary letter."
+    },
+    {
+      "source_id": "DCP-LETT-10757",
+      "requirement": "Preserve the two actual images and the authorial response to Darwin’s Introduction; keep Dyer’s examples and later bibliographic references separate.",
+      "evidence": {
+        "source_id": "DCP-LETT-10757",
+        "evidence_layer": "authorial_body",
+        "quote": "The difference between ♀ & ♂ in some plants is really surprising.",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"difference between\")]; actual image nodes in adjacent body blocks",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-10757.html",
+        "html_sha256": "830330d9957e49bde1c05b96bf07f6e9383a274082f2bdd0a21ef064db946ae5"
+      },
+      "render_status": "planned_repair",
+      "notes": "The source is an incoming Dyer response with quoted plant examples; image coverage is an accepted parent-reading observation."
+    },
+    {
+      "source_id": "DCP-LETT-8412",
+      "requirement": "Render the leaf-arrangement fractions from MathML as literal 1/2, 1/3, 2/5, 3/8 and 5/13, while retaining Airy’s explicit provisional/speculative framing.",
+      "evidence": {
+        "source_id": "DCP-LETT-8412",
+        "evidence_layer": "authorial_body",
+        "quote": "In considering the series of spiral leaf-orders denoted by the series of fractions",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"series of spiral leaf-orders\")]/math:mfrac; preserve adjacent model figures",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-8412.html",
+        "html_sha256": "98ca4b412531f764b49483267f84cd3bc233352235921a4659efd82706358c1a"
+      },
+      "render_status": "planned_repair",
+      "notes": "The long 1872 source is outside the endpoint; this is a rendering requirement for source preservation, not period knowledge."
+    },
+    {
+      "source_id": "DCP-LETT-3042",
+      "requirement": "Preserve the two seed/achenium figures and their association with the detailed adhesive-bladder account; do not reduce the embedded Drummond memorandum to a caption.",
+      "evidence": {
+        "source_id": "DCP-LETT-3042",
+        "evidence_layer": "authorial_body",
+        "quote": "If a pinch of these achenia be dropped from a little height on damp paper, the greater number fall like shuttlecocks, upright and rest on the sole; the bladders then quickly burst",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"dropped from a little height\")]; Fig. 1 and Fig. 2 image nodes",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-3042.html",
+        "html_sha256": "006bb584dad6752ba1682281379593b58fc5f8bbd7b7a0ff7133dd3952e6b806"
+      },
+      "render_status": "planned_repair",
+      "notes": "Darwin introduces Drummond’s memorandum; distinguish the quoted third-party voice and figures from Darwin’s framing."
+    },
+    {
+      "source_id": "DCP-LETT-3182",
+      "requirement": "Preserve the actual bristle-pollination experiment and any MathML/special markup without importing later editorial summary as body text.",
+      "evidence": {
+        "source_id": "DCP-LETT-3182",
+        "evidence_layer": "authorial_body",
+        "quote": "Having never observed the large Periwinkle or Vinca major to produce seed, and having read that this never occurs in Germany, I was led to examine the flower.",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"never observed the large Periwinkle\")]; MathML/figure nodes if present",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-3182.html",
+        "html_sha256": "83b6aeb1a74be263e0b859d55424da1b954dbfd846f295243da72f478b2b001b"
+      },
+      "render_status": "hold",
+      "notes": "This is a later 1861 Darwin publication item, not an 1858–59 correspondence input."
+    },
+    {
+      "source_id": "DCP-LETT-13808",
+      "requirement": "Preserve the damaged fragment and explicit missing-page marker; do not smooth the surviving Woking appointment discussion into a complete letter.",
+      "evidence": {
+        "source_id": "DCP-LETT-13808",
+        "evidence_layer": "authorial_body",
+        "quote": "[2 pages missing]",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"2 pages missing\")]; damaged fragment follows",
+        "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-13808.html",
+        "html_sha256": "174eae0611d594c59d5dd66503d1e32f967a5231be2aac50374c0869c448fab1"
+      },
+      "render_status": "hold",
+      "notes": "The surviving body contains 123 severely damaged pages and an uncertain later date; no missing text may be reconstructed."
+    },
+    {
+      "source_id": "DCP-LETT-2123",
+      "requirement": "Render the botanical arithmetic exactly as displayed, including the MathML ratio, and keep Darwin’s acknowledgement of Lubbock’s correction in the authorial layer.",
+      "evidence": {
+        "source_id": "DCP-LETT-2123",
+        "evidence_layer": "authorial_body",
+        "quote": "The 339 species have 51 species presenting one or more varieties",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"339 species have 51\")]; ratio MathML in same paragraph",
+        "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2123.html",
+        "html_sha256": "c64335ffb36133589f43b6792163961194973aaa15109c1e1108a3e7a6b69a6b"
+      },
+      "render_status": "planned_repair",
+      "notes": "The calculation is Darwin’s response to Lubbock’s suggestion; later publication/bibliography must remain separate."
+    },
+    {
+      "source_id": "DCP-LETT-2396",
+      "requirement": "Preserve the fractional dinner time and the invitation’s conditional wording; do not normalize 7/4 or 1/2 into an exact event or receipt.",
+      "evidence": {
+        "source_id": "DCP-LETT-2396",
+        "evidence_layer": "authorial_body",
+        "quote": "perhaps you would come & dine here (if not engaged) on Thursday at",
+        "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"come & dine here\")]/math:mfrac; later paragraph contains the illness qualification",
+        "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2396.html",
+        "html_sha256": "014ec08354cf622a0b2c9b6287a1fde59fd3beefb3af5e2dfcdb682e4caea197"
+      },
+      "render_status": "hold",
+      "notes": "The invitation is conditional and the date/body layers do not prove attendance."
+    }
+  ],
+  "source_pins": [
+    {
+      "source_id": "DCP-LETT-1812",
+      "evidence_layer": "authorial_body",
+      "quote": "Skins Any domestic breed or race, of Poultry, Pigeons, Rabbits, Cats, & even dogs, if not too large, which has been bred for many generations in any little visited region, would be of great value",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"Any domestic breed or race\")]; attached list begins in following retained blocks",
+      "html_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1812.html",
+      "html_sha256": "3987d1c0a2e398a82169faf0b013ef5edb4f07dde82eb9af731fa2677c803b68"
+    },
+    {
+      "source_id": "DCP-LETT-3887",
+      "evidence_layer": "authorial_body",
+      "quote": "Thus Bud 2 would occupy the space betw: 13 & 14 Bud 3 betw: 5, 6; Bud 4 betw: 18, 19. &.c &c & thus every space would be filled but No bud would grow on the top of another.",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"Thus Bud 2\")]; adjacent B figure/diagram nodes",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-3887.html",
+      "html_sha256": "abb9286490b277a2bc7e9922babab5c8a097fb98f075aae7cf070c8f5f4c4870"
+    },
+    {
+      "source_id": "DCP-LETT-6700",
+      "evidence_layer": "authorial_body",
+      "quote": "the approximate ratios worked out, for the whole year it is nearly 74 males to 68 females",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"approximate ratios\")]; Table I enclosure and MathML/table layer",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-6700.html",
+      "html_sha256": "c4b12cedcba5b5de03db8e2d2118aabca2f7172d78948fec9b5d177fc96b55dc"
+    },
+    {
+      "source_id": "DCP-LETT-6540",
+      "evidence_layer": "authorial_body",
+      "quote": "Replies to inquiries about his life and career.",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"Replies to inquiries\")]; source-layer apparatus identifies interleaved question/answer blocks",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-6540.html",
+      "html_sha256": "d83db2df8edd20938776ee7d8cdfe0770de6dfa57a9b4880a4373a19a72a96de"
+    },
+    {
+      "source_id": "DCP-LETT-10757",
+      "evidence_layer": "authorial_body",
+      "quote": "The difference between ♀ & ♂ in some plants is really surprising.",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"difference between\")]; actual image nodes in adjacent body blocks",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-10757.html",
+      "html_sha256": "830330d9957e49bde1c05b96bf07f6e9383a274082f2bdd0a21ef064db946ae5"
+    },
+    {
+      "source_id": "DCP-LETT-8412",
+      "evidence_layer": "authorial_body",
+      "quote": "In considering the series of spiral leaf-orders denoted by the series of fractions 1/2, 1/3, 2/5, 3/8 &c.,",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"series of spiral leaf-orders\")]/math:mfrac; preserve adjacent model figures",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-8412.html",
+      "html_sha256": "98ca4b412531f764b49483267f84cd3bc233352235921a4659efd82706358c1a"
+    },
+    {
+      "source_id": "DCP-LETT-3042",
+      "evidence_layer": "authorial_body",
+      "quote": "If a pinch of these achenia be dropped from a little height on damp paper, the greater number fall like shuttlecocks, upright and rest on the sole; the bladders then quickly burst",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"dropped from a little height\")]; Fig. 1 and Fig. 2 image nodes",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-3042.html",
+      "html_sha256": "006bb584dad6752ba1682281379593b58fc5f8bbd7b7a0ff7133dd3952e6b806"
+    },
+    {
+      "source_id": "DCP-LETT-3182",
+      "evidence_layer": "authorial_body",
+      "quote": "Having never observed the large Periwinkle or Vinca major to produce seed, and having read that this never occurs in Germany, I was led to examine the flower.",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"never observed the large Periwinkle\")]; MathML/figure nodes if present",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-3182.html",
+      "html_sha256": "83b6aeb1a74be263e0b859d55424da1b954dbfd846f295243da72f478b2b001b"
+    },
+    {
+      "source_id": "DCP-LETT-13808",
+      "evidence_layer": "authorial_body",
+      "quote": "[2 pages missing]",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"2 pages missing\")]; damaged fragment follows",
+      "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-13808.html",
+      "html_sha256": "174eae0611d594c59d5dd66503d1e32f967a5231be2aac50374c0869c448fab1"
+    },
+    {
+      "source_id": "DCP-LETT-2123",
+      "evidence_layer": "authorial_body",
+      "quote": "The 339 species have 51 species presenting one or more varieties",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"339 species have 51\")]; ratio MathML in same paragraph",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2123.html",
+      "html_sha256": "c64335ffb36133589f43b6792163961194973aaa15109c1e1108a3e7a6b69a6b"
+    },
+    {
+      "source_id": "DCP-LETT-2396",
+      "evidence_layer": "authorial_body",
+      "quote": "perhaps you would come & dine here (if not engaged) on Thursday at 7/4",
+      "locator": "xpath://div[@id=\"letter\"]//div[@class=\"body-content\"]/p[contains(., \"come & dine here\")]/math:mfrac; later paragraph contains the illness qualification",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2396.html",
+      "html_sha256": "014ec08354cf622a0b2c9b6287a1fde59fd3beefb3af5e2dfcdb682e4caea197"
+    }
+  ],
+  "recommendations": [
+    "Use the cited body/metadata locator rather than editorial synopsis or citation footer as quote evidence.",
+    "Keep mixed voices, missing pages, embedded reports, tables, figures and annotations in separate layers; do not invent omitted enclosures or rows.",
+    "Treat broad/later date bounds and administrative/publication records as holds, not current-period content."
+  ],
+  "input_hashes": {
+    "reports/1858-1859/review/packets/batch-51.json": "387a9ab86cdd93d273252f4ba0387686f48f6ba78c400b75740e7eaedab1da92",
+    "reports/1858-1859/review/reviews/batch-51.json": "bc5ad2f5d029e6956c99efb3216564041bb1e0f28a952c48dd89ab8ebbbec6f6",
+    "reports/1858-1859/review/packets/batch-52.json": "bba45e79138ac6a7246378ccfacf71eab4d3a2cf53fc4ba553fdb0e1fed6f92f",
+    "reports/1858-1859/review/reviews/batch-52.json": "699fc59d5d45665b683231574f32c220ba08381c2bee6e2a60ea60acc618f188",
+    "reports/1858-1859/review/packets/batch-53.json": "6d5b927962579e6a70a04597375aaefa4dd1abcf1216de07c641e8ab359e187a",
+    "reports/1858-1859/review/reviews/batch-53.json": "3f040ccf82460c45a98032ada7418f4bc1b71a067f7ff47fb932256b873bb62f",
+    "reports/1858-1859/review/packets/batch-54.json": "2b29c0a9758537c9a2e3c77b8c8a24b6fda9edfff0743e28f4506635c53d8437",
+    "reports/1858-1859/review/reviews/batch-54.json": "884eec30af6af7672c265b3e220fda7cd64aa6cd48b14c1aebf966ef2dc35a0d",
+    "reports/1858-1859/review/packets/batch-55.json": "9cbf54b681200815b9cfbfd03ddb9aa0e1307b4e87acf3c1ca7270b7aba3d303",
+    "reports/1858-1859/review/reviews/batch-55.json": "c7a65c11c43c6954706e8a0d1e63332af22b543e89d86d828d9c252f63c92f4e",
+    "reports/1858-1859/review/packets/batch-56.json": "cb34abd05ca728e3c0a8bbb0a4ecc878ec9685d9fad578e209def029350f195d",
+    "reports/1858-1859/review/reviews/batch-56.json": "4f8c8d6f884c80ef7d66e60dce81937c7633c5d9dcf74320ef2be2dae17d039f",
+    "reports/1858-1859/review/packets/batch-57.json": "996a30f6bee8c973be8cb54dcf7fe2317de77c65c9122771898e99ca09868507",
+    "reports/1858-1859/review/reviews/batch-57.json": "e26c9173aeb22afb269f4336dd3c010b1e98f96e300133dada7e93cf4700fbf0",
+    "reports/1858-1859/review/packets/batch-58.json": "9ec7947d98640fec3d5fa93ed2229a82d44f61dc070cdab68a308750a81e3336",
+    "reports/1858-1859/review/reviews/batch-58.json": "6d7c57847307d3251cc1bd7dda08e12e19755944bf84644302a45f4c219caf51",
+    "reports/1858-1859/review/packets/batch-59.json": "b55eaaf16137b9c1374aa64c189a3a8d9d51dc1a47df09b4067d3c73f8ea78a1",
+    "reports/1858-1859/review/reviews/batch-59.json": "8db30907c9efbc6622c7d832a2f99152419f0bf09026c9308f831765c1ad024d",
+    "reports/1858-1859/review/packets/batch-60.json": "fbb0a754a8fd2c83895f36e6e4123157d4227e7a929d4b54bcee71096f478d6b",
+    "reports/1858-1859/review/reviews/batch-60.json": "bb6ee4265cf4dccb62a82236bc41d0a5cd228d3aeeb493609cf677aad8b0a699",
+    "reports/raft-prep/source-text-rendering-requirements.primary.addendum-75.json": "1aff073956e6e334faff7f7d0f7ab6afcaf057ffaa8ffc255b03ad808ce5cf0c",
+    "reports/raft-prep/source-text-rendering-requirements.primary.addendum-76.json": "0399ef8d36dd4c97e81ea5813f079c881c5a29f930dd08608c4c6c37953cfb49",
+    "docs/raft-export-content-policy.md": "c7220b8e79bf44f2ac9d98b61676471e72d2b9a5fb360b4590d6c0972a3f916d"
+  }
+}

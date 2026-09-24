@@ -1,0 +1,103 @@
+{
+  "probe": "waterhouse-witness-probe",
+  "status": "read_only_lookup",
+  "snapshot": "2026-09-16; preserved all_letters.jsonl and HTML packet sources as present at lookup",
+  "scope": ["DCP-LETT-1598", "DCP-LETT-1625"],
+  "method": "Searched preserved all_letters for explicit source references, then read candidate witnesses and the two Waterhouse sources through complete preserved body blocks, headers, XML date audit, excluded material, annotations, footnotes and bibliography. Shared topic and catalogue order were not treated as edges.",
+  "source_reviews": [
+    {
+      "id": "DCP-LETT-1598",
+      "direction": "to_darwin",
+      "date": "11 November 1854, exact XML day",
+      "source_html_sha256": "86eaeabd12d598eaa90bba6379953151ee7fcd5a39cf5ee8c497030ecb1202fb",
+      "body_coverage": "20 preserved body blocks read in full; incomplete physical note (physdesc inc) and Darwin pencil additions kept separate.",
+      "finding": "Waterhouse explicitly opens by acknowledging Darwin’s note and then supplies the requested aberrant-Curculionidae list. The list is followed by a warning that he knows many genera only through descriptions, a qualification that some singleton-family genera were included partly by theory, a detailed critique of Schönherr’s artificial ordering, and the distinction between classification quality and later geographical-distribution generalisation. The source therefore directly witnesses Darwin’s prior note/request and provides a substantive incoming answer.",
+      "evidence": [
+        {"body_paragraph": 1, "quote": "I have got your note & am glad to learn that the little Catalogue I lent you is of some help"},
+        {"body_paragraph": 11, "quote": "This is without any theory of any kind— Stop!—"},
+        {"body_paragraph": 19, "quote": "Before we can make good generalization in geographl distributn questions we must look to the classification of the groups"}
+      ],
+      "explicit_darwin_witness": "The opening acknowledgement is explicit, but no preserved Darwin letter containing the note is identified by ID in this lookup. DCP-LETT-1601 is an explicit later Darwin witness to the substance of this list.",
+      "visual_boundary": "The HTML preserves an inline image locator at /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[14]/span[1]/img (dcp_lett_1598.jpg, alt=diagram). I did not independently interpret the image in this lookup; the prose and locator are retained for adjudication."
+    },
+    {
+      "id": "DCP-LETT-1625",
+      "direction": "to_darwin",
+      "date": "[after 2 March 1855], XML bounded 3 March–31 December 1855; exact day unresolved",
+      "source_html_sha256": "c31d18f55db3ccccbaaed3ec7801b9071c309244e52d402bf0cdc566f58ef769",
+      "body_coverage": "20 preserved body blocks read in full; source is an incomplete three-page memorandum/list (physdesc Amem 3pp, inc), with no salutation and a separate CD annotation section.",
+      "finding": "Waterhouse gives a tabular memorandum of tarsal joint counts across Anisotomidae, Cryptophagidae, Mycetophagidae and Staphylinidae, including sex-specific differences and the contrast between large genera and exceptions. The editorial note says it was retained among Darwin’s Laws of Variation notes and dates it by relation to Wollaston’s 2 March letter, but the body itself contains no named Darwin prompt, no dispatch/receipt statement and no exact day.",
+      "evidence": [
+        {"body_paragraph": 1, "quote": "diag Anisotomidæ— Genus Triarthron— all the tarsi 5-jointed"},
+        {"body_paragraph": 6, "quote": "Colenis— tarsi 5, 4, 4 (all the above were formerly included under one generic title"},
+        {"body_paragraph": 19, "quote": "In the great genus Homalota (which contains far more species than any other genus of the family) the fore tarsi are 4 jtd. & the four hind tarsi 5-jointed—"}
+      ],
+      "explicit_darwin_witness": "No explicit Darwin witness using this memorandum was found in the preserved all_letters search. The editorial relationship to Wollaston 1640 is a dating aid and does not prove that 1640 contains or answers the tarsal memorandum.",
+      "visual_boundary": "No inline figure requirement was exposed for 1625; the source is a text memorandum with an annotations section. CD annotations, including later chapter references, were not treated as Darwin’s contemporaneous letter prose."
+    }
+  ],
+  "candidate_witnesses": [
+    {
+      "id": "DCP-LETT-1601",
+      "date": "15 November [1854], exact XML day",
+      "source_html_sha256": "fc4e9df4bf54a2c65bc78509ba2a36185ff57516cfa479f793e87ee9c571ce51",
+      "read_in_full": true,
+      "finding": "Explicit Darwin witness for 1598’s substance: Darwin states that Waterhouse gave him a list of 62 aberrant genera and reproduces the averages 7.6, 4.91 after removing one genus, and the separate 3.36-family calculation. He then extends the comparison to Lindley’s plant genera and discusses implications for aberrance. This is a demonstrated Darwin knowledge/usage record after 1598, not proof of physical receipt on 11 November or a replacement for the incoming source.",
+      "evidence": [
+        {"body_paragraph": 2, "quote": "Waterhouse, (who knows the group well) (& who has published on fewness of species in aberrant genera) has given me a list of 62 aberrant genera"},
+        {"body_paragraph": 2, "quote": "these have on average 7.6 species"},
+        {"body_paragraph": 7, "quote": "One remark more, if you feel any interest, or can get anyone else to feel any interest on the aberrant genera question"}
+      ],
+      "relationship_assessment": "Strong explicit knowledge witness for 1598; direction is Darwin → Hooker and should not be represented as an incoming reply edge to Waterhouse."
+    },
+    {
+      "id": "DCP-LETT-1597",
+      "date": "5 November [1854], exact XML day",
+      "source_html_sha256": "d245cd442a7fd2a715dcc890832d7f34d1e8a989b02c145e5b231b7bb358bd27",
+      "read_in_full": true,
+      "finding": "Pre-1598 Darwin letter to Hooker says only that he has begun to get facts about aberrant genera in insects. It does not name Waterhouse, a list, Curculionidae or any specific figure/list content, so it is background context rather than an explicit witness for 1598.",
+      "evidence": [{"body_paragraph": 5, "quote": "I have begun to get some facts about aberrant genera in insects."}],
+      "relationship_assessment": "Do not promote to a 1598 edge; shared subject and earlier date are insufficient."
+    },
+    {
+      "id": "DCP-LETT-1640",
+      "date": "2 March [1855], exact XML day",
+      "source_html_sha256": "6e96d9b04ae50f46ef4c51cab5e66c68ec48e59ddc911c922c94e1ce1499b674",
+      "read_in_full": true,
+      "finding": "Wollaston explicitly says he is answering Darwin’s queries received on Tuesday 27 February, but the preserved 17-block body answers Madeira insect questions: Zargus hybrid status, Dezerta/Salvages fauna, commonness, transition-group variability, wings and Forbes’s Atlantis. It contains no tarsi or Anisotomidae discussion. Thus it is a genuine Darwin witness for Wollaston’s own query set, but not a demonstrated witness to the tarsal content of 1625.",
+      "evidence": [
+        {"body_paragraph": 1, "quote": "I will now, however, answer your queries in the order in which you have asked them"},
+        {"body_paragraph": 6, "quote": "With regard to my observation (p. 584) that “transition groups” are usually “variable”"},
+        {"body_paragraph": 8, "quote": "I have not the least hesitation in expressing my belief that all the intermediate grades may be"}
+      ],
+      "relationship_assessment": "No 1625 edge established. The 1625 footnote’s dating relationship to 1640 is editorial chronology, not body-level evidence that Wollaston supplied the tarsal prompt."
+    },
+    {
+      "id": "DCP-LETT-1643",
+      "date": "7 March [1855], exact XML day",
+      "source_html_sha256": "5a4f4f0323fda273291fd96ba79fb23da36429cb56b563415010eeaeaca196e6",
+      "read_in_full": true,
+      "finding": "Darwin tells Hooker he has just finished Wollaston’s Insecta Maderensia and discusses apterous beetles, Dezerta Grande, and Wollaston’s Atlantis assumptions. This is an explicit Darwin witness to reading Wollaston’s published book and to the Madeira debate, not to Waterhouse’s later tarsal memorandum; the letter never mentions tarsi, Waterhouse or Anisotomidae.",
+      "evidence": [
+        {"body_paragraph": 9, "quote": "I have just finished working well at Wollaston’s Insecta Mad: it is an admirable work."},
+        {"body_paragraph": 10, "quote": "I have had some correspondence with W. on this & other subjects"}
+      ],
+      "relationship_assessment": "No 1625 edge; this is a separate Wollaston knowledge witness."
+    }
+  ],
+  "conclusion": {
+    "1598": "Confirmed incoming source with explicit prior Darwin note acknowledgement; DCP-LETT-1601 is a strong later Darwin knowledge witness reproducing the list’s distinctive counts. DCP-LETT-1597 is only broad preparatory context.",
+    "1625": "Confirmed incoming Waterhouse memorandum with a post-2 March bounded date, but no preserved Darwin letter explicitly using its tarsal list was found. Wollaston 1640 is dated by and answers a separate Madeira query set; Darwin 1643 witnesses Wollaston’s book, not 1625."
+  },
+  "input_hashes": {
+    "all_letters_jsonl_sha256": "not recomputed; preserved file read directly",
+    "source_html_sha256": {
+      "DCP-LETT-1598": "86eaeabd12d598eaa90bba6379953151ee7fcd5a39cf5ee8c497030ecb1202fb",
+      "DCP-LETT-1625": "c31d18f55db3ccccbaaed3ec7801b9071c309244e52d402bf0cdc566f58ef769",
+      "DCP-LETT-1597": "d245cd442a7fd2a715dcc890832d7f34d1e8a989b02c145e5b231b7bb358bd27",
+      "DCP-LETT-1601": "fc4e9df4bf54a2c65bc78509ba2a36185ff57516cfa479f793e87ee9c571ce51",
+      "DCP-LETT-1640": "6e96d9b04ae50f46ef4c51cab5e66c68ec48e59ddc911c922c94e1ce1499b674",
+      "DCP-LETT-1643": "5a4f4f0323fda273291fd96ba79fb23da36429cb56b563415010eeaeaca196e6"
+    }
+  }
+}

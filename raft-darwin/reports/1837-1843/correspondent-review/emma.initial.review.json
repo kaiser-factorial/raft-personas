@@ -1,0 +1,468 @@
+{
+  "group_id": "emma",
+  "model": "gpt-5.6-luna",
+  "outgoing_reviews": [
+    {
+      "letter_id": "DCP-LETT-423",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7],
+      "summary": "Darwin jokes about Emma's Bazaar news and describes his difficult railway journey to London; he asks to be remembered for a future Maer visit and asks about Caroline's watch.",
+      "observations": [
+        {"kind": "unlocated_prompt", "description": "The letter clearly responds to an earlier Emma report about the Bazaar and purchases, but that incoming letter is outside this packet.", "evidence": [{"letter_id": "DCP-LETT-423", "body_paragraph": 1, "quote": "Many thanks for the news of the Bazaar, & for Elizabeth’s purchases"}]},
+        {"kind": "prospective_request", "description": "The request to tell Caroline about her watch is a future communication request, not evidence of an incoming Emma prompt.", "evidence": [{"letter_id": "DCP-LETT-423", "body_paragraph": 7, "quote": "Will you tell Caroline, that I expect to receive her watch to night"}]}
+      ],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["No assigned Emma incoming record matches the Bazaar, purchases, or watch references; the antecedent remains unlocated."]
+    },
+    {
+      "letter_id": "DCP-LETT-437",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7],
+      "summary": "Darwin celebrates the engagement, discusses houses and the risk of solitude, and asks Emma not to decide hurriedly; a later portion refers to a note she sent to Katty.",
+      "observations": [
+        {"kind": "unlocated_prompt", "description": "The engagement news and Emma's earlier decisions are answered, but the initiating Emma letter is not assigned here.", "evidence": [{"letter_id": "DCP-LETT-437", "body_paragraph": 1, "quote": "Marianne & Susan will have told you what joy and happiness the news gave all here."}]},
+        {"kind": "third_party_context", "description": "The note to Katty is an incoming item addressed to another person and does not itself identify a surviving Emma-to-Darwin prompt.", "evidence": [{"letter_id": "DCP-LETT-437", "body_paragraph": 6, "quote": "the Post has brought in your own dear note to Katty"}]}
+      ],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["DCP-LETT-441 is later and cannot be the prompt; no earlier assigned Emma record supplies the engagement letter."]
+    },
+    {
+      "letter_id": "DCP-LETT-440",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7, 8],
+      "summary": "Darwin recounts the delayed railway journey, his visit to the FitzRoys, houses in central London, and Robert Mackintosh's diplomatic difficulties.",
+      "observations": [
+        {"kind": "unlocated_prompt", "description": "The housing discussion answers an earlier Emma view, but no assigned incoming Emma text is identifiable; 441 follows this letter and explicitly reflects that she had not yet received a letter.", "evidence": [{"letter_id": "DCP-LETT-440", "body_paragraph": 3, "quote": "I believe you are right in choosing a central region, at least for the first year or two."}]},
+        {"kind": "third_party_context", "description": "The Lyell correspondence is Darwin's report of a third-party letter, not an Emma prompt.", "evidence": [{"letter_id": "DCP-LETT-440", "body_paragraph": 4, "quote": "I have received a letter from Lyell, forwarded from Shrewsbury"}]}
+      ],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["DCP-LETT-441 is not a prompt for 440: its body says Emma had not received Darwin's letter; the relevant prior Emma text is unlocated."]
+    },
+    {
+      "letter_id": "DCP-LETT-445",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "summary": "Darwin reports Robert Mackintosh's diplomatic correction, answers Emma's Tollet-reading comment, and argues for a central London house while describing his work and social visits.",
+      "observations": [
+        {"kind": "direct_response", "description": "The Tollet reading and central-versus-suburban housing discussion directly match Emma's 444; the response occurs in paragraphs 2 and 6, with other paragraphs as independent continuations.", "evidence": [{"letter_id": "DCP-LETT-444", "body_paragraph": 4, "quote": "Caroline Tollet says in her situation she finds she can read nothing but sermons & Nicholas Nickleby."}, {"letter_id": "DCP-LETT-445", "body_paragraph": 2, "quote": "You say Caroline Tollet has two works to read, & that you could read one, if not already read,"}, {"letter_id": "DCP-LETT-444", "body_paragraph": 2, "quote": "Elizabeth & Caroline are grown suburban again & it is very puzzling"}, {"letter_id": "DCP-LETT-445", "body_paragraph": 6, "quote": "I am glad to hear you are oscillating in opinion,"}]}
+      ],
+      "proposed_prompt_ids": ["DCP-LETT-444"],
+      "alternative_candidates_considered": ["DCP-LETT-441 was considered and rejected as the identified prompt; the 444 editorial footnote says the Darwin response to 441 is missing."]
+    },
+    {
+      "letter_id": "DCP-LETT-448",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7, 8],
+      "summary": "Darwin continues discussing the house, servants, and the Lyells. The letter was written in sections: paragraphs 1–6 are Friday-evening material, while paragraph 7 is explicitly Saturday morning and acknowledges Emma's newly received letter.",
+      "observations": [
+        {"kind": "section_dating", "description": "The XML date is anchored at 30 November although the header and body extend to 1 December; paragraph 7 must be kept as the Saturday section.", "evidence": [{"letter_id": "DCP-LETT-448", "body_paragraph": 7, "quote": "Saturday Morning. I was delighted to receive your letter"}]},
+        {"kind": "candidate_response", "description": "Paragraphs 1–6 contain a distinctive quotation from Emma 444, but the repeated topic is insufficient to make a secure second direct link after 445 already answers 444; 444 is retained as a candidate only for that section.", "evidence": [{"letter_id": "DCP-LETT-444", "body_paragraph": 3, "quote": "You have a great deal on your hands poor old gentleman"}, {"letter_id": "DCP-LETT-448", "body_paragraph": 2, "quote": "In your last letter you say “poor old gentleman”"}]},
+        {"kind": "direct_response", "description": "Paragraph 7 answers Emma 447's invitation to come to town. Emma 447 must not be treated as available to Friday paragraphs 1–6.", "evidence": [{"letter_id": "DCP-LETT-447", "body_paragraph": 1, "quote": "The Hensleighs have asked me to go up with them for a week to look at houses with you."}, {"letter_id": "DCP-LETT-448", "body_paragraph": 7, "quote": "nothing in the world could be more fortunate than your being able to come to town."}]}
+      ],
+      "proposed_prompt_ids": ["DCP-LETT-447"],
+      "alternative_candidates_considered": ["DCP-LETT-444 is a candidate only for paragraphs 1–6; DCP-LETT-447 is supported only for paragraph 7; no incoming Emma text is assigned to the Friday section with certainty."]
+    },
+    {
+      "letter_id": "DCP-LETT-463",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7],
+      "summary": "Darwin announces that the Gower Street house is secured, describes its furniture and costs, and discusses servants, the lease, and his delayed travel.",
+      "observations": [
+        {"kind": "unlocated_prompt", "description": "The letter is an outgoing house-and-servant update; no earlier Emma incoming record in the packet is explicitly acknowledged.", "evidence": [{"letter_id": "DCP-LETT-463", "body_paragraph": 1, "quote": "Gower St is ours, yellow curtains & all."}]},
+        {"kind": "later_reverse_reply", "description": "Emma 464 explicitly says she opened Darwin's letter and celebrates the same house, establishing a reverse reply rather than a prompt for 463.", "evidence": [{"letter_id": "DCP-LETT-464", "body_paragraph": 1, "quote": "I could hardly believe the good news when I opened your letter"}]}
+      ],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["DCP-LETT-462 predates 463 and calls its earlier letter a business letter; it does not supply a direct prompt for the house announcement."]
+    },
+    {
+      "letter_id": "DCP-LETT-466",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7],
+      "summary": "A damaged two-section letter begun Monday 31 December 1838 and continued Tuesday 1 January 1839: Darwin describes moving into Gower Street, his work, rooms, linens, and a cook.",
+      "observations": [
+        {"kind": "multi_letter_acknowledgment", "description": "The opening says two affectionate letters arrived that morning. Chronology makes 464 and 465 plausible candidates, but the body does not allocate distinct content to either, so both links remain candidate-only and the possibility of unlocated letters remains open.", "evidence": [{"letter_id": "DCP-LETT-466", "body_paragraph": 1, "quote": "Many thanks for your two most kind, dear, & affectionate letters, which I received this morning."}, {"letter_id": "DCP-LETT-464", "body_paragraph": 1, "quote": "I could hardly believe the good news when I opened your letter"}, {"letter_id": "DCP-LETT-465", "body_paragraph": 1, "quote": "I want to persuade you dear Charley to leave town at once & get some rest"}]},
+        {"kind": "section_dating", "description": "Paragraphs 1–2 belong to the Monday 31 December start; paragraphs 3–7 are Tuesday 1 January continuation. Later paragraphs cannot retroactively supply the prompt for the opening section.", "evidence": [{"letter_id": "DCP-LETT-466", "body_paragraph": 3, "quote": "Tuesday morning—"}]}
+      ],
+      "proposed_prompt_ids": ["DCP-LETT-464", "DCP-LETT-465"],
+      "alternative_candidates_considered": ["DCP-LETT-464 and DCP-LETT-465 are the chronological candidates; DCP-LETT-460 and DCP-LETT-462 are earlier but lack a matching two-letter receipt context; unlocated letters cannot be ruled out."]
+    },
+    {
+      "letter_id": "DCP-LETT-481",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7, 8],
+      "summary": "A damaged two-section letter dated 2–3 January 1839: Darwin describes the settled house, a dinner with the Carlyles, household arrangements, his planned Shrewsbury visit, and Thursday calls.",
+      "observations": [
+        {"kind": "section_dating", "description": "Paragraphs 1–5 are the Wednesday-evening portion; paragraphs 6–8 begin Thursday afternoon. Incoming 482 and 485 cannot be used to condition the Thursday section merely from their catalogue dates.", "evidence": [{"letter_id": "DCP-LETT-481", "body_paragraph": 6, "quote": "Thursday Afternoon.— After doing a couple of hour’s writing works in my studio"}]},
+        {"kind": "reverse_reply_targets", "description": "Emma 482 asks about the Carlyle dinner and Emma 485 says she received a letter Friday and comments on the garden walk and visit plans. These support two separate reverse replies to the Wednesday and Thursday/receipt contexts, not an incoming prompt for 481.", "evidence": [{"letter_id": "DCP-LETT-482", "body_paragraph": 3, "quote": "Tell me how your Carlyle dinner went off."}, {"letter_id": "DCP-LETT-485", "body_paragraph": 1, "quote": "Thank you very much for your letter which I received on Friday."}]}
+      ],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["DCP-LETT-482 and DCP-LETT-485 are later reverse replies; neither is an available incoming prompt for 481. No earlier assigned Emma record is explicitly acknowledged."]
+    },
+    {
+      "letter_id": "DCP-LETT-484",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7],
+      "summary": "A two-section letter from Sunday 6 to Monday 7 January: Darwin discusses the Lyells, Glen Roy, books, curtains, the wedding, and a cook selected with Fanny's help.",
+      "observations": [
+        {"kind": "direct_response", "description": "Darwin answers Emma 482's request about cooks and confirms when her prior letter arrived; the response is secure across the Sunday/Monday sections, with paragraph 7 specifically answering the cook question.", "evidence": [{"letter_id": "DCP-LETT-482", "body_paragraph": 1, "quote": "Fanny tells me to write to her about cooks"}, {"letter_id": "DCP-LETT-484", "body_paragraph": 7, "quote": "Fanny has just called, she has made all enquiries about the Cook"}, {"letter_id": "DCP-LETT-484", "body_paragraph": 6, "quote": "You tell me to mention when I received your last letter: it came on Friday"}]}
+      ],
+      "proposed_prompt_ids": ["DCP-LETT-482"],
+      "alternative_candidates_considered": ["DCP-LETT-481 is the letter Emma 485 explicitly received on Friday; 482 is the distinct incoming letter whose cook request and receipt question 484 answers."]
+    },
+    {
+      "letter_id": "DCP-LETT-489",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "summary": "Darwin describes a difficult railway journey, house shopping, his hopes for married life, the Lyells, and preparations for the wedding.",
+      "observations": [
+        {"kind": "prospective_request", "description": "Darwin asks Emma to write by return and gives a future address; this is a request for a later incoming letter, not a surviving prompt in the packet.", "evidence": [{"letter_id": "DCP-LETT-489", "body_paragraph": 8, "quote": "Do write me a line by return of post"}]},
+        {"kind": "no_direct_match", "description": "Emma 490 discusses wedding preparations but does not explicitly acknowledge 489 or answer a distinctive item from it; shared wedding subject is insufficient for a direct link.", "evidence": [{"letter_id": "DCP-LETT-490", "body_paragraph": 6, "quote": "I shall be very glad to have your letter."}]}
+      ],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["DCP-LETT-490 is later and has no explicit acknowledgment of 489; its wedding overlap is not enough to activate a link."]
+    },
+    {
+      "letter_id": "DCP-LETT-493",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6],
+      "summary": "From Shrewsbury before the wedding, Darwin discusses the ring, a headache, and whether to go straight home after the ceremony; he leaves the final choice to Emma.",
+      "observations": [
+        {"kind": "direct_response", "description": "Darwin explicitly says Emma's last letter changed his view of the post-wedding travel plan. Emma 492 asks about going straight home on Tuesday, making 492 the surviving incoming prompt.", "evidence": [{"letter_id": "DCP-LETT-492", "body_paragraph": 2, "quote": "we may as well go strait home on Tuesday I think."}, {"letter_id": "DCP-LETT-493", "body_paragraph": 3, "quote": "now your last letter (for which I return you thanks, for being so good a girl as to write) has just put me half way between the two plans."}]}
+      ],
+      "proposed_prompt_ids": ["DCP-LETT-492"],
+      "alternative_candidates_considered": ["DCP-LETT-490 is earlier but does not contain the distinctive straight-home plan; 492 is the direct prompt by explicit last-letter language and matching content."]
+    },
+    {
+      "letter_id": "DCP-LETT-564",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7, 8],
+      "summary": "Darwin gives an amusing account of his railway journey to Shrewsbury, reports family medical advice, and sends news of his father and relatives.",
+      "observations": [{"kind": "unlocated_prompt", "description": "Darwin thanks Emma for writing soon, but the incoming letter is not among the assigned records and no topic uniquely identifies it.", "evidence": [{"letter_id": "DCP-LETT-564", "body_paragraph": 1, "quote": "You are a good old soul for having written to me so soon."}]}],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["No assigned Emma incoming record is dated near April 1840; the prompt remains external to the packet."]
+    },
+    {
+      "letter_id": "DCP-LETT-600",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4],
+      "summary": "Darwin reports his illness and family life at Shrewsbury, especially concern about Doddy's health, and anticipates returning home.",
+      "observations": [{"kind": "prospective_request", "description": "Darwin hopes to hear from Emma the next day; this is future-facing and does not identify a surviving incoming prompt.", "evidence": [{"letter_id": "DCP-LETT-600", "body_paragraph": 3, "quote": "I hope & suppose I shall hear tomorrow about your self & little Kitty Kumplings"}]}],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["No Emma incoming record is assigned near July 1841; family information in this letter is Darwin's report, not Emma's voice."]
+    },
+    {
+      "letter_id": "DCP-LETT-601",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7],
+      "summary": "Darwin sends a short Shrewsbury update about improved health, Doddy, household accounts, servants, and the family's near escape from a mad dog.",
+      "observations": [{"kind": "no_incoming_acknowledgment", "description": "The opening expressly notes that he has no Emma letter to thank, so no assigned incoming prompt can be activated.", "evidence": [{"letter_id": "DCP-LETT-601", "body_paragraph": 1, "quote": "I have not to thank you for one"}]}],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["No Emma incoming record near 3 July 1841 is in the packet; the letter is an unsolicited update."]
+    },
+    {
+      "letter_id": "DCP-LETT-622",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7, 8],
+      "summary": "Darwin reports his arrival and illness at Shrewsbury, family news, and a joke about Catherine deciphering an excised passage.",
+      "observations": [{"kind": "prospective_request", "description": "Darwin asks Emma to write about the children if she is well enough; this does not identify an earlier incoming prompt.", "evidence": [{"letter_id": "DCP-LETT-622", "body_paragraph": 6, "quote": "Tell me all about the chickens, if you are well enough to scribble a bit"}]}],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["No Emma incoming record is assigned near 8 March 1842; the letter's family references are Darwin's own report."]
+    },
+    {
+      "letter_id": "DCP-LETT-623",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "summary": "Darwin writes from Shrewsbury about family life, country walks, education, taxes, and the timing of his return.",
+      "observations": [{"kind": "unlocated_prompt", "description": "He rereads an Emma letter about economy in fires and puddings, but that letter is absent from this packet; 622 is Darwin's own prior letter and cannot be used as Emma's voice.", "evidence": [{"letter_id": "DCP-LETT-623", "body_paragraph": 4, "quote": "your account of your œconomy in fires & puddings amused us much."}]}],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["DCP-LETT-622 is an outgoing Darwin letter and therefore cannot be the incoming source; the referenced Emma letter is unlocated."]
+    },
+    {
+      "letter_id": "DCP-LETT-626",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "summary": "Darwin worries about the cost and time of his coral volume, reports visitors and family news, and then answers an Emma letter about health and the children.",
+      "observations": [{"kind": "unlocated_prompt", "description": "A letter from Emma arrives after Darwin's long wait, but no incoming record in this group identifies it; the incoming prose must not be reconstructed from Darwin's summary.", "evidence": [{"letter_id": "DCP-LETT-626", "body_paragraph": 8, "quote": "After long watching the Postman your letter has at last arrived."}]}],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["No assigned Emma incoming record near 9 May 1842 matches the health and child report; external text is needed to identify it."]
+    },
+    {
+      "letter_id": "DCP-LETT-704",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4],
+      "summary": "Darwin reports Shrewsbury family news, a visit to Nancy, his concern for Caroline and the baby, and his father's views on health and money.",
+      "observations": [{"kind": "unlocated_prompt", "description": "Darwin rereads an Emma letter and corrects his earlier omission about her health, but the referenced incoming text is not assigned here.", "evidence": [{"letter_id": "DCP-LETT-704", "body_paragraph": 3, "quote": "Looking over your letter again, I see I somehow overlooked that you say you have been pretty brisk"}]}],
+      "proposed_prompt_ids": [],
+      "alternative_candidates_considered": ["No assigned Emma incoming record covers the 12–24 October 1843 span; the exact prompt remains external to the packet."]
+    }
+  ],
+  "incoming_reviews": [
+    {
+      "letter_id": "DCP-LETT-441",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4],
+      "summary": "Emma writes about religion, a request that Darwin read the farewell discourse in John, family news, and the forthcoming marriage; editorial notes say Darwin's next letter on these subjects is now lost.",
+      "observations": [{"kind": "missing_response", "description": "This is an incoming Emma voice, not Darwin evidence. The editorial apparatus identifies the response to 441 as missing, so 441 cannot be substituted as the direct prompt for 445.", "evidence": [{"letter_id": "DCP-LETT-441", "body_paragraph": 1, "quote": "Will you do me a favour? yes I am sure you will"}, {"letter_id": "DCP-LETT-441", "body_paragraph": 4, "quote": "The notes were made for subjects to be discussed in CD’s next letter to Emma, now lost"}] }],
+      "alternative_candidates_considered": ["DCP-LETT-445 was tested and rejected as the identified response: its Tollet and housing material matches 444, while 444 footnote 1 identifies the 441 response as missing."]
+    },
+    {
+      "letter_id": "DCP-LETT-444",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5],
+      "summary": "Emma answers a recently received Darwin letter about religion, his Birmingham journey and Sedgwick, then discusses housing, friends, and Caroline Tollet's reading.",
+      "observations": [{"kind": "direct_prompt", "description": "The Tollet and housing passages are answered distinctly in Darwin 445, establishing 444 as its direct incoming prompt; the date remains 25 or 26 November.", "evidence": [{"letter_id": "DCP-LETT-444", "body_paragraph": 4, "quote": "Caroline Tollet says in her situation she finds she can read nothing but sermons & Nicholas Nickleby."}, {"letter_id": "DCP-LETT-444", "body_paragraph": 2, "quote": "Elizabeth & Caroline are grown suburban again & it is very puzzling"}]}, {"kind": "editorial_chain", "description": "The editorial summary says this letter responds to Darwin's letter just received, while footnote 1 records the earlier response to 441 as missing.", "evidence": [{"letter_id": "DCP-LETT-444", "body_paragraph": 1, "quote": "Your letter has just come in"}]}],
+      "alternative_candidates_considered": ["DCP-LETT-441 is earlier but its distinctive religious request belongs to a missing Darwin response; it is not the prompt for 445."]
+    },
+    {
+      "letter_id": "DCP-LETT-447",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5],
+      "summary": "Emma approves the central London house, plans to visit London with the Hensleighs, discusses servants and Robert's affairs, and responds warmly to Darwin's prior letter.",
+      "observations": [{"kind": "reverse_reply", "description": "Emma explicitly responds to 445's shaped paper, house, and cut-off postscript to Frank/Covington. This is Emma replying to Darwin, not evidence of Darwin's voice.", "evidence": [{"letter_id": "DCP-LETT-445", "body_paragraph": 1, "quote": "I have taken a large sheet of paper"}, {"letter_id": "DCP-LETT-447", "body_paragraph": 1, "quote": "I like your unsentimental shaped paper very much"}, {"letter_id": "DCP-LETT-445", "body_paragraph": 11, "quote": "Read the Postscript & be kind enough to forward it to Frank"}, {"letter_id": "DCP-LETT-447", "body_paragraph": 2, "quote": "I will send your note to Frank."}] }],
+      "alternative_candidates_considered": ["DCP-LETT-448 is a later Darwin response only in paragraph 7; 447 cannot condition its Friday paragraphs 1–6."]
+    },
+    {
+      "letter_id": "DCP-LETT-449",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6],
+      "summary": "Emma agrees to come to London, sets out her travel plans, discusses a house and servants, and reports family news.",
+      "observations": [{"kind": "reverse_reply", "description": "Emma answers Darwin 448 paragraph 7's invitation to come to town and asks to arrange the visit; the link is to the Saturday section only.", "evidence": [{"letter_id": "DCP-LETT-448", "body_paragraph": 7, "quote": "nothing in the world could be more fortunate than your being able to come to town."}, {"letter_id": "DCP-LETT-449", "body_paragraph": 1, "quote": "It is very well I am coming to look after you my poor old man"}] }],
+      "alternative_candidates_considered": ["DCP-LETT-445 and 447 concern the earlier house/postscript exchange; 448 paragraph 7 is the direct invitation answered here."]
+    },
+    {
+      "letter_id": "DCP-LETT-460",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4],
+      "summary": "Emma describes the journey home, family visits, the maid and house, and her concern that Darwin is overworked.",
+      "observations": [{"kind": "unlocated_response", "description": "The letter appears to follow a Darwin communication during or after the London visit, but no assigned outgoing letter is explicitly acknowledged and the topics recur across several earlier exchanges.", "evidence": [{"letter_id": "DCP-LETT-460", "body_paragraph": 2, "quote": "Having now got rid of me I suppose you will give up your intemperate habits & take to your books again."}]}],
+      "alternative_candidates_considered": ["DCP-LETT-448 and 445 contain related house and servant topics but are too distant and non-unique; a nearer Darwin prompt is unlocated."]
+    },
+    {
+      "letter_id": "DCP-LETT-462",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5],
+      "summary": "Emma answers a short business letter about maids, gives family and weather news, and asks when Darwin will come.",
+      "observations": [{"kind": "unlocated_response", "description": "Emma explicitly characterizes the preceding item as a short business letter, but its Darwin record is absent from the assigned set.", "evidence": [{"letter_id": "DCP-LETT-462", "body_paragraph": 1, "quote": "I felt rather inclined to growl at seeing such a short letter but I soon became pacified as it was only a business letter."}]}],
+      "alternative_candidates_considered": ["DCP-LETT-463 is later and announces the secured house; it cannot be the business-letter prompt described here."]
+    },
+    {
+      "letter_id": "DCP-LETT-464",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5],
+      "summary": "Emma celebrates Darwin's securing of Macaw Cottage, discusses furniture, family visitors, the wedding, and his health.",
+      "observations": [{"kind": "reverse_reply", "description": "Emma explicitly says she opened Darwin 463 and answers its house announcement; this is a reverse reply to Darwin, not an Emma prompt for 463.", "evidence": [{"letter_id": "DCP-LETT-463", "body_paragraph": 1, "quote": "Gower St is ours, yellow curtains & all."}, {"letter_id": "DCP-LETT-464", "body_paragraph": 1, "quote": "I could hardly believe the good news when I opened your letter"}] }],
+      "alternative_candidates_considered": ["DCP-LETT-466 later acknowledges two letters but does not identify 464's house response separately; 463 is the secure immediate reverse-reply target."]
+    },
+    {
+      "letter_id": "DCP-LETT-465",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4],
+      "summary": "Emma urges Darwin to rest at Shrewsbury and Maer, discusses linen, cooks, and wedding preparations, and asks him not to overwork.",
+      "observations": [{"kind": "unlocated_response", "description": "The health concern may follow a recent Darwin visit or letter, but no assigned outgoing record uniquely supplies it; 466's later two-letter acknowledgment is candidate-only and does not allocate this content.", "evidence": [{"letter_id": "DCP-LETT-465", "body_paragraph": 1, "quote": "I want to persuade you dear Charley to leave town at once & get some rest."}]}],
+      "alternative_candidates_considered": ["DCP-LETT-463 is the nearby Darwin house letter but does not mention the illness described; DCP-LETT-466 is only a possible later acknowledgment."]
+    },
+    {
+      "letter_id": "DCP-LETT-482",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6, 7],
+      "summary": "Emma responds to the new house, discusses cooks and linen, family visitors, Carlyle, books, and the postponed wedding date.",
+      "observations": [{"kind": "reverse_reply", "description": "Emma's question about the Carlyle dinner and her comments on the arranged house directly answer Darwin 481's Wednesday-evening paragraphs 1–5. The incoming letter is not a Darwin voice or a prompt for 481.", "evidence": [{"letter_id": "DCP-LETT-481", "body_paragraph": 2, "quote": "Erasmus’s dinner yesterday was a very pleasant one: Carlyyle was in high force"}, {"letter_id": "DCP-LETT-482", "body_paragraph": 3, "quote": "Tell me how your Carlyle dinner went off."}] }],
+      "alternative_candidates_considered": ["DCP-LETT-484 later answers 482's cook question; DCP-LETT-481 is the direct Darwin text answered by 482. The later Thursday section of 481 cannot be conditioned on 482."]
+    },
+    {
+      "letter_id": "DCP-LETT-485",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4],
+      "summary": "Emma acknowledges a letter received Friday, discusses the garden, servants, wedding date, Carlyle, and Darwin's health.",
+      "observations": [{"kind": "reverse_reply", "description": "Emma identifies the received letter and answers Darwin 481's Wednesday material about walking, coming down, and the wedding plans. This is a separate reverse reply from 482, not a prompt for 481.", "evidence": [{"letter_id": "DCP-LETT-481", "body_paragraph": 1, "quote": "I walked for half an hour in the garden to day"}, {"letter_id": "DCP-LETT-485", "body_paragraph": 1, "quote": "Thank you very much for your letter which I received on Friday."}, {"letter_id": "DCP-LETT-481", "body_paragraph": 3, "quote": "I shall start for Shrewsbury on Thursday Morning"}, {"letter_id": "DCP-LETT-485", "body_paragraph": 1, "quote": "I am very glad you have fixed your day for coming down"}] }],
+      "alternative_candidates_considered": ["DCP-LETT-484 was written Sunday/Monday and cannot be the letter Emma received Friday; 481 is the explicit received text."]
+    },
+    {
+      "letter_id": "DCP-LETT-486",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2],
+      "summary": "Emma answers Darwin's questions about curtains, the cook, clothes, Mungo Park, Sir Walter Scott, and the coming wedding.",
+      "observations": [{"kind": "reverse_reply", "description": "Emma answers multiple distinctive items in Darwin 484, including curtains, cook, and the books, establishing 486 as a reverse reply to 484.", "evidence": [{"letter_id": "DCP-LETT-484", "body_paragraph": 1, "quote": "whether you choose to wait, till after our marriage"}, {"letter_id": "DCP-LETT-486", "body_paragraph": 1, "quote": "With respect to the curtains it is a difficult question"}, {"letter_id": "DCP-LETT-484", "body_paragraph": 7, "quote": "Fanny has just called, she has made all enquiries about the Cook"}, {"letter_id": "DCP-LETT-486", "body_paragraph": 1, "quote": "I am glad we have got a cook."}] }],
+      "alternative_candidates_considered": ["DCP-LETT-481 is the letter received Friday by 485; 486's curtain, cook, and book responses identify 484 instead."]
+    },
+    {
+      "letter_id": "DCP-LETT-490",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6],
+      "summary": "Emma discusses wedding preparations, family visits, illness, and the approaching change from Emma Wedgwood to Emma Darwin.",
+      "observations": [{"kind": "no_direct_match", "description": "The letter anticipates another Darwin letter and shares wedding topics with 489, but it does not explicitly acknowledge 489 or answer a distinctive item from it.", "evidence": [{"letter_id": "DCP-LETT-490", "body_paragraph": 6, "quote": "I shall be very glad to have your letter."}]}],
+      "alternative_candidates_considered": ["DCP-LETT-489 is the nearby Darwin wedding letter, but topic overlap and same-day catalogue dates do not prove receipt or a direct response."]
+    },
+    {
+      "letter_id": "DCP-LETT-492",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3, 4, 5, 6],
+      "summary": "Emma warmly answers Darwin before the wedding, discusses whether to go straight home, religion, family visitors, and his crossed writing.",
+      "observations": [{"kind": "direct_prompt", "description": "Emma's explicit suggestion to go straight home on Tuesday is answered by Darwin 493's last-letter reference and his decision to leave the choice open.", "evidence": [{"letter_id": "DCP-LETT-492", "body_paragraph": 2, "quote": "we may as well go strait home on Tuesday I think."}, {"letter_id": "DCP-LETT-493", "body_paragraph": 3, "quote": "now your last letter (for which I return you thanks, for being so good a girl as to write) has just put me half way between the two plans."}] }],
+      "alternative_candidates_considered": ["DCP-LETT-490 is earlier wedding context but does not contain the straight-home instruction answered in 493."]
+    },
+    {
+      "letter_id": "DCP-LETT-471",
+      "body_read_in_full": true,
+      "paragraphs_read": [1, 2, 3],
+      "summary": "Emma writes after the marriage about Darwin's religious doubts, the demands of scientific work, and her continuing affection; the editorial note connects it to a safely preserved letter but not to an assigned Darwin record.",
+      "observations": [{"kind": "unlocated_response", "description": "The letter is an Emma voice discussing Darwin's doubts, but no Darwin outgoing record in this packet is dated or thematically specific enough to establish its prompt.", "evidence": [{"letter_id": "DCP-LETT-471", "body_paragraph": 2, "quote": "I do not wish for any answer to all this"}]}],
+      "alternative_candidates_considered": ["DCP-LETT-493 concerns wedding travel and does not supply a religious-doubt prompt; the Darwin letter, if any, is external to this packet."]
+    }
+  ],
+  "proposed_links": [
+    {
+      "source_id": "DCP-LETT-445",
+      "target_id": "DCP-LETT-444",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "Darwin explicitly acknowledges Emma's letter and answers its distinctive Tollet and housing passages in response paragraphs 2 and 6.",
+      "evidence": [{"letter_id": "DCP-LETT-444", "body_paragraph": 4, "quote": "Caroline Tollet says in her situation she finds she can read nothing but sermons & Nicholas Nickleby."}, {"letter_id": "DCP-LETT-445", "body_paragraph": 2, "quote": "You say Caroline Tollet has two works to read, & that you could read one, if not already read,"}, {"letter_id": "DCP-LETT-444", "body_paragraph": 2, "quote": "Elizabeth & Caroline are grown suburban again & it is very puzzling"}, {"letter_id": "DCP-LETT-445", "body_paragraph": 6, "quote": "I am glad to hear you are oscillating in opinion,"}],
+      "response_paragraphs": [2, 6],
+      "known_by_date": "1838-11-27"
+    },
+    {
+      "source_id": "DCP-LETT-447",
+      "target_id": "DCP-LETT-445",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "Emma explicitly answers Darwin's shaped paper, house, and postscript/Frank topics.",
+      "evidence": [{"letter_id": "DCP-LETT-445", "body_paragraph": 1, "quote": "I have taken a large sheet of paper"}, {"letter_id": "DCP-LETT-447", "body_paragraph": 1, "quote": "I like your unsentimental shaped paper very much"}, {"letter_id": "DCP-LETT-445", "body_paragraph": 11, "quote": "Read the Postscript & be kind enough to forward it to Frank"}, {"letter_id": "DCP-LETT-447", "body_paragraph": 2, "quote": "I will send your note to Frank."}],
+      "response_paragraphs": [1, 2, 3],
+      "known_by_date": null
+    },
+    {
+      "source_id": "DCP-LETT-448",
+      "target_id": "DCP-LETT-447",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "Only paragraph 7, explicitly marked Saturday Morning, acknowledges 447's newly received invitation; 447 is not available to 448 paragraphs 1–6.",
+      "evidence": [{"letter_id": "DCP-LETT-447", "body_paragraph": 1, "quote": "The Hensleighs have asked me to go up with them for a week to look at houses with you."}, {"letter_id": "DCP-LETT-448", "body_paragraph": 7, "quote": "Saturday Morning. I was delighted to receive your letter"}],
+      "response_paragraphs": [7],
+      "known_by_date": "1838-12-01"
+    },
+    {
+      "source_id": "DCP-LETT-448",
+      "target_id": "DCP-LETT-444",
+      "relationship": "replies_to",
+      "status": "candidate_only",
+      "reason": "Paragraphs 1–6 repeat the distinctive 'poor old gentleman' phrase from 444, but 445 already directly answers 444 and the repeated topic does not establish a secure second response.",
+      "evidence": [{"letter_id": "DCP-LETT-444", "body_paragraph": 3, "quote": "You have a great deal on your hands poor old gentleman"}, {"letter_id": "DCP-LETT-448", "body_paragraph": 2, "quote": "In your last letter you say “poor old gentleman”"}],
+      "response_paragraphs": [1, 2, 3, 4, 5, 6],
+      "known_by_date": null
+    },
+    {
+      "source_id": "DCP-LETT-449",
+      "target_id": "DCP-LETT-448",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "Emma's plan to travel to London answers 448 paragraph 7's invitation and request to arrange the day.",
+      "evidence": [{"letter_id": "DCP-LETT-448", "body_paragraph": 7, "quote": "I want very much to know which day you will come."}, {"letter_id": "DCP-LETT-449", "body_paragraph": 1, "quote": "It is very well I am coming to look after you my poor old man"}],
+      "response_paragraphs": [7],
+      "known_by_date": null
+    },
+    {
+      "source_id": "DCP-LETT-466",
+      "target_id": "DCP-LETT-464",
+      "relationship": "replies_to",
+      "status": "candidate_only",
+      "reason": "The Monday opening acknowledges two letters received that morning and 464 is chronologically plausible, but no distinct 464 topic is allocated in 466.",
+      "evidence": [{"letter_id": "DCP-LETT-466", "body_paragraph": 1, "quote": "Many thanks for your two most kind, dear, & affectionate letters, which I received this morning."}, {"letter_id": "DCP-LETT-464", "body_paragraph": 1, "quote": "I could hardly believe the good news when I opened your letter"}],
+      "response_paragraphs": [1, 2],
+      "known_by_date": "1838-12-31"
+    },
+    {
+      "source_id": "DCP-LETT-466",
+      "target_id": "DCP-LETT-465",
+      "relationship": "replies_to",
+      "status": "candidate_only",
+      "reason": "The Monday opening acknowledges two letters received that morning and 465 is chronologically plausible, but the health/rest request is not distinctly answered in 466.",
+      "evidence": [{"letter_id": "DCP-LETT-466", "body_paragraph": 1, "quote": "Many thanks for your two most kind, dear, & affectionate letters, which I received this morning."}, {"letter_id": "DCP-LETT-465", "body_paragraph": 1, "quote": "I want to persuade you dear Charley to leave town at once & get some rest"}],
+      "response_paragraphs": [1, 2],
+      "known_by_date": "1838-12-31"
+    },
+    {
+      "source_id": "DCP-LETT-464",
+      "target_id": "DCP-LETT-463",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "Emma says she opened Darwin's letter and celebrates the exact house announcement.",
+      "evidence": [{"letter_id": "DCP-LETT-463", "body_paragraph": 1, "quote": "Gower St is ours, yellow curtains & all."}, {"letter_id": "DCP-LETT-464", "body_paragraph": 1, "quote": "I could hardly believe the good news when I opened your letter"}],
+      "response_paragraphs": [1, 2, 5],
+      "known_by_date": null
+    },
+    {
+      "source_id": "DCP-LETT-482",
+      "target_id": "DCP-LETT-481",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "Emma asks specifically about Darwin's Carlyle dinner and responds to his Wednesday house account; the link is to 481 paragraphs 1–5 only.",
+      "evidence": [{"letter_id": "DCP-LETT-481", "body_paragraph": 2, "quote": "Erasmus’s dinner yesterday was a very pleasant one: Carlyyle was in high force"}, {"letter_id": "DCP-LETT-482", "body_paragraph": 3, "quote": "Tell me how your Carlyle dinner went off."}],
+      "response_paragraphs": [1, 3],
+      "target_paragraphs": [1, 2, 3, 4, 5],
+      "known_by_date": null
+    },
+    {
+      "source_id": "DCP-LETT-484",
+      "target_id": "DCP-LETT-482",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "Darwin answers Emma's cook request and her question about when her letter arrived; paragraph 7 is the Monday continuation addressing the cook.",
+      "evidence": [{"letter_id": "DCP-LETT-482", "body_paragraph": 1, "quote": "Fanny tells me to write to her about cooks"}, {"letter_id": "DCP-LETT-484", "body_paragraph": 7, "quote": "Fanny has just called, she has made all enquiries about the Cook"}, {"letter_id": "DCP-LETT-484", "body_paragraph": 6, "quote": "You tell me to mention when I received your last letter: it came on Friday"}],
+      "response_paragraphs": [1, 5, 6, 7],
+      "known_by_date": "1839-01-06"
+    },
+    {
+      "source_id": "DCP-LETT-485",
+      "target_id": "DCP-LETT-481",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "Emma explicitly identifies the letter received Friday and answers the garden-walk and coming-down plans in 481; it is separate from 482's Carlyle question.",
+      "evidence": [{"letter_id": "DCP-LETT-481", "body_paragraph": 1, "quote": "I walked for half an hour in the garden to day"}, {"letter_id": "DCP-LETT-485", "body_paragraph": 1, "quote": "Thank you very much for your letter which I received on Friday."}, {"letter_id": "DCP-LETT-481", "body_paragraph": 3, "quote": "I shall start for Shrewsbury on Thursday Morning"}, {"letter_id": "DCP-LETT-485", "body_paragraph": 1, "quote": "I am very glad you have fixed your day for coming down"}],
+      "response_paragraphs": [1],
+      "target_paragraphs": [1, 2, 3, 4, 5],
+      "known_by_date": null
+    },
+    {
+      "source_id": "DCP-LETT-486",
+      "target_id": "DCP-LETT-484",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "Emma answers 484's curtain, cook, and book references with several distinctive acknowledgments.",
+      "evidence": [{"letter_id": "DCP-LETT-484", "body_paragraph": 7, "quote": "Fanny has just called, she has made all enquiries about the Cook"}, {"letter_id": "DCP-LETT-486", "body_paragraph": 1, "quote": "I am glad we have got a cook."}, {"letter_id": "DCP-LETT-484", "body_paragraph": 1, "quote": "With a little judgment we shall make that room comfortable"}, {"letter_id": "DCP-LETT-486", "body_paragraph": 1, "quote": "With respect to the curtains it is a difficult question"}],
+      "response_paragraphs": [1],
+      "known_by_date": null
+    },
+    {
+      "source_id": "DCP-LETT-493",
+      "target_id": "DCP-LETT-492",
+      "relationship": "replies_to",
+      "status": "supported",
+      "reason": "Darwin explicitly thanks Emma's last letter and answers its straight-home plan before the wedding.",
+      "evidence": [{"letter_id": "DCP-LETT-492", "body_paragraph": 2, "quote": "we may as well go strait home on Tuesday I think."}, {"letter_id": "DCP-LETT-493", "body_paragraph": 3, "quote": "now your last letter (for which I return you thanks, for being so good a girl as to write) has just put me half way between the two plans."}],
+      "response_paragraphs": [3],
+      "known_by_date": "1839-01-26"
+    }
+  ],
+  "unlocated_references": [
+    {"letter_id": "DCP-LETT-423", "body_paragraph": 1, "description": "Earlier Emma Bazaar and Elizabeth-purchase letter is not assigned."},
+    {"letter_id": "DCP-LETT-437", "body_paragraph": 1, "description": "Engagement-news prompt is not assigned."},
+    {"letter_id": "DCP-LETT-440", "body_paragraph": 3, "description": "Earlier Emma housing letter is not assigned."},
+    {"letter_id": "DCP-LETT-462", "body_paragraph": 1, "description": "Darwin's short business letter about the maids is not assigned."},
+    {"letter_id": "DCP-LETT-460", "body_paragraph": 2, "description": "A preceding Darwin letter during the London visit is not identified."},
+    {"letter_id": "DCP-LETT-465", "body_paragraph": 1, "description": "The specific Darwin context for Emma's rest request is not identified."},
+    {"letter_id": "DCP-LETT-471", "body_paragraph": 1, "description": "The Darwin letter prompting the post-marriage religious discussion is not assigned."},
+    {"letter_id": "DCP-LETT-564", "body_paragraph": 1, "description": "Emma's letter received shortly before 5 April 1840 is not assigned."},
+    {"letter_id": "DCP-LETT-623", "body_paragraph": 4, "description": "Emma's prior account of economy in fires and puddings is not assigned."},
+    {"letter_id": "DCP-LETT-626", "body_paragraph": 8, "description": "Emma's health-and-children letter that arrived after the postman wait is not assigned."},
+    {"letter_id": "DCP-LETT-704", "body_paragraph": 3, "description": "Emma's letter containing the 'pretty brisk' report is not assigned."}
+  ],
+  "issues": [
+    "All 32 assigned records were read in full, including every retained body paragraph and the editorial summary/footnotes.",
+    "All cited quotations were checked as exact substrings of their cited packet paragraphs; paragraph locators use the packet's retained body-paragraph numbering.",
+    "Incoming Emma prose is never treated as Darwin voice. Emma's replies to Darwin are represented as reverse replies only.",
+    "DCP-LETT-448 has XML when=1838-11-30 although its body extends to Saturday 1 December; only paragraph 7 is linked to DCP-LETT-447. DCP-LETT-466, 481, and 484 are bounded multi-section records and their section dates constrain which incoming letters can be used.",
+    "DCP-LETT-466's two-letter acknowledgment supports candidate links to 464 and 465, but does not prove one-to-one content allocation. Additional external letters may exist outside this pinned candidate set.",
+    "The preserved packet is a selected corpus, not an archive-wide absence proof. Exact external text needed for unresolved prompts includes the missing Darwin response to Emma 441 and the unassigned Darwin/Emma letters described in unlocated_references."
+  ]
+}

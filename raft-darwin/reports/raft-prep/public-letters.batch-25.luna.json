@@ -1,0 +1,244 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Batch-25 additive public-letter formatting/date/provenance requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "batch_id": "batch-25",
+    "reading_path": "reports/1851-1855/review/parent-reading/batch-25.json",
+    "reading_sha256": "0fdf5845fe434e620345c8fb99d9d643555b31e5f8c6ea27ddd3edce70f3d2ef",
+    "decision_path": "reports/1851-1855/review/parent-decisions/batch-25.json",
+    "decision_sha256": "8d17dd051fae6ceae60f5438392fa1ffbafc474de644371500d11ebedbf16c80",
+    "ledger_path": "data/annotations/periods/1851-1855/batch-25.json",
+    "ledger_sha256": "cfd518f21ff8aacdde769b2168989c6741664aa25b4bb72c2c0d6000360db1ea"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1470",
+        "DCP-LETT-1516A",
+        "DCP-LETT-1666",
+        "DCP-LETT-1686A",
+        "DCP-LETT-1771"
+      ],
+      "case": "public inquiries, conditional requests and mediated reports",
+      "requirement": "Preserve these as attributed printed public communications and outgoing inquiries, not private inbound prompts or direct reply pairs. Keep conditional requests and planned experiments distinct from completed results. 1516A is a mediated third-person C.R.D. notice; its editor and later Country Subscriber response are separate voices. 1771 asks for authentication of a reported shell fall; the underlying incoming report and later answers are not reproduced as Darwin knowledge. Preserve publication and composition bounds without promoting raw open lower XML dates to exact days.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1470",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1470.html",
+          "source_html_sha256": "78b34f8d1bc74fed33538282e62d88846fb63878933fba8fb8f27df729344666",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-1470.xml",
+          "xml_sha256": "4a8e8a8fa2b9e1dbca7280202462183178a23eb746680f90d89df2901bc17516",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Darwin attributed published text; editorial responses, named reports and later revisions separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1516A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1516A.html",
+          "source_html_sha256": "5b4fc19f2a3ffc30c3151ab466412f268b43c640ec7e644b067eea6ec0c659dd",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1516A.xml",
+          "xml_sha256": "2bd2b55f4efdbc041437ce041a818432a100fa1c98fad14196fe3b862d605fbe",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Darwin attributed published text; editorial responses, named reports and later revisions separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1666",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1666.html",
+          "source_html_sha256": "4cfa467d8d9a7f3e4b708f6124cd83fb15e70bf4f62b4862bd467097cf7dd188",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1666.xml",
+          "xml_sha256": "7b9ba3c1141f55b18701fc0b18f7125b509498e5f457e3ce3f1148b22a7bf0a9",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Darwin attributed published text; editorial responses, named reports and later revisions separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1686A",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1686A.html",
+          "source_html_sha256": "ad546f038813f27149b8368b6216748292c6be3a087c3f99d834a0f9c7315b26",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-1686A.xml",
+          "xml_sha256": "c934b582c71a802631def94e8c40373060321ca8c50183d7c3e5039dfff8bb6f",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Darwin attributed published text; editorial responses, named reports and later revisions separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1771",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1771.html",
+          "source_html_sha256": "ecdf2cb7b3cad6288cd25873004a4dc96fefa52a4372264549410c052b5d9e93",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-1771.xml",
+          "xml_sha256": "17125e1120f539fd6bfb6f41db50b0a74713ac6919ff3fdbd2a5b09bd2b6a3ff",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Darwin attributed published text; editorial responses, named reports and later revisions separately attributed"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1470",
+          "body_paragraph": 1,
+          "quote": "Would any of your correspondents have the charity to give the result of any actual experience of light wire rope",
+          "source_sha256": "78b34f8d1bc74fed33538282e62d88846fb63878933fba8fb8f27df729344666",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1516A",
+          "body_paragraph": 1,
+          "quote": "Now, can any one tell him whether a syphon made of Burgess and Keys’ canvas hose",
+          "source_sha256": "5b4fc19f2a3ffc30c3151ab466412f268b43c640ec7e644b067eea6ec0c659dd",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1771",
+          "body_paragraph": 1,
+          "quote": "Were any of the shells living? Over how wide an area did they fall?",
+          "source_sha256": "ecdf2cb7b3cad6288cd25873004a4dc96fefa52a4372264549410c052b5d9e93",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1684",
+        "DCP-LETT-1723"
+      ],
+      "case": "composition/publication dates and reported observations",
+      "requirement": "Keep supplied composition dates and publication chronology distinct, including 1684 May 21 versus later publication self-reference. Preserve reported observations, hypothetical transport calculations, selected-page reading and explicit qualifications as source prose. Do not elevate editorial clipping amendments or apparatus into contemporaneous Darwin wording; retain misspellings and source attributions where present.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1684",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1684.html",
+          "source_html_sha256": "b85818f5ea9103769e1551c0149693d95b1810fe0c0ff43d91b885a566e81464",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1684.xml",
+          "xml_sha256": "c166e8d3e5713488fd915592d9f911eff461439e070355dd48e36a3acd1dcb86",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Darwin attributed published text; editorial responses, named reports and later revisions separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1723",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1723.html",
+          "source_html_sha256": "37dabf95e59254577a81ba138bbadef4ae905dc39fb851bfa38e53b3ca6d8e93",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-1723.xml",
+          "xml_sha256": "e11cf1f2e9dfe9e5738a2a06a3824330132b52e34f3215908a187efa2a2452e7",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Darwin attributed published text; editorial responses, named reports and later revisions separately attributed"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1684",
+          "body_paragraph": 1,
+          "quote": "As you have done me the honour to notice favourably my wish to ascertain experimentally",
+          "source_sha256": "b85818f5ea9103769e1551c0149693d95b1810fe0c0ff43d91b885a566e81464",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1723",
+          "body_paragraph": 1,
+          "quote": "On two occasions I have observed hive bees by the thousands",
+          "source_sha256": "37dabf95e59254577a81ba138bbadef4ae905dc39fb851bfa38e53b3ca6d8e93",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1780",
+        "DCP-LETT-1783",
+        "DCP-LETT-1787"
+      ],
+      "case": "later clipping and same-author corrections",
+      "requirement": "Represent successive public versions without silently rewriting earlier text. Preserve 1780’s six plants misprint and 1783’s embedded P.S. correction to six plots of ground as a postscript inside the same extracted paragraph. Preserve 1783 experimental limits and the later 1787 correction identifying Euonymus in place of printed evergreens; the later correction must remain temporally later and must not overwrite the earlier article. Conditional inferences and uncertain denominators remain qualified.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1780",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1780.html",
+          "source_html_sha256": "cb1ea403f9dbf7e5a29f01d4098ea9594800d01013dfc956ac1168f3ea040be6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1780.xml",
+          "xml_sha256": "e29ed8331e12033ae42d6a4e3204891e93ac84e279a72a53642a360d698c7447",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Darwin attributed published text; editorial responses, named reports and later revisions separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1783",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1783.html",
+          "source_html_sha256": "78785698d71712e6b1ef1ae2f88f5cddd6e4998d2803ad894f4cc0b3aea833e8",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1783.xml",
+          "xml_sha256": "c7cd57e736bc36481c319e940108ad77daf6b3f59a6d19172fa20ef273bacd5e",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Darwin attributed published text; editorial responses, named reports and later revisions separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1787",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1787.html",
+          "source_html_sha256": "57854d75a70afc60495bad8c6adec9e0513eab09f7e389b878e9747597d85f6e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-1787.xml",
+          "xml_sha256": "db97a3f71082194b45f6518ce069c4b6da80b55c47fb85e16e687d60639e6c46",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Darwin attributed published text; editorial responses, named reports and later revisions separately attributed"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1783",
+          "body_paragraph": 1,
+          "quote": "P.S. In my communication on Charlock seed lately printed by you, there is a misprint of “6 plants” for “6 plots of ground,”",
+          "source_sha256": "78785698d71712e6b1ef1ae2f88f5cddd6e4998d2803ad894f4cc0b3aea833e8",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1787",
+          "body_paragraph": 1,
+          "quote": "it is printed by mistake that the fruit of “evergreens,” instead of the fruit of the Euonymus",
+          "source_sha256": "57854d75a70afc60495bad8c6adec9e0513eab09f7e389b878e9747597d85f6e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1802",
+        "DCP-LETT-1803"
+      ],
+      "case": "mediated reports, attributed claims and apparatus boundaries",
+      "requirement": "Keep Gärtner, Jouannot/Jouannet, Jordan, Van Mons and Rivers as named or reported sources inside Darwin’s public text, not as Darwin experiments or authenticated facts. Preserve body-versus-apparatus discrepancies such as p348 versus p346, uncertain composition bounds, and the absence of an independently preserved incoming prompt or reply. Do not expand terse public contributions with later explanatory scholarship.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1802",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1802.html",
+          "source_html_sha256": "3c1568888152371a3b44d778b425b352415afa82f040da118dccdba875c87b2f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-1802.xml",
+          "xml_sha256": "75b0cb9a9ab6c5319ee37777721172dd567dc70de88e6564b44bc98453ab22b0",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Darwin attributed published text; editorial responses, named reports and later revisions separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1803",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1803.html",
+          "source_html_sha256": "d4a57e21006c92f84ac51bafc8a51a7927f10b6581ce409174bf48579192895a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-1803.xml",
+          "xml_sha256": "e8f81d85df4bf5c8331bbf43ef610eddc35c0462e4ded76d3c26623f07eec1a4",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Darwin attributed published text; editorial responses, named reports and later revisions separately attributed"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1802",
+          "body_paragraph": 1,
+          "quote": "Gærtner (Versuche über die Bastarderzeugung, s. 157) states on the authority of Jouannot",
+          "source_sha256": "3c1568888152371a3b44d778b425b352415afa82f040da118dccdba875c87b2f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1803",
+          "body_paragraph": 1,
+          "quote": "Jourdan (in the “Mémoires de l’Acad. de Lyons,” vol. ii., p. 94, 114) states most positively",
+          "source_sha256": "d4a57e21006c92f84ac51bafc8a51a7927f10b6581ce409174bf48579192895a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ]
+    }
+  ],
+  "validation_plan": {
+    "quote_validator": "scripts/period_review.py check_quotes",
+    "exact_source_evidence_count": 9,
+    "source_count": 12,
+    "structural_note": "Source HTML/XML hashes and accepted pins are provenance references; candidate does not authorize implementation or export."
+  }
+}

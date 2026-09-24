@@ -1,0 +1,397 @@
+{
+  "status": "primary_verified_conversion_preparation_requirements",
+  "scope": "Accepted Crump/Blyth 1819 supplemental source-text rendering, attribution, extent, image provenance and date requirements only. Candidate documentation; no converter, transcript, export, training or accepted evidence changes.",
+  "primary_provenance": {
+    "accepted_supplement": {
+      "path": "data/annotations/reconciliation/1856-crump-blyth-supplement.primary.json",
+      "sha256": "c5fca24a686e1cb4e5e7897c8b6e3c19dda58176c78632eafd708883fcab7f67"
+    },
+    "recovery_report": {
+      "path": "reports/1856-1857/review/followups/blyth-crump-1819/blyth-crump-1819-recovery.luna.json",
+      "sha256": "8e1e55e2dd62b2d9465cc0fe9574be35d26cd3ce09df077da8b5bd563daa92f1"
+    },
+    "source": {
+      "letter_id": "DCP-LETT-1819",
+      "html_path": "reports/1856-1857/review/followups/blyth-crump-1819/DCP-LETT-1819.html",
+      "html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+      "xml_path": "reports/1856-1857/review/followups/blyth-crump-1819/DCP-LETT-1819.xml",
+      "xml_sha256": "784e6ab5029779c04cafee664325f14b347741ff454f6ffd3469659cc23be89e",
+      "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1819.xml",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-1819.xml",
+      "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+      "sender": "Charles Wade Crump",
+      "recipient": "Edward Blyth",
+      "source_reference": "DAR98:A114–A116",
+      "physical_description": "Amem S 5pp with Darwin annotation",
+      "transcription_in_tei": false
+    }
+  },
+  "requirements": [
+    {
+      "case": "Crump source identity, extent and forwarding boundary",
+      "source_ids": [
+        "DCP-LETT-1819"
+      ],
+      "requirement": "Render DCP-LETT-1819 as a separate Crump-to-Blyth memorandum forwarded by Blyth, not as a Darwin letter or Darwin grounding voice. The seven retained body blocks include a cover/title block and a section heading before five substantive blocks; preserve those extent boundaries in provenance and exclude P1 cover and P2 heading from any later content body. The cover names lions and wild cattle, but Blyth explicitly retained the lion material and the transmitted text that follows is the cattle memorandum. Keep the historical 1818 enclosure identifier as the Notes for Mr Darwin component within Blyth 1817, with no independent 1818 row in the pinned CSV; this is an edition-specific identification, not a claim that no separately catalogued manuscript exists. Avoid duplicate content. Preserve the missing TEI transcription status and the six unique manuscript surfaces plus one duplicate spread; do not count the duplicate spread as a seventh manuscript page.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1819",
+          "html_path": "reports/1856-1857/review/followups/blyth-crump-1819/DCP-LETT-1819.html",
+          "html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "xml_path": "reports/1856-1857/review/followups/blyth-crump-1819/DCP-LETT-1819.xml",
+          "xml_sha256": "784e6ab5029779c04cafee664325f14b347741ff454f6ffd3469659cc23be89e",
+          "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1819.xml",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-1819.xml",
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "sender": "Charles Wade Crump",
+          "recipient": "Edward Blyth",
+          "source_reference": "DAR98:A114–A116",
+          "physical_description": "Amem S 5pp with Darwin annotation",
+          "transcription_in_tei": false
+        }
+      ],
+      "provenance_rules": {
+        "voice": "Crump body; Blyth forwarding/cover annotations remain separate",
+        "darwin_voice": false,
+        "body_blocks_retained": 7,
+        "unique_manuscript_surfaces": 6,
+        "duplicate_surface": "A:115v-116r spread"
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1819",
+          "body_paragraph": 1,
+          "quote": "Facts regarding Lions in Central India",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]",
+          "source_html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "note": "Cover/title text; preserve as cover provenance and exclude from future body content.",
+          "char_start": 0,
+          "char_end": 38
+        },
+        {
+          "letter_id": "DCP-LETT-1819",
+          "body_paragraph": 2,
+          "quote": "Wild Cattle in the South.",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]",
+          "source_html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "char_start": 0,
+          "char_end": 25
+        }
+      ],
+      "apparatus_proof": [
+        {
+          "letter_id": "DCP-LETT-1819",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[2]/div[2]",
+          "literal_text": "These I have retained, EB.",
+          "source_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508"
+        }
+      ]
+    },
+    {
+      "case": "Hearsay, firsthand limits and reported cattle narrative",
+      "source_ids": [
+        "DCP-LETT-1819"
+      ],
+      "requirement": "Preserve Crump’s explicit attribution boundaries. The opening tradition is hearsay; his own knowledge begins with the 1847 journey, an officer’s report and the shown skin and horns. He says he failed to find the living herd, then switches to an account received from local people. The red-bull breeding story, seven-animal enumeration and Kennedy extermination report are therefore reported accounts at different removes, not a direct observation or measured specimen record. The separate Jerdon lagoon-cattle statement is also heard from Jerdon. Do not collapse these voices into a single Crump observation or use later Jerdon 1867 wording as contemporary Crump text.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1819",
+          "html_path": "reports/1856-1857/review/followups/blyth-crump-1819/DCP-LETT-1819.html",
+          "html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "xml_path": "reports/1856-1857/review/followups/blyth-crump-1819/DCP-LETT-1819.xml",
+          "xml_sha256": "784e6ab5029779c04cafee664325f14b347741ff454f6ffd3469659cc23be89e",
+          "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1819.xml",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-1819.xml",
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "sender": "Charles Wade Crump",
+          "recipient": "Edward Blyth",
+          "source_reference": "DAR98:A114–A116",
+          "physical_description": "Amem S 5pp with Darwin annotation",
+          "transcription_in_tei": false
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1819",
+          "body_paragraph": 3,
+          "quote": "So much I know only by hearsay— the following is of my own knowledge",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]",
+          "source_html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "char_start": 328,
+          "char_end": 396
+        },
+        {
+          "letter_id": "DCP-LETT-1819",
+          "body_paragraph": 4,
+          "quote": "went out after this herd but could not find them, however they were perfectly well known to all the people thereabouts and the account I received was as follows—",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]",
+          "source_html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "char_start": 37,
+          "char_end": 198
+        },
+        {
+          "letter_id": "DCP-LETT-1819",
+          "body_paragraph": 5,
+          "quote": "wild cattle were 7 in number",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]",
+          "source_html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "char_start": 641,
+          "char_end": 669
+        },
+        {
+          "letter_id": "DCP-LETT-1819",
+          "body_paragraph": 6,
+          "quote": "I heard afterwards that the whole race was exterminated by Kennedy",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]",
+          "source_html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "char_start": 0,
+          "char_end": 66
+        },
+        {
+          "letter_id": "DCP-LETT-1819",
+          "body_paragraph": 7,
+          "quote": "I have heard from Jerden of another breed of wild cattle living in the salt water lagoons and islands above Nellore",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]",
+          "source_html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "char_start": 0,
+          "char_end": 115
+        }
+      ]
+    },
+    {
+      "case": "Manuscript image derivatives and actual dimensions",
+      "source_ids": [
+        "DCP-LETT-1819"
+      ],
+      "requirement": "Preserve the actual viewed Cambridge JPEG derivatives and their provenance separately from TEI declared dimensions. Surfaces A:114r through A:116v are six unique images at 1330x2059, while the A:115v-116r spread is a duplicate composite at 2000x1787. The TEI declarations 3515px by 5855px and 6712px by 5800px are metadata claims about source material, not the dimensions of the preserved derivatives. Rendering requirements must retain insertions, cancellations, brown-crayon scoring and cover additions as manuscript layers without treating them as extra body paragraphs or Darwin-authored content. These preserved 1819 images supply neither an independent 1818 source nor a Darwin reply; absence is bounded to these witnesses. Retain manuscript layers in provenance, while final content must exclude annotations, deleted text and layout artifacts under the content policy.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1819",
+          "html_path": "reports/1856-1857/review/followups/blyth-crump-1819/DCP-LETT-1819.html",
+          "html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "xml_path": "reports/1856-1857/review/followups/blyth-crump-1819/DCP-LETT-1819.xml",
+          "xml_sha256": "784e6ab5029779c04cafee664325f14b347741ff454f6ffd3469659cc23be89e",
+          "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1819.xml",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-1819.xml",
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "sender": "Charles Wade Crump",
+          "recipient": "Edward Blyth",
+          "source_reference": "DAR98:A114–A116",
+          "physical_description": "Amem S 5pp with Darwin annotation",
+          "transcription_in_tei": false
+        }
+      ],
+      "facsimiles": [
+        {
+          "surface": "A:114r",
+          "path": "reports/1856-1857/review/followups/blyth-crump-1819/facsimiles/MS-DAR-00098-000-00246.jpg",
+          "url": "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00246.jpg",
+          "sha256": "c805f7948aae9b57160ac7bcbae700bf4e9ecc5e0d0a84629cf545e004cf32e5",
+          "actual_dimensions": [
+            1330,
+            2059
+          ],
+          "tei_declared_dimensions": [
+            "3515px",
+            "5855px"
+          ]
+        },
+        {
+          "surface": "A:114v",
+          "path": "reports/1856-1857/review/followups/blyth-crump-1819/facsimiles/MS-DAR-00098-000-00247.jpg",
+          "url": "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00247.jpg",
+          "sha256": "4b384b390d861c6fe0cc34f191d39c7aeee6c428d1e0dde93dae23f8f842a124",
+          "actual_dimensions": [
+            1330,
+            2059
+          ],
+          "tei_declared_dimensions": [
+            "3515px",
+            "5855px"
+          ]
+        },
+        {
+          "surface": "A:115r",
+          "path": "reports/1856-1857/review/followups/blyth-crump-1819/facsimiles/MS-DAR-00098-000-00248.jpg",
+          "url": "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00248.jpg",
+          "sha256": "ae41e73b4c277f2abd77a367fbf03bf962f7c2b721b144552cde84ef8a3a9b4d",
+          "actual_dimensions": [
+            1330,
+            2059
+          ],
+          "tei_declared_dimensions": [
+            "3515px",
+            "5855px"
+          ]
+        },
+        {
+          "surface": "A:115v",
+          "path": "reports/1856-1857/review/followups/blyth-crump-1819/facsimiles/MS-DAR-00098-000-00249.jpg",
+          "url": "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00249.jpg",
+          "sha256": "ef59a4df77ab55809a0c1fe2a08fd1c424a5f20eb52d4925d626c0318260dfa7",
+          "actual_dimensions": [
+            1330,
+            2059
+          ],
+          "tei_declared_dimensions": [
+            "3515px",
+            "5855px"
+          ]
+        },
+        {
+          "surface": "A:116r",
+          "path": "reports/1856-1857/review/followups/blyth-crump-1819/facsimiles/MS-DAR-00098-000-00250.jpg",
+          "url": "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00250.jpg",
+          "sha256": "1223ea4115aa500d2220b8626b75544a85d506438a2443339e7ea5530cc72301",
+          "actual_dimensions": [
+            1330,
+            2059
+          ],
+          "tei_declared_dimensions": [
+            "3515px",
+            "5855px"
+          ]
+        },
+        {
+          "surface": "A:116v",
+          "path": "reports/1856-1857/review/followups/blyth-crump-1819/facsimiles/MS-DAR-00098-000-00251.jpg",
+          "url": "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00251.jpg",
+          "sha256": "d69fd23e468c8221de4b46e96d73e3c843108dc7c8a157b98975636cc7e3097c",
+          "actual_dimensions": [
+            1330,
+            2059
+          ],
+          "tei_declared_dimensions": [
+            "3515px",
+            "5855px"
+          ]
+        },
+        {
+          "surface": "A:115v-116r duplicate spread",
+          "path": "reports/1856-1857/review/followups/blyth-crump-1819/facsimiles/MS-DAR-00098-000-00252.jpg",
+          "url": "https://images.lib.cam.ac.uk/content/images/MS-DAR-00098-000-00252.jpg",
+          "sha256": "9404416359c21494e060e59508ffb24b48441aa2fd5646a41c769fae35859735",
+          "actual_dimensions": [
+            2000,
+            1787
+          ],
+          "tei_declared_dimensions": [
+            "6712px",
+            "5800px"
+          ]
+        }
+      ],
+      "exact_source_evidence": []
+    },
+    {
+      "case": "Date, bibliography and knowledge boundary",
+      "source_ids": [
+        "DCP-LETT-1819"
+      ],
+      "requirement": "Keep the editorial date [before 8 January 1856] as a relational upper bound tied to Blyth’s forwarding, while preserving the raw XML notBefore 1809-01-01 as a broad metadata artifact rather than a composition date. The body recalls events from 1847 and contains no dated Darwin receipt. Preserve the complete bibliography: EB, Jerdon 1867 and OED. Footnote 8’s later Jerdon quotation is editorial comparison and cannot be rendered as Crump voice. No direct or reverse Darwin relationship, knowledge activation, or automatic training inclusion follows from this supplement.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1819",
+          "html_path": "reports/1856-1857/review/followups/blyth-crump-1819/DCP-LETT-1819.html",
+          "html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "xml_path": "reports/1856-1857/review/followups/blyth-crump-1819/DCP-LETT-1819.xml",
+          "xml_sha256": "784e6ab5029779c04cafee664325f14b347741ff454f6ffd3469659cc23be89e",
+          "html_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1819.xml",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-1819.xml",
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "sender": "Charles Wade Crump",
+          "recipient": "Edward Blyth",
+          "source_reference": "DAR98:A114–A116",
+          "physical_description": "Amem S 5pp with Darwin annotation",
+          "transcription_in_tei": false
+        }
+      ],
+      "date_limits": {
+        "editorial_date": "before 8 January 1856",
+        "xml_notBefore": "1809-01-01",
+        "xml_notAfter": "1856-01-07",
+        "actual_darwin_receipt": null
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1819",
+          "apparatus_quote": "Dated by the relationship to the letter from Edward Blyth, 8 January [1856].",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[1]",
+          "source_html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "layer": "footnote 1",
+          "char_start": 1,
+          "char_end": 77
+        },
+        {
+          "letter_id": "DCP-LETT-1819",
+          "apparatus_quote": "Later described by Thomas Claverhill Jerdon of the Madras service in Jerdon 1867, p. 301",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[8]",
+          "source_html_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508",
+          "layer": "footnote 8",
+          "char_start": 1,
+          "char_end": 89
+        }
+      ],
+      "bibliography_proof": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[4]",
+        "text": "Bibliography EB: The Encyclopædia Britannica. A dictionary of arts, sciences, literature and general information. 11th edition. 29 vols. Cambridge: Cambridge University Press. 1910–11. Jerdon, Thomas Claverhill. 1867. The mammals of India; a natural history of all the animals known to inhabit continental India. Roorkee, India. OED: The Oxford English dictionary. Being a corrected re-issue with an introduction, supplement and bibliography of a new English dictionary. Edited by James A. H. Murray, et al. 12 vols. and supplement. Oxford: Clarendon Press. 1970. A supplement to the Oxford English dictionary. 4 vols. Edited by R. W. Burchfield. Oxford: Clarendon Press. 1972–86. The Oxford English dictionary. 2d edition. 20 vols. Prepared by J. A. Simpson and E. S. C. Weiner. Oxford: Clarendon Press. 1989. Oxford English dictionary additional series. 3 vols. Edited by John Simpson et al. Oxford: Clarendon Press. 1993–7.",
+        "source_sha256": "38e3c10ac0294fa0468dc4d171ae30c9ae0c325496c81ac6bf218a998563f508"
+      }
+    }
+  ],
+  "coverage": {
+    "body_paragraphs_read": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "footnotes_read": 8,
+    "bibliography_entries_retained": [
+      "EB",
+      "Jerdon 1867",
+      "OED"
+    ],
+    "facsimile_surfaces_viewed": 7,
+    "unique_manuscript_surfaces": 6,
+    "duplicate_spread_counted_as_new_page": false,
+    "darwin_voice_or_relationship_added": false,
+    "export_performed": false
+  },
+  "validation_notes": "Retained body paragraph numbers are corpus numbering; raw DOM paths are recorded separately. Quotes are source literals or explicitly labelled apparatus strings. Cover/title, Blyth forwarding, later bibliography and Crump body are kept in separate provenance layers.",
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-58.draft.json",
+      "sha256": "bae2a25629857f652b2f6d51f70c0f774bc7024b1d8bb3cdac0d9534849ee6b4"
+    }
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md",
+  "primary_verification": {
+    "exact_body_quotes_checked": 7,
+    "apparatus_locators_checked": 3,
+    "unique_source_html_xml_pairs_checked": 1,
+    "facsimile_hashes_and_actual_dimensions_checked": 7,
+    "bibliography_sibling_checked": true,
+    "metadata_date_constraints_checked": true,
+    "previous_primary_visual_reading_reused": {
+      "path": "data/annotations/reconciliation/1856-crump-blyth-supplement.primary.json",
+      "sha256": "c5fca24a686e1cb4e5e7897c8b6e3c19dda58176c78632eafd708883fcab7f67"
+    }
+  },
+  "primary_corrections": [
+    "Bounded 1818 absence to pinned edition and source inventory, not global manuscript existence.",
+    "Explicit P1 cover/P2 heading exclusion retained; manuscript layers belong to provenance and are not automatically final body text.",
+    "Verified all seven body quotes, three apparatus locators, bibliography sibling, source pair, raw date bounds and seven image hashes/dimensions against accepted visual readings."
+  ],
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  }
+}

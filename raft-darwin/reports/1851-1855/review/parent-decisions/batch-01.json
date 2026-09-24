@@ -1,0 +1,483 @@
+{
+  "batch_id": "batch-01",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-1540",
+      "target_id": "DCP-LETT-1539",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_direct_reply",
+      "reason": "Independent source match establishes November 5 reading and response."
+    },
+    {
+      "source_id": "DCP-LETT-1557",
+      "target_id": "DCP-LETT-1552F",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_scoped_reverse_reply",
+      "reason": "Accept P1 only; no Darwin known-by event is created."
+    },
+    {
+      "source_id": "DCP-LETT-1532",
+      "target_id": "DCP-LETT-1319",
+      "relationship": "replies_to",
+      "parent_decision": "rejected",
+      "reason": "A later introductory-essay manuscript is not this earlier travel letter."
+    }
+  ],
+  "direct_reply_pairs": [
+    {
+      "incoming_id": "DCP-LETT-1539",
+      "outgoing_id": "DCP-LETT-1540",
+      "status": "accepted_direct_reply",
+      "known_by_date": "1853-11-05",
+      "actual_receipt_date": "1853-11-05",
+      "response_scope": "Entire surviving 1540 body P1–7; P4 is valediction. P1 contrasts a separate missing Sabine notice, whose wording is not reconstructed.",
+      "response_date_policy": "November 5 with supplied 1853 year. Hooker note received and opened that morning after Sabine notice; strict same-day retrieval needs explicit ordering provenance.",
+      "rationale": "Medal announcement, Lindley nomination, Mrs Hooker slow recovery, expanded eligibility and foreign evidence all uniquely match Hooker 1539, independently of adjacency.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1539",
+          "body_paragraph": 1,
+          "quote": "The R.S. have voted you the Royal Medal for Natural Science",
+          "char_start": 90,
+          "char_end": 149,
+          "source_sha256": "86422855674def5fa0252001bedb016edb54ef1a56823bdd820a02b50bbe241e"
+        },
+        {
+          "letter_id": "DCP-LETT-1540",
+          "body_paragraph": 1,
+          "quote": "Amongst my letters received this morning",
+          "char_start": 0,
+          "char_end": 40,
+          "source_sha256": "7997628e89fce17438374c19c6e67b0780ecb99a522500e31ee08f86ef453d71"
+        },
+        {
+          "letter_id": "DCP-LETT-1540",
+          "body_paragraph": 1,
+          "quote": "I then opened yours",
+          "char_start": 241,
+          "char_end": 260,
+          "source_sha256": "7997628e89fce17438374c19c6e67b0780ecb99a522500e31ee08f86ef453d71"
+        },
+        {
+          "letter_id": "DCP-LETT-1539",
+          "body_paragraph": 1,
+          "quote": "I proposed Lindley after you were proposed",
+          "char_start": 899,
+          "char_end": 941,
+          "source_sha256": "86422855674def5fa0252001bedb016edb54ef1a56823bdd820a02b50bbe241e"
+        },
+        {
+          "letter_id": "DCP-LETT-1540",
+          "body_paragraph": 2,
+          "quote": "you did quite right to propose him",
+          "char_start": 304,
+          "char_end": 338,
+          "source_sha256": "7997628e89fce17438374c19c6e67b0780ecb99a522500e31ee08f86ef453d71"
+        },
+        {
+          "letter_id": "DCP-LETT-1540",
+          "body_paragraph": 7,
+          "quote": "I see you speak of “foreign evidence”",
+          "char_start": 0,
+          "char_end": 37,
+          "source_sha256": "7997628e89fce17438374c19c6e67b0780ecb99a522500e31ee08f86ef453d71"
+        }
+      ],
+      "training_export_ready": false
+    }
+  ],
+  "correspondent_replies": [
+    {
+      "response_id": "DCP-LETT-1557",
+      "antecedent_id": "DCP-LETT-1552F",
+      "status": "accepted_scoped_reverse_reply",
+      "response_scope": "1557 P1 dedication and gratitude only; P2–7 introduce reflection and other news.",
+      "rationale": "Hooker expressly thanks Darwin for his kind hearty acceptance of the dedication, matching the immediate dedication thanks in 1552F. Remaining personal and scientific news is not an answer to that letter.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1552F",
+          "body_paragraph": 1,
+          "quote": "I fell on the Dedication to me",
+          "char_start": 123,
+          "char_end": 153,
+          "source_sha256": "070e34f370019e98780465aef4ba1492c82e0467c9ea2e095023f586aafbaf0e"
+        },
+        {
+          "letter_id": "DCP-LETT-1552F",
+          "body_paragraph": 1,
+          "quote": "you have gratified me, more than I can speak",
+          "char_start": 172,
+          "char_end": 216,
+          "source_sha256": "070e34f370019e98780465aef4ba1492c82e0467c9ea2e095023f586aafbaf0e"
+        },
+        {
+          "letter_id": "DCP-LETT-1557",
+          "body_paragraph": 1,
+          "quote": "your kind hearty acceptation of the dedication",
+          "char_start": 639,
+          "char_end": 685,
+          "source_sha256": "22032c905833611b93d9c576cc942878a6c615c119592686f22bf0a6da88e5d4"
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    }
+  ],
+  "cross_correspondent_knowledge": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-1382",
+      "disposition": "incoming_unpaired",
+      "source_kind": "incoming letter fragment",
+      "voice": "Hooker main body; Darwin annotations and editorial material separate",
+      "date_assessment": "[c. Apr 1851]; preserve supplied dates, disjunctions, layer-specific dates and demonstrated receipt as described in root notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1440",
+      "disposition": "incoming_unpaired",
+      "source_kind": "incoming letter fragment",
+      "voice": "Hooker main body; Darwin annotations and editorial material separate",
+      "date_assessment": "[late Aug – early Sept 1851]; preserve supplied dates, disjunctions, layer-specific dates and demonstrated receipt as described in root notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1460",
+      "disposition": "incoming_unpaired",
+      "source_kind": "incoming letter fragment",
+      "voice": "Hooker main body; Darwin annotations and editorial material separate",
+      "date_assessment": "[Nov 1851]; preserve supplied dates, disjunctions, layer-specific dates and demonstrated receipt as described in root notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1496",
+      "disposition": "initiated_queries_with_later_layers",
+      "source_kind": "queries memorandum with later annotations",
+      "voice": "Darwin main body; embedded Hooker answers and later annotations separately attributed where present",
+      "date_assessment": "[Apr 1852]; preserve supplied dates, disjunctions, layer-specific dates and demonstrated receipt as described in root notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1532",
+      "disposition": "grounding_candidate_missing_prompt",
+      "source_kind": "autograph letter",
+      "voice": "Darwin main body; embedded Hooker answers and later annotations separately attributed where present",
+      "date_assessment": "25 Sept [1853]; preserve supplied dates, disjunctions, layer-specific dates and demonstrated receipt as described in root notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1529",
+      "disposition": "grounding_candidate_missing_prompt",
+      "source_kind": "autograph letter",
+      "voice": "Darwin main body; embedded Hooker answers and later annotations separately attributed where present",
+      "date_assessment": "[9 Oct 1853]; preserve supplied dates, disjunctions, layer-specific dates and demonstrated receipt as described in root notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1535",
+      "disposition": "grounding_candidate_missing_prompt",
+      "source_kind": "autograph letter",
+      "voice": "Darwin main body; embedded Hooker answers and later annotations separately attributed where present",
+      "date_assessment": "10 [Oct 1853]; preserve supplied dates, disjunctions, layer-specific dates and demonstrated receipt as described in root notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1539",
+      "disposition": "accepted_incoming_prompt",
+      "source_kind": "autograph letter",
+      "voice": "Hooker main body; Darwin annotations and editorial material separate",
+      "date_assessment": "[4 Nov 1853]; preserve supplied dates, disjunctions, layer-specific dates and demonstrated receipt as described in root notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1540",
+      "disposition": "accepted_direct_reply",
+      "source_kind": "autograph letter",
+      "voice": "Darwin main body; embedded Hooker answers and later annotations separately attributed where present",
+      "date_assessment": "5 Nov [1853]; preserve supplied dates, disjunctions, layer-specific dates and demonstrated receipt as described in root notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1552F",
+      "disposition": "grounding_candidate_missing_prompt",
+      "source_kind": "autograph letter",
+      "voice": "Darwin main body; embedded Hooker answers and later annotations separately attributed where present",
+      "date_assessment": "[9 or 16] Feb 1854; preserve supplied dates, disjunctions, layer-specific dates and demonstrated receipt as described in root notes.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1557",
+      "disposition": "accepted_scoped_reverse_reply",
+      "source_kind": "autograph letter",
+      "voice": "Hooker main body; Darwin annotations and editorial material separate",
+      "date_assessment": "[26 Feb 1854]; preserve supplied dates, disjunctions, layer-specific dates and demonstrated receipt as described in root notes.",
+      "training_export_ready": false
+    }
+  ],
+  "additional_exact_date_review_ids": [
+    "DCP-LETT-1382",
+    "DCP-LETT-1440",
+    "DCP-LETT-1460",
+    "DCP-LETT-1496",
+    "DCP-LETT-1552F"
+  ],
+  "additional_period_hold_ids": [],
+  "voice_held_ids": [],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-1496",
+      "kind": "layered_queries_memorandum",
+      "description": "Original April 1852 questions, embedded Hooker answers and later Darwin notes have separate voices and dates. Eight paragraph blocks are not eight originally numbered questions. No fabricated incoming letter or automatic 1852 availability for later additions."
+    },
+    {
+      "letter_id": "DCP-LETT-1532",
+      "kind": "manuscript_reading",
+      "description": "Specific manuscript of introductory essay read by September 25, 1853; remainder still requested. Published text cannot replace the historical manuscript without version checking.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1532",
+          "body_paragraph": 1,
+          "quote": "I have read your paper with great interest",
+          "char_start": 0,
+          "char_end": 42,
+          "source_sha256": "2e0b7264b894acea705fe43e3ebfc910cdb7467c882ce9fb5eaf47fd8df35ad6"
+        },
+        {
+          "letter_id": "DCP-LETT-1532",
+          "body_paragraph": 2,
+          "quote": "I shall like very much seeing the remainder",
+          "char_start": 0,
+          "char_end": 43,
+          "source_sha256": "2e0b7264b894acea705fe43e3ebfc910cdb7467c882ce9fb5eaf47fd8df35ad6"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1535",
+      "kind": "dispatch_event",
+      "description": "Manuscript, books and 1529 sent October 10 at 8 AM by coach. Subsequent delivery and ordering relative to this note are hoped for, not established.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1535",
+          "body_paragraph": 1,
+          "quote": "off this morning at 8 A.M. per Coach",
+          "char_start": 57,
+          "char_end": 93,
+          "source_sha256": "685ff486560d84eadedb391f2598ab05cb5ce95eeb2c348d04ab24f0954992fc"
+        },
+        {
+          "letter_id": "DCP-LETT-1535",
+          "body_paragraph": 1,
+          "quote": "I trust you will thus receive it before this note",
+          "char_start": 172,
+          "char_end": 221,
+          "source_sha256": "685ff486560d84eadedb391f2598ab05cb5ce95eeb2c348d04ab24f0954992fc"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-1539",
+      "kind": "MathML_source_structure",
+      "description": "Preserved HTML mfrac nodes contain mn 2 over mn 3 and mn 3 over mn 4. Flat body strings 23 and 34 cannot be exported as integer vote totals. Original projection unchanged."
+    },
+    {
+      "letter_id": "DCP-LETT-1552F",
+      "kind": "receipt_with_limited_inspection",
+      "description": "Physical book receipt and dedication/partial illustration inspection are demonstrated; reading full book is only planned. Preserve the February 9 or 16 date set.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1552F",
+          "body_paragraph": 1,
+          "quote": "I have within these few minutes received your Book",
+          "char_start": 27,
+          "char_end": 77,
+          "source_sha256": "070e34f370019e98780465aef4ba1492c82e0467c9ea2e095023f586aafbaf0e"
+        },
+        {
+          "letter_id": "DCP-LETT-1552F",
+          "body_paragraph": 1,
+          "quote": "I have not even read the Title-Page nor looked at all the illustrations",
+          "char_start": 384,
+          "char_end": 455,
+          "source_sha256": "070e34f370019e98780465aef4ba1492c82e0467c9ea2e095023f586aafbaf0e"
+        },
+        {
+          "letter_id": "DCP-LETT-1552F",
+          "body_paragraph": 1,
+          "quote": "I shall begin this evening",
+          "char_start": 723,
+          "char_end": 749,
+          "source_sha256": "070e34f370019e98780465aef4ba1492c82e0467c9ea2e095023f586aafbaf0e"
+        }
+      ]
+    }
+  ],
+  "receipt_events": [
+    {
+      "letter_id": "DCP-LETT-1540",
+      "object_ids": [
+        "DCP-LETT-1539"
+      ],
+      "recipient": "Charles Darwin",
+      "actual_receipt_date": "1853-11-05",
+      "known_by_date": "1853-11-05",
+      "time_description": "This morning; Hooker letter opened after a separate missing Sabine notice.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1540",
+          "body_paragraph": 1,
+          "quote": "Amongst my letters received this morning",
+          "char_start": 0,
+          "char_end": 40,
+          "source_sha256": "7997628e89fce17438374c19c6e67b0780ecb99a522500e31ee08f86ef453d71"
+        },
+        {
+          "letter_id": "DCP-LETT-1540",
+          "body_paragraph": 1,
+          "quote": "I then opened yours",
+          "char_start": 241,
+          "char_end": 260,
+          "source_sha256": "7997628e89fce17438374c19c6e67b0780ecb99a522500e31ee08f86ef453d71"
+        }
+      ]
+    }
+  ],
+  "within_day_events": [
+    {
+      "letter_id": "DCP-LETT-1540",
+      "date": "1853-11-05",
+      "ordered_events": [
+        "Sabine notice received and opened first",
+        "Hooker 1539 opened second",
+        "Darwin wrote 1540 answering Hooker"
+      ],
+      "missing_source": "Sabine official medal announcement",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1540",
+          "body_paragraph": 1,
+          "quote": "I opened first one from Col. Sabine",
+          "char_start": 42,
+          "char_end": 77,
+          "source_sha256": "7997628e89fce17438374c19c6e67b0780ecb99a522500e31ee08f86ef453d71"
+        },
+        {
+          "letter_id": "DCP-LETT-1540",
+          "body_paragraph": 1,
+          "quote": "I then opened yours",
+          "char_start": 241,
+          "char_end": 260,
+          "source_sha256": "7997628e89fce17438374c19c6e67b0780ecb99a522500e31ee08f86ef453d71"
+        }
+      ]
+    }
+  ],
+  "date_evidence": [
+    {
+      "letter_id": "DCP-LETT-1552F",
+      "allowed_dates": [
+        "1854-02-09",
+        "1854-02-16"
+      ],
+      "description": "Mutually exclusive Thursdays; no fixed day chosen. March reading-notebook records are separate later evidence."
+    },
+    {
+      "letter_id": "DCP-LETT-1529",
+      "description": "October 9 reconstructed from next-day 8 AM coach departure in 1535. Catalogue order does not outrank this evidence."
+    }
+  ],
+  "rejected_or_candidate_links": [
+    {
+      "outgoing_id": "DCP-LETT-1532",
+      "incoming_id": "DCP-LETT-1319",
+      "status": "rejected",
+      "rationale": "1319 is an April 1850 travel letter already answered in 1339. It does not contain the 1853 introductory-essay manuscript being reviewed."
+    },
+    {
+      "outgoing_ids": [
+        "DCP-LETT-1496",
+        "DCP-LETT-1532",
+        "DCP-LETT-1529"
+      ],
+      "incoming_id": "DCP-LETT-1460",
+      "status": "not_established",
+      "rationale": "Common variability and New Zealand taxa show a continuing research topic, not identity of an immediate prompt. The later responses explicitly concern a manuscript."
+    }
+  ],
+  "corrections": [
+    {
+      "description": "Initial worker report wrongly treated 1496 as unannotated questions, failed to recognize previously accepted joint 1339 replies, omitted later page comments in 1529 and proposed an unsupported 1532→1319 candidate. Revised first pass and original are both preserved; root independently adjudicated."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-1382",
+      "description": "Darwin forwarding cover with Pickering enclosure and missing continuation of this Hooker fragment."
+    },
+    {
+      "letter_id": "DCP-LETT-1532",
+      "description": "Hooker covering correspondence supplying essay and journal/title news."
+    },
+    {
+      "letter_id": "DCP-LETT-1529",
+      "description": "Hooker considerate note arriving during manuscript reading and invitation to Kew."
+    },
+    {
+      "letter_id": "DCP-LETT-1540",
+      "description": "Sabine official medal announcement, opened before 1539; text not located."
+    },
+    {
+      "letter_id": "DCP-LETT-1552F",
+      "description": "Book presentation/dispatch cover, if any; no surviving incoming letter identified."
+    }
+  ],
+  "previously_recorded_relationships": [
+    {
+      "response_id": "DCP-LETT-1339",
+      "antecedent_id": "DCP-LETT-1257",
+      "relationship": "replies_to",
+      "accepted_ledger": "data/annotations/periods/1847-1850/batch-06.json",
+      "accepted_ledger_sha256": "89b752c92bc69f70ad12c26759136420638b4deb1fb9ed3c0866b900c6010891",
+      "counted_as_new": false,
+      "rationale": "Stratification verse and vivid reading episode uniquely identify1257, independently of the general last-letter acknowledgment."
+    },
+    {
+      "response_id": "DCP-LETT-1339",
+      "antecedent_id": "DCP-LETT-1319",
+      "relationship": "replies_to",
+      "accepted_ledger": "data/annotations/periods/1847-1850/batch-06.json",
+      "accepted_ledger_sha256": "89b752c92bc69f70ad12c26759136420638b4deb1fb9ed3c0866b900c6010891",
+      "counted_as_new": false,
+      "rationale": "Specific question about effect of species work and distinct Himalayan Rubi/willows versus NorthAmerica make this much stronger than the first-pass limited Falconer candidate."
+    },
+    {
+      "response_id": "DCP-LETT-1319",
+      "antecedent_id": "DCP-LETT-1260",
+      "relationship": "replies_to",
+      "accepted_ledger": "data/annotations/periods/1847-1850/batch-06.json",
+      "accepted_ledger_sha256": "89b752c92bc69f70ad12c26759136420638b4deb1fb9ed3c0866b900c6010891",
+      "counted_as_new": false,
+      "rationale": "Darwin challenged floating-ice dam theory and complained of reversal in preference for his species/barnacle work; Hooker answers both distinct points before receiving1300 next day."
+    },
+    {
+      "response_id": "DCP-LETT-1319",
+      "antecedent_id": "DCP-LETT-1300",
+      "relationship": "replies_to",
+      "accepted_ledger": "data/annotations/periods/1847-1850/batch-06.json",
+      "accepted_ledger_sha256": "89b752c92bc69f70ad12c26759136420638b4deb1fb9ed3c0866b900c6010891",
+      "counted_as_new": false,
+      "rationale": "Express February-letter identification with incomplete water cure and seventh child makes this supported, not a broad candidate from two-month-old letters."
+    },
+    {
+      "response_id": "DCP-LETT-1371",
+      "antecedent_id": "DCP-LETT-1339",
+      "relationship": "replies_to",
+      "accepted_ledger": "data/annotations/periods/1847-1850/batch-06.json",
+      "accepted_ledger_sha256": "89b752c92bc69f70ad12c26759136420638b4deb1fb9ed3c0866b900c6010891",
+      "counted_as_new": false,
+      "rationale": "Explicit reference to double chains and later elevation of the one crossed by watercourses answers the distinctive hypothesis in1339P2; further diagram clarifies the disagreement."
+    }
+  ]
+}

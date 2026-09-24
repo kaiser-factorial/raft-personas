@@ -1,0 +1,149 @@
+{
+  "status": "provisional_readiness_addendum_draft",
+  "scope": "Accepted 1851-1855 batch-01 source-text rendering requirements; no converter/export/transcript changes. Extends prior addendum-10 with three concrete layered-source and MathML requirements.",
+  "primary_provenance": [
+    {
+      "path": "reports/1851-1855/review/parent-reading/batch-01.json",
+      "sha256": "af4c5637f98db089360c531d4f00515217e790214cab64f54a96e041e85d4b9a"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-01.json",
+      "sha256": "fb31670a2fe5395dfdd0ea9fddc103b878dc7ce95f85d15b6741fba20860936d"
+    }
+  ],
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1539"
+      ],
+      "case": "MathML fractions in Royal Society vote",
+      "requirement": "Preserve the MathML fraction structure in source-text rendering: <mfrac><mn>2</mn><mn>3</mn></mfrac> and <mfrac><mn>3</mn><mn>4</mn></mfrac> must remain fractions. Any plain-text fallback must be explicitly labelled as a rendering fallback and must not turn them into vote integers; the accepted flat body projection currently exposes raw 23 and 34.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1539",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1539.html",
+        "source_sha256": "86422855674def5fa0252001bedb016edb54ef1a56823bdd820a02b50bbe241e",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1539.xml",
+        "xml_sha256": "1fb73208bcfa013853e3979f94e1b7d92da0f14b31806b0c08c0ab25d8e3b408",
+        "locators": "body paragraph 1; HTML MathML mfrac DOM",
+        "retrieved_source_record_sha256": "86422855674def5fa0252001bedb016edb54ef1a56823bdd820a02b50bbe241e"
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1539",
+          "quote": "the defeat of my man, by 2/3 of the votes (it would have been by more than 3/4 had all voters been present)",
+          "source_sha256": "86422855674def5fa0252001bedb016edb54ef1a56823bdd820a02b50bbe241e",
+          "locator": "body paragraph 1; HTML MathML mfrac DOM"
+        },
+        {
+          "letter_id": "DCP-LETT-1539",
+          "html_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>",
+          "dom_locator": "div#letter div.body-content; paragraph containing Royal Society vote",
+          "meaning": "two-thirds"
+        },
+        {
+          "letter_id": "DCP-LETT-1539",
+          "html_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>",
+          "dom_locator": "same paragraph",
+          "meaning": "three-quarters"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1496"
+      ],
+      "case": "Memorandum with layered annotations",
+      "requirement": "Render 1496 as an 1852 memorandum/questions document, retaining its eight numbered question blocks and separating the original query voice from Hooker pencil answers and later Darwin annotations/references. Do not serialize those layers as a normal Hooker letter or as a contemporary Darwin-Hooker answer exchange.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1496",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1496.html",
+        "source_sha256": "7eb14ee459d6a2249e8abbd480c2ac1b6a6ee8c8eacbf3cd961b287725f4c0fb",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1496.xml",
+        "xml_sha256": "c201e1d3d2f51fadb691a78ad963eabb12b126292050281695c0a73e0aa7a4cb",
+        "locators": "body paragraphs 1–8; annotations and editorial footnotes",
+        "retrieved_source_record_sha256": "7eb14ee459d6a2249e8abbd480c2ac1b6a6ee8c8eacbf3cd961b287725f4c0fb"
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1496",
+          "quote": "Cases of plants which must for ever self-fecundate themselves; do such occur?",
+          "source_sha256": "7eb14ee459d6a2249e8abbd480c2ac1b6a6ee8c8eacbf3cd961b287725f4c0fb",
+          "locator": "body paragraphs 1–8; annotations and editorial footnotes"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1552F"
+      ],
+      "case": "Receipt, dedication inspection and disjoint date candidates",
+      "requirement": "Keep 1552F’s two mutually exclusive composition dates (9 or 16 February 1854) and render the sequence of receipt and partial inspection exactly: Darwin received the book, saw the dedication and some illustrations, had not read the title page or all illustrations, and intended to begin reading that evening. Do not import the 7 March and 23 March notebook entries as completed reading at receipt.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1552F",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1552F.html",
+        "source_sha256": "070e34f370019e98780465aef4ba1492c82e0467c9ea2e095023f586aafbaf0e",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1552F.xml",
+        "xml_sha256": "e28e10a383decb96069e97dc56e0501ea6e307000d355dae86605285de35f085",
+        "locators": "body paragraph 1; header/date and editorial footnotes 1–2",
+        "retrieved_source_record_sha256": "070e34f370019e98780465aef4ba1492c82e0467c9ea2e095023f586aafbaf0e"
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1552F",
+          "quote": "I have within these few minutes received your Book, & after admiring some of the illustrations, I fell on the Dedication to me.—",
+          "source_sha256": "070e34f370019e98780465aef4ba1492c82e0467c9ea2e095023f586aafbaf0e",
+          "locator": "body paragraph 1; header/date and editorial footnotes 1–2"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Do not mutate frozen HTML/XML or body projections.",
+    "Do not normalize 23/34 into integer vote counts; retain MathML source and an explicit fallback representation.",
+    "Do not merge memorandum, annotation, enclosure or later notebook layers into a single author/date voice.",
+    "Do not import later publication or notebook reading dates into 1552F receipt state."
+  ],
+  "notes": [
+    "1539 MathML DOM was inspected directly: numerator/denominator pairs are 2 over 3 and 3 over 4.",
+    "1496 is a memorandum with Hooker pencil answers and later Darwin layers; these must remain visually and semantically distinct.",
+    "1552F’s 9-or-16-February date alternatives and partial inspection state are separate from later 7/23-March reading entries."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1851-1855/review/parent-reading/batch-01.json",
+      "sha256": "af4c5637f98db089360c531d4f00515217e790214cab64f54a96e041e85d4b9a"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-01.json",
+      "sha256": "fb31670a2fe5395dfdd0ea9fddc103b878dc7ce95f85d15b6741fba20860936d"
+    },
+    {
+      "path": "reports/1851-1855/review/letters.jsonl",
+      "sha256": "e2266faf12b9ca89043c473ab2b4e8bb3aa720116a54e9396ad53184783b87e0"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1539.html",
+      "sha256": "86422855674def5fa0252001bedb016edb54ef1a56823bdd820a02b50bbe241e"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1539.xml",
+      "sha256": "1fb73208bcfa013853e3979f94e1b7d92da0f14b31806b0c08c0ab25d8e3b408"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1496.html",
+      "sha256": "7eb14ee459d6a2249e8abbd480c2ac1b6a6ee8c8eacbf3cd961b287725f4c0fb"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1496.xml",
+      "sha256": "c201e1d3d2f51fadb691a78ad963eabb12b126292050281695c0a73e0aa7a4cb"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1552F.html",
+      "sha256": "070e34f370019e98780465aef4ba1492c82e0467c9ea2e095023f586aafbaf0e"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1552F.xml",
+      "sha256": "e28e10a383decb96069e97dc56e0501ea6e307000d355dae86605285de35f085"
+    }
+  ]
+}

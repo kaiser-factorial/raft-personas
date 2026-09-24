@@ -1,0 +1,120 @@
+{
+  "batch_id": "batch-09",
+  "status": "parent_adjudicated",
+  "proposal_adjudications": [],
+  "reference_observations": [
+    {
+      "id": "REF-R09-553-1",
+      "witness_id": "DCP-LETT-553",
+      "type": "unlocated_incoming",
+      "description": "Publisher note existed before the February 6 response; Darwin explicitly says it was unread on February 5. Composition, delivery and reading remain distinct.",
+      "known_by_date": "1840-02-06",
+      "actual_receipt_date": null,
+      "not_read_on": "1840-02-05",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-553",
+          "body_paragraph": 1,
+          "quote": "Being unwell yesterday, I did not read your note.",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-553.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-553.xml",
+            "retrieved_at": "2026-09-16T10:54:04.842842+00:00",
+            "sha256": "2231186b0c58fc96175c8d326c60602799c90db93ab0cf1ff6399de3ca4a0b61",
+            "bytes": 112310,
+            "http_status": 200,
+            "etag": "\"6247038184b8a7640f75355f8239ea7e\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-553"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null
+    },
+    {
+      "id": "REF-R09-357-1",
+      "witness_id": "DCP-LETT-357",
+      "type": "outgoing_parcel_relay",
+      "description": "Darwin asks Babbage to carry the Henslow parcel; 400 explicitly sends the accompanying Henslow letter through Babbage. This preserves a delivery route, not a response pair.",
+      "related_ids": [
+        "DCP-LETT-400"
+      ],
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-357",
+          "body_paragraph": 1,
+          "quote": "small parcel for Professor Henslow",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-357.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-357.xml",
+            "retrieved_at": "2026-09-16T10:54:02.716028+00:00",
+            "sha256": "c33cc39414f8f18b31659e5730a5641ae6fabf187dcf36865c553cb1edc67d8b",
+            "bytes": 110869,
+            "http_status": 200,
+            "etag": "\"0f2fe409da4b70f89eba8395d51fb781\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-357"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-400",
+          "body_paragraph": 6,
+          "quote": "I send this letter &c &c by Mr Babbage.",
+          "locator": "div#letter div.body-content; retained body block 6",
+          "source": {
+            "path": "data/raw/dcp/henslow-lyell-1837-1843/DCP-LETT-400.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-400.xml",
+            "retrieved_at": "2026-09-16T10:06:41.247772+00:00",
+            "sha256": "c980f5b5110632cca47cb2fdd84f95252dd5dad4cb9a2b9fc696e43b54efa461",
+            "bytes": 118396,
+            "http_status": 200,
+            "etag": "\"4462dde9c9a176b4788e810e81ca4244\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-400"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null
+    },
+    {
+      "id": "REF-R09-702-1",
+      "witness_id": "DCP-LETT-702",
+      "type": "completed_outgoing_forwarding_action",
+      "description": "Forwarding of the publisher account to Treasury, recorded in 702A, is described as completed before 702 paragraph 2 on October 9. No exact posting order or incoming receipt time is inferred.",
+      "related_ids": [
+        "DCP-LETT-702A"
+      ],
+      "known_by_date": "1843-10-09",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-702",
+          "body_paragraph": 2,
+          "quote": "I have forwarded your account to the Treasury",
+          "locator": "div#letter div.body-content; retained body block 2",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-702.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-702.xml",
+            "retrieved_at": "2026-09-16T10:54:05.656130+00:00",
+            "sha256": "5c7da60308117d81cc8d1f60042ca7d0e95c8f427e8e87faa1909f7298f4af0c",
+            "bytes": 113942,
+            "http_status": 200,
+            "etag": "\"7eb5bb61fc658f12119d26c35a41fe1f\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-702"
+          }
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null
+    }
+  ],
+  "corrections": [
+    "470 concerns Miss Allen accompanying Darwin and Emma, not his brother or illness.",
+    "553 proves delayed reading; it does not prove the note arrived on February 5.",
+    "The accepted 377A to 378A knowledge edge is retained once in batch-07. No new direct pairs in this packet."
+  ]
+}

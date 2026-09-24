@@ -1,0 +1,305 @@
+{
+  "status": "candidate_only",
+  "scope": "Formatting-only candidate for accepted Beagle incoming-family-01, incoming-network-01, and misc-outgoing-01 groups. No relationship re-adjudication, accepted mutation, source rewrite, or export.",
+  "method": "Used accepted primary notes/decisions and preserved source HTML. Each requirement points to a feature-bearing paragraph or explicit source-layer boundary; quotes are literal body text checked against pinned HTML hashes.",
+  "requirements": [
+    {
+      "source_id": "DCP-LETT-243",
+      "requirement": "Keep this Catherine Darwin family letter as Catherine's authorial voice; its indirect reports of Charles's welfare and closing signature must not be recast as Charles prose.",
+      "evidence": {
+        "source_id": "DCP-LETT-243",
+        "evidence_layer": "authorial_body",
+        "quote": "I do not fail to make frequent enquiries about you from your Sisters",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[2] (feature-bearing paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-243.html",
+        "html_sha256": "4d65e33b6a8f1532117607c7485dabbd310fa72efd22fe70ae3be9e8203c9873",
+        "notes": "P1 reports Catherine's enquiries through the sisters; the closing is signed “C. Darwin”, but the body authority is Catherine. Preserve reported family knowledge separately from Charles voice."
+      },
+      "render_status": "hold"
+    },
+    {
+      "source_id": "DCP-LETT-155",
+      "requirement": "Render the multipart Charlotte Wewd continuation as separate dated authorial sections, preserving the engagement news and prospective voyage knowledge.",
+      "evidence": {
+        "source_id": "DCP-LETT-155",
+        "evidence_layer": "authorial_body",
+        "quote": "Jan 29th My letter has been lying by a little more than a fortnight",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[3] (feature-bearing paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-155.html",
+        "html_sha256": "ab9b1b016b80d3520a9a281015d0896af5d2deec00e6aa32da5f753ea41be403",
+        "notes": "P2 is a later continuation of the earlier wedding-family letter; date markers are body chronology, not one composition date."
+      },
+      "render_status": "hold"
+    },
+    {
+      "source_id": "DCP-LETT-164",
+      "requirement": "Keep Darwin's April 5 receipt of the Caroline and family letters distinct from his April 3 travel section and from the quoted family correspondence.",
+      "evidence": {
+        "source_id": "DCP-LETT-164",
+        "evidence_layer": "authorial_body",
+        "quote": "I this morning received your letter of Decr 31 & Catherines of Feb 4th.",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[5] (feature-bearing paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-164.html",
+        "html_sha256": "f5b3fdcd45d54184806e4b56ef0270c10838d2d9d2426770e8b67dc7174ec954",
+        "notes": "P5 explicitly identifies received letters and their dates; this is Darwin receipt evidence and should not be attributed to Caroline or collapsed into the header date."
+      },
+      "render_status": "planned_repair"
+    },
+    {
+      "source_id": "DCP-LETT-162",
+      "requirement": "Preserve Fanny Owen's personal announcement and the separate March 1 family postscript, while recording that Darwin explicitly acknowledges this Fanny letter in DCP-LETT-169.",
+      "evidence": {
+        "source_id": "DCP-LETT-162",
+        "evidence_layer": "authorial_body",
+        "quote": "My fate is indeed decided, the die is cast",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[2] (feature-bearing paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-162.html",
+        "html_sha256": "e57fd0456b63369c6993bfaea80826d0c4e2802420923025acc80f6133a2b492",
+        "notes": "P2 is Fanny's first-person engagement announcement; P5 separately labels March 1 and carries Mama/Caroline greetings. Keep the mixed family voices and dated layers."
+      },
+      "render_status": "hold"
+    },
+    {
+      "source_id": "DCP-LETT-279",
+      "requirement": "Render the San Lambert memorandum, CD extract, and CD note as distinct layers; the extract is not a single incoming authorial letter.",
+      "evidence": {
+        "source_id": "DCP-LETT-279",
+        "evidence_layer": "scholarly_annotation",
+        "quote": "[The paragraphs above are Charles San Lambert’s memorandum. The paragraph below is CD’s extract (DAR 37: 648)",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[4] (feature-bearing paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-279.html",
+        "html_sha256": "d6d2258facc7a32cc7d0712fb38aeed381ad3eefc92fd274ad623cf0ed5df780",
+        "notes": "The source explicitly marks the transition from San Lambert's memorandum to Darwin's extract/note. Preserve provenance and do not merge the voices or export the extract as Lambert's full body."
+      },
+      "render_status": "hold"
+    },
+    {
+      "source_id": "DCP-LETT-255",
+      "requirement": "Preserve the map as an image with its grey annotations and distinguish the R. E. Alison prose from the visual/map layer.",
+      "evidence": {
+        "source_id": "DCP-LETT-255",
+        "evidence_layer": "authorial_body",
+        "quote": "I have merely scratched this croquis7 out by the rule of thumb",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[5] (feature-bearing paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-255.html",
+        "html_sha256": "5120aa0bbf64179ad36206ce999531c99e1ae4238bd4a001c3da88c2d8d78f68",
+        "notes": "P5 calls the sketch a croquis and describes dotted roads; the grey annotations belong to the SVG/image layer and must not be invented as body prose."
+      },
+      "render_status": "planned_repair"
+    },
+    {
+      "source_id": "DCP-LETT-247",
+      "requirement": "Render the Beagle-era Valparaiso sea-wall evidence with its diagram/measurement visual separately from the witness prose.",
+      "evidence": {
+        "source_id": "DCP-LETT-247",
+        "evidence_layer": "authorial_body",
+        "quote": "A Mr John Martin4 a ship Carpenter of respectability in this place mentions that in 1819 he has walked at the foot of the sea wall on the beach",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[2] (feature-bearing paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-247.html",
+        "html_sha256": "baaa44de8a4bc5e6dd41deaf0feea254fd44cd60ffa5a32c5447990d0cd714a3",
+        "notes": "P2 is Alison reporting John Martin's recollection; the visual has its own evidence layer (11 ft 6 in and 8 ft). Do not turn the reported witness or diagram labels into Darwin voice."
+      },
+      "render_status": "planned_repair"
+    },
+    {
+      "source_id": "DCP-LETT-256",
+      "requirement": "Preserve the complete tabular list of Chilean elevations, including row units and labels, rather than treating the heading as a prose summary.",
+      "evidence": {
+        "source_id": "DCP-LETT-256",
+        "evidence_layer": "authorial_body",
+        "quote": "Height of various places in Chile ascertained by Barometrical Admeasurement.",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[1] (feature-bearing paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-256.html",
+        "html_sha256": "4483d543278fef16905f2127e7116ec63921d0300cafad333f78ecee175902e2",
+        "notes": "The following rows are a structured feet table; retain row order, labels, and the unit heading as table data."
+      },
+      "render_status": "planned_repair"
+    },
+    {
+      "source_id": "DCP-LETT-292",
+      "requirement": "Keep this long earthquake report as a multi-section observational record: verbal reports, the author's own notes, and omitted queries are different extents and voices.",
+      "evidence": {
+        "source_id": "DCP-LETT-292",
+        "evidence_layer": "authorial_body",
+        "quote": "my information was verbal accuired on the spot where the observations were taken",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[2] (feature-bearing paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-292.html",
+        "html_sha256": "ad366ed4b4c0fef293de5b84852b310ecd96e067bdf2b6d2bb65516bf01e1dc9",
+        "notes": "P2 identifies information gathered verbally; later paragraphs switch to first-person notebook observations and P19 says geology/Astronomy/Hydraulics queries were omitted. Preserve the missing-input boundary and do not flatten the report."
+      },
+      "render_status": "hold"
+    },
+    {
+      "source_id": "DCP-LETT-278",
+      "requirement": "Render Corfield's multipart June 27 letter with its enclosure/financial accounting and later dated continuation as one source with separate sections.",
+      "evidence": {
+        "source_id": "DCP-LETT-278",
+        "evidence_layer": "authorial_body",
+        "quote": "It gave me infinite pleasure to receive your much wished for letter, which was brought by the Beagle.",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[2] (feature-bearing paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-278.html",
+        "html_sha256": "34cc1eba2ff0b55fc400084671b194398d2eb09f534f2d868e51fa6f5ec45fb6",
+        "notes": "P3 acknowledges Darwin's letter arriving by the Beagle; P4 encloses a clothes account and P7 begins the Saturday June 27 continuation. Receipt, accounting enclosure, and later news must remain scoped."
+      },
+      "render_status": "hold"
+    },
+    {
+      "source_id": "DCP-LETT-280",
+      "requirement": "Preserve Corfield's multipart July 18 continuation and distinguish local business/news from his earlier June composition and prospective correspondence.",
+      "evidence": {
+        "source_id": "DCP-LETT-280",
+        "evidence_layer": "authorial_body",
+        "quote": "Since writing the foregoing several more vessels have arrived from Lpool",
+        "locator": "xpath://div[@id='letter']//div[@class='body-content']/p[6] (feature-bearing paragraph)",
+        "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-280.html",
+        "html_sha256": "3f316444a7041d1fe4979e530b8cb22751a2d05e6b600351ea0377253d0af197",
+        "notes": "P6 is explicitly a continuation dated July 18; the shipping/news paragraph and enclosed newspaper are not evidence that Darwin had received the later material."
+      },
+      "render_status": "hold"
+    }
+  ],
+  "source_pins": [
+    {
+      "source_id": "DCP-LETT-155",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-155.html",
+      "html_sha256": "ab9b1b016b80d3520a9a281015d0896af5d2deec00e6aa32da5f753ea41be403",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/letters/DCP-LETT-155.xml",
+      "xml_sha256": "e9682701115c5588a2f45c85bb3b78c86f168af9f216d6f3f201937a9f4f1256"
+    },
+    {
+      "source_id": "DCP-LETT-162",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-162.html",
+      "html_sha256": "e57fd0456b63369c6993bfaea80826d0c4e2802420923025acc80f6133a2b492",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/letters/DCP-LETT-162.xml",
+      "xml_sha256": "7364e6967abe81d10bf94b16c81f7851fffab81193f31581edb86e88963ca513"
+    },
+    {
+      "source_id": "DCP-LETT-164",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-164.html",
+      "html_sha256": "f5b3fdcd45d54184806e4b56ef0270c10838d2d9d2426770e8b67dc7174ec954",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/letters/DCP-LETT-164.xml",
+      "xml_sha256": "2b96c8a99c453e6167a3832d0b4ea481d90c5f059aef4fc3ace02c451302be0d"
+    },
+    {
+      "source_id": "DCP-LETT-243",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-243.html",
+      "html_sha256": "4d65e33b6a8f1532117607c7485dabbd310fa72efd22fe70ae3be9e8203c9873",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/letters/DCP-LETT-243.xml",
+      "xml_sha256": "d0b34a56508987fb899d1ae94a285375cdf8f6ac82826773b84eeb7f0c6e7740"
+    },
+    {
+      "source_id": "DCP-LETT-247",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-247.html",
+      "html_sha256": "baaa44de8a4bc5e6dd41deaf0feea254fd44cd60ffa5a32c5447990d0cd714a3",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/letters/DCP-LETT-247.xml",
+      "xml_sha256": "53452d5da95c6b8aea7b800354f158acc03690e5f334f84721c39e7b79b34c82"
+    },
+    {
+      "source_id": "DCP-LETT-255",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-255.html",
+      "html_sha256": "5120aa0bbf64179ad36206ce999531c99e1ae4238bd4a001c3da88c2d8d78f68",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/letters/DCP-LETT-255.xml",
+      "xml_sha256": "067f1ec118ef133d2a2b219ac09a1cddf198c91c0923c78d5312bdf27a5e95df"
+    },
+    {
+      "source_id": "DCP-LETT-256",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-256.html",
+      "html_sha256": "4483d543278fef16905f2127e7116ec63921d0300cafad333f78ecee175902e2",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/letters/DCP-LETT-256.xml",
+      "xml_sha256": "88fb18c834d74403d3b4444f4dfdf9ce2d4011d4db892260c9c48ce5f7bfb7f6"
+    },
+    {
+      "source_id": "DCP-LETT-278",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-278.html",
+      "html_sha256": "34cc1eba2ff0b55fc400084671b194398d2eb09f534f2d868e51fa6f5ec45fb6",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/letters/DCP-LETT-278.xml",
+      "xml_sha256": "258ff0e28eca8a8f12c83d3a3c489d13fbeeb13bed4f426f7f772453540f455e"
+    },
+    {
+      "source_id": "DCP-LETT-279",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-279.html",
+      "html_sha256": "d6d2258facc7a32cc7d0712fb38aeed381ad3eefc92fd274ad623cf0ed5df780",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/letters/DCP-LETT-279.xml",
+      "xml_sha256": "bca744f390c38d0a278ffea29624cd7f8345c53bb279d1a99bb1add1cdbda352"
+    },
+    {
+      "source_id": "DCP-LETT-280",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-280.html",
+      "html_sha256": "3f316444a7041d1fe4979e530b8cb22751a2d05e6b600351ea0377253d0af197",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/letters/DCP-LETT-280.xml",
+      "xml_sha256": "0342861d5d4aea8df7e3de4e9120c562ab0d06397c339df917ef7c5b42853714"
+    },
+    {
+      "source_id": "DCP-LETT-292",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-292.html",
+      "html_sha256": "ad366ed4b4c0fef293de5b84852b310ecd96e067bdf2b6d2bb65516bf01e1dc9",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/letters/DCP-LETT-292.xml",
+      "xml_sha256": "cb00deba978a2df65ef49f53f9ea0a6670f4857aecfe27258080c0ea62ea694f"
+    },
+    {
+      "source_id": "DCP-LETT-169",
+      "html_path": "data/raw/dcp/body-date-search-37-337/DCP-LETT-169.html",
+      "html_sha256": "5b844244c5dc9b27b539babf67ed78fc27cb8cbca731866ccb77f88f226eba8d",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/letters/DCP-LETT-169.xml",
+      "xml_sha256": "24d4d2d74ffbbdb81ab7e026bef05a0ca29cd5b730b140015b965cca1758caf7",
+      "role": "cross-reference for explicit acknowledgement of DCP-LETT-162"
+    }
+  ],
+  "recommendations": [
+    "Keep third-party, memorandum, map, table, and family voices as separate source layers.",
+    "Treat receipt, prospective delivery, and body-date continuation as distinct chronology fields.",
+    "Apply cleanup only where the requirement is marked planned_repair; retain unresolved visual or transcription questions as holds."
+  ],
+  "input_hashes": [
+    {
+      "path": "data/annotations/beagle-voyage/incoming-family-01.primary.json",
+      "sha256": "be7aa900848bba4c8251dba5cad74d016f2ad103c8ce668759279200d583f06b"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/incoming-network-01.primary.json",
+      "sha256": "b6d8cdfd19566d645eba1204b9f90658e95d51d0af3aa7de0cf06dd400ed63cf"
+    },
+    {
+      "path": "data/annotations/beagle-voyage/misc-outgoing-01.primary.json",
+      "sha256": "431997fd3ea1fa8335d7e12a7045a27fbd6ce129864f84e5187f776d988ec160"
+    },
+    {
+      "path": "reports/beagle-voyage-review/parent-reading/incoming-family-01.primary.json",
+      "sha256": "4540e127a457afae3f0605e6ec67cf92a350fea6749abce8649aeaf09120c18a"
+    },
+    {
+      "path": "reports/beagle-voyage-review/parent-decisions/incoming-family-01.primary.json",
+      "sha256": "ef27afb5d3da7d68d7c7e2cda427257df5005cadb75a058819a9babc5c9dfbf0"
+    },
+    {
+      "path": "reports/beagle-voyage-review/parent-reading/incoming-network-01.primary.json",
+      "sha256": "1d1659a51136126e3a79ada8f06446c8e81e543f89c761f4e2710914ac363fa6"
+    },
+    {
+      "path": "reports/beagle-voyage-review/parent-decisions/incoming-network-01.primary.json",
+      "sha256": "77178ca43b5f52481e1a73449c8b60588f8e3b9780fe01e68396793d0a97c028"
+    },
+    {
+      "path": "reports/beagle-voyage-review/parent-reading/misc-outgoing-01.primary.json",
+      "sha256": "9e031bddba9f457a098a303885ce6053a1443903a9a3a6b4e1ba0c3b3610b33e"
+    },
+    {
+      "path": "reports/beagle-voyage-review/parent-decisions/misc-outgoing-01.primary.json",
+      "sha256": "46f439150e5b9ac4acc3bf384e5ba7e2ec5ef4142369da423d50c752f1fe8429"
+    }
+  ],
+  "outstanding_prior_candidate_files": [
+    "reports/raft-prep/candidates/beagle-henslow-01-02-formatting.luna.json",
+    "reports/raft-prep/candidates/beagle-fox-catherine-formatting.luna.json",
+    "reports/raft-prep/candidates/beagle-susan-formatting.luna.json",
+    "reports/raft-prep/candidates/beagle-scientific-caroline-formatting.luna.json",
+    "reports/raft-prep/candidates/beagle-herbert-fitzroy-family-formatting.luna.json",
+    "reports/raft-prep/candidates/source-text-rendering-requirements.batches12-18.luna.json",
+    "reports/raft-prep/candidates/source-text-rendering-requirements.batches19-24.luna.json",
+    "reports/raft-prep/candidates/source-text-rendering-requirements.batches25-30.luna.v2.json",
+    "reports/raft-prep/candidates/source-text-rendering-requirements.batches31-40.luna.json",
+    "reports/raft-prep/candidates/source-text-rendering-requirements.batches41-50.luna.json",
+    "reports/raft-prep/candidates/source-text-rendering-requirements.batches51-60.luna.json",
+    "reports/raft-prep/candidates/source-text-rendering-requirements.batches61-70.luna.json"
+  ]
+}

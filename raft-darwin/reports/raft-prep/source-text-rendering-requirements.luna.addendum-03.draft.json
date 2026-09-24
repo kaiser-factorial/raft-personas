@@ -1,0 +1,168 @@
+{
+  "status": "provisional_readiness_draft",
+  "scope": "Formatting and source-fidelity requirements compiled from accepted primary reading and decisions for 1847–1850 batches 07–11. This draft creates no converter, transcript, corpus export or training data.",
+  "primary_provenance": [
+    {
+      "batch_id": "batch-07",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-07.json",
+      "reading_sha256": "f9d05140c5281993165e19213501fbdcd0a715199e650871ec9c3b0b87be7824",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-07.json",
+      "decision_sha256": "021abd50fadc64b39cd502f5668ba5fdbfb61af6af6809f0d91280c5a79e767e"
+    },
+    {
+      "batch_id": "batch-08",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-08.json",
+      "reading_sha256": "1988dd0e9805599268ae233b8f38f9a207e82b47a22c4c99baea154f218b4a39",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-08.json",
+      "decision_sha256": "0ca658994b91e573c2663a25276bc94412082b56239d3cbb9c49b1917da966e9"
+    },
+    {
+      "batch_id": "batch-09",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-09.json",
+      "reading_sha256": "0b36e7b41ba443ac3c3fb3d3329a40a51802c9993496f1831383b6c9505522c8",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-09.json",
+      "decision_sha256": "0d54dbcbff7e886c033373700d9929bd0a55789080ad5333c95347913108cca3"
+    },
+    {
+      "batch_id": "batch-10",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-10.json",
+      "reading_sha256": "9d4da57030c2db958d489c288b2ad128ebbc4b103221002cdb8ccc53d0634510",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-10.json",
+      "decision_sha256": "e2e9c5fd446c2836d70f54e9f4d5e7b1ef15c91ba4a3100b1b0e869945f67a07"
+    },
+    {
+      "batch_id": "batch-11",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-11.json",
+      "reading_sha256": "60235b384a19859f472deeb237a820902db84928028169cf70021f62bceaa503",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-11.json",
+      "decision_sha256": "7615b6733a7ee183ed08fbb24f8f7651e10f9f57fa9c883103e10b724ef3e39d"
+    }
+  ],
+  "requirements": [
+    {
+      "letter_id": "DCP-LETT-1215",
+      "case": "Missing original with surviving abstract",
+      "requirement": "Keep the missing original abstract 1215 separate from its surviving reported material. Footnote 6’s abstract can document a communication, but it cannot be rendered as a complete Darwin letter or used to invent the absent initial request.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1215.html",
+        "source_sha256": "e0ffe4d35c74b8e11a41174b839e1c237e57a7639f124b0fcc42f14371ec82d2",
+        "locators": "div#letter editorial footnote 6; body availability span"
+      },
+      "accepted_primary_note": "Accepted in batch 07; Darwin voice and the copied/abstracted supplementary material are separate layers."
+    },
+    {
+      "letter_id": "DCP-LETT-1221",
+      "case": "Copied enclosure",
+      "requirement": "Render the copied enclosure cases A–D as copied historical material with their own attribution and boundaries. Preserve the “half a dozen” and “two thirds” fractions in source-aware form; do not flatten them to 12 or 23.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1221.html",
+        "source_sha256": "49f2ccbdf1e30d13b713d93894bff7e83bbfd132f5468b3c935cc0723aafd084",
+        "locators": "div#letter scholarly enclosure/annotations; body P1–P4; MathML nodes"
+      },
+      "accepted_primary_note": "Accepted in batch 07; the enclosure is a copy and not a newly reconstructed Darwin original."
+    },
+    {
+      "letter_id": "DCP-LETT-1225",
+      "case": "Later Francis insertion",
+      "requirement": "Keep Francis Darwin’s later pencil insertion “[Oken?]” out of Charles Darwin’s original voice. Silence or non-objection in the body is not consent; use the explicit later answer where the accepted relation requires it.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1225.html",
+        "source_sha256": "ea562dd4e2b7755ddfd582e3294c8f14aa24157ac0e00410128fc4d96ef74342",
+        "locators": "div#letter body P5; bracketed pencil insertion"
+      },
+      "accepted_primary_note": "Accepted in batch 07; 1225 remains voice-held for this insertion."
+    },
+    {
+      "letter_id": "DCP-LETT-1196",
+      "case": "Draft versus sent wording",
+      "requirement": "Treat the surviving J. E. Gray draft as draft evidence. Do not assume every draft word, correction or postscript was delivered or read; keep sent communication, demonstrated knowledge and the surviving draft wording distinct.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1196.html",
+        "source_sha256": "522f1aba6b0d1d4ee4eae2aed2249815ab85229f18687b12278f287a75335d68",
+        "locators": "div#letter body; draft text and editorial apparatus"
+      },
+      "accepted_primary_note": "Accepted in batch 09; the 1196 → 1197 relation is established, but draft fidelity remains a hold."
+    },
+    {
+      "letter_id": "DCP-LETT-1380A",
+      "case": "Rejected circularly dated candidate",
+      "requirement": "Do not promote 1380A → 1381. The 1380A quotation in a later book does not independently match 1381’s union/attachment subject, and its date was partly derived from the proposed relation. Preserve the candidate as unresolved and avoid circular dating.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1380A.html",
+        "source_sha256": "15d25bc04e2e41487e4c20f59c36f7c8ebc9eb85b5ce69ccd06ab8ee828120fc",
+        "locators": "div#letter body quotation; editorial dating footnotes"
+      },
+      "accepted_primary_note": "Accepted in batch 09 as candidate-only with identification and date held."
+    },
+    {
+      "letter_id": "DCP-LETT-1289",
+      "case": "Omitted seventy-three-species list",
+      "requirement": "Preserve the fact that 73 species and ten bis marks are described in footnote 2 while the actual list is absent from preserved HTML. Do not synthesize or parser-recover the omitted attachment.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1289.html",
+        "source_sha256": "8c6144e31fa82391b0aef43e2421de66b14e37374a951c1e2564afa83a50250f",
+        "locators": "div#letter editorial footnote 2; omitted attachment boundary"
+      },
+      "accepted_primary_note": "Accepted primary note records omitted attachment content."
+    },
+    {
+      "letter_id": "DCP-LETT-1145",
+      "case": "Reused paper and annotation date",
+      "requirement": "Render the surviving correspondent fragment separately from Darwin’s Forbes notes in footnote 2. The 1848 journal references date later annotation/research activity and do not by themselves prove original letter composition or receipt.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1145.html",
+        "source_sha256": "d2bb9da41d3cad3e971318e05e550c75d88f6562411cfbcb58f57a51f569aa7e",
+        "locators": "div#letter body fragment; editorial footnote 2; reused-paper annotation"
+      },
+      "accepted_primary_note": "Accepted in batch 11 with exact-date and period holds."
+    },
+    {
+      "letter_id": "DCP-LETT-1234",
+      "case": "Emma insertion and fractions",
+      "requirement": "Select Darwin P1–5 separately from Emma’s handwritten P6 reporting Annie’s conversation. Preserve MathML fractions, including ¼ before 7 and 1½ hours, rather than converting them to plain integers or attributing Emma’s paragraph to Charles.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1234.html",
+        "source_sha256": "cc613ac5ddf62f3c1329fd12238158a6fbe5002a2f2cc2247fea164b599fefff",
+        "locators": "div#letter body P1–P6; handwriting/annotation boundary; MathML nodes"
+      },
+      "accepted_primary_note": "Accepted in batch 11; voice-held mixed-hand letter."
+    },
+    {
+      "letter_id": "DCP-LETT-1232",
+      "case": "Diagram and 4/5 fractions",
+      "requirement": "Keep the paired shell diagrams, labels and caption integrated with the prompt. Render MathML 4/5 as a fraction, not “45”; the apparent February 27 Thompson cover/postmark does not supply the missing note text.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1232.html",
+        "source_sha256": "bc946aa54d45451819283232126130e02b7329cb467cb7a6ac1a065abf83b3d2",
+        "locators": "div#letter body diagram enclosure; MathML nodes; editorial apparatus"
+      },
+      "accepted_primary_note": "Accepted in batch 11; incomplete reading and missing-note boundaries remain explicit."
+    },
+    {
+      "letter_id": "DCP-LETT-1200A",
+      "case": "Observation, quotation and supplementary chronology",
+      "requirement": "Separate the dated September 29 printed quotation from the September 30 continued observation and from older uncertain reports nested in the footnote. Do not merge all material into one dated witness or infer current receipt from the quotation’s later publication context.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1200A.html",
+        "source_sha256": "701e7897b9c632e3a85255f5cc9ee8e7be863ca857cb75f67d965b3c59da3b81",
+        "locators": "div#letter body quotation; editorial footnote and supplementary report"
+      },
+      "accepted_primary_note": "Accepted in batch 11 with exact-date review hold."
+    }
+  ],
+  "implementation_boundary": {
+    "requirements_for_future_converter": [
+      "Preserve source spans, attributed voices, copied enclosures, missing originals, embedded quotations, diagrams, MathML fractions, and date/receipt layers exactly at the listed locators.",
+      "Carry source HTML hashes into any derived artifact so later rendering can be checked against the accepted primary evidence.",
+      "Keep graph direction response → antecedent and do not use omitted or circularly dated material as an input without a new primary decision."
+    ],
+    "not_implemented_here": [
+      "No conversion or rendering code was run or changed.",
+      "No transcripts, conversations, corpus records, ledgers, exports or training artifacts were created.",
+      "The requirements are provisional until root reviews this addendum."
+    ]
+  },
+  "notes": [
+    "The accepted decisions are the authority for these requirements; this file is a compilation aid, not permission to revise any ledger or source."
+  ]
+}

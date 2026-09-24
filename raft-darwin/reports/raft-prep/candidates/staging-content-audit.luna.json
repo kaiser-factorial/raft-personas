@@ -1,0 +1,327 @@
+{
+  "status": "candidate_only",
+  "scope": "Read-only quality audit of all rendered staging grounding and conversation units. No staging, plan, renderer, accepted artifact, or export mutation.",
+  "method": "Scanned every rendered body block and transcript exchange for literal apparatus/header patterns, then retained only concrete source-level candidates. Body addresses and words such as summary/bibliography were checked as prose-pattern false positives; no answer duplication was inferred from empty answer fields.",
+  "inputs": [
+    {
+      "path": "reports/raft-prep/rendered-staging.working.json",
+      "sha256": "e523bc4ec386a46038aed8cf98521b36c244e709ffb8f211665442bbae428835"
+    }
+  ],
+  "summary": {
+    "grounding_units": 1492,
+    "conversation_units": 199,
+    "findings": 27,
+    "literal_apparatus_hits": 0,
+    "header_dateline_hits": 8,
+    "body_address_candidates": 19,
+    "duplicate_nonempty_answers": 0,
+    "confirmed_excluded_apparatus_in_content": 0
+  },
+  "findings": [
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-1015:0",
+      "source_id": "DCP-LETT-1015",
+      "block": 1,
+      "literal": "7 Park St",
+      "context": "ch with you if you will give me some at West Park, & afterwards have a walk in the Garden.— Will you send me a line to “7 Park St Grosvenor Square”, telling me honestly whether this will be perfectly convenient to you & whether you will allow me to take my chance of coming, so that if I do not come by 2. you",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "9c553b2e8d861e1c11cf6c16439a8afa06bdce47b68f01d32f2f3a95375c15cf"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-1025:0",
+      "source_id": "DCP-LETT-1025",
+      "block": 2,
+      "literal": "7 Park St",
+      "context": "Let me have a line at 7 Park St.",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "1d564e156c2e7eb24ec78c5e9f104817df43a9f4b64ae4a37c7098f675ce031a"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-103:0",
+      "source_id": "DCP-LETT-103",
+      "block": 7,
+      "literal": "29 Wilton St",
+      "context": "The man who made my cabinet is W. Edwards 29 Wilton St. Westminster. I advise to get one bigger than mine.— Mine cost 5£\"10. & contained 6 drawers, depth, 1f\"3. breadth 1f\"7.—& whole cabinet stood in height 1f\"4.—",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "f1e558ab58fe2878918df5daaea243176cf0659fd61bbad149beec61983f0e9f"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-1065:0",
+      "source_id": "DCP-LETT-1065",
+      "block": 1,
+      "literal": "7 Park St",
+      "context": " you between 11 & 12 on Wednesday next.— If you will not be at home perhaps you will be so good as to send me a line to 7 Park St, Grosvenor Square, to save my coming in vain, as I have a good deal to do.— If I do not hear, I will come always supposing my health permits, which renders all my engagements rath",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "3b139c1353ec1c8194da48da94c67eecce86fb00be027909f38ff01560894db8"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-1091:0",
+      "source_id": "DCP-LETT-1091",
+      "block": 2,
+      "literal": "7 Park St",
+      "context": "If at home will you send me one line (shame on me for causing you a second note) to “7 Park St Grosvenor Sqre.”",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "c648cc3fdefea72a03612a3a1ec10db2d85b7030fc4337fc664b203558158fc8"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-1130:0",
+      "source_id": "DCP-LETT-1130",
+      "block": 2,
+      "literal": "7 Park St",
+      "context": "Will you let me know, as soon as you know yourself; I shall be here till Tuesday morning early the 2d., & at 7 Park St Grosvenor Square on Tuesday & Wednesday nights; I tell this for you to direct a line to me.— If you are enabled to come to Down I will let you know of a late Train, which I cannot",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "768262935cce6e65e38a0f37a8e2f46061fb2af02bce5686138670ac1671587c"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-1167:0",
+      "source_id": "DCP-LETT-1167",
+      "block": 6,
+      "literal": "6 Colman St",
+      "context": "If you are ever starting any young naturalist with his tools, recommend him to go to Smith & Beck of 6 Colman St. City for a simple microscope: he has lately made one for me, partly from my own model & with hints from Hooker, wonderfully superior for coarse and fine dissections than any I ev",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "9fe9e04d529667a5144d79f29e1e678e866c6dc5c7aeb514118d0ccdcd442dc6"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-1232F:0",
+      "source_id": "DCP-LETT-1232F",
+      "block": 2,
+      "literal": "7 Park St",
+      "context": " you might send it (to avoid custom-house opening it) by some friend in a very little bottle, directed to me either at “7 Park St. Grosvenor Sqr” or to the “Geological Soc: Somerset House.” Pray do not waste your time in answering this letter. By working every day on which I could, I have made some progress ",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "4014af29167e7670bf0facf868e3bb0daf0a1d0b67f701556194d5ecaa410254"
+    },
+    {
+      "kind": "header_or_dateline_literal",
+      "unit": "grounding:DCP-LETT-1259:0",
+      "source_id": "DCP-LETT-1259",
+      "block": 3,
+      "literal": "To return to the cirripedia: I am allowed to work only 2 hours daily (after 5",
+      "context": "To return to the cirripedia: I am allowed to work only 2 hours daily (after 5 months doing nothing) so that it will be long before I publish: the cirripedia are moreover very troublesome, from their great variability, & the necessity of examining whole anim",
+      "disposition": "hold_for_source_layer_check",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "e1fa144f5fb59ad74baddc5ca966e39239381934b20ead1b032258ffb0fa3786"
+    },
+    {
+      "kind": "header_or_dateline_literal",
+      "unit": "grounding:DCP-LETT-1267:0",
+      "source_id": "DCP-LETT-1267",
+      "block": 5,
+      "literal": "To save you the trouble of answering, I will assume, without I hear to the contrary that Mr Sowerby may",
+      "context": "To save you the trouble of answering, I will assume, without I hear to the contrary that Mr Sowerby may figure it.—",
+      "disposition": "hold_for_source_layer_check",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "3e7962778aeecc0458866b62739e0af1e603de043f12374e94f2089fa10b28b1"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-1306F:0",
+      "source_id": "DCP-LETT-1306F",
+      "block": 4,
+      "literal": "7 Park St",
+      "context": "Any parcel ought to be directed to C. Darwin Esq., | 7 Park St., Grosvenor Sq., | London.",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "c1c1f4e68b961cb75b8bda32abd266a29991a2e66a6430b66b52881467c4d63a"
+    },
+    {
+      "kind": "header_or_dateline_literal",
+      "unit": "grounding:DCP-LETT-1326:0",
+      "source_id": "DCP-LETT-1326",
+      "block": 1,
+      "literal": "From what you say I must accord my consent to your proposition of a reduction of Rent of 15",
+      "context": "From what you say I must accord my consent to your proposition of a reduction of Rent of 15 per cent for the past half-year & can only hope the present depressed times will not last.",
+      "disposition": "hold_for_source_layer_check",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "218e69e475cc92c12e951d29438a021bcd39cffcf4d4114e50d6f8155959592d"
+    },
+    {
+      "kind": "header_or_dateline_literal",
+      "unit": "grounding:DCP-LETT-1373:0",
+      "source_id": "DCP-LETT-1373",
+      "block": 4,
+      "literal": "To my letter, then comes Nor 2",
+      "context": "To my letter, then comes Nor 2. which please read: I hope to Heaven that Mr. Salt is mistaken; it wd. be a very serious loss to have to sell all Emma’s Railway & Canal Shares. As you will have to see Mr. Salt, ",
+      "disposition": "hold_for_source_layer_check",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "11def994ce0fefe505751f13faee8c89178869c6d04ec219aa4d9bec5c79f90e"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-1488:0",
+      "source_id": "DCP-LETT-1488",
+      "block": 1,
+      "literal": "28 Threadneedle St",
+      "context": "lds £920 stock & 9 shares £25 all paid up. If you do not object I shd prefer your asking my friends Mss Stokes & Hughes 28 Threadneedle St to sell (to whom I have written) & place the money to your account at Coutts, till I can make up my mind to reinvest.",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "8bf6312cf528de59cde44d990b6a50c702cbbbd103e7aeb46c51255dcbe63bdf"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-1499F:0",
+      "source_id": "DCP-LETT-1499F",
+      "block": 2,
+      "literal": "600 Shrewsbury St",
+      "context": "If it lies in your power, I should be much obliged, if you could dispose of the £600 Shrewsbury St. mortgage for me in the course of the next month or two. It consists of two mortgages of 400£ & 200£, but I should not wish to dispose of either separately. If necessary I would p",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "92a73d4be83044f70b9bd32a759b8f22e98376863e2bfd1ff0fe78bf5744abf3"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-1506F:0",
+      "source_id": "DCP-LETT-1506F",
+      "block": 1,
+      "literal": "600 Shrewsbury St",
+      "context": "I am much obliged for your note, informing me that you have at length found a purchaser of the £600 Shrewsbury St. Act. I presume you will want the enclosed Transfers: anyhow I send them: I understand that I have to pay Transfer fee.— I presume I shall receive the half-years interest due on t",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "1ac7a58ff86ce2e02e692447adec811344297e902b3eaa67df23e8745b108f9b"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-1631:0",
+      "source_id": "DCP-LETT-1631",
+      "block": 4,
+      "literal": "28 York Place",
+      "context": "I have taken a House (28 York Place Baker St) for a month, & we all move on Thursday morning; I hope to meet your son at some of the Scientific Soc.s. which I intend to attend.",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "ce2736d863ca4b7dedb7f9a9a70b989801b3fad80d1f46e5e121cc29f154b022"
+    },
+    {
+      "kind": "header_or_dateline_literal",
+      "unit": "grounding:DCP-LETT-1684:0",
+      "source_id": "DCP-LETT-1684",
+      "block": 5,
+      "literal": "To return to the subject of transportal, I may state that in “Johnston’s Physical Atlas” the rates of 10",
+      "context": "To return to the subject of transportal, I may state that in “Johnston’s Physical Atlas” the rates of 10 distinct currents in the Atlantic (excluding drift currents) are given, and the average of them is 33 nautical miles per diem; hence in 42 days, which length of immersion seven ou",
+      "disposition": "hold_for_source_layer_check",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "b85818f5ea9103769e1551c0149693d95b1810fe0c0ff43d91b885a566e81464"
+    },
+    {
+      "kind": "header_or_dateline_literal",
+      "unit": "grounding:DCP-LETT-2457:0",
+      "source_id": "DCP-LETT-2457",
+      "block": 5,
+      "literal": "To give my impression, if I were forced to bet, whether or not, after a 100",
+      "context": "To give my impression, if I were forced to bet, whether or not, after a 100 generations of growth in a poor sandy soil, a cauliflower & red-cabbage would or would not revert to same form, I must say I would rather stake my money that they would.— But in s",
+      "disposition": "hold_for_source_layer_check",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "489d3abd48e6e9e8dc32b95d9dc54e3f7fe269a53fe4b235361370c6c5a79eb6"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-659:0",
+      "source_id": "DCP-LETT-659",
+      "block": 6,
+      "literal": "29 Alfred Place",
+      "context": "29 Alfred Place",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "f7a5b850e91c5d1e5f16c79f1d281783b9f8537e34729e33db646a05b0e46f53"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-908:0",
+      "source_id": "DCP-LETT-908",
+      "block": 2,
+      "literal": "16 Hart St",
+      "context": "Will you please particularly to see, that one of my 12 copies is sent not later than Monday to Mr Lyell at 16 Hart St.; as he wishes to take it to America with him on Tuesday.—",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "2e69c3bf633f57aa6b3f8a50c4c0e294a3f17e4133d8baec8bc86496c3d86560"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "grounding:DCP-LETT-959:0",
+      "source_id": "DCP-LETT-959",
+      "block": 1,
+      "literal": "7 Park St",
+      "context": "l excuse so early an hour. If you cannot see me, perhaps you wd be so kind as to send me a line to save me trouble to, “7 Park St Grosvenor Sqr”",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "02d390b6e4eac14683282369963bb634d6427f8b2ed0f92d79693c0f3bf61916"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "conversation:DCP-LETT-107:DCP-LETT-105",
+      "source_id": "DCP-LETT-105",
+      "block": 1,
+      "literal": "7 Suffolk Street",
+      "context": "eal & spirit. Capt F. is a young man. What I wish you to do is instantly to come to Town & consult with Peacock (at No. 7 Suffolk Street Pall Mall East or else at the University Club) & learn further particulars. Don’t put on any modest doubts or fears about your disqualifications for I assure you I think you are t",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "e93512538e00c318bdb70da10c049c076e2bf005618a2ba264cde4ee4fc6c927"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "conversation:DCP-LETT-889:DCP-LETT-862",
+      "source_id": "DCP-LETT-862",
+      "block": 7,
+      "literal": "20 Abercrombie Place",
+      "context": "glish. I am now cobbling up a course, but find it far more agreeable to break off & write to you. My Edinbro address is 20 Abercrombie Place where I have taken 2 rooms, I quite forget whereabouts that is. Forbes tells me that he can trace a connection between the Botany & Geology of W. Ireland with both these features ",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "3dfd1d19c485c1ebc0a37b7f3092109f4c80085781f34c68e91a6eb5fcc40fa1"
+    },
+    {
+      "kind": "body_address_candidate",
+      "unit": "conversation:DCP-LETT-889:DCP-LETT-862",
+      "source_id": "DCP-LETT-862",
+      "block": 7,
+      "literal": "20 Abercrombie Place",
+      "context": "glish. I am now cobbling up a course, but find it far more agreeable to break off & write to you. My Edinbro address is 20 Abercrombie Place where I have taken 2 rooms, I quite forget whereabouts that is. Forbes tells me that he can trace a connection between the Botany & Geology of W. Ireland with both these features ",
+      "disposition": "retain_substantive_body_prose",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "3dfd1d19c485c1ebc0a37b7f3092109f4c80085781f34c68e91a6eb5fcc40fa1"
+    },
+    {
+      "kind": "header_or_dateline_literal",
+      "unit": "conversation:DCP-LETT-1866:DCP-LETT-1862",
+      "source_id": "DCP-LETT-1862",
+      "block": 8,
+      "literal": "To encourage you to get up J. E. Gray’s subdivision of the Genus Helix I may",
+      "context": "To encourage you to get up J. E. Gray’s subdivision of the Genus Helix I may mention that Macandrew brought back from the Salvages a Helix allied to (some think only a var of) Helix pisana a British species it was named by some one H. Macandrei & by Lowe w",
+      "disposition": "hold_for_source_layer_check",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "377376d1ae6852085aa9e2ca4c16e3488bf0fd4ee4be8b7738c9cdda581a0ebd"
+    },
+    {
+      "kind": "header_or_dateline_literal",
+      "unit": "conversation:DCP-LETT-2406:DCP-LETT-2404",
+      "source_id": "DCP-LETT-2404",
+      "block": 6,
+      "literal": "From the old glacial moraines of Sikkim to Kangra is about 900",
+      "context": "From the old glacial moraines of Sikkim to Kangra is about 900 miles. I know of no more Westerly evidence",
+      "disposition": "hold_for_source_layer_check",
+      "safe_removal_boundary": "none: matched text is inside retained body prose; remove only if the preserved DOM locates it in excluded apparatus",
+      "source_html_sha256": "de2db3ddb85967d49aaaeb1d20b1cc1b22a713bb3674a72f2b0e6d407728c626"
+    }
+  ],
+  "duplicate_answers": [],
+  "conclusions": [
+    "All 27 pattern hits are inside retained body text and require retention after source-layer review; address strings are substantive routing, consignee, or historical content rather than headers.",
+    "No literal editorial citation footer or header/dateline block was found in rendered content under the scan patterns.",
+    "No non-empty answer text was duplicated across transcript units.",
+    "This audit does not adjudicate historical relationships or visual/source-specific holds already tracked elsewhere."
+  ]
+}

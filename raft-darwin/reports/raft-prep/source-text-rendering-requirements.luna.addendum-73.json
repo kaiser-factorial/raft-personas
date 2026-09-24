@@ -1,0 +1,214 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Accepted 1858 batches 04–05 and forwarded de Vriese/Wallace supplements only; source-rendering, attribution, chronology and provenance requirements. No converter, transcript, corpus, training, export or accepted-evidence changes.",
+  "primary_provenance": {
+    "batch-04-ledger": {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "sha256": "d730af4369c704f5106eea56c080bdf4e9fdd9d10b77d357a4a228eab44632af"
+    },
+    "batch-05-ledger": {
+      "path": "data/annotations/periods/1858-1859/batch-05.json",
+      "sha256": "e193ade4c965401b51d639246c8b6fdf193555b4abe24cb98f4044981e0477a0"
+    }
+  },
+  "requirements": [
+    {
+      "id": "hooker-2384-reverse-question-mark",
+      "source_ids": [
+        "DCP-LETT-2384"
+      ],
+      "requirement": "Preserve the literal reverse question mark and following uncertain punctuation in the Audubon/heron seed query. It is a manuscript-text artifact and must not be silently normalized into a standard question or treated as editorial prose.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2384",
+          "body_paragraph": 6,
+          "locator": "div#letter div.body-content; retained body block 6",
+          "quote": "He found its seeds in stomach of Heron. [reverse question mark] from digested Fish.?-?.?-?.",
+          "source_html_sha256": "b2f5a1092a68554453e3f495c2ac5cd11f9f2f5ef4db48c4ea21577c40507bd6"
+        }
+      ]
+    },
+    {
+      "id": "hooker-2388-more-less",
+      "source_ids": [
+        "DCP-LETT-2388"
+      ],
+      "requirement": "Retain the source’s literal comparison wording and capitalization distinctions where present in the accepted reading: Darwin’s MORE claim must remain distinct from Hooker’s reported LESS assessment. Do not flatten the disagreement into a single modern paraphrase.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2388",
+          "body_paragraph": 2,
+          "locator": "div#letter div.body-content; retained body block 2",
+          "quote": "I do not think I said that I thought the productions of Asia were higher than those of Australia.",
+          "source_html_sha256": "fa5f1d40e92d827262bb37694b7943aedf8d63401c82a53a524d586aec255077"
+        }
+      ]
+    },
+    {
+      "id": "murray-2443-fraction-placeholders",
+      "source_ids": [
+        "DCP-LETT-2443"
+      ],
+      "requirement": "Render Murray’s financial offer with the actual two-thirds MathML fraction, while retaining unfilled copyist placeholders and the separate handwritten signature. The fraction is source markup, not the flattened “23” artifact.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2443",
+          "body_paragraph": 1,
+          "locator": "div#letter div.body-content; retained body block 1",
+          "quote": "I shall be quite willing to give the author 12 copies for himself & as many more as he may require at the trade price",
+          "source_html_sha256": "e563d4734c757f011697161e3fd038df9ad0a4adf0bdaa8d66064626ac1cb7f2"
+        }
+      ]
+    },
+    {
+      "id": "murray-2446-editorial-conjectures",
+      "source_ids": [
+        "DCP-LETT-2446"
+      ],
+      "requirement": "Keep Darwin’s body wording “heavy loss” and “0-scientific men” exactly as transmitted, with editorial footnote correction/conjecture in research provenance only. The body’s apparent contradiction is not permission to rewrite it to “against” or “non-scientific”.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2446",
+          "body_paragraph": 1,
+          "locator": "div#letter div.body-content; retained body block 1",
+          "quote": "enough to ensure heavy loss amongst scientific & semi-scientific men",
+          "source_html_sha256": "2c87c4de8635cd7552920a0dced7ddd96b70864cabebc0a3054eb2e6a117456f"
+        }
+      ]
+    },
+    {
+      "id": "hooker-2457-enclosure-voices",
+      "source_ids": [
+        "DCP-LETT-2457"
+      ],
+      "requirement": "Represent the three enclosure groups separately: Darwin’s cover discussion, Haughton’s quoted criticism, Darwin’s uncorrected reversion expansion, and the returned/read Gray material. Do not expand the absent manuscript or attribute Haughton’s words to Darwin.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2457",
+          "body_paragraph": 7,
+          "locator": "div#letter div.body-content; retained body block 7",
+          "quote": "I enclose a criticism,—. a taste of the future.—",
+          "source_html_sha256": "489d3abd48e6e9e8dc32b95d9dc54e3f7fe269a53fe4b235361370c6c5a79eb6"
+        }
+      ]
+    },
+    {
+      "id": "hooker-2461-gray-receipt",
+      "source_ids": [
+        "DCP-LETT-2461"
+      ],
+      "requirement": "Mark the mid-letter Gray material as a later receipt/use section. Darwin says he has received and is interested in Gray’s note after composing the preceding discussion; preserve this internal chronology and do not apply Gray’s claims to the whole letter.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2461",
+          "body_paragraph": 5,
+          "locator": "div#letter div.body-content; retained body block 5",
+          "quote": "Since the above was written I have received & been much interested by A. Gray.",
+          "source_html_sha256": "6d6245c48fd8600c1f80267e6e1eb1581fb3bf1fdc254a063aedc859c5704880"
+        }
+      ]
+    },
+    {
+      "id": "devriese-2327-bilingual",
+      "source_ids": [
+        "DCP-LETT-2327"
+      ],
+      "requirement": "Keep the recovered French original, its modern translation and the pinned metadata as separate provenance layers. Preserve bracketed lacunae and diacritics in the French body; do not export a fabricated Darwin-language paraphrase or silently merge the translation into de Vriese’s voice. The promised later special notes remain unlocated.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2327",
+          "locator": "external HTML; first substantive French body paragraph under #letter",
+          "quote": "Pour repondre à la question de M. Darwin, sur quelle hauteur végétent les plantes perennantes d’environ la latitude de la Grande Bretagne, je dirai ce que j’en ai vu.",
+          "source_html_sha256": "b688c15376b55fab0bd88b5f105b6370430237d91491e52bba7aa9502b22a589",
+          "source_xml_sha256": "3f72d371ec568cf11807047bf47fb66d89e3f25e628fc915a6819b4430031854"
+        }
+      ]
+    },
+    {
+      "id": "wallace-2337-third-party",
+      "source_ids": [
+        "DCP-LETT-2337"
+      ],
+      "requirement": "Preserve Wallace’s 6 October 1858 letter to Hooker as third-party correspondence. Its gratitude for the handling of Wallace’s and Darwin’s papers and concern about publication credit must not be emitted as Darwin voice or counted as a Darwin receipt/prompt without a separate admitted endpoint.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2337",
+          "locator": "external HTML; substantive body paragraph under #letter",
+          "quote": "It would have caused me much pain & regret had Mr. Darwin’s excess of generosity led him to make public my paper unaccompanied by his own much earlier",
+          "source_html_sha256": "3a310258c55505009cb28dd47fba3b35410f8e13f459c913f5924438304fd728",
+          "source_xml_sha256": "a011e520573d03ef9c363e32487e2119e3eece6f58cca1ae164eaa239b0bff09"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": {
+    "allowed": "Document rendering/provenance requirements for later root review.",
+    "forbidden": [
+      "converter implementation",
+      "transcript export",
+      "accepted-ledger mutation",
+      "voice or date inference"
+    ]
+  },
+  "inputs": [
+    {
+      "source_id": "DCP-LETT-2384",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2384.html",
+      "html_sha256": "b2f5a1092a68554453e3f495c2ac5cd11f9f2f5ef4db48c4ea21577c40507bd6",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2384.xml",
+      "xml_sha256": "e4ce1c3c14377b8124faef5dd4ee9b5ed78b5a760892c71ef5ecb9ec08930ab6"
+    },
+    {
+      "source_id": "DCP-LETT-2388",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2388.html",
+      "html_sha256": "fa5f1d40e92d827262bb37694b7943aedf8d63401c82a53a524d586aec255077",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2388.xml",
+      "xml_sha256": "8b39b564ae214911319c94fd32d59c238ec26cb53c30efc4d93c2475fb403186"
+    },
+    {
+      "source_id": "DCP-LETT-2443",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2443.html",
+      "html_sha256": "e563d4734c757f011697161e3fd038df9ad0a4adf0bdaa8d66064626ac1cb7f2",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2443.xml",
+      "xml_sha256": "913c7b52a72ee0383f982def8142e8ef849b41ac7afc0374e11d4efdb9dae16a"
+    },
+    {
+      "source_id": "DCP-LETT-2446",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2446.html",
+      "html_sha256": "2c87c4de8635cd7552920a0dced7ddd96b70864cabebc0a3054eb2e6a117456f",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2446.xml",
+      "xml_sha256": "eee3ffcdc906aa4a4977f8e5b3d273f3df7b3cf31cf0e1b8eecc7a544db4f191"
+    },
+    {
+      "source_id": "DCP-LETT-2457",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2457.html",
+      "html_sha256": "489d3abd48e6e9e8dc32b95d9dc54e3f7fe269a53fe4b235361370c6c5a79eb6",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2457.xml",
+      "xml_sha256": "9756560256e45dcb350e4f3c3e37a85a94d8e188319d32a463d8a9b93ff090db"
+    },
+    {
+      "source_id": "DCP-LETT-2461",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2461.html",
+      "html_sha256": "6d6245c48fd8600c1f80267e6e1eb1581fb3bf1fdc254a063aedc859c5704880",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2461.xml",
+      "xml_sha256": "2f2c5e0bbd9203dcaaac44134f39d925dab39d74e193f392f614c4adcbbb7781"
+    },
+    {
+      "source_id": "DCP-LETT-2327",
+      "html_path": "reports/1858-1859/review/followups/batch04-forwarded/DCP-LETT-2327.external.html",
+      "html_sha256": "b688c15376b55fab0bd88b5f105b6370430237d91491e52bba7aa9502b22a589",
+      "xml_path": "reports/1858-1859/review/followups/batch04-forwarded/DCP-LETT-2327.pinned.xml",
+      "xml_sha256": "3f72d371ec568cf11807047bf47fb66d89e3f25e628fc915a6819b4430031854"
+    },
+    {
+      "source_id": "DCP-LETT-2337",
+      "html_path": "reports/1858-1859/review/followups/batch04-forwarded/DCP-LETT-2337.external.html",
+      "html_sha256": "3a310258c55505009cb28dd47fba3b35410f8e13f459c913f5924438304fd728",
+      "xml_path": "reports/1858-1859/review/followups/batch04-forwarded/DCP-LETT-2337.pinned.xml",
+      "xml_sha256": "a011e520573d03ef9c363e32487e2119e3eece6f58cca1ae164eaa239b0bff09"
+    }
+  ],
+  "notes": [
+    "All body paragraph numbers are retained corpus numbering; DOM locators are independent anchors. Accepted relationships remain primary decisions."
+  ]
+}

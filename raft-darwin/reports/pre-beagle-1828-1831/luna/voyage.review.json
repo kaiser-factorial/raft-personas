@@ -1,0 +1,1154 @@
+{
+  "group_id": "voyage",
+  "model": "gpt-5.6-luna",
+  "method": "Read all 21 outgoing and 12 incoming primary bodies in full from voyage.packet.json in bounded batches, recording every retained body paragraph, then compared the texts with initial_survey.json and checked proposed quote substrings against the packet.",
+  "outgoing_reviews": [
+    {
+      "letter_id": "DCP-LETT-45A",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Answers Whitley's prior admonition about idleness and mathematics, says Barmouth is pleasant, and asks that replies be sent to Shrewsbury after 27 August.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": [
+        {
+          "relation": "knowledge_before",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-45A",
+          "target_description": "Unlocated earlier Whitley letter, received before this reply",
+          "reason": "Darwin explicitly says Whitley's letter caused unpleasant feelings but does not identify a surviving target.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-45A",
+              "quote": "even your letter, caused some wonderfully unpleasant feelings",
+              "body_paragraph": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-102",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Reports successful clinometer trials, limited geological progress, Canary passage information, requests about Diptera, addresses, a fly, and Stilton, and says he has not heard from Sedgwick.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": []
+    },
+    {
+      "letter_id": "DCP-LETT-102A",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2
+      ],
+      "summary": "Answers an unlocated Whitley letter, discusses a possible August Wales visit, Spanish and geology, and says Watkins wrote the previous day about taking a tour.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": [
+        {
+          "relation": "knowledge_before",
+          "status": "candidate_only",
+          "source_letter_id": "DCP-LETT-102A",
+          "target_description": "Unlocated Whitley letter",
+          "reason": "Receipt is explicit, but no surviving packet letter identifies its date or contents beyond Darwin's reply.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-102A",
+              "quote": "My conscience smote me much on receiving your letter",
+              "body_paragraph": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-107",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "summary": "Declines the FitzRoy voyage after his father advises against it, while saying he would gladly have accepted; reports Peacock's letter received late yesterday and asks Henslow for FitzRoy or Peacock's direction.",
+      "initial_survey_verdict": "qualify",
+      "corrections": [
+        {
+          "reason": "The wording distinguishes the letter's arrival at home from Darwin's personal receipt; the initial survey should not treat Saturday arrival as the day Darwin received it.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-107",
+              "quote": "Mr. Peacocks letter arrived on Saturday, & I received it late yesterday evening.",
+              "body_paragraph": 1
+            }
+          ]
+        }
+      ],
+      "proposed_links": [
+        {
+          "relation": "knowledge_before",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-107",
+          "target_description": "DCP-LETT-106 (Peacock offer letter)",
+          "reason": "This is cross-correspondent knowledge: 107 is addressed to Henslow, while it explicitly reports receipt of Peacock's offer letter.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-107",
+              "quote": "Mr. Peacocks letter arrived on Saturday",
+              "body_paragraph": 1
+            },
+            {
+              "letter_id": "DCP-LETT-106",
+              "quote": "you may consider the situation as at your absolute disposal",
+              "body_paragraph": 1
+            }
+          ],
+          "source_id": "DCP-LETT-107",
+          "target_id": "DCP-LETT-106"
+        },
+        {
+          "relation": "knowledge_before",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-107",
+          "target_description": "DCP-LETT-105 (Henslow recommendation/offer input)",
+          "reason": "This is cross-correspondent knowledge: 107 is addressed to Henslow and separately refers to the earlier Henslow communication about Ramsay and the opportunity.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-107",
+              "quote": "I did not hear of poor Mr. Ramsays loss till a few days before your letter.",
+              "body_paragraph": 2
+            },
+            {
+              "letter_id": "DCP-LETT-105",
+              "quote": "I have been asked by Peacock who will read & forward this to you",
+              "body_paragraph": 1
+            }
+          ],
+          "source_id": "DCP-LETT-107",
+          "target_id": "DCP-LETT-105"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-110",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "summary": "Argues to his father for reconsideration of the voyage, transmits Uncle Josiah's answers to the objections, requests a yes/no decision, and asks that crockery be forwarded.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": []
+    },
+    {
+      "letter_id": "DCP-LETT-112",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2
+      ],
+      "summary": "Notifies Beaufort, at Peacock's request, that he accepts the FitzRoy appointment after his father changed his mind; delay was caused by being in Wales.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": []
+    },
+    {
+      "letter_id": "DCP-LETT-114",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Arrives in Cambridge because his father changed his mind, asks whether the place remains available, and requests a verbal answer; refers to a second Darwin letter not yet received by Henslow.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": [
+        {
+          "relation": "refers_to_own_letter",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-114",
+          "target_description": "Unlocated second Darwin-to-Henslow letter",
+          "reason": "Darwin explicitly says Henslow may not yet have got his second letter.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-114",
+              "quote": "I daresay you have not yet got my second letter.",
+              "body_paragraph": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-118",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "summary": "Reports FitzRoy's favourable arrangements, Chester's inability to go, likely route and sailing date, and Darwin's confidence after meetings with FitzRoy and Beaufort; the source includes oral and practical information.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": []
+    },
+    {
+      "letter_id": "DCP-LETT-121",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "summary": "Tells Whitley that Peacock and Henslow offered the voyage, describes FitzRoy, route, equipment and preparations, acknowledges Whitley's last note, and asks for a Sedgwick letter to be redirected.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": [
+        {
+          "relation": "knowledge_before",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-121",
+          "target_description": "DCP-LETT-105 (separate offer input)",
+          "reason": "This is cross-correspondent knowledge: 121 is addressed to Whitley and reports receiving separate letters from Peacock and Henslow.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-121",
+              "quote": "I found letters from Peacock & Henslow",
+              "body_paragraph": 2
+            }
+          ],
+          "source_id": "DCP-LETT-121",
+          "target_id": "DCP-LETT-105"
+        },
+        {
+          "relation": "knowledge_before",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-121",
+          "target_description": "DCP-LETT-106 (separate offer input)",
+          "reason": "This is cross-correspondent knowledge: 121 is addressed to Whitley and reports receiving separate letters from Peacock and Henslow.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-121",
+              "quote": "I found letters from Peacock & Henslow",
+              "body_paragraph": 2
+            }
+          ],
+          "source_id": "DCP-LETT-121",
+          "target_id": "DCP-LETT-106"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-123",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "summary": "Says the voyage is settled, details equipment and collection plans, asks Henslow about supplies, and explicitly says a Sedgwick letter received that day has not yet been read.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": [
+        {
+          "relation": "receipt_without_reading",
+          "status": "candidate_only",
+          "source_letter_id": "DCP-LETT-123",
+          "target_description": "DCP-LETT-116 (Sedgwick letter)",
+          "reason": "The unread Sedgwick letter is plausibly 116 by date and correspondent, but those facts do not uniquely identify it.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-123",
+              "quote": "I received one to day from Prof: Sedgwick, but have not yet had time to read it.",
+              "body_paragraph": 2
+            },
+            {
+              "letter_id": "DCP-LETT-116",
+              "quote": "I left Capel Curig the day before yesterday",
+              "body_paragraph": 1
+            }
+          ],
+          "source_id": "DCP-LETT-123",
+          "target_id": "DCP-LETT-116"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-128",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2
+      ],
+      "summary": "Finds Henslow's letter among six others after returning from Plymouth, accepts the offer of lodging except for sleeping at Henslow's house, and discusses departure and collection storage.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": [
+        {
+          "relation": "replies_to",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-128",
+          "target_description": "Unlocated Henslow accommodation letter",
+          "reason": "The lodging offer is directly acknowledged, while the other six letters are not identified.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-128",
+              "quote": "I am much obliged for your asking me to take up my quarters with you",
+              "body_paragraph": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-131",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "summary": "Sends pasteboard, reports conversations with Watkins, Hill and Beaufort, discusses Admiralty and collection arrangements, and requests a future letter while travelling to Cambridge and Shrewsbury.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": []
+    },
+    {
+      "letter_id": "DCP-LETT-135A",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "summary": "Thanks Whitley for a kind letter found on returning from Plymouth, says departure is settled, and notes that fungi have arrived separately.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": [
+        {
+          "relation": "replies_to",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-135A",
+          "target_description": "DCP-LETT-125 (Whitley farewell/advice letter)",
+          "reason": "Darwin identifies the newly found letter as exceptionally kind and responds to Whitley's farewell context; the fungus parcel is a separate channel.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-135A",
+              "quote": "I found your letter on my table, when I came from Plymouth",
+              "body_paragraph": 1
+            },
+            {
+              "letter_id": "DCP-LETT-125",
+              "quote": "I should certainly like to shake hands once more before we separate",
+              "body_paragraph": 2
+            }
+          ],
+          "source_id": "DCP-LETT-135A",
+          "target_id": "DCP-LETT-125"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-138",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "summary": "Reports additional Phalli parcels, sends Leiodes, requests packing and introductions, and says FitzRoy granted a week's respite; the specimen parcels and FitzRoy update do not identify an incoming Henslow letter.",
+      "initial_survey_verdict": "qualify",
+      "corrections": [
+        {
+          "reason": "The FitzRoy postponement is cross-correspondent knowledge, and 135 is a candidate source only: its explicit one-week extension (“remain away another week”) is compatible with 138, but the bodies do not establish that 135 was the letter or channel used.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-138",
+              "quote": "I heard from Cap Fitzroy yesterday he gives me a week more of respite",
+              "body_paragraph": 4
+            },
+            {
+              "letter_id": "DCP-LETT-135",
+              "quote": "we shall not sail until the end of October",
+              "body_paragraph": 9
+            },
+            {
+              "letter_id": "DCP-LETT-135",
+              "body_paragraph": 9,
+              "quote": "You can remain away another week so as to be here on the 17th. if you like."
+            }
+          ]
+        }
+      ],
+      "proposed_links": []
+    },
+    {
+      "letter_id": "DCP-LETT-139",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "summary": "Reassures FitzRoy that he will not be a shoregoing fellow, discusses bulky luggage, money, books and Earl's travel, and asks about baggage on arrival; the XML date alternatives remain 4 or 11 October.",
+      "initial_survey_verdict": "qualify",
+      "corrections": [
+        {
+          "reason": "The weekday 'Tuesday' does not resolve the preserved 4-or-11 October alternatives; the date must remain uncertain.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-139",
+              "quote": "Tuesday",
+              "body_paragraph": 4
+            }
+          ]
+        }
+      ],
+      "proposed_links": [
+        {
+          "relation": "replies_to",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-139",
+          "target_description": "DCP-LETT-135 (FitzRoy letter)",
+          "reason": "The distinctive quoted phrase directly echoes FitzRoy's reaction to Darwin's opening sentence; this supports the quotation match even though 135 does not support 142.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-139",
+              "quote": "damn those shore-going fellows",
+              "body_paragraph": 1
+            },
+            {
+              "letter_id": "DCP-LETT-135",
+              "quote": "Damn these shoregoing fellows they never know their own minds",
+              "body_paragraph": 1
+            }
+          ],
+          "source_id": "DCP-LETT-139",
+          "target_id": "DCP-LETT-135"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-140",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "summary": "Asks Henslow for precise consignment directions and payment arrangements after speaking with Henslow's brother; the brother's parcel and conversation are not an incoming letter.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": [
+        {
+          "relation": "replies_to",
+          "status": "candidate_only",
+          "source_letter_id": "DCP-LETT-140",
+          "target_description": "Unlocated future Henslow consignment instructions, possibly answered by 143",
+          "reason": "140 requests a letter and 143 supplies directions, but the later response cannot be treated as knowledge available in 140.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-140",
+              "quote": "Will you be kind enough to write to me, before I leave London on Sunday 16th. about consingements",
+              "body_paragraph": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-142",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "summary": "Thanks FitzRoy for advice about consignment, talc and the delayed sailing, explains why Darwin stayed in London, asks about mountain barometers, and anticipates sailing on 4 November.",
+      "initial_survey_verdict": "correct",
+      "corrections": [
+        {
+          "reason": "The packet's FitzRoy letter 135 discusses mids, books, stowage and the end-October sailing estimate, but contains neither the other-vessel baggage advice nor the talc supplier acknowledged here. 142's incoming FitzRoy letter is therefore unlocated in this packet.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-142",
+              "quote": "Very many thanks for your letter",
+              "body_paragraph": 1
+            },
+            {
+              "letter_id": "DCP-LETT-142",
+              "quote": "This letter will, I trust accompany some talc.",
+              "body_paragraph": 1
+            },
+            {
+              "letter_id": "DCP-LETT-135",
+              "quote": "I have arranged good & dry stowage for your things",
+              "body_paragraph": 8
+            }
+          ]
+        }
+      ],
+      "proposed_links": []
+    },
+    {
+      "letter_id": "DCP-LETT-144",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "summary": "Corrects uncertainty over a payment to Henslow's brother, accepts consignment directions, describes Falmouth and Cambridge routing, asks mathematical advice, and reports shipboard conditions.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": [
+        {
+          "relation": "replies_to",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-144",
+          "target_description": "DCP-LETT-143 (Henslow consignment/account letter)",
+          "reason": "The same consignment directions and accounting issue recur, while 144 distinguishes a lost earlier letter from the current one.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-144",
+              "quote": "I am very much obliged for your directions about consingment",
+              "body_paragraph": 1
+            },
+            {
+              "letter_id": "DCP-LETT-143",
+              "quote": "As touching consignment I should think the best way is to do as Lowe does",
+              "body_paragraph": 1
+            }
+          ],
+          "source_id": "DCP-LETT-144",
+          "target_id": "DCP-LETT-143"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-147",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Reports final Admiralty orders and sailing plans, evaluates vessel and crew, thanks Henslow for mathematical advice, and asks him to recover furniture money from Mr Ash.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": [
+        {
+          "relation": "replies_to",
+          "status": "candidate_only",
+          "source_letter_id": "DCP-LETT-147",
+          "target_description": "Unlocated Henslow mathematical-advice letter",
+          "reason": "The thanks are explicit, but the earlier Henslow source is not in this packet. DCP-LETT-150 contains later surds advice, so it cannot be identified as the source solely from that shared topic.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-147",
+              "quote": "I am much obliged for your advice, de Mathematicis",
+              "body_paragraph": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-148",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "summary": "Answers Whitley's delayed letter, says he cannot visit Cambridge for years, recalls Cambridge friends and the Glutton club, and gives the voyage's broad two-year South America plan.",
+      "initial_survey_verdict": "agree",
+      "corrections": [],
+      "proposed_links": [
+        {
+          "relation": "replies_to",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-148",
+          "target_description": "Unlocated Whitley letter inviting or asking about a Cambridge visit",
+          "reason": "Darwin explicitly records delayed receipt and answers the visit issue; 125 is thematically related but cannot be assumed identical.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-148",
+              "quote": "I received your letter some days after date",
+              "body_paragraph": 1
+            },
+            {
+              "letter_id": "DCP-LETT-148",
+              "quote": "it is impossible to pay Cambridge a visit",
+              "body_paragraph": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-152",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "summary": "Announces imminent sailing, asks Henslow to write to Rio or Monte Video, thanks him for a kind and affectionate letter, and asks for a memorial of Ramsay.",
+      "initial_survey_verdict": "correct",
+      "corrections": [
+        {
+          "reason": "The proposed distinctive memorial match to 150 fails: 150 contains advice about manners and expedition suitability but no Ramsay memorial offer. The memorial source is unlocated; generic affectionate wording alone is insufficient.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-152",
+              "quote": "I shall be very glad to have some memorial of Ramsay",
+              "body_paragraph": 2
+            },
+            {
+              "letter_id": "DCP-LETT-150",
+              "quote": "I am quite sure that you are the right man for the expedition you have undertaken",
+              "body_paragraph": 2
+            }
+          ]
+        }
+      ],
+      "proposed_links": []
+    }
+  ],
+  "incoming_reviews": [
+    {
+      "letter_id": "DCP-LETT-58",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "summary": "Coldstream welcomes Darwin's letter in lieu of a visit, reports travel and medical practice, discusses zoology, Plinian Society and publications, and asks for Cambridge natural-history news.",
+      "unlocated_references": [],
+      "proposed_links": []
+    },
+    {
+      "letter_id": "DCP-LETT-65",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "summary": "Leighton invites Darwin to Oxford for the boat race and cricket, offers lodging, and asks for an immediate reply with travel timing.",
+      "unlocated_references": [],
+      "proposed_links": []
+    },
+    {
+      "letter_id": "DCP-LETT-105",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Henslow urges Darwin to take the FitzRoy opportunity, recommends him to Peacock, describes the voyage and deadline, and says the expedition sails as early as 25 September.",
+      "unlocated_references": [
+        {
+          "description": "Henslow's letter is a direct offer/recommendation input preserved here; any earlier Peacock forwarding letter is not itself present in this body.",
+          "direction": "incoming_to_Darwin",
+          "correspondent": "J. S. Henslow",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-105",
+              "quote": "I shall hope to see you shortly fully expecting that you will eagerly catch at the offer",
+              "body_paragraph": 1
+            }
+          ]
+        }
+      ],
+      "proposed_links": [
+        {
+          "relation": "knowledge_before",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-105",
+          "target_description": "DCP-LETT-107",
+          "reason": "105 is the distinct Henslow offer/recommendation component later reflected by Darwin's reference to Ramsay and the opportunity.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-105",
+              "quote": "I have stated that I consider you to be the best qualified person I know",
+              "body_paragraph": 1
+            },
+            {
+              "letter_id": "DCP-LETT-107",
+              "quote": "I did not hear of poor Mr. Ramsays loss till a few days before your letter.",
+              "body_paragraph": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-106",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "summary": "Peacock confirms Beaufort's approval and offers the situation, describes FitzRoy, route, scientific purposes and arrangements, and requests Darwin's acceptance at Denton.",
+      "unlocated_references": [
+        {
+          "description": "A prior Henslow letter is explicitly received by Peacock and would be forwarded, but that forwarding is separate from Peacock's own offer letter.",
+          "direction": "third_party_to_Darwin",
+          "correspondent": "J. S. Henslow",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-106",
+              "quote": "I received Henslow’s letter last night too late to forward it to you",
+              "body_paragraph": 1
+            }
+          ]
+        }
+      ],
+      "proposed_links": [
+        {
+          "relation": "knowledge_before",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-106",
+          "target_description": "DCP-LETT-107",
+          "reason": "Darwin's 107 explicitly says Peacock's letter arrived and was received, matching this offer; timing is distinguished from the Henslow input.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-106",
+              "quote": "you may consider the situation as at your absolute disposal",
+              "body_paragraph": 1
+            },
+            {
+              "letter_id": "DCP-LETT-107",
+              "quote": "Mr. Peacocks letter arrived on Saturday, & I received it late yesterday evening.",
+              "body_paragraph": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-116",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "summary": "Sedgwick reports extensive Snowdonia geological traverses, disputes Darwin's interpretation of trap and slate at Cwm Idwal and Moel Shabod, gives a route diary, and redirects correspondence to Carnarvon.",
+      "unlocated_references": [
+        {
+          "description": "The letter is physically received by Darwin before or at 123, but its contents are not available to him at 123 because he says he has not read it.",
+          "direction": "incoming_to_Darwin",
+          "correspondent": "A. Sedgwick",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-123",
+              "quote": "I received one to day from Prof: Sedgwick, but have not yet had time to read it.",
+              "body_paragraph": 2
+            }
+          ]
+        },
+        {
+          "description": "Sedgwick refers to Darwin’s earlier geological letter containing the Cwm Idwal and Moel Shabod puzzle; that Darwin input is not located here.",
+          "direction": "outgoing_to_Sedgwick",
+          "correspondent": "A. Sedgwick",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-116",
+              "body_paragraph": 1,
+              "quote": "I don’t understand your puzzle about M. Shabod."
+            }
+          ]
+        }
+      ],
+      "proposed_links": [
+        {
+          "relation": "receipt_without_reading",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-116",
+          "target_description": "DCP-LETT-123",
+          "reason": "The date and correspondent align with Darwin's explicit receipt statement, while no 116 content should be activated in 123.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-116",
+              "quote": "address me at Carnarvon",
+              "body_paragraph": 2
+            },
+            {
+              "letter_id": "DCP-LETT-123",
+              "quote": "I received one to day from Prof: Sedgwick, but have not yet had time to read it.",
+              "body_paragraph": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-124",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "summary": "Coldstream welcomes Darwin's expedition, identifies Brewster papers, recommends an oyster trawl, lobster traps and fishing-line collecting, and suggests Grant, Beechey and Daniell for preparation.",
+      "unlocated_references": [
+        {
+          "description": "Coldstream answers Darwin’s earlier questions about Brewster, marine collecting and equipment; the triggering Darwin letter is not located in this packet.",
+          "direction": "outgoing_to_Coldstream",
+          "correspondent": "John Coldstream",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-124",
+              "body_paragraph": 1,
+              "quote": "The paper by Dr Brewster to which you refer is that, I presume"
+            }
+          ]
+        }
+      ],
+      "proposed_links": []
+    },
+    {
+      "letter_id": "DCP-LETT-125",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "summary": "Whitley congratulates Darwin, advises him to learn trigonometry and navigation, describes a Snowdon ascent, asks for a short pre-departure letter, and expresses attachment and farewell concern.",
+      "unlocated_references": [],
+      "proposed_links": [
+        {
+          "relation": "knowledge_before",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-125",
+          "target_description": "DCP-LETT-135A",
+          "reason": "135A explicitly says it found and answers this exceptionally kind farewell letter; the content and timing fit.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-125",
+              "quote": "I should certainly like to shake hands once more before we separate",
+              "body_paragraph": 2
+            },
+            {
+              "letter_id": "DCP-LETT-135A",
+              "quote": "I found your letter on my table, when I came from Plymouth",
+              "body_paragraph": 1
+            }
+          ]
+        },
+        {
+          "relation": "knowledge_before",
+          "status": "supported",
+          "source_id": "DCP-LETT-125",
+          "target_id": "DCP-LETT-121",
+          "reason": "Whitley’s advice responds to Darwin’s announced voyage and its preparation details, including ordering, navigation and departure concerns.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-125",
+              "body_paragraph": 1,
+              "quote": "your neglect of Mathematics especially of trigonometry & navigation"
+            },
+            {
+              "letter_id": "DCP-LETT-121",
+              "body_paragraph": 2,
+              "quote": "It is such capital fun ordering things"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-129",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "summary": "Sedgwick congratulates Darwin and gives extensive advice on geological books, fossil shells, the Geological Society, and his own Snowdonian fieldwork and section.",
+      "unlocated_references": [],
+      "proposed_links": []
+    },
+    {
+      "letter_id": "DCP-LETT-130",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Watkins celebrates Darwin's voyage, recalls Cambridge friendships and shared activities, imagines reunion after three years, and offers help in Cambridge or elsewhere.",
+      "unlocated_references": [],
+      "proposed_links": []
+    },
+    {
+      "letter_id": "DCP-LETT-135",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "summary": "FitzRoy reacts to Darwin's apparent refusal, declines Darwin's request to take young Owen because the mids are full, discusses books, storage and cabin arrangements, and postpones sailing until the end of October.",
+      "unlocated_references": [
+        {
+          "description": "FitzRoy advice acknowledged in 142 about talc and using another vessel is not present in 135 and remains a separate unlocated input.",
+          "direction": "incoming_to_Darwin",
+          "correspondent": "Robert FitzRoy",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-142",
+              "quote": "I never should have thought of sending things by some other vessel",
+              "body_paragraph": 1
+            }
+          ]
+        }
+      ],
+      "proposed_links": [
+        {
+          "relation": "knowledge_before",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-135",
+          "target_description": "DCP-LETT-139",
+          "reason": "The opening quotation in 139 directly repeats FitzRoy's phrase about shoregoing fellows.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-135",
+              "quote": "Damn these shoregoing fellows they never know their own minds",
+              "body_paragraph": 1
+            },
+            {
+              "letter_id": "DCP-LETT-139",
+              "quote": "damn those shore-going fellows",
+              "body_paragraph": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-143",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "summary": "Henslow discusses the disputed payment to his brother, supplies a precise consignment address, updates Darwin on the clinometer and local friends, and comments on the election.",
+      "unlocated_references": [],
+      "proposed_links": [
+        {
+          "relation": "knowledge_before",
+          "status": "supported",
+          "source_letter_id": "DCP-LETT-143",
+          "target_description": "DCP-LETT-144",
+          "reason": "144 acknowledges the consignment directions and revisits the same accounting discrepancy.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-143",
+              "quote": "As touching consignment I should think the best way is to do as Lowe does",
+              "body_paragraph": 1
+            },
+            {
+              "letter_id": "DCP-LETT-144",
+              "quote": "I am very much obliged for your directions about consingment",
+              "body_paragraph": 1
+            }
+          ]
+        },
+        {
+          "relation": "knowledge_before",
+          "status": "supported",
+          "source_id": "DCP-LETT-143",
+          "target_id": "DCP-LETT-140",
+          "reason": "The accounting discrepancy and consignment instructions answer Darwin’s earlier request to Henslow.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-143",
+              "body_paragraph": 1,
+              "quote": "you have read pounds for shillings & shillings for pounds"
+            },
+            {
+              "letter_id": "DCP-LETT-140",
+              "body_paragraph": 3,
+              "quote": "there was 6 instead of 7’10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-150",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Henslow forwards Lowe's plates through Jenyns, gives advice on surds and on tolerating rough shipmates, and affirms Darwin's suitability for the expedition; no Ramsay memorial offer appears.",
+      "unlocated_references": [
+        {
+          "description": "The Ramsay memorial assertion answered in 152 is absent from 150; its source is unlocated in this packet.",
+          "direction": "incoming_to_Darwin",
+          "correspondent": "J. S. Henslow",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-152",
+              "quote": "I shall be very glad to have some memorial of Ramsay",
+              "body_paragraph": 2
+            }
+          ]
+        }
+      ],
+      "proposed_links": [
+        {
+          "relation": "knowledge_before",
+          "status": "rejected",
+          "source_letter_id": "DCP-LETT-150",
+          "target_description": "DCP-LETT-152 as source of Ramsay memorial offer",
+          "reason": "150's full body contains no Ramsay reference or memorial offer; only general affectionate expedition advice is shared.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-150",
+              "quote": "I am quite sure that you are the right man for the expedition you have undertaken",
+              "body_paragraph": 2
+            },
+            {
+              "letter_id": "DCP-LETT-152",
+              "quote": "I shall be very glad to have some memorial of Ramsay",
+              "body_paragraph": 2
+            }
+          ]
+        },
+        {
+          "relation": "knowledge_before",
+          "status": "rejected",
+          "source_id": "DCP-LETT-150",
+          "target_id": "DCP-LETT-147",
+          "reason": "150 is later than 147, so it cannot be the source of 147’s thanks. Its surds advice is related evidence only; the earlier Henslow input remains implicit and unlocated.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-150",
+              "body_paragraph": 1,
+              "quote": "In working your Surds remember that you are operating merely on quantities with fractional indices"
+            },
+            {
+              "letter_id": "DCP-LETT-147",
+              "body_paragraph": 1,
+              "quote": "I am much obliged for your advice, de Mathematicis"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "The 105/106 offer bundle is two distinct incoming communications: 105 is Henslow's recommendation and 106 is Peacock's offer. Darwin's 107 distinguishes Peacock's arrival and personal receipt; 121 later uses the plural 'letters from Peacock & Henslow'.",
+    "DCP-LETT-116 is a plausible identified source for the letter Darwin says he received from Sedgwick in 123, but 123 explicitly says it was unread, so no geological content from 116 is knowledge available in 123.",
+    "DCP-LETT-135 supports DCP-LETT-139 through the distinctive shoregoing-fellows phrase. It does not support DCP-LETT-142, whose acknowledged FitzRoy input contains baggage-by-another-vessel and talc details absent from 135.",
+    "DCP-LETT-125 to DCP-LETT-135A is a supported direct correspondence link; 135A separately reports receipt of fungi, which is not letter evidence.",
+    "DCP-LETT-143 to DCP-LETT-144 is supported by matching consignment directions and accounting discussion.",
+    "The Ramsay memorial source answered in 152 is unlocated. Editorial identification or thematic similarity cannot turn 150 into that source.",
+    "DCP-LETT-139 retains the XML 4-or-11 October alternatives; its weekday does not resolve them."
+  ],
+  "limitations": [
+    "This review is limited to the 21 outgoing and 12 incoming bodies in voyage.packet.json. Missing letters, third-party Wood/FitzRoy communications, oral meetings, parcels and newspapers remain separate evidence classes.",
+    "No post-period letter 153 was activated."
+  ]
+}

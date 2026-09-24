@@ -1,0 +1,32 @@
+{
+  "reviewer": "gpt-5.6-luna",
+  "status": "additive_correction",
+  "batch_id": "batch-32",
+  "preserves": "reports/1844-1846/review/reviews/batch-32.supplemental-evidence.additive.json",
+  "purpose": "Correct the chronology characterization of DCP-LETT-3428 and DCP-LETT-3429 without overwriting the earlier additive report.",
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-3428",
+      "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-3428.html",
+      "source_sha256": "c020b7444586bbec76afe2c61a161e86e4601a5b03ad48cc35a433b144c0ceeb",
+      "corrected_date_assessment": "The XML constraint is only [before 15 February 1862], with no supported lower bound, so it does not by itself exclude 1844–46. The editorial relationship and the specific Mormodes/Crocker episode place the record in the 1862 correspondence sequence; retain that as likely-era evidence rather than an XML-proven exclusion.",
+      "quote": {"locator": "body/p1", "text": "Will you give me Mr W. C. Crockers (is this spelt right?) address in enclosed envelope: I am half mad about Mormodes perhaps he may know."}
+    },
+    {
+      "letter_id": "DCP-LETT-3429",
+      "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-3429.html",
+      "source_sha256": "61a650cb02a07ad1c93ddc81567d94e80a16403b45a85e84b47fff263e7ddce3",
+      "corrected_date_assessment": "The XML constraint is likewise only [before 15 February 1862], with no supported lower bound. Its explicit reference to seeing Darwin at Lubbock’s on the coming Saturday, and editorial footnote 3 identifying that lunch as 15 February 1862, strongly supports the 1862 era; this is a supported editorial-era inference, not a lower-bound fact encoded by XML.",
+      "quotes": [
+        {"locator": "body/p4", "text": "I doubt if he can help you with Mormodes What is it you want to know"},
+        {"locator": "body/p5", "text": "I am to see you at Lubbocks on Saturday."},
+        {"locator": "editorial_footnotes/n3", "text": "The reference is to the lunch at John and Ellen Frances Lubbock’s on 15 February 1862"}
+      ]
+    }
+  ],
+  "link_correction": {
+    "from": "DCP-LETT-3428",
+    "to": "DCP-LETT-3429",
+    "assessment": "The direct address/Mormodes exchange remains supported, but its 1862-era placement rests on the editorial relationship and internal Lubbock reference, while the raw XML remains broadly bounded before 15 February 1862. Do not call these records simply pre-period or XML-proven outside 1844–46."
+  }
+}

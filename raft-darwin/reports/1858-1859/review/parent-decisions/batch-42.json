@@ -1,0 +1,121 @@
+{
+  "batch_id": "batch-42",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-2201F",
+      "target_id": "DCP-LETT-2184F",
+      "relationship": "replies_to",
+      "status": "candidate_only",
+      "reason": "Both 2201F and 2184F are Darwin→Harcourt. The worker incorrectly calls December15 Harcourts letter. Fulfilled plan to view birds is not a surviving incoming prompt.",
+      "known_by_date": null,
+      "actual_receipt_date": null,
+      "response_scope": "2201F P1–P3 to 2184F P2: Crystal Palace viewing, prize, Owl/Turbit classification and continued interest; no whole-letter prompt reconstruction.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2201F",
+          "body_paragraph": 1,
+          "quote": "I went yesterday & saw your birds, which I am glad to see got a prize."
+        }
+      ],
+      "parent_decision": "rejected_same_author_outgoing_sequence"
+    }
+  ],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-2201F",
+      "source_kind": "Darwin letter",
+      "voice": "Charles Darwin",
+      "date_assessment": "13 Jan [1858]",
+      "disposition": "unpaired_darwin_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2517",
+      "source_kind": "Darwin letter",
+      "voice": "Charles Darwin",
+      "date_assessment": "11 Nov [1859]",
+      "disposition": "unpaired_darwin_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2214",
+      "source_kind": "incoming incomplete letter",
+      "voice": "William Balfour Baikie",
+      "date_assessment": "11 Feb 1858",
+      "disposition": "incoming_incomplete_context",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2578",
+      "source_kind": "incoming incomplete letter",
+      "voice": "Henry Holland",
+      "date_assessment": "10 Dec [1859]",
+      "disposition": "after_cutoff",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2418",
+      "source_kind": "Darwin letter",
+      "voice": "Charles Darwin",
+      "date_assessment": "21 Feb [1859?]",
+      "disposition": "questioned_year_hold",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2315",
+      "source_kind": "Darwin letter",
+      "voice": "Charles Darwin",
+      "date_assessment": "[30 July 1858]",
+      "disposition": "unpaired_darwin_grounding_candidate",
+      "training_export_ready": false
+    }
+  ],
+  "corrections": [
+    {
+      "kind": "source_attribution",
+      "description": "2184F author is Darwin, not Harcourt; no reverse or direct pair from same-author sequence."
+    },
+    {
+      "kind": "unidentified_election",
+      "description": "2418 apparatus cannot identify society or Kingdon securely; summary Athenaeum suggestion is not accepted fact."
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-2418",
+      "kind": "qualified_proxy_memory",
+      "description": "Darwin records uncertainty despite already having voted; incoming requests missing.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2418",
+          "body_paragraph": 1,
+          "quote": "I received so many applications & the names being all new, I am not quite certain;",
+          "char_start": 216,
+          "char_end": 298,
+          "source_sha256": "790c72635bdf659675da741579288effb2eabc0426c7f28ea563d3f0fd08f2dd"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-2315",
+      "kind": "unpreserved_extract_known",
+      "description": "Acknowledges extract and novelty but no surviving source endpoint or exact receipt.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2315",
+          "body_paragraph": 2,
+          "quote": "I had never heard of this, & am glad to hear of every case of the transport of seeds per sea.—",
+          "char_start": 0,
+          "char_end": 94,
+          "source_sha256": "0f32b02d8a94d484e01af8189520650a7d38fb8690a096c80b067327b60e814e"
+        }
+      ]
+    }
+  ],
+  "summary": "Six fresh full readings and fourteen verified primary reuses. Same-author reply proposal rejected; no new edges."
+}

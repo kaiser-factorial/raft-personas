@@ -1,0 +1,53 @@
+{
+  "period": {
+    "start": "1828-01-01",
+    "end": "1836-12-31",
+    "inclusive": true
+  },
+  "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+  "source_rows": 15238,
+  "source_csv_sha256": "cbe31878e4557db7f1e96f4c1fccdfa3144a88b2e8f2dcbf7441f8d430d73f9a",
+  "candidates": 288,
+  "classification_counts": {
+    "safe_within_period": 285,
+    "ambiguous_period": 3
+  },
+  "classification_by_direction": {
+    "ambiguous_period": {
+      "from_darwin": 3
+    },
+    "safe_within_period": {
+      "to_darwin": 126,
+      "from_darwin": 159
+    }
+  },
+  "third_party_records_excluded_by_csv_filter": 16,
+  "third_party_xml_downloaded": 0,
+  "supplemental_records_with_explicit_period_year_outside_sort_window": [],
+  "date_structure_counts": {
+    "bounded_range": 53,
+    "single_xml_day": 231,
+    "alternative_dates": 2,
+    "multiple_recorded_dates": 2
+  },
+  "safe_records_requiring_order_review": 59,
+  "source_qualified_dates": [
+    "DCP-LETT-44",
+    "DCP-LETT-88",
+    "DCP-LETT-106",
+    "DCP-LETT-145",
+    "DCP-LETT-192",
+    "DCP-LETT-221",
+    "DCP-LETT-256",
+    "DCP-LETT-279",
+    "DCP-LETT-285",
+    "DCP-LETT-13858"
+  ],
+  "csv_xml_sort_mismatches": [
+    "DCP-LETT-13858"
+  ],
+  "records_with_transcriptions_in_xml": 0,
+  "records_with_structured_receipt_dates": 0,
+  "sources_checksum_verified": 291,
+  "scope_limit": "Audits the CSV-selected 1828-1836 set plus any other Darwin-only CSV row explicitly mentioning a year in that period. It is not an XML-wide re-dating of all 15,238 records or a completeness claim for all surviving letters."
+}

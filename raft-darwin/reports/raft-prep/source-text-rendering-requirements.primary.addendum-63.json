@@ -1,0 +1,511 @@
+{
+  "status": "primary_verified_conversion_preparation_requirements",
+  "scope": "Accepted 1856-1857 batch-39 source-text rendering, special-markup, figure, authorship and chronology requirements only. Candidate documentation; no converter, transcript, export, training or accepted evidence changes.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-39.json",
+      "sha256": "33e5111d4a3ded409ffce85552dd3d1eac3b904988d0fd2e9a74bd46235281d4"
+    },
+    "parent_decisions": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-39.json",
+      "sha256": "463c1ae93c25b48608e41572c22ebfc88ed388666c1705817f4cd772e0f36284"
+    },
+    "accepted_ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-39.json",
+      "sha256": "95c152b799f9acc597b9b42092552bf21cc11c20c14a6c1a355abe0932c97d39"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "case": "1632 plain reciprocal-looking digits and scoped reverse response",
+      "source_ids": [
+        "DCP-LETT-1632",
+        "DCP-LETT-1796",
+        "DCP-LETT-1801A"
+      ],
+      "requirement": "Preserve the three ordinary-digit strings 13542th, 13395th and 13600th in provenance as plain digits/superscript; hold affected export content until a supported repair exists. A reciprocal-looking interpretation requires an authoritative witness and must not be inferred from typography. The accepted relationship is scoped reverse-only: 1632 answers the distinctive dog-breed subset of the extant1796 P4 request, while Hewson book receipt in 1801A is an intermediate receipt witness; do not expand it to a whole-letter or pigeon-results relation.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1632",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1632.html",
+          "source_html_sha256": "eebef4c1797fe43d53ea5376e4c6284cf644ce3d692c81f8c192d85fe2655ef2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1632.xml",
+          "xml_sha256": "290b247f7e830a28d773974df1d5c9ddc87cfe1fd1418ca4bd0102718490a7cc",
+          "verified_xml_dates": [
+            {
+              "text": "20 Jan [1856]",
+              "attributes": {
+                "when": "1856-01-20"
+              },
+              "lower": "1856-01-20",
+              "upper": "1856-01-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-01-20\">20 Jan [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1796",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1796.html",
+          "source_html_sha256": "2eb0129ca31ad3fd7ff2874969ae12541c2123d11f1f331ed55f0bf431f748ef",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1796.xml",
+          "xml_sha256": "1430e8f120745e1839c73b4eb9d4c3e24b0d3d0f6fdc17715ad14d6cab443c76",
+          "verified_xml_dates": [
+            {
+              "text": "18 Dec [1855]",
+              "attributes": {
+                "when": "1855-12-18"
+              },
+              "lower": "1855-12-18",
+              "upper": "1855-12-18",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-12-18\">18 Dec [1855]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1801A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1801A.html",
+          "source_html_sha256": "44bd26c3b104616d3f43a314decca7afe4d0c34eacdd707d6a6ac14193e02498",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1801A.xml",
+          "xml_sha256": "4c827066484b0ee9f6f7edcb3c7769a176b78ab7d716a0e4abe9cef7bbbde0e3",
+          "verified_xml_dates": [
+            {
+              "text": "27 Dec [1855]",
+              "attributes": {
+                "when": "1855-12-27"
+              },
+              "lower": "1855-12-27",
+              "upper": "1855-12-27",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1855-12-27\">27 Dec [1855]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1632",
+          "body_paragraph": 3,
+          "quote": "The measurements of the Dog’s corpuscles",
+          "char_start": 0,
+          "char_end": 40,
+          "source_sha256": "eebef4c1797fe43d53ea5376e4c6284cf644ce3d692c81f8c192d85fe2655ef2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1632",
+          "body_paragraph": 3,
+          "quote": "13542th, of the Dingo 13395th, & of the Wolf 13600th",
+          "char_start": 41,
+          "char_end": 93,
+          "source_sha256": "eebef4c1797fe43d53ea5376e4c6284cf644ce3d692c81f8c192d85fe2655ef2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1796",
+          "body_paragraph": 4,
+          "quote": "examined the blood of any other varieties or Breeds of Dogs",
+          "char_start": 374,
+          "char_end": 433,
+          "source_sha256": "2eb0129ca31ad3fd7ff2874969ae12541c2123d11f1f331ed55f0bf431f748ef",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1632",
+          "body_paragraph": 4,
+          "quote": "I have examined those of a fox-hound and of other good breeds without noting any marked difference.",
+          "char_start": 64,
+          "char_end": 163,
+          "source_sha256": "eebef4c1797fe43d53ea5376e4c6284cf644ce3d692c81f8c192d85fe2655ef2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1801A",
+          "body_paragraph": 1,
+          "quote": "I have this morning received safely your most kind present of Hewson’s work.",
+          "char_start": 29,
+          "char_end": 105,
+          "source_sha256": "44bd26c3b104616d3f43a314decca7afe4d0c34eacdd707d6a6ac14193e02498",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "markup_proof": {
+        "mathml_nodes": 0,
+        "source_sha256": "eebef4c1797fe43d53ea5376e4c6284cf644ce3d692c81f8c192d85fe2655ef2",
+        "ordinary_superscript_th_locators": [
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]/sup[1]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]/sup[2]",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]/sup[3]"
+        ]
+      }
+    },
+    {
+      "case": "2160 Glover cactus hybrids and actual stem figure",
+      "source_ids": [
+        "DCP-LETT-2160"
+      ],
+      "requirement": "Keep Glover’s October 26 response bounded by receipt of Darwin’s missing October 22 letter. Preserve approximate recollections (300–400 germinated seedlings, roughly equal germination, about50 backcross plants) as approximate observed results; distinguish these from later untested fertility claims; the statement that Flagelliformis hybrids are fertile is belief pending further trial, while Gloxinia/Gesneria is explicitly barren. Preserve the actual unlabeled angular three-lobed stem drawing with corner spines and central mark; it has no measurements or scale. Specimens and reward are offers/claims, not completed transfer or purchase.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2160",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2160.html",
+          "source_html_sha256": "8592da862b04fba52ec101547dde8009c57974d40f96b6636f04c81f2c3dcf5c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2160.xml",
+          "xml_sha256": "8c2cc1f54c49cad82c1613296a2995fbd67f4b030f0d1f020bce8ba7cbb1b2c2",
+          "verified_xml_dates": [
+            {
+              "text": "26 Oct 1857",
+              "attributes": {
+                "when": "1857-10-26"
+              },
+              "lower": "1857-10-26",
+              "upper": "1857-10-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-10-26\">26 Oct 1857</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "figure": {
+        "path": "data/raw/dcp/1856-1857/figures/DCP-LETT-2160-1.jpg",
+        "sha256": "a0e20d38643ddd334e14814135db851f1c915b968c50d230e0649ff501f14e0a",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]/span[6]/img",
+        "observation": "Root viewed actual JPEG: unlabeled angular triangular/three-lobed stem profile, spines near three corners and a small central mark. No scale, numerical labels or quantitative plot; context identifies an angular stem, not a flower.",
+        "root_visual_reading_reused": true
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2160",
+          "body_paragraph": 1,
+          "quote": "Your letter of 22d. only came to hand this morning",
+          "char_start": 0,
+          "char_end": 50,
+          "source_sha256": "8592da862b04fba52ec101547dde8009c57974d40f96b6636f04c81f2c3dcf5c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2160",
+          "body_paragraph": 3,
+          "quote": "It never occurred to me to count the number",
+          "char_start": 353,
+          "char_end": 396,
+          "source_sha256": "8592da862b04fba52ec101547dde8009c57974d40f96b6636f04c81f2c3dcf5c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-2160",
+          "body_paragraph": 5,
+          "quote": "I never tried them any further but I don’t doubt their being fertile.",
+          "char_start": 327,
+          "char_end": 396,
+          "source_sha256": "8592da862b04fba52ec101547dde8009c57974d40f96b6636f04c81f2c3dcf5c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2160",
+          "body_paragraph": 7,
+          "quote": "the hybrid is barren.",
+          "char_start": 257,
+          "char_end": 278,
+          "source_sha256": "8592da862b04fba52ec101547dde8009c57974d40f96b6636f04c81f2c3dcf5c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        }
+      ]
+    },
+    {
+      "case": "2003F George voice and excluded authorial quill aside",
+      "source_ids": [
+        "DCP-LETT-2003F"
+      ],
+      "requirement": "Preserve in provenance George’s sixteen body blocks, including illness, stolen sweets, reading, paint storage and repeated wording such as “now now” and “to put to put”. The opening quill-pen sentence is a separate authorial George aside outside the retained body projection; preserve it as source provenance for the no-footnote/content policy rather than silently deleting or folding it into the letter. F does not mean the body is fragmentary, and missing Darwin/Pritchard communications remain missing.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2003F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2003F.html",
+          "source_html_sha256": "07062128cbd158c4bb17509e6419bff959aa15fff06331a5741dad862c78340d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2003F.xml",
+          "xml_sha256": "cd1d50bd955f6c4766720d46962a064abc971b46edd48730f3aac0623447e018",
+          "verified_xml_dates": [
+            {
+              "text": "[28 Nov 1856]",
+              "attributes": {
+                "when": "1856-11-28"
+              },
+              "lower": "1856-11-28",
+              "upper": "1856-11-28",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-28\">[28 Nov 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "layer_note": "Aside is raw body-content div before retained paragraphs; record separately from body voice projection.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2003F",
+          "body_paragraph": 1,
+          "quote": "You need not have sent me to School Yesterday because today Mr. P Says I am to stop up in the sick room all day.",
+          "char_start": 0,
+          "char_end": 112,
+          "source_sha256": "07062128cbd158c4bb17509e6419bff959aa15fff06331a5741dad862c78340d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "excluded_authorial_aside_proof": {
+        "letter_id": "DCP-LETT-2003F",
+        "literal_text": "You must excuse bad writing in this page because I had an abominable quill pen",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/div/p",
+        "source_sha256": "07062128cbd158c4bb17509e6419bff959aa15fff06331a5741dad862c78340d"
+      }
+    },
+    {
+      "case": "1987 joint recipients, sole Darwin author and future forwarding",
+      "source_ids": [
+        "DCP-LETT-1987"
+      ],
+      "requirement": "Render 1987 as Charles Darwin’s single-authored letter to joint recipients George and William. The request that George forward it to William is a future instruction in the historical letter and does not prove forwarding. Funeral and will information belongs to Darwin’s report; later club minutes/account evidence must remain later corroboration, not inserted into this source. London travel, servants and departure remain planned/future where the body says so.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1987",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1987.html",
+          "source_html_sha256": "6b44667037cd4231f318474f86b1fe5a0c6902b9456560722c9887987126b3c7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1987.xml",
+          "xml_sha256": "3e96e377587f6c5427a3d461db879f3e6020dfa0b6d4bded851432ec05fbe94e",
+          "verified_xml_dates": [
+            {
+              "text": "13 [Nov 1856]",
+              "attributes": {
+                "when": "1856-11-13"
+              },
+              "lower": "1856-11-13",
+              "upper": "1856-11-13",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-13\">13 [Nov 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1987",
+          "body_paragraph": 1,
+          "quote": "I have thought that you would like to hear about poor Aunt Sarah’s funeral.",
+          "char_start": 0,
+          "char_end": 75,
+          "source_sha256": "6b44667037cd4231f318474f86b1fe5a0c6902b9456560722c9887987126b3c7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1987",
+          "body_paragraph": 2,
+          "quote": "Do you Georgy send this letter soon on to Willy.",
+          "char_start": 93,
+          "char_end": 141,
+          "source_sha256": "6b44667037cd4231f318474f86b1fe5a0c6902b9456560722c9887987126b3c7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        }
+      ]
+    },
+    {
+      "case": "1906 uncertain recipient and no fabricated incoming prompt",
+      "source_ids": [
+        "DCP-LETT-1906"
+      ],
+      "requirement": "Preserve Darwin’s recipient as Robert Everest? with uncertainty, and retain the body as an inquiry about alleged Indian dog degeneracy. Falconer’s oral report, Darwin’s doubt, and the crossing confound are attributed separately; no later Variation citation or setter example may be substituted for a missing answer. A request for a response is not itself an incoming prompt or evidence of receipt.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1906",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1906.html",
+          "source_html_sha256": "7c4e687fdc3157a6d3014d001dd338331862fb31fb51c0dd631d62ba66e2ccf6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1906.xml",
+          "xml_sha256": "3f2d9e896a6799419fb1d5658a08159de59d590dfc20813647ac17261a10d218",
+          "verified_xml_dates": [
+            {
+              "text": "18 June [1856]",
+              "attributes": {
+                "when": "1856-06-18"
+              },
+              "lower": "1856-06-18",
+              "upper": "1856-06-18",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-18\">18 June [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1906",
+          "body_paragraph": 2,
+          "quote": "The danger of a cross seems the obvious source of error.",
+          "char_start": 0,
+          "char_end": 56,
+          "source_sha256": "7c4e687fdc3157a6d3014d001dd338331862fb31fb51c0dd631d62ba66e2ccf6",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1906",
+          "body_paragraph": 2,
+          "quote": "If you would be so kind, when at leisure, to answer this note",
+          "char_start": 57,
+          "char_end": 118,
+          "source_sha256": "7c4e687fdc3157a6d3014d001dd338331862fb31fb51c0dd631d62ba66e2ccf6",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "recipient_uncertainty_proof": {
+        "letter_id": "DCP-LETT-1906",
+        "literal_text": "Everest",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[6]/div[2]/a[2]",
+        "source_sha256": "7c4e687fdc3157a6d3014d001dd338331862fb31fb51c0dd631d62ba66e2ccf6"
+      }
+    },
+    {
+      "case": "source-aware chronology and apparatus boundary",
+      "source_ids": [
+        "DCP-LETT-1632",
+        "DCP-LETT-2160",
+        "DCP-LETT-2003F",
+        "DCP-LETT-1987",
+        "DCP-LETT-1906"
+      ],
+      "requirement": "Preserve source headers, XML dates and uncertainty, body paragraphs, annotations, footnotes and bibliography as separate layers. Do not infer missing questions or relationships from same topic, adjacent IDs, printed citations or later evidence. Existing accepted ledger scopes remain immutable; this candidate documents rendering requirements only.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1632",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1632.html",
+          "source_html_sha256": "eebef4c1797fe43d53ea5376e4c6284cf644ce3d692c81f8c192d85fe2655ef2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1632.xml",
+          "xml_sha256": "290b247f7e830a28d773974df1d5c9ddc87cfe1fd1418ca4bd0102718490a7cc",
+          "verified_xml_dates": [
+            {
+              "text": "20 Jan [1856]",
+              "attributes": {
+                "when": "1856-01-20"
+              },
+              "lower": "1856-01-20",
+              "upper": "1856-01-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-01-20\">20 Jan [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2160",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2160.html",
+          "source_html_sha256": "8592da862b04fba52ec101547dde8009c57974d40f96b6636f04c81f2c3dcf5c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2160.xml",
+          "xml_sha256": "8c2cc1f54c49cad82c1613296a2995fbd67f4b030f0d1f020bce8ba7cbb1b2c2",
+          "verified_xml_dates": [
+            {
+              "text": "26 Oct 1857",
+              "attributes": {
+                "when": "1857-10-26"
+              },
+              "lower": "1857-10-26",
+              "upper": "1857-10-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-10-26\">26 Oct 1857</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2003F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2003F.html",
+          "source_html_sha256": "07062128cbd158c4bb17509e6419bff959aa15fff06331a5741dad862c78340d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2003F.xml",
+          "xml_sha256": "cd1d50bd955f6c4766720d46962a064abc971b46edd48730f3aac0623447e018",
+          "verified_xml_dates": [
+            {
+              "text": "[28 Nov 1856]",
+              "attributes": {
+                "when": "1856-11-28"
+              },
+              "lower": "1856-11-28",
+              "upper": "1856-11-28",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-28\">[28 Nov 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1987",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1987.html",
+          "source_html_sha256": "6b44667037cd4231f318474f86b1fe5a0c6902b9456560722c9887987126b3c7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1987.xml",
+          "xml_sha256": "3e96e377587f6c5427a3d461db879f3e6020dfa0b6d4bded851432ec05fbe94e",
+          "verified_xml_dates": [
+            {
+              "text": "13 [Nov 1856]",
+              "attributes": {
+                "when": "1856-11-13"
+              },
+              "lower": "1856-11-13",
+              "upper": "1856-11-13",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-13\">13 [Nov 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1906",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1906.html",
+          "source_html_sha256": "7c4e687fdc3157a6d3014d001dd338331862fb31fb51c0dd631d62ba66e2ccf6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1906.xml",
+          "xml_sha256": "3f2d9e896a6799419fb1d5658a08159de59d590dfc20813647ac17261a10d218",
+          "verified_xml_dates": [
+            {
+              "text": "18 June [1856]",
+              "attributes": {
+                "when": "1856-06-18"
+              },
+              "lower": "1856-06-18",
+              "upper": "1856-06-18",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-18\">18 June [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": []
+    }
+  ],
+  "coverage": {
+    "fresh_sources": [
+      "DCP-LETT-1632",
+      "DCP-LETT-2160",
+      "DCP-LETT-2003F",
+      "DCP-LETT-1987",
+      "DCP-LETT-1906"
+    ],
+    "figures_viewed": [
+      "DCP-LETT-2160-1.jpg"
+    ],
+    "full_bodies_apparatus_bibliography_read": true,
+    "accepted_relationships_added": 0,
+    "export_performed": false
+  },
+  "validation_notes": "Body quotes, seven source pairs, separate aside, three superscript markers, actual figure identity and uncertain-recipient apparatus checked. No export.",
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-63.draft.json",
+      "sha256": "3672387e83d92a97973f92b35efe712e6937fd551c0cb788411e7102f82e3ba2"
+    }
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md",
+  "primary_verification": {
+    "exact_body_quotes_checked": 14,
+    "unique_source_html_xml_pairs_checked": 7,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "authorial_aside_locator_checked": 1,
+    "plain_superscript_markers_checked": 3,
+    "figure_hash_and_locator_checked": 1,
+    "recipient_apparatus_locator_checked": 1
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "primary_corrections": [
+    "Rebuilt source-specific DOM locators, including erroneous figure locator and first1632 quote.",
+    "Removed artificial body-paragraph0: George quill aside is a separately excluded authorial layer.",
+    "1796 P4 is extant, not missing; added both relationship endpoints and intermediate book-receipt proof.",
+    "Distinguished observed approximate seedling outcomes from separately untested fertility.",
+    "Raw fraction artifacts remain provenance; the final user-requested clean content is not certified by preserving them."
+  ]
+}

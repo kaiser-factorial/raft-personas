@@ -1,0 +1,254 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batches 14–15 source-text rendering, chronology, attribution, receipt and enclosure requirements only; candidate for root review. No converter, export, transcript, corpus, training or primary evidence changes.",
+  "primary_provenance": {
+    "batches": {
+      "batch-14": {
+        "reading": {
+          "path": "reports/1856-1857/review/parent-reading/batch-14.json",
+          "sha256": "4ccb4ba2a0698985aed8c9dfaf75a5e14bb7f7deb50ab54ae89fae1a6bfc1220"
+        },
+        "decisions": {
+          "path": "reports/1856-1857/review/parent-decisions/batch-14.json",
+          "sha256": "166df5106555c13df27c98d84955124003832f48a32570e2cb9570881ed3daa0"
+        },
+        "ledger": {
+          "path": "data/annotations/periods/1856-1857/batch-14.json",
+          "sha256": "27baaeb9bab4dbcef9cfebbfb9c1f8e453b81ee97328e3dfaa2d121996568534"
+        }
+      },
+      "batch-15": {
+        "reading": {
+          "path": "reports/1856-1857/review/parent-reading/batch-15.json",
+          "sha256": "95fb63258c6443ff378d81f1743465363f4e7a515a2059b9224e16d2970e343e"
+        },
+        "decisions": {
+          "path": "reports/1856-1857/review/parent-decisions/batch-15.json",
+          "sha256": "60a71b4d05df301e35a9db1b193f949d883038d0de7da45f03bc721eaaee5e5f"
+        },
+        "ledger": {
+          "path": "data/annotations/periods/1856-1857/batch-15.json",
+          "sha256": "885fc949c0db05642cc1893deba28dec6d6cdceac5f38941f198bcd0e96744db"
+        }
+      }
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1847"
+      ],
+      "case": "three-and-a-quarter coach time",
+      "requirement": "Preserve the genuine three-and-a-quarter MathML coach-time expression in the invitation, rather than flattening it as 314. Keep the invitation’s proposed April 23/26 dates, thirteen miles to Farnborough and two to Down, and distinguish proposed attendance from later visitor evidence; the abstract is received/seen while its cover is missing.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-1847",
+          "quote": "could you not spare a few days, & come here the next day",
+          "retained_body_scope": "retained P1; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1847",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1847.html",
+          "html_sha256": "a093c3c53d285ddb68916d99bd016fa1c3c6fdc554e3372b5ff0d1ffec412d03",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1847.xml",
+          "xml_sha256": "72ee1ea6f0beaf4a5f02fc298101ea6ec0d98b56ef8278c7bcb3a3ed8a795516"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1868",
+        "DCP-LETT-1878"
+      ],
+      "case": "late receipt and prospective posting",
+      "requirement": "Keep 1868 P6’s Chinese Pots note as newly received at the minute, with the main letter’s financial discussion not retroactively activated by that missing note. In 1878, the lecture arrived that morning but remains unread; the two strong notes to Overstone and Lubbock are written but planned for posting tomorrow. Receipt, reading and dispatch must remain separate, and the lecture identity remains uncertain.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-1868",
+          "quote": "this minute received your note in regard to the Chinese Pots",
+          "retained_body_scope": "retained P6; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"
+        },
+        {
+          "source_id": "DCP-LETT-1878",
+          "quote": "I have this morning received your Lecture",
+          "retained_body_scope": "retained P2; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1868",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1868.html",
+          "html_sha256": "8100b5136d1bc9f22bf28caef43afed46f4af3847d06376810d5ee3936f148e4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1868.xml",
+          "xml_sha256": "c510add37a346775f9b8b68a8cb1460e68ae4c43cf369836e7ad9747454a6d90"
+        },
+        {
+          "letter_id": "DCP-LETT-1878",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1878.html",
+          "html_sha256": "14d467d613e06891c6fba252f486c4ddf508b13a33cd9fd55c4018594007aef4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1878.xml",
+          "xml_sha256": "c7674826606601c86ce4e9cf6e004675f4ad92ad279b6d03a17e3cefaeb8cb4b"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2020"
+      ],
+      "case": "excluded salute node is dateline",
+      "requirement": "Treat the excluded-looking node containing “13th” as the actual dateline, not a salutation to discard. Preserve the December 13 date and the body’s prospective translation reading, hoped-for Conchoderma dissection, attributed Italian bee classification and separate later question blocks. Historical notebook instructions remain source content, not workflow instructions.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-2020",
+          "quote": "13 th",
+          "retained_body_scope": "retained header/date node; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2020",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2020.html",
+          "html_sha256": "c3f26583c89485ae29c405115d44159ec68daead09a95a96cd1f1dd2cf259d7f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2020.xml",
+          "xml_sha256": "ccee531c041717b19dc949e37bfaf8f5ad6f1834fb1b80b68f6f9eab7a52be01"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2119",
+        "DCP-LETT-2118"
+      ],
+      "case": "numbered French Brulle extract, malformed text and incomplete enclosure",
+      "requirement": "Render Huxley’s seven retained blocks and the complete numbered French Brulle extract separately: the French quotations are Brulle material copied with Huxley’s acknowledged errors, not Huxley’s endorsed argument. Preserve the literal “of of” duplication and malformed “conseàquent”/consequent artifact pending supported repair. Darwin’s scored/crossed notes are undated annotations. In 2118, the request to read two enclosed pages points to an incomplete fair-copy enclosure; apparatus quotations do not supply the missing whole.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-2119",
+          "quote": "I can find no support for his generalization elsewhere",
+          "retained_body_scope": "retained P6; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"
+        },
+        {
+          "source_id": "DCP-LETT-2118",
+          "quote": "read the two enclosed pages",
+          "retained_body_scope": "retained P1; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2119",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2119.html",
+          "html_sha256": "9333ad81960284d0fa8d20827a6840dec5ef98ce7762c4a1c6bd4e4fbbde48cd",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2119.xml",
+          "xml_sha256": "6796944749f90402d2e91586af128734787c29c7c8e907cc4d0412630e111949"
+        },
+        {
+          "letter_id": "DCP-LETT-2118",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2118.html",
+          "html_sha256": "49c12990ca40f299010f4d57ad328228c98bccb5f03e915cb931702b23c9e3c2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2118.xml",
+          "xml_sha256": "bae2af6e271af38817aaabd1be4e6c3680fb91ccbebd17f34efae3b486e2cd57"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2122"
+      ],
+      "case": "scoped reply and fresh Allman material",
+      "requirement": "Keep 2122’s reply scope to P1–P4 and P6 for Huxley’s July 7 embryological analysis and Darwin’s concessions/withdrawal. P7’s Allman fertilisation report is a fresh, separate Darwin input, not evidence Huxley supplied it. Preserve the conditional Barneoud/Milne Edwards analogy and do not turn the concessions into wholesale abandonment of species theory.",
+      "evidence": [
+        {
+          "source_id": "DCP-LETT-2122",
+          "quote": "I knew I was on unsafe ground",
+          "retained_body_scope": "retained P2; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "source_id": "DCP-LETT-2122",
+          "quote": "Allman’s account of the fertilisation",
+          "retained_body_scope": "retained P7; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]",
+          "dom_xpath": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2122",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2122.html",
+          "html_sha256": "6d64b59043d55d1a05f18fce782f592b65e1838c5113a9ab5af4425b13afb124",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2122.xml",
+          "xml_sha256": "f49da294ee200990ff8cacbff31d633fe751de06b981d6f6b3fc887509873e8b"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2144",
+        "DCP-LETT-2166"
+      ],
+      "case": "missing prompts and relational date windows",
+      "requirement": "Preserve 2144’s incomplete first section and separate Darwin notes dated/attributed through apparatus; do not make Baudement 1847 or genealogical counterarguments into incoming composition dates. Keep 2166’s missing forwarded Huxley aphid letter distinct from the 2144 classification fragment, and preserve its before-November-12 relational window without inventing an exact receipt day or activating crude fertilisation speculation as settled pangenesis.",
+      "evidence": [],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2144",
+          "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2144.html",
+          "html_sha256": "8ffb0f30ee751b5125efb80c0598b29272488eecc6a6f99691cf061bf40b9c1f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-2144.xml",
+          "xml_sha256": "b28f74716d089ac1b06fe19e0332a00dfb011c59feef9345a43a0a1c01ad4292"
+        },
+        {
+          "letter_id": "DCP-LETT-2166",
+          "html_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2166.html",
+          "html_sha256": "a88d7bde0de7b9dde2b27ec12f8c7fddb5316bbf7f8c1b6f8473314dc6f9bdff",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-2166.xml",
+          "xml_sha256": "6577f555827ebe01034c7fa0be320bed48618255a89fb52d6faa81008213fc47"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2185"
+      ],
+      "case": "proof before publication and copied enclosure",
+      "requirement": "Render the explanatory catalogue introduction as proof-reading in December 1857, not as the finished 1865 publication. Preserve the separate copied enclosure and its unresolved copyist blank; “probably attached” is an association, not a proven original enclosure or complete incoming conversation. Page-numbered criticisms remain enclosure text, not new letters or dates.",
+      "evidence": [],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2185",
+          "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2185.html",
+          "html_sha256": "b0d7b7c128fd7b60fe11905c412326828339d5b7884835967373e875cebc846a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2185.xml",
+          "xml_sha256": "87e45bcb049150b912f62e7d59db323202c1c82ce0538c878cd6700d4fd179d3"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Retained body scopes and raw DOM paths remain separate coordinate systems.",
+    "Keep source text, copies, enclosures, annotations, reported voices, dates, receipts and publication history separately addressable.",
+    "Requirements do not imply historical relationship acceptance or export readiness."
+  ],
+  "notes": [
+    "The 2144 and 2166 prompts remain missing or incomplete within their relational date windows.",
+    "No source image recovery was assumed for this addendum."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/all_letters.jsonl",
+      "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+    },
+    {
+      "path": "reports/1856-1857/audit.jsonl",
+      "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+    }
+  ]
+}

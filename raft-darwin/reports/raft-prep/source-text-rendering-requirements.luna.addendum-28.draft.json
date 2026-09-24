@@ -1,0 +1,442 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batch 03 source-text rendering requirements only; candidate for root review, no converter/export/transcript/training changes.",
+  "primary_provenance": {
+    "batch": {
+      "reading": {
+        "path": "reports/1856-1857/review/parent-reading/batch-03.json",
+        "sha256": "88328c6d19d45ef4c9d46296d995ecebace97c989a8b26047b5238a4152f3921"
+      },
+      "decisions": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-03.json",
+        "sha256": "7de161bdc72d49979968f6c6e03e4a557aa8b2d0443d724cc0c01ce219ccdf3d"
+      }
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "sha256": "9966c7ed67a8d5083f4689fe96e010783596575dc0aab1631160a12ec1be6e58"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1983",
+        "DCP-LETT-1986"
+      ],
+      "case": "1983 main letter, later memorandum, and diagrams",
+      "requirement": "Render 1983 as a Hooker main letter followed by a separately transmitted memorandum beginning at P11. The main letter’s manuscript verdict and dinner arrangements are distinct from the later numbered notes; preserve both actual schematic diagrams as visual assets and do not inherit the memorandum date into the main letter. The 1986 reply addresses the main letter in P1–2 and its November 12 postscript separately.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1983",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1983.html",
+          "source_html_sha256": "5431beb8ef381396761cdf6bc189a57e6a9af7c8c4be5870393971451859becf",
+          "xml_sha256": "c94d02d782b2730f87845c4cf5e4b1a76e35be47564cd83807ba865d38daed8a",
+          "verified_xml_dates": [
+            {
+              "text": "9 Nov 1856",
+              "attributes": {
+                "when": "1856-11-09"
+              },
+              "lower": "1856-11-09",
+              "upper": "1856-11-09",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-09\">9 Nov 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1986",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1986.html",
+          "source_html_sha256": "385831739617a35a57cac050d51d8d34181c62d2962fd1bebe18aa1cc0785587",
+          "xml_sha256": "539aa0505dd0dd85c823f1b47a570bb72a9f8ce47a429aee668820e04f0adad5",
+          "verified_xml_dates": [
+            {
+              "text": "11–12 Nov [1856]",
+              "attributes": {
+                "notBefore": "1856-11-11",
+                "notAfter": "1856-11-12"
+              },
+              "lower": "1856-11-11",
+              "upper": "1856-11-12",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1856-11-11\" notAfter=\"1856-11-12\">11–12 Nov [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1983",
+          "body_paragraph": 1,
+          "quote": "I have finished the reading of your mss.",
+          "source_sha256": "5431beb8ef381396761cdf6bc189a57e6a9af7c8c4be5870393971451859becf",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1983",
+          "body_paragraph": 11,
+          "quote": "[Memorandum]",
+          "source_sha256": "5431beb8ef381396761cdf6bc189a57e6a9af7c8c4be5870393971451859becf",
+          "dom_locator": "div#letter div.body-content; retained body block 11"
+        },
+        {
+          "letter_id": "DCP-LETT-1986",
+          "body_paragraph": 1,
+          "quote": "Your verdict has been a great relief.",
+          "source_sha256": "385831739617a35a57cac050d51d8d34181c62d2962fd1bebe18aa1cc0785587",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        }
+      ],
+      "visual_requirements": [
+        {
+          "letter_id": "DCP-LETT-1983",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[17]/span/img",
+          "asset": "/sites/default/files/dcp_lett_1983_1.jpg",
+          "meaning": "first schematic diagram; preserve as image"
+        },
+        {
+          "letter_id": "DCP-LETT-1983",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[31]/span/img",
+          "asset": "/sites/default/files/dcp_lett_1983_2.jpg",
+          "meaning": "second schematic diagram; preserve as image"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1986"
+      ],
+      "case": "1986 disjoint dated sections and five-and-a-half clock",
+      "requirement": "Keep the main 11 November letter and the explicitly dated Wednesday 12 November postscript as separate sections. Preserve the MathML 5½ o’clock value in the postscript; do not flatten it to 512 or move it into the main date.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1986",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1986.html",
+          "source_html_sha256": "385831739617a35a57cac050d51d8d34181c62d2962fd1bebe18aa1cc0785587",
+          "xml_sha256": "539aa0505dd0dd85c823f1b47a570bb72a9f8ce47a429aee668820e04f0adad5",
+          "verified_xml_dates": [
+            {
+              "text": "11–12 Nov [1856]",
+              "attributes": {
+                "notBefore": "1856-11-11",
+                "notAfter": "1856-11-12"
+              },
+              "lower": "1856-11-11",
+              "upper": "1856-11-12",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1856-11-11\" notAfter=\"1856-11-12\">11–12 Nov [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1986",
+          "body_paragraph": 11,
+          "quote": "Wednesday",
+          "source_sha256": "385831739617a35a57cac050d51d8d34181c62d2962fd1bebe18aa1cc0785587",
+          "dom_locator": "div#letter div.body-content; retained body block 11"
+        },
+        {
+          "letter_id": "DCP-LETT-1986",
+          "body_paragraph": 2,
+          "quote": "Very many thanks for your invitation",
+          "source_sha256": "385831739617a35a57cac050d51d8d34181c62d2962fd1bebe18aa1cc0785587",
+          "dom_locator": "div#letter div.body-content; retained body block 2"
+        }
+      ],
+      "mathml": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[12]/math",
+          "html_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+          "meaning": "one-half; 5½ o’clock"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1991"
+      ],
+      "case": "1991 owl duration and distinct receipts",
+      "requirement": "Render the 21½-hour owl duration as MathML and preserve the explicit receipt distinction: Darwin says the Hooker note was received that morning, while the Gray enclosure is separately enclosed/forwarded. Do not claim that receipt of the Gray enclosure proves receipt of Gray’s separate letter or of every enclosed item.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1991",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1991.html",
+          "source_html_sha256": "88e50846f58fa00de2e1c5e51ead453bd10fb4973dc4eee5a2553b36a53dafcf",
+          "xml_sha256": "48c246d05992832e4076f309c5bd06fe45207929951744bcaccf8b4c21ee434c",
+          "verified_xml_dates": [
+            {
+              "text": "18 Nov [1856]",
+              "attributes": {
+                "when": "1856-11-18"
+              },
+              "lower": "1856-11-18",
+              "upper": "1856-11-18",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-18\">18 Nov [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1991",
+          "body_paragraph": 1,
+          "quote": "I send enclosed, received this morning.",
+          "source_sha256": "88e50846f58fa00de2e1c5e51ead453bd10fb4973dc4eee5a2553b36a53dafcf",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1991",
+          "body_paragraph": 2,
+          "quote": "Many thanks for your note received this morning",
+          "source_sha256": "88e50846f58fa00de2e1c5e51ead453bd10fb4973dc4eee5a2553b36a53dafcf",
+          "dom_locator": "div#letter div.body-content; retained body block 2"
+        }
+      ],
+      "mathml": [
+        {
+          "dom_locator": "div#letter div.body-content; paragraph containing owl duration",
+          "html_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+          "meaning": "one-half; 21½ hours; verify source DOM before implementation"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1974",
+        "DCP-LETT-1966"
+      ],
+      "case": "1974 original Darwin passage versus Hooker revision",
+      "requirement": "Preserve 1974 as Darwin’s original Podostemon question and keep Hooker’s corrections in the later source/apparatus as a distinct hand and voice. The corrected Khasia/Eastern Bengal wording must not be rendered as Darwin’s original knowledge, and the reverse chronology remains 1974 outgoing query followed by 1966 Hooker answer with uncertain December timing.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1974",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1974.html",
+          "source_html_sha256": "a7cbca547720f0909d36f0ffff35351c3b324d0d84a838345c9f2332122bbaf8",
+          "xml_sha256": "e19d69f57aff79dc34487098e89bc400efad47abf6969cd98e0f193cb56c12bf",
+          "verified_xml_dates": [
+            {
+              "text": "[early Dec 1856]",
+              "attributes": {
+                "notBefore": "1856-12-01",
+                "notAfter": "1856-12-31"
+              },
+              "lower": "1856-12-01",
+              "upper": "1856-12-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1856-12-01\" notAfter=\"1856-12-31\">[early Dec 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1966",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1966.html",
+          "source_html_sha256": "c430062639d81983368a8489f065738b82157f2c037b6aeeb187e0b6e3adc70f",
+          "xml_sha256": "768db6bc470cdc3ec2f937ba007198decb7305f64aaf9cc00a5c39e04f643c90",
+          "verified_xml_dates": [
+            {
+              "text": "[early Dec 1856]",
+              "attributes": {
+                "notBefore": "1856-12-01",
+                "notAfter": "1856-12-31"
+              },
+              "lower": "1856-12-01",
+              "upper": "1856-12-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1856-12-01\" notAfter=\"1856-12-31\">[early Dec 1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1974",
+          "body_paragraph": 2,
+          "quote": "A more curious case is offered by Podostemon",
+          "source_sha256": "a7cbca547720f0909d36f0ffff35351c3b324d0d84a838345c9f2332122bbaf8",
+          "dom_locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "letter_id": "DCP-LETT-1974",
+          "body_paragraph": 4,
+          "quote": "Can you illuminate me?",
+          "source_sha256": "a7cbca547720f0909d36f0ffff35351c3b324d0d84a838345c9f2332122bbaf8",
+          "dom_locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "letter_id": "DCP-LETT-1966",
+          "body_paragraph": 1,
+          "quote": "Tulasne",
+          "source_sha256": "c430062639d81983368a8489f065738b82157f2c037b6aeeb187e0b6e3adc70f",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2014"
+      ],
+      "case": "2014 table/body totals and undated Darwin sums",
+      "requirement": "Render the body counts and table as qualified, non-identical layers: body says 108 trees, while the table and Darwin’s separate calculations have differing totals (including 756 versus 757 and 150 versus 149). Preserve raw diag/ramme table damage and do not silently reconcile or attribute undated Darwin sums to Hooker’s 7 December letter.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2014",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2014.html",
+          "source_html_sha256": "6bf17b7ab4a98cf2af2fe43a34d889f9aefa50822bcefca0cc1f94ad1ffc47fb",
+          "xml_sha256": "9294a0679a32d4cbd44d6f55460a0ff4537aa4b4efcaf81beced3cb8e647e97f",
+          "verified_xml_dates": [
+            {
+              "text": "7 Dec 1856",
+              "attributes": {
+                "when": "1856-12-07"
+              },
+              "lower": "1856-12-07",
+              "upper": "1856-12-07",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-12-07\">7 Dec 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2014",
+          "body_paragraph": 2,
+          "quote": "I make now 108 trees in all",
+          "source_sha256": "6bf17b7ab4a98cf2af2fe43a34d889f9aefa50822bcefca0cc1f94ad1ffc47fb",
+          "dom_locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "letter_id": "DCP-LETT-2014",
+          "body_paragraph": 9,
+          "quote": "Herbs 379 102* 19 Shrubs 88 30 31 Trees 56 40. 12.",
+          "source_sha256": "6bf17b7ab4a98cf2af2fe43a34d889f9aefa50822bcefca0cc1f94ad1ffc47fb",
+          "dom_locator": "div#letter div.body-content; retained body block 9"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1995",
+        "DCP-LETT-1997"
+      ],
+      "case": "1995 missing ending and above-salutation seed note",
+      "requirement": "Keep 1995’s incomplete ending: the conifer paradox breaks off, while the raspberry-seed identification occurs above the salutation in a separate retained block. 1997’s response to the raspberry point may be rendered only in its scoped paragraph; Darwin’s later annotations cannot reconstruct the missing Hooker ending.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1995",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1995.html",
+          "source_html_sha256": "89741e4e4aabbc23ee8a075d26a6bbd3c01a8092078bc223ea786eb96d8cebbc",
+          "xml_sha256": "50f6db6978e56857aaaa9a544783723a9a09bf5b96602a9d5b2709d3280a6074",
+          "verified_xml_dates": [
+            {
+              "text": "22 Nov 1856",
+              "attributes": {
+                "when": "1856-11-22"
+              },
+              "lower": "1856-11-22",
+              "upper": "1856-11-22",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-22\">22 Nov 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1997",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1997.html",
+          "source_html_sha256": "0f5a69f65dd5afb1ff9619cc400514c7bdd72100bf5ca09d40a9d98cd8b24fcd",
+          "xml_sha256": "5b0a99068b1b09eb2c5eb7295bad07e17b845fb47d83ad8da7eb3ef32c0f3179",
+          "verified_xml_dates": [
+            {
+              "text": "23 Nov [1856]",
+              "attributes": {
+                "when": "1856-11-23"
+              },
+              "lower": "1856-11-23",
+              "upper": "1856-11-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-23\">23 Nov [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1995",
+          "body_paragraph": 5,
+          "quote": "Thanks for A Gray’s letter.",
+          "source_sha256": "89741e4e4aabbc23ee8a075d26a6bbd3c01a8092078bc223ea786eb96d8cebbc",
+          "dom_locator": "div#letter div.body-content; retained body block 5"
+        },
+        {
+          "letter_id": "DCP-LETT-1995",
+          "body_paragraph": 6,
+          "quote": "The Seeds you sent were Raspberry.",
+          "source_sha256": "89741e4e4aabbc23ee8a075d26a6bbd3c01a8092078bc223ea786eb96d8cebbc",
+          "dom_locator": "div#letter div.body-content; retained body block 6"
+        },
+        {
+          "letter_id": "DCP-LETT-1997",
+          "body_paragraph": 3,
+          "quote": "Thanks for answer about Raspberry seeds.",
+          "source_sha256": "0f5a69f65dd5afb1ff9619cc400514c7bdd72100bf5ca09d40a9d98cd8b24fcd",
+          "dom_locator": "div#letter div.body-content; retained body block 3"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Do not mutate frozen HTML/XML, source projections, accepted annotations, decisions or ledgers.",
+    "Preserve MathML, diagrams, raw diag/ramme damage, section dates, manuscript layers and missing endings as separate source layers.",
+    "Do not import later annotations, editorial corrections, reading logs or publication facts into contemporary author voice, receipt or knowledge."
+  ],
+  "notes": [
+    "1983 P1–10 main letter and P11–30 memorandum are separate transmitted layers; 1986 main letter and Wednesday postscript are separately dated.",
+    "1991’s Hooker-note receipt and Gray-enclosure forwarding are distinct custody claims.",
+    "1974’s original Darwin wording must remain distinct from Hooker’s later corrections; 1995’s above-salutation seed note does not restore its missing ending."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/parent-reading/batch-03.json",
+      "sha256": "88328c6d19d45ef4c9d46296d995ecebace97c989a8b26047b5238a4152f3921"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-decisions/batch-03.json",
+      "sha256": "7de161bdc72d49979968f6c6e03e4a557aa8b2d0443d724cc0c01ce219ccdf3d"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-03.json",
+      "sha256": "9966c7ed67a8d5083f4689fe96e010783596575dc0aab1631160a12ec1be6e58"
+    },
+    {
+      "path": "reports/1856-1857/review/letters.jsonl",
+      "sha256": "d3feb27f178ebd638dd544ddb4ad84203da5d304d8c240dded25f60bb5827d94"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1983.html",
+      "sha256": "5431beb8ef381396761cdf6bc189a57e6a9af7c8c4be5870393971451859becf"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1986.html",
+      "sha256": "385831739617a35a57cac050d51d8d34181c62d2962fd1bebe18aa1cc0785587"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1991.html",
+      "sha256": "88e50846f58fa00de2e1c5e51ead453bd10fb4973dc4eee5a2553b36a53dafcf"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1974.html",
+      "sha256": "a7cbca547720f0909d36f0ffff35351c3b324d0d84a838345c9f2332122bbaf8"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1966.html",
+      "sha256": "c430062639d81983368a8489f065738b82157f2c037b6aeeb187e0b6e3adc70f"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2014.html",
+      "sha256": "6bf17b7ab4a98cf2af2fe43a34d889f9aefa50822bcefca0cc1f94ad1ffc47fb"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1995.html",
+      "sha256": "89741e4e4aabbc23ee8a075d26a6bbd3c01a8092078bc223ea786eb96d8cebbc"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1997.html",
+      "sha256": "0f5a69f65dd5afb1ff9619cc400514c7bdd72100bf5ca09d40a9d98cd8b24fcd"
+    }
+  ]
+}

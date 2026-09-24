@@ -1,0 +1,1006 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Accepted 1856–1857 batches 05–06 source-text rendering and chronology requirements only; corrected candidate for root review, no converter/export/transcript/corpus/training changes.",
+  "primary_provenance": {
+    "batches": {
+      "reports/1856-1857/review/parent-reading/batch-05.json": {
+        "path": "reports/1856-1857/review/parent-reading/batch-05.json",
+        "sha256": "0b2466ece0fd37169d4b557bcbaa42969432fa8d2cd18339de3bb692cfa77a34"
+      },
+      "reports/1856-1857/review/parent-decisions/batch-05.json": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-05.json",
+        "sha256": "247c0a3f456f69d0ad9e7cf1fdb96edbbe2ef7c8c7edbb7a5cfa0f7bf904958a"
+      },
+      "reports/1856-1857/review/parent-reading/batch-06.json": {
+        "path": "reports/1856-1857/review/parent-reading/batch-06.json",
+        "sha256": "5a6aefb4d55d8c882b5d592547c50be92571479b06e35b8067935a55f005b78e"
+      },
+      "reports/1856-1857/review/parent-decisions/batch-06.json": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-06.json",
+        "sha256": "08d01f8e5f5b6799e7844c6cce1d690268f884eb8daaeb750aa005b3936d5089"
+      }
+    },
+    "ledgers": {
+      "data/annotations/periods/1856-1857/batch-05.json": "bb0061d267d9eb8daab7d2f757e4d213b48e55e1a2c4bb050e23755b3c0b45ce",
+      "data/annotations/periods/1856-1857/batch-06.json": "b8de48be6ac00a7d2b697a4c3905fd106e79c502268b299882e099443f476bd8"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-2101"
+      ],
+      "case": "quarter-mile MathML and observational arithmetic",
+      "requirement": "Render genuine ¼-mile distance, not flattened 14 miles. Preserve the author’s local observations and estimates: tens of thousands of firs, thirty in one square yard and a ring-based age estimate of twenty-six years; these are not universal rates.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2101",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2101.html",
+          "source_html_sha256": "31cd270340aeb58e0b04ff43e3e470bccd2c2fb697ff5bd94b6d4a917a0fd336",
+          "xml_sha256": "e78f637f07537ae91e472c86174ac732adb2a9161fb2b9a39a0a7b737e6d37b4",
+          "verified_xml_dates": [
+            {
+              "text": "3 June [1857]",
+              "attributes": {
+                "when": "1857-06-03"
+              },
+              "lower": "1857-06-03",
+              "upper": "1857-06-03",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-06-03\">3 June [1857]</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2101.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2101",
+          "body_paragraph": 2,
+          "quote": "within 14 of mile of the clumps",
+          "source_sha256": "31cd270340aeb58e0b04ff43e3e470bccd2c2fb697ff5bd94b6d4a917a0fd336",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        }
+      ],
+      "verified_mathml": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]/math",
+          "numerator": "1",
+          "denominator": "4",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2134"
+      ],
+      "case": "six proportions and qualified tables",
+      "requirement": "Preserve the six MathML proportions and their table headings/row associations (British, New Zealand, French), including the genus-size thresholds and un-applied exclusions. Keep the French-author identification correction in apparatus separate from Darwin’s body.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2134",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2134.html",
+          "source_html_sha256": "08aef76a239ed12f4ad93cf6b8f4ef19f15e6f9e4b31ff79685d67b3a8a7b62a",
+          "xml_sha256": "c826a8b52ab4bc07f4528ae4969d80e3dd9618f319a305234413bb99255ad61c",
+          "verified_xml_dates": [
+            {
+              "text": "22 Aug [1857]",
+              "attributes": {
+                "when": "1857-08-22"
+              },
+              "lower": "1857-08-22",
+              "upper": "1857-08-22",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-08-22\">22 Aug [1857]</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2134.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2134",
+          "body_paragraph": 3,
+          "quote": "1341000 971000",
+          "char_start": 1509,
+          "char_end": 1523,
+          "source_sha256": "08aef76a239ed12f4ad93cf6b8f4ef19f15e6f9e4b31ff79685d67b3a8a7b62a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-2134",
+          "body_paragraph": 4,
+          "quote": "1501000 1141000",
+          "char_start": 74,
+          "char_end": 89,
+          "source_sha256": "08aef76a239ed12f4ad93cf6b8f4ef19f15e6f9e4b31ff79685d67b3a8a7b62a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-2134",
+          "body_paragraph": 5,
+          "quote": "Godron. Centre France 5 species & upwards 3 species & downward 1601000 1051000",
+          "char_start": 0,
+          "char_end": 78,
+          "source_sha256": "08aef76a239ed12f4ad93cf6b8f4ef19f15e6f9e4b31ff79685d67b3a8a7b62a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2134",
+          "body_paragraph": 6,
+          "quote": "I do not enter in details on omitting introduced plants",
+          "char_start": 0,
+          "char_end": 55,
+          "source_sha256": "08aef76a239ed12f4ad93cf6b8f4ef19f15e6f9e4b31ff79685d67b3a8a7b62a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        }
+      ],
+      "verified_mathml": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]/math[1]",
+          "numerator": "134",
+          "denominator": "1000",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>134</mn><mn>1000</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]/math[2]",
+          "numerator": "97",
+          "denominator": "1000",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>97</mn><mn>1000</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]/math[1]",
+          "numerator": "150",
+          "denominator": "1000",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>150</mn><mn>1000</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]/math[2]",
+          "numerator": "114",
+          "denominator": "1000",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>114</mn><mn>1000</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]/math[1]",
+          "numerator": "160",
+          "denominator": "1000",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>160</mn><mn>1000</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]/math[2]",
+          "numerator": "105",
+          "denominator": "1000",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>105</mn><mn>1000</mn></mfrac></math>"
+        }
+      ],
+      "verified_apparatus": [
+        {
+          "letter_id": "DCP-LETT-2134",
+          "literal_text": "Alexandre Boreau, not Dominique Alexandre Godron",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[14]/div[2]",
+          "source_sha256": "08aef76a239ed12f4ad93cf6b8f4ef19f15e6f9e4b31ff79685d67b3a8a7b62a"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2140"
+      ],
+      "case": "six-and-three-quarter ounces and mud germination extent",
+      "requirement": "Render 6¾ oz as a mixed number (6 plus ¾), preserving the MathML fraction and the surrounding six-month collection of 537 plants. Do not flatten it to 634 or 634 oz, and do not treat the experiment as proof that the plants travelled on birds.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2140",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2140.html",
+          "source_html_sha256": "63fcc1f7e4b483499ce4e38fc4c1477918f04b8ae67affb6413da99d5d65b47d",
+          "xml_sha256": "0af58354d76b96f6b09adb7577adc995e4f6de4d9b5b0aa52409064a0cc9b0c2",
+          "verified_xml_dates": [
+            {
+              "text": "11 Sept [1857]",
+              "attributes": {
+                "when": "1857-09-11"
+              },
+              "lower": "1857-09-11",
+              "upper": "1857-09-11",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-09-11\">11 Sept [1857]</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2140.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2140",
+          "body_paragraph": 11,
+          "quote": "weighed 634 oz",
+          "char_start": 316,
+          "char_end": 330,
+          "source_sha256": "63fcc1f7e4b483499ce4e38fc4c1477918f04b8ae67affb6413da99d5d65b47d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[12]"
+        },
+        {
+          "letter_id": "DCP-LETT-2140",
+          "body_paragraph": 11,
+          "quote": "during last six months 537 plants",
+          "char_start": 351,
+          "char_end": 384,
+          "source_sha256": "63fcc1f7e4b483499ce4e38fc4c1477918f04b8ae67affb6413da99d5d65b47d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[12]"
+        }
+      ],
+      "verified_mathml": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[12]/math",
+          "numerator": "3",
+          "denominator": "4",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>"
+        }
+      ],
+      "verified_mixed_number": {
+        "whole_part": "6",
+        "fraction": "3/4",
+        "rendered": "6¾ oz"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2156"
+      ],
+      "case": "half-Ledebour and empty CD-notes",
+      "requirement": "Preserve 2156 as a complete surviving body with an empty cdnotes DOM section. The full query list cited as DAR 114:222c is absent; footnote references and the separate Linum excerpt do not reconstruct it. Render the genuine ½-Ledebour expectation and distinguish planned book return from completed reading.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2156",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2156.html",
+          "source_html_sha256": "dfd86b05cda7dce1c7ed623b115a1b3bea717221c5d855b754101573aed10e4e",
+          "xml_sha256": "8f566690fb5caf378171111570599842a1d87859825bd3cc04488cd2f183db1a",
+          "verified_xml_dates": [
+            {
+              "text": "20 Oct [1857]",
+              "attributes": {
+                "when": "1857-10-20"
+              },
+              "lower": "1857-10-20",
+              "upper": "1857-10-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-10-20\">20 Oct [1857]</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2156.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2156",
+          "body_paragraph": 2,
+          "quote": "I think 12 Ledebour will be done by time Box goes.",
+          "char_start": 280,
+          "char_end": 330,
+          "source_sha256": "dfd86b05cda7dce1c7ed623b115a1b3bea717221c5d855b754101573aed10e4e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2156",
+          "body_paragraph": 13,
+          "quote": "I have just looked at my list of queries",
+          "char_start": 0,
+          "char_end": 40,
+          "source_sha256": "dfd86b05cda7dce1c7ed623b115a1b3bea717221c5d855b754101573aed10e4e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[14]"
+        }
+      ],
+      "cdnotes_dom": "empty; do not synthesize missing question list",
+      "verified_mathml": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]/math",
+          "numerator": "1",
+          "denominator": "2",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+        }
+      ],
+      "verified_apparatus": [
+        {
+          "letter_id": "DCP-LETT-2156",
+          "literal_text": "This is CD’s ‘list of queries’ referred to in the letter.",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[11]/div[2]",
+          "source_sha256": "dfd86b05cda7dce1c7ed623b115a1b3bea717221c5d855b754101573aed10e4e"
+        }
+      ],
+      "verified_empty_cdnotes": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]",
+        "source_fragment": "<div class=\"cdnotes\"></div>"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2114"
+      ],
+      "case": "original June 28 versus corrected Saturday June 27",
+      "requirement": "Retain the original manuscript/header reading June 28 while recording the editorial correction to Saturday June 27. Do not silently overwrite the dateline or infer an exact relationship from the corrected weekday alone.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2114",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2114.html",
+          "source_html_sha256": "09e436674a578d3f3d1f3d3571825e878b08051cdd00439e57f1825a1d0284b0",
+          "xml_sha256": "d2c665e2c91af7e9e6dc23410b091e74e0f158f45699b7a26bbee0fde85901d5",
+          "verified_xml_dates": [
+            {
+              "text": "[27] June 1857",
+              "attributes": {
+                "when": "1857-06-27"
+              },
+              "lower": "1857-06-27",
+              "upper": "1857-06-27",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-06-27\">[27] June 1857</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2114.xml"
+        }
+      ],
+      "exact_source_evidence": [],
+      "verified_original_dateline": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[1]/p[2]",
+        "literal_text": "Saturday June 28/57.",
+        "source_fragment": "<p class=\"opener_date\">Saturday June 28/57.</p>"
+      },
+      "verified_apparatus": [
+        {
+          "letter_id": "DCP-LETT-2114",
+          "literal_text": "Saturday was 27 June in 1857",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]",
+          "source_sha256": "09e436674a578d3f3d1f3d3571825e878b08051cdd00439e57f1825a1d0284b0"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2157"
+      ],
+      "case": "exact-date hold for competing Fridays",
+      "requirement": "Keep the catalogue date 23 October 1857 as unresolved: the Friday-before-Saturday label also fits October 30. Shipment and planned visit details do not independently settle which Friday was intended.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2157",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2157.html",
+          "source_html_sha256": "6d614bf5d30745da8201d680fdea52000a271b0c9f712f2defa206854330d6c9",
+          "xml_sha256": "46f026f11e3c03c74f2f3803ab96e011e60765d99521c9cf12fc31d265445397",
+          "verified_xml_dates": [
+            {
+              "text": "[23 Oct 1857]",
+              "attributes": {
+                "when": "1857-10-23"
+              },
+              "lower": "1857-10-23",
+              "upper": "1857-10-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-10-23\">[23 Oct 1857]</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2157.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2157",
+          "body_paragraph": 1,
+          "quote": "it will reach there on Saturday Evening",
+          "char_start": 88,
+          "char_end": 127,
+          "source_sha256": "6d614bf5d30745da8201d680fdea52000a271b0c9f712f2defa206854330d6c9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2157",
+          "body_paragraph": 4,
+          "quote": "on that day (Oct 31) for Etty who is coming home",
+          "char_start": 210,
+          "char_end": 258,
+          "source_sha256": "6d614bf5d30745da8201d680fdea52000a271b0c9f712f2defa206854330d6c9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        }
+      ],
+      "verified_original_dateline": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[1]/p[2]",
+        "literal_text": "Friday Evening",
+        "source_fragment": "<p class=\"opener_date\">Friday Evening</p>"
+      },
+      "verified_apparatus": [
+        {
+          "letter_id": "DCP-LETT-2157",
+          "literal_text": "The Friday preceding 31 October 1857 was 23 October.",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]",
+          "source_sha256": "6d614bf5d30745da8201d680fdea52000a271b0c9f712f2defa206854330d6c9"
+        }
+      ],
+      "independent_calendar_check": {
+        "1857-10-23": "Friday",
+        "1857-10-30": "Friday",
+        "1857-10-31": "Saturday"
+      },
+      "date_policy": "Keep catalogue date unchanged; exact-day hold because stated calendar rationale does not distinguish the two Fridays. Do not automatically substitute October 30."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2165"
+      ],
+      "case": "place-footnote ordering versus November 4 dateline",
+      "requirement": "Render the actual opener/dateline as November 4. The place footnote appearing before the dateline must not make the letter look like November 14. Separate Coe’s bean report from Darwin’s quoted prompt and undated annotation.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2165",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2165.html",
+          "source_html_sha256": "9a528977391c83bb3e2ca8363f117498f7823b40f66d3f175363641b0382bd66",
+          "xml_sha256": "34d433784d0481c49292a35d216e671aee0a77f09c9ae77e23c4de64c00cef18",
+          "verified_xml_dates": [
+            {
+              "text": "4 Nov 1857",
+              "attributes": {
+                "when": "1857-11-04"
+              },
+              "lower": "1857-11-04",
+              "upper": "1857-11-04",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-11-04\">4 Nov 1857</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2165.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2165",
+          "body_paragraph": 1,
+          "quote": "In an article headed “Bees and Fertilisation of Kidney Beans”",
+          "char_start": 0,
+          "char_end": 61,
+          "source_sha256": "9a528977391c83bb3e2ca8363f117498f7823b40f66d3f175363641b0382bd66",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2165",
+          "body_paragraph": 2,
+          "quote": "I enclose a few beans they are from the “Black Negro”.",
+          "char_start": 0,
+          "char_end": 54,
+          "source_sha256": "9a528977391c83bb3e2ca8363f117498f7823b40f66d3f175363641b0382bd66",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        }
+      ],
+      "verified_original_dateline": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[1]/p[2]",
+        "literal_text": "4th. Novr. 1857.",
+        "source_fragment": "<p class=\"opener_date\">4<sup>th</sup>. Nov<sup>r</sup>. 1857.</p>"
+      },
+      "verified_place_footnote": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[1]/p[1]/sup[2]",
+        "literal_text": "1",
+        "followed_by_dateline": "4th. Novr. 1857."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2180"
+      ],
+      "case": "receipt during composition",
+      "requirement": "Keep events separate: at the start Darwin announces sending back Candolle and two pamphlets that day; these are not incoming arrivals during composition. P2/P5 request Henslow news. Final P6 acknowledges the Hooker note just received, so only P6 is conditioned on that same-day receipt.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2180",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2180.html",
+          "source_html_sha256": "684528ca1094e3d3de53ab666d9e1f9cffffd38864e0c8972c37f8026abdd569",
+          "xml_sha256": "29d8c254f0be7b3fe3a89128a28cf1724212039db146565621f3f7a0c585c0f6",
+          "verified_xml_dates": [
+            {
+              "text": "4 Dec [1857]",
+              "attributes": {
+                "when": "1857-12-04"
+              },
+              "lower": "1857-12-04",
+              "upper": "1857-12-04",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-12-04\">4 Dec [1857]</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2180.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2180",
+          "body_paragraph": 1,
+          "quote": "I send off this day D. C. & the 2 pamphlets",
+          "char_start": 0,
+          "char_end": 43,
+          "source_sha256": "684528ca1094e3d3de53ab666d9e1f9cffffd38864e0c8972c37f8026abdd569",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2180",
+          "body_paragraph": 2,
+          "quote": "I shd. be very glad to hear sometime how Henslow & all the Family are",
+          "char_start": 0,
+          "char_end": 69,
+          "source_sha256": "684528ca1094e3d3de53ab666d9e1f9cffffd38864e0c8972c37f8026abdd569",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2180",
+          "body_paragraph": 6,
+          "quote": "Thank you very much for note just received telling me all I wanted to know about the Henslows",
+          "char_start": 0,
+          "char_end": 93,
+          "source_sha256": "684528ca1094e3d3de53ab666d9e1f9cffffd38864e0c8972c37f8026abdd569",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2194"
+      ],
+      "case": "finished-chapter date versus journal date",
+      "requirement": "Day and month December 25 are explicit; only the year is supplied. Keep P11 just-finished hybridism claim distinct from the December 29 journal completion reported in apparatus. Preserve this discrepancy without redating the whole letter. Book arrival that morning does not fix separate letter/pamphlet arrival.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2194",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2194.html",
+          "source_html_sha256": "194c9c937124ffd247876012ba8956b73504ff4b519cf0db5f3c84108fe5ab03",
+          "xml_sha256": "81d0036b3ad003a317761a38de01ebacf7a936cf8aa780963aece1131b4ae50a",
+          "verified_xml_dates": [
+            {
+              "text": "25 Dec [1857]",
+              "attributes": {
+                "when": "1857-12-25"
+              },
+              "lower": "1857-12-25",
+              "upper": "1857-12-25",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-12-25\">25 Dec [1857]</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2194.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2194",
+          "body_paragraph": 11,
+          "quote": "I have just finished a tremendous job, my chapter on Hybridism: it has taken me 3 months to write, after all facts collected together!",
+          "source_sha256": "194c9c937124ffd247876012ba8956b73504ff4b519cf0db5f3c84108fe5ab03",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[12]"
+        }
+      ],
+      "verified_original_dateline": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[1]/p[2]",
+        "literal_text": "Dec. 25th",
+        "source_fragment": "<p class=\"opener_date\">Dec. 25<sup>th</sup></p>"
+      },
+      "verified_apparatus": [
+        {
+          "letter_id": "DCP-LETT-2194",
+          "literal_text": "completed on 29 December 1857",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]",
+          "source_sha256": "194c9c937124ffd247876012ba8956b73504ff4b519cf0db5f3c84108fe5ab03"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2124"
+      ],
+      "case": "actual three-part Lathyrus leaf diagram",
+      "requirement": "Preserve the actual drawing labelled (a), (B), (C) as source evidence. It compares successive leaf positions/forms on seedlings about twelve days old, not a documented twelve-day time series. C has lateral stipules. No scale is supplied; these are not cotyledon drawings. Keep the separate tentative inference that cotyledons remain below ground and the excluded authorial read-last-part note distinct.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2124",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2124.html",
+          "source_html_sha256": "323038d896861491ebcb80d9f882d1e166901197944552260890b8daae792193",
+          "xml_sha256": "61c41a3dc621ca9d956335feb46196c7ae726fc5ef2b9e5c392bf452165f90c0",
+          "verified_xml_dates": [
+            {
+              "text": "14 July [1857]",
+              "attributes": {
+                "when": "1857-07-14"
+              },
+              "lower": "1857-07-14",
+              "upper": "1857-07-14",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-07-14\">14 July [1857]</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2124.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2124",
+          "body_paragraph": 1,
+          "quote": "lower scale-leaf is a); the second alternate (B); & the third with lateral stipules (C)",
+          "char_start": 150,
+          "char_end": 237,
+          "source_sha256": "323038d896861491ebcb80d9f882d1e166901197944552260890b8daae792193",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2124",
+          "body_paragraph": 2,
+          "quote": "these seedlings are about 12 days old",
+          "char_start": 3,
+          "char_end": 40,
+          "source_sha256": "323038d896861491ebcb80d9f882d1e166901197944552260890b8daae792193",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        }
+      ],
+      "primary_verified_visuals": [
+        {
+          "letter_id": "DCP-LETT-2124",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]/span[3]/img",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2124.html",
+          "source_html_sha256": "323038d896861491ebcb80d9f882d1e166901197944552260890b8daae792193",
+          "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_2124.jpg",
+          "alt": "diagram",
+          "figure_path": "data/raw/dcp/1856-1857/figures/DCP-LETT-2124-1.jpg",
+          "retrieved_at": "2026-09-17T08:59:55.892142+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_2124.jpg",
+          "bytes": 18407,
+          "sha256": "e1ddea17149c53191715fbaac9c52841d8593560a69c46a95fa719da0a3bee0c",
+          "visual_observation": "Three black line outlines labelled (a), (B), (C): first narrow simple taper, second wider upright form with short side projections, third central blade with two prominent lateral stipules. Matches successive Lathyrus seedling scale-leaves in body; not cotyledon drawings, no dimensions or scale."
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2098"
+      ],
+      "case": "table labels and all Gray fractions",
+      "requirement": "Preserve Gray’s table and its labels, including the 49 or 50 species in 46 genera discussion, the 76 disjoined species in 34 families, and the 95/132 separated-sex tree count. Render every original MathML fraction (including 1/13, 1/10, 1/8, 1/60, 1/24, 1/18, 1/29, 1/52, 1/43 and 1/11) without concatenating numerators and denominators. Keep Darwin’s 95/132 calculation as an undated later annotation, separate from Gray’s body.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2098",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2098.html",
+          "source_html_sha256": "988dcbe103a9af3a736656be5d535be631ba0abf486ba88eec9fd7b230a69419",
+          "xml_sha256": "61315bf36f01864fdc3a35a624425924c6d4075cde2d9ce532b555e1ae20490d",
+          "verified_xml_dates": [
+            {
+              "text": "1 June 1857",
+              "attributes": {
+                "when": "1857-06-01"
+              },
+              "lower": "1857-06-01",
+              "upper": "1857-06-01",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-06-01\">1 June 1857</ns0:date>"
+            }
+          ],
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2098.xml"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2098",
+          "body_paragraph": 15,
+          "quote": "p.= polygamous more or less. m = monœcious d = diœcious.",
+          "char_start": 142,
+          "char_end": 198,
+          "source_sha256": "988dcbe103a9af3a736656be5d535be631ba0abf486ba88eec9fd7b230a69419",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[16]"
+        },
+        {
+          "letter_id": "DCP-LETT-2098",
+          "body_paragraph": 17,
+          "quote": "Out of 132 trees, those with separated flowers more or less—are 95.",
+          "char_start": 0,
+          "char_end": 67,
+          "source_sha256": "988dcbe103a9af3a736656be5d535be631ba0abf486ba88eec9fd7b230a69419",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[18]"
+        },
+        {
+          "letter_id": "DCP-LETT-2098",
+          "body_paragraph": 18,
+          "quote": "Indigenous Introduced",
+          "char_start": 134,
+          "char_end": 155,
+          "source_sha256": "988dcbe103a9af3a736656be5d535be631ba0abf486ba88eec9fd7b230a69419",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[19]"
+        },
+        {
+          "letter_id": "DCP-LETT-2098",
+          "body_paragraph": 19,
+          "quote": "’ Cyperaceæ 110 — [ 160 ]",
+          "char_start": 0,
+          "char_end": 25,
+          "source_sha256": "988dcbe103a9af3a736656be5d535be631ba0abf486ba88eec9fd7b230a69419",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[20]"
+        }
+      ],
+      "verified_mathml": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[9]/math",
+          "numerator": "1",
+          "denominator": "13",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>13</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]/math",
+          "numerator": "1",
+          "denominator": "10",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[19]/math[1]",
+          "numerator": "1",
+          "denominator": "8",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[19]/math[2]",
+          "numerator": "1",
+          "denominator": "10",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[20]/math[1]",
+          "numerator": "1",
+          "denominator": "10",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[20]/math[2]",
+          "numerator": "1",
+          "denominator": "60",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>60</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[21]/math[1]",
+          "numerator": "1",
+          "denominator": "13",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>13</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[21]/math[2]",
+          "numerator": "1",
+          "denominator": "8",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[22]/math[1]",
+          "numerator": "1",
+          "denominator": "24",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>24</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[22]/math[2]",
+          "numerator": "1",
+          "denominator": "18",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>18</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[23]/math[1]",
+          "numerator": "1",
+          "denominator": "29",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>29</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[23]/math[2]",
+          "numerator": "1",
+          "denominator": "52",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>52</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[25]/math[1]",
+          "numerator": "1",
+          "denominator": "43",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>43</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[25]/math[2]",
+          "numerator": "1",
+          "denominator": "43",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>43</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[25]/math[3]",
+          "numerator": "1",
+          "denominator": "43",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>43</mn></mfrac></math>"
+        },
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[25]/math[4]",
+          "numerator": "1",
+          "denominator": "11",
+          "source_fragment": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>11</mn></mfrac></math>"
+        }
+      ],
+      "verified_separate_calculation": [
+        {
+          "letter_id": "DCP-LETT-2098",
+          "literal_text": "95/132=.72",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[3]",
+          "source_sha256": "988dcbe103a9af3a736656be5d535be631ba0abf486ba88eec9fd7b230a69419"
+        }
+      ],
+      "verified_table_blocks": [
+        {
+          "retained_body_paragraph": 8,
+          "literal_text": "My 76 disjoined species belong to 34 families,—and I cannot see that they incline to belong to small families. diag 15 are Gramineæ which form 113 of our Flora."
+        },
+        {
+          "retained_body_paragraph": 9,
+          "literal_text": "18 ’ Cyperaceæ ’ 110 ’"
+        },
+        {
+          "retained_body_paragraph": 10,
+          "literal_text": "The 1 Leguminosa & 1 Composita are as you would like; but that is because these orders are remarkable for their species being of narrow range."
+        },
+        {
+          "retained_body_paragraph": 11,
+          "literal_text": "3 are Rosaceæ"
+        },
+        {
+          "retained_body_paragraph": 12,
+          "literal_text": "2 ’ Scrophulariaceæ (the 1 orchid is to be erased)"
+        },
+        {
+          "retained_body_paragraph": 13,
+          "literal_text": "3 ’ Ranunculaceæ. &c &c"
+        },
+        {
+          "retained_body_paragraph": 14,
+          "literal_text": "6 ’ Umbelliferæramme"
+        },
+        {
+          "retained_body_paragraph": 15,
+          "literal_text": "As to our trees, what proportion have flowers more or less separated. Number the orders on p. 400— 1. Magnoliaceæ, and so on. And append diag p.= polygamous more or less. m = monœcious d = diœcious."
+        },
+        {
+          "retained_body_paragraph": 16,
+          "literal_text": "separated flowers 1. Magnoliaceæ 0 2 — 0 3 — 0 4 — 0 5 — 1 p 6 — 8 p. 7 — 2 d 8 — 0 9 — 1 m 10 — 1 p 11 — 2 p. d. 12 0 13 0 14 1-p 15 1 p 16 0 17 — 7 p. d. 18 — 2 p 19 — 8 p. d. 20 — 1 m 21 — 9 m 22 — 21 m. 23 — 5 m. 24 7 d 25 Coniferæ— 18 m. d.ramme"
+        },
+        {
+          "retained_body_paragraph": 17,
+          "literal_text": "Out of 132 trees, those with separated flowers more or less—are 95.—and for the greater part very decidedly separated."
+        },
+        {
+          "retained_body_paragraph": 18,
+          "literal_text": "I must think it by chance—that your introduced plants are in so near the proportion by families that the indigenous species are. diag Indigenous Introduced Our Compositæ 18 — nearly 110."
+        },
+        {
+          "retained_body_paragraph": 19,
+          "literal_text": "’ Cyperaceæ 110 — [ 160 ]"
+        },
+        {
+          "retained_body_paragraph": 20,
+          "literal_text": "’ Gramineæ 113 — 18"
+        },
+        {
+          "retained_body_paragraph": 21,
+          "literal_text": "’ Leguminosæ 124 — 118"
+        },
+        {
+          "retained_body_paragraph": 22,
+          "literal_text": "’ Rosaceæ 129 — 152. &"
+        },
+        {
+          "retained_body_paragraph": 23,
+          "literal_text": "’ Orchidaceæ – 0"
+        },
+        {
+          "retained_body_paragraph": 24,
+          "literal_text": "’ Ranunculaceæ 143 — 143 but ’ Labiatæ 143 — 111!ramme"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "notes": "Primary requirements for accepted packets 05–06; original source and accepted historical evidence remain unchanged. Format implementation and cumulative export are still pending.",
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/parent-reading/batch-05.json",
+      "sha256": "0b2466ece0fd37169d4b557bcbaa42969432fa8d2cd18339de3bb692cfa77a34"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-decisions/batch-05.json",
+      "sha256": "247c0a3f456f69d0ad9e7cf1fdb96edbbe2ef7c8c7edbb7a5cfa0f7bf904958a"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-reading/batch-06.json",
+      "sha256": "5a6aefb4d55d8c882b5d592547c50be92571479b06e35b8067935a55f005b78e"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-decisions/batch-06.json",
+      "sha256": "08d01f8e5f5b6799e7844c6cce1d690268f884eb8daaeb750aa005b3936d5089"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-05.json",
+      "sha256": "bb0061d267d9eb8daab7d2f757e4d213b48e55e1a2c4bb050e23755b3c0b45ce"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-06.json",
+      "sha256": "b8de48be6ac00a7d2b697a4c3905fd106e79c502268b299882e099443f476bd8"
+    },
+    {
+      "path": "reports/1856-1857/review/letters.jsonl",
+      "sha256": "d3feb27f178ebd638dd544ddb4ad84203da5d304d8c240dded25f60bb5827d94"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2101.html",
+      "sha256": "31cd270340aeb58e0b04ff43e3e470bccd2c2fb697ff5bd94b6d4a917a0fd336"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2134.html",
+      "sha256": "08aef76a239ed12f4ad93cf6b8f4ef19f15e6f9e4b31ff79685d67b3a8a7b62a"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2140.html",
+      "sha256": "63fcc1f7e4b483499ce4e38fc4c1477918f04b8ae67affb6413da99d5d65b47d"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2156.html",
+      "sha256": "dfd86b05cda7dce1c7ed623b115a1b3bea717221c5d855b754101573aed10e4e"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2114.html",
+      "sha256": "09e436674a578d3f3d1f3d3571825e878b08051cdd00439e57f1825a1d0284b0"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2157.html",
+      "sha256": "6d614bf5d30745da8201d680fdea52000a271b0c9f712f2defa206854330d6c9"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2165.html",
+      "sha256": "9a528977391c83bb3e2ca8363f117498f7823b40f66d3f175363641b0382bd66"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2180.html",
+      "sha256": "684528ca1094e3d3de53ab666d9e1f9cffffd38864e0c8972c37f8026abdd569"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2194.html",
+      "sha256": "194c9c937124ffd247876012ba8956b73504ff4b519cf0db5f3c84108fe5ab03"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2124.html",
+      "sha256": "323038d896861491ebcb80d9f882d1e166901197944552260890b8daae792193"
+    },
+    {
+      "path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2098.html",
+      "sha256": "988dcbe103a9af3a736656be5d535be631ba0abf486ba88eec9fd7b230a69419"
+    }
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-30.initial.json",
+      "sha256": "818d464354f194429c8028cb3728e314494a1ae9d16ac35d36077402d0d5ad6c"
+    },
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-30.draft.json",
+      "sha256": "6f21fc7c31ce7ace0025ee3eb64959026b3b369b4b852d39e2803baf0bd45ee1"
+    }
+  ],
+  "primary_corrections": [
+    "Initial worker draft omitted diagram and Gray table and misstated 6¾; corrected draft was reviewed with source checks.",
+    "Header datelines are raw opener evidence, not invented body-paragraph quotations; source spelling/case and XML kept separately.",
+    "Replaced inaccurate/irrelevant quote locators, including double-space French-row quote, with exact claim-specific evidence.",
+    "2124 drawings are leaf positions on twelve-day-old seedlings, not a longitudinal twelve-day series.",
+    "2180 book dispatch and final incoming-note receipt are different events.",
+    "2194 supplies only the year, not month/day; original December25 retained despite later journal completion.",
+    "Actual figure XPath corrected and pinned to previously viewed primary asset."
+  ],
+  "primary_verification": {
+    "exact_body_quotes_checked": 23,
+    "unique_source_html_xml_pairs_checked": 11,
+    "all_primary_and_input_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "mathml_fractions_verified": 25,
+    "mixed_number_verified": true,
+    "original_datelines_verified": 4,
+    "place_footnote_verified": true,
+    "empty_cdnotes_verified": true,
+    "apparatus_locators_verified": 5,
+    "separate_annotation_locators_verified": 1,
+    "actual_figures_verified": 1,
+    "gray_table_blocks_checked": 17
+  }
+}

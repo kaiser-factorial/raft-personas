@@ -1,0 +1,85 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batch 09 source-text rendering, enclosure attribution, chronology and receipt requirements only; candidate for root review. No converter, export, transcript, corpus, training, embedding or paid-service work.",
+  "primary_provenance": {
+    "batch": {
+      "reading": {"path": "reports/1856-1857/review/parent-reading/batch-09.json", "sha256": "9925718ab2b0c697d4db6b5182134dc8d581c46ab96c295ff62787b74949d7ec"},
+      "decisions": {"path": "reports/1856-1857/review/parent-decisions/batch-09.json", "sha256": "beb8e74234c7e134ee05e02ed86b91812a99c251541030c7f68b241f6fc83e13"}
+    },
+    "ledger": {"path": "data/annotations/periods/1856-1857/batch-09.json", "sha256": "531c10b9322a463964d1830b51b6a0f961edef5ec6a1e427026efc8b2dcfd04a"},
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": ["DCP-LETT-2136"],
+      "case": "complete six-part enclosure and Darwin authorship",
+      "requirement": "Render the copied enclosure as six complete retained sections I–VI plus its final qualification. The actual nodes are /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/p[1] through p[6]; they cover human selection, a hypothetical perfect selector, natural selection, environmental change and extinction, objections, and divergence. The concluding scholarly paragraph at /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/p[8] limits the abstract to selection's accumulative power and calls conclusions about primordial variation partial and imperfect. Preserve the Norman copyist / Darwin correction boundary: C.D. is Darwin-composed content copied and corrected by Ebenezer Norman, not Norman's scientific voice. Later 1858 publication is apparatus and must not be rendered as contemporary availability.",
+      "evidence": [
+        {"quote": "It is wonderful what the principle of Selection by Man", "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/p[1]"},
+        {"quote": "This little abstract touches only on the accumulative power of natural selection", "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/p[8]"}
+      ],
+      "source_provenance": {"html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2136.html", "html_sha256": "025d1b66200f33f468b8dfbb0ebe007514f19abe9a783ea7aea38ad19a62ff75"}
+    },
+    {
+      "source_ids": ["DCP-LETT-2136"],
+      "case": "plain ratios and non-MathML rendering",
+      "requirement": "Preserve the four ratios in P4 exactly as unmarked source strings 88/1000, 50/1000, 48/1000 and 46/1000 (the HTML text is joined as 881000, 501000, 481000 and 461000 and contains no MathML for them). A renderer may expose a separately evidenced normalized reading, but must not invent fraction nodes or silently rewrite Darwin's source. Keep the comparison tied to the 1005/917 species counts and the disappointment about bold-type varieties.",
+      "evidence": [
+        {"quote": "the large genera have 881000 varieties & the small genera only 501000", "locator": "retained body P4; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"},
+        {"quote": "your vars . marked by big-type are only in proportion 481000 to 461000", "locator": "retained body P4; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]"}
+      ],
+      "source_provenance": {"html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2136.html", "html_sha256": "025d1b66200f33f468b8dfbb0ebe007514f19abe9a783ea7aea38ad19a62ff75"}
+    },
+    {
+      "source_ids": ["DCP-LETT-2136"],
+      "case": "missing 1855 close-species list versus August source",
+      "requirement": "Keep Darwin's reference to an enclosed list as a request to inspect data, while recording that the close-species list identified by the apparatus as 1855 is not fully transcribed in this August 1857 body. Do not substitute the incomplete Gray August letter or a later manuscript for the missing enclosure; the list's absence limits any response reconstruction.",
+      "evidence": [{"quote": "you made me the enclosed list", "locator": "retained body P5; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]" }],
+      "source_provenance": {"html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2136.html", "html_sha256": "025d1b66200f33f468b8dfbb0ebe007514f19abe9a783ea7aea38ad19a62ff75"}
+    },
+    {
+      "source_ids": ["DCP-LETT-2136", "DCP-LETT-2120"],
+      "case": "returned papers, First Lessons reading and expected Naturalised Plants continuation",
+      "requirement": "Keep P8's custody and reading stages separate: Darwin says Watson's papers and Gray's First Lessons were safely received and that he is now reading the latter, while the final part of Gray's Naturalised Plants paper is still absent. A request or expectation of a further article is not evidence that earlier Statistics material was never received. The July 7 dispatch in 2120 is a separate event, and its passenger-to-Liverpool route must not be converted into a physical receipt date for Darwin.",
+      "evidence": [
+        {"quote": "your Lesson in Botany", "locator": "retained body P8; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]"},
+        {"quote": "By a private hand, a passenger by sailing ship to Liverpool I last week sent addressed to you", "locator": "DCP-LETT-2120 retained body P2; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"}
+      ],
+      "source_provenance": [
+        {"letter_id": "DCP-LETT-2136", "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2136.html", "html_sha256": "025d1b66200f33f468b8dfbb0ebe007514f19abe9a783ea7aea38ad19a62ff75"},
+        {"letter_id": "DCP-LETT-2120", "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2120.html", "html_sha256": "696be6ee868bb585c08a87c53edd20ec8e07206ea6aade6b4b99dfdb3be16071"}
+      ]
+    },
+    {
+      "source_ids": ["DCP-LETT-2136"],
+      "case": "bean experiment and replication boundary",
+      "requirement": "Render the small bean test as an observed three-pod versus zero-pod result, with Darwin explicitly asking for replication; it is preliminary local evidence, not a completed general law. Keep the separate Lobelia garden observation and the future Adlumia plan outside this experiment's result scope.",
+      "evidence": [{"quote": "these set 3 fine pods, the other not one", "locator": "DCP-LETT-2136 retained body P6; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"}],
+      "source_provenance": {"html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2136.html", "html_sha256": "025d1b66200f33f468b8dfbb0ebe007514f19abe9a783ea7aea38ad19a62ff75"}
+    },
+    {
+      "source_ids": ["DCP-LETT-2176"],
+      "case": "November 29 missing Gray prompt and later Bishop witness",
+      "requirement": "Keep DCP-LETT-2176 as an unpaired Darwin letter whose current Gray criticism, seed/specimen material and offer to redo the close-species list are not preserved. Do not reconstruct that incoming letter from August 2129 or proximity. The barnacle account is explicitly something Darwin heard yesterday (November 28), so a later December 3 Bishop-to-Bate report cannot be its prompt or a same-day knowledge source. The source's own future moth/bee and gauze proposal remains a proposal, not completed experimental evidence.",
+      "evidence": [
+        {"quote": "what I heard yesterday", "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"},
+        {"quote": "I am infinitely obliged to you for your offer", "locator": "retained body P5; raw DOM /html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"}
+      ],
+      "source_provenance": {"html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2176.html", "html_sha256": "a5b13cce4c9b9a1e8f2e8c4d0e9bb3931d7a0e818cbe5bba154a70a135cd6e6c"}
+    }
+  ],
+  "implementation_boundary": [
+    "Preserve enclosure section boundaries, copyist and Darwin-composed voice, plain numeric strings and later editorial/publication layers as separately addressable evidence.",
+    "Keep dispatch, receipt, reading, expected future material and missing incoming prompts distinct; no rendering requirement creates a relationship or knowledge activation.",
+    "Do not turn the December 3 Bishop witness into the missing November Gray prompt, and do not use publication history to backdate availability."
+  ],
+  "notes": [
+    "The accepted September 5 Darwin output has two direct incoming scopes: 2129 supplies the natural-selection and Adlumia response, while 2120 supplies the returned Watson papers and First Lessons acknowledgement; these must remain separate sections of one output.",
+    "DCP-LETT-2129 to DCP-LETT-2125 is already accepted in batch 08 and is retained context, not a new batch 09 relationship."
+  ],
+  "inputs": {
+    "all_letters": "reports/1856-1857/review/all_letters.jsonl",
+    "audit": "reports/1856-1857/audit.jsonl",
+    "source_ids_read_in_full": ["DCP-LETT-2136", "DCP-LETT-2176", "DCP-LETT-2120", "DCP-LETT-2125", "DCP-LETT-2129", "DCP-LETT-2165", "DCP-LETT-2171"]
+  }
+}

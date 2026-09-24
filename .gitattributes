@@ -1,0 +1,12 @@
+# Checkpoints and other weights go to Git LFS, never plain git (100 MB hard
+# limit per file on GitHub). Nothing of this kind is in the repo today: the
+# Darwin adapters live on the training box, not here.
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+*.bin         filter=lfs diff=lfs merge=lfs -text
+*.pt          filter=lfs diff=lfs merge=lfs -text
+*.pth         filter=lfs diff=lfs merge=lfs -text
+*.ckpt        filter=lfs diff=lfs merge=lfs -text
+*.gguf        filter=lfs diff=lfs merge=lfs -text
+*.onnx        filter=lfs diff=lfs merge=lfs -text
+*.npz         filter=lfs diff=lfs merge=lfs -text
+*.parquet     filter=lfs diff=lfs merge=lfs -text

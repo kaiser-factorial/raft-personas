@@ -1,0 +1,219 @@
+{
+  "status": "provisional_readiness_addendum_candidate",
+  "scope": "Accepted 1856–1857 batch-32 source-text rendering, enclosure attribution, chronology, special-markup and provenance requirements only. Requirements documentation candidate; no converter, transcript, corpus, ledger, accepted-evidence or export changes.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-32.json",
+      "sha256": "23e16c82a6b44b0d80f3b737829fcd17888418cd94d8c886160b7604ae2cd1b2"
+    },
+    "parent_decision": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-32.json",
+      "sha256": "55a659e6c372a240622ebfc01e2b372047c61fcc7d74b3cdfa71ff56cca5fb09"
+    },
+    "accepted_ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-32.json",
+      "sha256": "be4ce14f315ed6cda83b464f1adc4f91cacf6cefb08e163f8b8efd41a3100c1d"
+    }
+  },
+  "requirements": [
+    {
+      "case": "1817 authorial Notes for Mr Darwin enclosure and Crump gap",
+      "source_ids": [
+        "DCP-LETT-1817",
+        "DCP-LETT-1818",
+        "DCP-LETT-1819"
+      ],
+      "requirement": "Treat the long Notes for Mr Darwin enclosure as an authorial Blyth enclosure preserved as a scholarly sibling under 1817, with its own enclosure DOM boundary and voice. Keep CD annotations, footnotes, bibliography and later Darwin marginal abstracts separate. The historical 1818 label must not duplicate this surviving enclosure. Crump-to-Blyth 1819 is a separate forwarded report whose authentic body is still under recovery; do not claim to have read it or use it as a Darwin prompt. Missing Darwin letters of 5 and 22 November and Moore query material remain missing.",
+      "scholarly_boundaries": [
+        {
+          "letter_id": "DCP-LETT-1817",
+          "section": "enclosures",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]",
+          "attribution": "Edward Blyth authorial enclosure; not CD annotation"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1817",
+          "body_paragraph": 1,
+          "quote": "I have two letters of yours to answer, respectively dated Novr. 5th & 22nd",
+          "source_html_sha256": "ccfc55fd051a959479ff39de9fdb4d0ef96d729f60be4f139d506953a753bab6",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1817",
+          "body_paragraph": 3,
+          "quote": "Different species of Treron seem to interbreed, & ditto Coracias; but not Treron with Coracias!",
+          "source_html_sha256": "ccfc55fd051a959479ff39de9fdb4d0ef96d729f60be4f139d506953a753bab6",
+          "dom_locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "letter_id": "DCP-LETT-1817",
+          "body_paragraph": 8,
+          "quote": "Coracias, 3 Indian species,—garrula in the N.W. only,— indica throughout India, replaced E. of the Bay by affinis.",
+          "source_html_sha256": "ccfc55fd051a959479ff39de9fdb4d0ef96d729f60be4f139d506953a753bab6",
+          "dom_locator": "div#letter div.body-content; retained body block 8"
+        }
+      ]
+    },
+    {
+      "case": "1825 labelled spur figure and indirect prior knowledge",
+      "source_ids": [
+        "DCP-LETT-1825"
+      ],
+      "requirement": "Preserve the actual labelled spur drawing at its exact inline image locator and distinguish it from Blyth’s body claims. The letter reports home letters arriving about midnight and an undated Darwin letter whose postscript acknowledges Blyth’s October 8 and 22 letters; this is indirect prior-knowledge evidence, not a surviving Darwin reply or exact receipt date. The Echo item is known only through a cited review, and goldfish origin remains Blyth’s inference.",
+      "visual_readings": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]/span[9]/img",
+          "src": "/sites/default/files/dcp_lett_1825.jpg",
+          "alt": "diagram",
+          "observation": "Accepted parent reading records the actual spur illustration; preserve the image boundary and do not infer additional anatomical detail."
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1825",
+          "body_paragraph": 1,
+          "quote": "Last night I was roused about midnight by the arrival of my home letters",
+          "source_html_sha256": "fcc661040018d815172b7f93236d5d1c8e581ab2d1b740bfc3067b0a0397e0e2",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1825",
+          "body_paragraph": 1,
+          "quote": "I have a long letter from you undated, but mentioning in a P.S. that you had just recd. mine of Octr. 8th. & 22 nd.",
+          "source_html_sha256": "fcc661040018d815172b7f93236d5d1c8e581ab2d1b740bfc3067b0a0397e0e2",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1825",
+          "body_paragraph": 4,
+          "quote": "Yesterday I had the great pleasure of seeing a particularly fine living specimen of the exceedingly interesting (to me) animal, Canis primævus of Hodgson;",
+          "source_html_sha256": "fcc661040018d815172b7f93236d5d1c8e581ab2d1b740bfc3067b0a0397e0e2",
+          "dom_locator": "div#letter div.body-content; retained body block 4"
+        }
+      ]
+    },
+    {
+      "case": "1832 labelled Gallus head figure, half MathML and dispatch distinctions",
+      "source_ids": [
+        "DCP-LETT-1832"
+      ],
+      "requirement": "Preserve the labelled Gallus head drawing at its exact inline image locator and the MathML half fraction in the body. The fraction is 1/2 bred Gallus Sonneratii, not twelve birds; retain Blyth’s qualification that other hybrids might be more or less prolific. Four printed copies, a rough proof and a prior post-office dispatch are distinct transmission witnesses and do not establish Darwin receipt or reading. The December 16 Darwin questions and any missing prompt remain unavailable; later salary-memorial identification and pension events are apparatus/future context.",
+      "visual_readings": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]/span[8]/img",
+          "src": "/sites/default/files/dcp_lett_1832.jpg",
+          "alt": "diagram",
+          "observation": "Accepted parent reading records the labelled Gallus head drawing; preserve its association with the surrounding body paragraph."
+        }
+      ],
+      "special_markup": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]/math",
+          "raw_mathml": "<math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+          "meaning": "one-half; preserve numerator and denominator"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1832",
+          "body_paragraph": 1,
+          "quote": "got safe to the post-office.",
+          "source_html_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1832",
+          "body_paragraph": 1,
+          "quote": "I send you 4 copies of my printed letter",
+          "source_html_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26",
+          "dom_locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "letter_id": "DCP-LETT-1832",
+          "body_paragraph": 3,
+          "quote": "But now for your letter of Decr. 16/– & its queries.",
+          "source_html_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26",
+          "dom_locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "letter_id": "DCP-LETT-1832",
+          "body_paragraph": 4,
+          "quote": "my experiments with the 12 bred Gallus Sonneratii",
+          "source_html_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26",
+          "dom_locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "letter_id": "DCP-LETT-1832",
+          "body_paragraph": 4,
+          "quote": "Perhaps, however, other hybrids of the very same kind might be more or less prolific",
+          "source_html_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26",
+          "dom_locator": "div#letter div.body-content; retained body block 4"
+        }
+      ]
+    }
+  ],
+  "source_provenance": [
+    {
+      "letter_id": "DCP-LETT-1817",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1817.html",
+      "html_sha256": "ccfc55fd051a959479ff39de9fdb4d0ef96d729f60be4f139d506953a753bab6",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1817.xml",
+      "xml_sha256": "f72e794ba22bb4ce32069bfedf8498df2e0be641749b79ccb13baf525c5ab152",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date"
+    },
+    {
+      "letter_id": "DCP-LETT-1825",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1825.html",
+      "html_sha256": "fcc661040018d815172b7f93236d5d1c8e581ab2d1b740bfc3067b0a0397e0e2",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1825.xml",
+      "xml_sha256": "f87580c77d2f84dc37d6c291fd9322989ae02046e29a1716f7638e94d1505ba2",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date"
+    },
+    {
+      "letter_id": "DCP-LETT-1832",
+      "html_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1832.html",
+      "html_sha256": "ebdee3c4e8d81686d1a43fdbd5c96aeac08d72f760a3e672cbb7ba1d1f423d26",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1832.xml",
+      "xml_sha256": "e5c33b4616d3627123cc6d4dd68819935d0ebe5d866e9c00728334bc644bf52e",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date"
+    }
+  ],
+  "accepted_relationship_and_gap_holds": [
+    {
+      "ids": [
+        "1817",
+        "1818",
+        "1819"
+      ],
+      "hold": "1817 authorial enclosure survives as scholarly sibling; 1818 is not a duplicate body and 1819 Crump source remains pending recovery."
+    },
+    {
+      "ids": [
+        "1825"
+      ],
+      "hold": "Indirect knowledge of undated Darwin postscript is bounded by Blyth’s 23 January arrival account; no exact Darwin receipt or reply is inferred."
+    },
+    {
+      "ids": [
+        "1832"
+      ],
+      "hold": "Printed/proof/post-office dispatch states do not establish Darwin receipt; missing December 16 prompt remains unavailable."
+    }
+  ],
+  "export_checks": [
+    "Only attributed body or explicitly attributed authorial enclosure prose may enter content; exclude CD annotations, editorial summaries, footnotes, bibliography and later apparatus.",
+    "Preserve the two actual diagram locators and MathML numerator/denominator structure; do not invent missing feathers, Crump text or later pension/source identities.",
+    "Keep indirect prior knowledge and dispatch/receipt/reading distinct; no duplicate 1956 relationship is created by this draft.",
+    "Run scripts/period_review.py check_quotes against preserved sources; all quote fields are literal loaded paragraph substrings.",
+    "No accepted evidence, ledger or export changes."
+  ],
+  "validation": {
+    "quote_count": 11,
+    "quote_method": "scripts/period_review.py check_quotes; exact body substrings checked against preserved HTML",
+    "requirements_only": true,
+    "export_performed": false,
+    "accepted_files_modified": false
+  }
+}

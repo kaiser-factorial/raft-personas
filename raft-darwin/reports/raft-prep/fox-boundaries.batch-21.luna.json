@@ -1,0 +1,149 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Batch-21 additive conversion/date/provenance boundaries only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "batch_id": "batch-21",
+    "reading_path": "reports/1851-1855/review/parent-reading/batch-21.json",
+    "reading_sha256": "ca12431950bfb2c1bb2c98cbb4649b71b11fa66ccc7ec177af19e212eb5af2de",
+    "decision_path": "reports/1851-1855/review/parent-decisions/batch-21.json",
+    "decision_sha256": "990d2a962decd38d0c378621f7b25c7335d8490b2de39a25537a1cc4b55acd87",
+    "ledger_path": "data/annotations/periods/1851-1855/batch-21.json",
+    "ledger_sha256": "043e7a241e053a498d1fcc8639b44466baf72af0403de84b744821e787a326d1"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1522"
+      ],
+      "case": "Author-uncertain date and after-sealing postscript",
+      "requirement": "Preserve July 15? or 16? | 17th? or ? separately from July 18 postmark. Keep P1-7 before P8 postscript news; retain authorial P8 without exact day or backdating its information. Do not infer deaths were Fox children.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1522",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1522.html",
+        "source_sha256": "011d29a10e030f446d902eb0dd571a85cfc482c44d019b947459ab5fed3e40a7",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1522.xml",
+        "xml_sha256": "a60aae5bab62f0742449dbdf7cab1f1bbbdcbfb8c932dfb3c5a549efec5c4f51",
+        "locators": [
+          "header/dateline",
+          "P1-7",
+          "P8 separate-sheet postscript",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1522",
+          "body_paragraph": 8,
+          "quote": "I had not sealed up this letter an hour, before I saw with the utmost concern & astonishment the deaths in your house",
+          "source_sha256": "011d29a10e030f446d902eb0dd571a85cfc482c44d019b947459ab5fed3e40a7"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-21",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-21.json",
+        "reading_sha256": "ca12431950bfb2c1bb2c98cbb4649b71b11fa66ccc7ec177af19e212eb5af2de",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-21.json",
+        "decision_sha256": "990d2a962decd38d0c378621f7b25c7335d8490b2de39a25537a1cc4b55acd87",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-21.json",
+        "ledger_sha256": "043e7a241e053a498d1fcc8639b44466baf72af0403de84b744821e787a326d1",
+        "accepted_note": "Catalogue/XML assigns July 17, 1853, but dateline is July 15? or 16? | 17th? or ?; July 18 postmark is editorial aid. P8 follows sealing and introduces newly seen deaths.",
+        "accepted_decision": "dated_grounding_unpaired_exact_date_hold; separate postscript boundary.",
+        "ledger_requirement": "Retain exact-date hold and postscript knowledge boundary."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1526"
+      ],
+      "case": "Third-party forwarded letter and same-day death boundary",
+      "requirement": "Keep Fox-to-Susan as third-party forwarded material. Darwin acknowledgement is receipt of a communication, not a Darwin-addressed prompt. Preserve that the later same-day death was not yet known; do not rewrite his hope the girl might be spared.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1526",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1526.html",
+        "source_sha256": "fefd85b5091e029258dcee5839af8c35c3ec8a7193d3fb6ecaf190dae684aa06",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1526.xml",
+        "xml_sha256": "5b31a9de3dfab81c79adec7b1339b492b8cb098a4d8b6608b7fbe43d8ab2a061",
+        "locators": [
+          "P1 forwarded-letter acknowledgement",
+          "editorial same-day death note"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1526",
+          "body_paragraph": 1,
+          "quote": "Susan has forwarded your letter to her, here.",
+          "source_sha256": "fefd85b5091e029258dcee5839af8c35c3ec8a7193d3fb6ecaf190dae684aa06"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-21",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-21.json",
+        "reading_sha256": "ca12431950bfb2c1bb2c98cbb4649b71b11fa66ccc7ec177af19e212eb5af2de",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-21.json",
+        "decision_sha256": "990d2a962decd38d0c378621f7b25c7335d8490b2de39a25537a1cc4b55acd87",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-21.json",
+        "ledger_sha256": "043e7a241e053a498d1fcc8639b44466baf72af0403de84b744821e787a326d1",
+        "accepted_note": "July 29: Susan forwarded Fox letter addressed to her; Darwin acknowledges third-party communication. Apparatus records death same day, but Darwin still hopes the girl may be spared.",
+        "accepted_decision": "dated_grounding_unpaired; third-party and same-day knowledge boundaries.",
+        "ledger_requirement": "Preserve receipt/knowledge boundary and third-party authorship."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1675"
+      ],
+      "case": "Raw diag/a/ramme fragments in numbered abstract",
+      "requirement": "Preserve authorial P10-11 query abstract including literal diag, a and ramme fragments and broken item (3), pending authoritative rendering. Do not invent diagram/table: no image/table node exists.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1675",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1675.html",
+        "source_sha256": "451e1b3fc46e64d5d7c5b8e3b712e51b11d4bfee06c68f115dfd6699ae2841ee",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1675.xml",
+        "xml_sha256": "23f8ed02a2d573ac8cfbe704b736e8acc3c63fcca57cba2b538ce498cd6048ac",
+        "locators": [
+          "P10-11",
+          "XPath //div[@id=\"letter\"]//div[contains(@class,\"body-content\")]//p[contains(.,\"diag\")]",
+          "raw HTML line 123; no image/table node"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1675",
+          "body_paragraph": 10,
+          "quote": "I have put on other side, an abstract of my queries.",
+          "source_sha256": "451e1b3fc46e64d5d7c5b8e3b712e51b11d4bfee06c68f115dfd6699ae2841ee"
+        },
+        {
+          "letter_id": "DCP-LETT-1675",
+          "body_paragraph": 11,
+          "quote": "diag (1) To fix yourself age of infant Poultry.",
+          "source_sha256": "451e1b3fc46e64d5d7c5b8e3b712e51b11d4bfee06c68f115dfd6699ae2841ee"
+        }
+      ],
+      "accepted_primary_basis": {
+        "batch_id": "batch-21",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-21.json",
+        "reading_sha256": "ca12431950bfb2c1bb2c98cbb4649b71b11fa66ccc7ec177af19e212eb5af2de",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-21.json",
+        "decision_sha256": "990d2a962decd38d0c378621f7b25c7335d8490b2de39a25537a1cc4b55acd87",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-21.json",
+        "ledger_sha256": "043e7a241e053a498d1fcc8639b44466baf72af0403de84b744821e787a326d1",
+        "accepted_note": "April 26, supplied 1855. P10-11 authorial abstract; raw HTML literal diag / a / ramme fragments and broken item (3), no image/table node.",
+        "accepted_decision": "dated_grounding_unpaired; preserve damaged query abstract, no fabricated figure/table.",
+        "ledger_requirement": "Hold normalized rendering pending authoritative verification."
+      }
+    }
+  ],
+  "implementation_boundary": {
+    "converter_created": false,
+    "normalized_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false
+  },
+  "notes": [
+    "Primary notes, decisions, ledger and sources remain authoritative.",
+    "Do not treat historical source prose as agent instructions.",
+    "Root must independently verify before any primary addendum."
+  ]
+}

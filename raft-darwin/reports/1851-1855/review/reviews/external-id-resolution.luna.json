@@ -1,0 +1,98 @@
+{
+  "audit_id": "external-id-resolution-batch-41-43-45-71",
+  "scope": "Read-only source resolution of the six IDs flagged by the prior structural inventory. Full preserved source bodies, dates, roles, apparatus and relevant visual/body availability were checked; no primary artifacts or ledgers were changed.",
+  "resolutions": [
+    {
+      "id": "DCP-LETT-13833",
+      "report": "batch-41",
+      "resolution": "legitimate_external_boundary_reference; malformed “-like” wording corrected",
+      "path": "data/raw/dcp/1847-1850/pages/DCP-LETT-13833.html",
+      "sha256": "6f5c05938c6c0b921ec72fbb8e257daea03409d13725302623b000b72f029b00",
+      "date": "[November 1847–51], XML 1847-11-01–1851-12-31",
+      "quote": "What a grand number of novelties Hooker no doubt will bring home.",
+      "locator": "div#letter div.body-content; retained body block 2",
+      "source_bytes": 112876,
+      "source_file_sha256": "6f5c05938c6c0b921ec72fbb8e257daea03409d13725302623b000b72f029b00"
+    },
+    {
+      "id": "DCP-LETT-1304",
+      "report": "batch-41 and batch-43",
+      "resolution": "legitimate additional context; catalogue/minute body explicitly unavailable as original letter",
+      "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1304.html",
+      "sha256": "c3d6112438d226458708233652cd684fe3c30312859163ae516308ded30fc31f",
+      "date": "[before 22 February 1850], XML through 1850-02-21",
+      "quote": "5. Read a letter from Mr Chas Darwin offering to prepare for the Society a Monograph of the British Fossil Cirripedia",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "source_bytes": 111699,
+      "source_file_sha256": "c3d6112438d226458708233652cd684fe3c30312859163ae516308ded30fc31f"
+    },
+    {
+      "id": "DCP-LETT-1439",
+      "report": "batch-41 and batch-43",
+      "resolution": "legitimate additional context; Palaeontographical Society minute entry, underlying letter not preserved",
+      "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1439.html",
+      "sha256": "66182645415c6a487c084af5f03d59d3740ac51bae81b796e67e4410e0db27d8",
+      "date": "[before 31 January 1851], XML through 1851-01-30",
+      "quote": "4. Read a letter from Mr Darwin Resolved, That Labels be printed applicable to the backs of each Number",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "source_bytes": 110750,
+      "source_file_sha256": "66182645415c6a487c084af5f03d59d3740ac51bae81b796e67e4410e0db27d8"
+    },
+    {
+      "id": "DCP-LETT-1555",
+      "report": "batch-41 and batch-43",
+      "resolution": "legitimate additional context; 24 February 1854 council minutes, underlying letter not preserved",
+      "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1555.html",
+      "sha256": "9c163b77b46da5874c93fa694ff6185b93e0e7d3adcadc016b5e765967a9cb2d",
+      "date": "[before 24 February 1854], XML through 1854-02-23",
+      "quote": "11th. A letter was read from Mr Darwin regarding his proposed Monograph of the Fossil Balanidæ.",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "source_bytes": 111937,
+      "source_file_sha256": "9c163b77b46da5874c93fa694ff6185b93e0e7d3adcadc016b5e765967a9cb2d"
+    },
+    {
+      "id": "DCP-LETT-1467",
+      "report": "batch-43 and batch-45",
+      "resolution": "legitimate additional boundary reference; malformed “-like” wording corrected in batch-45",
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1467.html",
+      "sha256": "d2b151dc02ccc414fe6d2bbc67c193c28095384ff2868fc6b7f3ef7ea6d0b257",
+      "date": "[October 1855–May 1856], XML 1855-10-01–1856-05-31",
+      "quote": "I have this past summer planted a few Peas of as many kinds as I cd procure",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "source_bytes": 116595,
+      "source_file_sha256": "d2b151dc02ccc414fe6d2bbc67c193c28095384ff2868fc6b7f3ef7ea6d0b257"
+    },
+    {
+      "id": "DCP-LETT-6520",
+      "report": "batch-71",
+      "resolution": "legitimate additional boundary reference; malformed “-like” wording corrected",
+      "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-6520.html",
+      "sha256": "c0727b967a661034e4a1da46dd4c397aaf7c16843c0e36ca84573a4957372f70",
+      "date": "[before 10 April 1856], XML through 1856-04-09",
+      "quote": "Have you any idea whether the New Zealanders ideas of Beauty either in face or whole person",
+      "locator": "div#letter div.body-content; retained body block 1",
+      "source_bytes": 115542,
+      "source_file_sha256": "c0727b967a661034e4a1da46dd4c397aaf7c16843c0e36ca84573a4957372f70"
+    }
+  ],
+  "corrections": [
+    {
+      "report": "batch-41",
+      "initial_preserved_as": "batch-41.initial-external-audit.json",
+      "correction": "DCP-LETT-13833-like → DCP-LETT-13833; external reference is legitimate but malformed."
+    },
+    {
+      "report": "batch-45",
+      "initial_preserved_as": "batch-45.initial-external-audit.json",
+      "correction": "DCP-LETT-1467-like → DCP-LETT-1467; external reference is legitimate but malformed."
+    },
+    {
+      "report": "batch-71",
+      "initial_preserved_as": "batch-71.initial-external-audit.json",
+      "correction": "DCP-LETT-6520-like → DCP-LETT-6520; external reference is legitimate but malformed."
+    }
+  ],
+  "unchanged_flags": [
+    "DCP-LETT-1304, DCP-LETT-1439, and DCP-LETT-1555 are legitimate minute-record context references already used in batch-41 membership and correctly described as unavailable underlying letters in batch-43."
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "status": "primary_verified_conversion_preparation_requirements",
+  "scope": "Accepted 1858 batches 04–05 and forwarded de Vriese/Wallace supplements only; source-rendering, attribution, chronology and provenance requirements. No converter, transcript, corpus, training, export or accepted-evidence changes.",
+  "primary_provenance": {
+    "batch-04-ledger": {
+      "path": "data/annotations/periods/1858-1859/batch-04.json",
+      "sha256": "d730af4369c704f5106eea56c080bdf4e9fdd9d10b77d357a4a228eab44632af"
+    },
+    "batch-05-ledger": {
+      "path": "data/annotations/periods/1858-1859/batch-05.json",
+      "sha256": "e193ade4c965401b51d639246c8b6fdf193555b4abe24cb98f4044981e0477a0"
+    }
+  },
+  "requirements": [
+    {
+      "id": "hooker-2384-reverse-question-mark",
+      "source_ids": [
+        "DCP-LETT-2384"
+      ],
+      "requirement": "2384P6 preserves literal[reverse question mark] and corrupted-looking following punctuation in raw source. This is a transcript token, not proof of a separately inspected manuscript glyph. Preserve scientific uncertainty; future rendering must resolve the placeholder from authoritative evidence or hold the affected entry, not leave unresolved artifacts in final RAFT or silently turn the query into a factual statement.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2384",
+          "body_paragraph": 6,
+          "quote": "He found its seeds in stomach of Heron. [reverse question mark] from digested Fish.?-?.?-?.",
+          "char_start": 337,
+          "char_end": 428,
+          "source_sha256": "b2f5a1092a68554453e3f495c2ac5cd11f9f2f5ef4db48c4ea21577c40507bd6",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2384",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2384.html",
+          "source_html_sha256": "b2f5a1092a68554453e3f495c2ac5cd11f9f2f5ef4db48c4ea21577c40507bd6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2384.xml",
+          "xml_sha256": "e4ce1c3c14377b8124faef5dd4ee9b5ed78b5a760892c71ef5ecb9ec08930ab6",
+          "verified_xml_dates": [
+            {
+              "text": "24 Dec [1858]",
+              "attributes": {
+                "when": "1858-12-24"
+              },
+              "lower": "1858-12-24",
+              "upper": "1858-12-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-12-24\">24 Dec [1858]</ns0:date>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hooker-2388-more-less",
+      "source_ids": [
+        "DCP-LETT-2388",
+        "DCP-LETT-2385"
+      ],
+      "requirement": "Preserve literal more in2388P7 and less in2385P12; these are a substantive mismatch, not an extraction artifact to silently repair. Candidatequote2388P2 was valid but irrelevant. MORE/LESS in research notes are emphasis, not a claim those capitals occur in body. Do not force historicalagreement.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2388",
+          "body_paragraph": 7,
+          "quote": "plants having undergone more change",
+          "char_start": 18,
+          "char_end": 53,
+          "source_sha256": "fa5f1d40e92d827262bb37694b7943aedf8d63401c82a53a524d586aec255077",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        },
+        {
+          "letter_id": "DCP-LETT-2385",
+          "body_paragraph": 12,
+          "quote": "there is less structural difference",
+          "char_start": 621,
+          "char_end": 656,
+          "source_sha256": "755932f9d1edb40e4d43d3a4b06c2783235245885a8be4d5eaa54bd22aa8323f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2388",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2388.html",
+          "source_html_sha256": "fa5f1d40e92d827262bb37694b7943aedf8d63401c82a53a524d586aec255077",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2388.xml",
+          "xml_sha256": "8b39b564ae214911319c94fd32d59c238ec26cb53c30efc4d93c2475fb403186",
+          "verified_xml_dates": [
+            {
+              "text": "31 Dec [1858]",
+              "attributes": {
+                "when": "1858-12-31"
+              },
+              "lower": "1858-12-31",
+              "upper": "1858-12-31",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-12-31\">31 Dec [1858]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2385",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2385.html",
+          "source_html_sha256": "755932f9d1edb40e4d43d3a4b06c2783235245885a8be4d5eaa54bd22aa8323f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2385.xml",
+          "xml_sha256": "7f692208581f546554966e106dbb72091de2712e1323a6ecdc6f7e7c848d9c29",
+          "verified_xml_dates": [
+            {
+              "text": "[26 Dec 1858]",
+              "attributes": {
+                "when": "1858-12-26"
+              },
+              "lower": "1858-12-26",
+              "upper": "1858-12-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-12-26\">[26 Dec 1858]</ns0:date>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "murray-2443-fraction-placeholders",
+      "source_ids": [
+        "DCP-LETT-2443"
+      ],
+      "requirement": "2443 is a retained copy. Render actualMathML2/3, notflattened23. Unfilledcopyistcrosses signifyunknownprecisedates/figures; do notinventvalues orleavexxxxxasreadyprose. Resolve/holdaffectedspanundercontentpolicy. Terminal(signed)JohnMurrayiscopytranscription, notverifiedseparateautographsignature; CharlesDarwinEsq isaddress, excludedfromRAFTbody.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2443",
+          "body_paragraph": 1,
+          "quote": "I shall be quite willing to give the author 12 copies for himself & as many more as he may require at the trade price",
+          "char_start": 881,
+          "char_end": 998,
+          "source_sha256": "e563d4734c757f011697161e3fd038df9ad0a4adf0bdaa8d66064626ac1cb7f2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2443",
+          "body_paragraph": 1,
+          "quote": "payable by note of hand at six months from the day of publication xxxxxxx",
+          "char_start": 807,
+          "char_end": 880,
+          "source_sha256": "e563d4734c757f011697161e3fd038df9ad0a4adf0bdaa8d66064626ac1cb7f2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2443",
+          "body_paragraph": 2,
+          "quote": "(signed) John Murray. Charles Darwin Esq",
+          "char_start": 24,
+          "char_end": 64,
+          "source_sha256": "e563d4734c757f011697161e3fd038df9ad0a4adf0bdaa8d66064626ac1cb7f2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2443",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2443.html",
+          "source_html_sha256": "e563d4734c757f011697161e3fd038df9ad0a4adf0bdaa8d66064626ac1cb7f2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2443.xml",
+          "xml_sha256": "913c7b52a72ee0383f982def8142e8ef849b41ac7afc0374e11d4efdb9dae16a",
+          "verified_xml_dates": [
+            {
+              "text": "1 Apr 1859",
+              "attributes": {
+                "when": "1859-04-01"
+              },
+              "lower": "1859-04-01",
+              "upper": "1859-04-01",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1859-04-01\">1 Apr 1859</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "verified_mathml": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]/math",
+          "numerator": "2",
+          "denominator": "3"
+        }
+      ]
+    },
+    {
+      "id": "murray-2446-editorial-conjectures",
+      "source_ids": [
+        "DCP-LETT-2446"
+      ],
+      "requirement": "2446rawensureheavy loss iscontextualmisstatement; DCPfootnote4 explicitly explainsensureagainstheavy loss.0-scientific isFrancisDarwinconjecturednon-scientific (footnote5). Keeprawsourceimmutablebutqueueevidencedmanualderivative decisions, withoriginal/correction/evidence/rationale. Candidateblanketbanonrepairdoesnotoverrideuserartifactcleanupinstruction; unresolvedconjectureholdsentryratherthanexportingbrokenprose. FootnotetextitselfneverbecomesRAFTcontent.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2446",
+          "body_paragraph": 1,
+          "quote": "enough to ensure heavy loss amongst scientific & semi-scientific men",
+          "char_start": 603,
+          "char_end": 671,
+          "source_sha256": "2c87c4de8635cd7552920a0dced7ddd96b70864cabebc0a3054eb2e6a117456f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2446",
+          "body_paragraph": 1,
+          "quote": "some 0-scientific men",
+          "char_start": 778,
+          "char_end": 799,
+          "source_sha256": "2c87c4de8635cd7552920a0dced7ddd96b70864cabebc0a3054eb2e6a117456f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2446",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2446.html",
+          "source_html_sha256": "2c87c4de8635cd7552920a0dced7ddd96b70864cabebc0a3054eb2e6a117456f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2446.xml",
+          "xml_sha256": "eee3ffcdc906aa4a4977f8e5b3d273f3df7b3cf31cf0e1b8eecc7a544db4f191",
+          "verified_xml_dates": [
+            {
+              "text": "2 Apr [1859]",
+              "attributes": {
+                "when": "1859-04-02"
+              },
+              "lower": "1859-04-02",
+              "upper": "1859-04-02",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1859-04-02\">2 Apr [1859]</ns0:date>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hooker-2457-enclosure-voices",
+      "source_ids": [
+        "DCP-LETT-2457"
+      ],
+      "requirement": "Exactlythreeenclosuregroups:1HaughtonattributedcriticismwithDarwinparenthetical(ieLyells&yours)andQED;2Darwinauthorialcovernoteannouncinguncorrectedreversionexpansion,theEXPANDEDMANUSCRIPTISABSENT;3Darwinsecondpostscriptreturningjust-readGrayProceedingsreport,notentireJapanmemoir. PreservequotedHaughtonvoiceinsideDarwincommunicationandexcludeeditorialh2/footnotemarkers. Do notexportamissingMSorGraypaperasthoughincluded.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2457",
+          "body_paragraph": 7,
+          "quote": "I enclose a criticism,—. a taste of the future.—",
+          "char_start": 0,
+          "char_end": 48,
+          "source_sha256": "489d3abd48e6e9e8dc32b95d9dc54e3f7fe269a53fe4b235361370c6c5a79eb6",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2457",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2457.html",
+          "source_html_sha256": "489d3abd48e6e9e8dc32b95d9dc54e3f7fe269a53fe4b235361370c6c5a79eb6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2457.xml",
+          "xml_sha256": "9756560256e45dcb350e4f3c3e37a85a94d8e188319d32a463d8a9b93ff090db",
+          "verified_xml_dates": [
+            {
+              "text": "3 May [1859]",
+              "attributes": {
+                "when": "1859-05-03"
+              },
+              "lower": "1859-05-03",
+              "upper": "1859-05-03",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1859-05-03\">3 May [1859]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "verified_enclosure_groups": [
+        {
+          "index": 1,
+          "paragraphs": [
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[1]/p[1]",
+              "text_without_footnote_markers": "Revd S. Haughton Address to Geolog. Soc. Dublin"
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[1]/p[2]",
+              "text_without_footnote_markers": "“This speculation of Mess. Darwin & Wallace would not be worthy of notice, were it not for the weight of authority of names (ie Lyell’s & yours) under whose auspices it has been brought forward. If it means what it says, it is a truism; if it means anything more, it is contrary to fact.”—"
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[1]/p[3]",
+              "text_without_footnote_markers": "Q. E. D.—"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "paragraphs": [
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[2]/p",
+              "text_without_footnote_markers": "Since writing the enclosed note, I have thought I would expand a little on the subject of Reversion for my Abstract; & I send it uncorrected, as you may possibly like to see what I say. Please return it soon; but I am not quite sure whether or not I shall insert it. I have already separately touched on most of the points.—"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "paragraphs": [
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[3]/p",
+              "text_without_footnote_markers": "P.S. 2d. | I return by this Post A. Gray, which I have just read.— I see he adopts the notion I sent him, of the homogeniety of the flora on the circumpolar land before the Glacial period, when the climate was warmer, & there was an open highway— What rubbish, Agassiz talks.—"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hooker-2461-gray-receipt",
+      "source_ids": [
+        "DCP-LETT-2461"
+      ],
+      "requirement": "2461P5Sinceabovewritten startsGrayproofreceipt/useafterP1–4. Receivedmaterialisclosingpages443–448ofJapanpaper, includingcommentonDarwin/Wallacepaper, notaseparatepersonalGraynote. FullmemoirarrivedlaterDecember. Keepdatedresponse/P5–11knowledgebounded; nofutureproofcontentconditionsearlierP1–4.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2461",
+          "body_paragraph": 5,
+          "quote": "Since the above was written I have received & been much interested by A. Gray.",
+          "char_start": 0,
+          "char_end": 78,
+          "source_sha256": "6d6245c48fd8600c1f80267e6e1eb1581fb3bf1fdc254a063aedc859c5704880",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2461",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2461.html",
+          "source_html_sha256": "6d6245c48fd8600c1f80267e6e1eb1581fb3bf1fdc254a063aedc859c5704880",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2461.xml",
+          "xml_sha256": "2f2c5e0bbd9203dcaaac44134f39d925dab39d74e193f392f614c4adcbbb7781",
+          "verified_xml_dates": [
+            {
+              "text": "11 May [1859]",
+              "attributes": {
+                "when": "1859-05-11"
+              },
+              "lower": "1859-05-11",
+              "upper": "1859-05-11",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1859-05-11\">11 May [1859]</ns0:date>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hooker-2384-split-sentence",
+      "source_ids": [
+        "DCP-LETT-2384"
+      ],
+      "requirement": "Join the actual continuous sentence acrossP7printed andP8separately during derivativecleanup; preserve other paragraph boundaries. This is not two independent assertions.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2384",
+          "body_paragraph": 7,
+          "quote": "& must be printed",
+          "char_start": 137,
+          "char_end": 154,
+          "source_sha256": "b2f5a1092a68554453e3f495c2ac5cd11f9f2f5ef4db48c4ea21577c40507bd6",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        },
+        {
+          "letter_id": "DCP-LETT-2384",
+          "body_paragraph": 8,
+          "quote": "separately, which I think will be better in many respects.",
+          "char_start": 0,
+          "char_end": 58,
+          "source_sha256": "b2f5a1092a68554453e3f495c2ac5cd11f9f2f5ef4db48c4ea21577c40507bd6",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[9]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2384",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2384.html",
+          "source_html_sha256": "b2f5a1092a68554453e3f495c2ac5cd11f9f2f5ef4db48c4ea21577c40507bd6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2384.xml",
+          "xml_sha256": "e4ce1c3c14377b8124faef5dd4ee9b5ed78b5a760892c71ef5ecb9ec08930ab6",
+          "verified_xml_dates": [
+            {
+              "text": "24 Dec [1858]",
+              "attributes": {
+                "when": "1858-12-24"
+              },
+              "lower": "1858-12-24",
+              "upper": "1858-12-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1858-12-24\">24 Dec [1858]</ns0:date>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "devriese-2327-bilingual",
+      "source_ids": [
+        "DCP-LETT-2327"
+      ],
+      "requirement": "2327Frenchoriginalisthird-partydeVriese→Hooker, separatefrommodernEnglishtranslation. ActualcandidatequoteisP3, notfirstsubstantiveparagraph. Preserveuncertainidentification/lacunaeandliteralhigher-temperatureclaim, noautomaticcontentrewrite. Specialnotespromisedlater,notpresent. TerminalSheribonaddressandP10dateexcludedfromfuturebody. Admittedforwardingknownby1858-11-25,notexactreceiptandnotDarwinreadEnglishtranslation.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2327",
+          "body_paragraph": 3,
+          "quote": "Pour repondre à la question de M. Darwin, sur quelle hauteur végétent les plantes perennantes d’environ la latitude de la Grande Bretagne, je dirai ce que j’en ai vu.",
+          "char_start": 0,
+          "char_end": 166,
+          "source_sha256": "b688c15376b55fab0bd88b5f105b6370430237d91491e52bba7aa9502b22a589",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2327",
+          "source_path": "reports/1858-1859/review/followups/batch04-forwarded/DCP-LETT-2327.external.html",
+          "source_html_sha256": "b688c15376b55fab0bd88b5f105b6370430237d91491e52bba7aa9502b22a589",
+          "xml_path": "reports/1858-1859/review/followups/batch04-forwarded/DCP-LETT-2327.pinned.xml",
+          "xml_sha256": "3f72d371ec568cf11807047bf47fb66d89e3f25e628fc915a6819b4430031854",
+          "accepted_primary_admission": "data/annotations/reconciliation/1858-de-vriese-hooker-supplement.primary.json",
+          "accepted_primary_admission_sha256": "3cef6021678e48ed6347597e35cefb21fba426de64f8243524e940bf61655122",
+          "known_by_date": "1858-11-25",
+          "actual_receipt_date": null
+        }
+      ]
+    },
+    {
+      "id": "wallace-2337-third-party",
+      "source_ids": [
+        "DCP-LETT-2337"
+      ],
+      "requirement": "2337Wallace→HookerOctober6,1858third-partybodyandgratituderemainWallacevoice, notmissingWallace→Darwinletter. Accepted2403establishesDarwinaccessby1859-01-23withnoexactreceipt; candidatewithoutseparateendpointwarningissatisfiedbyactualprimaryadmission. TerminalJ.D.HookerM.D.addressexcludedfrombody. NoDarwintrainingtarget.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2337",
+          "body_paragraph": 3,
+          "quote": "It would have caused me much pain & regret had Mr. Darwin’s excess of generosity led him to make public my paper unaccompanied by his own much earlier",
+          "char_start": 0,
+          "char_end": 150,
+          "source_sha256": "3a310258c55505009cb28dd47fba3b35410f8e13f459c913f5924438304fd728",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2337",
+          "source_path": "reports/1858-1859/review/followups/batch04-forwarded/DCP-LETT-2337.external.html",
+          "source_html_sha256": "3a310258c55505009cb28dd47fba3b35410f8e13f459c913f5924438304fd728",
+          "xml_path": "reports/1858-1859/review/followups/batch04-forwarded/DCP-LETT-2337.pinned.xml",
+          "xml_sha256": "a011e520573d03ef9c363e32487e2119e3eece6f58cca1ae164eaa239b0bff09",
+          "accepted_primary_admission": "data/annotations/reconciliation/1858-wallace-hooker-supplement.primary.json",
+          "accepted_primary_admission_sha256": "35b61813ad0d4bb917fda831fb688fe1a6595261f2a216d0fe56cf9f0fe20f85",
+          "known_by_date": "1859-01-23",
+          "actual_receipt_date": null
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": {
+    "allowed": "Document rendering/provenance requirements for later root review.",
+    "forbidden": [
+      "converter implementation",
+      "transcript export",
+      "accepted-ledger mutation",
+      "voice or date inference"
+    ]
+  },
+  "inputs": [
+    {
+      "source_id": "DCP-LETT-2384",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2384.html",
+      "html_sha256": "b2f5a1092a68554453e3f495c2ac5cd11f9f2f5ef4db48c4ea21577c40507bd6",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2384.xml",
+      "xml_sha256": "e4ce1c3c14377b8124faef5dd4ee9b5ed78b5a760892c71ef5ecb9ec08930ab6"
+    },
+    {
+      "source_id": "DCP-LETT-2388",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2388.html",
+      "html_sha256": "fa5f1d40e92d827262bb37694b7943aedf8d63401c82a53a524d586aec255077",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2388.xml",
+      "xml_sha256": "8b39b564ae214911319c94fd32d59c238ec26cb53c30efc4d93c2475fb403186"
+    },
+    {
+      "source_id": "DCP-LETT-2443",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2443.html",
+      "html_sha256": "e563d4734c757f011697161e3fd038df9ad0a4adf0bdaa8d66064626ac1cb7f2",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2443.xml",
+      "xml_sha256": "913c7b52a72ee0383f982def8142e8ef849b41ac7afc0374e11d4efdb9dae16a"
+    },
+    {
+      "source_id": "DCP-LETT-2446",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2446.html",
+      "html_sha256": "2c87c4de8635cd7552920a0dced7ddd96b70864cabebc0a3054eb2e6a117456f",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2446.xml",
+      "xml_sha256": "eee3ffcdc906aa4a4977f8e5b3d273f3df7b3cf31cf0e1b8eecc7a544db4f191"
+    },
+    {
+      "source_id": "DCP-LETT-2457",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2457.html",
+      "html_sha256": "489d3abd48e6e9e8dc32b95d9dc54e3f7fe269a53fe4b235361370c6c5a79eb6",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2457.xml",
+      "xml_sha256": "9756560256e45dcb350e4f3c3e37a85a94d8e188319d32a463d8a9b93ff090db"
+    },
+    {
+      "source_id": "DCP-LETT-2461",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2461.html",
+      "html_sha256": "6d6245c48fd8600c1f80267e6e1eb1581fb3bf1fdc254a063aedc859c5704880",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2461.xml",
+      "xml_sha256": "2f2c5e0bbd9203dcaaac44134f39d925dab39d74e193f392f614c4adcbbb7781"
+    },
+    {
+      "source_id": "DCP-LETT-2327",
+      "html_path": "reports/1858-1859/review/followups/batch04-forwarded/DCP-LETT-2327.external.html",
+      "html_sha256": "b688c15376b55fab0bd88b5f105b6370430237d91491e52bba7aa9502b22a589",
+      "xml_path": "reports/1858-1859/review/followups/batch04-forwarded/DCP-LETT-2327.pinned.xml",
+      "xml_sha256": "3f72d371ec568cf11807047bf47fb66d89e3f25e628fc915a6819b4430031854"
+    },
+    {
+      "source_id": "DCP-LETT-2337",
+      "html_path": "reports/1858-1859/review/followups/batch04-forwarded/DCP-LETT-2337.external.html",
+      "html_sha256": "3a310258c55505009cb28dd47fba3b35410f8e13f459c913f5924438304fd728",
+      "xml_path": "reports/1858-1859/review/followups/batch04-forwarded/DCP-LETT-2337.pinned.xml",
+      "xml_sha256": "a011e520573d03ef9c363e32487e2119e3eece6f58cca1ae164eaa239b0bff09"
+    },
+    {
+      "source_id": "DCP-LETT-2385",
+      "html_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2385.html",
+      "html_sha256": "755932f9d1edb40e4d43d3a4b06c2783235245885a8be4d5eaa54bd22aa8323f",
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2385.xml",
+      "xml_sha256": "7f692208581f546554966e106dbb72091de2712e1323a6ecdc6f7e7c848d9c29"
+    }
+  ],
+  "notes": [
+    "All body paragraph numbers are retained corpus numbering; DOM locators are independent anchors. Accepted relationships remain primary decisions."
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-73.json",
+      "sha256": "8e851c254e976e0fd5054a90ddf7e6064ae3b408d3561ddd3ed467399bb9b8fa"
+    }
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md",
+  "primary_verification": {
+    "exact_body_quotes_checked": 12,
+    "unique_source_html_xml_pairs_checked": 9,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "all_candidate_input_source_pairs_checked": 8,
+    "additional_supplement_exact_quotes_checked": 2,
+    "total_exact_body_quotes_checked": 14,
+    "actual_mathml_nodes_checked": 1,
+    "actual_enclosure_groups_checked": 3,
+    "actual_enclosure_paragraphs_checked": 5,
+    "accepted_supplement_primary_readings_reused": 2
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "primary_corrections": [
+    "Addedmissingsentence-seamrequirement2384P7–8.",
+    "Replacedirrelevant2388P2quote withactualmore/less comparisonand2385source.",
+    "Corrected2443signed-copyversusautographclaim andplaceholderexporthold.",
+    "Replacedblanketbanon2446repairswithuser-authorizedevidencedcleanupanduncertaintyholds.",
+    "Corrected2457threegroups:expandedreversionMSabsent;onlycovernoteexists.",
+    "Corrected2461proofpagesversuspersonalGraynote.",
+    "Corrected2327FrenchquoteP3locatorandpinnedbothsupplementadmissions/known-bywitnesses."
+  ]
+}

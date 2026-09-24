@@ -1,0 +1,84 @@
+{
+  "status": "verified_recovered_question_pending_supplemental_admission",
+  "scope": "A bounded source-recovery finding; does not add a graph pair or export a transcript.",
+  "worker_input": {
+    "path": "reports/1851-1855/review/followups/parker-1852-circular.luna.json",
+    "sha256": "c4f93320894cb415b9c6342eccfdfbef36e2ba542e190d8b7960f9bc3767f204"
+  },
+  "accepted_response_evidence": {
+    "ledger": "data/annotations/periods/1851-1855/batch-45.json",
+    "sha256": "ea838f27ff89a727a83c5462cdff8293cce770f897ea7c724c80eca388d0c57b"
+  },
+  "incoming_question": {
+    "witness_id": "DCP-LETT-1480A::footnote-2::Parker-question",
+    "not_a_separate_DCP_catalogue_id": true,
+    "attributed_author": "John William Parker",
+    "stated_circular_date": "1852-04-30",
+    "audience": "Authors and Others connected with Literary Property; Darwin response and collection apparatus associate his reply with it",
+    "text": "If a retail Bookseller of ascertained credit and respectability applies to the Publisher to purchase any Book in which you may be directly or indirectly interested, on the terms at which those Books are offered to the Trade at large, but with the avowed intention of retailing his purchases at a smaller profit than that provided for between the wholesale rate and the selling price of single copies,— Do you consider the intention to sell at a low rate of profit, a good and sufficient reason why the Publisher should refuse to sell the Books, which such retailer is ready to purchase and to keep in stock at his own risk?",
+    "source_html": {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1480A.html",
+      "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1480A.xml",
+      "retrieved_at": "2026-09-17T00:47:59.018114+00:00",
+      "sha256": "126bd6c1914a9366d18016acfb812b4aeb3577986a1d17ca8abd06ff0b7c9c31",
+      "bytes": 112894,
+      "http_status": 200,
+      "etag": "\"b9272b8a6c649f3139d93d641348f120\"",
+      "content_type": "text/html",
+      "id": "DCP-LETT-1480A"
+    },
+    "metadata_provenance": {
+      "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+      "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+      "csv_record_number": 1631,
+      "csv_physical_line_start": 1634,
+      "csv_physical_line_end": 1634,
+      "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1480A.xml",
+      "xml_sha256": "363c3a876739e1d460f168f94da72885293bcc1813a114d6e5a70709276dcc79",
+      "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-1480A.xml",
+      "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1480A.xml",
+      "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+    },
+    "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]/div[2]/div[2]/span",
+    "normalized_node_char_start": 10,
+    "normalized_node_char_end": 633,
+    "normalization": "Whitespace only for local extracted-node positions; literal capitalization and punctuation retained.",
+    "extent": "Complete quoted interrogative only; circular salutation/introduction and original physical document not inspected."
+  },
+  "corroborating_edition": {
+    "url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/259/Mill_0223-25_EBk_v6.0.pdf",
+    "path": "data/raw/supplemental/parker-1852/mill-xxv-public-edition.pdf",
+    "sha256": "f10508c4ef754f956d5e0049f186e2a93beb0a887273009d7ecf745bcf535f25",
+    "edition": "Collected Works of John Stuart Mill, XXV, item403, edited Ann P. Robson and John M. Robson,1986; OLL digital edition2011",
+    "pdf_page_one_based": 110,
+    "pdf_page_zero_based": 109,
+    "page_count": 619,
+    "page_read_in_full": true,
+    "page_visual_inspected": true,
+    "render_path": "data/raw/supplemental/parker-1852/mill-xxv-page110.png",
+    "render_sha256": "29eda2591981a2073bf4b911efe4b2bac5de26ab9fac9bcad026d324c9860bbc",
+    "question_word_sequence_matches_dcp_after_case_punctuation_normalization": true,
+    "headnote_vs_letter": "Parker question is in modern editorial headnote; subsequent letter is Mill May8 reply, never Darwin voice or Darwin prior knowledge."
+  },
+  "response_scope": {
+    "letter_id": "DCP-LETT-1480A",
+    "body_paragraph": 1,
+    "date": "1852-05-05",
+    "date_qualification": "1852 editorially supplied; retain original constraints",
+    "assessment": "Darwin argument for each bookseller setting retail price addresses the quoted scenario directly. This is a strong scoped candidate using a recovered question, not an invented dialogue."
+  },
+  "primary_corrections": [
+    {
+      "issue": "Worker local HTML hash contains transposed characters",
+      "worker_value": "126bd6c1914a9366d18016acfb812b4aeb3577986a1d17ac8abd06ff0b7c9c31",
+      "verified_value": "126bd6c1914a9366d18016acfb812b4aeb3577986a1d17ca8abd06ff0b7c9c31"
+    },
+    {
+      "issue": "Raw teiquote span includes later editorial Campbell paragraph too; limit exact prompt through its first final question mark and exclude May19 material."
+    },
+    {
+      "issue": "Primary inspected PDF page110/item403; original-volume printed1189 locator not independently confirmed."
+    }
+  ],
+  "remaining_boundary": "Admit a separately identified supplemental prompt witness during final reconciliation if selection/provenance schema supports quoted circulars. Keep original physical circular unavailable and exact Darwin receipt unknown. No current pair count changed; full original is not needed to establish that the interrogative survives, but the extent/version limitation must travel with any eventual pair."
+}

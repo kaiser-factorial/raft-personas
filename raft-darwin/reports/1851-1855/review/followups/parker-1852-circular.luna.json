@@ -1,0 +1,66 @@
+{
+  "artifact": "parker-1852-circular.luna",
+  "status": "bounded_source_recovery_note",
+  "scope": "April 30 1852 Parker circular underlying DCP-LETT-1480A; May 19 adjudication kept separate",
+  "inputs": {
+    "darwin_record_id": "DCP-LETT-1480A",
+    "local_html_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1480A.html",
+    "local_html_sha256": "126bd6c1914a9366d18016acfb812b4aeb3577986a1d17ac8abd06ff0b7c9c31",
+    "source_xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1480A.xml",
+    "source_xml_sha256": "363c3a876739e1d460f168f94da72885293bcc1813a114d6e5a70709276dcc79",
+    "local_evidence_locator": "DCP-LETT-1480A.html; footnote 2 attached to body paragraph 1",
+    "local_body_quote": "As an author of some Scientific works, I beg to express strongly my opinion, that, both for the advantage of Authors & the public, Booksellers like other dealers ought to settle, each for himself, the Retail price."
+  },
+  "findings": [
+    {
+      "question": "Is the April 30 circular or a reliable contemporaneous full printed witness publicly available?",
+      "finding": "A reliable public scholarly witness is available in the open Online Library of Liberty scan of John Stuart Mill, Collected Works, volume XXV, item 403. Its editorial headnote states that Parker circulated the April 30 letter to authors and to The Times, and that the replies were gathered in Parker's 1852 pamphlets. It prints the same full substantive interrogative as the Darwin Project footnote, with normalized punctuation/lineation.",
+      "url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/259/Mill_0223-25_EBk_v6.0.pdf",
+      "locator": "PDF p. 110, item 403 (printed pagination 1189 in the volume)",
+      "quote": "If a retail bookseller, of ascertained credit and respectability, applies to the publisher to purchase any book in which you may be directly or indirectly interested, on the terms at which those books are offered to the trade at large, but with the avowed intention of retailing his purchases at a smaller profit than that provided for between the wholesale rate and the selling price of single copies, do you consider the intention to sell at a low rate of profit a good and sufficient reason why the publisher should refuse to sell the books, which such retailer is ready to purchase and to keep in stock at his own risk?",
+      "assessment": "This is a printed secondary scholarly edition, but it directly records the 1852 Parker pamphlet tradition and supplies a public, source-specific witness. It is stronger than a modern catalogue summary; it is not the Stationers' manuscript itself."
+    },
+    {
+      "question": "Is Darwin's footnote the whole substantive prompt or merely an excerpt?",
+      "finding": "The interrogative appears substantively complete: it begins with the conditional retail-bookseller scenario and ends at the question mark, and the Mill witness reproduces the same beginning-to-end question. Darwin's footnote explicitly introduces it with `Question.` and then gives only that interrogative. Therefore the evidence supports a complete transcription of the circular's substantive question, but not a claim that the footnote reproduces the circular's whole physical or rhetorical document.",
+      "local_locator": "DCP-LETT-1480A.html, footnote 2, immediately after `Question.`",
+      "local_quote": "Question. If a retail Bookseller of ascertained credit and respectability applies to the Publisher to purchase any Book in which you may be directly or indirectly interested, on the terms at which those Books are offered to the Trade at large, but with the avowed intention of retailing his purchases at a smaller profit than that provided for between the wholesale rate and the selling price of single copies,— Do you consider the intention to sell at a low rate of profit, a good and sufficient reason why the Publisher should refuse to sell the Books, which such retailer is ready to purchase and to keep in stock at his own risk?",
+      "extent_boundary": "No public witness located here supplies the circular's salutation, introductory explanation, distribution list, or any questions beyond this one. The Parker title and circulation context are attested by the Mill headnote; the full circular artifact remains unlocated."
+    },
+    {
+      "question": "Does the later May 19 event establish the April 30 prompt?",
+      "finding": "No. The Darwin footnote separately reports Lord John Campbell's May 19 conclusion, and the Mill source separately describes the May 4 authors' meeting and later committee outcome. Those later proceedings corroborate the dispute's chronology and reception, but they are not the April 30 circular and do not expand its text.",
+      "local_locator": "DCP-LETT-1480A.html, footnote 2, sentence beginning `The dispute over the fixing...`",
+      "boundary": "Do not use the May 19 adjudication as evidence for an earlier Parker prompt or as a substitute for the circular's missing surrounding text."
+    }
+  ],
+  "source_inventory": {
+    "found": [
+      {
+        "kind": "public scholarly printed witness",
+        "title": "Collected Works of John Stuart Mill, Volume XXV, item 403",
+        "url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/259/Mill_0223-25_EBk_v6.0.pdf",
+        "relevance": "Quotes the April 30 Parker question and identifies Parker's 1852 reply pamphlets."
+      },
+      {
+        "kind": "public scholarly catalogue/witness",
+        "title": "The Opinions of Certain Authors on the Bookselling Question, Huntington Library record 487782",
+        "url": "https://www.huntington.org/collections/lib-487782",
+        "relevance": "Confirms the 1852 Parker publication and its bibliographic identity; no digitized image is exposed on the catalogue page."
+      }
+    ],
+    "not_found": [
+      {
+        "item": "Original April 30 Parker circular / Stationers' Company Records Pt XI (III), TSC/1/F/07/22",
+        "result": "No openly accessible scan or full archival transcription was located in this bounded search. The Stationers' Company online catalogue describes the archive and directs researchers to arrange access, but does not expose this item.",
+        "url": "https://stationers.maxcommunications.co.uk/"
+      },
+      {
+        "item": "Open scan of Parker's complete 1852 pamphlet containing Darwin's reply",
+        "result": "No freely accessible scan was located in this search. Public library records confirm copies, while the Mill scholarly edition supplies the question and discusses the pamphlet tradition."
+      }
+    ]
+  },
+  "adjudication_boundary": "Treat the April 30 interrogative as a recoverable substantive prompt witness for source comparison, with provenance through Mill's citation of Parker's 1852 pamphlet tradition. Keep the circular's surrounding text, exact original typography, and physical Stationers' record unavailable unless the archive or a scan is obtained. Do not infer a Darwin receipt date from the later May 19 proceedings.",
+  "web_accessed": "2026-09-17"
+}

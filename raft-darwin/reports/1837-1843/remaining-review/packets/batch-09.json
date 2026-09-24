@@ -1,0 +1,3164 @@
+{
+  "batch_id": "batch-09",
+  "target_ids": [
+    "DCP-LETT-349",
+    "DCP-LETT-358",
+    "DCP-LETT-377A",
+    "DCP-LETT-351",
+    "DCP-LETT-357",
+    "DCP-LETT-476",
+    "DCP-LETT-470",
+    "DCP-LETT-479",
+    "DCP-LETT-517",
+    "DCP-LETT-474",
+    "DCP-LETT-553",
+    "DCP-LETT-570",
+    "DCP-LETT-629A",
+    "DCP-LETT-658",
+    "DCP-LETT-659",
+    "DCP-LETT-677A",
+    "DCP-LETT-702",
+    "DCP-LETT-709"
+  ],
+  "context_ids": [],
+  "groups": [
+    {
+      "authority_key": "../nameregs/nameregs_211.xml",
+      "labels": [
+        "Babbage, Charles"
+      ],
+      "letter_ids": [
+        "DCP-LETT-349",
+        "DCP-LETT-358",
+        "DCP-LETT-351",
+        "DCP-LETT-357",
+        "DCP-LETT-476",
+        "DCP-LETT-470",
+        "DCP-LETT-479",
+        "DCP-LETT-474",
+        "DCP-LETT-570"
+      ]
+    },
+    {
+      "authority_key": "../nameregs/nameregs_4407.xml",
+      "labels": [
+        "Smith, Elder & Co."
+      ],
+      "letter_ids": [
+        "DCP-LETT-377A",
+        "DCP-LETT-517",
+        "DCP-LETT-553",
+        "DCP-LETT-629A",
+        "DCP-LETT-658",
+        "DCP-LETT-659",
+        "DCP-LETT-677A",
+        "DCP-LETT-702",
+        "DCP-LETT-709"
+      ]
+    }
+  ],
+  "scope": "Every previously uninspected source record in the pinned 1837–1843 candidate inventory, including all 31 date-held records across phases. Not a corpus-wide re-dating of records outside the pinned selection.",
+  "letters": [
+    {
+      "id": "DCP-LETT-349",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-349.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-349.xml",
+        "retrieved_at": "2026-09-16T10:54:02.090737+00:00",
+        "sha256": "2849d287e9239ae76069f918d1c462b95376ce2b7a4baf05086dee003daf761d",
+        "bytes": 110775,
+        "http_status": 200,
+        "etag": "\"a69f18fd71c0e2a1c1b2a4a34c562c41\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-349"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-349",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1837-03-14",
+        "xml_latest": "1838-12-31",
+        "date_structure": "bounded_range",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[14 Mar 1837 – 31 Dec 1838]",
+            "attributes": {
+              "notBefore": "1837-03-14",
+              "notAfter": "1838-12-31"
+            },
+            "lower": "1837-03-14",
+            "upper": "1838-12-31",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1837-03-14\" notAfter=\"1838-12-31\">[14 Mar 1837 – 31 Dec 1838]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Babbage, Charles",
+            "attributes": {
+              "key": "../nameregs/nameregs_211.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Gt Marlborough St, 36"
+        ],
+        "xml_notes": [
+          {
+            "text": "1p",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-349",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Babbage",
+          "recipient_forename": "Charles",
+          "sorting_date": "1837-03-14",
+          "date": "[14 Mar 1837 – 31 Dec 1838]",
+          "sender_address": "London, Gt Marlborough St, 36",
+          "recipient_address": "",
+          "source": "The British Library (Add MS 37190: 326)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-349.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 356,
+          "csv_physical_line_start": 357,
+          "csv_physical_line_end": 357,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-349.xml",
+          "xml_sha256": "1647e9eddff30bd3c56172bbdef6bb5f6fc6bda10662b648c64fa85ef59dd9da",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-349.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-349.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Charles Babbage [14 March 1837 – 31 December 1838]1",
+      "header_text": [
+        "To Charles Babbage [14 March 1837 – 31 December 1838]1"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I am very much obliged for your kind invitation for tomorrow evening, and whether for beauty or for shells, I should have had great pleasure in accepting if I had not happened to be engaged.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Yours truly obliged | Chas. Darwin 36 Grt. Marlboro—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Sir"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Would have had great pleasure in accepting CB’s invitation, \"whether for beauty or for shells\", but has another engagement.",
+      "editorial_footnotes": "Footnotes1The dates are those of CD’s residence at 36 Great Marlborough Street.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-358",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-358.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-358.xml",
+        "retrieved_at": "2026-09-16T10:54:02.125145+00:00",
+        "sha256": "e203234cf724c668a781da3747a49d0776f6e92faec2a58378d6a98c55d9e752",
+        "bytes": 111599,
+        "http_status": 200,
+        "etag": "\"f55c0017560c5a360c09e09f9f3f2985\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-358"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-358",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1837-06-01",
+        "xml_latest": "1837-09-30",
+        "date_structure": "bounded_range",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[June – Sept 1837]",
+            "attributes": {
+              "notBefore": "1837-06-01",
+              "notAfter": "1837-09-30"
+            },
+            "lower": "1837-06-01",
+            "upper": "1837-09-30",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1837-06-01\" notAfter=\"1837-09-30\">[June – Sept 1837]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Babbage, Charles",
+            "attributes": {
+              "key": "../nameregs/nameregs_211.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Gt Marlborough St, 36"
+        ],
+        "xml_notes": [
+          {
+            "text": "1p",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-358",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Babbage",
+          "recipient_forename": "Charles",
+          "sorting_date": "1837-06-01",
+          "date": "[June – Sept 1837]",
+          "sender_address": "London, Gt Marlborough St, 36",
+          "recipient_address": "",
+          "source": "The British Library (Add MS 37190: 322)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-358.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 367,
+          "csv_physical_line_start": 368,
+          "csv_physical_line_end": 368,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-358.xml",
+          "xml_sha256": "c408977584d1bd4bee3fd9de38fabbfbd72afd5882ccc6627047791b423648f4",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-358.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-358.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Charles Babbage [June – September 1837]1",
+      "header_text": [
+        "To Charles Babbage [June – September 1837]136 Grt. Marlborough Stt.—"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I received a letter last week from Mr Lyell, in which he asks me to tell you, that by some misunderstanding he did not know you wanted Mr Whewell’s History of the Induct: Sc: & that he consequently sent it up to Scotland. He begs me to send my copy on to you, in place of his.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Your’s most truly | Chas. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Sir"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary At Lyell’s request sends his copy of Whewell’s History of inductive sciences [1837] to CB.",
+      "editorial_footnotes": "Footnotes1Dated from the reference to Charles Lyell, who had left for the Continent on 6 June 1837 (K. M. Lyell, ed. 1881, 2: 13).2Whewell 1837.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-377A",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-377A.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-377A.xml",
+        "retrieved_at": "2026-09-16T10:54:04.275062+00:00",
+        "sha256": "efead0bc53daa6dfef44e10e80dabc2dfb724955b563b3167f1f6a56bfc765e0",
+        "bytes": 116775,
+        "http_status": 200,
+        "etag": "\"467d460fd629dbe6197b6d91ff39baaf\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-377A"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-377A",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "to_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1837-09-12",
+        "xml_latest": "1837-09-12",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "12 Sept 1837",
+            "attributes": {
+              "when": "1837-09-12"
+            },
+            "lower": "1837-09-12",
+            "upper": "1837-09-12",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1837-09-12\">12 Sept 1837</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Smith, Elder & Co.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4407.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Cornhill, 65"
+        ],
+        "xml_notes": [
+          {
+            "text": "4pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "incoming_context_pending_receipt_and_reply_evidence",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-377A",
+          "sender_surname": "Smith, Elder & Co",
+          "sender_forename": "",
+          "recipient_surname": "Darwin",
+          "recipient_forename": "C. R.",
+          "sorting_date": "1837-09-12",
+          "date": "12 Sept 1837",
+          "sender_address": "London, Cornhill, 65",
+          "recipient_address": "",
+          "source": "The National Archives (TNA) (T1/4524 paper 25824)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-377A.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 394,
+          "csv_physical_line_start": 397,
+          "csv_physical_line_end": 397,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-377A.xml",
+          "xml_sha256": "37735c9e12a42c96e45ff6206f2e06a44b40399316d3a4e1dc3051e6f60099ea",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-377A.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-377A.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": false
+      },
+      "title": "From Smith, Elder & Co. 12 September 1837",
+      "header_text": [
+        "From Smith, Elder & Co. 12 September 1837London 65 Cornhill12th Septr. 1837"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "1—Referring to our interview with you respecting the Publication of your Zoological work we now beg leave to offer the following suggestions which have occurred to us as most likely to farther the objects you have explained—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "2—The end contemplated by Government in making a grant for this work of £1000, at least the end which the Publishers have to bear in mind seems to be the lessening of the Price to the Public, and the general benefit to Science of its consequently more extended circulation—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "3—The best way to attain this end will be at once ascertained by observing what is the character of the different outlays necessary in the Publication of such a work, and we shall find that may be advantageously separated into two classes",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "4—The First class comprises those which are alike necessary to be incurred whether the Edition required be one of five or of five hundred Copies and which must be provided for by distributing them—not over the whole Number of Copies of the Edition equally—but over such number of Copies only, as you may securely calculate on disposing of, so that this class of expenses, affects the selling price of the work not only by their absolute amount, but in a degree proportionate to the anticipated extent of sales—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "body_paragraph": 5,
+          "text": "5—The second class of expenses again is that of a nature requiring only to be incurred for completing Copies of the work as these are wanted to supply the demand, & which therefore need only affect the selling price of the work to the extent of their exact net cost pr. Copy—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 5"
+        },
+        {
+          "body_paragraph": 6,
+          "text": "6—By keeping these distinctions in view we arrive at a point which enables us to say that if the first class of expenses be met by some extraneous means (such as the Govt. grant in this instance) the necessity of laying on a speculative price remunerative of risk in the extent of sale is entirely removed and we arrive at this result—that the Public could be supplied with the work under the double advantage of participating in the lowness of price caused by the Government Contribution, and in paying for the remaining expenses no more than their net cost.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 6"
+        },
+        {
+          "body_paragraph": 7,
+          "text": "7—In now proceeding on the above principles to estimate the probable expenses attending your proposed work, and in ascertaining how far the Govt. grant of £1000 can be made instrumental in reducing the selling price of the work, we beg leave to premise, that as the state of the Materials and the nature of the work do not enable a positive estimate of each item to be formed beforehand, we can only state what we conceive will be the general average cost of the Engravings &c—& as the Engravers & Printers Bills would be submitted during the progress of the work to you for the satisfaction of Government, & would at all times be subject to your control, we presume that a general estimate of the probable sum total of the expenses will for the present purpose suffice—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 7"
+        },
+        {
+          "body_paragraph": 8,
+          "text": "8—The work you say will comprise when complete about 250 Plates & 800 pages of Letter Press of the size of “Richardsons American Zoology” & would be published in Periodical Numbers of smaller portions until the whole is finished—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 8"
+        },
+        {
+          "body_paragraph": 9,
+          "text": "9—The Expenses of the First Class (Par. 4) attending the above may be estimated as follows— diag Engraving or Lithographing 250 Plates £750 – “ – ” various subjects averaging 60/ – each Paper & Printing an edition of 500 of the Letter Press extending to about 800 pages 452 – 10 – ”",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 9"
+        },
+        {
+          "body_paragraph": 10,
+          "text": "£1202 – 10 – ”ramme",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 10"
+        },
+        {
+          "body_paragraph": 11,
+          "text": "to the liquidation of which expenses so far as it will go we propose devoting the Government grant of £1000—leaving still a sum of say £200 to be provided for by the Sales of the Work as will be subsequently explained—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 11"
+        },
+        {
+          "body_paragraph": 12,
+          "text": "10. The Expenses of the Second Class (Par 5) comprises the Plate Paper—Printing & Coloring the Plates—Charge for use of Lithographic Stones—Doing up Copies of the work—Advertising & various minor expenses—but as you cannot with any certainty decide before hand how many of the Plates may require coloring we cannot now enter into minute details with any advantage— Supposing however that a portion of the Plates are colored & the rest plain we may calculate the cost of this class of expenses as averaging £4. to £4 . 5 . ″ pr Copy—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 12"
+        },
+        {
+          "body_paragraph": 13,
+          "text": "11. It now remains to form a conclusion from the above data, what is the lowest price for which the work might be offered to the Public, & in doing so we have to consider the sum of £200 unprovided for under the head of Expenses of the First Class (Par 9)—the Cost pr Copy of the Second Class of expenses (Par 10)—the necessity of preparing a certain Number of Copies for delivery gratis to Public Institutions & others—and a provision to be made to allow of the usual deduction being made on Copies sold to the Trade, & the result of our calculation on all these points is, that the Selling Price of the whole work might be fixed at about £9– ″ – ″:—& that the Work might be advantageously brought out in 18 Nos., Each containing on an average 14 Plates—part plain & part cold,—with a proportionate quantity of the Letter Press, to sell for 10/– pr. No.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 13"
+        },
+        {
+          "body_paragraph": 14,
+          "text": "Trusting that these details may be intelligible, and with offer of every farther explanation We have the honor to be | Sir | Your most obedt Servants | Smith Elder & Coy",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 14"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "supplemental",
+          "text": "To Chas. Darwin Esqr | &c &c &c"
+        },
+        {
+          "class": "salute",
+          "text": "Sir"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Suggestions are presented respecting CD’s proposed publication of his zoological work in accordance with the Government requirement.",
+      "editorial_footnotes": "Footnotes1Richardson 1829–37.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-351",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-351.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-351.xml",
+        "retrieved_at": "2026-09-16T10:54:02.099511+00:00",
+        "sha256": "a767451d4a1dc5a92771cdcb77276101287f3cb957eadf2c57e48c38cf31ccf5",
+        "bytes": 110922,
+        "http_status": 200,
+        "etag": "\"c18eefebea7a4729b044b50e68c6d34e\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-351"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-351",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1838-01-01",
+        "xml_latest": "1838-12-31",
+        "date_structure": "bounded_range",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[1838]",
+            "attributes": {
+              "notBefore": "1838-01-01",
+              "notAfter": "1838-12-31"
+            },
+            "lower": "1838-01-01",
+            "upper": "1838-12-31",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1838-01-01\" notAfter=\"1838-12-31\">[1838]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Babbage, Charles",
+            "attributes": {
+              "key": "../nameregs/nameregs_211.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Gt Marlborough St, 36"
+        ],
+        "xml_notes": [
+          {
+            "text": "2pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-351",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Babbage",
+          "recipient_forename": "Charles",
+          "sorting_date": "1838-01-01",
+          "date": "[1838]",
+          "sender_address": "London, Gt Marlborough St, 36",
+          "recipient_address": "",
+          "source": "The British Library (Add MS 37191: 81)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-351.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 359,
+          "csv_physical_line_start": 360,
+          "csv_physical_line_end": 360,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-351.xml",
+          "xml_sha256": "1808453ed79d7ab698f81f8e1c8c670e6ccce7f432a312dda1a018e1780e52f7",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-351.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-351.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Charles Babbage [1838]1",
+      "header_text": [
+        "To Charles Babbage [1838]1"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I am very much obliged to you for sending me cards for your parties, but I am afraid of accepting them, for I should meet some people there, to whom I have sworn by all the saints in Heaven, I never go out, & should, therefore, be ashamed to meet them.— I assure you I feel very grateful for your kindness to me.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Believe me | Most sincerely yrs. | Chas. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "Wednesd Morning",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "36 Grt. Marlbro’ Stt.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Mr. Babbage"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary CD is much obliged for invitations to CB’s parties, but is afraid to accept because he would meet people to whom he has sworn he never goes out.",
+      "editorial_footnotes": "Footnotes1The paper is watermarked ‘1838’.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-357",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-357.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-357.xml",
+        "retrieved_at": "2026-09-16T10:54:02.716028+00:00",
+        "sha256": "c33cc39414f8f18b31659e5730a5641ae6fabf187dcf36865c553cb1edc67d8b",
+        "bytes": 110869,
+        "http_status": 200,
+        "etag": "\"0f2fe409da4b70f89eba8395d51fb781\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-357"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-357",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1838-01-21",
+        "xml_latest": "1838-01-21",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[21 Jan 1838]",
+            "attributes": {
+              "when": "1838-01-21"
+            },
+            "lower": "1838-01-21",
+            "upper": "1838-01-21",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1838-01-21\">[21 Jan 1838]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Babbage, Charles",
+            "attributes": {
+              "key": "../nameregs/nameregs_211.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Gt Marlborough St, 36"
+        ],
+        "xml_notes": [
+          {
+            "text": "1p",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-357",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Babbage",
+          "recipient_forename": "Charles",
+          "sorting_date": "1838-01-21",
+          "date": "[21 Jan 1838]",
+          "sender_address": "London, Gt Marlborough St, 36",
+          "recipient_address": "",
+          "source": "The British Library (Add MS 37190: 320)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-357.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 366,
+          "csv_physical_line_start": 367,
+          "csv_physical_line_end": 367,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-357.xml",
+          "xml_sha256": "61dcb2f355d6557db8f93ddc443045616bef03a3da223acf220990640a218888",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-357.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-357.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Charles Babbage [21 January 1838]1",
+      "header_text": [
+        "To Charles Babbage [21 January 1838]1"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "Will you have the kindness to take charge of the accompanying small parcel for Professor Henslow?—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "You will have cold weather for your journey.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "Yours truly obliged | Chas. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "Sunday Morning36 Gt. Marlbro’ Stt.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Mr Babbage"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Asks Babbage to take small parcel to Henslow.",
+      "editorial_footnotes": "Footnotes1Dated from the reference in the letter to J. S. Henslow, [21 January 1838], to Babbage taking CD’s parcel and letter to John Stevens Henslow.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-476",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-476.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-476.xml",
+        "retrieved_at": "2026-09-16T10:54:02.729087+00:00",
+        "sha256": "7bafc2e2b68cbd215ac3b2a1b540722a3e9ba5a74fabeed53907dba9cd92cd77",
+        "bytes": 110469,
+        "http_status": 200,
+        "etag": "\"ba0416309977a151a6161c7c0fdf607f\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-476"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-476",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1839-01-01",
+        "xml_latest": "1842-08-31",
+        "date_structure": "bounded_range",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[1839 – Aug 1842]",
+            "attributes": {
+              "notBefore": "1839-01-01",
+              "notAfter": "1842-08-31"
+            },
+            "lower": "1839-01-01",
+            "upper": "1842-08-31",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1839-01-01\" notAfter=\"1842-08-31\">[1839 – Aug 1842]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Babbage, Charles",
+            "attributes": {
+              "key": "../nameregs/nameregs_211.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Upper Gower St, 12"
+        ],
+        "xml_notes": [
+          {
+            "text": "1p",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-476",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Babbage",
+          "recipient_forename": "Charles",
+          "sorting_date": "1839-01-01",
+          "date": "[1839 – Aug 1842]",
+          "sender_address": "London, Upper Gower St, 12",
+          "recipient_address": "",
+          "source": "The British Library (Add 37191: 297)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-476.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 509,
+          "csv_physical_line_start": 512,
+          "csv_physical_line_end": 512,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-476.xml",
+          "xml_sha256": "453e02573f04a4a9bc7957d841e0eacc6824dd507136b0ba7dc5905e0b084383",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-476.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-476.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Charles Babbage [1839 – August 1842]",
+      "header_text": [
+        "To Charles Babbage [1839 – August 1842]12 Upper Gower Stt.Saturday Evening"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I am exceedingly sorry that I troubled you unnecessarily for an extension of your kind invitation, as I happen to be so unwell to day, that I am quite unable to come.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Pray excuse me having troubled you & believe me Yours very truly | Chas. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "Dear Babbage"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Is so unwell today that he is unable to come [to CB’s party].",
+      "editorial_footnotes": "",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-470",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-470.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-470.xml",
+        "retrieved_at": "2026-09-16T10:54:03.230323+00:00",
+        "sha256": "b9fbe60f60c0b695f23b68db542f738ad8eb0508cc314b061f3d52ad368f7b24",
+        "bytes": 110776,
+        "http_status": 200,
+        "etag": "\"feba6d01b3ea538bc4af0ea701285877\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-470"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-470",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1839-02-01",
+        "xml_latest": "1842-08-31",
+        "date_structure": "bounded_range",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[Feb 1839 – Aug 1842]",
+            "attributes": {
+              "notBefore": "1839-02-01",
+              "notAfter": "1842-08-31"
+            },
+            "lower": "1839-02-01",
+            "upper": "1842-08-31",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1839-02-01\" notAfter=\"1842-08-31\">[Feb 1839 – Aug 1842] </ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Babbage, Charles",
+            "attributes": {
+              "key": "../nameregs/nameregs_211.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Upper Gower St, 12"
+        ],
+        "xml_notes": [
+          {
+            "text": "1p",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-470",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Babbage",
+          "recipient_forename": "Charles",
+          "sorting_date": "1839-02-01",
+          "date": "[Feb 1839 – Aug 1842]",
+          "sender_address": "London, Upper Gower St, 12",
+          "recipient_address": "",
+          "source": "The British Library (Add MS 37191: 298)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-470.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 503,
+          "csv_physical_line_start": 506,
+          "csv_physical_line_end": 506,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-470.xml",
+          "xml_sha256": "a59dc2a909895761bdc6da3060362c3bb0fe3333155721cceac2bf3417b27c37",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-470.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-470.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Charles Babbage [February 1839 – August 1842]",
+      "header_text": [
+        "To Charles Babbage [February 1839 – August 1842]12 Upper Gower Stt.—"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "Will you have the kindness to excuse me, once again asking your permission to bring with Mrs. Darwin and myself, to your party on Saturday Evening, a relative of ours, Miss Allen of Cresselly, who is staying with us.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Believe me | Very truly yours | Chas. Darwin Thursday.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Mr Babbage"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Asks permission to bring Fanny Allen to CB’s party.",
+      "editorial_footnotes": "Footnotes1Frances (Fanny) Allen.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-479",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-479.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-479.xml",
+        "retrieved_at": "2026-09-16T10:54:03.244730+00:00",
+        "sha256": "e223301a62904a5f6778c0b97d4052d9fb2dd7187a668a1f5ae5c8ee86213534",
+        "bytes": 110420,
+        "http_status": 200,
+        "etag": "\"f5a1567f2c36518cd20442a3d65bca6a\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-479"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-479",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1839-02-19",
+        "xml_latest": "1842-08-19",
+        "date_structure": "alternative_dates",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "19 Feb 1839",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date1",
+              "when": "1839-02-19",
+              "exclude": "#date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1839-02-19",
+            "upper": "1839-02-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date1\" when=\"1839-02-19\" exclude=\"#date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Feb 1839</ns0:date>"
+          },
+          {
+            "text": "19 Mar 1839",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date2",
+              "when": "1839-03-19",
+              "exclude": "#date1 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1839-03-19",
+            "upper": "1839-03-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date2\" when=\"1839-03-19\" exclude=\"#date1 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Mar 1839</ns0:date>"
+          },
+          {
+            "text": "19 Apr 1839",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date3",
+              "when": "1839-04-19",
+              "exclude": "#date1 #date2 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1839-04-19",
+            "upper": "1839-04-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date3\" when=\"1839-04-19\" exclude=\"#date1 #date2 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Apr 1839</ns0:date>"
+          },
+          {
+            "text": "19 May 1839",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date4",
+              "when": "1839-05-19",
+              "exclude": "#date1 #date2 #date3 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1839-05-19",
+            "upper": "1839-05-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date4\" when=\"1839-05-19\" exclude=\"#date1 #date2 #date3 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 May 1839</ns0:date>"
+          },
+          {
+            "text": "19 June 1839",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date5",
+              "when": "1839-06-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1839-06-19",
+            "upper": "1839-06-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date5\" when=\"1839-06-19\" exclude=\"#date1 #date2 #date3 #date4 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 June 1839</ns0:date>"
+          },
+          {
+            "text": "19 July 1839",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date6",
+              "when": "1839-07-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1839-07-19",
+            "upper": "1839-07-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date6\" when=\"1839-07-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 July 1839</ns0:date>"
+          },
+          {
+            "text": "19 Aug 1839",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date7",
+              "when": "1839-08-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1839-08-19",
+            "upper": "1839-08-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date7\" when=\"1839-08-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Aug 1839</ns0:date>"
+          },
+          {
+            "text": "19 Sept 1839",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date8",
+              "when": "1839-09-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1839-09-19",
+            "upper": "1839-09-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date8\" when=\"1839-09-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Sept 1839</ns0:date>"
+          },
+          {
+            "text": "19 Oct 1839",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date9",
+              "when": "1839-10-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1839-10-19",
+            "upper": "1839-10-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date9\" when=\"1839-10-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Oct 1839</ns0:date>"
+          },
+          {
+            "text": "19 Nov 1839",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date10",
+              "when": "1839-11-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1839-11-19",
+            "upper": "1839-11-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date10\" when=\"1839-11-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Nov 1839</ns0:date>"
+          },
+          {
+            "text": "19 Dec 1839",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date11",
+              "when": "1839-12-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1839-12-19",
+            "upper": "1839-12-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date11\" when=\"1839-12-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Dec 1839</ns0:date>"
+          },
+          {
+            "text": "19 Jan 1840",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date12",
+              "when": "1840-01-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1840-01-19",
+            "upper": "1840-01-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date12\" when=\"1840-01-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Jan 1840</ns0:date>"
+          },
+          {
+            "text": "19 Feb 1840",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date13",
+              "when": "1840-02-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1840-02-19",
+            "upper": "1840-02-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date13\" when=\"1840-02-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Feb 1840</ns0:date>"
+          },
+          {
+            "text": "19 Mar 1840",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date14",
+              "when": "1840-03-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1840-03-19",
+            "upper": "1840-03-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date14\" when=\"1840-03-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Mar 1840</ns0:date>"
+          },
+          {
+            "text": "19 Apr 1840",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date15",
+              "when": "1840-04-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1840-04-19",
+            "upper": "1840-04-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date15\" when=\"1840-04-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Apr 1840</ns0:date>"
+          },
+          {
+            "text": "19 May 1840",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date16",
+              "when": "1840-05-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1840-05-19",
+            "upper": "1840-05-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date16\" when=\"1840-05-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 May 1840</ns0:date>"
+          },
+          {
+            "text": "19 June 1840",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date17",
+              "when": "1840-06-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1840-06-19",
+            "upper": "1840-06-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date17\" when=\"1840-06-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 June 1840</ns0:date>"
+          },
+          {
+            "text": "19 July 1840",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date18",
+              "when": "1840-07-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1840-07-19",
+            "upper": "1840-07-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date18\" when=\"1840-07-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 July 1840</ns0:date>"
+          },
+          {
+            "text": "19 Aug 1840",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date19",
+              "when": "1840-08-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1840-08-19",
+            "upper": "1840-08-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date19\" when=\"1840-08-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Aug 1840</ns0:date>"
+          },
+          {
+            "text": "19 Sept 1840",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date20",
+              "when": "1840-09-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1840-09-19",
+            "upper": "1840-09-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date20\" when=\"1840-09-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Sept 1840</ns0:date>"
+          },
+          {
+            "text": "19 Oct 1840",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date21",
+              "when": "1840-10-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1840-10-19",
+            "upper": "1840-10-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date21\" when=\"1840-10-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Oct 1840</ns0:date>"
+          },
+          {
+            "text": "19 Nov 1840",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date22",
+              "when": "1840-11-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1840-11-19",
+            "upper": "1840-11-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date22\" when=\"1840-11-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Nov 1840</ns0:date>"
+          },
+          {
+            "text": "19 Dec 1840",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date23",
+              "when": "1840-12-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1840-12-19",
+            "upper": "1840-12-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date23\" when=\"1840-12-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Dec 1840</ns0:date>"
+          },
+          {
+            "text": "19 Jan 1841",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date24",
+              "when": "1841-01-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1841-01-19",
+            "upper": "1841-01-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date24\" when=\"1841-01-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Jan 1841</ns0:date>"
+          },
+          {
+            "text": "19 Feb 1841",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date25",
+              "when": "1841-02-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1841-02-19",
+            "upper": "1841-02-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date25\" when=\"1841-02-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Feb 1841</ns0:date>"
+          },
+          {
+            "text": "19 Mar 1841",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date26",
+              "when": "1841-03-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1841-03-19",
+            "upper": "1841-03-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date26\" when=\"1841-03-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Mar 1841</ns0:date>"
+          },
+          {
+            "text": "19 Apr 1841",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date27",
+              "when": "1841-04-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1841-04-19",
+            "upper": "1841-04-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date27\" when=\"1841-04-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Apr 1841</ns0:date>"
+          },
+          {
+            "text": "19 May 1841",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date28",
+              "when": "1841-05-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1841-05-19",
+            "upper": "1841-05-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date28\" when=\"1841-05-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 May 1841</ns0:date>"
+          },
+          {
+            "text": "19 June 1841",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date29",
+              "when": "1841-06-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1841-06-19",
+            "upper": "1841-06-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date29\" when=\"1841-06-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 June 1841</ns0:date>"
+          },
+          {
+            "text": "19 July 1841",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date30",
+              "when": "1841-07-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1841-07-19",
+            "upper": "1841-07-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date30\" when=\"1841-07-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 July 1841</ns0:date>"
+          },
+          {
+            "text": "19 Aug 1841",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date31",
+              "when": "1841-08-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1841-08-19",
+            "upper": "1841-08-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date31\" when=\"1841-08-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Aug 1841</ns0:date>"
+          },
+          {
+            "text": "19 Sept 1841",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date32",
+              "when": "1841-09-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1841-09-19",
+            "upper": "1841-09-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date32\" when=\"1841-09-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Sept 1841</ns0:date>"
+          },
+          {
+            "text": "19 Oct 1841",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date33",
+              "when": "1841-10-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1841-10-19",
+            "upper": "1841-10-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date33\" when=\"1841-10-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Oct 1841</ns0:date>"
+          },
+          {
+            "text": "19 Nov 1841",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date34",
+              "when": "1841-11-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1841-11-19",
+            "upper": "1841-11-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date34\" when=\"1841-11-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Nov 1841</ns0:date>"
+          },
+          {
+            "text": "19 Dec 1841",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date35",
+              "when": "1841-12-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1841-12-19",
+            "upper": "1841-12-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date35\" when=\"1841-12-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date36 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Dec 1841</ns0:date>"
+          },
+          {
+            "text": "19 Jan 1842",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date36",
+              "when": "1842-01-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date37 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1842-01-19",
+            "upper": "1842-01-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date36\" when=\"1842-01-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date37 #date38 #date39 #date40 #date41 #date42 #date43\">19 Jan 1842</ns0:date>"
+          },
+          {
+            "text": "19 Feb 1842",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date37",
+              "when": "1842-02-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date38 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1842-02-19",
+            "upper": "1842-02-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date37\" when=\"1842-02-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date38 #date39 #date40 #date41 #date42 #date43\">19 Feb 1842</ns0:date>"
+          },
+          {
+            "text": "19 Mar 1842",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date38",
+              "when": "1842-03-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date39 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1842-03-19",
+            "upper": "1842-03-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date38\" when=\"1842-03-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date39 #date40 #date41 #date42 #date43\">19 Mar 1842</ns0:date>"
+          },
+          {
+            "text": "19 Apr 1842",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date39",
+              "when": "1842-04-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date40 #date41 #date42 #date43"
+            },
+            "lower": "1842-04-19",
+            "upper": "1842-04-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date39\" when=\"1842-04-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date40 #date41 #date42 #date43\">19 Apr 1842</ns0:date>"
+          },
+          {
+            "text": "19 May 1842",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date40",
+              "when": "1842-05-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date41 #date42 #date43"
+            },
+            "lower": "1842-05-19",
+            "upper": "1842-05-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date40\" when=\"1842-05-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date41 #date42 #date43\">19 May 1842</ns0:date>"
+          },
+          {
+            "text": "19 June 1842",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date41",
+              "when": "1842-06-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date42 #date43"
+            },
+            "lower": "1842-06-19",
+            "upper": "1842-06-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date41\" when=\"1842-06-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date42 #date43\">19 June 1842</ns0:date>"
+          },
+          {
+            "text": "19 July 1842",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date42",
+              "when": "1842-07-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date43"
+            },
+            "lower": "1842-07-19",
+            "upper": "1842-07-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date42\" when=\"1842-07-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date43\">19 July 1842</ns0:date>"
+          },
+          {
+            "text": "19 Aug 1842",
+            "attributes": {
+              "{http://www.w3.org/XML/1998/namespace}id": "date43",
+              "when": "1842-08-19",
+              "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42"
+            },
+            "lower": "1842-08-19",
+            "upper": "1842-08-19",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date43\" when=\"1842-08-19\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13 #date14 #date15 #date16 #date17 #date18 #date19 #date20 #date21 #date22 #date23 #date24 #date25 #date26 #date27 #date28 #date29 #date30 #date31 #date32 #date33 #date34 #date35 #date36 #date37 #date38 #date39 #date40 #date41 #date42\">19 Aug 1842</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Babbage, Charles",
+            "attributes": {
+              "key": "../nameregs/nameregs_211.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Upper Gower St, 12"
+        ],
+        "xml_notes": [
+          {
+            "text": "2pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-479",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Babbage",
+          "recipient_forename": "Charles",
+          "sorting_date": "1839-02-19",
+          "date": "19 [Feb 1839 - Aug 1842]",
+          "sender_address": "London, Upper Gower St, 12",
+          "recipient_address": "",
+          "source": "The British Library (Add MS 37191: 299)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-479.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 513,
+          "csv_physical_line_start": 516,
+          "csv_physical_line_end": 516,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-479.xml",
+          "xml_sha256": "e9599cf4470f40a4909b3df49b9900e3b54f1de86b0a2c322ce4935d8c6d1786",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-479.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-479.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Charles Babbage 19 [February 1839 – August 1842]",
+      "header_text": [
+        "To Charles Babbage 19 [February 1839 – August 1842]"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "My sister is at present staying with us, will you be so kind as to allow me to bring her to your party on Saturday, that she may see the World. —",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Ever Yours | Most truly | Chas. Darwin 12 Upper Gower St",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "19th.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Sir"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Asks to be allowed to bring his sister to CB’s party \"that she may see the World\".",
+      "editorial_footnotes": "",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-517",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-517.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-517.xml",
+        "retrieved_at": "2026-09-16T10:54:03.984967+00:00",
+        "sha256": "8a77e06a03af33dae58a39217c292061d4722f84f317f3f9d9bc8133be3ab9bb",
+        "bytes": 112135,
+        "http_status": 200,
+        "etag": "\"30b3c731bede34c0767ac369000a90ac\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-517"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-517",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1839-06-06",
+        "xml_latest": "1839-06-06",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "6 June [1839]",
+            "attributes": {
+              "when": "1839-06-06"
+            },
+            "lower": "1839-06-06",
+            "upper": "1839-06-06",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1839-06-06\">6 June [1839]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Smith, Elder & Co.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4407.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Upper Gower St, 12"
+        ],
+        "xml_notes": [
+          {
+            "text": "1p †",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-517",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Smith, Elder & Co",
+          "recipient_forename": "",
+          "sorting_date": "1839-06-06",
+          "date": "6 June [1839]",
+          "sender_address": "London, Upper Gower St, 12",
+          "recipient_address": "",
+          "source": "Wellcome Collection",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-517.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 558,
+          "csv_physical_line_start": 561,
+          "csv_physical_line_end": 561,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-517.xml",
+          "xml_sha256": "262de2387010931818a72b4cdc0c1dbd927daf9d6e61476e0959946023cf7b04",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-517.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-517.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Mr Folthorp of Smith, Elder & Co. 6 June [1839]",
+      "header_text": [
+        "To Mr Folthorp of Smith, Elder & Co. 6 June [1839]"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I have heard from the Treasury, & they will pay you the account as soon as you like",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Chas Darwin June 6th.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "12 Upper Gower St.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "Dear Sir"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary CD has heard from the Treasury; they will pay the account [for the Zoology] as soon as Smith, Elder & Co. like.",
+      "editorial_footnotes": "Footnotes1There are annotations at the top of the letter probably made by Folthorp: No. 7– 57 . 16 . 11 8– 51 . 16 . 2 ———— 109 . 13 . 1 These refer to the accounts rendered by Smith, Elder & Co. for the two most recent numbers of Zoology; the expenses for No. 7 (Fossil Mammalia, No. 2) and for No. 8 (Fossil Mammalia, No. 3). See letter to A. Y. Spearman, 27 May 1839, n. 1. At the foot of the page, in the same hand: Qy Smiths No 5. 52 . 15 . This probably refers to a query about number 5 of Andrew Smith’s Illustrations of the zoology of South Africa, also published by Smith, Elder & Co. with a grant from the Treasury.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-474",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-474.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-474.xml",
+        "retrieved_at": "2026-09-16T10:54:03.683143+00:00",
+        "sha256": "57a337125cca1c805016298cecfd86b2685ac5153f89d4202281d41d7b76a685",
+        "bytes": 110944,
+        "http_status": 200,
+        "etag": "\"da2088f97e4d83e2bec1b430a4bffcfe\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-474"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-474",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1839-10-01",
+        "xml_latest": "1842-08-31",
+        "date_structure": "bounded_range",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": false,
+        "exact_order_needs_review": true,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[Oct 1839 – Aug 1842]",
+            "attributes": {
+              "notBefore": "1839-10-01",
+              "notAfter": "1842-08-31"
+            },
+            "lower": "1839-10-01",
+            "upper": "1842-08-31",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1839-10-01\" notAfter=\"1842-08-31\">[Oct 1839 – Aug 1842] </ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Babbage, Charles",
+            "attributes": {
+              "key": "../nameregs/nameregs_211.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Upper Gower St, 12"
+        ],
+        "xml_notes": [
+          {
+            "text": "2pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-474",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Babbage",
+          "recipient_forename": "Charles",
+          "sorting_date": "1839-10-01",
+          "date": "[Oct 1839 – Aug 1842]",
+          "sender_address": "London, Upper Gower St, 12",
+          "recipient_address": "",
+          "source": "The British Library (Add MS 37191: 296)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-474.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 507,
+          "csv_physical_line_start": 510,
+          "csv_physical_line_end": 510,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-474.xml",
+          "xml_sha256": "a9af80ae8f8fea2237a31cb6a422cb539e489355531ba6c0ac64d9372eba6cc2",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-474.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-474.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Charles Babbage [October 1839 – August 1842]",
+      "header_text": [
+        "To Charles Babbage [October 1839 – August 1842]12 Upper Gower StFriday"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I am very much obliged to you for your several cards which you have so kindly sent us, & which I should have had greater pleasure in accepting than any other parties, had not I found by dear-bought experience that my health will not at present stand going out in the evening.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "I am going to take a liberty, which I trust you will excuse; it is to ask permission for my sister who is staying with us to accompany my brother, whom I understand you have also kindly asked, to your party tomorrow evening: Mrs. Darwin not being well enough to go out at present.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "Believe me | My dear Sir | Yours very truly obliged | C. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Mr. Babbage"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Regrets he cannot accept invitation. \"My health will not at present stand going out in the evenings.\"",
+      "editorial_footnotes": "",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-553",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-553.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-553.xml",
+        "retrieved_at": "2026-09-16T10:54:04.842842+00:00",
+        "sha256": "2231186b0c58fc96175c8d326c60602799c90db93ab0cf1ff6399de3ca4a0b61",
+        "bytes": 112310,
+        "http_status": 200,
+        "etag": "\"6247038184b8a7640f75355f8239ea7e\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-553"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-553",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1840-02-06",
+        "xml_latest": "1840-02-06",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[6 Feb 1840]",
+            "attributes": {
+              "when": "1840-02-06"
+            },
+            "lower": "1840-02-06",
+            "upper": "1840-02-06",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1840-02-06\">[6 Feb 1840]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Smith, Elder & Co.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4407.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Upper Gower St, 12"
+        ],
+        "xml_notes": [
+          {
+            "text": "1p",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-553",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Smith, Elder & Co",
+          "recipient_forename": "",
+          "sorting_date": "1840-02-06",
+          "date": "[6 Feb 1840]",
+          "sender_address": "London, Upper Gower St, 12",
+          "recipient_address": "",
+          "source": "American Philosophical Society (Mss.B.D25.)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-553.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 602,
+          "csv_physical_line_start": 605,
+          "csv_physical_line_end": 605,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-553.xml",
+          "xml_sha256": "e138942975fbb0b71a7dc476f96da258241d944d2b830b06aec70e0669a91e25",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-553.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-553.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Mr Folthorp of Smith, Elder & Co. [6 February 1840]1",
+      "header_text": [
+        "To Mr Folthorp of Smith, Elder & Co. [6 February 1840]112 Upper Gower St"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "Being unwell yesterday, I did not read your note.— But I will make up for lost time as quickly as I can, by at once sending off the M.S.— Please not to let it go from you.—till you hear or see me— The enclosed will serve as a specimen.— I wish to know the cost per thousand, words —I providing Paper.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Yours truly | Chas. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "Dear Sir"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Sends MS [of Coral reefs?] to be copied.",
+      "editorial_footnotes": "Footnotes1Date inserted by Folthorp.2Possibly the manuscript of a part of the Zoology or of Coral reefs, which CD had been writing since October 1838, with many interruptions due to ill health.3On the recto of this letter is noted ‘Pages 1 to 40 given to Mr Herring’ and on the verso ‘Darwin with MS to copy’. CD’s Account Book (Down House MS) has an entry on 19 February 1840: ‘Mr Herring Poetry 2/6’. No other payment is listed in later entries, which suggests that the copyist was paid by Smith, Elder & Co., the publishers of the Zoology and Coral reefs.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-570",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-570.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-570.xml",
+        "retrieved_at": "2026-09-16T10:54:04.023965+00:00",
+        "sha256": "8e4b92d16bf47f31d9add0b689cb061df03e29fba6bfd9d5ceb1fd86a4e82e4d",
+        "bytes": 111477,
+        "http_status": 200,
+        "etag": "\"6e6f80b6a8e4136e16243f100c251b2d\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-570"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-570",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1840-05-26",
+        "xml_latest": "1840-05-26",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "26 May [1840]",
+            "attributes": {
+              "when": "1840-05-26"
+            },
+            "lower": "1840-05-26",
+            "upper": "1840-05-26",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1840-05-26\">26 May [1840]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Babbage, Charles",
+            "attributes": {
+              "key": "../nameregs/nameregs_211.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London, Upper Gower St, 12"
+        ],
+        "xml_notes": [
+          {
+            "text": "3pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-570",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Babbage",
+          "recipient_forename": "Charles",
+          "sorting_date": "1840-05-26",
+          "date": "26 May [1840]",
+          "sender_address": "London, Upper Gower St, 12",
+          "recipient_address": "",
+          "source": "The British Library (Add MS 37191: 294–5)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-570.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 627,
+          "csv_physical_line_start": 630,
+          "csv_physical_line_end": 630,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-570.xml",
+          "xml_sha256": "8a6945edfb316d7d9ebd2b4f7f142663e286f90c998d67dd6fc63ed1de37f013",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-570.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-570.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Charles Babbage 26 May [1840]",
+      "header_text": [
+        "To Charles Babbage 26 May [1840]12 Upper Gower StMay 26th.—"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I have called with this note to beg a favour of you. M. Sismondi, the historian & Madam Sismondi (my wife’s aunt) have just arrived in England and are coming together with Miss Allen to stay with us, would you, therefore, permit us to bring them to the parties, you have been kind enough to ask us to.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "My sisters have left town, & therefore will be deprived of the pleasure of accepting your kind invitation to them.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "With many thanks | Believe me | My dear Sir | Yours very truly | Charles Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "My dear Sir"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Asks if he can bring his guests, J. C. L. and Mme [Simonde de] Sismondi and [Fanny] Allen, to CB’s parties.",
+      "editorial_footnotes": "Footnotes1According to Emma Darwin (1915) 2: 54, CD was not well enough to receive Emma’s aunt and her husband, the Swiss historian, but the house was lent to them when the Darwins left London for Maer early in June.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-629A",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-629A.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-629A.xml",
+        "retrieved_at": "2026-09-16T10:54:04.610929+00:00",
+        "sha256": "cb2d252f1d77e9eee380fc5339b50b2264f75e3b60381582bcca647fa560dead",
+        "bytes": 116263,
+        "http_status": 200,
+        "etag": "\"55f161c30763d07bbbb8168c396a6e84\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-629A"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-629A",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1842-05-17",
+        "xml_latest": "1842-05-17",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[17 May 1842]",
+            "attributes": {
+              "when": "1842-05-17"
+            },
+            "lower": "1842-05-17",
+            "upper": "1842-05-17",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1842-05-17\">[17 May 1842]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Smith, Elder & Co.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4407.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "London"
+        ],
+        "xml_notes": [
+          {
+            "text": "4pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-629A",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Smith, Elder & Co",
+          "recipient_forename": "",
+          "sorting_date": "1842-05-17",
+          "date": "[17 May 1842]",
+          "sender_address": "London",
+          "recipient_address": "",
+          "source": "Christie’s (dealers) (7 December 1988); Gerard A. J. Stodolski (dealer) (April 2014)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-629A.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 702,
+          "csv_physical_line_start": 705,
+          "csv_physical_line_end": 705,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-629A.xml",
+          "xml_sha256": "adae4f43e29efebd8c4064c111a799dee308050fb3783cdc5772bd8903f56974",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-629A.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-629A.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Smith, Elder & Co. [17 May 1842]1",
+      "header_text": [
+        "To Smith, Elder & Co. [17 May 1842]1[12 Upper Gower Street, London.]Tuesday"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "In case my message was not intelligible, I write to say that my last note expressed exactly what I wanted.— Will you, therefore, send copies to the Athenaeum, Edinburgh Review, Jameson Phil. Journ. & Taylor’s Phil. Journ.— You can write from the author on the first page if you please. I did not give the names of those, to whom I have sent the other copies, because I thought it did not signify, they are either people who had materially aided me or foreigners, who I thought by noticing the work, would aid its sale. The four copies sent from private friendship you say you have charged to my private account, which is all right. So 21 copies (instead of 20 as originally proposed, the change caused by the addition of Silliman) have been sent gratuitously,—and this is exactly as I always intended, & as was allowed for in the estimate.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "I am sorry you have had all this trouble.— I hope you will distribute the copies soon.— I took two copies for Societies in Paris to Bailliere & he seemed inclined to send some on his own account:—possibly this might be worth looking to.— I leave Town tomorrow morning—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "Yours very faithfully | C. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "The copy for Dr Allan of Forres in Scotland might be sent to Edinburgh & then forwarded (if there be any difficulty on this head) by coach, he paying the carriage.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "Dear Sir"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Gives instructions for sending out copies of Coral reefs to various journals. Discusses the complimentary copies which have already been sent out.",
+      "editorial_footnotes": "Footnotes1The date is inferred from the discussion of the distribution of one of CD’s works. The reference to ‘Dr. Allan of Forres’ indicates that this was Coral reefs (see n. 5, below). Coral reefs was published in May 1842. CD left London (see n. 6, below) on 18 May. Parts of this letter were published in Correspondence vol. 7, Supplement; the complete text has been reconstructed from a mixture of transcriptions and facsimiles from the website of Gerard A. J. Stodolski, Inc. (dealer) and the Christie’s catalogue, 7 December 1988, p. 122. The footnotes that appeared in vol. 7 supplement have been altered.2This note has not been found.3The Edinburgh New Philosophical Journal was edited by Robert Jameson and David Brewster. The London, Edinburgh and Dublin Philosophical Magazine was edited by Richard Taylor. According to CD’s list of presentation copies for Coral reefs (DAR 69: A108), in addition to the four journals listed in the letter, the Scotsman was also to receive a review copy.4According to CD’s list of presentation copies, dated ‘May 10/1842/’ (DAR 69: A108), ten copies were sent to friends and geologists, five to ‘Public Libraries’ (that is, to university libraries and the British Museum), three to scientific societies, and six to journals, and one was for himself, bringing the total to ‘25 copies some of which to my account’. ‘Sillimans Journal’ is included in the list (a reference to the American Journal of Science and Arts, edited by Benjamin Silliman Sr), but no review of Coral reefs was published there. CD’s copy of Coral reefs is in the Rare Books Department, University Library, Cambridge.5Hippolyte Baillière was a bookseller and publisher in London who specialised in French medical and scientific works; the only French society mentioned on the presentation list for Coral reefs was the Geological Society of Paris (DAR 69: A108).6CD left London on 18 May 1842, and did not return until 18 July (Correspondence vol. 2, Appendix II).7CD had received information from James Brands Allan on coral formations in the Indian Ocean via John Grant Malcolmson (see Correspondence vol. 2, letters from J. G. Malcolmson, 7 October 1839 and 30 November 1839). CD cited Allan’s account in Coral reefs, pp. 185–6.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-658",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-658.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-658.xml",
+        "retrieved_at": "2026-09-16T10:54:04.700102+00:00",
+        "sha256": "9667288f922a9ce88adda1db1f7bb3b72ea2d5ac406a4f612cd5b2b9a6dd1796",
+        "bytes": 112079,
+        "http_status": 200,
+        "etag": "\"605576015155ded822d9a720852dcca0\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-658"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-658",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1843-01-14",
+        "xml_latest": "1843-01-14",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[14 Jan 1843]",
+            "attributes": {
+              "when": "1843-01-14"
+            },
+            "lower": "1843-01-14",
+            "upper": "1843-01-14",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1843-01-14\">[14 Jan 1843]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Smith, Elder & Co.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4407.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "Down"
+        ],
+        "xml_notes": [
+          {
+            "text": "3pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-658",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Smith, Elder & Co",
+          "recipient_forename": "",
+          "sorting_date": "1843-01-14",
+          "date": "[14 Jan 1843]",
+          "sender_address": "Down",
+          "recipient_address": "",
+          "source": "American Philosophical Society (Mss.B.D25.)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-658.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 731,
+          "csv_physical_line_start": 734,
+          "csv_physical_line_end": 734,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-658.xml",
+          "xml_sha256": "058b2e34ccb38370228ce0980f2748592a181dca36321618a8b7e568baf4c98b",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-658.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-658.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Smith, Elder & Co. [14 January 1843]",
+      "header_text": [
+        "To Smith, Elder & Co. [14 January 1843]Down near Bromley | KentSaturday"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "Will you be so good as to send me in your account.— You will have to allow me for the Woodcuts, which I paid myself.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Mr Bells most unfortunate & long illness has delayed the last number of Reptiles— Just before he was taken ill, I saw most of the M.S. ready.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "When you next see Mr. Hinds will you be so good as to inform him of this delay, as he wished to know, when next number wd appear.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "I am very glad Mr. Hinds is going to publish with you.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "body_paragraph": 5,
+          "text": "Yours very faithfully | C. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 5"
+        },
+        {
+          "body_paragraph": 6,
+          "text": "P.S. I shd like to know amount of sale of the Coral Volume",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 6"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "Dear SIr"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Asks for account. Discusses delay of Reptiles by Thomas Bell. Asks them to inform R. B. Hinds of delay.",
+      "editorial_footnotes": "Footnotes1Reptiles appeared in two numbers in August 1842 and October 1843.2Richard Brinsley Hinds. The publication referred to is Hinds, ed. 1844.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-659",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-659.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-659.xml",
+        "retrieved_at": "2026-09-16T10:54:05.030610+00:00",
+        "sha256": "f7a5b850e91c5d1e5f16c79f1d281783b9f8537e34729e33db646a05b0e46f53",
+        "bytes": 113300,
+        "http_status": 200,
+        "etag": "\"90b2ab29d7d251b66053ff480fdc9ea8\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-659"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-659",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1843-01-21",
+        "xml_latest": "1843-01-21",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "21 Jan [1843]",
+            "attributes": {
+              "when": "1843-01-21"
+            },
+            "lower": "1843-01-21",
+            "upper": "1843-01-21",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1843-01-21\">21 Jan [1843]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Smith, Elder & Co.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4407.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "Down"
+        ],
+        "xml_notes": [
+          {
+            "text": "3pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-659",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Smith, Elder & Co",
+          "recipient_forename": "",
+          "sorting_date": "1843-01-21",
+          "date": "21 Jan [1843]",
+          "sender_address": "Down",
+          "recipient_address": "",
+          "source": "The New York Public Library. Astor, Lenox and Tilden Foundations. The Henry W. and Albert A. Berg Collection of English and American Literature.",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-659.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 732,
+          "csv_physical_line_start": 735,
+          "csv_physical_line_end": 735,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-659.xml",
+          "xml_sha256": "fed2f3d56d753cdfd5745ed73bc9ce797fbf5ad00c8c80dacd755c25552cd545",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-659.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-659.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Smith, Elder & Co. 21 January [1843]",
+      "header_text": [
+        "To Smith, Elder & Co. 21 January [1843]Down Bromley | KentJan 21st"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I am obliged for your account, which I will settle, the first time I call.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "I pretty well satisfied with sale of Coral Volume, for I feel certain, every now & then copies will go off for many years to come—but whether quick enough to pay the 60£ with its interest, I am sure I do not know— When we can get the Zoology finished, the sale of that I hope, will help matters.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "Do you know Editor of the Athenæum; I am surprised they have not noticed the Coral Volume.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "Please to send Dr. A. Smiths number to care of E. Darwins, 43 Grt. Marlborough St.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "body_paragraph": 5,
+          "text": "Mr. Hinds address is",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 5"
+        },
+        {
+          "body_paragraph": 6,
+          "text": "29 Alfred Place",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 6"
+        },
+        {
+          "body_paragraph": 7,
+          "text": "Bedford Square",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 7"
+        },
+        {
+          "body_paragraph": 8,
+          "text": "Yours very faithfully | C. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 8"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "Dear Sir"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Discusses his account. Sends addresses [for subscribers to Zoology].",
+      "editorial_footnotes": "Footnotes1CD and Smith, Elder & Co. had advanced an unspecified sum to cover the expenses of publishing Coral reefs; by this time it was clear that the government grant of £1000 would not cover even the costs of Zoology. See Freeman 1977, p. 26 and letter to A. Y. Spearman, 9 October 1843.2Charles Wentworth Dilke edited the Athenæum from 1830 to 1846. No notice of Coral reefs appeared in the Athenæum.3This refers to a number of Andrew Smith’s Illustrations of the zoology of South Africa (A. Smith 1838–49), published by Smith, Elder & Co. which, when complete, came to five volumes.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-677A",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-677A.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-677A.xml",
+        "retrieved_at": "2026-09-16T10:54:05.294959+00:00",
+        "sha256": "3f182f93fc0bb12ce9a5bd0538377ce802d74506b2555ea2c2494a898f844441",
+        "bytes": 111290,
+        "http_status": 200,
+        "etag": "\"10ce4f99c03070869022c53f14025241\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-677A"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-677A",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1843-06-29",
+        "xml_latest": "1843-06-29",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "29 June [1843]",
+            "attributes": {
+              "when": "1843-06-29"
+            },
+            "lower": "1843-06-29",
+            "upper": "1843-06-29",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1843-06-29\">29 June [1843]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Smith, Elder & Co.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4407.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "Down"
+        ],
+        "xml_notes": [
+          {
+            "text": "ALS",
+            "attributes": {
+              "type": "description"
+            }
+          },
+          {
+            "text": "1p",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          },
+          {
+            "text": "JY 1 1843",
+            "attributes": {
+              "type": "postmark"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-677A",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Smith, Elder & Co",
+          "recipient_forename": "",
+          "sorting_date": "1843-06-29",
+          "date": "29 June [1843]",
+          "sender_address": "Down",
+          "recipient_address": "",
+          "source": "Kenneth W. Rendell (dealer) (1990)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-677A.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 756,
+          "csv_physical_line_start": 759,
+          "csv_physical_line_end": 759,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-677A.xml",
+          "xml_sha256": "caa83578a6787d2ee9b1c1f4d4cf5cadd5a8d1264f8a2b47e38a7bb3a81bf453",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-677A.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-677A.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Smith, Elder, and Company 29 June [1843]",
+      "header_text": [
+        "To Smith, Elder, and Company 29 June [1843]Down. | Bromley | KentJune 29th"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "Would you so far oblige me as to inform me, whether you have the means to send (at the expence of not more than a few shillings) two quarto pamphlets to a Professor at Massachussetts in the United States— I am anxious to send to him two Papers of mine & have no notion how to effect it.",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Excuse me troubling you & believe me Yours very faithfully | C. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "Dear Sir"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Requests information as to means of sending two pamphlets to a professor in the United States.",
+      "editorial_footnotes": "Footnotes1Neither the papers referred to nor their intended recipient have been identified, although it is possible that CD wished to send copies of his geological papers to Edward Hitchcock of Amherst College. At this time, CD did not know Asa Gray, professor of botany at Harvard.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-702",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-702.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-702.xml",
+        "retrieved_at": "2026-09-16T10:54:05.656130+00:00",
+        "sha256": "5c7da60308117d81cc8d1f60042ca7d0e95c8f427e8e87faa1909f7298f4af0c",
+        "bytes": 113942,
+        "http_status": 200,
+        "etag": "\"7eb5bb61fc658f12119d26c35a41fe1f\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-702"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-702",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1843-10-09",
+        "xml_latest": "1843-10-09",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "[9 Oct 1843]",
+            "attributes": {
+              "when": "1843-10-09"
+            },
+            "lower": "1843-10-09",
+            "upper": "1843-10-09",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1843-10-09\">[9 Oct 1843]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Smith, Elder & Co.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4407.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "Down"
+        ],
+        "xml_notes": [
+          {
+            "text": "4pp",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-702",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Smith, Elder & Co",
+          "recipient_forename": "",
+          "sorting_date": "1843-10-09",
+          "date": "[9 Oct 1843]",
+          "sender_address": "Down",
+          "recipient_address": "",
+          "source": "Sotheby’s (dealers) (23–4 July 1979)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-702.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 785,
+          "csv_physical_line_start": 788,
+          "csv_physical_line_end": 788,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-702.xml",
+          "xml_sha256": "f1f51be57d88dde534a4fa54aee6ef33486616ae5c3d21e9418858176619d952",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-702.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-702.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Smith, Elder & Co. [9 October 1843]",
+      "header_text": [
+        "To Smith, Elder & Co. [9 October 1843]Down Bromley KentMonday"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "Thank you for informing me about the Box",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "I have forwarded your account to the Treasury & will inform you when I receive an answer.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        },
+        {
+          "body_paragraph": 3,
+          "text": "I was going to suggest advertisements to you in the leading Papers.— the extent I leave to your discretion— I shd think it wd not be worth while to specify the several Parts, but merely prominently put forward “the Completion of the Zoology of the Voyage of the Beagle under the superintendence of C. Darwin &c &c” But I leave this to your better judgment: Would it be worth while to add “with — quarto engravings”?",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 3"
+        },
+        {
+          "body_paragraph": 4,
+          "text": "I presume you wd advertise at same time in single line “The Structure & distribution of Coral Reefs by Charles Darwin”—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 4"
+        },
+        {
+          "body_paragraph": 5,
+          "text": "My second little work on “Volcanic Islands” is almost ready for press; indeed I could send it in a fortnight’s time.— As half a dozen words wd announce it as in the Press—perhaps it wd. be worth doing.—“the Second Part by the same author on ‘Volcanic Islands’, is in the Press”—or some such form—but I leave this to you.— Almost immediately when I know the exact size of this little volume, I shall have to consult with you on its publication.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 5"
+        },
+        {
+          "body_paragraph": 6,
+          "text": "Believe me | Yours very faithfully | C. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 6"
+        },
+        {
+          "body_paragraph": 7,
+          "text": "PS | The Gardeners Chronicle & Athenæum appear to me good Papers to advertise in. The former has but few advertisements & a large sale,—5000 weekly.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 7"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "Dear Sir"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Says he is forwarding the Smith, Elder & Co. account to the Treasury. Discusses advertisements of Zoology and Coral reefs. Volcanic islands \"is almost ready for press\".",
+      "editorial_footnotes": "Footnotes1See letter to A. Y. Spearman, 9 October 1843, n. 1.2In The Publishers’ Circular of 1 December 1843 the Zoology in 19 parts sewed, and in five separate parts bound in cloth, is listed among works published between 14 and 29 November.3CD did not send the manuscript of Volcanic islands to the press until January 1844 (‘Journal’; Appendix II). The reason for the delay is not known.",
+      "letter_container_present": true
+    },
+    {
+      "id": "DCP-LETT-709",
+      "source": {
+        "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-709.html",
+        "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-709.xml",
+        "retrieved_at": "2026-09-16T10:54:05.536139+00:00",
+        "sha256": "8ef7fe25ba4f4848f058ae65b51c9f430dcf3018a9d30389f5e66fed2344eced",
+        "bytes": 110874,
+        "http_status": 200,
+        "etag": "\"a3b25b03121bfcc06ec1830824f71e0b\"",
+        "content_type": "text/html",
+        "id": "DCP-LETT-709"
+      },
+      "metadata_audit": {
+        "id": "DCP-LETT-709",
+        "classification": "safe_within_period",
+        "classification_reason": "Every XML-encoded date or bound lies inside the inclusive period.",
+        "direction": "from_darwin",
+        "period_selection_eligible": true,
+        "xml_earliest": "1843-10-27",
+        "xml_latest": "1843-10-27",
+        "date_structure": "single_xml_day",
+        "source_date_flags": [
+          "editorially_supplied_component"
+        ],
+        "single_xml_day_without_textual_qualifier": true,
+        "exact_order_needs_review": false,
+        "sorting_date_differs_from_xml_earliest": false,
+        "sent_date_constraints": [
+          {
+            "text": "27 Oct [1843]",
+            "attributes": {
+              "when": "1843-10-27"
+            },
+            "lower": "1843-10-27",
+            "upper": "1843-10-27",
+            "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1843-10-27\">27 Oct [1843]</ns0:date>"
+          }
+        ],
+        "received_date_constraints": [],
+        "sender_evidence": [
+          {
+            "text": "Darwin, C. R.",
+            "attributes": {
+              "key": "../nameregs/nameregs_1.xml"
+            }
+          }
+        ],
+        "recipient_evidence": [
+          {
+            "text": "Smith, Elder & Co.",
+            "attributes": {
+              "key": "../nameregs/nameregs_4407.xml"
+            }
+          }
+        ],
+        "xml_sender_address": [
+          "Down"
+        ],
+        "xml_notes": [
+          {
+            "text": "1p",
+            "attributes": {
+              "type": "physdesc",
+              "n": "ALS"
+            }
+          }
+        ],
+        "has_transcription_in_preserved_xml": false,
+        "reply_link_status": "not_audited",
+        "training_target_eligible": false,
+        "prospective_role": "dated_grounding_unless_inbound_reply_link_is_established",
+        "known_by_date": null,
+        "original_csv": {
+          "id": "DCP-LETT-709",
+          "sender_surname": "Darwin",
+          "sender_forename": "C. R.",
+          "recipient_surname": "Smith, Elder & Co",
+          "recipient_forename": "",
+          "sorting_date": "1843-10-27",
+          "date": "27 Oct [1843]",
+          "sender_address": "Down",
+          "recipient_address": "",
+          "source": "University of Virginia Library, Special Collections (3314 1: 29)",
+          "languages": "",
+          " extent": "",
+          " filename": "DCP-LETT-709.xml"
+        },
+        "provenance": {
+          "revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+          "csv_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/darwin-correspondence.csv",
+          "csv_record_number": 794,
+          "csv_physical_line_start": 797,
+          "csv_physical_line_end": 797,
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-709.xml",
+          "xml_sha256": "68980f38049dace584babf8a8bf824724e595040f1a64f2a3dd927f08e8e3593",
+          "xml_url": "https://raw.githubusercontent.com/cambridge-collection/epsilon-data/ab0d973bae05b54d68d82d068211015996cfec06/xml/darwin-correspondence/letters/DCP-LETT-709.xml",
+          "letter_page_url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-709.xml",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"
+        },
+        "metadata_multiple_senders": false,
+        "individual_voice_attribution_review_required": true
+      },
+      "title": "To Smith, Elder & Co. 27 October [1843]",
+      "header_text": [
+        "To Smith, Elder & Co. 27 October [1843]Down Bromley KentOct 27th"
+      ],
+      "paragraphs": [
+        {
+          "body_paragraph": 1,
+          "text": "I have heard from the Treasury, that they are ready to pay to you 40£’4s ’5d.—",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 1"
+        },
+        {
+          "body_paragraph": 2,
+          "text": "Dear Sir | Yours very faithfully | C. Darwin",
+          "html_class": "",
+          "locator": "div#letter div.body-content; retained body block 2"
+        }
+      ],
+      "excluded_body_annotations_and_salutations": [
+        {
+          "class": "salute",
+          "text": "Dear Sir"
+        }
+      ],
+      "body_container_count": 1,
+      "used_whole_body_fallback": false,
+      "editorial_summary": "Summary Treasury ready to make payment [for Zoology plates].",
+      "editorial_footnotes": "Footnotes1The final payment of the Treasury grant for Zoology. See letter to A. Y. Spearman, 9 October 1843, n. 1, and letter to Smith, Elder & Co., [9 October 1843].",
+      "letter_container_present": true
+    }
+  ],
+  "instructions": "Read every target and context body, header and editorial note in full. Make per-record judgments on incoming prompt identity, knowledge witnesses, date sections, gaps and authorship. Surviving content may be a fragment, printed extract, official report, joint text or no transcript. Do not mark an online placeholder as a full body. Match actual distinctive answers, not nearest date or shared subject. An incoming letter may answer Darwin but is never his voice. Original XML and catalogue dates must remain intact; period-held records cannot become eligible without separate parent adjudication. Direct reply arrows are response -> antecedent; knowledge arrows incoming -> dated Darwin witness. Record exact paragraph-located quotations, competing hypotheses and unlocated references. Search the complete preserved expansion at all_letters.jsonl for cross-correspondent witnesses when your evidence suggests one. No synthetic prompts, no future editorial facts as Darwin knowledge. Submit proposals only; primary agent adjudicates."
+}

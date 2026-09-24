@@ -1,0 +1,669 @@
+{
+  "status": "primary_verified_readiness_requirements",
+  "scope": "Additive requirements from accepted 1851–1855 sources after addendum 11. No converter or export changes.",
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1695"
+      ],
+      "case": "Flattened numerical expressions already present in source HTML",
+      "requirement": "Preserve the original projection and hold reliable rendering of P3 numerical expressions pending authoritative source verification. Do not silently reconstruct fractions or misdiagnose an extraction-only failure.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1695",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1695.html",
+          "source_sha256": "ed13d9655abed94cfe59fa952ea98ca6d83950a0a38935bcc773a651fdb8a123",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1695.xml",
+          "xml_sha256": "c63c49e79c7a81f5e4d338f42ffbf9530b41f2df295ff5ee15cabc82c9cd652a",
+          "locators": "P3; raw HTML numeric text; no MathML nodes"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1695",
+          "body_paragraph": 3,
+          "quote": "361798=149",
+          "char_start": 1262,
+          "char_end": 1272,
+          "source_sha256": "ed13d9655abed94cfe59fa952ea98ca6d83950a0a38935bcc773a651fdb8a123"
+        },
+        {
+          "letter_id": "DCP-LETT-1695",
+          "body_paragraph": 3,
+          "quote": "1092=19.2",
+          "char_start": 1963,
+          "char_end": 1972,
+          "source_sha256": "ed13d9655abed94cfe59fa952ea98ca6d83950a0a38935bcc773a651fdb8a123"
+        },
+        {
+          "letter_id": "DCP-LETT-1695",
+          "body_paragraph": 3,
+          "quote": "24206=18",
+          "char_start": 2236,
+          "char_end": 2244,
+          "source_sha256": "ed13d9655abed94cfe59fa952ea98ca6d83950a0a38935bcc773a651fdb8a123"
+        },
+        {
+          "letter_id": "DCP-LETT-1695",
+          "body_paragraph": 3,
+          "quote": "2231798=18",
+          "char_start": 2275,
+          "char_end": 2285,
+          "source_sha256": "ed13d9655abed94cfe59fa952ea98ca6d83950a0a38935bcc773a651fdb8a123"
+        }
+      ],
+      "primary_reading_basis": {
+        "DCP-LETT-1695": "June 8, supplied 1855. Explicitly answers Gray May 22, suggests geographic range codes and comparisons, explains exploratory rather than fixed questions, seeks close-species marks and queries inconsistent mountain distances. P3 compares family proportions then admits apparent agreement fails across other families. Crucially the preserved raw HTML itself contains flattened numerals 361798=149, 1092=19.2, 24206=18 and 2231798=18, with no MathML nodes: do not describe this as merely an extractor bug or silently reconstruct fractions/arithmetic. Hold reliable rendering of those numerical passages pending authoritative source verification. Later Gray publication is future; full scientific letter is an established response, with rendering hold."
+      },
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1693"
+      ],
+      "case": "Verified half-hour MathML",
+      "requirement": "Preserve the fraction structure and distinguish it from flat 12. A derived plain-text rendering may say 1/2 hour, traceable to the numerator and denominator, without changing exact source quotations.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1693",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1693.html",
+          "source_sha256": "c59fdb98c5d5bc08cf2b983539ee89722c7bbb678d62266455d5a01c5f207d30",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1693.xml",
+          "xml_sha256": "67158511c02ad92f8e004842ca382551ca62b8b16ec3a915edccbf7a06f59698",
+          "locators": "P3 and raw HTML MathML mfrac"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1693",
+          "body_paragraph": 3,
+          "quote": "I want to cover it up daily for 12 hour",
+          "char_start": 204,
+          "char_end": 243,
+          "source_sha256": "c59fdb98c5d5bc08cf2b983539ee89722c7bbb678d62266455d5a01c5f207d30"
+        }
+      ],
+      "primary_reading_basis": {
+        "DCP-LETT-1693": "June 5, supplied 1855. Thanks for Saxifrage and a missing Hooker note, reports six of seven kinds germinated after fifty-six days and distinct cabbage/broccoli/cauliflower outcomes, and jokingly invokes Vestiges in discussing Tussilago seedlings. Field comparison with Thorley is underway, not completed. Direct raw DOM verifies MathML in Hedysarum proposal is half an hour daily, not twelve hours. Transmission route depends on tenderness. Explicitly has Gray kind letter and habitat list forwarded through Hooker; Gray May 22 source 1685 is known by this day. Requests clarification of Hooker continental preference. Cannot answer 1694, which was composed June 6–9 after this source."
+      },
+      "implemented": false,
+      "verified_math_nodes": [
+        {
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]/math/mfrac",
+          "numerator": "1",
+          "denominator": "2",
+          "derived_rendering": "1/2"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1732"
+      ],
+      "case": "Authorial supplemental prose excluded from main projection",
+      "requirement": "Retain the original Darwin N.B. with its own DOM locator and authorship. Exclusion from the main projection is not a reason to discard it or to classify it as editorial prose. Misrouting does not establish exact arrival dates; no separate date for the N.B. is established here.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1732",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1732.html",
+          "source_sha256": "45ca927961723cdaf8be73e45a02e869338a6e08130e303239c6a825da2fc095",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1732.xml",
+          "xml_sha256": "8d1c316f559ba94d3de5c2df4341ad3a1b009844fe5ec61afd58ad9561b308f4",
+          "locators": "Excluded body block with class supplemental; N.B. on omitted Kent"
+        }
+      ],
+      "exact_source_evidence": [],
+      "primary_reading_basis": {
+        "DCP-LETT-1732": "July 28, supplied 1855. Thanks for missing acceptance and confirms August 7 dinner; offers a bed and says Hooker has been invited, not that he accepted. Thanks for Lychnis, asks for wild celery umbel and a rose seed experiment. Excluded supplemental N.B. is original Darwin prose explaining that the last two letters were misrouted because Kent was omitted. Preserve as attributable authorial text rather than discard all exclusions. It does not establish their exact arrival days. Later August newspaper account and 1868 rose discussion remain apparatus."
+      },
+      "implemented": false,
+      "verified_excluded_text": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/div",
+        "quote": "N.B. Both your last letters have gone wrong from Kent having been omitted.—"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1417"
+      ],
+      "case": "Emma postscript inside a Darwin letter",
+      "requirement": "Separate Darwin P1–3, including his signature in P3, from Emma P4. The footnote identifies Emma handwriting and P4 refers to Charles in third person. P4 must never become Darwin target or grounding prose.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1417",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1417.html",
+          "source_sha256": "6d3802e8d79589630614b1181608ba3d6f66f2758f8891da0ecdc2218b494f4d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1417.xml",
+          "xml_sha256": "8b803b21c8f11dd23af03df9a9d225cfa918cf646925b3eb4e91c82723a8c15a",
+          "locators": "P3–4 and editorial footnote 3"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1417",
+          "body_paragraph": 4,
+          "quote": "mention how you are yourself my dearest F. Ch. says you looked quite ill.",
+          "char_start": 0,
+          "char_end": 73,
+          "source_sha256": "6d3802e8d79589630614b1181608ba3d6f66f2758f8891da0ecdc2218b494f4d"
+        }
+      ],
+      "primary_reading_basis": {
+        "DCP-LETT-1417": "Supplied April 25, 1851 at Down. Darwin P1–3 thanks Fanny for encouraging his return to Emma and undertaking Anne funeral, describes shared grief and requests grave location. P4 is explicitly in Emma hand, speaks of Charles in third person and must remain Emma voice, not Darwin grounding. Funeral sketch is cited by archive location but is not reproduced here. Same-day Fanny 1419 still awaits news of arrival and acknowledges a separate Emma note; it is not a demonstrated response to this newly written Darwin letter. April 28 source 1424 explicitly does answer the received gratitude."
+      },
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1651A"
+      ],
+      "case": "Editorial synopsis without authentic incoming text",
+      "requirement": "Record source inspection and body unavailability separately. The bracketed synopsis cannot be an authentic Davy question or a Darwin target. Acknowledgement of a real paper does not recover its omitted wording; source-version verification remains necessary.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1651A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1651A.html",
+          "source_sha256": "6bab4cbc12216fb1a77903db312f3c7fcb97a394d23f2df2ff11927a42d63bb7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1651A.xml",
+          "xml_sha256": "c9df26c44f77a8c857b781d60c38ee5668dff4642ab7b5f29ad15cc6382d4e9f",
+          "locators": "Sole bracketed body projection P1; catalogue source and primary unavailable-body decision"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1651A",
+          "body_paragraph": 1,
+          "quote": "[Responds to CD’s inquiry of 28 January",
+          "char_start": 0,
+          "char_end": 39,
+          "source_sha256": "6bab4cbc12216fb1a77903db312f3c7fcb97a394d23f2df2ff11927a42d63bb7"
+        }
+      ],
+      "primary_reading_basis": {
+        "DCP-LETT-1651A": "March 21, 1855 catalogue record with one bracketed editorial synopsis only. No authentic Davy letter or paper prose is transcribed. Record itself fully inspected, authentic body unavailable. Synopsis mentions January 28 enquiry, experimental conditions and intended Royal Society submission; it cannot be a training question. Subsequent Darwin acknowledgements identify a real paper, but do not supply its omitted wording. Differing 1856 publication references in nearby apparatus require version checking before any attempted recovery."
+      },
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1712"
+      ],
+      "case": "Imaginary diagram and uncertain separately written postscript",
+      "requirement": "Preserve the seven-name hypothetical Quercus diagram as source imagery; an agent description is not original letter prose. P7–9 was written on separate paper and formerly printed with the August-or-September 23 letter; current July 7 association is editorial inference. Hold exact postscript chronology without assigning it definitively to either July or August/September.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1712",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1712.html",
+          "source_sha256": "5ec7765a3e6376aa50ccded89faf83a96513a86aeab821359b9059f2f85257b4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1712.xml",
+          "xml_sha256": "c01a5ff2d6433d8013879d6685444a25d41f248436df5231e65790c22866549d",
+          "locators": "Diagram DOM locator in verified visual reading; P7–9 and editorial footnote 2. Use actual parent text, not raw DOM p numbering, to resolve extracted paragraph."
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1712",
+          "body_paragraph": 8,
+          "quote": "I found the other day an Agrostis",
+          "char_start": 44,
+          "char_end": 77,
+          "source_sha256": "5ec7765a3e6376aa50ccded89faf83a96513a86aeab821359b9059f2f85257b4"
+        },
+        {
+          "letter_id": "DCP-LETT-1712",
+          "body_paragraph": 9,
+          "quote": "46 kinds of Peas",
+          "char_start": 45,
+          "char_end": 61,
+          "source_sha256": "5ec7765a3e6376aa50ccded89faf83a96513a86aeab821359b9059f2f85257b4"
+        }
+      ],
+      "primary_reading_basis": {
+        "DCP-LETT-1712": "July 7, supplied 1855 main letter. Thanks for seeds and clarifies close real species rather than merely possible varieties. Independently viewed and preserved diagram marks Quercus pedunculata, sessiliflora and humilis with crosses and connects them with two curved strokes, leaving rubra, alba, candida and alta unmarked. It is explicitly an imaginary genus, not taxonomic fact. P7–9 is a separate-paper postscript formerly printed with 1748, dated August–September 23. Its current July 7 placement is editorial inference from subject matter. Hold exact postscript date; Agrostis worms and forty-six peas are not secure July 7 knowledge. The quoted incoming remark about possible varieties is unlocated."
+      },
+      "implemented": false,
+      "visual_readings": [
+        {
+          "letter_id": "DCP-LETT-1712",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]/span/img",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1712.html",
+          "source_html_sha256": "5ec7765a3e6376aa50ccded89faf83a96513a86aeab821359b9059f2f85257b4",
+          "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1712_text.jpg",
+          "alt": "diagram",
+          "figure_path": "data/raw/dcp/1851-1855/figures/DCP-LETT-1712-1.jpg",
+          "retrieved_at": "2026-09-17T05:55:03.338374+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1712_text.jpg",
+          "bytes": 40247,
+          "sha256": "bd986039d27009e04b2d99a7ab8b20481f0da05e104cb4c56937e95e9f4f04d3",
+          "visual_observation": "Viewed preserved image: seven vertically listed Quercus names. Crosses mark pedunculata, sessiliflora and humilis. A large curved stroke connects the first and second marked names, and a smaller one connects the second and third. Rubra, alba, candida and alta are unmarked. This illustrates the explicitly imaginary close-species grouping, not an independently established botanical classification."
+        }
+      ],
+      "diagram_parent_text": "Perhaps you might (if you can do the job) mark the closely allied species in connection, thus in an imaginary genus"
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1743"
+      ],
+      "case": "Watson botanical sketch remains incoming evidence",
+      "requirement": "Preserve the original stem sketch and its source relationship. This is Watson incoming prose and image, not Darwin-authored grounding. A modern verbal description may be provenance metadata but is not a substitute for authentic prompt text.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1743",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1743.html",
+          "source_sha256": "58cd714f0a13cd5de76c23c64b77f48ac116707b38537a3bef6490317be4bb20",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1743.xml",
+          "xml_sha256": "9d3d93c80b30ab7d6e81184f3566fef0678bf3517f98d852a37981db0c203bbf",
+          "locators": "Primary visual record; body and separately attributed annotations"
+        }
+      ],
+      "exact_source_evidence": [],
+      "primary_reading_basis": {
+        "DCP-LETT-1743": "Additional full reading: Watson August 17, 1855 sends marked British catalogue and distinguishes selected close pairs from species/variety entries left unmarked; warns selection may not fit unknown purpose. Independently viewed stem diagram: straight left stalk and right stalk curved at base, illustrating Drosera distinction; no species labels or scale printed in image. Physical catalogue and separate pre-1847 publication list are not fully transcribed. Later October/November calculations and Natural selection counts in apparatus are not August body. Courtesy and phrenology comment remain Watson voice."
+      },
+      "implemented": false,
+      "visual_readings": [
+        {
+          "letter_id": "DCP-LETT-1743",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]/span/img",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1743.html",
+          "source_html_sha256": "58cd714f0a13cd5de76c23c64b77f48ac116707b38537a3bef6490317be4bb20",
+          "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1743.jpg",
+          "alt": "diagram",
+          "figure_path": "data/raw/dcp/1851-1855/figures/DCP-LETT-1743-1.jpg",
+          "retrieved_at": "2026-09-17T06:08:04.595900+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_1743.jpg",
+          "bytes": 17108,
+          "sha256": "61402fd1c1b122a1ba021471e4f035c792b7c343ee29c87dd86976aeefdbd05a",
+          "visual_observation": "Viewed preserved image: two drawn flowering stalks, the left long and straight, the right with conspicuously curved basal end. No printed labels or scale. Illustrates the straight versus curved-at-base diagnostic character discussed for Drosera; do not assign species labels solely from the unlabelled drawing."
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1612"
+      ],
+      "case": "One output supported by multiple incoming letters",
+      "requirement": "Retain both accepted inputs 1607 and 1611 and their exact response scopes. One joint-input output is not two independent full answers. Exclude unsupported response portions or retain them only with their own eligibility; do not manufacture missing prompts.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1612",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1612.html",
+          "source_sha256": "c257f0dd2492d179da8ce1a591be71639658954b136e4a57da6faab2099b195a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1612.xml",
+          "xml_sha256": "ea79a3b384d43083da34dad57786e979f2b31ba77f564fbd7706c1736255f600",
+          "locators": "P1–4 and two direct-link scopes in accepted batch-04 ledger"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1612",
+          "body_paragraph": 2,
+          "quote": "for in first letter you say",
+          "char_start": 641,
+          "char_end": 668,
+          "source_sha256": "c257f0dd2492d179da8ce1a591be71639658954b136e4a57da6faab2099b195a"
+        },
+        {
+          "letter_id": "DCP-LETT-1612",
+          "body_paragraph": 2,
+          "quote": "in your second letter, you say",
+          "char_start": 741,
+          "char_end": 771,
+          "source_sha256": "c257f0dd2492d179da8ce1a591be71639658954b136e4a57da6faab2099b195a"
+        }
+      ],
+      "primary_reading_basis": {
+        "DCP-LETT-1612": "Monday 11, supplied December 1854. P1–4 answer 1611 encouragement, Aquilegia proof, sampling cautions, anomaly objection and Australia question, while P2 explicitly contrasts the earlier 1607 disruption sentence with 1611 second letter. This is a joint-input response, not two independent full answers. Returning the proof establishes reading by December 11, not Hooker receipt. Darwin explains extinction and rarity using ornithorhynchus, Echidna, marsupials, Sagitta and earwig, explicitly fears circularity, and asks for Bentham Leguminosae data. P5 Forbes memorial subscription is a wish, not paid. P7 duck weights and P8–14 subsequent tabulation are further work; raw 17th, diag/ramme and 15.05 must not be silently normalized to a guessed fraction or earlier 15.07. Later Natural Selection, Origin, Variation and Expression quotations in apparatus are not this letter or contemporary retrieved writings."
+      },
+      "implemented": false,
+      "accepted_relations": [
+        {
+          "outgoing_id": "DCP-LETT-1612",
+          "incoming_id": "DCP-LETT-1611",
+          "status": "accepted_scoped_reply",
+          "known_by_date": "1854-12-11",
+          "actual_receipt_date": null,
+          "response_scope": "P1–4 of 1612, jointly responding to 1611 and the earlier 1607 Australia passage. One Darwin output, not two independent answers. Later P5–14 remain separate grounding.",
+          "rationale": "Aquilegia proof return, the quoted multiply-by-100 objection, sampling caution and second Australia argument uniquely match 1611.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-1611",
+              "body_paragraph": 2,
+              "quote": "if you multiply the anomalous species by 100",
+              "char_start": 49,
+              "char_end": 93,
+              "source_sha256": "d6f6d4f2a63cbf08193c995d68e7036f88a092eb0b9b8b62cdf43c86201b1dc9"
+            },
+            {
+              "letter_id": "DCP-LETT-1611",
+              "body_paragraph": 5,
+              "quote": "I send you the results of the Aquilegia work",
+              "char_start": 0,
+              "char_end": 44,
+              "source_sha256": "d6f6d4f2a63cbf08193c995d68e7036f88a092eb0b9b8b62cdf43c86201b1dc9"
+            },
+            {
+              "letter_id": "DCP-LETT-1612",
+              "body_paragraph": 2,
+              "quote": "I return with many thanks the Proof on Aquilegia",
+              "char_start": 0,
+              "char_end": 48,
+              "source_sha256": "c257f0dd2492d179da8ce1a591be71639658954b136e4a57da6faab2099b195a"
+            },
+            {
+              "letter_id": "DCP-LETT-1612",
+              "body_paragraph": 3,
+              "quote": "I do not quite agree with your “grave objection to the whole process”",
+              "char_start": 463,
+              "char_end": 532,
+              "source_sha256": "c257f0dd2492d179da8ce1a591be71639658954b136e4a57da6faab2099b195a"
+            }
+          ],
+          "response_date_policy": "Preserve original supplied components and incoming ranges. Darwin response is a conservative reading bound, not an exact postal receipt date.",
+          "training_export_ready": false,
+          "joint_incoming_ids": [
+            "DCP-LETT-1607",
+            "DCP-LETT-1611"
+          ],
+          "shared_output_group": "DCP-LETT-1612",
+          "duplicate_whole_answer": false
+        },
+        {
+          "outgoing_id": "DCP-LETT-1612",
+          "incoming_id": "DCP-LETT-1607",
+          "status": "accepted_scoped_reply",
+          "known_by_date": "1854-12-11",
+          "actual_receipt_date": null,
+          "response_scope": "P1–4 of 1612, jointly responding to 1611 and the earlier 1607 Australia passage. One Darwin output, not two independent answers. Later P5–14 remain separate grounding.",
+          "rationale": "Darwin explicitly quotes the first letter disruption conclusion and contrasts it with 1611 second letter. This preserves both inputs without duplicating the answer.",
+          "evidence": [
+            {
+              "letter_id": "DCP-LETT-1607",
+              "body_paragraph": 2,
+              "quote": "Under this view disruption produces similarity of Botanical features",
+              "char_start": 1062,
+              "char_end": 1130,
+              "source_sha256": "24813d63b54534ed2f8f8d91f0fd74892cf00d0793a6c384ad08c9adccfccc57"
+            },
+            {
+              "letter_id": "DCP-LETT-1612",
+              "body_paragraph": 2,
+              "quote": "for in first letter you say “Under this view disruption produces similarity of Botanical features”",
+              "char_start": 641,
+              "char_end": 739,
+              "source_sha256": "c257f0dd2492d179da8ce1a591be71639658954b136e4a57da6faab2099b195a"
+            }
+          ],
+          "response_date_policy": "Preserve original supplied components and incoming ranges. Darwin response is a conservative reading bound, not an exact postal receipt date.",
+          "training_export_ready": false,
+          "joint_incoming_ids": [
+            "DCP-LETT-1607",
+            "DCP-LETT-1611"
+          ],
+          "shared_output_group": "DCP-LETT-1612",
+          "duplicate_whole_answer": false
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1748"
+      ],
+      "case": "Disjoint date possibilities remain disjoint",
+      "requirement": "Preserve August 23 or September 23, 1855 as mutually exclusive possibilities; do not turn the range envelope into continuous permissible dates or choose one endpoint for training.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1748",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1748.html",
+          "source_sha256": "01a76d2b354d8bad1b48850049702e4f90c832d0f23c85b4226245ad12025439",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1748.xml",
+          "xml_sha256": "7ea5eac223187826ac2e3cceceb48308c88e90df4995eb860705e87d02d1fd0a",
+          "locators": "Original XML sent_date_constraints with exclude attributes"
+        }
+      ],
+      "exact_source_evidence": [],
+      "primary_reading_basis": {
+        "DCP-LETT-1748": "August 23 OR September 23, 1855, encoded as two mutually exclusive XML dates; not a continuous month-long range. Sends an unidentified umbellifer for naming. Corrects his own earlier request: one wild celery umbel cannot establish total plant seed yield, so asks for twelve fine whole plants or an explicit estimated total. Has wild/tame carrots and parsnips marked and cabbage/asparagus in hand. Seeks precise facts against two stated naturalists claims about typical forms and cultivated fertility; does not endorse those claims. Later published seed totals are not results already reported here. The uncertain separate-paper postscript now placed with 1712 must not be silently duplicated or assigned to this date."
+      },
+      "implemented": false,
+      "original_date_constraints": [
+        {
+          "text": "23 Aug 1855",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date1",
+            "when": "1855-08-23",
+            "exclude": "#date2"
+          },
+          "lower": "1855-08-23",
+          "upper": "1855-08-23",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date1\" when=\"1855-08-23\" exclude=\"#date2\">23 Aug 1855</ns0:date>"
+        },
+        {
+          "text": "23 Sept 1855",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date2",
+            "when": "1855-09-23",
+            "exclude": "#date1"
+          },
+          "lower": "1855-09-23",
+          "upper": "1855-09-23",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date2\" when=\"1855-09-23\" exclude=\"#date1\">23 Sept 1855</ns0:date>"
+        }
+      ]
+    }
+  ],
+  "draft_reviewed": {
+    "path": "reports/raft-prep/rendering-readiness.after-addendum-11.luna.json",
+    "sha256": "8837b3ef22ac059631eee1716b3db552757d073b4199d005752476f8ef31b870"
+  },
+  "primary_corrections": [
+    "Draft locators were generic; primary report adds exact source evidence, DOM/asset provenance and accepted relation scopes.",
+    "1712 postscript is not securely August–September; that was a former placement. Both old and current editorial associations remain uncertain.",
+    "1732 N.B. is Darwin authorial prose, with no separately established composition date.",
+    "1743 sketch is independently attributed Watson evidence, distinct from 1712 imaginary genus diagram."
+  ],
+  "inputs": [
+    {
+      "path": "reports/raft-prep/rendering-readiness.after-addendum-11.luna.json",
+      "sha256": "8837b3ef22ac059631eee1716b3db552757d073b4199d005752476f8ef31b870"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-reading/batch-03.json",
+      "sha256": "343df0401600cf2952bf91937a46a3695111041f330b7464e59708b5bdd80a63"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-decisions/batch-03.json",
+      "sha256": "cfc22b661efa2fa47794616be672a9a402612766e6c71613a9500611bbd00dd5"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-03.json",
+      "sha256": "7989c1b19d66d1877a8cd28d1d7280d5540040bf3e512332f2e63779b65a0ca2"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-reading/batch-04.json",
+      "sha256": "869c9ba51480e1e962fbb4c6f40ead926236723ef55a4deabd254c5f35437b9a"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-decisions/batch-04.json",
+      "sha256": "35d38cee0df65c8c761f74479dc9ae25ccc1fa3596cea3063c38421be5b16801"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-04.json",
+      "sha256": "f40f62171001aadadefff2cac21e209a056833e1e3d9b9c33d5037924687db0a"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-reading/batch-05.json",
+      "sha256": "00a27fbd09a90dd93a7a87f4233d334fd17604915c2a077893644c226cc56089"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-decisions/batch-05.json",
+      "sha256": "6815b0dba9c77d0b3455f2de4ae79a1eb0ab8742ede27f96290ce80e713782bf"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-05.json",
+      "sha256": "015a5f6f16e434ac222b32c7cd83840e508030ca901d15cdb5ffd38e77c1f6e4"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-reading/batch-06.json",
+      "sha256": "ec5dcbf54955ebb8f689fc1a5a3d990cd3a67eab10bc648a140cf35d03199a6c"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-decisions/batch-06.json",
+      "sha256": "e1f3684305a2dab0089645322546e4182ac1d2ef6c9fb3376ee0bb61f66708ed"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-06.json",
+      "sha256": "5352fc4c6de77f32fe62217badf682da15201a6a953a739f1a343ddbbc3740ec"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-reading/batch-09.json",
+      "sha256": "16b6ae676b5bd1546020e164376174ee30ca522049771556156c37b2f0fc13bb"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-decisions/batch-09.json",
+      "sha256": "6a9d5edbc1d56ae89669e21eb8a64c2de39c36e76ec28239b8035c0f40f0bda5"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-09.json",
+      "sha256": "edf6b1e006cf949abd145ab6b14f7e310b3a15e7f1ea19a6bf220997901fb07a"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-reading/batch-10.json",
+      "sha256": "ec54e55c91592833539031a1d3ba3ac23afe4b318d97bf6e97458bd809bfdf32"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-decisions/batch-10.json",
+      "sha256": "5e2e0a5f9c554b8182d30249ab294816d08e3e655c716b02f9411291139ee9d2"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-10.json",
+      "sha256": "15afd0e809c96d7fdeea2f309fa38cfe04898a96d8927c532de16b13f9f20aea"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-reading/batch-12.json",
+      "sha256": "8aba90a2a19f8e391ff2e04cdd3370e3e72e236aa8e9c000458212682fa4c1aa"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-decisions/batch-12.json",
+      "sha256": "eb9a040a177163a5cee4d79a20f40bc2826f884d06602d6b0fdc9bb44c32e7ee"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-12.json",
+      "sha256": "29770cd3adc94de3e99d49f4ed2e8c28b90064a511912be53a6d3ee9592fc512"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-reading/batch-13.json",
+      "sha256": "5326f53bb7616ea0b275ad35401bcf05637f16bfb775a5d68777658e6aacd891"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-decisions/batch-13.json",
+      "sha256": "e88f649493218f5ba1ccd7a519f00e583285ee9396c1b80dd7f8ebb564806e32"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-13.json",
+      "sha256": "23e537fb4deeabf5c510b0b370e7918ce3df12a443fddfd684df50734f36e48c"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-reading/batch-20.json",
+      "sha256": "c23854067ef665e1a9db251c919062e80f966b422037700f5dafaad11ecdceb6"
+    },
+    {
+      "path": "reports/1851-1855/review/parent-decisions/batch-20.json",
+      "sha256": "eaae7ef5a5b6168e6bce9799ff5f8d2eb62f015a30ec91f46cdcf224ad44121f"
+    },
+    {
+      "path": "data/annotations/periods/1851-1855/batch-20.json",
+      "sha256": "593c225da26017424dfefd14b557e0daab94c939648815a57bf9158ffaa1f03e"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1695.html",
+      "sha256": "ed13d9655abed94cfe59fa952ea98ca6d83950a0a38935bcc773a651fdb8a123"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1695.xml",
+      "sha256": "c63c49e79c7a81f5e4d338f42ffbf9530b41f2df295ff5ee15cabc82c9cd652a"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1693.html",
+      "sha256": "c59fdb98c5d5bc08cf2b983539ee89722c7bbb678d62266455d5a01c5f207d30"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1693.xml",
+      "sha256": "67158511c02ad92f8e004842ca382551ca62b8b16ec3a915edccbf7a06f59698"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1732.html",
+      "sha256": "45ca927961723cdaf8be73e45a02e869338a6e08130e303239c6a825da2fc095"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1732.xml",
+      "sha256": "8d1c316f559ba94d3de5c2df4341ad3a1b009844fe5ec61afd58ad9561b308f4"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1417.html",
+      "sha256": "6d3802e8d79589630614b1181608ba3d6f66f2758f8891da0ecdc2218b494f4d"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1417.xml",
+      "sha256": "8b803b21c8f11dd23af03df9a9d225cfa918cf646925b3eb4e91c82723a8c15a"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1651A.html",
+      "sha256": "6bab4cbc12216fb1a77903db312f3c7fcb97a394d23f2df2ff11927a42d63bb7"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1651A.xml",
+      "sha256": "c9df26c44f77a8c857b781d60c38ee5668dff4642ab7b5f29ad15cc6382d4e9f"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1712.html",
+      "sha256": "5ec7765a3e6376aa50ccded89faf83a96513a86aeab821359b9059f2f85257b4"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1712.xml",
+      "sha256": "c01a5ff2d6433d8013879d6685444a25d41f248436df5231e65790c22866549d"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/figures/DCP-LETT-1712-1.jpg",
+      "sha256": "bd986039d27009e04b2d99a7ab8b20481f0da05e104cb4c56937e95e9f4f04d3"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1743.html",
+      "sha256": "58cd714f0a13cd5de76c23c64b77f48ac116707b38537a3bef6490317be4bb20"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1743.xml",
+      "sha256": "9d3d93c80b30ab7d6e81184f3566fef0678bf3517f98d852a37981db0c203bbf"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/figures/DCP-LETT-1743-1.jpg",
+      "sha256": "61402fd1c1b122a1ba021471e4f035c792b7c343ee29c87dd86976aeefdbd05a"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1612.html",
+      "sha256": "c257f0dd2492d179da8ce1a591be71639658954b136e4a57da6faab2099b195a"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1612.xml",
+      "sha256": "ea79a3b384d43083da34dad57786e979f2b31ba77f564fbd7706c1736255f600"
+    },
+    {
+      "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1748.html",
+      "sha256": "01a76d2b354d8bad1b48850049702e4f90c832d0f23c85b4226245ad12025439"
+    },
+    {
+      "path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1748.xml",
+      "sha256": "7ea5eac223187826ac2e3cceceb48308c88e90df4995eb860705e87d02d1fd0a"
+    }
+  ],
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false
+  }
+}

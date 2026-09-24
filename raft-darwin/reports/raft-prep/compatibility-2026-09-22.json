@@ -1,0 +1,167 @@
+{
+  "audit_date": "2026-09-22",
+  "scope": "Current local RAFT compatibility with the Darwin collection workflow; static review and isolated offline checks, no live model or training validation.",
+  "checkout": "/Users/corinakaiser/Projects/raft",
+  "branch": "fix/serve-sampling-and-lora-targets",
+  "commit": "4dea6cb0060dfc54257645e5e132a8ac80232bc6",
+  "version_label": "3.1.0",
+  "launcher": "/opt/anaconda3/bin/raft",
+  "interpreter": "/opt/anaconda3/bin/python3",
+  "resolved_module": "/Users/corinakaiser/Projects/raft/src/raft/__init__.py",
+  "editable_install": true,
+  "historical_audit": "reports/raft-prep/implementation.json",
+  "historical_matching_commit": "8ad9fd2",
+  "source_comparison": [
+    {
+      "name": "__init__.py",
+      "historical_sha256": "f9954893e3ac8e56dafecdf93372a8afbcd831cf603afad84df31a347c66753f",
+      "historical_git_base_matches": true,
+      "current_path": "/Users/corinakaiser/Projects/raft/src/raft/__init__.py",
+      "current_sha256": "f9954893e3ac8e56dafecdf93372a8afbcd831cf603afad84df31a347c66753f",
+      "unchanged_from_audit": true
+    },
+    {
+      "name": "convo_structurer.py",
+      "historical_sha256": "04a469b420dcde01abfb9cdc0e342c7bb6f932cb506769feff3090fa19851d1a",
+      "historical_git_base_matches": true,
+      "current_path": "/Users/corinakaiser/Projects/raft/src/raft/convo_structurer.py",
+      "current_sha256": "04a469b420dcde01abfb9cdc0e342c7bb6f932cb506769feff3090fa19851d1a",
+      "unchanged_from_audit": true
+    },
+    {
+      "name": "project.py",
+      "historical_sha256": "0b23ec164eba0bf8479138ab0c3aa5095e7949cd6298800f3e47b1ca258e32db",
+      "historical_git_base_matches": true,
+      "current_path": "/Users/corinakaiser/Projects/raft/src/raft/project.py",
+      "current_sha256": "0b23ec164eba0bf8479138ab0c3aa5095e7949cd6298800f3e47b1ca258e32db",
+      "unchanged_from_audit": true
+    },
+    {
+      "name": "generate_finetune.py",
+      "historical_sha256": "3947ab09246131b3b5648f0252e382a252d18e0379b7669ab88dcd298ef6fede",
+      "historical_git_base_matches": true,
+      "current_path": "/Users/corinakaiser/Projects/raft/src/raft/generate_finetune.py",
+      "current_sha256": "3947ab09246131b3b5648f0252e382a252d18e0379b7669ab88dcd298ef6fede",
+      "unchanged_from_audit": true
+    },
+    {
+      "name": "memories.py",
+      "historical_sha256": "a8d523080fbabb87095b122e66a0e0903768ee235a2e34541e20d23428efd3fc",
+      "historical_git_base_matches": true,
+      "current_path": "/Users/corinakaiser/Projects/raft/src/raft/memories.py",
+      "current_sha256": "c920d131bb63daa0aa197595bff32c1a294eea31ebc60fe9a4e38b078fcd81f6",
+      "unchanged_from_audit": false
+    },
+    {
+      "name": "sources.py",
+      "historical_sha256": "2b860458fd34ac3cc2c99070217ec178f596ad8ded8d20dca5bc32781c211624",
+      "historical_git_base_matches": true,
+      "current_path": "/Users/corinakaiser/Projects/raft/src/raft/sources.py",
+      "current_sha256": "2b860458fd34ac3cc2c99070217ec178f596ad8ded8d20dca5bc32781c211624",
+      "unchanged_from_audit": true
+    },
+    {
+      "name": "oai_finetune.py",
+      "historical_sha256": "06a2c64e25821affa39ccdf074b6222db7dd9da6629caa2b9af1ccd21fbaaafb",
+      "historical_git_base_matches": true,
+      "current_path": "/Users/corinakaiser/Projects/raft/src/raft/oai_finetune.py",
+      "current_sha256": "06a2c64e25821affa39ccdf074b6222db7dd9da6629caa2b9af1ccd21fbaaafb",
+      "unchanged_from_audit": true
+    },
+    {
+      "name": "prompt_manager.py",
+      "historical_sha256": "0c0e29472c9676f936cc4e2f2dc8760942bec5f08f13908a3b4f15bd7e726d23",
+      "historical_git_base_matches": true,
+      "current_path": "/Users/corinakaiser/Projects/raft/src/raft/prompt_manager.py",
+      "current_sha256": "d7ef1307171c6c0b82c4b0a73eb59af425076a69c167a299e5c127d44f9a7fc3",
+      "unchanged_from_audit": false
+    },
+    {
+      "name": "embeddings_helpers.py",
+      "historical_sha256": "eca46e0d2c243d0011298cba688cb493820c7c1ef44cfde17f44074ec5dda29d",
+      "historical_git_base_matches": true,
+      "current_path": "/Users/corinakaiser/Projects/raft/src/raft/embeddings_helpers.py",
+      "current_sha256": "bcfe2ca5f40d1502784fbd9ae0fb9067c30734d38fc0aba9c86faa1046ec6451",
+      "unchanged_from_audit": false
+    },
+    {
+      "name": "files_helper.py",
+      "historical_sha256": "614d8d309ae162bf40b2bfc3cff949dbf9884756e00fb75a044406d7b2a0c9ca",
+      "historical_git_base_matches": true,
+      "current_path": "/Users/corinakaiser/Projects/raft/src/raft/files_helper.py",
+      "current_sha256": "614d8d309ae162bf40b2bfc3cff949dbf9884756e00fb75a044406d7b2a0c9ca",
+      "unchanged_from_audit": true
+    }
+  ],
+  "outside_scope": [
+    {
+      "historical_path": "/Users/corinakaiser/Projects/opbdh_root/opbdh/src/opbdh/_ft_runner.py",
+      "reason": "Separate OPBDH dependency; not re-audited in this RAFT compatibility check."
+    }
+  ],
+  "pytest": {
+    "exit_code": 0,
+    "tests": [
+      "test_transcript_carries_its_setting",
+      "test_system_prompt_states_persona_date_and_setting",
+      "test_exchanges_are_remembered_dated_and_only_after_the_query",
+      "test_the_persona_reply_asks_for_sampling_not_the_endpoint_default",
+      "test_lora_target_modules_reach_the_opbdh_recipe",
+      "test_a_failed_summary_is_skipped_not_fatal",
+      "test_identical_summary_failures_are_reported_once",
+      "test_each_role_can_have_its_own_endpoint"
+    ],
+    "network_blocked": true,
+    "summary": "8 passed in 2.18s"
+  },
+  "format_fixture": {
+    "assertions": "passed",
+    "bounded_window_inclusive": [
+      true,
+      false
+    ],
+    "date_num_same_day": 18400102,
+    "direct_writer_preserves_context": true,
+    "duplicate_link_append_counts": [
+      1,
+      0
+    ],
+    "filename_order": [
+      "transcript-0001.json",
+      "transcript-0002.json",
+      "transcript-0003.json"
+    ],
+    "fresh_call_prev_answers": [
+      "",
+      "out1"
+    ],
+    "fresh_constructor_metadata": {
+      "date": "1840-01-02",
+      "participants": {
+        "a": "A",
+        "q": "Q"
+      },
+      "url": "u"
+    },
+    "fresh_gap_metadata_dates": [
+      "1840-01-02"
+    ],
+    "importer_preserves_context": false,
+    "missing_date_url_keys_fail": true,
+    "network_or_llm": false,
+    "resumed_metadata_dates": [
+      "1840-01-02",
+      "1841-01-01",
+      "1839-01-01"
+    ]
+  },
+  "validation_limits": [
+    "Chroma date query and model calls mocked; no real embeddings or endpoint checks.",
+    "LoRA flag parsing and recipe field routing checked, no model architecture or training run validated.",
+    "No evaluation of persona quality or exclusion of later knowledge from model weights."
+  ],
+  "historical_export_outputs": {
+    "count": 167,
+    "hash_mismatches": []
+  }
+}

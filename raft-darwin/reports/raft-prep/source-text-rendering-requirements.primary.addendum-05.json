@@ -1,0 +1,244 @@
+{
+  "status": "primary_verified_readiness_requirements",
+  "scope": "Source-fidelity requirements from accepted 1847–1850 batches 17–18; cumulative export remains deferred.",
+  "draft_reviewed": {
+    "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-05.draft.json",
+    "sha256": "da1704b00d8efddba1682b81aaf1bb6316beb464c4f84b5e612071ec7f4c91ba",
+    "preserved_unchanged": true
+  },
+  "primary_provenance": [
+    {
+      "batch_id": "batch-17",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-17.json",
+      "reading_sha256": "15abe2624706f6032299891669788dcc94e135b6383b9af6e3c37b4e7d42ae02",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-17.json",
+      "decision_sha256": "9abdf978148b8f5cac688e32465059162315e484e2f757032342446c401739a2",
+      "accepted_ledger_path": "data/annotations/periods/1847-1850/batch-17.json",
+      "accepted_ledger_sha256": "903f339800c93ebf03248e35e8cd6364e10e830fbb8a61cc8eb50c642bbaae67"
+    },
+    {
+      "batch_id": "batch-18",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-18.json",
+      "reading_sha256": "17921a360d3acd0780ca1e25adb2667332f5342e1224e334f7b10357b49bdfa8",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-18.json",
+      "decision_sha256": "e9cc827106bc18a1cc31cde6a0665e6a12409d2d0cd42d107531a264995c94cb",
+      "accepted_ledger_path": "data/annotations/periods/1847-1850/batch-18.json",
+      "accepted_ledger_sha256": "337b9c73ff63785ae07a9f16806478d8a157b0e542ab040c70d686eefffcf38c"
+    }
+  ],
+  "requirements": [
+    {
+      "letter_id": "DCP-LETT-1262",
+      "case": "Alternate October 29/30 date, MathML and figure",
+      "requirement": "Preserve the unresolved 29 or 30 October 1849 alternatives. Render the raw MathML quarter inch as 1/4 inch, and keep the actual small tiered cup diagram with the letter. Do not replace the figure with prose or confuse it with the later missing Lithotrya plate in 1378.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1262.html",
+        "source_sha256": "0b1abd047664c2839114e81bc201b4b380f2ce03b2f10d87844636241ea86b92",
+        "locators": "header/date metadata; body P1–P3; figure node and figure asset",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1262.xml",
+        "xml_sha256": "b65ce72af1d0eda001b458374b4530bdb0a16393354cb9575fd9687eeb807104"
+      },
+      "exact_source_evidence": [
+        {
+          "body_paragraph": 1,
+          "quote": "Your specimens arrived quite safe: I have as yet taken only a cursory glance at them"
+        },
+        {
+          "body_paragraph": 3,
+          "quote": "the animal often rises 14 of an inch in its hole from thickness of cup"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch 17 exact-date and visual reading.",
+      "evidence_rendering_policy": "Quoted flattened source strings are locators only; do not emit malformed fractions as normalized transcript content.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1311",
+      "case": "Broad date range and April 6 possibility",
+      "requirement": "Keep the broad Saturday range [26 January–March 1850] alongside the next-letter rationale that permits Saturday 6 April if 1316 is dated 7 April. Do not silently extend the encoded March endpoint or force 1316 to 31 March. Preserve that new specimens and questions become available only in their stated sequence.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1311.html",
+        "source_sha256": "0908ed5891702fc0260c78228d0bddf4825f93b79bbfc17b1b97a691cc9c0b36",
+        "locators": "header/date metadata; editorial footnote 1; body P1–P4",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1311.xml",
+        "xml_sha256": "78276bfffa8e8d7040841b6834e71c3d1db47a706a945b7d1f22a7972644960f"
+      },
+      "exact_source_evidence": [
+        {
+          "body_paragraph": 1,
+          "quote": "I will despatch the Box with large bottle on next Wednesday"
+        },
+        {
+          "body_paragraph": 4,
+          "quote": "I have not yet!! looked at Alcippe"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch 17; the dating chain is interdependent and remains a hold.",
+      "evidence_rendering_policy": "Quoted flattened source strings are locators only; do not emit malformed fractions as normalized transcript content.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1327",
+      "case": "Publication versus first explicit reading",
+      "requirement": "Do not activate Hancock’s 1848 paper from its publication date alone. Preserve Darwin’s first explicit reading in May 1850, his enclosure of one Lithotrya specimen, and his continuing uncertainty about the basal cup and boring mechanism.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1327.html",
+        "source_sha256": "7e45eedb2e9d7647b0a21731f9aa3515061d50ba1ad0b6527515c134d6d2fb39",
+        "locators": "header/date metadata; body P1–P3; editorial footnotes 1–2",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1327.xml",
+        "xml_sha256": "396c491faa170c5bb264d450954efdbc098f0471851c0db6ad1ff1d18d982fde"
+      },
+      "exact_source_evidence": [
+        {
+          "body_paragraph": 1,
+          "quote": "I have only just read your very interesting paper on the boring of Mollusca in the Annals"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch 17 delayed-reading observation.",
+      "evidence_rendering_policy": "Quoted flattened source strings are locators only; do not emit malformed fractions as normalized transcript content.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1378",
+      "case": "Fractions and missing drawing",
+      "requirement": "Render the raw MathML as 1/20 or 1/16 inch, retaining Darwin’s alternatives. Preserve the literal “[SYMBOL HERE]” as a missing drawing with no image node; a later published plate cannot silently substitute for the absent enclosure. Keep the statement “I have not yet looked at Alcippe!” as a contemporary examination hold.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1378.html",
+        "source_sha256": "5732c2ae7fa4b4fdf6d5b88c5777ca6705e4f49d28ba9ecca5e697c1bdf5b465",
+        "locators": "body P1–P2 and P6; MathML nodes; missing image boundary; editorial footnote 3",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1378.xml",
+        "xml_sha256": "d3c95fc09973b8ee6e54d016603f442edb2d8ebee4df84e162c34657e4615ab3"
+      },
+      "exact_source_evidence": [
+        {
+          "body_paragraph": 1,
+          "quote": "thanks to the enclosed drawing [SYMBOL HERE] (which please return) sent me by Steenstrup without text"
+        },
+        {
+          "body_paragraph": 2,
+          "quote": "each new one, at each fresh exuviation being placed 120 th or 116 th of inch"
+        },
+        {
+          "body_paragraph": 6,
+          "quote": "I have not yet looked at Alcippe!"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch 17; drawing receipt is separately established by 1330, while the memoir and visual remain distinct.",
+      "evidence_rendering_policy": "Quoted flattened source strings are locators only; do not emit malformed fractions as normalized transcript content.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1330",
+      "case": "Drawing known before later memoir chronology",
+      "requirement": "Preserve that Darwin acknowledges Steenstrup’s Lithotrya drawing by 20 May 1850 and calls the indicated boring method new to him. This establishes knowledge of the drawing by that date, not receipt or reading of the later memoir and not a direct incoming-letter edge.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1330.html",
+        "source_sha256": "769a16a14a5c5732bcad5cf59bcb1c5e5dadd64f0171bf581340f80a19857106",
+        "locators": "body P1; editorial footnotes 1–4",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1330.xml",
+        "xml_sha256": "8b78b430faff0c99a565870d4bb7c2a53fd0116aa4a79174d7a7febc2be2a7a4"
+      },
+      "exact_source_evidence": [
+        {
+          "body_paragraph": 1,
+          "quote": "I thank you much for the drawing of Lithotrya: I think I may have the same species from Timor"
+        }
+      ],
+      "accepted_primary_note": "Accepted batch 17 additional full reading; outgoing witness and missing incoming drawing text remain separate.",
+      "evidence_rendering_policy": "Quoted flattened source strings are locators only; do not emit malformed fractions as normalized transcript content.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1235",
+      "case": "Mixed number and prospective treatment",
+      "requirement": "Render bedtime as eight and a half from integer 8 plus MathML 1/2. Sweating treatment begins tomorrow and May departure remains uncertain; do not turn these into completed events.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1235.html",
+        "source_sha256": "2f0b1bb45825923af9f1ca971ae089c03adc4d43a40a77b4735242f3b534c28d",
+        "locators": "Body P1–2; P2 MathML",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1235.xml",
+        "xml_sha256": "a19ee3bee58e78e29cfe5731a5c4c19e4f2d9e0bcff31c10bd75c3664349a842"
+      },
+      "accepted_primary_note": "Accepted batch-18; future rendering requirement only.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1249",
+      "case": "Literal integer and changing health assessment",
+      "requirement": "Twelve hours is literal text with no MathML; do not normalize it as a fraction. Preserve subjective absolute-cure claim at its date, with continuing other symptoms and later reports kept in their own documents. Earlier intended June 1 return differs from June 30 actual return inferred here.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1249.html",
+        "source_sha256": "60ca180d13636f36915ff4563497a12bb805465c2b61eff3e59b16a2eb8d570b",
+        "locators": "Body P1; compare 1240 P1 and 1323 P2",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1249.xml",
+        "xml_sha256": "c2b24e99608a6b5342e61f51ecf95d572b90965c24342eb1e3d0b49fc754376d"
+      },
+      "accepted_primary_note": "Accepted batch-18; future rendering requirement only.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1292",
+      "case": "Authority identity and historical medical narrative",
+      "requirement": "Mr Wood is Charles Henry Lardner Woodd, not naturalist Searles Valentine Wood. Preserve historical chloroform account as Darwin attributed experience rather than current clinical advice. Child birth day-before-yesterday supports January 17 alongside January 15 identification.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1292.html",
+        "source_sha256": "ac7cd8c46e652fcbefbd4f02fb2b038172a786ce811f071647cf552179ffe2ed",
+        "locators": "Body P1–3; editorial identity/date footnotes",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1292.xml",
+        "xml_sha256": "cbf418503f9f36c32671e9abd42967844de630b3b6a4a794a8c36ec2e325d425"
+      },
+      "accepted_primary_note": "Accepted batch-18; future rendering requirement only.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1352",
+      "case": "Attributed views and narrow reading witness",
+      "requirement": "Keep Agassiz views attributed and Fox aphorism quoted; do not relabel them as original Darwin doctrine. Quetelet remark recently seen is not proof a whole book was read. Later family reminiscence in apparatus is not contemporary letter body.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1352.html",
+        "source_sha256": "1f236c42a2e9cac18c0728fc87ecd3dba079f5b00f029449eaefb3d195051381",
+        "locators": "Body P1–3; Quetelet and later family reminiscence footnotes",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1352.xml",
+        "xml_sha256": "cbc8fd09c522137b8f577105b4f75cd06f418f5310d5a067d3e8a3840689feb0"
+      },
+      "accepted_primary_note": "Accepted batch-18; future rendering requirement only.",
+      "implemented": false
+    },
+    {
+      "letter_id": "DCP-LETT-1362",
+      "case": "Unsettled decision and revised observations",
+      "requirement": "Retain school indecision and prospective visit/childbirth. Later Rugby choice remains later; current doubts about standard pear trees must not be harmonized with 1222 earlier success.",
+      "source_provenance": {
+        "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1362.html",
+        "source_sha256": "359fa320eba561a6632f77ad3d0042e0139e76d6b422f8ace98a1d5e653493a5",
+        "locators": "Body P1–4",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1362.xml",
+        "xml_sha256": "30674c0196009d46c581efdfeeb61e7802748ce404bcf4af8fbc0bb4da095455"
+      },
+      "accepted_primary_note": "Accepted batch-18; future rendering requirement only.",
+      "implemented": false
+    }
+  ],
+  "primary_corrections_to_draft": [
+    "Flattened 14, 120 and 116 exact quotations locate source evidence; they are not intended normalized fractions.",
+    "Added five verified Fox cases including literal twelve hours, which must not receive fraction repair."
+  ],
+  "verification": {
+    "draft_primary_hash_checks": 3,
+    "source_html_xml_pairs_checked": 10,
+    "primary_note_decision_ledger_sets_pinned": 2,
+    "errors": 0,
+    "method": "Substantive review against accepted complete primary readings, raw MathML, actual visual and missing-image evidence, plus source hashes and paragraph-specific quotations."
+  },
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "future_requirements": [
+      "One cumulative input snapshot after research through 1859-11-24.",
+      "Keep date uncertainty, voice attribution, and hearing, receiving, reading and examining separate.",
+      "Do not invent missing incoming prose or diagrams; preserve provenance of any later rendering normalization."
+    ]
+  }
+}

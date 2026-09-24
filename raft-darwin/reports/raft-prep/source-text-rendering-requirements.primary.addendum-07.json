@@ -1,0 +1,728 @@
+{
+  "status": "primary_verified_readiness_requirements",
+  "scope": "Accepted1847–1850batches23–25; cumulative export still deferred.",
+  "draft_reviewed": {
+    "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-07.draft.json",
+    "sha256": "9334125f54ba14ebd8775cfda990b438fd7a34eac342af6c77b734e73a097eb3",
+    "preserved_unchanged": true
+  },
+  "primary_provenance": [
+    {
+      "batch_id": "batch-23",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-23.json",
+      "reading_sha256": "0d77bae714bb571926a75056679ffa2160171e844f64ccee3022273462efdd60",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-23.json",
+      "decision_sha256": "809cd5ff6ffda082a6ae9ff7f6187bd362fa7992a3bc4a918e1465bdefdddf75",
+      "accepted_ledger_path": "data/annotations/periods/1847-1850/batch-23.json",
+      "accepted_ledger_sha256": "5639fc4dafccc864bba217af8ac22edf19c43223410aeb450e6b80beeb9186a2"
+    },
+    {
+      "batch_id": "batch-24",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-24.json",
+      "reading_sha256": "b34474ec865c85a5139bbffe76b64c4d9158cfc7ee73e48319ccfe9043b78858",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-24.json",
+      "decision_sha256": "e0fd9509a4415a3ca478bcfd5e46bab51ba45fb20d4362a8fee69e2e5030b4c1",
+      "accepted_ledger_path": "data/annotations/periods/1847-1850/batch-24.json",
+      "accepted_ledger_sha256": "7352f2825e5bfe7230b77ba93cbcc2e9585576bab7817c9e9fcbc8ee7f371fa6"
+    },
+    {
+      "batch_id": "batch-25",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-25.json",
+      "reading_sha256": "243edbc2e9170251ef336e96a38c6dac7161973738c9c7fe6847d7a07355b97a",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-25.json",
+      "decision_sha256": "1cff888894058fdafa01780c112f905028b3ff52209fb255f50bcb3a3e6b7d73",
+      "accepted_ledger_path": "data/annotations/periods/1847-1850/batch-25.json",
+      "accepted_ledger_sha256": "4c63603ccba9daa5678a1fed1fede7d4ebfe12115fcf1bc806cf007fb037577c"
+    }
+  ],
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1111F"
+      ],
+      "case": "Actual non-decimal currency table",
+      "requirement": "Preserve header and three columns, blank cells and source punctuation. Trailing10 is a separate currency column, not decimal pounds. Remove only footnote marker4; do not insert inferred shillings header as author text.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1111F",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1111F.html",
+          "source_sha256": "b81f1a35432f0414187fd2fca8c0a910cd8b49de9648b1c5204f881d3e13e15e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1111F.xml",
+          "xml_sha256": "c65df9c97df84bfef6f6be9fb1b04f9afd782874cc1b7dc95d5ad13941545613",
+          "locators": "div#letter table.table; retained body P3–5"
+        }
+      ],
+      "exact_body_evidence": [],
+      "implemented": false,
+      "table_evidence": {
+        "raw_html": "<table class=\"table\">\n        <tr class=\"tr\">\n            <td class=\"td left\"></td>\n            <td class=\"td right\">£</td>\n            <td class=\"td left\"></td>\n        </tr>\n        <tr class=\"tr\">\n            <td class=\"td left\">Paid</td>\n            <td class=\"td right\">3742.</td>\n            <td class=\"td left\">10</td>\n        </tr>\n        <tr class=\"tr\">\n            <td class=\"td left\">Call</td>\n            <td class=\"td right\">200</td>\n            <td class=\"td left\"></td>\n        </tr>\n        <tr class=\"tr\">\n            <td class=\"td left\"></td>\n            <td class=\"td right\">3942\"</td>\n            <td class=\"td left\">10<sup id=\"back-mark-Lfoot.f4\" class=\"footnote\" data-target=\"#Lfoot.f4\">4</sup></td>\n        </tr>\n    </table>\n \n",
+        "rows_after_footnote_exclusion": [
+          [
+            "",
+            "£",
+            ""
+          ],
+          [
+            "Paid",
+            "3742.",
+            "10"
+          ],
+          [
+            "Call",
+            "200",
+            ""
+          ],
+          [
+            "",
+            "3942\"",
+            "10"
+          ]
+        ],
+        "raw_html_policy": "Serialized actual source node, including whitespace; not a schematic string with ellipsis."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1043"
+      ],
+      "case": "Broken financial layout and changed answer route",
+      "requirement": "Keep literal diag/ramme text and unresolved layout; do not fabricate a table. P11 verbal answer through Frank changes to P12 return-post request, but no new date is proved. Authorization and expected Wednesday funds remain prospective.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1043",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1043.html",
+          "source_sha256": "01f6da16cf0ddedc0c3fc196420a39d3b01f5231864be1b27d6ea4a701267f16",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1043.xml",
+          "xml_sha256": "bb7b4b5aa5a18ef91b4cce1b464b660684609c49937eccb38f1c8d5cb16bc51f",
+          "locators": "Body P2–4 broken layout; P11–12 route change"
+        }
+      ],
+      "exact_body_evidence": [
+        {
+          "letter_id": "DCP-LETT-1043",
+          "body_paragraph": 2,
+          "quote": "diag 1847.",
+          "char_start": 174,
+          "char_end": 184,
+          "source_sha256": "01f6da16cf0ddedc0c3fc196420a39d3b01f5231864be1b27d6ea4a701267f16"
+        },
+        {
+          "letter_id": "DCP-LETT-1043",
+          "body_paragraph": 4,
+          "quote": "350 ” 16 . . 7 + interest ramme",
+          "char_start": 0,
+          "char_end": 31,
+          "source_sha256": "01f6da16cf0ddedc0c3fc196420a39d3b01f5231864be1b27d6ea4a701267f16"
+        },
+        {
+          "letter_id": "DCP-LETT-1043",
+          "body_paragraph": 11,
+          "quote": "send me a verbal answer by Frank",
+          "char_start": 34,
+          "char_end": 66,
+          "source_sha256": "01f6da16cf0ddedc0c3fc196420a39d3b01f5231864be1b27d6ea4a701267f16"
+        },
+        {
+          "letter_id": "DCP-LETT-1043",
+          "body_paragraph": 12,
+          "quote": "will you send me a line by return of Post",
+          "char_start": 58,
+          "char_end": 99,
+          "source_sha256": "01f6da16cf0ddedc0c3fc196420a39d3b01f5231864be1b27d6ea4a701267f16"
+        }
+      ],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1042"
+      ],
+      "case": "Three and a half percent and uncertain arithmetic",
+      "requirement": "P3–7 account layout lacks a substantive table. Preserve uncertain share counts/prices and do not substitute later trades. In P10 the separate integer3 plus MathML1/2 means3½percent; flattened312 is not intended rendered value.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1042",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1042.html",
+          "source_sha256": "a7db40fe8421669bffa7f1c7fe31e80faad72961d53157f68ed8e39f1f1c500a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1042.xml",
+          "xml_sha256": "582c80a7cf8a7ab4aa0c0710d3c603bc49f9bbc7d72318cc69b3261bb06d72c6",
+          "locators": "P3–10; raw MathML in P10"
+        }
+      ],
+      "exact_body_evidence": [
+        {
+          "letter_id": "DCP-LETT-1042",
+          "body_paragraph": 10,
+          "quote": "which pays now only 312 percent",
+          "char_start": 153,
+          "char_end": 184,
+          "source_sha256": "a7db40fe8421669bffa7f1c7fe31e80faad72961d53157f68ed8e39f1f1c500a"
+        }
+      ],
+      "implemented": false,
+      "mathml_evidence": {
+        "raw_mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+        "separate_integer": "3",
+        "semantic_rendering": "3½ percent",
+        "flattened_body_quote_is_not_output": true
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1317",
+        "DCP-LETT-1342"
+      ],
+      "case": "Provisional taxonomy",
+      "requirement": "Preserve literal Oxunaspis, numbered hypotheses and uncertainty.1342 lists alternative classifications for requested specimens, not three confirmed species. Later published taxonomy remains apparatus.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1317",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1317.html",
+          "source_sha256": "76702009de1efecad67b9ed4e12bf1d0fc5f7bb774e072f73e60a4e0b65a70a4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1317.xml",
+          "xml_sha256": "7f2071cde2304dc36ab7c3c583684f0317e0b4615cbb877af1da98ef76046d6b",
+          "locators": "1317 P2–3;1342 P1"
+        },
+        {
+          "letter_id": "DCP-LETT-1342",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1342.html",
+          "source_sha256": "13cea23790f67c5b5714a0c4e7b8571da3aa0f4b67d930088323219efd9d461d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1342.xml",
+          "xml_sha256": "c5db8db3a7a84b2640e7ace60105dbb95f73e9bdf2c47ba96964f4fa7fc72641",
+          "locators": "1317 P2–3;1342 P1"
+        }
+      ],
+      "exact_body_evidence": [
+        {
+          "letter_id": "DCP-LETT-1317",
+          "body_paragraph": 2,
+          "quote": "under the name of Oxunaspis",
+          "char_start": 191,
+          "char_end": 218,
+          "source_sha256": "76702009de1efecad67b9ed4e12bf1d0fc5f7bb774e072f73e60a4e0b65a70a4"
+        },
+        {
+          "letter_id": "DCP-LETT-1342",
+          "body_paragraph": 1,
+          "quote": "Anatifera cretæ or Oxynaspis ? or Scalpellum ?",
+          "char_start": 205,
+          "char_end": 251,
+          "source_sha256": "13cea23790f67c5b5714a0c4e7b8571da3aa0f4b67d930088323219efd9d461d"
+        }
+      ],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1351"
+      ],
+      "case": "Distinct letter, specimen, plate and paper states",
+      "requirement": "Earlier July29letter, September1specimens, already-seen plate and still-requested paper have separate availability. Preserve literal Augelin in Darwin text, with Angelin correction only in attributed metadata.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1351",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1351.html",
+          "source_sha256": "d6afd62dff708984d1379cd64563b41d432e7e0882959e9bc2662bcc9821b177",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1351.xml",
+          "xml_sha256": "e9bcbca18a5fa6805a525705f2c10b3eae914e26b980c641d5a4dec8794cc2ea",
+          "locators": "P1 receipt; P2 name; P4 plate/paper"
+        }
+      ],
+      "exact_body_evidence": [
+        {
+          "letter_id": "DCP-LETT-1351",
+          "body_paragraph": 1,
+          "quote": "they came to me this morning",
+          "char_start": 145,
+          "char_end": 173,
+          "source_sha256": "d6afd62dff708984d1379cd64563b41d432e7e0882959e9bc2662bcc9821b177"
+        },
+        {
+          "letter_id": "DCP-LETT-1351",
+          "body_paragraph": 2,
+          "quote": "M. Augelin",
+          "char_start": 50,
+          "char_end": 60,
+          "source_sha256": "d6afd62dff708984d1379cd64563b41d432e7e0882959e9bc2662bcc9821b177"
+        },
+        {
+          "letter_id": "DCP-LETT-1351",
+          "body_paragraph": 4,
+          "quote": "the Paper which you kindly offered to send me",
+          "char_start": 27,
+          "char_end": 72,
+          "source_sha256": "d6afd62dff708984d1379cd64563b41d432e7e0882959e9bc2662bcc9821b177"
+        },
+        {
+          "letter_id": "DCP-LETT-1351",
+          "body_paragraph": 4,
+          "quote": "the Plate interested me much",
+          "char_start": 125,
+          "char_end": 153,
+          "source_sha256": "d6afd62dff708984d1379cd64563b41d432e7e0882959e9bc2662bcc9821b177"
+        }
+      ],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1142",
+        "DCP-LETT-1373",
+        "DCP-LETT-1372",
+        "DCP-LETT-1319F"
+      ],
+      "case": "Missing financial enclosures and proposed transactions",
+      "requirement": "Do not reconstruct missing account or Salt letters from totals, acknowledgments or later corrections. Preserve conditional share transfers, planned bank instructions and uncertain personal/trust attribution. Later1851/1853corrections cannot overwrite1850belief.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1142",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1142.html",
+          "source_sha256": "701b6647084e0e0d6b3881c6e893ef8eaffcc6bf977871e736acdc1758680623",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1142.xml",
+          "xml_sha256": "85160a9f210209077ebc9e6df3996642bb5beffbcca335d6ea735811404c579b",
+          "locators": "1142 apparatus enclosure;1373 missing No I/II;1372 P2–3;1319F P2"
+        },
+        {
+          "letter_id": "DCP-LETT-1373",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1373.html",
+          "source_sha256": "11def994ce0fefe505751f13faee8c89178869c6d04ec219aa4d9bec5c79f90e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1373.xml",
+          "xml_sha256": "1356a69d2bb825686c701cf5eb9ce00cae62e08fbe25b199634c65065f1e2bbb",
+          "locators": "1142 apparatus enclosure;1373 missing No I/II;1372 P2–3;1319F P2"
+        },
+        {
+          "letter_id": "DCP-LETT-1372",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1372.html",
+          "source_sha256": "aeebdb672cfe2ac2adef1d1ed49eeaa0576dff4a7f2e8a945a26c172544d893b",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1372.xml",
+          "xml_sha256": "23f8011eb2c092db2ac4c527793c0f57c5ba14dc2465755d0b2a2eb76402fe19",
+          "locators": "1142 apparatus enclosure;1373 missing No I/II;1372 P2–3;1319F P2"
+        },
+        {
+          "letter_id": "DCP-LETT-1319F",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1319F.html",
+          "source_sha256": "510fd8d38349ac416785d9ebfd5522cd7eab8044503ca99809a9c913c978e50c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1319F.xml",
+          "xml_sha256": "e380e32150ba0467438feca00307038751ec51748bd69c591317213fcc62112a",
+          "locators": "1142 apparatus enclosure;1373 missing No I/II;1372 P2–3;1319F P2"
+        }
+      ],
+      "exact_body_evidence": [
+        {
+          "letter_id": "DCP-LETT-1372",
+          "body_paragraph": 2,
+          "quote": "£5000 is my own not under Trust",
+          "char_start": 87,
+          "char_end": 118,
+          "source_sha256": "aeebdb672cfe2ac2adef1d1ed49eeaa0576dff4a7f2e8a945a26c172544d893b"
+        },
+        {
+          "letter_id": "DCP-LETT-1319F",
+          "body_paragraph": 2,
+          "quote": "I will today write to Mess Robarts",
+          "char_start": 0,
+          "char_end": 34,
+          "source_sha256": "510fd8d38349ac416785d9ebfd5522cd7eab8044503ca99809a9c913c978e50c"
+        }
+      ],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1269F"
+      ],
+      "case": "Calendar gloss and forecast hold",
+      "requirement": "Keep literal next Lady Day. Conflicting editorial March24gloss requires separately attributed calendar correction if ever normalized; it does not date an actual payoff. Future amounts and timing are forecasts.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1269F",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1269F.html",
+          "source_sha256": "3a5bcb809adbc3311b3e2f0a6a26c0115ba7148a789f8697c5f4108ac39b0d5f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1269F.xml",
+          "xml_sha256": "7b5e806fced950efab93b2b1ed527091094ed380ed7c8cea88d54ea0bdc724c1",
+          "locators": "P1 and footnote2"
+        }
+      ],
+      "exact_body_evidence": [
+        {
+          "letter_id": "DCP-LETT-1269F",
+          "body_paragraph": 1,
+          "quote": "by next Lady Day (the money perhaps being ready before that day)",
+          "char_start": 79,
+          "char_end": 143,
+          "source_sha256": "3a5bcb809adbc3311b3e2f0a6a26c0115ba7148a789f8697c5f4108ac39b0d5f"
+        }
+      ],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1361",
+        "DCP-LETT-1366A",
+        "DCP-LETT-1363",
+        "DCP-LETT-1364",
+        "DCP-LETT-1367"
+      ],
+      "case": "Minutes cannot substitute for missing incoming letters",
+      "requirement": "Ray Society records reproduce council minutes directing a secretary to write. Use them as institutional context and evidence that a Darwin letter was considered; they are not delivered letter wording and cannot supply a source-complete Q. Keep minute date, inferred sent interval and unknown receipt distinct.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1361",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1361.html",
+          "source_sha256": "1d7cf8ee0f30bcd85ded3b7295ae22c3aa3eb242822a0eb2cc20a728f4686ad4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1361.xml",
+          "xml_sha256": "18c4d5435b856e082ec8dcc4acfd129255ece721302be998bfed657d8fbc9041",
+          "locators": "1361 P1/footnote1;1366A P1/footnote3;1363/1364/1367 bodies"
+        },
+        {
+          "letter_id": "DCP-LETT-1366A",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1366A.html",
+          "source_sha256": "19e20110e0d7cf08cc76fb411cb6df9fa4b23a7b794368c7efd7d51b5b6d0a61",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1366A.xml",
+          "xml_sha256": "33de98cd8c1b2a6746d22d738f9846ccc1b82179d4cf7d987fcc4c5e3c564f07",
+          "locators": "1361 P1/footnote1;1366A P1/footnote3;1363/1364/1367 bodies"
+        },
+        {
+          "letter_id": "DCP-LETT-1363",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1363.html",
+          "source_sha256": "d64304603b3d68d81af85284087e53798f6e39033214941a20781a0a1990b8d5",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1363.xml",
+          "xml_sha256": "3057e15f788263f054a56f2d2849348fdbaa91957972719b82c09dfe3a396342",
+          "locators": "1361 P1/footnote1;1366A P1/footnote3;1363/1364/1367 bodies"
+        },
+        {
+          "letter_id": "DCP-LETT-1364",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1364.html",
+          "source_sha256": "bea878ec156278be9a8c1bf480b43193f261121836d640ebefc93a7f0c2eec57",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1364.xml",
+          "xml_sha256": "7de3a72e4f4b831c4e624c38e777e8fe63126e4ce87e599ab8ec98866d34bcfe",
+          "locators": "1361 P1/footnote1;1366A P1/footnote3;1363/1364/1367 bodies"
+        },
+        {
+          "letter_id": "DCP-LETT-1367",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1367.html",
+          "source_sha256": "98e5629572f4c40485cbff3d48f93e32646d1b53334692fd8ebb1e89d745569c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1367.xml",
+          "xml_sha256": "1fe8a4bb77a99595de6b90f4dcec960f65a52ec68e50ee08991342b34dd27aae",
+          "locators": "1361 P1/footnote1;1366A P1/footnote3;1363/1364/1367 bodies"
+        }
+      ],
+      "exact_body_evidence": [
+        {
+          "letter_id": "DCP-LETT-1361",
+          "body_paragraph": 1,
+          "quote": "the Secretary be requested to ask Mr. Darwin",
+          "char_start": 19,
+          "char_end": 63,
+          "source_sha256": "1d7cf8ee0f30bcd85ded3b7295ae22c3aa3eb242822a0eb2cc20a728f4686ad4"
+        },
+        {
+          "letter_id": "DCP-LETT-1366A",
+          "body_paragraph": 1,
+          "quote": "the Secretary instructed to write to him",
+          "char_start": 41,
+          "char_end": 81,
+          "source_sha256": "19e20110e0d7cf08cc76fb411cb6df9fa4b23a7b794368c7efd7d51b5b6d0a61"
+        }
+      ],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1364",
+        "DCP-LETT-1367",
+        "DCP-LETT-1374"
+      ],
+      "case": "Production proposals versus final publication",
+      "requirement": "Keep skeleton plates, drawings and engravings distinct; December5corrects the misconception. Plate/type/page estimates and colour requests are current proposals, not final400/640-page volumes. Nominal1851date and actual1852appearance are separate editorial facts, not promised delivery.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1364",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1364.html",
+          "source_sha256": "bea878ec156278be9a8c1bf480b43193f261121836d640ebefc93a7f0c2eec57",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1364.xml",
+          "xml_sha256": "7de3a72e4f4b831c4e624c38e777e8fe63126e4ce87e599ab8ec98866d34bcfe",
+          "locators": "1364 P1–5/P8;1367 P1–5;1374 P1–3 and apparatus"
+        },
+        {
+          "letter_id": "DCP-LETT-1367",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1367.html",
+          "source_sha256": "98e5629572f4c40485cbff3d48f93e32646d1b53334692fd8ebb1e89d745569c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1367.xml",
+          "xml_sha256": "1fe8a4bb77a99595de6b90f4dcec960f65a52ec68e50ee08991342b34dd27aae",
+          "locators": "1364 P1–5/P8;1367 P1–5;1374 P1–3 and apparatus"
+        },
+        {
+          "letter_id": "DCP-LETT-1374",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1374.html",
+          "source_sha256": "3fbf8a9523c10abf4905a68e0869f1298be11f643e107bac04afb9244a59407f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1374.xml",
+          "xml_sha256": "f6b23dd2952bd3c52c482a1e2d387f585e4043fbbc5dc77ae43ce715c312fa81",
+          "locators": "1364 P1–5/P8;1367 P1–5;1374 P1–3 and apparatus"
+        }
+      ],
+      "exact_body_evidence": [
+        {
+          "letter_id": "DCP-LETT-1374",
+          "body_paragraph": 1,
+          "quote": "what he has made are some drawings",
+          "char_start": 225,
+          "char_end": 259,
+          "source_sha256": "3fbf8a9523c10abf4905a68e0869f1298be11f643e107bac04afb9244a59407f"
+        }
+      ],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1170",
+        "DCP-LETT-1052"
+      ],
+      "case": "Scientific question diagrams",
+      "requirement": "Preserve actual diagrams and their epistemic role.1170 depicts an opposing denudation hypothesis;1052 illustrates a cleavage-contact question. Neither is a measured observation or answer. Figure-dependent text remains held unless faithfully represented; modern description is not original correspondence.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1170",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1170.html",
+          "source_sha256": "1865db8a9cba4b05073f519ca34cbbe5932e09bb507a18601064fdb7b9c2bfb6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1170.xml",
+          "xml_sha256": "4424184e5a053a1d79e8b73f03c2f313db283514d749bb454fd3866a060c9ad0",
+          "locators": "1170 figure following P2;1052 inline P3; accepted primary visual readings"
+        },
+        {
+          "letter_id": "DCP-LETT-1052",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1052.html",
+          "source_sha256": "cb1fae50d8fb4d094ae330f6fb44be4971db16e00de27abe4bd5451f55352956",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1052.xml",
+          "xml_sha256": "67fbb1bedbaeb6cc5493df1896f37e55fcf150cf20d8a402ba9906d873bc8f1e",
+          "locators": "1170 figure following P2;1052 inline P3; accepted primary visual readings"
+        }
+      ],
+      "exact_body_evidence": [],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1102",
+        "DCP-LETT-1108",
+        "DCP-LETT-1107"
+      ],
+      "case": "Access and identity distinctions",
+      "requirement": "Pamphlet at brother house is not yet Darwin access or reading.1108 Royal Society candidacy refers to Philosophical Club, with existing fellowship distinct.1107 raw3/4hour must not render34; preserve literal Ordnance Survey with separate Geological Survey explanation.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1102",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1102.html",
+          "source_sha256": "2fff6c34334eb53d68f8d1ba224b00a925218f9dc6b2274a128e2228b4bccf6a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1102.xml",
+          "xml_sha256": "9e764e1124696f981ff7fe5fb547477991370c74bf113cc91814874daf4a7e1d",
+          "locators": "1102 P1;1108 P2/footnote2;1107 P1/P3"
+        },
+        {
+          "letter_id": "DCP-LETT-1108",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1108.html",
+          "source_sha256": "09733d7146dbdaa29f730540435474b512b7739b4f2529e29e2b00b7c01c2a80",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1108.xml",
+          "xml_sha256": "95a9abc66085d542abb34f0001332bbbe215313bf72bf2b2d50284530a72519e",
+          "locators": "1102 P1;1108 P2/footnote2;1107 P1/P3"
+        },
+        {
+          "letter_id": "DCP-LETT-1107",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1107.html",
+          "source_sha256": "94f16767c953999f59ecf838c2457061463e5ac7b50ebb543b97968bde3c98d2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1107.xml",
+          "xml_sha256": "eb15c41077675b670fd96625958b4e8b46983625339bd7b3c16bb5b64fd27272",
+          "locators": "1102 P1;1108 P2/footnote2;1107 P1/P3"
+        }
+      ],
+      "exact_body_evidence": [
+        {
+          "letter_id": "DCP-LETT-1102",
+          "body_paragraph": 1,
+          "quote": "I shall get it at the end of this week",
+          "char_start": 349,
+          "char_end": 387,
+          "source_sha256": "2fff6c34334eb53d68f8d1ba224b00a925218f9dc6b2274a128e2228b4bccf6a"
+        }
+      ],
+      "implemented": false,
+      "raw_mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>"
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1331",
+        "DCP-LETT-1257",
+        "DCP-LETT-1285"
+      ],
+      "case": "Forwarded knowledge is not a direct answer",
+      "requirement": "May22forwarding identifies Joseph letter by geological motto and improves known-by timing, not exact receipt. William/ Joseph remain separate. Generic January geological forwarding does not identify same source.1257 remains incomplete with undated later annotations. Do not place incoming knowledge in Darwin-voice corpus.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1331",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1331.html",
+          "source_sha256": "bef6909604198395ca150f1adfd141d0f86eea57c70f2cb9c97bbc9dcf885182",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1331.xml",
+          "xml_sha256": "cc633f0881e0c94b29d53e5ef0c5f4d14b7d415fc7d6e41610574a5501a3b3d6",
+          "locators": "1331 P1;1257 P1–2 and primary record;1285 P3"
+        },
+        {
+          "letter_id": "DCP-LETT-1257",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1257.html",
+          "source_sha256": "e4b1395d881061a7260ae1a53124e7d79cc22fa2ba7c3e76c3f82abda2867c79",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1257.xml",
+          "xml_sha256": "80d2eb9a01994a6e1f162c0940a7ca4a783932e9b74313ce7fc3560b9874d603",
+          "locators": "1331 P1;1257 P1–2 and primary record;1285 P3"
+        },
+        {
+          "letter_id": "DCP-LETT-1285",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1285.html",
+          "source_sha256": "985f2efd16f950035bf178e19269d9fa9c3451868f1520ea9f5a9367f7e59f3a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1285.xml",
+          "xml_sha256": "f52b3c92452959780ea14f65e483d03d1f470c7d73de1c63dae66daa0e52e0fd",
+          "locators": "1331 P1;1257 P1–2 and primary record;1285 P3"
+        }
+      ],
+      "exact_body_evidence": [
+        {
+          "letter_id": "DCP-LETT-1331",
+          "body_paragraph": 1,
+          "quote": "Does not your son give a capital motto for a Book on Geology?",
+          "char_start": 273,
+          "char_end": 334,
+          "source_sha256": "bef6909604198395ca150f1adfd141d0f86eea57c70f2cb9c97bbc9dcf885182"
+        },
+        {
+          "letter_id": "DCP-LETT-1257",
+          "body_paragraph": 2,
+          "quote": "Stratification is vexation, Foliation’s twice as bad",
+          "char_start": 0,
+          "char_end": 52,
+          "source_sha256": "e4b1395d881061a7260ae1a53124e7d79cc22fa2ba7c3e76c3f82abda2867c79"
+        }
+      ],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1199",
+        "DCP-LETT-1232F"
+      ],
+      "case": "Broken list and restored damaged letter",
+      "requirement": "1199 P4–5 list breaks across a clause: W. Indies completes previous tubulosa statement. Preserve uncertain names/ditto qualifiers without invented layout.1232F has extensive brackets, illegible markers and damaged syntax; do not produce fluent unqualified reconstruction.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1199",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1199.html",
+          "source_sha256": "fcc963ae3399f53a10c9602e223e000cd37d0c1677f78bf218c6fc23d0b8508a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1199.xml",
+          "xml_sha256": "b5564fd7645f0dc0b256ab68cbd451189025afc5dfe1b0d952f36a761093d819",
+          "locators": "1199 P4–5 raw HTML;1232F P1–2 bracket markup"
+        },
+        {
+          "letter_id": "DCP-LETT-1232F",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1232F.html",
+          "source_sha256": "4014af29167e7670bf0facf868e3bb0daf0a1d0b67f701556194d5ecaa410254",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1232F.xml",
+          "xml_sha256": "062b733a0efcf72537367ef1fac0ad6fbbf148879b399457c92af7c61d8adaeb",
+          "locators": "1199 P4–5 raw HTML;1232F P1–2 bracket markup"
+        }
+      ],
+      "exact_body_evidence": [],
+      "implemented": false
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1200",
+        "DCP-LETT-1251",
+        "DCP-LETT-1320",
+        "DCP-LETT-1158A"
+      ],
+      "case": "Within-letter input and delayed or incomplete deliveries",
+      "requirement": "1200 Lyell introduction permission arrives after main writing.1251 incoming April30note reaches Darwin about a fortnight before August20, not exact derived date.1320 delayed parcel lacks promised Coronula.1158A specimens predate planned Arctic voyage and locality is queried, not known.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1200",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1200.html",
+          "source_sha256": "38353f2ac6959fab5df8620ab99c373b98549b8d2410b7d793bdc6ff20a17792",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1200.xml",
+          "xml_sha256": "2a833a145b533865dab1a81e49fbae56224b6dc6bee1d01e18bc903ac202317e",
+          "locators": "1200 P7;1251 P1/P4;1320 P1;1158A P1–2"
+        },
+        {
+          "letter_id": "DCP-LETT-1251",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1251.html",
+          "source_sha256": "55f8d2a0d54dce8143be320af63c946c433aa346cead03febecf92abd4673b8d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1251.xml",
+          "xml_sha256": "c8ba46e6001c03f5c1e7b72b228abb4332e0d248e9b428d3ea435c3b568f830a",
+          "locators": "1200 P7;1251 P1/P4;1320 P1;1158A P1–2"
+        },
+        {
+          "letter_id": "DCP-LETT-1320",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1320.html",
+          "source_sha256": "9d0d6f1cc9c7465efdaabd8e34ba506b4a6e056e065c9c2c4070b7f81a3902a5",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1320.xml",
+          "xml_sha256": "6d2671858b96ec7812b7b1aa04022e090ca8fff95a28ec840aa0a6715decedeb",
+          "locators": "1200 P7;1251 P1/P4;1320 P1;1158A P1–2"
+        },
+        {
+          "letter_id": "DCP-LETT-1158A",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1158A.html",
+          "source_sha256": "396a35458f5e2e08531fdc6d2f1737328f6f9dfd20dce33f02ef27b655984cb4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1847-1850/letters/DCP-LETT-1158A.xml",
+          "xml_sha256": "e828b0fa22588285f8053602970f168061e7515a00136c4c25583d434822a4e5",
+          "locators": "1200 P7;1251 P1/P4;1320 P1;1158A P1–2"
+        }
+      ],
+      "exact_body_evidence": [
+        {
+          "letter_id": "DCP-LETT-1200",
+          "body_paragraph": 7,
+          "quote": "Since writing the above",
+          "char_start": 0,
+          "char_end": 23,
+          "source_sha256": "38353f2ac6959fab5df8620ab99c373b98549b8d2410b7d793bdc6ff20a17792"
+        },
+        {
+          "letter_id": "DCP-LETT-1320",
+          "body_paragraph": 1,
+          "quote": "The parcel contained only a fine large Balanus",
+          "char_start": 466,
+          "char_end": 512,
+          "source_sha256": "9d0d6f1cc9c7465efdaabd8e34ba506b4a6e056e065c9c2c4070b7f81a3902a5"
+        }
+      ],
+      "implemented": false
+    }
+  ],
+  "primary_corrections_to_draft": [
+    "1043 broken layout is P2–4, not P3–5; corrected exact quotations to P2/P4/P11/P12.",
+    "1042 fraction is P10, not nonexistent P13; exact flattened text312 percent differs from proposed semantic rendering3½percent.",
+    "1111F draft HTML strings are schematic because whitespace removed and <sup ...> invented; actual serialized DOM/table cells now preserved.",
+    "1351 literal name is Augelin, not Angelin; editorial identification remains separate.",
+    "1373draft quotations/paragraph grouping are not adopted as exact evidence; primary relies on full accepted reading and newly validated1372/1319Fquotes.",
+    "Added institutional-minute, production-stage, diagram, third-party access, cross-correspondent knowledge and damaged-text requirements from accepted24–25."
+  ],
+  "verification": {
+    "draft_primary_hash_checks": 3,
+    "draft_source_html_hash_checks": 8,
+    "source_html_xml_pairs_checked": 31,
+    "primary_note_decision_ledger_sets_pinned": 3,
+    "exact_body_quotes_checked": 22,
+    "table_node_checked": true,
+    "mathml_nodes_checked": 2,
+    "errors_after_primary_correction": 0,
+    "method": "Independent substantive comparison with accepted primary full readings; exact paragraph substring validation, raw table cells and MathML inspection, and all HTML/XML hashes checked. Draft hash checks alone do not certify content."
+  },
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "future_requirements": [
+      "One cumulative adjudicated export after research through1859-11-24.",
+      "Keep raw evidence immutable and preserve exact spans, source uncertainty and attribution.",
+      "Missing incoming text and institutional minutes do not become synthetic prompts.",
+      "Known-by bounds are distinct from response date and exact physical receipt."
+    ]
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "status": "provisional_readiness_addendum_draft",
+  "scope": "Additive formatting/provenance requirements from accepted 1851–1855 primary batches 14–19, after primary addendum-12; no converter or export changes.",
+  "primary_provenance": [],
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1501"
+      ],
+      "case": "Literal 125th numeric damage and attached diagrams",
+      "requirement": "Preserve literal source HTML 125 with superscript th; do not silently render 125 inches or reconstruct 1/25. Hold reliable numeric rendering. Preserve both diagrams as image assets and provenance pins, with no agent prose substituted for imagery.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1501",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1501.html",
+        "source_sha256": "6c924d860f2d48b953a498184223139776d343b8d079d38044661b39d762ad72",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1501.xml",
+        "xml_sha256": "af494d7c63dd3df4aa97ecdc62b3bb4ddec33ffd16038923737d3d9cc9211ff1",
+        "locators": [
+          "P3/P10/P11",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[11]/span[2]/img",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]/span[4]/img",
+          "figure assets 1501-1.jpg sha256 92c6f23f968feae5ec7914f943e0ba979519c1b4d73400e1ccf98169278ad930; 1501-2.jpg sha256 9565de50b3650ee004a94ce71f387a396262393569b2c38cb0b20d94077988f7"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1501",
+          "body_paragraph": 3,
+          "quote": "The wonderful little cushion, is the inner ramus metamorphosed",
+          "source_sha256": "6c924d860f2d48b953a498184223139776d343b8d079d38044661b39d762ad72"
+        }
+      ],
+      "accepted_primary_basis": {
+        "accepted_batch": "batch-14",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-14.json",
+        "reading_sha256": "7c2f525dd82dee7b528caca3b3b9d01c342ae83a06e1119eecd668a8824275d8",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-14.json",
+        "decision_sha256": "2d94b0eb962dac959a518a8cbe2b985c1d022e721324c4d8db4e4616549da26c",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-14.json",
+        "ledger_sha256": "865e494a13d869d3dc9cdc1455a8cd84fe5c7c097d284f53d8dccc5a32ec1f41",
+        "accepted_note": "Raw P3 literal 125 with superscript th and no fraction markup; two diagrams viewed at extracted P10/P11.",
+        "accepted_decision": "dated_grounding_unpaired; reliable length rendering held.",
+        "ledger_requirement": "retain numeric hold and image pins."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1478A"
+      ],
+      "case": "Translated Danish draft and scoped response",
+      "requirement": "Preserve translated-from-Danish-draft status. Export neither as proven final dispatch nor as proof of Darwin receipt. Keep P1–5 comparative response scoped; P6–8 separate receipt/scientific/midden material.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1478A",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1478A.html",
+        "source_sha256": "f20da85e91f400a677c1a6b83d8bf92330d1f2de5fc3ec458f301c2dc06da20f",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1478A.xml",
+        "xml_sha256": "9745d65f66e37c6b0eec393330fb06fbf79cbe805fa22bcdda0c74a138b1f201",
+        "locators": [
+          "P1–5",
+          "P6–8"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1478A",
+          "body_paragraph": 3,
+          "quote": "On examining the two connected shell, you sent me",
+          "source_sha256": "f20da85e91f400a677c1a6b83d8bf92330d1f2de5fc3ec458f301c2dc06da20f"
+        }
+      ],
+      "accepted_primary_basis": {
+        "accepted_batch": "batch-19",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-19.json",
+        "reading_sha256": "6dc903cf9f4f92667d225d523aa5e929a547e2fd49ffb85d03feaa9f9b7e4c5c",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-19.json",
+        "decision_sha256": "d6fdc5083c3b0f4a62848b9573b8669ff80b8263159c853b54095f2f72501b92",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-19.json",
+        "ledger_sha256": "8d37a815d8a09c216c407c2e2c0383a24020ca38ee03219898f044b1efca138e",
+        "accepted_note": "April 8 1852 translation from Danish draft; P1–5 answer January 3 comparison, P6–8 are separate layers.",
+        "accepted_decision": "incoming_reverse_draft_reply; final wording, dispatch and Darwin receipt unverified.",
+        "ledger_requirement": "preserve translated draft and scoped response."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2107"
+      ],
+      "case": "Uncertain year and incomplete published extract",
+      "requirement": "Keep published incomplete extract, printed/editorial date conflict, and missing note/tracings separate. Do not collapse uncertain year into exact day or treat editorial reconstruction as full authentic source.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-2107",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-2107.html",
+        "source_sha256": "82340264a685a91decaa93955f02a0061270a155f3af47eb6f7e0c333b20dd2f",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-2107.xml",
+        "xml_sha256": "af8861c3675ef8f989273301c8ea71f70a1057e21298c63faf0362c6069ca126",
+        "locators": [
+          "published incomplete extract P1–3",
+          "printed carrier/date apparatus"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2107",
+          "body_paragraph": 1,
+          "quote": "I thank you much for your note of the 13th of May, and the tracings of the curious Bopyrid.",
+          "source_sha256": "82340264a685a91decaa93955f02a0061270a155f3af47eb6f7e0c333b20dd2f"
+        }
+      ],
+      "accepted_primary_basis": {
+        "accepted_batch": "batch-18",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-18.json",
+        "reading_sha256": "ed0b89066880f2728e6f2e4aabc8d56e92a6ddc56be9f5bffb01c8cc156cb604",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-18.json",
+        "decision_sha256": "2ce422882bba8995155c0aed962da2ba2b24799523a3a8797462d3d393d41a24",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-18.json",
+        "ledger_sha256": "389600c3f5f30dd64079bdb4705aa5b9e7121588547cc6531e58710e257c81fc",
+        "accepted_note": "Printed carrier gives 1857; editors propose 1851 and possibly June 15 1851; raw XML day is not independent proof; missing note/tracings cannot be reconstructed.",
+        "accepted_decision": "dated_grounding_unpaired_with_date_hold; export false.",
+        "ledger_requirement": "retain date hold and unavailable portions."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1589"
+      ],
+      "case": "Complete 77-entry enclosure with separators",
+      "requirement": "Preserve enclosure as numbered list 1–77 plus two unnumbered separator rows, retaining ditto dashes, tentative punctuation, varieties and localities. Do not flatten to table or reinterpret entries as specimen count.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1589",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1589.html",
+        "source_sha256": "60ba1c49e0aab96b5491307da8a6403faa12619c72288bb7bb3f1348d2de499c",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1589.xml",
+        "xml_sha256": "ec87196be380c253228a00b62d88e3ea28ab87059795ec3c94fda34541c03567",
+        "locators": [
+          "body P1",
+          "preserved enclosure list items 1–77 plus two separators"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1589",
+          "body_paragraph": 1,
+          "quote": "As you formerly were very kind in sending me so many valuable fossil cirripedes, I am anxious to make some, though a very inadequate return.",
+          "source_sha256": "60ba1c49e0aab96b5491307da8a6403faa12619c72288bb7bb3f1348d2de499c"
+        }
+      ],
+      "accepted_primary_basis": {
+        "accepted_batch": "batch-19",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-19.json",
+        "reading_sha256": "6dc903cf9f4f92667d225d523aa5e929a547e2fd49ffb85d03feaa9f9b7e4c5c",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-19.json",
+        "decision_sha256": "d6fdc5083c3b0f4a62848b9573b8669ff80b8263159c853b54095f2f72501b92",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-19.json",
+        "ledger_sha256": "8d37a815d8a09c216c407c2e2c0383a24020ca38ee03219898f044b1efca138e",
+        "accepted_note": "Full enclosure read: 77 named species entries plus two separators; later holdings do not establish dispatch/receipt.",
+        "accepted_decision": "dated_grounding_unpaired; dispatch and receipt distinct.",
+        "ledger_requirement": "preserve list topology and separators."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1630"
+      ],
+      "case": "MathML mixed number, separately positioned diagram, and summary conflict",
+      "requirement": "Preserve MathML 1/2 as derived 4 1/2 feet, never flat 412. Pin figure separately; its physical attachment is to closing paragraph despite DOM placement. Preserve body claim that house success is uncertain instead of editorial “found” summary.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1630",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1630.html",
+        "source_sha256": "d1f7ca0be852e9df5d01a5823fa2627f57aed2c61af30b3c6c93e38d73e102e5",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1630.xml",
+        "xml_sha256": "7d1dc6951f88cdc2e662c724b548ed424b7699856da99f8f54905d4ee979dba1",
+        "locators": [
+          "P1 house uncertainty",
+          "P4–5 geological text",
+          "MathML mfrac",
+          "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[9]/span/img",
+          "figure d1f7ca0be852e9df5d01a5823fa2627f57aed2c61af30b3c6c93e38d73e102e5; asset sha256 d579e6e820d9ddd6a81c0ab747e80da0c9a366a4adc1a256a42981bc1c054d5f"
+        ]
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1630",
+          "body_paragraph": 1,
+          "quote": "I hope we have succeeded in a House, after infinite trouble, but am not sure",
+          "source_sha256": "d1f7ca0be852e9df5d01a5823fa2627f57aed2c61af30b3c6c93e38d73e102e5"
+        }
+      ],
+      "accepted_primary_basis": {
+        "accepted_batch": "batch-15",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-15.json",
+        "reading_sha256": "8d20cb335d1e9e268274b683c8a42c8d6925a5691f45f47dee6ae7e3225bc376",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-15.json",
+        "decision_sha256": "518f37e73d63e0fde9331b47b142ad368d334f1637ffd70f3e7c452ab3d762e5",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-15.json",
+        "ledger_sha256": "d13d89c82401bec5f7cc8001be24e9ab0e8981094468f64bc096a187ba0ac2c9",
+        "accepted_note": "January 14 1855; raw MathML four and one-half feet, full enclosed sketch viewed; body says house uncertain contrary to summary.",
+        "accepted_decision": "dated_grounding_unpaired; quoted/editorial voices separate.",
+        "ledger_requirement": "retain MathML, image attachment, and body/summary conflict."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1453",
+        "DCP-LETT-1534"
+      ],
+      "case": "Separate letter, specimen, and book receipt/reading events",
+      "requirement": "Model letter receipt, specimen arrival, book receipt, physical route, and actual reading separately. Do not infer full reading, same-day receipt, or dispatch completion from a book/specimen arriving or from editorial summary.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1453",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1453.html",
+          "source_sha256": "045d433c8287537344d089b2316bc6772bad56dfb865107e1774375e6b9b090d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1453.xml",
+          "xml_sha256": "9fd389df8044dbe01ffc4647e083138b8d037907cda29c8ea3315129c6679873",
+          "locators": [
+            "P1 letter/specimen/book timing"
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1534",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1534.html",
+          "source_sha256": "106ba510c65cbebd4ac27540ebba5314b744c67d3325e6950bb7c3ac3f70bee8",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1534.xml",
+          "xml_sha256": "af0967592dbb68081e8559f6be31b34c8fbc1dd865a4699d41bb38b3dc2d677a",
+          "locators": [
+            "P1 Geological Society note/report versus home arrival"
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1453",
+          "body_paragraph": 1,
+          "quote": "for your very kind & valuable letter of the 18th of February",
+          "source_sha256": "045d433c8287537344d089b2316bc6772bad56dfb865107e1774375e6b9b090d"
+        },
+        {
+          "letter_id": "DCP-LETT-1534",
+          "body_paragraph": 1,
+          "quote": "I found at the Geological Society your note of the 4th of May with Dr. Owens Report; & then on my return home I found arrived your",
+          "source_sha256": "106ba510c65cbebd4ac27540ebba5314b744c67d3325e6950bb7c3ac3f70bee8"
+        }
+      ],
+      "accepted_primary_basis": {
+        "accepted_batch": "batch-18",
+        "reading_path": "reports/1851-1855/review/parent-reading/batch-18.json",
+        "reading_sha256": "ed0b89066880f2728e6f2e4aabc8d56e92a6ddc56be9f5bffb01c8cc156cb604",
+        "decision_path": "reports/1851-1855/review/parent-decisions/batch-18.json",
+        "decision_sha256": "2ce422882bba8995155c0aed962da2ba2b24799523a3a8797462d3d393d41a24",
+        "ledger_path": "data/annotations/periods/1851-1855/batch-18.json",
+        "ledger_sha256": "389600c3f5f30dd64079bdb4705aa5b9e7121588547cc6531e58710e257c81fc",
+        "accepted_note": "1453 separates Dana letter, delayed Acasta specimen, and recent book copies; 1534 separates note/report at Geological Society from Dana work at home and says Owen illustrations inspected but text not yet read.",
+        "accepted_decision": "dated grounding with access/receipt distinctions; no automatic full-reading inference.",
+        "ledger_requirement": "preserve event layers and distinct routes."
+      }
+    }
+  ],
+  "implementation_boundary": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false
+  },
+  "inputs": [
+    {
+      "path": "docs/raft-formatting-readiness.md",
+      "sha256": "281873ff17de05a70bbe00c72ec4ddbdbb75f10065fb431e42742203b13e1706"
+    },
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.primary.addendum-12.json",
+      "sha256": "0b930fe38132973295622ce0706ff40b050ec4d16f02fdd0c6ab71c811638ce1"
+    },
+    {
+      "path": "reports/raft-prep/rendering-readiness.after-addendum-11.luna.json",
+      "sha256": "8837b3ef22ac059631eee1716b3db552757d073b4199d005752476f8ef31b870"
+    }
+  ],
+  "notes": [
+    "Documentation only; primary notes, decisions, ledgers, source HTML/XML and figure pins remain authoritative.",
+    "No uncertain date, source wording, voice layer, list topology, figure, receipt event or summary/body conflict is silently repaired.",
+    "Root must independently verify before publishing any primary addendum."
+  ]
+}

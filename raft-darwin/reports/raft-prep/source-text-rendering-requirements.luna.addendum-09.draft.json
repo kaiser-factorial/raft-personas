@@ -1,0 +1,276 @@
+{
+  "status": "provisional_readiness_draft",
+  "scope": "Source-fidelity requirements from accepted 1847-1850 batches 29 and 30. No new historical acceptance, converter, transcript, corpus or training artifact is created.",
+  "primary_provenance": [
+    {
+      "batch_id": "batch-29",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-29.json",
+      "reading_sha256": "ac1c3fe063abf287bc67a66b80c34a8b89c4380847dc3ef2306164c6f1fe3113",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-29.json",
+      "decision_sha256": "cb326f17bacaf7798a49567720262e956bc769f18a99d81c9a4eaf87d0103ea1",
+      "ledger_path": "data/annotations/periods/1847-1850/batch-29.json",
+      "ledger_sha256": "974d4a1928505ba8bf80243b3ff8dea4a4e5e351a9c525203f9d3d8d18be028d"
+    },
+    {
+      "batch_id": "batch-30",
+      "reading_path": "reports/1847-1850/review/parent-reading/batch-30.json",
+      "reading_sha256": "fe7743a1ebca6335d5424ddce699ef546ae64a25c619c1a0609850ef6722a95c",
+      "decision_path": "reports/1847-1850/review/parent-decisions/batch-30.json",
+      "decision_sha256": "b9d8cd178667038d6377df01f7aac07f5c84ed084024c58339a7b6db63859a77",
+      "ledger_path": "data/annotations/periods/1847-1850/batch-30.json",
+      "ledger_sha256": "04d73d62310a17f1dba94671be35cdd91c93f1c91e76c99d9e2f931bbc2169b7"
+    }
+  ],
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1230",
+        "DCP-LETT-13799F",
+        "DCP-LETT-1078",
+        "DCP-LETT-1201"
+      ],
+      "case": "Catalogue narration, tiny quotations and wholly unavailable bodies",
+      "requirement": "Keep catalogue brackets and summaries as editorial narration. 1230 and 13799F expose only short quoted fragments; 1078's ten-page algae memorandum and 1201's Baily letter have no surviving authentic body text. Do not train or render the synopsis as a complete Darwin letter, and do not add summary details (such as two teeth) absent from the quotation.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1230",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1230.html",
+          "source_sha256": "03fc2d71dbd3edd6527c2bca6f458daae418b05ddf9574053c3244165ed00d64",
+          "locators": "div#letter body P1; catalogue frame"
+        },
+        {
+          "letter_id": "DCP-LETT-13799F",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-13799F.html",
+          "source_sha256": "71da84b96dbaefa002b9e2d04f26147cfd54399240b007387cb4535a31c5c779",
+          "locators": "div#letter body P1; catalogue frame"
+        },
+        {
+          "letter_id": "DCP-LETT-1078",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1078.html",
+          "source_sha256": "c981408b33ecf72eb369f796c925236f60a4925883dadf0dec0701d4179a6a57",
+          "locators": "div#letter body; synopsis only"
+        },
+        {
+          "letter_id": "DCP-LETT-1201",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1201.html",
+          "source_sha256": "295f231b25713373793330a4ec61edb7f3569f64409e3cda06d1a663870aa985",
+          "locators": "div#letter body; Sotheby catalogue synopsis"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1230",
+          "body_paragraph": 1,
+          "quote": "I am at present so much engaged that I am unable to do myself the pleasure of attending them & in compliance with your request return the tickets"
+        },
+        {
+          "letter_id": "DCP-LETT-13799F",
+          "body_paragraph": 1,
+          "quote": "Poor Joseph came back last night, having had teeth out,"
+        }
+      ],
+      "unavailable_status": {
+        "1078": "authentic memorandum body unavailable; no exact body quote asserted",
+        "1201": "authentic Baily letter body unavailable; no exact body quote asserted"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1205"
+      ],
+      "case": "Agassiz-to-Lowell content versus direct prompt",
+      "requirement": "Keep Darwin's quoted knowledge of Agassiz's letter to Lowell separate from a direct Agassiz or Lowell prompt. The box remains not received at the time of writing; the absent original and fuller Gould/Leidy communications cannot be reconstructed.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1205",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1205.html",
+          "source_sha256": "491c37cb14115249df968bea198c1454af75da29ebbaaadc509cf46db356901a",
+          "locators": "div#letter body P1; receipt and quoted correspondence"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1205",
+          "body_paragraph": 1,
+          "quote": "Although I have not yet received the Box"
+        },
+        {
+          "letter_id": "DCP-LETT-1205",
+          "body_paragraph": 1,
+          "quote": "In your letter to Mr Lowell"
+        }
+      ],
+      "negative_boundary": "No direct incoming Agassiz/Lowell body is preserved in this source."
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1149",
+        "DCP-LETT-1059",
+        "DCP-LETT-1144"
+      ],
+      "case": "Delayed or partial reading and loan states",
+      "requirement": "Represent 1149's Williamson advance as obtained from the Geological Society on 29 January 1848 and only half read; distinguish that advance from the 1847 presentation and final 1848 publication. In 1059 preserve the Dieffenbach letter as previously read, then lent to Lyell and returned only days before the response. In 1144 render the Hodgson pamphlet as a prior loan requested back, not as absent knowledge, and distinguish the eldest Lubbock son from Sir John.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1149",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1149.html",
+          "source_sha256": "9bf0a0b1e1e69a221e25133b9742a853eb5adac2a7483e064c89b0c8363ac922",
+          "locators": "div#letter body P1"
+        },
+        {
+          "letter_id": "DCP-LETT-1059",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1059.html",
+          "source_sha256": "e13f606edd0df67a57010d28bbb43fa542becdc50522c7e90a25c32924168907",
+          "locators": "div#letter body P1; loan/return wording"
+        },
+        {
+          "letter_id": "DCP-LETT-1144",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1144.html",
+          "source_sha256": "b18660c336cc95118de8d7a1606def353c52152fc0524b242ed53db1a3eab7dc",
+          "locators": "div#letter body P1-P3"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1149",
+          "body_paragraph": 1,
+          "quote": "which I got two days ago from the Geolog. Society"
+        },
+        {
+          "letter_id": "DCP-LETT-1149",
+          "body_paragraph": 1,
+          "quote": "I have read it half through"
+        },
+        {
+          "letter_id": "DCP-LETT-1059",
+          "body_paragraph": 1,
+          "quote": "I lent it to Mr. Lyell who returned it only a few days since"
+        },
+        {
+          "letter_id": "DCP-LETT-1144",
+          "body_paragraph": 2,
+          "quote": "send me Hodgsons Pamplet on Sheep to Athenæum Club"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1153F",
+        "DCP-LETT-1343A"
+      ],
+      "case": "Gratitude or enquiry before personal receipt/order completion",
+      "requirement": "Keep thanks and anticipated access separate from physical possession. 1153F says fossils are expected at the Geological Society, so a gift acknowledgment is not personal receipt. 1343A is an unanswered box-size and price enquiry, not a confirmed order or later payment.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1153F",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1153F.html",
+          "source_sha256": "2d431957260a15e7217904ec22d72e5f578bc746d1525ad5989364b39e6369e2",
+          "locators": "div#letter body P1"
+        },
+        {
+          "letter_id": "DCP-LETT-1343A",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1343A.html",
+          "source_sha256": "dbe7b5c1b3df22465ca1a03e184396643fd4214b9bfd5b65520d272f36c8746a",
+          "locators": "div#letter body P1-P2"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1153F",
+          "body_paragraph": 1,
+          "quote": "When I go next to London, I shall probably find the fossils at the Geolog. Soc."
+        },
+        {
+          "letter_id": "DCP-LETT-1343A",
+          "body_paragraph": 2,
+          "quote": "I wish for one (or probably more) of large size, but I must know prices & dimensions."
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1343A",
+        "DCP-LETT-2305"
+      ],
+      "case": "Mixed fractions and time values",
+      "requirement": "Preserve 1343A's existing box dimensions as 16 by 12¼ by 4 inches from the structured source and keep 2305's raw 2½ as a proposed visit time. Neither fraction is a date, decimal shorthand or completed event; retain raw MathML alongside normalized display values.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1343A",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1343A.html",
+          "source_sha256": "dbe7b5c1b3df22465ca1a03e184396643fd4214b9bfd5b65520d272f36c8746a",
+          "locators": "div#letter body P1-P2; dimension MathML"
+        },
+        {
+          "letter_id": "DCP-LETT-2305",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2305.html",
+          "source_sha256": "cd667cadb898329ced7956f335788c88cc3029af0c840a1095d47d77a537d59f",
+          "locators": "div#letter body P1; visit-time MathML"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2305",
+          "body_paragraph": 1,
+          "quote": "Instead of your coming here I should prefer coming to you at 212."
+        }
+      ],
+      "normalized_fields": {
+        "1343A_dimensions": "16 x 12 1/4 x 4 inches",
+        "2305_visit_time": "2 1/2 (time value; year/day unresolved)"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1341",
+        "DCP-LETT-1344"
+      ],
+      "case": "Uncertain taxonomy and list numbering",
+      "requirement": "Render numbered entries literally, including skipped/repeated numbers, ditto/alternative labels, question marks and unexamined specimens. Do not modernize Massachusetts names or infer strata/localities from later publications. 1341's Lake Superior reading began but was not complete; 1344's classification was provisional and later return records must not backdate the contemporary plan.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1341",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1341.html",
+          "source_sha256": "fc9ed18265e4dc3bc498a580e438288a0fa0f7eabc4f7e5e532e46f0fa59d2ea",
+          "locators": "div#letter body P1-P3 and later list blocks"
+        },
+        {
+          "letter_id": "DCP-LETT-1344",
+          "source_path": "data/raw/dcp/1847-1850/pages/DCP-LETT-1344.html",
+          "source_sha256": "15b524902fb2f034aed6982d9526882f709e8114adbb698b17f84ac0f6d5ed26",
+          "locators": "div#letter body P1-P13"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1341",
+          "body_paragraph": 1,
+          "quote": "I have began to read it with uncommon interest"
+        },
+        {
+          "letter_id": "DCP-LETT-1341",
+          "body_paragraph": 11,
+          "quote": "I have not yet examined"
+        },
+        {
+          "letter_id": "DCP-LETT-1344",
+          "body_paragraph": 13,
+          "quote": "I heartily wish you knew which bed of Chalk these new species had originally come from"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": {
+    "future_requirements": [
+      "Keep catalogue narration, authentic fragments, unavailable bodies, raw MathML, normalized values, receipt/reading/loan states, authorship and list uncertainty as separate fields.",
+      "Preserve missing prompts, enclosures and original list numbering; never reconstruct absent prose from summaries or later publications."
+    ],
+    "not_implemented_here": [
+      "No converter, transcript, corpus, ledger, export or training behavior was changed or run.",
+      "This provisional draft creates no new historical acceptance."
+    ]
+  },
+  "notes": [
+    "All asserted quotations are from named source body paragraphs. Normalized dimensions and times are labeled as rendered values and are not quoted as literal source text."
+  ]
+}

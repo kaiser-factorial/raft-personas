@@ -1,0 +1,358 @@
+{
+  "status": "luna_candidate_conversion_preparation_requirements",
+  "scope": "Accepted 1858 batches 08–11; additive source-text, date, voice, enclosure, MathML, visual and provenance requirements only. No converter, transcript, corpus, training, export or accepted-evidence changes.",
+  "primary_provenance": {
+    "batch-08-parent_reading": {
+      "path": "reports/1858-1859/review/parent-reading/batch-08.json",
+      "sha256": "f9ae76f863b0dd680366dbc7d8b4002a21b4ca34e8949887582395b71de66d7b"
+    },
+    "batch-08-parent_decisions": {
+      "path": "reports/1858-1859/review/parent-decisions/batch-08.json",
+      "sha256": "c8776daf212d129ab846a1dbb4fecac1db49989985e777b3f7e66c680b6373b5"
+    },
+    "batch-08-accepted_ledger": {
+      "path": "data/annotations/periods/1858-1859/batch-08.json",
+      "sha256": "7541db5ee595c392cc56c631b7052a6773a40464ee829f7d873e1164878b15f8"
+    },
+    "batch-09-parent_reading": {
+      "path": "reports/1858-1859/review/parent-reading/batch-09.json",
+      "sha256": "f44b8e02b4bc6073fd869a0abc9fe0c497a6387f03e0bf5107fb94b2fe17ff75"
+    },
+    "batch-09-parent_decisions": {
+      "path": "reports/1858-1859/review/parent-decisions/batch-09.json",
+      "sha256": "560b792670161bd32282dee60a1e7fe557dd0baf26680354f99a3255448fbe43"
+    },
+    "batch-09-accepted_ledger": {
+      "path": "data/annotations/periods/1858-1859/batch-09.json",
+      "sha256": "2f75b015c9502fef47b98103e82bb7dddae64799bd2132b894add37df20efb9f"
+    },
+    "batch-10-parent_reading": {
+      "path": "reports/1858-1859/review/parent-reading/batch-10.json",
+      "sha256": "9dfa215a43ce27cfedf27ec7f2d158268f601af92cbd347b57a365232b9a37ff"
+    },
+    "batch-10-parent_decisions": {
+      "path": "reports/1858-1859/review/parent-decisions/batch-10.json",
+      "sha256": "ac085bde379e527ed83c5b7fc9bb5f65eb1448237482b13d7656efdb7d46cfe7"
+    },
+    "batch-10-accepted_ledger": {
+      "path": "data/annotations/periods/1858-1859/batch-10.json",
+      "sha256": "ce16c8323efa0683498ad801690dce8a192efbf0de55087f47fb68efd9c6986c"
+    },
+    "batch-11-parent_reading": {
+      "path": "reports/1858-1859/review/parent-reading/batch-11.json",
+      "sha256": "dac37bd3f2d47c75edcac23059aa461d1074cd1bf2ec3e09a61e3a860d7a307e"
+    },
+    "batch-11-parent_decisions": {
+      "path": "reports/1858-1859/review/parent-decisions/batch-11.json",
+      "sha256": "dadaaf59ea90bb35d1201b4e8023671de884a776262c04d37c74674f555b114f"
+    },
+    "batch-11-accepted_ledger": {
+      "path": "data/annotations/periods/1858-1859/batch-11.json",
+      "sha256": "1e1496716d387eb85ff77d517039fcedb801dc4382c3b9c7f0b27d20ec024fbe"
+    }
+  },
+  "requirements": [
+    {
+      "id": "origin-2437-draft-title-enclosure",
+      "source_ids": [
+        "DCP-LETT-2437"
+      ],
+      "requirement": "Preserve the substantive authorial draft title enclosure in 2437 separately from the surrounding letter header, editorial enclosure heading and final published Origin title. It is a requested opinion on a proposed title and includes conditional future publication language; do not flatten it into ordinary letter prose or silently substitute the final title.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2437",
+          "body_paragraph": 3,
+          "quote": "Lastly, will you be so very kind as to look at enclosed title & give me your opinion & any criticisms",
+          "source_sha256": "9d75e85fe44abcc5dbcb4dff82608d580a2167af63fd2c9caa5f4716fa9831e7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2437",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2437.html",
+          "source_html_sha256": "9d75e85fe44abcc5dbcb4dff82608d580a2167af63fd2c9caa5f4716fa9831e7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2437.xml",
+          "xml_sha256": "8889fbe5ebedbb5a19c2f6dd44f1e04dba811be78ffe216540ab851138ea3a92"
+        }
+      ]
+    },
+    {
+      "id": "origin-fractions-2439-2512a",
+      "source_ids": [
+        "DCP-LETT-2439",
+        "DCP-LETT-2512A"
+      ],
+      "requirement": "Render the preserved MathML fractions as actual fractions: 2439 contains the one-half hour in the embedded London itinerary, while 2512A contains the one-eighth gestation figure. Preserve surrounding prose and distinguish each fraction’s scientific or logistical meaning; never flatten the MathML to ambiguous digits.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2439",
+          "body_paragraph": 7,
+          "quote": "Emma comes up to London for 2 or 3 days on Friday",
+          "source_sha256": "5bd30fa8479851ffd2aee26b29ceefbb15b2a7dd213f642512db3ac2e5070c88",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]",
+          "mathml_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]/math",
+          "numerator": "1",
+          "denominator": "2"
+        },
+        {
+          "letter_id": "DCP-LETT-2512A",
+          "body_paragraph": 1,
+          "quote": "Many thanks for yr clear explanation of Pallas’s views. Carpenter tells me that the variations of period of gestation in cows rabbits",
+          "source_sha256": "a046adaeb318a9213af657b1f7ed717e8fa3c22b6e96a7ba7457162dedf31c12",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "mathml_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]/math",
+          "numerator": "1",
+          "denominator": "8"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2439",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2439.html",
+          "source_html_sha256": "5bd30fa8479851ffd2aee26b29ceefbb15b2a7dd213f642512db3ac2e5070c88",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2439.xml",
+          "xml_sha256": "429a26dd461d638bfe48730abcd1acc8687a3886003e8c14fadf257d9686fd96"
+        },
+        {
+          "letter_id": "DCP-LETT-2512A",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2512A.html",
+          "source_html_sha256": "a046adaeb318a9213af657b1f7ed717e8fa3c22b6e96a7ba7457162dedf31c12",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2512A.xml",
+          "xml_sha256": "fc4c97dafe950d9db73d95bfe6c4495ee62d98b3f83a9865f119054dcf35e37c"
+        }
+      ]
+    },
+    {
+      "id": "lyell-2492-split-itinerary-ramme",
+      "source_ids": [
+        "DCP-LETT-2492"
+      ],
+      "requirement": "Keep 2492’s signature, itinerary and travel date as separate body scope: “I start” follows the signature, “Hydropathic Establishment” is a separate line, and the raw “ramme” token after the address is an artifact requiring fidelity-aware cleanup or a documented hold. Do not turn the embedded itinerary into a whole-letter dateline or normalize the artifact into an invented word.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2492",
+          "body_paragraph": 6,
+          "quote": "With cordial thanks for your splendid notice of my Book | Believe me, my dear Lyell | Your affectionate disciple | Charles Darwin I start for “Ilkley",
+          "source_sha256": "037213a70b213e07fbb869c93386e89bf483e849c6adc9e050f08199265e9d38",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"
+        },
+        {
+          "letter_id": "DCP-LETT-2492",
+          "body_paragraph": 7,
+          "quote": "Hydropathic Establishment",
+          "source_sha256": "037213a70b213e07fbb869c93386e89bf483e849c6adc9e050f08199265e9d38",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2492",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2492.html",
+          "source_html_sha256": "037213a70b213e07fbb869c93386e89bf483e849c6adc9e050f08199265e9d38",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2492.xml",
+          "xml_sha256": "aa908a5aea4ce950ced0ceadae3be44758e373702646170ca8051a3d19a23104"
+        }
+      ]
+    },
+    {
+      "id": "lyell-2503-quoted-headings-scope",
+      "source_ids": [
+        "DCP-LETT-2503"
+      ],
+      "requirement": "Preserve 2503’s quoted incoming letter headings and Darwin’s paragraph-scoped answers as distinct voices. References to a long letter and omitted discussion identify source correspondence but do not make the quoted headings a new standalone Darwin prompt; export only the actual Darwin body with quoted material marked as quoted.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2503",
+          "body_paragraph": 1,
+          "quote": "I thank you cordially for giving me so much of your valuable time in writing me the long letter of 3d & still longer of 4th",
+          "source_sha256": "d67c2e289617d2b2a718908d3b8353af510998a0b7a3f8d7ed2cf21540f67521",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2503",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2503.html",
+          "source_html_sha256": "d67c2e289617d2b2a718908d3b8353af510998a0b7a3f8d7ed2cf21540f67521",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2503.xml",
+          "xml_sha256": "0ddf489378bc7cce3663b214ff8af145297a7719537a0e7493b8d08d5a891505"
+        }
+      ]
+    },
+    {
+      "id": "huxley-2347-deleted-p6",
+      "source_ids": [
+        "DCP-LETT-2347"
+      ],
+      "requirement": "2347 P6 is explicitly deleted in the scholarly apparatus although the surviving HTML body does not supply deletion markup. Retain the deletion as provenance metadata and exclude the deleted postscript from clean RAFT content; do not present it as an unqualified final Darwin statement.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2347",
+          "body_paragraph": 6,
+          "quote": "P.S. | The memorial does not strike me as very lucid. The number of Divisions & Sub-divisions seem to me rather bothersome",
+          "source_sha256": "ddad34faa1b969d9260d2cb35c2faa6143e5bc880459cb0924d1276afc12f938",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2347",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2347.html",
+          "source_html_sha256": "ddad34faa1b969d9260d2cb35c2faa6143e5bc880459cb0924d1276afc12f938",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2347.xml",
+          "xml_sha256": "015a683dec0ff5a2cbc947b693eaf6eb4ae90c200099623c2415bf4ddb276812"
+        }
+      ]
+    },
+    {
+      "id": "huxley-2381-voice-annotations",
+      "source_ids": [
+        "DCP-LETT-2381"
+      ],
+      "requirement": "2381 is Huxley’s transcribed fish-air-bladder memorandum, while Darwin’s pencil annotations are a separate provenance layer that later shaped his natural-selection discussion. Preserve the raw Huxley voice and annotation attribution; do not export Darwin’s marginal words as though they were Huxley’s body or a new Darwin letter.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2381",
+          "body_paragraph": 1,
+          "quote": "Von Bärs work is called “Untersuchungen über die Entwickelungsgeschichte der Fische”",
+          "source_sha256": "afa6d4c3e3fba7e29fd5974ab40e876c69058cc3e89b8816530865761e8c6afd",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2381",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2381.html",
+          "source_html_sha256": "afa6d4c3e3fba7e29fd5974ab40e876c69058cc3e89b8816530865761e8c6afd",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2381.xml",
+          "xml_sha256": "115c14fb4912147fe7019d5685192d0a578f1458307469f4742926e976053575"
+        }
+      ]
+    },
+    {
+      "id": "huxley-2425-2427-enclosure-figure",
+      "source_ids": [
+        "DCP-LETT-2425",
+        "DCP-LETT-2427"
+      ],
+      "requirement": "Keep Darwin’s 2425 request for Huxley to read an enclosed set of queries separate from Huxley’s 2427 authorial memorandum and its actual diagram. Preserve the diagram asset and its image DOM node as an enclosure/visual witness; do not infer that every query was answered or replace the visual with flattened prose.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2425",
+          "body_paragraph": 1,
+          "quote": "will you be so kind as to read over the enclosed queries & doubtful remarks",
+          "source_sha256": "8f18c0ac9c50c38e1468e4ebfabd3d0efda830923dec2b30c78492c3c070d12f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2427",
+          "body_paragraph": 1,
+          "quote": "1) Serial homologies are without doubt far less readily traceable in the Mollusca",
+          "source_sha256": "121cb23d573015deb283722fe1469de32337ef31c627801e5e141c57fd7ca2f4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2425",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2425.html",
+          "source_html_sha256": "8f18c0ac9c50c38e1468e4ebfabd3d0efda830923dec2b30c78492c3c070d12f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2425.xml",
+          "xml_sha256": "89224070934332b86f728ac1febc66ef6165264f607a9b9c16c8854f6ab773bc"
+        },
+        {
+          "letter_id": "DCP-LETT-2427",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2427.html",
+          "source_html_sha256": "121cb23d573015deb283722fe1469de32337ef31c627801e5e141c57fd7ca2f4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2427.xml",
+          "xml_sha256": "fe74c1f130a7ba8c3f126bf5c0af2e329c549a0645e1117c6e588c2152024bf0"
+        }
+      ],
+      "figure_assets": [
+        {
+          "letter_id": "DCP-LETT-2427",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]/span[6]/img",
+          "figure_path": "data/raw/dcp/1858-1859/figures/DCP-LETT-2427-1.jpg",
+          "sha256": "a09b5cf78724c86751ef533593d4643239968c1f68004b25914a1cce6ad52aa6"
+        }
+      ]
+    },
+    {
+      "id": "erasmus-2547-quoted-letter",
+      "source_ids": [
+        "DCP-LETT-2547"
+      ],
+      "requirement": "Keep the Erasmus sentence in 2547 as Darwin’s quotation of a third-party response, with its separate postscript/annotation provenance. It is evidence of Erasmus’s reaction and not a Darwin-authored assertion; do not promote it to a standalone Erasmus letter without the missing source.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2547",
+          "body_paragraph": 6,
+          "quote": "Erasmus says about my Book “In fact the a priori reasoning is so entirely satisfactory to me, that if the facts wont fit in, why so much the worse for the facts is my feeling”.!",
+          "source_sha256": "4b73114c2d14a9266c3a8ad3be985ed123cad08b90978e544f595e982801072c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2547",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2547.html",
+          "source_html_sha256": "4b73114c2d14a9266c3a8ad3be985ed123cad08b90978e544f595e982801072c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2547.xml",
+          "xml_sha256": "069aa72efb78759d207ffd568f20b609573986e8752fedd96fd8283d8f14fed6"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": "Preserve raw HTML/XML and accepted provenance; implement only after primary adjudication. Resolve or hold unresolved artifacts rather than exporting damaged or misattributed prose.",
+  "inputs": {
+    "accepted_batches": [
+      "batch-08",
+      "batch-09",
+      "batch-10",
+      "batch-11"
+    ],
+    "source_ids": [
+      "2437",
+      "2439",
+      "2512A",
+      "2492",
+      "2503",
+      "2347",
+      "2381",
+      "2425",
+      "2427",
+      "2547"
+    ],
+    "primary_notes": "reports/1858-1859/review/parent-reading/batch-08.json through batch-11.json",
+    "primary_decisions": "reports/1858-1859/review/parent-decisions/batch-08.json through batch-11.json",
+    "accepted_ledgers": "data/annotations/periods/1858-1859/batch-08.json through batch-11.json"
+  },
+  "notes": [
+    "Every exact_source_evidence item was checked against a literal preserved body block and actual raw HTML node; derived rendering language is kept in requirement prose.",
+    "2439 and 2512A MathML nodes were inspected directly; 2427 visual asset is pinned from the preserved figure manifest.",
+    "The candidate does not claim that selected quotes alone verify the substantive requirements; primary adjudication remains required."
+  ],
+  "export_content_policy": {
+    "raw_artifacts_exported": false,
+    "unresolved_artifacts_exported": false,
+    "quoted_third_party_voices_promoted": false,
+    "missing_enclosures_reconstructed": false
+  },
+  "verification": {
+    "exact_source_evidence_count": 11,
+    "source_html_xml_pairs_pinned": 10,
+    "mathml_nodes_checked": 2,
+    "figure_assets_pinned": 1,
+    "unique_dom_locators_checked": 11,
+    "all_primary_hashes_verified": true,
+    "implementation_flags": {
+      "converter_created": false,
+      "real_transcripts_written": false,
+      "corpus_exported": false,
+      "training_run": false,
+      "embeddings_created": false,
+      "paid_calls_made": false
+    }
+  }
+}

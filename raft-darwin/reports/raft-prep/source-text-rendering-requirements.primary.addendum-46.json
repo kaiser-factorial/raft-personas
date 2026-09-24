@@ -1,0 +1,540 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Accepted batch 24 content and rendering requirements, corrected and verified by root. No conversion or export.",
+  "primary_provenance": {
+    "batch": {
+      "reading": {
+        "path": "reports/1856-1857/review/parent-reading/batch-24.json",
+        "sha256": "c8bc4d031b500fb0a80070b06c77faf31b32edc3e1555846c8c8853bd37315e2"
+      },
+      "decisions": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-24.json",
+        "sha256": "8314c8c6a1f603317bd5c6ca59b557756db7dfd77fcfc4bd38771d9264d93ecd"
+      },
+      "ledger": {
+        "path": "data/annotations/periods/1856-1857/batch-24.json",
+        "sha256": "c5c4b4a6684adbc5052d2f0c56403ebfb9b70b368d564b792dd83ebf9cb88215"
+      }
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1865",
+        "DCP-LETT-1867"
+      ],
+      "case": "Edmondston fragment and driftwood chain",
+      "requirement": "The specific cock story and biography question are missing from incoming 1865. The supported reply scope is 1867 P3 first sentence on driftwood and P2 taking up the surviving offer of assistance. Preserve fragment limits without completing missing text. The before-May-3 incoming constraint does not provide an exact composition or arrival date.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1865",
+          "source_path": "data/raw/dcp/1844-1846/pages/DCP-LETT-1865.html",
+          "source_html_sha256": "6a53affe2a141c872f14c138fc3a1d34da6097c4741e3f48777e1e161bbf9be3",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1844-1846/letters/DCP-LETT-1865.xml",
+          "xml_sha256": "f511386c21c96d185ed020df2c0bc454c48ac2201c9e89f834014030dadc85af",
+          "verified_xml_dates": [
+            {
+              "text": "[before 3 May 1856]",
+              "attributes": {
+                "notBefore": "1809-01-01",
+                "notAfter": "1856-05-02"
+              },
+              "lower": "1809-01-01",
+              "upper": "1856-05-02",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1809-01-01\" notAfter=\"1856-05-02\">[before 3 May 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1867",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1867.html",
+          "source_html_sha256": "17573dc1a9fe28444c40e594e742c9934ed57bb1a0de72f43f9326f39bed5e15",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1867.xml",
+          "xml_sha256": "c8885b8cd88b25afafeac5333fcdd26d131eed75ebcae79ec4ee5919fb1e1e8e",
+          "verified_xml_dates": [
+            {
+              "text": "3 May [1856]",
+              "attributes": {
+                "when": "1856-05-03"
+              },
+              "lower": "1856-05-03",
+              "upper": "1856-05-03",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-05-03\">3 May [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1865",
+          "body_paragraph": 5,
+          "quote": "Your query as to drifted Trees I can answer in the affirmative",
+          "char_start": 0,
+          "char_end": 62,
+          "source_sha256": "6a53affe2a141c872f14c138fc3a1d34da6097c4741e3f48777e1e161bbf9be3",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1867",
+          "body_paragraph": 3,
+          "quote": "I thank you for the information in regard to the drifted trees",
+          "char_start": 0,
+          "char_end": 62,
+          "source_sha256": "17573dc1a9fe28444c40e594e742c9934ed57bb1a0de72f43f9326f39bed5e15",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1865",
+          "body_paragraph": 4,
+          "quote": "freely command me when you suppose I may be of use",
+          "char_start": 150,
+          "char_end": 200,
+          "source_sha256": "6a53affe2a141c872f14c138fc3a1d34da6097c4741e3f48777e1e161bbf9be3",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1867",
+          "body_paragraph": 2,
+          "quote": "your very kind offer of assistance",
+          "char_start": 718,
+          "char_end": 752,
+          "source_sha256": "17573dc1a9fe28444c40e594e742c9934ed57bb1a0de72f43f9326f39bed5e15",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2021F",
+        "DCP-LETT-2035",
+        "DCP-LETT-2037G"
+      ],
+      "case": "Harvey 2021F→2035→2037G and personal access",
+      "requirement": "Harvey personally accessed the earlier Darwin letter on January 3 after delivery during his absence; this does not date Darwin receipt of Harvey reply. Preserve the qualified algae observations and original schematic without inventing a textual scientific description. Darwin January 7 reply answers the information and Dublin invitation. The apparatus identifies Dr Hooker as Joseph Dalton despite the editorial summary naming W. J. Hooker; neither editorial layer belongs in export.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2021F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2021F.html",
+          "source_html_sha256": "8107b2ccdf348eea7942b892d78ab7eb918e0d02e2becac88756391d1aa1d0fb",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2021F.xml",
+          "xml_sha256": "6662737c184ef7cda21a698a805bbf2c203af08ed60b9adfd572a73cd0454b9d",
+          "verified_xml_dates": [
+            {
+              "text": "24 Dec [1856]",
+              "attributes": {
+                "when": "1856-12-24"
+              },
+              "lower": "1856-12-24",
+              "upper": "1856-12-24",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-12-24\">24 Dec [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2035",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2035.html",
+          "source_html_sha256": "e155756b0657d4be815c2d112f40fee45aef2a7989576b207c21d77e07307657",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2035.xml",
+          "xml_sha256": "779ca86d8a7bbc12333207ac3c30f8f2eb64246edb8c5533404e80a1e7fcfbf9",
+          "verified_xml_dates": [
+            {
+              "text": "3 Jan 1857",
+              "attributes": {
+                "when": "1857-01-03"
+              },
+              "lower": "1857-01-03",
+              "upper": "1857-01-03",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-01-03\">3 Jan 1857</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2037G",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2037G.html",
+          "source_html_sha256": "1f26a66fdaeaa69fe7ca2ded4f27bfbc07c1466a1ee72ce9a66a91f7a3bb4fea",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2037G.xml",
+          "xml_sha256": "64ad3d8668740d9888f709f06bb32fb516115f98862d162807bbd9ccfd5aa70f",
+          "verified_xml_dates": [
+            {
+              "text": "7 Jan [1857]",
+              "attributes": {
+                "when": "1857-01-07"
+              },
+              "lower": "1857-01-07",
+              "upper": "1857-01-07",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-01-07\">7 Jan [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2035",
+          "body_paragraph": 1,
+          "quote": "Your letter arrived during my absence in the Country at Xmas",
+          "char_start": 0,
+          "char_end": 60,
+          "source_sha256": "e155756b0657d4be815c2d112f40fee45aef2a7989576b207c21d77e07307657",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2035",
+          "body_paragraph": 1,
+          "quote": "I only received it on my return to town this evening",
+          "char_start": 66,
+          "char_end": 118,
+          "source_sha256": "e155756b0657d4be815c2d112f40fee45aef2a7989576b207c21d77e07307657",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2035",
+          "body_paragraph": 2,
+          "quote": "except perhaps some of the Callithamnia may be so",
+          "char_start": 67,
+          "char_end": 116,
+          "source_sha256": "e155756b0657d4be815c2d112f40fee45aef2a7989576b207c21d77e07307657",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2035",
+          "body_paragraph": 5,
+          "quote": "I hope we may see you at the Dublin meeting",
+          "char_start": 61,
+          "char_end": 104,
+          "source_sha256": "e155756b0657d4be815c2d112f40fee45aef2a7989576b207c21d77e07307657",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2037G",
+          "body_paragraph": 1,
+          "quote": "I fear I shall not be at Dublin",
+          "char_start": 98,
+          "char_end": 129,
+          "source_sha256": "1f26a66fdaeaa69fe7ca2ded4f27bfbc07c1466a1ee72ce9a66a91f7a3bb4fea",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "verified_original_figure": {
+        "letter_id": "DCP-LETT-2035",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]/span[6]/img",
+        "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2035.html",
+        "source_html_sha256": "e155756b0657d4be815c2d112f40fee45aef2a7989576b207c21d77e07307657",
+        "source_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_2035.jpg",
+        "alt": "diagram",
+        "figure_path": "data/raw/dcp/1856-1857/figures/DCP-LETT-2035-1.jpg",
+        "retrieved_at": "2026-09-17T08:59:54.759288+00:00",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "final_url": "https://www.darwinproject.ac.uk/sites/default/files/dcp_lett_2035.jpg",
+        "bytes": 23123,
+        "sha256": "136d9e9598cb2216ca1508bafb0b3c50e36cc2807e721cce3ed159264181b4f9",
+        "visual_observation": "Rounded open-topped receptacle containing larger outlined oval/circular bodies and clusters of dark strokes. Inserted directly in Harvey discussion of male/female structures within a common receptacle. Schematic, no labels or scale; no count or taxon identification inferred solely from drawing."
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1026F",
+        "DCP-LETT-1993",
+        "DCP-LETT-2181F"
+      ],
+      "case": "Higgins copy, lien choice and receipt stamp",
+      "requirement": "1026F is a copy. Preserve the stated three modes and the fact that only two principal alternatives are expressed in the surviving text, without correcting the author to two. Render true MathML 1/15 and retain pounds/shillings/pence in £43.10.0. The 1993 choice is conditional, not proof the arrangement was executed. Exclude the supplemental stamp signature and addressee heading from 2181F content; retain the actual letter acknowledgment and valediction.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1026F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1026F.html",
+          "source_html_sha256": "bb78cc8826213416b20bbcf4c4e490b975573018e50551f8e7992398f8b2079e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1026F.xml",
+          "xml_sha256": "17b9ae2bdab7ee79a10130f307a8d2ef76cfc582483dd24ad0b6c6a6017d30ee",
+          "verified_xml_dates": [
+            {
+              "text": "17 Nov 1856",
+              "attributes": {
+                "when": "1856-11-17"
+              },
+              "lower": "1856-11-17",
+              "upper": "1856-11-17",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-17\">17 Nov 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1993",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1993.html",
+          "source_html_sha256": "319b4a2f6210eeefb5f872c4db7c526618788d42fe08c215502b4f43eb4eb88e",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1993.xml",
+          "xml_sha256": "42ed598eb7cb5f9993f63eac34ca4ffa03d46dee6e853ca4723b60e5a4da0d0f",
+          "verified_xml_dates": [
+            {
+              "text": "19 Nov [1856]",
+              "attributes": {
+                "when": "1856-11-19"
+              },
+              "lower": "1856-11-19",
+              "upper": "1856-11-19",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-19\">19 Nov [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2181F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2181F.html",
+          "source_html_sha256": "6bf044d707b43717d31f75f63f05e73ddc25ceed453f04a1823bb98980a91c63",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2181F.xml",
+          "xml_sha256": "4d2e9e1949574964d069fca020199829738e74d7000bb54beea12c18a8a12b8a",
+          "verified_xml_dates": [
+            {
+              "text": "9 Dec 1857",
+              "attributes": {
+                "when": "1857-12-09"
+              },
+              "lower": "1857-12-09",
+              "upper": "1857-12-09",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-12-09\">9 Dec 1857</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1026F",
+          "body_paragraph": 2,
+          "quote": "three modes of disposing of this Claim",
+          "char_start": 115,
+          "char_end": 153,
+          "source_sha256": "bb78cc8826213416b20bbcf4c4e490b975573018e50551f8e7992398f8b2079e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1026F",
+          "body_paragraph": 2,
+          "quote": "£43.10.0",
+          "char_start": 318,
+          "char_end": 326,
+          "source_sha256": "bb78cc8826213416b20bbcf4c4e490b975573018e50551f8e7992398f8b2079e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1026F",
+          "body_paragraph": 2,
+          "quote": "£105 shall remain a lien upon the Farm for 15 years",
+          "char_start": 385,
+          "char_end": 436,
+          "source_sha256": "bb78cc8826213416b20bbcf4c4e490b975573018e50551f8e7992398f8b2079e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1993",
+          "body_paragraph": 2,
+          "quote": "your second plan of a Lien for 15 years",
+          "char_start": 40,
+          "char_end": 79,
+          "source_sha256": "319b4a2f6210eeefb5f872c4db7c526618788d42fe08c215502b4f43eb4eb88e",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-2181F",
+          "body_paragraph": 1,
+          "quote": "£248:2:1, placed to my account at the Union Bank",
+          "char_start": 43,
+          "char_end": 91,
+          "source_sha256": "6bf044d707b43717d31f75f63f05e73ddc25ceed453f04a1823bb98980a91c63",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "verified_body_mathml": {
+        "letter_id": "DCP-LETT-1026F",
+        "source_sha256": "bb78cc8826213416b20bbcf4c4e490b975573018e50551f8e7992398f8b2079e",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]/math",
+        "numerator": "1",
+        "denominator": "15",
+        "raw_markup": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>15</mn></mfrac></math>"
+      },
+      "verified_copy_metadata": [
+        {
+          "text": "Copy",
+          "attributes": {
+            "type": "description"
+          }
+        },
+        {
+          "text": "3pp",
+          "attributes": {
+            "type": "physdesc",
+            "n": "C"
+          }
+        }
+      ],
+      "verified_stamp_layer": {
+        "letter_id": "DCP-LETT-2181F",
+        "literal_text": "Ch. Darwin",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/div",
+        "source_sha256": "6bf044d707b43717d31f75f63f05e73ddc25ceed453f04a1823bb98980a91c63"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1834",
+        "DCP-LETT-1836",
+        "DCP-LETT-1843A"
+      ],
+      "case": "Berkeley permission, response and dispatch",
+      "requirement": "The notice sent to the Linnean Society concerns seeds in sea water; it is not a pea paper. Pea samples are a separate dispatch. Keep sending, receipt, public reading and publication distinct. Preserve Berkeley uncertainty about corn-salad species and impregnation. P5 intermixes a genuine pea request with a place/date heading; exclude only the heading in the final content, preserving the request and P6 observation. Damage notation requires evidence-supported repair, not guessed prose.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1834",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1834.html",
+          "source_html_sha256": "597769b25b1256d507c3ee2d50106fadd45c37e85aef27ac5c9a9022a3c77135",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1834.xml",
+          "xml_sha256": "73565999e1d4864a4e1e898efd3426d1f157ba4ca586bf558339d398adf1309d",
+          "verified_xml_dates": [
+            {
+              "text": "29 Feb [1856]",
+              "attributes": {
+                "when": "1856-02-29"
+              },
+              "lower": "1856-02-29",
+              "upper": "1856-02-29",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-02-29\">29 Feb [1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1836",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1836.html",
+          "source_html_sha256": "c16fbda4a4dcb0b0ee143bc1def407f8f316f07a47d8267fd1d803e3601523e8",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1836.xml",
+          "xml_sha256": "7c7378f20d5e003c53db7b7aae8a44f5309b57be33a0d0f312b37f9eb3dcfd00",
+          "verified_xml_dates": [
+            {
+              "text": "7 Mar 1856",
+              "attributes": {
+                "when": "1856-03-07"
+              },
+              "lower": "1856-03-07",
+              "upper": "1856-03-07",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-03-07\">7 Mar 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1843A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1843A.html",
+          "source_html_sha256": "861893e97beacf4ea4bbb3f5e10e5245d7830f4a315eb84ce45ddc0b688e80ae",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1843A.xml",
+          "xml_sha256": "b7e0fb308b1c49c8470b111659bc5dcb0ce1645af637a8ef20651e0450829941",
+          "verified_xml_dates": [
+            {
+              "text": "18 Mar [1856]",
+              "attributes": {
+                "when": "1856-03-18"
+              },
+              "lower": "1856-03-18",
+              "upper": "1856-03-18",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-03-18\">18 Mar [1856]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1836",
+          "body_paragraph": 1,
+          "quote": "I cannot tell you what particular species or supposed species",
+          "char_start": 361,
+          "char_end": 422,
+          "source_sha256": "c16fbda4a4dcb0b0ee143bc1def407f8f316f07a47d8267fd1d803e3601523e8",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1836",
+          "body_paragraph": 1,
+          "quote": "may be due to mere variation and not to impregnation",
+          "char_start": 601,
+          "char_end": 653,
+          "source_sha256": "c16fbda4a4dcb0b0ee143bc1def407f8f316f07a47d8267fd1d803e3601523e8",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1836",
+          "body_paragraph": 5,
+          "quote": "I should be glad of two or three of the Black Peas",
+          "char_start": 0,
+          "char_end": 50,
+          "source_sha256": "c16fbda4a4dcb0b0ee143bc1def407f8f316f07a47d8267fd1d803e3601523e8",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-1843A",
+          "body_paragraph": 1,
+          "quote": "I have now sent a little notice to the Linnean Soc.",
+          "char_start": 93,
+          "char_end": 144,
+          "source_sha256": "861893e97beacf4ea4bbb3f5e10e5245d7830f4a315eb84ce45ddc0b688e80ae",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1843A",
+          "body_paragraph": 2,
+          "quote": "black or intensely purple pods",
+          "char_start": 94,
+          "char_end": 124,
+          "source_sha256": "861893e97beacf4ea4bbb3f5e10e5245d7830f4a315eb84ce45ddc0b688e80ae",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Retained body scopes and raw DOM paths remain separate.",
+    "Keep fragment extent, personal access, receipt, dispatch, annotations, stamps, copies, lists and later publication separately addressable.",
+    "Requirements do not create acceptance or export readiness."
+  ],
+  "notes": [
+    "Prior accepted relationships remain context and are not recounted.",
+    "No global source-unavailability claim is made."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/all_letters.jsonl",
+      "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+    },
+    {
+      "path": "reports/1856-1857/audit.jsonl",
+      "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+    }
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-46.draft.json",
+      "sha256": "1f2074289b9e4f2bd78c394ef3efedf8f4b77c5759331d8d7df6b7607195e730"
+    }
+  ],
+  "primary_verification": {
+    "exact_body_quotes_checked": 19,
+    "unique_source_html_xml_pairs_checked": 11,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "mathml_fractions_checked": 1,
+    "figure_hashes_checked": 1,
+    "supplemental_stamp_locators_checked": 1
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "primary_corrections": [
+    "Replaced four fabricated or paraphrased candidate quotations with source-matching evidence.",
+    "Removed unrelated Bunbury/plain-110 requirement copied from an earlier packet.",
+    "Corrected pea-paper claim to the sea-water seed notice and separate pea dispatch.",
+    "Preserved the stated three modes without silently rewriting the source.",
+    "Removed unsupported later-book-custody language.",
+    "Specified the embedded addressee and place/date headings for exclusion while preserving authentic adjoining body prose."
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md"
+}

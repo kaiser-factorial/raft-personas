@@ -1,0 +1,86 @@
+{
+  "batch_id": "batch-39",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-2200",
+      "source_kind": "incoming letter",
+      "voice": "Blyth",
+      "date_assessment": "[8 Jan 1858]",
+      "disposition": "date_semantics_hold",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2221",
+      "source_kind": "incoming letter",
+      "voice": "Blyth",
+      "date_assessment": "22 Feb 1858",
+      "disposition": "incoming_context_prior_relationships_preserved",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2363",
+      "source_kind": "incoming letter",
+      "voice": "Wells with explicit Darwin question quotation",
+      "date_assessment": "17 Nov 1858",
+      "disposition": "incoming_context_prior_relationships_preserved",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2374",
+      "source_kind": "incoming letter",
+      "voice": "Wells with explicit Darwin question quotation",
+      "date_assessment": "25 Nov 1858",
+      "disposition": "incoming_context_prior_relationships_preserved",
+      "training_export_ready": false
+    }
+  ],
+  "corrections": [
+    {
+      "kind": "missed_visuals",
+      "description": "Workerclaimnoinlinefiguresfalse:2221actualcrestsketchfreshviewed;1832/1845figuresreusedfromfullyacceptednotes. Threevisualreadingsrecorded."
+    },
+    {
+      "kind": "existing_edges",
+      "description": "2363→2359reverseand2363→2368knowledgepreviouslyacceptedbatch25; packetabsenceof2359doesnotmeanunpreserved. Retainonce."
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-2221",
+      "kind": "dispatch_and_fertility_qualifications",
+      "description": "Shipmentnotarrival, ageofhybridsnotprovenfertility.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2221",
+          "body_paragraph": 1,
+          "quote": "old enough to breed if capable of it,",
+          "char_start": 435,
+          "char_end": 472,
+          "source_sha256": "49c19adcf75c690bda5ab67cb28adf873261f9a059c28ff31217edb47f25a710"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-2374",
+      "kind": "missing_letter_quoted_question",
+      "description": "AuthorialbodycontainsDarwinquestionquotationbutnotfullDarwinreply.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2374",
+          "body_paragraph": 1,
+          "quote": "“were the Beans in the first or second year planted near any other varieties”",
+          "char_start": 26,
+          "char_end": 103,
+          "source_sha256": "07a1d06f2fc43ada6928c0c9fc0f650563e4a2287f36c02f299d853ca7bcfe82"
+        }
+      ]
+    }
+  ],
+  "summary": "Threefreshincoming sourcesandfiveverifiedprimaryreuses, onenewfigure/tworeused. ExistingWellsrelationshipsonly, no newedges."
+}

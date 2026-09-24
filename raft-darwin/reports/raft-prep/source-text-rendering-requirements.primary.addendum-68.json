@@ -1,0 +1,892 @@
+{
+  "status": "primary_verified_conversion_preparation_requirements",
+  "scope": "Accepted 1856-1857 batch-43 source-text rendering, embedded-voice, date, extent and provenance requirements only. Candidate documentation; no converter, transcript, export, training or accepted evidence changes.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-43.json",
+      "sha256": "24cde5a2fe9cc81a56cbf0916025c76b90f7d62eb9fc0e57d9a4a1860c69d0ea"
+    },
+    "parent_decisions": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-43.json",
+      "sha256": "726f138bbe6994cb3d05ac59873ae5f3a6db7a728cedc6ebf89b11d2e4e2f64e"
+    },
+    "accepted_ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-43.json",
+      "sha256": "845fb67704b8df7967ed45680ec6d756a8eaed323f111dd8a7f5c3754ca14e53"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "case": "2159 embedded Darwin request and White response",
+      "source_ids": [
+        "DCP-LETT-2159"
+      ],
+      "requirement": "Separate White’s library/search and book-sending response from the embedded Darwin request pasted in retained P5 (raw p6). “Vol II & IV, if in Library” is Darwin voice inside White’s body, while White’s own claim is that he can send other named books; the original full request is missing and its date is not fixed by this reply. Preserve the uncertain 1746-93 book identification, undated Osbeck reading intention. Keep trailing address in provenance only and exclude it from eventual body.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2159",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2159.html",
+          "source_html_sha256": "32bfae92970a4adc54c9ba6da0e547c5cbd2ee783b6fbfa58b095dd93943195c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2159.xml",
+          "xml_sha256": "70008a3aa5326dac7c5216d21f2a0b8956ba8f6d92245bb4e148a9311079e83f",
+          "verified_xml_dates": [
+            {
+              "text": "26 Oct 1857",
+              "attributes": {
+                "when": "1857-10-26"
+              },
+              "lower": "1857-10-26",
+              "upper": "1857-10-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-10-26\">26 Oct 1857</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2159",
+          "body_paragraph": 1,
+          "quote": "At page 688 of the “abominable” catalogue you will find Encyclopaedias.",
+          "char_start": 0,
+          "char_end": 71,
+          "source_sha256": "32bfae92970a4adc54c9ba6da0e547c5cbd2ee783b6fbfa58b095dd93943195c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2159",
+          "body_paragraph": 5,
+          "quote": "I can send the other books named in your List",
+          "char_start": 0,
+          "char_end": 45,
+          "source_sha256": "32bfae92970a4adc54c9ba6da0e547c5cbd2ee783b6fbfa58b095dd93943195c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        },
+        {
+          "letter_id": "DCP-LETT-2159",
+          "body_paragraph": 5,
+          "quote": "Vol II & IV, if in Library. Edited by Bomare",
+          "char_start": 110,
+          "char_end": 154,
+          "source_sha256": "32bfae92970a4adc54c9ba6da0e547c5cbd2ee783b6fbfa58b095dd93943195c",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]"
+        }
+      ],
+      "clip_provenance": {
+        "letter_id": "DCP-LETT-2159",
+        "literal_text": "White cut out this reference from CD’s letter and glued it to his own.",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[3]/div[7]/div[2]",
+        "source_sha256": "32bfae92970a4adc54c9ba6da0e547c5cbd2ee783b6fbfa58b095dd93943195c"
+      },
+      "address_span": {
+        "letter_id": "DCP-LETT-2159",
+        "body_paragraph": 6,
+        "quote": "C. Darwin Esq",
+        "char_start": 33,
+        "char_end": 46,
+        "source_sha256": "32bfae92970a4adc54c9ba6da0e547c5cbd2ee783b6fbfa58b095dd93943195c"
+      }
+    },
+    {
+      "case": "1998 copied Darwin enclosure and genus/species limits",
+      "source_ids": [
+        "DCP-LETT-1998"
+      ],
+      "requirement": "Distinguish Westwood’s seven retained letter blocks from the separate two-paragraph enclosure/list copied in Darwin’s hand, not as an all-Westwood or all-Darwin document. Tellkampf’s descriptions are explicitly inadequate; Adelops is only generically identical with European species, not the same species. Preserve ditto dashes, taxon spellings, copied questions and Westwood corrections without reconstructing the exact missing cover. Wallich’s translation is recommended because Westwood thinks Darwin has not seen it, but that is not proof of Darwin non-reading. The August 4, 1852 newspaper issue date is source bibliography, not query composition date; P7 place/date layers remain excluded from future body.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1998",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1998.html",
+          "source_html_sha256": "23be2a13e9ca30fafa472ebf357c3c1962b5014cc7c8489ae78b6bda4f17592a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1998.xml",
+          "xml_sha256": "958ea73afa6671f6f2f47a2e4ee7790f06d48a7be465aecc9d662e8b7ab53781",
+          "verified_xml_dates": [
+            {
+              "text": "23 Nov 1856",
+              "attributes": {
+                "when": "1856-11-23"
+              },
+              "lower": "1856-11-23",
+              "upper": "1856-11-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-23\">23 Nov 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1998",
+          "body_paragraph": 1,
+          "quote": "The descriptions given by Tellkampf of the insects found by him in the Kentucky Cave are not sufficiently precise",
+          "char_start": 0,
+          "char_end": 113,
+          "source_sha256": "23be2a13e9ca30fafa472ebf357c3c1962b5014cc7c8489ae78b6bda4f17592a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1998",
+          "body_paragraph": 2,
+          "quote": "His adelops is however evidently identical generically with the European species",
+          "char_start": 0,
+          "char_end": 80,
+          "source_sha256": "23be2a13e9ca30fafa472ebf357c3c1962b5014cc7c8489ae78b6bda4f17592a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1998",
+          "body_paragraph": 3,
+          "quote": "I cannot do better than refer you to Dr Wallich’s Translation",
+          "char_start": 0,
+          "char_end": 61,
+          "source_sha256": "23be2a13e9ca30fafa472ebf357c3c1962b5014cc7c8489ae78b6bda4f17592a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        }
+      ],
+      "enclosure_source": {
+        "section_class": "enclosures",
+        "locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]",
+        "text": "[Enclosure]4Lepdoderus Hohenwarti (Coleopt? new Fam.)5 —— angustatus —— sericeus Pristonychus6 elegans var. Schreibersi is this blind?7 Blothrus Schiödtii (scorpion)8 Titanethes albus (oniscus like) Polydesmus subteraneus Niphargus stygius (allied to Polydesmus)9 Anurophurus stillicidii (do?)10 Phalangopsis caricola. Grasshopper Cavicularia anophthalma (spider) Phalangium cancroides (do)11 Adelops12 Khavenhulleri13 (Coleopt.)14 Anophtalmus stomoides (Coleopt.) ——— Bilimeki15 ——— Scopolii16 F. J. Schmidt | “Laibacher Zeitung” | Nor 146. 4 Aug 1852."
+      }
+    },
+    {
+      "case": "13770F discrete April 30 dates and complete ALS",
+      "source_ids": [
+        "DCP-LETT-13770F"
+      ],
+      "requirement": "Preserve 13770F as a complete two-block ALS, not a fragment by suffix. Its thirteen possible annual April 30 dates are discrete alternatives, not a continuous interval and not a unique 1856 event. Recipient identification through Dr Bakewell’s endorsement and age/address evidence remains editorial support, while the inherited malconformation report and missing original are not reconstructed. The date crosses the Origin cutoff and remains held for exact period eligibility.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-13770F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-13770F.html",
+          "source_html_sha256": "4f1f47a3701d98b09247a31a897d237b025ccb7a888812842e0a2b89c62239b6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-13770F.xml",
+          "xml_sha256": "89346743807d7c443a218f92c8eebd6a80019ea0d7d11ab6402d9f74835c5f48",
+          "verified_xml_dates": [
+            {
+              "text": "30 Apr 1856",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date1",
+                "when": "1856-04-30",
+                "exclude": "#date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1856-04-30",
+              "upper": "1856-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date1\" when=\"1856-04-30\" exclude=\"#date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1856</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1857",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date2",
+                "when": "1857-04-30",
+                "exclude": "#date1 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1857-04-30",
+              "upper": "1857-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date2\" when=\"1857-04-30\" exclude=\"#date1 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1857</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1858",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date3",
+                "when": "1858-04-30",
+                "exclude": "#date1 #date2 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1858-04-30",
+              "upper": "1858-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date3\" when=\"1858-04-30\" exclude=\"#date1 #date2 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1858</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1859",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date4",
+                "when": "1859-04-30",
+                "exclude": "#date1 #date2 #date3 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1859-04-30",
+              "upper": "1859-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date4\" when=\"1859-04-30\" exclude=\"#date1 #date2 #date3 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1859</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1860",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date5",
+                "when": "1860-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1860-04-30",
+              "upper": "1860-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date5\" when=\"1860-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1860</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1861",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date6",
+                "when": "1861-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1861-04-30",
+              "upper": "1861-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date6\" when=\"1861-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1861</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1862",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date7",
+                "when": "1862-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1862-04-30",
+              "upper": "1862-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date7\" when=\"1862-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1862</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1863",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date8",
+                "when": "1863-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1863-04-30",
+              "upper": "1863-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date8\" when=\"1863-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date9 #date10 #date11 #date12 #date13\">30 Apr 1863</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1864",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date9",
+                "when": "1864-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1864-04-30",
+              "upper": "1864-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date9\" when=\"1864-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date10 #date11 #date12 #date13\">30 Apr 1864</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1865",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date10",
+                "when": "1865-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date11 #date12 #date13"
+              },
+              "lower": "1865-04-30",
+              "upper": "1865-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date10\" when=\"1865-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date11 #date12 #date13\">30 Apr 1865</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1866",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date11",
+                "when": "1866-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date12 #date13"
+              },
+              "lower": "1866-04-30",
+              "upper": "1866-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date11\" when=\"1866-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date12 #date13\">30 Apr 1866</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1867",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date12",
+                "when": "1867-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date13"
+              },
+              "lower": "1867-04-30",
+              "upper": "1867-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date12\" when=\"1867-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date13\">30 Apr 1867</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1868",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date13",
+                "when": "1868-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12"
+              },
+              "lower": "1868-04-30",
+              "upper": "1868-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date13\" when=\"1868-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12\">30 Apr 1868</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-13770F",
+          "body_paragraph": 1,
+          "quote": "I beg leave to return you my very sincere thanks for your kindness",
+          "char_start": 0,
+          "char_end": 66,
+          "source_sha256": "4f1f47a3701d98b09247a31a897d237b025ccb7a888812842e0a2b89c62239b6",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "verified_discrete_alternatives": [
+        {
+          "text": "30 Apr 1856",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date1",
+            "when": "1856-04-30",
+            "exclude": "#date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+          },
+          "lower": "1856-04-30",
+          "upper": "1856-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date1\" when=\"1856-04-30\" exclude=\"#date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1856</ns0:date>"
+        },
+        {
+          "text": "30 Apr 1857",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date2",
+            "when": "1857-04-30",
+            "exclude": "#date1 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+          },
+          "lower": "1857-04-30",
+          "upper": "1857-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date2\" when=\"1857-04-30\" exclude=\"#date1 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1857</ns0:date>"
+        },
+        {
+          "text": "30 Apr 1858",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date3",
+            "when": "1858-04-30",
+            "exclude": "#date1 #date2 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+          },
+          "lower": "1858-04-30",
+          "upper": "1858-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date3\" when=\"1858-04-30\" exclude=\"#date1 #date2 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1858</ns0:date>"
+        },
+        {
+          "text": "30 Apr 1859",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date4",
+            "when": "1859-04-30",
+            "exclude": "#date1 #date2 #date3 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+          },
+          "lower": "1859-04-30",
+          "upper": "1859-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date4\" when=\"1859-04-30\" exclude=\"#date1 #date2 #date3 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1859</ns0:date>"
+        },
+        {
+          "text": "30 Apr 1860",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date5",
+            "when": "1860-04-30",
+            "exclude": "#date1 #date2 #date3 #date4 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+          },
+          "lower": "1860-04-30",
+          "upper": "1860-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date5\" when=\"1860-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1860</ns0:date>"
+        },
+        {
+          "text": "30 Apr 1861",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date6",
+            "when": "1861-04-30",
+            "exclude": "#date1 #date2 #date3 #date4 #date5 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+          },
+          "lower": "1861-04-30",
+          "upper": "1861-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date6\" when=\"1861-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1861</ns0:date>"
+        },
+        {
+          "text": "30 Apr 1862",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date7",
+            "when": "1862-04-30",
+            "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date8 #date9 #date10 #date11 #date12 #date13"
+          },
+          "lower": "1862-04-30",
+          "upper": "1862-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date7\" when=\"1862-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1862</ns0:date>"
+        },
+        {
+          "text": "30 Apr 1863",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date8",
+            "when": "1863-04-30",
+            "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date9 #date10 #date11 #date12 #date13"
+          },
+          "lower": "1863-04-30",
+          "upper": "1863-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date8\" when=\"1863-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date9 #date10 #date11 #date12 #date13\">30 Apr 1863</ns0:date>"
+        },
+        {
+          "text": "30 Apr 1864",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date9",
+            "when": "1864-04-30",
+            "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date10 #date11 #date12 #date13"
+          },
+          "lower": "1864-04-30",
+          "upper": "1864-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date9\" when=\"1864-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date10 #date11 #date12 #date13\">30 Apr 1864</ns0:date>"
+        },
+        {
+          "text": "30 Apr 1865",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date10",
+            "when": "1865-04-30",
+            "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date11 #date12 #date13"
+          },
+          "lower": "1865-04-30",
+          "upper": "1865-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date10\" when=\"1865-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date11 #date12 #date13\">30 Apr 1865</ns0:date>"
+        },
+        {
+          "text": "30 Apr 1866",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date11",
+            "when": "1866-04-30",
+            "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date12 #date13"
+          },
+          "lower": "1866-04-30",
+          "upper": "1866-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date11\" when=\"1866-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date12 #date13\">30 Apr 1866</ns0:date>"
+        },
+        {
+          "text": "30 Apr 1867",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date12",
+            "when": "1867-04-30",
+            "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date13"
+          },
+          "lower": "1867-04-30",
+          "upper": "1867-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date12\" when=\"1867-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date13\">30 Apr 1867</ns0:date>"
+        },
+        {
+          "text": "30 Apr 1868",
+          "attributes": {
+            "{http://www.w3.org/XML/1998/namespace}id": "date13",
+            "when": "1868-04-30",
+            "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12"
+          },
+          "lower": "1868-04-30",
+          "upper": "1868-04-30",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date13\" when=\"1868-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12\">30 Apr 1868</ns0:date>"
+        }
+      ]
+    },
+    {
+      "case": "2115F unaddressed financial memorandum and date-bound hold",
+      "source_ids": [
+        "DCP-LETT-2115F"
+      ],
+      "requirement": "Keep the single-block unaddressed Darwin memorandum outside ordinary correspondence dialogue. Preserve the raw TEI date bounds notBefore July 1 and notAfter August 1 rather than inventing August 1 as composition day. The body records agreed 2 percent on £250 from Ansted and Ransome, contingent company distribution and winding-up deferred to 1861; footnote investment history and its original 3½ percent are editorial, and footnote MathML must not be injected into the body. No recipient, incoming prompt or relationship is fabricated.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2115F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2115F.html",
+          "source_html_sha256": "420c3a6bd02479477faa6468f55f3595ccdb98bda2ada4b158026bd8eae3d324",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2115F.xml",
+          "xml_sha256": "3aa9db15459723df988523abe534e752630a5019da57289825c505634106b262",
+          "verified_xml_dates": [
+            {
+              "text": "July 1857",
+              "attributes": {
+                "notBefore": "1857-07-01",
+                "notAfter": "1857-08-01"
+              },
+              "lower": "1857-07-01",
+              "upper": "1857-08-01",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1857-07-01\" notAfter=\"1857-08-01\">July 1857</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2115F",
+          "body_paragraph": 1,
+          "quote": "I agreed to receive 2 per cent on the £250 from Ansted & Ransome",
+          "char_start": 0,
+          "char_end": 64,
+          "source_sha256": "420c3a6bd02479477faa6468f55f3595ccdb98bda2ada4b158026bd8eae3d324",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p"
+        }
+      ],
+      "verified_raw_bounds": [
+        {
+          "text": "July 1857",
+          "attributes": {
+            "notBefore": "1857-07-01",
+            "notAfter": "1857-08-01"
+          },
+          "lower": "1857-07-01",
+          "upper": "1857-08-01",
+          "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1857-07-01\" notAfter=\"1857-08-01\">July 1857</ns0:date>"
+        }
+      ],
+      "excluded_footnote_math": {
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]/div/div[2]/math",
+        "fraction": "1/2",
+        "layer": "editorial footnote only"
+      }
+    },
+    {
+      "case": "contextual headers and provenance separation",
+      "source_ids": [
+        "DCP-LETT-2159",
+        "DCP-LETT-1998",
+        "DCP-LETT-13770F",
+        "DCP-LETT-2115F"
+      ],
+      "requirement": "Keep headers, body, embedded copied text, annotations, footnotes, bibliography, addresses, publication dates, discrete alternatives and XML bounds as separate provenance layers. Do not convert embedded Darwin wording into White/Westwood voice, later bibliography into receipt, or a date range into period eligibility. Existing accepted relationships and prior addenda remain immutable; this candidate adds no export or converter output.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2159",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2159.html",
+          "source_html_sha256": "32bfae92970a4adc54c9ba6da0e547c5cbd2ee783b6fbfa58b095dd93943195c",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2159.xml",
+          "xml_sha256": "70008a3aa5326dac7c5216d21f2a0b8956ba8f6d92245bb4e148a9311079e83f",
+          "verified_xml_dates": [
+            {
+              "text": "26 Oct 1857",
+              "attributes": {
+                "when": "1857-10-26"
+              },
+              "lower": "1857-10-26",
+              "upper": "1857-10-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-10-26\">26 Oct 1857</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1998",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1998.html",
+          "source_html_sha256": "23be2a13e9ca30fafa472ebf357c3c1962b5014cc7c8489ae78b6bda4f17592a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1998.xml",
+          "xml_sha256": "958ea73afa6671f6f2f47a2e4ee7790f06d48a7be465aecc9d662e8b7ab53781",
+          "verified_xml_dates": [
+            {
+              "text": "23 Nov 1856",
+              "attributes": {
+                "when": "1856-11-23"
+              },
+              "lower": "1856-11-23",
+              "upper": "1856-11-23",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-23\">23 Nov 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-13770F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-13770F.html",
+          "source_html_sha256": "4f1f47a3701d98b09247a31a897d237b025ccb7a888812842e0a2b89c62239b6",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-13770F.xml",
+          "xml_sha256": "89346743807d7c443a218f92c8eebd6a80019ea0d7d11ab6402d9f74835c5f48",
+          "verified_xml_dates": [
+            {
+              "text": "30 Apr 1856",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date1",
+                "when": "1856-04-30",
+                "exclude": "#date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1856-04-30",
+              "upper": "1856-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date1\" when=\"1856-04-30\" exclude=\"#date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1856</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1857",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date2",
+                "when": "1857-04-30",
+                "exclude": "#date1 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1857-04-30",
+              "upper": "1857-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date2\" when=\"1857-04-30\" exclude=\"#date1 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1857</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1858",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date3",
+                "when": "1858-04-30",
+                "exclude": "#date1 #date2 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1858-04-30",
+              "upper": "1858-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date3\" when=\"1858-04-30\" exclude=\"#date1 #date2 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1858</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1859",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date4",
+                "when": "1859-04-30",
+                "exclude": "#date1 #date2 #date3 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1859-04-30",
+              "upper": "1859-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date4\" when=\"1859-04-30\" exclude=\"#date1 #date2 #date3 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1859</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1860",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date5",
+                "when": "1860-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1860-04-30",
+              "upper": "1860-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date5\" when=\"1860-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date6 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1860</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1861",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date6",
+                "when": "1861-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date7 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1861-04-30",
+              "upper": "1861-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date6\" when=\"1861-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date7 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1861</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1862",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date7",
+                "when": "1862-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date8 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1862-04-30",
+              "upper": "1862-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date7\" when=\"1862-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date8 #date9 #date10 #date11 #date12 #date13\">30 Apr 1862</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1863",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date8",
+                "when": "1863-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date9 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1863-04-30",
+              "upper": "1863-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date8\" when=\"1863-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date9 #date10 #date11 #date12 #date13\">30 Apr 1863</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1864",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date9",
+                "when": "1864-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date10 #date11 #date12 #date13"
+              },
+              "lower": "1864-04-30",
+              "upper": "1864-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date9\" when=\"1864-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date10 #date11 #date12 #date13\">30 Apr 1864</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1865",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date10",
+                "when": "1865-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date11 #date12 #date13"
+              },
+              "lower": "1865-04-30",
+              "upper": "1865-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date10\" when=\"1865-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date11 #date12 #date13\">30 Apr 1865</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1866",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date11",
+                "when": "1866-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date12 #date13"
+              },
+              "lower": "1866-04-30",
+              "upper": "1866-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date11\" when=\"1866-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date12 #date13\">30 Apr 1866</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1867",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date12",
+                "when": "1867-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date13"
+              },
+              "lower": "1867-04-30",
+              "upper": "1867-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date12\" when=\"1867-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date13\">30 Apr 1867</ns0:date>"
+            },
+            {
+              "text": "30 Apr 1868",
+              "attributes": {
+                "{http://www.w3.org/XML/1998/namespace}id": "date13",
+                "when": "1868-04-30",
+                "exclude": "#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12"
+              },
+              "lower": "1868-04-30",
+              "upper": "1868-04-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" xml:id=\"date13\" when=\"1868-04-30\" exclude=\"#date1 #date2 #date3 #date4 #date5 #date6 #date7 #date8 #date9 #date10 #date11 #date12\">30 Apr 1868</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2115F",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2115F.html",
+          "source_html_sha256": "420c3a6bd02479477faa6468f55f3595ccdb98bda2ada4b158026bd8eae3d324",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2115F.xml",
+          "xml_sha256": "3aa9db15459723df988523abe534e752630a5019da57289825c505634106b262",
+          "verified_xml_dates": [
+            {
+              "text": "July 1857",
+              "attributes": {
+                "notBefore": "1857-07-01",
+                "notAfter": "1857-08-01"
+              },
+              "lower": "1857-07-01",
+              "upper": "1857-08-01",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1857-07-01\" notAfter=\"1857-08-01\">July 1857</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": []
+    },
+    {
+      "case": "Institutional question absence, pigeon count and bookseller voice",
+      "source_ids": [
+        "DCP-LETT-2138",
+        "DCP-LETT-1829",
+        "DCP-LETT-2172"
+      ],
+      "requirement": "2138 is authentic Darwin biographical reply but original institutional questions are missing; no synthetic prompt. Exclude P3 address.1829 fifteen kinds means breeds, not fifteen individual pigeons; book/cage sent does not prove arrival.2172 is bookseller third-person business voice; work availability and quoted price do not prove purchase or reading.",
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2138",
+          "body_paragraph": 2,
+          "quote": "In answer to your questions",
+          "char_start": 0,
+          "char_end": 27,
+          "source_sha256": "0428382ccfbc6a78a7ffc197128cfa66a9038f3f46552cd0318e193dae7bcc79",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1829",
+          "body_paragraph": 1,
+          "quote": "15 kinds of Pigeons",
+          "char_start": 107,
+          "char_end": 126,
+          "source_sha256": "2336dcb145a8af4c53b268cb840ef1b261f70f2edaabe8cb9f6ed48f7a41884f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2172",
+          "body_paragraph": 1,
+          "quote": "has not been printed separately",
+          "char_start": 140,
+          "char_end": 171,
+          "source_sha256": "96fa5e3de67fb35aa6d2ad716bd31b7b449e51af903856553693d8615ca22fec",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p"
+        }
+      ],
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2138",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2138.html",
+          "source_html_sha256": "0428382ccfbc6a78a7ffc197128cfa66a9038f3f46552cd0318e193dae7bcc79",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2138.xml",
+          "xml_sha256": "e72e39be8834d42420530852e3e919fdd0874a27abfd77e205d71ce8fbed52cd",
+          "verified_xml_dates": [
+            {
+              "text": "8 Sept [1857]",
+              "attributes": {
+                "when": "1857-09-08"
+              },
+              "lower": "1857-09-08",
+              "upper": "1857-09-08",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-09-08\">8 Sept [1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1829",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1829.html",
+          "source_html_sha256": "2336dcb145a8af4c53b268cb840ef1b261f70f2edaabe8cb9f6ed48f7a41884f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1829.xml",
+          "xml_sha256": "7488454de09849234d7db2545a89125e749d2383d6f84c600ab109c9e7f27c7a",
+          "verified_xml_dates": [
+            {
+              "text": "6 [Feb 1856]",
+              "attributes": {
+                "when": "1856-02-06"
+              },
+              "lower": "1856-02-06",
+              "upper": "1856-02-06",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-02-06\">6 [Feb 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2172",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2172.html",
+          "source_html_sha256": "96fa5e3de67fb35aa6d2ad716bd31b7b449e51af903856553693d8615ca22fec",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2172.xml",
+          "xml_sha256": "fea5924f2bca85fc4ad143c6cc5523dea9ef0277e9e5dd789863d6f1d1be9293",
+          "verified_xml_dates": [
+            {
+              "text": "17 Nov 1857",
+              "attributes": {
+                "when": "1857-11-17"
+              },
+              "lower": "1857-11-17",
+              "upper": "1857-11-17",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-11-17\">17 Nov 1857</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "address_span": {
+        "letter_id": "DCP-LETT-2138",
+        "body_paragraph": 3,
+        "quote": "To the Honourable Secretary | Acad. Cæs. Leopold. Car. &c &c",
+        "char_start": 110,
+        "char_end": 170,
+        "source_sha256": "0428382ccfbc6a78a7ffc197128cfa66a9038f3f46552cd0318e193dae7bcc79"
+      }
+    }
+  ],
+  "coverage": {
+    "fresh_sources": [
+      "2159",
+      "1998",
+      "13770F",
+      "2115F"
+    ],
+    "full_source_layers_read": true,
+    "figures_viewed": false,
+    "accepted_relationships_added": 0,
+    "export_performed": false
+  },
+  "validation_notes": "Quotes and DOM paths are source anchors; retained body numbering is kept separate from raw p indexes, including salutation, address and unaddressed memorandum nodes. No date or voice was inferred.",
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-68.draft.json",
+      "sha256": "6f42639649ba2f67e2b28e637518a4ee1478c6a6684543cf60ea5856204da7ec"
+    }
+  ],
+  "export_content_policy": "docs/raft-export-content-policy.md",
+  "primary_verification": {
+    "exact_body_quotes_checked": 11,
+    "unique_source_html_xml_pairs_checked": 7,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "clip_apparatus_locators_checked": 1,
+    "addresses_checked": 2,
+    "separate_enclosure_locator_checked": 1,
+    "discrete_date_alternatives_checked": 13,
+    "editorial_math_exclusions_checked": 1
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  },
+  "primary_corrections": [
+    "Corrected pasted request to retainedP5, rawp6; trailing addresses excluded from finalbody.",
+    "Distinguished seven Westwood bodyblocks from separate two-paragraph Darwin-hand copied enclosure.",
+    "Normalized unprefixed source IDs; verified actual DOM/quote matches and pinned inputs.",
+    "Added omitted institutional, bookseller and pigeon-count requirements from accepted batch43."
+  ]
+}

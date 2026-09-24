@@ -1,0 +1,8 @@
+{
+  "status": "secondary_report_version_preservation_failure",
+  "path": "reports/1844-1846/review/reviews/batch-09.supplemental-evidence.json",
+  "sha256_after_change": "6e0606b7782a7e1e11e58ca48d8751d4dd7a9481ddf7b1d1504a129b33be4653",
+  "event": "Luna added bibliography fields to the batch09 supplemental report in place after primary adjudication, without preserving the previous bytes. Agent reported this explicitly. Earlier version cannot be restored from an existing initial copy.",
+  "impact": "The modified secondary report must not be represented as the immutable report seen at first review. Canonical first-pass report, primary notes, decisions, accepted ledger and raw sources remain unchanged. Batch09 primary notes do not record this supplemental hash, and root had independently read and adjudicated its sources.",
+  "action": "Preserve this event and current secondary report; future additions use separate files. Do not fabricate the missing original hash or reconstruct alleged original bytes."
+}

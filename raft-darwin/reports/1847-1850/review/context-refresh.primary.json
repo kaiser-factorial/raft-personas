@@ -1,0 +1,28 @@
+{
+  "status": "context_refreshed_after_prior_checkpoint",
+  "prior_checkpoint": {
+    "path": "reports/research/1844-1846-checkpoint.primary.json",
+    "sha256": "e64e8a05b7729f936c8e3cfa18d309d4ba1a4bed79feee51879597f8bdd50d4d"
+  },
+  "before": [
+    {
+      "path": "reports/1847-1850/review/letters.jsonl",
+      "sha256": "ab3f4ba5b1c80716c65a8d0f5c29ff6a6d01363544638e4462e5a7a26d625846"
+    },
+    {
+      "path": "reports/1847-1850/review/all_letters.jsonl",
+      "sha256": "996f5b9c269d71c06c7379f1759f30f6af6fe8ecf5f7e0f1f5597acd70249e40"
+    }
+  ],
+  "after": [
+    {
+      "path": "reports/1847-1850/review/letters.jsonl",
+      "sha256": "ab3f4ba5b1c80716c65a8d0f5c29ff6a6d01363544638e4462e5a7a26d625846"
+    },
+    {
+      "path": "reports/1847-1850/review/all_letters.jsonl",
+      "sha256": "f3ea2edd1de7aeadadb559fca4e62a6e63a1856415a5d9f003e2de5530fc2fc3"
+    }
+  ],
+  "interpretation": "Adds prior-period raw context only. Accepted date, voice, relationship, and training decisions remain in primary ledgers and are not silently projected into metadata."
+}

@@ -1,0 +1,179 @@
+{
+  "batch_id": "batch-16",
+  "status": "parent_adjudicated",
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-377",
+      "target_id": "DCP-LETT-373A",
+      "relationship": "replies_to",
+      "parent_decision": "reclassified_administrative_implementation",
+      "reason": "Two institutional incoming records: the minute orders the later communication. No Darwin reply or receipt inference."
+    },
+    {
+      "source_id": "DCP-LETT-402F",
+      "target_id": "DCP-LETT-402B",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_direct_reply",
+      "reason": "Explicit acknowledgement answers the distinctive request for a Gray character reference."
+    },
+    {
+      "source_id": "DCP-LETT-501",
+      "target_id": "DCP-LETT-500",
+      "relationship": "replies_to",
+      "parent_decision": "already_accepted_cross_correspondent_knowledge",
+      "reason": "Different recipient; already in batch05. Uncertain March21 date forbids next-day inference."
+    }
+  ],
+  "direct_reply_pairs": [
+    {
+      "incoming_id": "DCP-LETT-402B",
+      "outgoing_id": "DCP-LETT-402F",
+      "status": "confirmed_direct_reply",
+      "known_by_date": "1838-02-22",
+      "actual_receipt_date": null,
+      "response_scope": "single_date_surviving_body",
+      "response_sections": [],
+      "rationale": "Children requests personal evidence of Gray conduct; Darwin explicitly answers the letter with his experience.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-402B",
+          "body_paragraph": 2,
+          "quote": "I request the favour of you to inform me",
+          "locator": "div#letter div.body-content; retained body block 2",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-402B.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-402B.xml",
+            "retrieved_at": "2026-09-16T10:54:37.926108+00:00",
+            "sha256": "af0cfca6f5f0336a3068b45aaed470fc5da1c2680835f67bab54ebaf8ef00196",
+            "bytes": 114290,
+            "http_status": 200,
+            "etag": "\"8b8797378888a18cb9d4cd0e24f5c3d1\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-402B"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-402F",
+          "body_paragraph": 1,
+          "quote": "With respect to the subject of your letter",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-402F.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-402F.xml",
+            "retrieved_at": "2026-09-16T10:54:38.724133+00:00",
+            "sha256": "2d58f3b03d43bf12411bdfc2cbf226c7c08e3656ae6f41fc95cb6c12a4b1e662",
+            "bytes": 114043,
+            "http_status": 200,
+            "etag": "\"842e0edcdbaa261012b6664c7f68f630\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-402F"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-402F",
+          "body_paragraph": 1,
+          "quote": "Mr George Gray has uniformly acted towards me with courtesy",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-402F.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-402F.xml",
+            "retrieved_at": "2026-09-16T10:54:38.724133+00:00",
+            "sha256": "2d58f3b03d43bf12411bdfc2cbf226c7c08e3656ae6f41fc95cb6c12a4b1e662",
+            "bytes": 114043,
+            "http_status": 200,
+            "etag": "\"842e0edcdbaa261012b6664c7f68f630\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-402F"
+          }
+        }
+      ],
+      "training_export_ready": false
+    }
+  ],
+  "reference_observations": [
+    {
+      "id": "REF-R16-TREASURY-IMPLEMENTATION",
+      "witness_id": "DCP-LETT-377",
+      "type": "administrative_implementation",
+      "related_record_ids": [
+        "DCP-LETT-373A"
+      ],
+      "description": "Treasury communication implements the earlier minute. These are institutional incoming documents, not a Darwin response pair.",
+      "creates_prompt": false,
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-373A",
+          "body_paragraph": 5,
+          "quote": "be addressed to Mr Darwin",
+          "locator": "div#letter div.body-content; retained body block 5",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-373A.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-373A.xml",
+            "retrieved_at": "2026-09-16T10:54:37.911809+00:00",
+            "sha256": "b27387f3ccfa30717a56e6a71255c32dc94b5c93c54943ecb067490aad5f8ea3",
+            "bytes": 114928,
+            "http_status": 200,
+            "etag": "\"cf09547977434b94644ab702c26fe49c\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-373A"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-377",
+          "body_paragraph": 1,
+          "quote": "My Lords have therefore directed me to communicate to you the views they entertain",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-377.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-377.xml",
+            "retrieved_at": "2026-09-16T10:54:38.184548+00:00",
+            "sha256": "d789f8e44f86011942e93ac2a6c7b8d165ac2db17cf791b5b822b26c8460928e",
+            "bytes": 112088,
+            "http_status": 200,
+            "etag": "\"57b889a3541b595e667fd46852b353fe\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-377"
+          }
+        }
+      ]
+    }
+  ],
+  "source_kind_corrections": {
+    "DCP-LETT-548A": "published Darwin answer excerpt",
+    "DCP-LETT-548B": "published Darwin answer excerpt",
+    "DCP-LETT-610": "joint incoming gardener account with father cover"
+  },
+  "text_scope_overrides": {
+    "DCP-LETT-610": {
+      "author_segments": [
+        {
+          "paragraphs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "author": "John Abberley"
+        },
+        {
+          "paragraphs": [
+            8,
+            9
+          ],
+          "author": "R. W. Darwin"
+        }
+      ]
+    },
+    "DCP-LETT-700": {
+      "supplemental_author_text_present": true,
+      "supplemental_author_text_note": "N.B. address prediction is Darwin authored; preserve outside normalized paragraphs until export scope is prepared."
+    }
+  },
+  "corrections": [
+    "Sender composition dates and institutional decision dates do not establish Darwin receipt.",
+    "Existing500→501 and377→378A edges are not duplicated."
+  ]
+}

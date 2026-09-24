@@ -1,0 +1,392 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Batches 26–31 additive Blyth formatting/date/provenance requirements only; documentation candidate, no implementation or export.",
+  "primary_provenance": {
+    "batches": {
+      "reports/1851-1855/review/parent-reading/batch-26.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-26.json",
+        "sha256": "9a03b063f872706b4116b01d54b120386c56e5aef147b44a8511651cc7cba805"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-26.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-26.json",
+        "sha256": "3b87e1b8622da5187febb39ac747e582f04e34ec8749c168cff2877bd6abfe08"
+      },
+      "reports/1851-1855/review/parent-reading/batch-27.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-27.json",
+        "sha256": "b022fa8905df94f30d2f1e8c85fa9e01ef9db2942788e8471c7e7a66addf7d5c"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-27.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-27.json",
+        "sha256": "f8a93664ba3b031b68e99693b6d38c31ce228140b420d0716dc13fbd81556b69"
+      },
+      "reports/1851-1855/review/parent-reading/batch-28.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-28.json",
+        "sha256": "5e99c30dc8f4df970a13ed904eface6adf7fa17303b34ec3bc19d1274c22237d"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-28.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-28.json",
+        "sha256": "dc0fc44c91bcad52767c15be34b5e29a020a91409f0fb19892f3adfe1fe9da15"
+      },
+      "reports/1851-1855/review/parent-reading/batch-29.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-29.json",
+        "sha256": "162250759f526e2c29e19f11a1960f52a45c140bfd5bf5787a9a4dde81560a9f"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-29.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-29.json",
+        "sha256": "cb162a76cb6a62ef488c0be741a089bcd40d7f4272a7013901e30ad33d03de87"
+      },
+      "reports/1851-1855/review/parent-reading/batch-30.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-30.json",
+        "sha256": "b6b3b39c9c237a1e3cf73095d8157258f066b3b5c69e1d7b9ec71a2fd8eee990"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-30.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-30.json",
+        "sha256": "0d3da2c92b5e8674bd60458817614da16fe9eb54e0437fc5342fdadd5e588650"
+      },
+      "reports/1851-1855/review/parent-reading/batch-31.json": {
+        "path": "reports/1851-1855/review/parent-reading/batch-31.json",
+        "sha256": "73ec27c495c3a29f04357d9cc9e9ca329d6f4ccf5092dc55f974a6055e2be326"
+      },
+      "reports/1851-1855/review/parent-decisions/batch-31.json": {
+        "path": "reports/1851-1855/review/parent-decisions/batch-31.json",
+        "sha256": "e14399c496524048ac3fa91f28c53ff3d2927b74ca05fdbad1c45cd1d3b0a3c8"
+      }
+    },
+    "ledgers": {
+      "data/annotations/periods/1851-1855/batch-26.json": "08c695692051265630d40a08d362b5ed984f3ff2e3024a9af9dc00f906df3596",
+      "data/annotations/periods/1851-1855/batch-27.json": "bb13ef8edd4c2575277b5f47c9c503223085e3a806e5cedca095c13a934d21c6",
+      "data/annotations/periods/1851-1855/batch-28.json": "c1b96e93f18bcec241dd8957fa6b0959784d5b655325ee461d9c8d4979ad6b30",
+      "data/annotations/periods/1851-1855/batch-29.json": "3a9ab4ba0ec4960f4fd0f2e913b968dbef6f85dcf5c24542d51390e315c7af45",
+      "data/annotations/periods/1851-1855/batch-30.json": "fa4d4b2396ab86c665b5f68c6a85f27425980012d9448b4d9535991d6109610b",
+      "data/annotations/periods/1851-1855/batch-31.json": "0d673516a87b467655ae86072f6d66d1b085791aa5e7690fdc715a2f9857d918"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1670",
+        "DCP-LETT-1735",
+        "DCP-LETT-1746"
+      ],
+      "case": "nested Hutton/Tickell voices, missing antecedents and internal enclosure boundary",
+      "requirement": "Preserve Blyth’s incoming voice separately from quoted or reported Hutton/Tickell material, Darwin annotations and editorial apparatus. Missing Darwin antecedents remain missing. In 1746 keep the opening August 22 material, Blyth signature and Miscellaneous Notes heading, and the August 23 enclosure closing as internal boundaries; do not collapse them into one inferred physical timestamp or treat recalled dispatch as delivery.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1670",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1670.html",
+          "source_html_sha256": "37810a159e31b3d037d6399312da25dd66086a836ce0bf0cea71b4b45106318f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1670.xml",
+          "xml_sha256": "9efceab5ad05e9a6ff4f3275ad47cebe01cff3c09131f53bde91dbec16ee8fc1",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Blyth prose; quoted Hutton/Tickell/informants, Darwin annotations and editorial apparatus separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1735",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1735.html",
+          "source_html_sha256": "16761efccd6a428f2afbc82838e75442aebafae2b5b677f0a059d4eb5aacbfae",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1735.xml",
+          "xml_sha256": "dac1bff999e91def28b42385e03b0b8d39a09587145c4c752d5ff7da786af391",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Blyth prose; quoted Hutton/Tickell/informants, Darwin annotations and editorial apparatus separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1746",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1746.html",
+          "source_html_sha256": "a1aa22ff3fc9bcde0d7f696341415caa707ce227856280ae754c4fa6c4172522",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1746.xml",
+          "xml_sha256": "efab73dffa332b55283e16a904791c12047bc7186387ba94d1f1d753000110ea",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Blyth prose; quoted Hutton/Tickell/informants, Darwin annotations and editorial apparatus separately attributed"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1670",
+          "body_paragraph": 1,
+          "quote": "I have the pleasure to acknowledge receipt of yours of the 27th. February",
+          "source_sha256": "37810a159e31b3d037d6399312da25dd66086a836ce0bf0cea71b4b45106318f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1735",
+          "body_paragraph": 1,
+          "quote": "receiving yours of the 18th. June",
+          "source_sha256": "16761efccd6a428f2afbc82838e75442aebafae2b5b677f0a059d4eb5aacbfae",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1735",
+          "body_paragraph": 1,
+          "quote": "epistle of the 20th. April",
+          "source_sha256": "16761efccd6a428f2afbc82838e75442aebafae2b5b677f0a059d4eb5aacbfae",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1746",
+          "body_paragraph": 1,
+          "quote": "I had actually despatched the accompanying memoranda",
+          "source_sha256": "a1aa22ff3fc9bcde0d7f696341415caa707ce227856280ae754c4fa6c4172522",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1746",
+          "body_paragraph": 1,
+          "quote": "so I recalled it only just in time",
+          "source_sha256": "a1aa22ff3fc9bcde0d7f696341415caa707ce227856280ae754c4fa6c4172522",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1746",
+          "body_paragraph": 8,
+          "quote": "Yours truly ever | E Blyth— Miscellaneous Notes for Mr. Darwin",
+          "source_sha256": "a1aa22ff3fc9bcde0d7f696341415caa707ce227856280ae754c4fa6c4172522",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[9]"
+        },
+        {
+          "letter_id": "DCP-LETT-1746",
+          "body_paragraph": 15,
+          "quote": "Augt. 23/55—",
+          "source_sha256": "a1aa22ff3fc9bcde0d7f696341415caa707ce227856280ae754c4fa6c4172522",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[16]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1752",
+        "DCP-LETT-1755"
+      ],
+      "case": "Blyth date docket and interwoven quoted sources",
+      "requirement": "Preserve 1752’s September 7 author date separately from the September 8 Darwin docket/abstract date; do not infer overnight receipt or assign the P1–P6 opening material the P7 date. In 1755 retain Tickell’s August 29 source date and interwoven Blyth parentheses/comments, intentional missing species text and marginal insertions as distinct layers. Fractions remain structured values, and recommendations or presumed agreement do not become Darwin conclusions.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1752",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1752.html",
+          "source_html_sha256": "4a21cbc19cb1433663c5d7035fc14feace49a260d449eb7150f99f95b5135534",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1752.xml",
+          "xml_sha256": "f81e3d93dc40d5394c5d35b5dfd66c0eb0331f7f827c43beb794f2947aedd2f1",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Blyth prose; quoted Hutton/Tickell/informants, Darwin annotations and editorial apparatus separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1755",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1755.html",
+          "source_html_sha256": "6a2a598e1fc1ede9f601b85df21576f811866416e29cff52a72dcd5b01fd1e9d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1755.xml",
+          "xml_sha256": "d23d57ce9f62f577424a76da9cddcfc03c6e24ab7c6b6f421ed905f7d855cf21",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Blyth prose; quoted Hutton/Tickell/informants, Darwin annotations and editorial apparatus separately attributed"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1752",
+          "body_paragraph": 7,
+          "quote": "Septr—7.",
+          "source_sha256": "4a21cbc19cb1433663c5d7035fc14feace49a260d449eb7150f99f95b5135534",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]"
+        },
+        {
+          "letter_id": "DCP-LETT-1755",
+          "body_paragraph": 2,
+          "quote": "Dated Moulmein, Augt. 29/55.",
+          "source_sha256": "6a2a598e1fc1ede9f601b85df21576f811866416e29cff52a72dcd5b01fd1e9d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1761",
+        "DCP-LETT-1762"
+      ],
+      "case": "disjoint access dates, changing source access and separate Darwin notes",
+      "requirement": "Represent 1761’s mutually exclusive September 30 or October 7 alternatives and its change from Lyell unavailable at opening to later dipping into the volume; do not turn a docket or marginal drawing into an exact receipt, complete rereading, or contemporaneous Darwin answer. Keep 1762’s separate undated Darwin loose notes and authorial insertions out of Blyth’s dated memorandum, and retain the first-edition 1832 scope and source damage.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1761",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1761.html",
+          "source_html_sha256": "ffb29e9b71ec65e1078860311c3414a2d56f5d3e25f21aabf29b8704a49c65af",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1761.xml",
+          "xml_sha256": "a068c4b970ae337f2891a509bba8ebcabac70b146daec7d1c694c45310cd8c13",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Blyth prose; quoted Hutton/Tickell/informants, Darwin annotations and editorial apparatus separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1762",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1762.html",
+          "source_html_sha256": "cf30ae7dae31735c1e6585ff21098330eb30df228bc24df7d31eeb495ace893d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1762.xml",
+          "xml_sha256": "5a65177fcaab2f12026722aaabe0a757cda2487a5ec8d5fda567d57a6a85e610",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Blyth prose; quoted Hutton/Tickell/informants, Darwin annotations and editorial apparatus separately attributed"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1761",
+          "body_paragraph": 2,
+          "quote": "The 2d. Vol. of Lyell",
+          "source_sha256": "ffb29e9b71ec65e1078860311c3414a2d56f5d3e25f21aabf29b8704a49c65af",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1761",
+          "body_paragraph": 31,
+          "quote": "I have been dipping into Lyell’s second volume",
+          "source_sha256": "ffb29e9b71ec65e1078860311c3414a2d56f5d3e25f21aabf29b8704a49c65af",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[31]"
+        },
+        {
+          "letter_id": "DCP-LETT-1762",
+          "body_paragraph": 1,
+          "quote": "Notes on Lyell, Vol. 2, Edit. 1832.",
+          "source_sha256": "cf30ae7dae31735c1e6585ff21098330eb30df228bc24df7d31eeb495ace893d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]"
+        },
+        {
+          "letter_id": "DCP-LETT-1762",
+          "body_paragraph": 42,
+          "quote": "I here close the 2d. Vol. of Lyell, having found less to remark upon than I expected",
+          "source_sha256": "cf30ae7dae31735c1e6585ff21098330eb30df228bc24df7d31eeb495ace893d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[42]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1760"
+      ],
+      "case": "half-dozen MathML and dispatch stages",
+      "requirement": "Preserve each raw MathML one-half occurrence as a half-dozen sheet count, never flatten it to twelve. Keep the just-published Somali report, manuscript lots, Horsfield route and same-day dispatch distinct from Darwin receipt or reading; preserve the footnote/title date discrepancy for the enclosed memorandum and do not assign Darwin marginal interpretations to Blyth.",
+      "source_provenance": {
+        "letter_id": "DCP-LETT-1760",
+        "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1760.html",
+        "source_html_sha256": "b1cb1e889aadf9c4951cd10678b7db98d6b3a0ed6492d36a77d85e329177bee0",
+        "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1760.xml",
+        "xml_sha256": "00d5d65bee62fc0804cef06e916c7c37b439ec6c4f1b378033aa5a15b053a9c4",
+        "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+        "voice": "Blyth prose; quoted Hutton/Tickell/informants, Darwin annotations and editorial apparatus separately attributed"
+      },
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1760",
+          "body_paragraph": 1,
+          "quote": "By the mail which leaves this day",
+          "source_sha256": "b1cb1e889aadf9c4951cd10678b7db98d6b3a0ed6492d36a77d85e329177bee0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1760",
+          "body_paragraph": 1,
+          "quote": "a copy of my printed report (just published)",
+          "source_sha256": "b1cb1e889aadf9c4951cd10678b7db98d6b3a0ed6492d36a77d85e329177bee0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1760",
+          "body_paragraph": 1,
+          "quote": "These you will receive through Dr. Horsfield.",
+          "source_sha256": "b1cb1e889aadf9c4951cd10678b7db98d6b3a0ed6492d36a77d85e329177bee0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1760",
+          "body_paragraph": 1,
+          "quote": "12 doz. sheets like this one",
+          "source_sha256": "b1cb1e889aadf9c4951cd10678b7db98d6b3a0ed6492d36a77d85e329177bee0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1760",
+          "body_paragraph": 3,
+          "quote": "I have only quite recently seen this publication for the first time, and as yet only the Nos. for the current year",
+          "source_sha256": "b1cb1e889aadf9c4951cd10678b7db98d6b3a0ed6492d36a77d85e329177bee0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1811",
+        "DCP-LETT-1776",
+        "DCP-LETT-1792"
+      ],
+      "case": "incomplete/conjectured dates, unread Flora Indica and unknown Wallace reading date",
+      "requirement": "Hold 1811’s incomplete surviving 11-block transcription against the 20-page abstract indication and retain the conjectured October 22 cover/date. Preserve 1776’s November 8 versus possible December 8 conflict, and keep Flora Indica unread despite Thomson conversation. In 1792 distinguish Blyth’s December receipt of Darwin’s October 18 letter from Darwin’s unknown first reading date for Wallace; future paper delivery and later apparatus do not establish Darwin knowledge.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1811",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1811.html",
+          "source_html_sha256": "308cf72cdbda319dec714ca895bb32873dbbaeb45dbb4a1a50327adb34931e20",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1811.xml",
+          "xml_sha256": "6837122f1a0ee733049fbf328f8c17f06753c0bdbfe7dcb2d63c8f39d674f369",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Blyth prose; quoted Hutton/Tickell/informants, Darwin annotations and editorial apparatus separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1776",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1776.html",
+          "source_html_sha256": "30e58898a7e16ceec23b3f336b8bd8a4a31dbe1641a387dadde91eaac40990f4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1776.xml",
+          "xml_sha256": "fea2a656ed1884fe430a66ed7f8f1dd09f0f9e6f684e94f43e89f91629ab3d07",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Blyth prose; quoted Hutton/Tickell/informants, Darwin annotations and editorial apparatus separately attributed"
+        },
+        {
+          "letter_id": "DCP-LETT-1792",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1792.html",
+          "source_html_sha256": "56d939e15e7d0e77a6c3d82808a1f177408448f34a137bc1fcd0ca5f378564b7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-1792.xml",
+          "xml_sha256": "0f8d49567fc8fbf8d18b94905d3942c27933272898a546e7048bb3f23f03c0fc",
+          "date_xpath": "/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type=\"sent\"]/tei:date",
+          "voice": "Blyth prose; quoted Hutton/Tickell/informants, Darwin annotations and editorial apparatus separately attributed"
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1776",
+          "body_paragraph": 3,
+          "quote": "I have not yet seen, & look forward with much interest to read",
+          "source_sha256": "30e58898a7e16ceec23b3f336b8bd8a4a31dbe1641a387dadde91eaac40990f4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1776",
+          "body_paragraph": 3,
+          "quote": "From conversation with him, I infer",
+          "source_sha256": "30e58898a7e16ceec23b3f336b8bd8a4a31dbe1641a387dadde91eaac40990f4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        },
+        {
+          "letter_id": "DCP-LETT-1792",
+          "body_paragraph": 1,
+          "quote": "This afternoon I have had the pleasure of receiving yours of 18th. Octr.",
+          "source_sha256": "56d939e15e7d0e77a6c3d82808a1f177408448f34a137bc1fcd0ca5f378564b7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1792",
+          "body_paragraph": 1,
+          "quote": "What think you of Wallace’s paper in the Ann. M. N. H. ?",
+          "source_sha256": "56d939e15e7d0e77a6c3d82808a1f177408448f34a137bc1fcd0ca5f378564b7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1792",
+          "body_paragraph": 2,
+          "quote": "I will send you all these papers as soon as I can",
+          "source_sha256": "56d939e15e7d0e77a6c3d82808a1f177408448f34a137bc1fcd0ca5f378564b7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[3]"
+        }
+      ]
+    }
+  ],
+  "validation_plan": {
+    "quote_validator": "scripts/period_review.py check_quotes",
+    "exact_source_evidence_count": 23,
+    "actual_dom_method": "Each locator is the unique preserved HTML p node containing the literal quote, resolved with lxml getpath; no generic TEI locator used.",
+    "structural_note": "Candidate records requirements only; accepted evidence and source assets remain immutable."
+  }
+}

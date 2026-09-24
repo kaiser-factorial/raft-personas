@@ -1,0 +1,287 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Accepted 1856–1857 batch-35 source-text, date, voice and custody/rendering requirements only; no converter, transcript, export, corpus, training or accepted-evidence changes.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1856-1857/review/parent-reading/batch-35.json",
+      "sha256": "67da6b650883458649237d38bffb116ca288f9491591eb17a3798d107e3f1bae"
+    },
+    "parent_decision": {
+      "path": "reports/1856-1857/review/parent-decisions/batch-35.json",
+      "sha256": "e75a604e836e7fd15c80197e2ce8032f4a6fa8fafba0c8fd74c97920289ec4f3"
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1856-1857/batch-35.json",
+      "sha256": "8775d918ef78cfe11efa87263613c44bc7c27bf167633e92754f163d3e94c683"
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1820A",
+        "DCP-LETT-1822A",
+        "DCP-LETT-1851A"
+      ],
+      "case": "Chinese varieties request, agreement, and extracts receipt",
+      "requirement": "Render the 14 January enclosure as Darwin authorial prose, including its request for Gray to approach Birch; the separate 19 January response records Gray acceding to that request, while 8 April records receipt of Birch extracts. Preserve these as request, agreement, and later knowledge/receipt stages. The incoming Gray/Birch wording and physical delivery day are absent, so do not synthesize a prompt or convert the sequence into a single complete exchange.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1820A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1820A.html",
+          "source_html_sha256": "66819ddb3c7a258741a0a9b29c9a6cbdca733a880968815d61ef715674414fd2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1820A.xml",
+          "xml_sha256": "c9444547ed3e996d969d983229a167552b59e17717faf91a5dcd5b8bcfa16e31",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-1822A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1822A.html",
+          "source_html_sha256": "3574cc33170f00e95108d75ddae9c0b895c1358a3b958723d210aceb3aeff86f",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1822A.xml",
+          "xml_sha256": "8e9548d3a1cc49577e770351736b6d8b746fab6ae014e61a896114d02a065539",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-1851A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1851A.html",
+          "source_html_sha256": "a77faf45869eec91f912c88d5d82de64f6ed76147af1b5b697c2056e112535f7",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1851A.xml",
+          "xml_sha256": "438661cfdeea6cff8daf403d18090f5f8271c4efe1e0c8e53268aa100a4ee91c",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1820A",
+          "body_paragraph": 1,
+          "quote": "will you be so kind as to help me this time in regard to the enclosed memorandum, with Mr. Birch.",
+          "source_sha256": "66819ddb3c7a258741a0a9b29c9a6cbdca733a880968815d61ef715674414fd2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_quote_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-1822A",
+          "body_paragraph": 1,
+          "quote": "I write one line to say how very sincerely obliged I feel to you, for so very kindly acceding to my troublesome request.—",
+          "source_sha256": "3574cc33170f00e95108d75ddae9c0b895c1358a3b958723d210aceb3aeff86f",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_quote_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-1851A",
+          "body_paragraph": 1,
+          "quote": "I write merely to say that I have received the extracts, which you have so kindly made for me, & which I am extremely glad to see",
+          "source_sha256": "a77faf45869eec91f912c88d5d82de64f6ed76147af1b5b697c2056e112535f7",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_quote_verified": true
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1970A"
+      ],
+      "case": "Photocopy header and questioned 1856/1851 date",
+      "requirement": "Keep 1970A as a photocopy witness with its embedded institutional address (P1) and dateline (P4) distinguished from body content. Preserve the questioned 1856 versus 1851 carrier/date alternatives and the raw Hauskatke spelling. P1 and P4 are source/header material excluded from final letter content; the book requests in P5–6 remain Darwin prose. Do not silently normalize the spelling or assign a single year.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1970A",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1970A.html",
+          "source_html_sha256": "cda744cdb7fd4284e763efdca00bc1c28937c4818c032563b9cf036fdf40eff4",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1970A.xml",
+          "xml_sha256": "a8bd2729d9ac97122351c4c627e45d07ed3576a1c190d18259d8fb2938522791",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1970A",
+          "body_paragraph": 1,
+          "quote": "Royal Socy",
+          "source_sha256": "cda744cdb7fd4284e763efdca00bc1c28937c4818c032563b9cf036fdf40eff4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[1]",
+          "dom_quote_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-1970A",
+          "body_paragraph": 4,
+          "quote": "Down | Oct.",
+          "source_sha256": "cda744cdb7fd4284e763efdca00bc1c28937c4818c032563b9cf036fdf40eff4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[4]",
+          "dom_quote_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-1970A",
+          "body_paragraph": 5,
+          "quote": "Will you please also send me, Isis Band XXI Heft II.",
+          "source_sha256": "cda744cdb7fd4284e763efdca00bc1c28937c4818c032563b9cf036fdf40eff4",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[5]",
+          "dom_quote_verified": true
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1013"
+      ],
+      "case": "Corrected 1856 date and library borrowing stage",
+      "requirement": "Preserve 1013’s corrected 27 October 1856 date assessment and its distinction between a planned carrier return/borrowing request and later register evidence. The library borrowing report and later loans establish a chronology used by the accepted reading; they do not prove every requested volume was already received or read on 27 October. Keep the Knight and Derby menagerie requests as requests.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1013",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1013.html",
+          "source_html_sha256": "26cab07d75f9b0bcae4384c2657bb09d55961edd6c39bcc1b4630e2c615c6ba0",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1013.xml",
+          "xml_sha256": "233afdf51a0fd8f60794fc451f2a67f174b9a5834cc80e8e18efa6d061ad7065",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1013",
+          "body_paragraph": 1,
+          "quote": "I will send by Carrier, (or bring myself) on Thursday morning, the Books in hand",
+          "source_sha256": "26cab07d75f9b0bcae4384c2657bb09d55961edd6c39bcc1b4630e2c615c6ba0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_quote_verified": true
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1880"
+      ],
+      "case": "Discrete date alternatives and invitation response",
+      "requirement": "Represent 1880 as day 28 with discrete month/year alternatives spanning June 1856 through January 1865. Preserve the invitation response and ill-health reason without collapsing the alternatives into an exact 1856 date or treating an unlocated invitation as a surviving prompt.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1880",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1880.html",
+          "source_html_sha256": "8d3356b44450ad1afae40f491ce38bba1c3e0c4a5635df39c9f6bbfef799bece",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1880.xml",
+          "xml_sha256": "4ab6c9b2cbdda3de2286321f3e286d29fc4f055c2b1ef977ff81ab7e8ff7f106",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1880",
+          "body_paragraph": 1,
+          "quote": "I am very much obliged for your invitation to dinner on the 30th",
+          "source_sha256": "8d3356b44450ad1afae40f491ce38bba1c3e0c4a5635df39c9f6bbfef799bece",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_quote_verified": true
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-13873",
+        "DCP-LETT-13867A"
+      ],
+      "case": "Discrete-date short Darwin requests",
+      "requirement": "Keep 13873’s supplied scientific memoir receipt/thanks and 13867A’s Mason/Azores specimen request as separate short Darwin records. Their discrete date alternatives and recipient/source boundaries must remain explicit; a thank-you or collecting request does not supply an unseen incoming letter.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-13873",
+          "source_path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-13873.html",
+          "source_html_sha256": "3f4f91e08a26c084c007815bc0885cbb4438eba35d44f6a3f84edfdad783934a",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1837-1843/letters/DCP-LETT-13873.xml",
+          "xml_sha256": "6de4a78ebec43c2ecf334fc5406bfe1370c2636f96e6690151eeb456e852046b",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-13867A",
+          "source_path": "data/raw/dcp/1851-1855/pages/DCP-LETT-13867A.html",
+          "source_html_sha256": "f173e57c36ebda5d04ea11ab6626caad80b16b254127af6ae0912540d37cf803",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1851-1855/letters/DCP-LETT-13867A.xml",
+          "xml_sha256": "b1fa816395d7d8bd6632609fede92251665447b684b3228fcb282fed688d63e1",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-13873",
+          "body_paragraph": 1,
+          "quote": "I am much obliged to you for sending me a copy of your memoir, with its wonderfully beautiful illustrations",
+          "source_sha256": "3f4f91e08a26c084c007815bc0885cbb4438eba35d44f6a3f84edfdad783934a",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_quote_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-13867A",
+          "body_paragraph": 1,
+          "quote": "Will you be so kind as to take the trouble to inform me the address of Mr.—(?) Mason",
+          "source_sha256": "f173e57c36ebda5d04ea11ab6626caad80b16b254127af6ae0912540d37cf803",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_quote_verified": true
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1972"
+      ],
+      "case": "Helix experiment failure versus saltwater result",
+      "requirement": "Preserve 1972’s explicit report that Darwin’s confined Helix Pomatia laid no eggs. Do not replace this failed experiment with a saltwater result, infer success, or treat the correspondent’s hoped-for next-summer specimens as already dispatched or received.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1972",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1972.html",
+          "source_html_sha256": "d3e918f73c68e47944a851a2d9df789526ff2a4c885a59b5679c382f2642692b",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1972.xml",
+          "xml_sha256": "e399e151c5c0020002993c38aab9eae0271123772ca0cd2788690dbcecba475b",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1972",
+          "body_paragraph": 2,
+          "quote": "I have been myself keeping Helix Pomatia in confinement all summer, but they have not laid a single egg",
+          "source_sha256": "d3e918f73c68e47944a851a2d9df789526ff2a4c885a59b5679c382f2642692b",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "dom_quote_verified": true
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": {
+    "converter_changes": false,
+    "transcript_changes": false,
+    "export_changes": false,
+    "accepted_evidence_changes": false
+  },
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/parent-reading/batch-35.json",
+      "sha256": "67da6b650883458649237d38bffb116ca288f9491591eb17a3798d107e3f1bae"
+    },
+    {
+      "path": "reports/1856-1857/review/parent-decisions/batch-35.json",
+      "sha256": "e75a604e836e7fd15c80197e2ce8032f4a6fa8fafba0c8fd74c97920289ec4f3"
+    },
+    {
+      "path": "data/annotations/periods/1856-1857/batch-35.json",
+      "sha256": "8775d918ef78cfe11efa87263613c44bc7c27bf167633e92754f163d3e94c683"
+    },
+    {
+      "path": "reports/1856-1857/review/packets/batch-35.json",
+      "sha256": "e15d75f28eee2d6a2dea207a07b203ff639445f67716aff84f4bd1e125ec8aac"
+    }
+  ],
+  "notes": [
+    "All exact quotations are selected from preserved body paragraphs and paired with unique raw HTML paragraph locators. XML and HTML hashes were checked programmatically.",
+    "Parent notes, decisions and ledger were treated as accepted historical authority; this candidate records rendering and provenance requirements for independent primary review."
+  ]
+}

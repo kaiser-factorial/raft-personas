@@ -1,0 +1,126 @@
+{
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-545",
+      "target_id": "DCP-LETT-534",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_direct_reply",
+      "reason": "Explicit acknowledgement and answer to Humboldt sea-temperature question."
+    },
+    {
+      "source_id": "DCP-LETT-669",
+      "target_id": "DCP-LETT-668",
+      "relationship": "replies_to",
+      "parent_decision": "already_accepted_reverse_reply",
+      "reason": "Prior expansion ledger includes this edge; do not duplicate or narrow held XML date."
+    }
+  ],
+  "direct_reply_pairs": [
+    {
+      "incoming_id": "DCP-LETT-534",
+      "outgoing_id": "DCP-LETT-545",
+      "status": "confirmed_direct_reply",
+      "known_by_date": "1839-11-01",
+      "actual_receipt_date": null,
+      "response_scope": "single_date_surviving_body",
+      "response_sections": [],
+      "rationale": "Explicit letter acknowledgement answers Humboldt question about cold currents and Galapagos sea temperature.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-534",
+          "body_paragraph": 6,
+          "quote": "Je voudrois bien savoir si cet appercu est conforme a Votre experience",
+          "locator": "div#letter div.body-content; retained body block 6",
+          "source": {
+            "path": "data/raw/dcp/henslow-lyell-1837-1843/context/DCP-LETT-534.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-534.xml",
+            "retrieved_at": "2026-09-16T10:13:24.262116+00:00",
+            "sha256": "7bb3b073d867d5075222028117fd5eb8abee537028a954da21e8eeb2310d3e69",
+            "bytes": 154776,
+            "http_status": 200,
+            "etag": "\"2545dd663480ae555ca346b97c74ca12\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-534"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-545",
+          "body_paragraph": 1,
+          "quote": "I beg to return you my sincere thanks for your very kind letter",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-545.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-545.xml",
+            "retrieved_at": "2026-09-16T10:54:43.856249+00:00",
+            "sha256": "eb80d7cdf272a4e3d4f7fa805b8492bb35ebbf9cb82f40f5d2839dac0571bcfe",
+            "bytes": 120179,
+            "http_status": 200,
+            "etag": "\"ee82e51e186e40660001a94a5cba3c9b\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-545"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-545",
+          "body_paragraph": 1,
+          "quote": "As you say you feel much interest about the temperature of the sea",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-545.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-545.xml",
+            "retrieved_at": "2026-09-16T10:54:43.856249+00:00",
+            "sha256": "eb80d7cdf272a4e3d4f7fa805b8492bb35ebbf9cb82f40f5d2839dac0571bcfe",
+            "bytes": 120179,
+            "http_status": 200,
+            "etag": "\"ee82e51e186e40660001a94a5cba3c9b\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-545"
+          }
+        }
+      ],
+      "training_export_ready": false
+    }
+  ],
+  "source_kind_corrections": {
+    "DCP-LETT-609F": "catalogue paraphrase with short photographic transcription",
+    "DCP-LETT-545": "Darwin response with table and trailing repository caption"
+  },
+  "text_scope_overrides": {
+    "DCP-LETT-545": {
+      "voice_paragraphs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "excluded_paragraphs": [
+        6
+      ],
+      "exclusion_reason": "Repository caption is not letter prose."
+    },
+    "DCP-LETT-609F": {
+      "body_text_scope": "photographic_transcription_tail_and_close_only",
+      "voice_spans": [
+        {
+          "body_paragraph": 1,
+          "char_start": 1092,
+          "char_end": 1172,
+          "text": "my position is not such, as to have any claims to intrude on your valuable time:"
+        }
+      ],
+      "voice_paragraphs": [
+        2,
+        3
+      ],
+      "editorial_paraphrase_excluded": true
+    }
+  },
+  "corrections": [
+    "Institutional381A relationships handled in supplementary adjudication after independent second look.",
+    "Historical voyage table dates in545 must not segment the1839 response date.",
+    "Third-party letter to Lyell senior in664 is not a to/from-Darwin corpus input."
+  ],
+  "batch_id": "batch-17",
+  "status": "parent_adjudicated"
+}

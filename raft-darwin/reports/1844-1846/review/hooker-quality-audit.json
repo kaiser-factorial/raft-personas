@@ -1,0 +1,23 @@
+{
+  "reviewer": "gpt-5.6-luna",
+  "scope": ["batch-04", "batch-05", "batch-06", "batch-07", "batch-08", "batch-09"],
+  "preserved_revisions": [
+    "batch-04.initial.json",
+    "batch-05.initial.json",
+    "batch-06.initial.json",
+    "batch-07.initial.json",
+    "batch-08.initial.json",
+    "batch-09.initial.json",
+    "batch-03.revision-1.json"
+  ],
+  "changes": [
+    {"batch":"batch-04","removed_edges":["DCP-LETT-847->DCP-LETT-846","DCP-LETT-849->DCP-LETT-847"],"reason":"same-author Darwin continuation claims"},
+    {"batch":"batch-06","removed_edges":["DCP-LETT-930->DCP-LETT-929","DCP-LETT-931->DCP-LETT-930"],"reason":"same-author Darwin continuation claims"},
+    {"batch":"batch-07","removed_edges":["DCP-LETT-950->DCP-LETT-948","DCP-LETT-951->DCP-LETT-950","DCP-LETT-957->DCP-LETT-955","DCP-LETT-963->DCP-LETT-962"],"reason":"same-author Darwin continuation claims"},
+    {"batch":"batch-08","removed_edges":["DCP-LETT-974->DCP-LETT-973","DCP-LETT-1007->DCP-LETT-1006","DCP-LETT-1012->DCP-LETT-1007"],"reason":"same-author Darwin continuation claims"}
+  ],
+  "retained_candidate_counts":{"batch-04":7,"batch-05":4,"batch-06":7,"batch-07":5,"batch-08":5,"batch-09":1},
+  "residual_candidates":"Retained links are cross-direction candidates with source-specific subject continuity and exact opening evidence; primary adjudication must check competing and missing intermediates.",
+  "full_read_source_ids":"All target and context IDs in batches 04–09 were read through preserved source records; annotations/CD notes were included where present.",
+  "validation":"All six revised reports passed period_review.py validation."
+}

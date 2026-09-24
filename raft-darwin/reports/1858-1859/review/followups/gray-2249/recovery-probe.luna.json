@@ -1,0 +1,57 @@
+{
+  "record_id": "DCP-LETT-2249",
+  "purpose": "bounded source-recovery probe for the missing Asa Gray 146-genera close-species list",
+  "status": "no_independent_facsimile_recovered",
+  "local_source": {
+    "path": "data/raw/dcp/1844-1846/pages/DCP-LETT-2249.html",
+    "sha256": "8c553b342e4201c041d6e0faa06640bc46bb814c2570b5e9d49fcbfdf8493c6c",
+    "source_text_provenance": "DAR 165: 103",
+    "finding": "The preserved HTML contains an editorial description of the 146-genera list, one literal Gray sentence, and AG signature. It does not contain the table/list rows or the lost covering note."
+  },
+  "attempted_authoritative_sources": [
+    {
+      "url": "https://darwin-editorial.darwinproject.ac.uk/view/letters/DCP-LETT-2249",
+      "provider": "Darwin Correspondence Project/Cambridge",
+      "outcome": "accessible through indexed search result; reproduces the same synopsis and two literal Gray blocks, identifies source as DAR 165:103, and provides no manuscript image or list rows",
+      "independent": false
+    },
+    {
+      "url": "https://services.cudl.lib.cam.ac.uk/v1/transcription/tei/diplomatic/internal/MS-DAR-00165/i426/i435",
+      "provider": "Cambridge University Digital Library",
+      "outcome": "accessible through indexed search result as DAR 165 folio 92a:1r; this is Gray’s 30 June 1855 letter and the earlier close-species list, not the 1858 146-genera list at DAR 165:103",
+      "independent": true,
+      "limits": "It establishes an earlier 1855 list workflow and Gray’s bracket-marking practice only; it cannot supply the 1856-edition 146-genera rows or prove their later contents."
+    },
+    {
+      "url": "https://test.darwin-online.org.uk/manuscripts.html",
+      "provider": "Darwin Online manuscript catalogue",
+      "outcome": "search result identifies manuscript catalogue and digital-image coverage in general, but the requested DAR 165:103 image/transcription was not retrieved in this probe",
+      "independent": true
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Charles_Darwin_letters_to_Asa_Gray%2C_1855-1881_%28inclusive%29_%28IA_charlesdarwinle00darw%29.pdf",
+      "provider": "Internet Archive scan surfaced via Wikimedia",
+      "outcome": "printed correspondence compilation; search result contains Darwin’s related close-species discussion but no manuscript facsimile of Gray’s DAR 165:103 list",
+      "independent": false,
+      "limits": "A printed witness cannot recover missing handwritten rows or establish Gray’s original list extent."
+    },
+    {
+      "url": "https://www.lib.cam.ac.uk/collections/departments/archives-modern-and-medieval-manuscripts-and-university-archives-17",
+      "provider": "Cambridge University Library Darwin Archive overview",
+      "outcome": "confirms DAR 159–184 are supplementary correspondence holdings, but provides no record-level DAR 165:103 facsimile in this probe",
+      "independent": true
+    }
+  ],
+  "recovered_evidence": {
+    "earlier_comparison": "CUDL DAR 165 folio 92a:1r preserves Gray’s 30 June 1855 letter: he says he marks “close species” in unbound Manual sheets by brackets and sends them through Sir William Hooker. This is a distinct earlier list, not the 2249 list.",
+    "current_record": "DCP-LETT-2249’s DCP page states the later list was taken from A. Gray 1856, while the first list was DAR 165:92/3 and the later source is DAR 165:103. The page also states the covering note is lost.",
+    "date_limit": "Editorially, Darwin evidently received the list by 3 April 1858; Gray’s composition date remains undetermined. The XML broad lower bound 1809-01-01 is metadata scaffolding, not a composition date."
+  },
+  "strict_limits": [
+    "No 146-genera row, species name, count, handwriting, or Darwin annotation was recovered.",
+    "The 1855 CUDL witness cannot be substituted for the 1858 list.",
+    "No independent manuscript image was downloaded or preserved because none was located in the bounded public search.",
+    "The source remains partial: the surviving Gray sentence supports only the general qualification that most listed forms were distinct while some might not be; it does not reconstruct the table."
+  ],
+  "relationship_implication": "The recovery probe does not alter existing review or evidence. It leaves DCP-LETT-2249 as a partial incoming list and does not establish additional source-complete links. In direction terms, Darwin 2252 is the reply to Gray 2249 for list receipt; this probe does not treat the edge as reverse."
+}

@@ -1,0 +1,245 @@
+{
+  "status": "provisional_conversion_preparation_candidate",
+  "scope": "Accepted 1858–1859 batch-03 source-text rendering requirements only; no converter, transcript, export, corpus, training or accepted-evidence changes.",
+  "primary_provenance": {
+    "parent_reading": {
+      "path": "reports/1858-1859/review/parent-reading/batch-03.json",
+      "sha256": "ae4f85b965d727d14a7691657235358249eb7fa41d99ee601b06aef451b759a4"
+    },
+    "parent_decision": {
+      "path": "reports/1858-1859/review/parent-decisions/batch-03.json",
+      "sha256": "e96503c4c49d6e6c05a369dcaf9ca024a87898a277f37349228c856ddcba89d9"
+    },
+    "ledger": {
+      "path": "data/annotations/periods/1858-1859/batch-03.json",
+      "sha256": "05ae5b18ce870c86864154440c2f5c8f6367197476eeae15d86238e5c528276e"
+    }
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-2351"
+      ],
+      "case": "Currency and 4½-mile rendering",
+      "requirement": "Preserve raw currency and donor-address prose as body evidence: 330 is a literal marker whose interpretation must remain tied to the surrounding account and offered £2 2s/550 alternatives; do not render it as unqualified £330 or £550. Render the 4½-mile MathML value as a fraction with numerator 4 and denominator 1/2, preserving the source’s distinction between walking distance and account/payment.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2351",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2351.html",
+          "source_html_sha256": "5a7655d9220c430945f0d6b053938690d2e0d5d50925d01d658ad3b446808d50",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2351.xml",
+          "xml_sha256": "b3e28ca7daa215a983382a976869f352d1da36b02ef67742e53e8e363e565be8",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2351",
+          "body_paragraph": 2,
+          "quote": "I hardly like sending Circulars to friends who are not naturalists",
+          "source_sha256": "5a7655d9220c430945f0d6b053938690d2e0d5d50925d01d658ad3b446808d50",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "dom_quote_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-2351",
+          "body_paragraph": 5,
+          "quote": "Moor Park did me wonderful good & I walked one day 412 miles!",
+          "source_sha256": "5a7655d9220c430945f0d6b053938690d2e0d5d50925d01d658ad3b446808d50",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]",
+          "dom_quote_verified": true
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2355"
+      ],
+      "case": "Split 9–10 November letter and literal 222",
+      "requirement": "Keep P1–P4 as the 9 November section and P5–P8 as the next-morning postscript section. Preserve raw literal 222 in its unresolved charity/currency context; do not silently interpret it as £222. The Lyell sketch sent on the 10th, Henslow’s planned later visit, and contemporaneous medal discussion remain separate events.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2355",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2355.html",
+          "source_html_sha256": "4590b3028c2915e0029155e3703b06ada8471e0feae5e2b34e839085de567801",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2355.xml",
+          "xml_sha256": "489d694ab4a6606b31fa8d44da6e95ca65dd98692b04db670c005bf5bbe3428f",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2355",
+          "body_paragraph": 1,
+          "quote": "I am quite delighted to hear about Copley & Lyell.",
+          "source_sha256": "4590b3028c2915e0029155e3703b06ada8471e0feae5e2b34e839085de567801",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_quote_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-2355",
+          "body_paragraph": 5,
+          "quote": "I worked all yesterday evening in thinking & have written the paper sent by this Post this morning.",
+          "source_sha256": "4590b3028c2915e0029155e3703b06ada8471e0feae5e2b34e839085de567801",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[6]",
+          "dom_quote_verified": true
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2361F"
+      ],
+      "case": "Mixed Darwin questionnaire, Hooker answers and Darwin note",
+      "requirement": "Do not use the misleading CD-annotations heading as a voice label. Render the Darwin questionnaire, Hooker’s same-sheet answers, and the separate Darwin note as distinct layers. Preserve literal “dot in circle” as a marker without inventing a missing symbol image; retain the 84-genera question, the annual/aquatic notation, and the copies E61–74/original absence.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2361F",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2361F.html",
+          "source_html_sha256": "ce0fc4d63e31c983b95face5320a1b1130ca037d2aca0d4eec7ea0e08400eccf",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2361F.xml",
+          "xml_sha256": "9a7933861726ad65f9a8b3bc7d069bb9924bbbb9aeb4f66e0b63c2c574b70da3",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2361F",
+          "body_paragraph": 1,
+          "quote": "There are 84 genera common to Europe & marked x = extra-tropical or chiefly so.",
+          "source_sha256": "ce0fc4d63e31c983b95face5320a1b1130ca037d2aca0d4eec7ea0e08400eccf",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_quote_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-2361F",
+          "body_paragraph": 6,
+          "quote": "dot in circle",
+          "source_sha256": "ce0fc4d63e31c983b95face5320a1b1130ca037d2aca0d4eec7ea0e08400eccf",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[7]",
+          "dom_quote_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-2361F",
+          "body_paragraph": 7,
+          "quote": "for annual & some mark for aquatic & sub-aquatic.",
+          "source_sha256": "ce0fc4d63e31c983b95face5320a1b1130ca037d2aca0d4eec7ea0e08400eccf",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[8]",
+          "dom_quote_verified": true
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2367"
+      ],
+      "case": "Sunday/20 November calendar conflict",
+      "requirement": "Retain the raw 20 November label alongside the Sunday dateline conflict: 20 November 1858 was Saturday, while Sunday is 21 November. Do not collapse the source to an unqualified exact composition date; preserve its responses to 2361 and its separate de Vriese/South Chile enclosure gaps.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2367",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2367.html",
+          "source_html_sha256": "f5de5f7ad2b4aed1db212f14c119988d507a04c04fe363806eda4967e42c0ccc",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2367.xml",
+          "xml_sha256": "6e778bf6ae6f19c4d83257293f95c55ea5510075ce470f12b6bcf44834cf4039",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2367",
+          "body_paragraph": 1,
+          "quote": "I am groaning over the parturition of my Introd. Essay",
+          "source_sha256": "f5de5f7ad2b4aed1db212f14c119988d507a04c04fe363806eda4967e42c0ccc",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_quote_verified": true
+        },
+        {
+          "letter_id": "DCP-LETT-2367",
+          "body_paragraph": 11,
+          "quote": "Do not fear that you have forestalled me in any thing!",
+          "source_sha256": "f5de5f7ad2b4aed1db212f14c119988d507a04c04fe363806eda4967e42c0ccc",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[12]",
+          "dom_quote_verified": true
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2318"
+      ],
+      "case": "Manuscript arrival interval",
+      "requirement": "Represent the manuscript arrival as a bounded 7–8 August interval inferred from “two or three days ago” in the 10 August letter, not as an exact 8 August receipt. Keep the missing seaside/Forbes note, thistledown observation and Channel-crossing uncertainty in their respective scopes.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2318",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2318.html",
+          "source_html_sha256": "dd4783cd00d18c1f61a8a423274b579b48891ddee42cff14f1d3ce4638b68eb2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2318.xml",
+          "xml_sha256": "905bbe2a50968fac8783a1bbc9013d18e64f00bc1d1f62f950b58fc6cc2e2810",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2318",
+          "body_paragraph": 2,
+          "quote": "You speak of going to sea-side somewhere: we think this the nicest sea-side place",
+          "source_sha256": "dd4783cd00d18c1f61a8a423274b579b48891ddee42cff14f1d3ce4638b68eb2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[3]",
+          "dom_quote_verified": true
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2322"
+      ],
+      "case": "Mixed-observation perennial list and raw diagram marker",
+      "requirement": "Keep the list’s correspondent reports distinct from Moore’s own observations marked “(x)”; preserve the literal “diag”/“ramme” marker and the incomplete enclosure edge rather than treating the list as a clean single-author table. Do not infer Darwin receipt or normalize the plant claims beyond the source.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2322",
+          "source_path": "data/raw/dcp/1858-1859/pages/DCP-LETT-2322.html",
+          "source_html_sha256": "2f5ba6c0f326e4fbd708e44b6920ce4cb216b20bee3671750baf110c6244edd3",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2322.xml",
+          "xml_sha256": "07ae17da127366676f938979355494d1e1806c4d2c0245105997d31e6d37addb",
+          "html_hash_verified": true,
+          "xml_hash_verified": true
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2322",
+          "body_paragraph": 1,
+          "quote": "those that have come under my own observation are marked thus (x) and on these you may rely.",
+          "source_sha256": "2f5ba6c0f326e4fbd708e44b6920ce4cb216b20bee3671750baf110c6244edd3",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]",
+          "dom_quote_verified": true
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": "Requirements only. Preserve frozen raw HTML/XML and accepted notes, decisions and ledger; apply once cumulatively during an authorized export, with body quotes restricted to retained authorial sections and apparatus/headers excluded.",
+  "inputs": {
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06",
+    "source_ids": [
+      "DCP-LETT-2351",
+      "DCP-LETT-2355",
+      "DCP-LETT-2361F",
+      "DCP-LETT-2367",
+      "DCP-LETT-2318",
+      "DCP-LETT-2322"
+    ],
+    "figure_manifest": "data/raw/dcp/1858-1859/figures/manifest.json"
+  },
+  "notes": [
+    "Parent accepted batch-03 status and hashes were checked before drafting.",
+    "All numeric, date, voice and marker qualifications above are additive requirements and do not alter accepted decisions."
+  ]
+}

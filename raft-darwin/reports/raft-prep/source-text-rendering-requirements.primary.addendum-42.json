@@ -1,0 +1,651 @@
+{
+  "status": "primary_verified_requirements_only",
+  "scope": "Accepted 1856–1857 batch 20 source-text rendering, chronology, attribution, receipt and figure requirements only; candidate for root review. No converter, transcript, export, corpus, training or primary evidence changes.",
+  "primary_provenance": {
+    "batch": {
+      "reading": {
+        "path": "reports/1856-1857/review/parent-reading/batch-20.json",
+        "sha256": "4ceb72cf86facf3bfa9c15f090ddd26795d68355fe94436970bca12fceccb313"
+      },
+      "decisions": {
+        "path": "reports/1856-1857/review/parent-decisions/batch-20.json",
+        "sha256": "d8f584f703864022565935fb9c0f7dba9c5d4be2ffdb72eba18c8ad5704441b3"
+      },
+      "ledger": {
+        "path": "data/annotations/periods/1856-1857/batch-20.json",
+        "sha256": "623cc7d24d39921fba66504e24533dbc5b6550e21a74867c423c248108757da2"
+      }
+    },
+    "source_revision": "ab0d973bae05b54d68d82d068211015996cfec06"
+  },
+  "requirements": [
+    {
+      "source_ids": [
+        "DCP-LETT-1898",
+        "DCP-LETT-1899",
+        "DCP-LETT-1907"
+      ],
+      "case": "June dating, dateline and flattened Watson comparisons",
+      "requirement": "The raw salute-class node in 1898 is the June 10 dateline, not a greeting or retained body paragraph. Preserve the flattened comparison and source ordering. The unique submerged-land comparison supplies 1898 → 1899; 1907 responds to the Arctic-range question. The inclusive relational composition window for 1899 is June 11–20, not an exact day. Conservative knowledge date June 20 must not enable retrieval of material that postdates its possibly earlier composition. Syme quotations remain third-party speech.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1898",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1898.html",
+          "source_html_sha256": "8757eb0be7987dc447f4f325802c2c7d80db7fd489acc2950ffdccf6ec949360",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1898.xml",
+          "xml_sha256": "da1360d48adc83a1e2c68fec2aa1dfb94761718eef7c4c76faeeeaf1c3bf3e44",
+          "verified_xml_dates": [
+            {
+              "text": "10 June 1856",
+              "attributes": {
+                "when": "1856-06-10"
+              },
+              "lower": "1856-06-10",
+              "upper": "1856-06-10",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-10\">10 June 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1899",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1899.html",
+          "source_html_sha256": "90be77b894df9f82db0cfb11b705a3b3f054110d7555be6d9a86ec19d1c562f0",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1899.xml",
+          "xml_sha256": "967d66a4f283fca7708cc386af4cb2d36f400c739f8866a2bbd5a56d3bbed272",
+          "verified_xml_dates": [
+            {
+              "text": "[after 10 June 1856]",
+              "attributes": {
+                "notBefore": "1856-06-11",
+                "notAfter": "1856-06-30"
+              },
+              "lower": "1856-06-11",
+              "upper": "1856-06-30",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" notBefore=\"1856-06-11\" notAfter=\"1856-06-30\">[after 10 June 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1907",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1907.html",
+          "source_html_sha256": "910c205dac17ad2e5a5063587a97e8f14027d2b6fb9de59681f0fce0240c51fd",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1907.xml",
+          "xml_sha256": "fc770b75fc04fd7d4a6dfef41af3d298a3192e2c3934fe912efe2179faea52e3",
+          "verified_xml_dates": [
+            {
+              "text": "20 June 1856",
+              "attributes": {
+                "when": "1856-06-20"
+              },
+              "lower": "1856-06-20",
+              "upper": "1856-06-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-06-20\">20 June 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1898",
+          "body_paragraph": 3,
+          "quote": "reduce the Ural chain to a few islands",
+          "char_start": 313,
+          "char_end": 351,
+          "source_sha256": "8757eb0be7987dc447f4f325802c2c7d80db7fd489acc2950ffdccf6ec949360",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]"
+        },
+        {
+          "letter_id": "DCP-LETT-1899",
+          "body_paragraph": 1,
+          "quote": "if intervening tracts were submerged",
+          "char_start": 165,
+          "char_end": 201,
+          "source_sha256": "90be77b894df9f82db0cfb11b705a3b3f054110d7555be6d9a86ec19d1c562f0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]"
+        },
+        {
+          "letter_id": "DCP-LETT-1907",
+          "body_paragraph": 4,
+          "quote": "very few European species are wild in U.S.",
+          "char_start": 27,
+          "char_end": 69,
+          "source_sha256": "910c205dac17ad2e5a5063587a97e8f14027d2b6fb9de59681f0fce0240c51fd",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        }
+      ],
+      "verified_raw_dateline": {
+        "letter_id": "DCP-LETT-1898",
+        "literal_text": "June 10th/56",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[1]",
+        "source_sha256": "8757eb0be7987dc447f4f325802c2c7d80db7fd489acc2950ffdccf6ec949360"
+      },
+      "verified_june20_header": {
+        "letter_id": "DCP-LETT-1907",
+        "literal_text": "June 20. 1856",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[1]/p[2]",
+        "source_sha256": "910c205dac17ad2e5a5063587a97e8f14027d2b6fb9de59681f0fce0240c51fd"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-1994",
+        "DCP-LETT-2023",
+        "DCP-LETT-2183"
+      ],
+      "case": "flattened tables, lists and dated Darwin annotation",
+      "requirement": "Retain raw flattened diagram/list content in 1994, 2023 and 2183. The 1994 chronology is expressly fanciful and its repeated 1111 tokens must not be turned into historical dates. Fourteen common/rare taxon pairs, three distinct intermediate-form categories, qualified hybrid interpretations, duplicated Gentiana authorities and misspelled negriem are source content; modern taxonomic gloss remains editorial. The 2023 date comes from a Darwin annotation, establishing knowledge by December 28, not exact Watson composition or receipt. The 2183 list was taken from the 1853 Catalogue; Watson requests the 1857 edition, rather than claiming this is already that revised list.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-1994",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1994.html",
+          "source_html_sha256": "4d7369dd8dc114599c4ca42d2db9538a54b30cd28c18061a0fe1bae875d5795d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1994.xml",
+          "xml_sha256": "3b99cb73a455e415e7f3f209c2cd101e475371439ac877c0464bf809865973db",
+          "verified_xml_dates": [
+            {
+              "text": "19 Nov 1856",
+              "attributes": {
+                "when": "1856-11-19"
+              },
+              "lower": "1856-11-19",
+              "upper": "1856-11-19",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-19\">19 Nov 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2023",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2023.html",
+          "source_html_sha256": "d463b763e00d6ffe8eabf3ed5a86c8bf445f43683b228f472b9cfb65164ea0fe",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2023.xml",
+          "xml_sha256": "3d7b6b3f76cb506b2c35161b6bfdcf19b56b5e3f060e2b783e06359d4a6cb92c",
+          "verified_xml_dates": [
+            {
+              "text": "[28 Dec 1856]",
+              "attributes": {
+                "when": "1856-12-28"
+              },
+              "lower": "1856-12-28",
+              "upper": "1856-12-28",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-12-28\">[28 Dec 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2183",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2183.html",
+          "source_html_sha256": "919a3d242adc88edfdf2d2eca0f25e8234728ea2cb85b6a96cdae3cbdaa76ca0",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2183.xml",
+          "xml_sha256": "59ab87c0e4d41e1031974321d922dfa71f4f0d51439fbe745984de3a28718159",
+          "verified_xml_dates": [
+            {
+              "text": "14 Dec [1857]",
+              "attributes": {
+                "when": "1857-12-14"
+              },
+              "lower": "1857-12-14",
+              "upper": "1857-12-14",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-12-14\">14 Dec [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-1994",
+          "body_paragraph": 4,
+          "quote": "I have run over the last, 4th., edition",
+          "char_start": 0,
+          "char_end": 39,
+          "source_sha256": "4d7369dd8dc114599c4ca42d2db9538a54b30cd28c18061a0fe1bae875d5795d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-1994",
+          "body_paragraph": 19,
+          "quote": "the dates fanciful for the moment",
+          "char_start": 47,
+          "char_end": 80,
+          "source_sha256": "4d7369dd8dc114599c4ca42d2db9538a54b30cd28c18061a0fe1bae875d5795d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[22]"
+        },
+        {
+          "letter_id": "DCP-LETT-1994",
+          "body_paragraph": 20,
+          "quote": "1111 b. species",
+          "char_start": 0,
+          "char_end": 15,
+          "source_sha256": "4d7369dd8dc114599c4ca42d2db9538a54b30cd28c18061a0fe1bae875d5795d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[23]"
+        },
+        {
+          "letter_id": "DCP-LETT-2023",
+          "body_paragraph": 10,
+          "quote": "Gentiana germanica, L. G. germanica, W.",
+          "char_start": 0,
+          "char_end": 39,
+          "source_sha256": "d463b763e00d6ffe8eabf3ed5a86c8bf445f43683b228f472b9cfb65164ea0fe",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[10]"
+        },
+        {
+          "letter_id": "DCP-LETT-2023",
+          "body_paragraph": 15,
+          "quote": "Asplenium Adiantum negriem",
+          "char_start": 0,
+          "char_end": 26,
+          "source_sha256": "d463b763e00d6ffe8eabf3ed5a86c8bf445f43683b228f472b9cfb65164ea0fe",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[15]"
+        },
+        {
+          "letter_id": "DCP-LETT-2183",
+          "body_paragraph": 4,
+          "quote": "Polygonum amphibium diag α natans",
+          "char_start": 6,
+          "char_end": 39,
+          "source_sha256": "919a3d242adc88edfdf2d2eca0f25e8234728ea2cb85b6a96cdae3cbdaa76ca0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]"
+        },
+        {
+          "letter_id": "DCP-LETT-2183",
+          "body_paragraph": 5,
+          "quote": "β terrestreramme",
+          "char_start": 0,
+          "char_end": 16,
+          "source_sha256": "919a3d242adc88edfdf2d2eca0f25e8234728ea2cb85b6a96cdae3cbdaa76ca0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]"
+        }
+      ],
+      "verified_dated_darwin_note": {
+        "letter_id": "DCP-LETT-2023",
+        "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2023.html",
+        "source_sha256": "d463b763e00d6ffe8eabf3ed5a86c8bf445f43683b228f472b9cfb65164ea0fe",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]",
+        "full_section_text": "CD annotations‘Q’added pencil, circled pencil‘Q’added pencil, circled pencil‘Q’added pencil, circled pencil Top of first page: ‘On Rarity of intermediate forms.’pencil; ‘Dec. 28 1856. (8th letter)’ pencil End of last page: ‘12’pencil",
+        "dated_note_literal": "Dec. 28 1856. (8th letter)",
+        "known_by_date": "1856-12-28",
+        "actual_receipt_date": null,
+        "voice": "Charles Darwin annotation on Watson memorandum",
+        "inference": "Dated annotation supports knowledge by this day, not exact Watson composition or arrival."
+      },
+      "verified_layout_inventory": [
+        {
+          "letter_id": "DCP-LETT-1898",
+          "source_sha256": "8757eb0be7987dc447f4f325802c2c7d80db7fd489acc2950ffdccf6ec949360",
+          "images_tables_mathml": 0,
+          "literal_flattened_fragments": [
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[4]",
+              "text": "The idea of a connexion between Europe & America, (whether quite continuous, or partially interrupted,) in high latitudes, seems rather supported than negatived by botanical facts.3 True, a good many plants of N.W. Europe are unknown in America; & vice versa. But (as a mere surmise, not investigated) if we could reduce the Ural chain to a few islands (like Iceland, Faroe &c.), & wash away much of the land on both sides, we should have a parallel case: diag 1 2 3"
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[7]",
+              "text": "Europe islands Asiaramme"
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[9]",
+              "text": "Forbes was not under the trammels of a very strict Conscience. He would be more likely to find “facts” to suit a conjecture, than those calculated to test its soundness. I should deem any one unwise who adapted his theories to Forbes’s statements of facts, unless those facts were verified afresh, or corroborated by others of like nature.4"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1994",
+          "source_sha256": "4d7369dd8dc114599c4ca42d2db9538a54b30cd28c18061a0fe1bae875d5795d",
+          "images_tables_mathml": 0,
+          "literal_flattened_fragments": [
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]",
+              "text": "I have run over the last, 4th., edition & get these results.— diag Species by Numerals 1428"
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[11]",
+              "text": "Actual Number 1543ramme"
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[15]",
+              "text": "You will better see what I would convey by the alternative description, ‘treated expressly as varieties or not distinguished from near species’, if you will turn up the genus Ranunculus, in the first column of the Catalogue. Less than a century ago, all the species above Ficaria were held two only:— diag R. aquatilis."
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[16]",
+              "text": "R. hederaceus.ramme From the first of these, many years ago, were separated diag R. circinatus."
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[17]",
+              "text": "R. fluitans.ramme Opinions being much divided & long wavering, whether these two latter should be held species or varieties. The great majority, but not yet all botanical systematists, now admit them as species. Dr J. D. Hooker apparently holds them varieties."
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[18]",
+              "text": "A few years ago, two others were separated from R. hederaceus:— diag R. tripartitus."
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[19]",
+              "text": "R. cœnosus.ramme The former of these two is seemingly very local, & may not have ever been noticed apart from hederaceus (or even aquatilis, for it stands between) in England, until taken up as a species, & identified with a Continental one.— But R. cœnosus is widely & plentifully spread through England, & must have been often & constantly seen, & passed by as R. hederaceus, scarcely a variety, less than 20 years ago."
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[22]",
+              "text": "I believe such instances as this may be found; the dates fanciful for the moment:— diag 1700 a. species"
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[23]",
+              "text": "1111 b. species"
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[25]",
+              "text": "1111 b. variety"
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[28]",
+              "text": "1111 b. variety"
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[30]",
+              "text": "1111 b. species.ramme"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2023",
+          "source_sha256": "d463b763e00d6ffe8eabf3ed5a86c8bf445f43683b228f472b9cfb65164ea0fe",
+          "images_tables_mathml": 0,
+          "literal_flattened_fragments": [
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[31]",
+              "text": "More briefly put it may be said that the following intermediate subspecies &c. are more rare than the species. diag Geum intermedium (Ehrh)"
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[43]",
+              "text": "A doubtful species between J. effusus and J. glaucus in general characters.ramme"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2183",
+          "source_sha256": "919a3d242adc88edfdf2d2eca0f25e8234728ea2cb85b6a96cdae3cbdaa76ca0",
+          "images_tables_mathml": 0,
+          "literal_flattened_fragments": [
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[5]",
+              "text": "Thus, Polygonum amphibium diag α natans"
+            },
+            {
+              "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[6]",
+              "text": "β terrestreramme are two states of a species, which no botanist would have united into one species, if they had arrived in England from 2 different countries. They are not in your list, just because they are known to be varieties from situation;—the very fact you want to reach thus causing their exclusion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2106"
+      ],
+      "case": "Graham extract dates and third-party voice",
+      "requirement": "Keep the complete Graham extract in a separate quoted enclosure layer. Its August 1842 excursion and February 9, 1843 reading dates are source events, not Darwin knowledge dates. Watson sends it on June 14, supplied 1857, as further material for an earlier missing Darwin question. The editorial statement that it was not used in the specified Natural selection discussion stays in provenance, not in Watson or Darwin training prose.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2106",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2106.html",
+          "source_html_sha256": "d47d7a04a7c3641a1baced6c28b94d1326f6d8cebfceed1d7fb4f122eff73842",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2106.xml",
+          "xml_sha256": "9c53e8cb7046f91737a1a19c420774e42678b669253c72033d37d22f0796fe49",
+          "verified_xml_dates": [
+            {
+              "text": "14 June [1857]",
+              "attributes": {
+                "when": "1857-06-14"
+              },
+              "lower": "1857-06-14",
+              "upper": "1857-06-14",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-06-14\">14 June [1857]</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2106",
+          "body_paragraph": 1,
+          "quote": "a query you some time ago addressed to me respecting the Limosella & Subularia",
+          "char_start": 100,
+          "char_end": 178,
+          "source_sha256": "d47d7a04a7c3641a1baced6c28b94d1326f6d8cebfceed1d7fb4f122eff73842",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ],
+      "verified_full_enclosure": {
+        "letter_id": "DCP-LETT-2106",
+        "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[2]",
+        "source_sha256": "d47d7a04a7c3641a1baced6c28b94d1326f6d8cebfceed1d7fb4f122eff73842",
+        "text": "[Enclosure] 9th. February 1843 Professor Graham read an account of a Botl. Excursion in Ross-shire during August, 1842.3 The party left Edinburgh on 21st. August, &c - - - - - “The season having been remarkably dry, all the lakes were far below their usual level, & in consequence such plants as Lobelia Dortmanna, Subularia aquatica, &c. were seen in flower and fruit on dry ground”— Trans. Bot. Soc. Edinb. vol. 1, p. 201.4",
+        "voice": "Watson extract quoting Graham, not Darwin"
+      }
+    },
+    {
+      "source_ids": [
+        "DCP-LETT-2183",
+        "DCP-LETT-2190",
+        "DCP-LETT-2023",
+        "DCP-LETT-1985",
+        "DCP-LETT-1994",
+        "DCP-LETT-2002"
+      ],
+      "case": "same-author follow-ups and missing questions",
+      "requirement": "Watson 2183 and 2190 concern the same missing request; a promise to annotate is not successful completion of the requested concise judgments. Both are incoming Watson letters. Likewise 2106 continues 2002 without an intervening surviving Darwin turn. The public seed paper is the source for 1985, not the private Fox letter 1978; 1994 refers to a missing Darwin response. Never infer five rejected worker edges from shared topics or same-author proximity. The annotated varieties list remains untranscribed here.",
+      "source_provenance": [
+        {
+          "letter_id": "DCP-LETT-2183",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2183.html",
+          "source_html_sha256": "919a3d242adc88edfdf2d2eca0f25e8234728ea2cb85b6a96cdae3cbdaa76ca0",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2183.xml",
+          "xml_sha256": "59ab87c0e4d41e1031974321d922dfa71f4f0d51439fbe745984de3a28718159",
+          "verified_xml_dates": [
+            {
+              "text": "14 Dec [1857]",
+              "attributes": {
+                "when": "1857-12-14"
+              },
+              "lower": "1857-12-14",
+              "upper": "1857-12-14",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-12-14\">14 Dec [1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2190",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2190.html",
+          "source_html_sha256": "eb488ef7ba2536015efee67f35670b91f2c54b34980c3d2b6c3c0d3b4d67a7f9",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2190.xml",
+          "xml_sha256": "5d47df3cf70cbb82f2dd5f992a157c642f9bc1379f7ed130cc5389a98fc23df9",
+          "verified_xml_dates": [
+            {
+              "text": "20 Dec [1857]",
+              "attributes": {
+                "when": "1857-12-20"
+              },
+              "lower": "1857-12-20",
+              "upper": "1857-12-20",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1857-12-20\">20 Dec [1857]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2023",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2023.html",
+          "source_html_sha256": "d463b763e00d6ffe8eabf3ed5a86c8bf445f43683b228f472b9cfb65164ea0fe",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2023.xml",
+          "xml_sha256": "3d7b6b3f76cb506b2c35161b6bfdcf19b56b5e3f060e2b783e06359d4a6cb92c",
+          "verified_xml_dates": [
+            {
+              "text": "[28 Dec 1856]",
+              "attributes": {
+                "when": "1856-12-28"
+              },
+              "lower": "1856-12-28",
+              "upper": "1856-12-28",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-12-28\">[28 Dec 1856]</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1985",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1985.html",
+          "source_html_sha256": "676bb3076faaa1961280855ec0224f38af8951f376e12bb5b64afbb53db50533",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1985.xml",
+          "xml_sha256": "3455575237c564080d234e3190a83369016ad20f7ae1e251232e25153a1b3669",
+          "verified_xml_dates": [
+            {
+              "text": "10 Nov 1856",
+              "attributes": {
+                "when": "1856-11-10"
+              },
+              "lower": "1856-11-10",
+              "upper": "1856-11-10",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-10\">10 Nov 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-1994",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-1994.html",
+          "source_html_sha256": "4d7369dd8dc114599c4ca42d2db9538a54b30cd28c18061a0fe1bae875d5795d",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-1994.xml",
+          "xml_sha256": "3b99cb73a455e415e7f3f209c2cd101e475371439ac877c0464bf809865973db",
+          "verified_xml_dates": [
+            {
+              "text": "19 Nov 1856",
+              "attributes": {
+                "when": "1856-11-19"
+              },
+              "lower": "1856-11-19",
+              "upper": "1856-11-19",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-19\">19 Nov 1856</ns0:date>"
+            }
+          ]
+        },
+        {
+          "letter_id": "DCP-LETT-2002",
+          "source_path": "data/raw/dcp/1856-1857/pages/DCP-LETT-2002.html",
+          "source_html_sha256": "f5d693eb05d101fc22e3e34a59cab3bb3b850551c1459f9e2e9b8b9df4c933f2",
+          "xml_path": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1856-1857/letters/DCP-LETT-2002.xml",
+          "xml_sha256": "6460e542c6c69cd6998105d19c2eea714b00f7fb3ed7af6b05186623e66d7f7a",
+          "verified_xml_dates": [
+            {
+              "text": "26 Nov 1856",
+              "attributes": {
+                "when": "1856-11-26"
+              },
+              "lower": "1856-11-26",
+              "upper": "1856-11-26",
+              "xml_fragment": "<ns0:date xmlns:ns0=\"http://www.tei-c.org/ns/1.0\" when=\"1856-11-26\">26 Nov 1856</ns0:date>"
+            }
+          ]
+        }
+      ],
+      "exact_source_evidence": [
+        {
+          "letter_id": "DCP-LETT-2183",
+          "body_paragraph": 1,
+          "quote": "I can very imperfectly meet your object",
+          "char_start": 120,
+          "char_end": 159,
+          "source_sha256": "919a3d242adc88edfdf2d2eca0f25e8234728ea2cb85b6a96cdae3cbdaa76ca0",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2190",
+          "body_paragraph": 1,
+          "quote": "I have taken up your list of British plts",
+          "char_start": 0,
+          "char_end": 41,
+          "source_sha256": "eb488ef7ba2536015efee67f35670b91f2c54b34980c3d2b6c3c0d3b4d67a7f9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2190",
+          "body_paragraph": 1,
+          "quote": "I am not prepared to go seriatim through it",
+          "char_start": 151,
+          "char_end": 194,
+          "source_sha256": "eb488ef7ba2536015efee67f35670b91f2c54b34980c3d2b6c3c0d3b4d67a7f9",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1985",
+          "body_paragraph": 1,
+          "quote": "I have just been reading your experiments",
+          "char_start": 20,
+          "char_end": 61,
+          "source_sha256": "676bb3076faaa1961280855ec0224f38af8951f376e12bb5b64afbb53db50533",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-1994",
+          "body_paragraph": 1,
+          "quote": "never occurred to me until reading your letter",
+          "char_start": 247,
+          "char_end": 293,
+          "source_sha256": "4d7369dd8dc114599c4ca42d2db9538a54b30cd28c18061a0fe1bae875d5795d",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        },
+        {
+          "letter_id": "DCP-LETT-2002",
+          "body_paragraph": 1,
+          "quote": "This does not meet your question",
+          "char_start": 339,
+          "char_end": 371,
+          "source_sha256": "f5d693eb05d101fc22e3e34a59cab3bb3b850551c1459f9e2e9b8b9df4c933f2",
+          "dom_locator": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[2]"
+        }
+      ]
+    }
+  ],
+  "implementation_boundary": [
+    "Retained body scopes and raw DOM paths remain separate.",
+    "Preserve flattened source artifacts, third-party quotations, annotations, receipt and composition windows without normalization into invented tables or dates.",
+    "Requirements do not create relationships, knowledge activation or export readiness."
+  ],
+  "notes": [
+    "Prior DCP-LETT-2065 supplement is already admitted and is not reaccepted here.",
+    "No five worker links are created from topic or same-author proximity."
+  ],
+  "inputs": [
+    {
+      "path": "reports/1856-1857/review/all_letters.jsonl",
+      "sha256": "a9b565e184e65e4b2730a0a8bf29f978ee59e0fee16974d5378ef77aa0a0a91a"
+    },
+    {
+      "path": "reports/1856-1857/audit.jsonl",
+      "sha256": "d6259f4bddb7988f0b3f82dbbc351f7f97389133913d02321bc5910d628f819f"
+    }
+  ],
+  "drafts_reviewed": [
+    {
+      "path": "reports/raft-prep/source-text-rendering-requirements.luna.addendum-42.draft.json",
+      "sha256": "8a7143543abc2d259d64d104c296d8f3818f80477090dea95fd86da5aaff6c80"
+    }
+  ],
+  "primary_corrections": [
+    "Replaced fabricated draft quotes Fourth London Catalogue and I have made several attempts with exact body text.",
+    "Corrected 2183 imperfectly meet your object from draft P2 to retained P1.",
+    "Corrected dateline text to raw June 10th/56 and resolved actual DOM locations.",
+    "Clarified annotation dates, retrieval bounds, third-party enclosure voice and editorial non-use claim.",
+    "Added the underlying missing-question/public-paper sources rather than relying on topic summaries."
+  ],
+  "primary_verification": {
+    "exact_body_quotes_checked": 17,
+    "unique_source_html_xml_pairs_checked": 10,
+    "all_primary_and_source_hashes_verified": true,
+    "all_quote_dom_locators_verified": true,
+    "dateline_and_header_locators_checked": 2,
+    "flattened_layout_inventories_checked": 4,
+    "full_enclosures_checked": 1,
+    "dated_authorial_annotations_checked": 1
+  },
+  "implementation_flags": {
+    "converter_created": false,
+    "real_transcripts_written": false,
+    "corpus_exported": false,
+    "training_run": false,
+    "embeddings_created": false,
+    "paid_calls_made": false
+  }
+}

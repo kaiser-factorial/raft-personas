@@ -1,0 +1,62 @@
+{
+  "reviewer": "gpt-5.6-luna",
+  "status": "additive_primary_adjudication_correction",
+  "scope": "Corrects relationship-status interpretation in context-reuse-inventory-batch-23.json; preserves that inventory and all prior reviews.",
+  "primary_adjudication_source": {
+    "path": "data/annotations/henslow_lyell_1837_1843.json",
+    "sha256": "e53cf28962434a54498b567a1ef6853ce396c5de10c5274a6b445a700a3cd3eb",
+    "role": "parent-adjudicated primary ledger",
+    "method_constraint": "Reviewer proposals and secondary reading notes are not accepted decisions."
+  },
+  "source_hashes": {
+    "DCP-LETT-611": {"path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-611.html", "sha256": "dea980b67c47011da364fa0c7ebbb1c6069e75a5f56ed4841dd76e2121550c54"},
+    "DCP-LETT-614": {"path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-614.html", "sha256": "2e574a38275495389a16ae2b771be0c69ef0fdc5887a0fc5286526dc4009c730"},
+    "DCP-LETT-627": {"path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-627.html", "sha256": "35253e7f7cb5f03e84caff23fe7e125e246acbf83a1a0e6271430da3bdbe9efd"},
+    "DCP-LETT-629": {"path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-629.html", "sha256": "389a092ef12ccb5f46e5f87200db9f55504c393b254e398c452803bb05f0e952"},
+    "DCP-LETT-701": {"path": "data/raw/dcp/correspondent-review-1837-1843/seed-context/DCP-LETT-701.html", "sha256": "c9d37d5b25ddc5cfcb5013f64fb83c5bc988f93e1475fbd5476cbc0b56106cee"},
+    "DCP-LETT-705": {"path": "data/raw/dcp/henslow-lyell-1837-1843/DCP-LETT-705.html", "sha256": "18e21fe191190d671ffad458dc2b5b37a3a3391942deb3a1315bd60b81d3fa18"},
+    "DCP-LETT-707": {"path": "data/raw/dcp/correspondent-review-1837-1843/seed-context/DCP-LETT-707.html", "sha256": "aef09b1dbd58395e7e6eb2413e632e4f2827b1758ab52b1da2729d3b06e08fca"},
+    "DCP-LETT-712": {"path": "data/raw/dcp/henslow-lyell-1837-1843/DCP-LETT-712.html", "sha256": "0439140dfbc036a035fbea5966d377f51e79d0ff7274dd934da871af1d654fc5"}
+  },
+  "primary_relationship_corrections": [
+    {
+      "source_id": "DCP-LETT-701",
+      "target_id": "DCP-LETT-705",
+      "status": "confirmed_direct_reply",
+      "scope": "single_date_surviving_body",
+      "evidence": ["701 p1: only a strange var. of Atriplex patula", "701 p1: realized more than 25£", "705 p2: 300 people must have paid their shilling fee!"],
+      "assessment": "Primary ledger confirms the whole surviving 705 body as Darwin's response to 701; the 25 pounds/300 paying visitors comparison is distinctive."
+    },
+    {
+      "source_id": "DCP-LETT-707",
+      "target_id": "DCP-LETT-705",
+      "status": "confirmed_reverse_reply",
+      "scope": "707 p1-p3",
+      "evidence": ["705 p2: 300 people must have paid their shilling fee!", "707 p3: Many more than 300, & probably double that No.", "707 p1: The odd Atriplex came from Lindley alone"],
+      "assessment": "707 is Henslow's reverse reply correcting Darwin's visitor estimate and specimen attribution."
+    }
+  ],
+  "unresolved_corrections": [
+    {
+      "candidate": "DCP-LETT-707 -> DCP-LETT-712",
+      "status": "unresolved_candidate",
+      "reason": "707's surviving body discusses Lindley/Atriplex and visitor numbers, while 712's '2 Polygonums' prompt is not uniquely supplied by 707."
+    },
+    {
+      "candidate": "DCP-LETT-701 -> DCP-LETT-712",
+      "status": "unresolved_candidate",
+      "reason": "701 contains Polygonum and soil material, but 712's 'Until your last note' does not identify 701 as the received note."
+    },
+    {
+      "letter_id": "DCP-LETT-712",
+      "status": "grounding_candidate_no_identified_prompt",
+      "reason": "The primary ledger records a Henslow-note acknowledgment and attributed Kemp/Babington knowledge, but no uniquely identified direct prompt."
+    }
+  ],
+  "secondary_sources_reclassified": [
+    "reports/1837-1843/henslow-lyell/henslow.review.json is a secondary reviewer proposal, not a primary adjudication.",
+    "reports/1837-1843/correspondent-review/seed-context.review.json is a secondary/context review, not a primary adjudication.",
+    "Full-read context records 611/614/627/629 are documented in reports/1837-1843/remaining-review/parent-reading/batch-05.json (sha256 a594aff8e1fdc23551aa1d5d7736e8ddfe0f291260c4c98a6e1463b699502d0a); parent decision provenance is reports/1837-1843/remaining-review/parent-decisions/batch-05.json (sha256 5679b73b691a994310fec0e425b4fd7bd9ab29761410c72d6f37dcdf920657d8)."
+  ],
+  "counting_rule": "These 1837-1843 context relationships are historical reuse and must not inflate new 1844-1846 link counts."
+}

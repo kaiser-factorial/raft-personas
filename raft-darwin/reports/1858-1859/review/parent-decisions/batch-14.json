@@ -1,0 +1,180 @@
+{
+  "batch_id": "batch-14",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "direct_reply_pairs": [
+    {
+      "incoming_id": "DCP-LETT-2845",
+      "outgoing_id": "DCP-LETT-2851",
+      "status": "accepted_direct_reply_scoped",
+      "known_by_date": "1859-07-01",
+      "actual_receipt_date": null,
+      "response_scope": "P1 acknowledgment and proposed-sentence introduction, excluding I am sorry about Siberia; P2–3 proposed Longmynd/Laurentian wording and permission request; P4 closing. Exclude P5 Glen Roy.",
+      "response_date_policy": "July1 supplied1859 from chain; June27–30 incoming range not exact receipt.",
+      "rationale": "Explicit acknowledgment and distinctive conjunction of Longmynd below primordial zone with Laurentian fossil report identify surviving incomingP2–3.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2845",
+          "body_paragraph": 2,
+          "quote": "The rocks I have no doubt are lower than Barrandes primordial Zone.",
+          "char_start": 225,
+          "char_end": 292,
+          "source_sha256": "02bfdb6380bbd9c9d8710e2b2a9a44e8e09ff159cfe70f557760bb7de708389e"
+        },
+        {
+          "letter_id": "DCP-LETT-2845",
+          "body_paragraph": 3,
+          "quote": "fossils had been found in the Crystalline limestone of the Laurentian Gneiss",
+          "char_start": 47,
+          "char_end": 123,
+          "source_sha256": "02bfdb6380bbd9c9d8710e2b2a9a44e8e09ff159cfe70f557760bb7de708389e"
+        },
+        {
+          "letter_id": "DCP-LETT-2851",
+          "body_paragraph": 1,
+          "quote": "I am very much obliged for your interesting note, answering all my queries so clearly.",
+          "char_start": 0,
+          "char_end": 86,
+          "source_sha256": "199f69f80df2c184813c0dad0e1037f932a350cd15733b5c3f90b2b823ca1af1"
+        },
+        {
+          "letter_id": "DCP-LETT-2851",
+          "body_paragraph": 2,
+          "quote": "fossils have quite recently been discovered, as I hear from Prof. Ramsay, in the Laurentian marble of Canada",
+          "char_start": 95,
+          "char_end": 203,
+          "source_sha256": "199f69f80df2c184813c0dad0e1037f932a350cd15733b5c3f90b2b823ca1af1"
+        }
+      ],
+      "training_export_ready": false
+    }
+  ],
+  "correspondent_replies": [
+    {
+      "antecedent_id": "DCP-LETT-2842",
+      "response_id": "DCP-LETT-2845",
+      "status": "accepted_correspondent_reply_scoped",
+      "response_scope": "P2 answers both Longmynd questions; P3–4 expands relevant older-rock evidence. P1 generic errors ambiguous; missing Siberia section unavailable.",
+      "rationale": "Exact organic-trace and below-Barrande questions answered directly; no transfer from arbitrary prior geological topic.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2842",
+          "body_paragraph": 8,
+          "quote": "Is it certain that traces of organic remains have been found in the Longmynd Beds?",
+          "char_start": 0,
+          "char_end": 82,
+          "source_sha256": "75e933baafd235dfc92a89c8e5022abcebd16336d9cadaa31a84880e2fa11154"
+        },
+        {
+          "letter_id": "DCP-LETT-2842",
+          "body_paragraph": 9,
+          "quote": "these Beds are lower than Barrande’s primodial zone?",
+          "char_start": 47,
+          "char_end": 99,
+          "source_sha256": "75e933baafd235dfc92a89c8e5022abcebd16336d9cadaa31a84880e2fa11154"
+        },
+        {
+          "letter_id": "DCP-LETT-2845",
+          "body_paragraph": 2,
+          "quote": "I believe it is certain about the worm holes in the Longmynd.",
+          "char_start": 0,
+          "char_end": 61,
+          "source_sha256": "02bfdb6380bbd9c9d8710e2b2a9a44e8e09ff159cfe70f557760bb7de708389e"
+        }
+      ],
+      "training_export_ready": false
+    }
+  ],
+  "cross_correspondent_knowledge": [],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-2845",
+      "target_id": "DCP-LETT-2842",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_primary_scoped",
+      "reason": "Accepted with expanded source-specific scope and exclusions; Darwin already received note byJuly1, permission alone remains prospective."
+    },
+    {
+      "source_id": "DCP-LETT-2851",
+      "target_id": "DCP-LETT-2845",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_primary_scoped",
+      "reason": "Accepted with expanded source-specific scope and exclusions; Darwin already received note byJuly1, permission alone remains prospective."
+    },
+    {
+      "source_id": "DCP-LETT-2398",
+      "target_id": "DCP-LETT-2387",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_same_author_continuation",
+      "reason": "Both are Ramsay to Darwin; later continuation of promised work is not a correspondence reply to his own letter, and missing Darwin query stays missing."
+    }
+  ],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-2387",
+      "source_kind": "Letter",
+      "voice": "Ramsay with attributed reports",
+      "date_assessment": "29 Dec 1858",
+      "disposition": "incoming_context",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2398",
+      "source_kind": "Letter",
+      "voice": "Ramsay with attributed reports",
+      "date_assessment": "6 Jan 1859",
+      "disposition": "incoming_context",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2291",
+      "source_kind": "Letter",
+      "voice": "Darwin with quoted proposed text",
+      "date_assessment": "24 June [1859]",
+      "disposition": "darwin_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2842",
+      "source_kind": "Letter",
+      "voice": "Darwin with quoted proposed text",
+      "date_assessment": "[26 June 1859]",
+      "disposition": "darwin_grounding_candidate",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2845",
+      "source_kind": "Incomplete letter",
+      "voice": "Ramsay with attributed reports",
+      "date_assessment": "[27–30 June 1859]",
+      "disposition": "incoming_context",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-2851",
+      "source_kind": "Letter",
+      "voice": "Darwin with quoted proposed text",
+      "date_assessment": "1 July [1859]",
+      "disposition": "darwin_scoped_reply",
+      "training_export_ready": false
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-2291",
+      "kind": "mid_letter_reading_change",
+      "description": "Book received inP1 but reading planned later; P3 explicitly begins reading;2842June26finished. Preserve sequence."
+    },
+    {
+      "letter_id": "DCP-LETT-2398",
+      "kind": "separate_visual_witnesses",
+      "description": "P2equal scale describes separate Anglesey sections; do not apply to actual Merionethshire and Staffordshire sketches."
+    },
+    {
+      "letter_id": "DCP-LETT-2387",
+      "kind": "unreproduced_visual_content",
+      "description": "Footnote3 expressly says original dotted extensions into manuscript text could not be reproduced. Do not invent them or interpret100000ft as an actual measurement."
+    }
+  ],
+  "summary": "Six full target readings and four accepted context reuses; three actual diagrams viewed. One direct and one reverse relation. Same-author continuation rejected, missing Siberia answer excluded, prospective approval and reading stages distinct."
+}

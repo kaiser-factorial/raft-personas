@@ -1,0 +1,200 @@
+{
+  "review_id": "boundary-1836-1837",
+  "model": "gpt-5.6-luna",
+  "scope": "Frozen 1828–1836 incoming corpus as possible prompts or knowledge sources for January–March 1837 outgoing letters.",
+  "full_read_ids": [
+    "DCP-LETT-197",
+    "DCP-LETT-249",
+    "DCP-LETT-261",
+    "DCP-LETT-267",
+    "DCP-LETT-300",
+    "DCP-LETT-339",
+    "DCP-LETT-342",
+    "DCP-LETT-347",
+    "DCP-LETT-348",
+    "DCP-LETT-349",
+    "DCP-LETT-352",
+    "DCP-LETT-353"
+  ],
+  "methodology": "Read the complete retained bodies and editorial notes for the five plausible late frozen incoming witnesses (Fox 197/261, Henslow 249, Whitley 267, Caroline 300), then the complete January–March 1837 outgoing bodies. Checked participant direction, explicit references, dates and whether a source could actually supply the stated prompt or knowledge. No relation was inferred from date proximity alone.",
+  "outgoing_boundary_records": [
+    {
+      "letter_id": "DCP-LETT-339",
+      "assessment": "No frozen incoming prompt; the letter is a farewell following a face-to-face evening.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-339",
+          "body_paragraph": 1,
+          "quote": "As I have not seen you to wish you good bye in propriâ personâ, I must do it, on paper."
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-342",
+      "assessment": "No frozen incoming prompt; this is a same-day social cancellation with no cited earlier letter.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-342",
+          "body_paragraph": 1,
+          "quote": "I was so unwell all yesterday with a bad cough, that I am very so[rry] I shall not be able to dine with you to day"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-347",
+      "assessment": "No frozen incoming body from Whewell was located. The explicit proposal is acknowledged, but its source is absent from the frozen incoming set.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-347",
+          "body_paragraph": 1,
+          "quote": "I have taken the whole day to consider the proposal, which you have made me in so kind a manner."
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-348",
+      "assessment": "Fox 261 and 197 were read as the closest surviving Fox letters, but neither is a safe prompt: 197 is January 1833 and 261 November 1834, while 348 says only “your last letter” and supplies no matching distinctive content. A later missing Fox input remains possible.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-348",
+          "body_paragraph": 2,
+          "quote": "In your last letter you urge me, to get ready the book."
+        },
+        {
+          "letter_id": "DCP-LETT-261",
+          "body_paragraph": 1,
+          "quote": "It is now so long since I have heard from you"
+        },
+        {
+          "letter_id": "DCP-LETT-197",
+          "body_paragraph": 1,
+          "quote": "I had hoped to have heard a few lines from you in the last 5 months"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-349",
+      "assessment": "No frozen incoming prompt; Darwin declines Babbage’s invitation for the next evening and gives no letter reference.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-349",
+          "body_paragraph": 1,
+          "quote": "I am very much obliged for your kind invitation for tomorrow evening"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-352",
+      "assessment": "No frozen incoming prompt; this is Darwin’s editorial recommendation on Williams’s paper, based on the paper’s contents rather than a surviving incoming letter.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-352",
+          "body_paragraph": 3,
+          "quote": "I should, therefore on the above grounds, suggest that Mr Williams’ paper"
+        }
+      ]
+    },
+    {
+      "letter_id": "DCP-LETT-353",
+      "assessment": "No frozen Henslow letter is a demonstrated prompt. Henslow 249 was read in full but concerns 1834 shipment and field-work correspondence, not this 1837 publication plan; 353 itself says the plans were unsettled when Darwin last saw Henslow, indicating oral context or an unlocated input.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-353",
+          "body_paragraph": 1,
+          "quote": "I do no think when I last saw you, that our plans about publication were settled."
+        },
+        {
+          "letter_id": "DCP-LETT-249",
+          "body_paragraph": 1,
+          "quote": "I have not your letter bye me to answer your questions formally"
+        }
+      ]
+    }
+  ],
+  "supported_relations": [],
+  "candidate_relations": [
+    {
+      "source_id": "DCP-LETT-261",
+      "target_id": "DCP-LETT-348",
+      "relationship": "knowledge_before",
+      "status": "candidate_only",
+      "reason": "Fox 261 is the only read Fox source that discusses Darwin’s return and future correspondence, but its 1834 date and lack of the book-publication wording make it inadequate as a direct prompt. A later missing Fox letter is more plausible.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-261",
+          "body_paragraph": 8,
+          "quote": "I hope you will experience as much delight in the South Sea as you anticipate"
+        },
+        {
+          "letter_id": "DCP-LETT-348",
+          "body_paragraph": 2,
+          "quote": "In your last letter you urge me, to get ready the book."
+        }
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-249",
+      "target_id": "DCP-LETT-353",
+      "relationship": "knowledge_before",
+      "status": "candidate_only",
+      "reason": "Both concern Henslow–Darwin scientific work, but 249 is from 1834 and contains no identifiable 1837 publication prompt; retain only as remote background, not a reply edge.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-249",
+          "body_paragraph": 1,
+          "quote": "I recommended the fossils to be all sent to Mr Clift"
+        },
+        {
+          "letter_id": "DCP-LETT-353",
+          "body_paragraph": 1,
+          "quote": "Now the scheme that the Captain makes a plum pudding out of his own journal"
+        }
+      ]
+    }
+  ],
+  "rejected_relations": [
+    {
+      "source_id": "DCP-LETT-300",
+      "target_id": "DCP-LETT-339",
+      "reason": "Caroline 300 is a March 1836 family letter about Darwin’s imminent return and family news, not the January 1837 farewell’s immediate source; 339 explicitly refers to the previous evening in person.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-300",
+          "body_paragraph": 1,
+          "quote": "I can hardly believe how near home you will be"
+        },
+        {
+          "letter_id": "DCP-LETT-339",
+          "body_paragraph": 1,
+          "quote": "yesterdays"
+        }
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-267",
+      "target_id": "DCP-LETT-347",
+      "reason": "Whitley’s 1835 mathematical-professor discussion does not contain Whewell’s 1837 Geological Society proposal and has the wrong correspondent.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-267",
+          "body_paragraph": 1,
+          "quote": "I think you were aware of my being a candidate for the office of Mathematical Professor"
+        },
+        {
+          "letter_id": "DCP-LETT-347",
+          "body_paragraph": 1,
+          "quote": "the proposal, which you have made me"
+        }
+      ]
+    }
+  ],
+  "missing_evidence_limits": [
+    "The frozen corpus ends before January 1837 and does not contain a surviving Whewell, Babbage, or late Fox/Henslow prompt matching the new outgoing letters.",
+    "Old letters can establish background knowledge only when their content, participant direction and chronology support it; they cannot replace an unlocated immediate input.",
+    "No canonical annotations, maps or raw data were changed."
+  ],
+  "quote_validation": {
+    "method": "Manually checked every quoted substring against the retained packet bodies before writing.",
+    "quote_errors": []
+  }
+}

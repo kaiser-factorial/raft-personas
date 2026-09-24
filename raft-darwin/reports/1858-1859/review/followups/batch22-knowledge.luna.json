@@ -1,0 +1,226 @@
+{
+  "group_id": "batch22-knowledge",
+  "batch_id": "batch22-knowledge",
+  "model": "gpt-5.6-luna",
+  "status": "first_pass_complete",
+  "method": "Read Falconer 2511 and Owen 2526 completely, including XML metadata, excluded/apparatus/scholarly/bibliographic layers, and available figures. Read Darwin witness letters 2524 and 2515 in full to test explicit acknowledgement and content use through the 24 November 1859 cutoff. Excluded Falconer’s later 17 December quotation and Owen’s later oral meeting as instructed. Draft/dispatch and receipt are kept separate.",
+  "scope": {
+    "target_sources": [
+      "DCP-LETT-2511",
+      "DCP-LETT-2526"
+    ],
+    "darwin_witnesses": [
+      "DCP-LETT-2524",
+      "DCP-LETT-2515"
+    ],
+    "cutoff": "1859-11-24"
+  },
+  "source_reviews": [
+    {
+      "letter_id": "DCP-LETT-2511",
+      "title": "From Hugh Falconer 25 October and 12 November [1859]",
+      "role": "incoming_target",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "summary": "Falconer’s 5-page ALS contains an initial letter dated 25 October and a later 12 November section. The main letter discusses his Welsh cave’s 800 deer antlers, variation within the reindeer series, and asks Darwin to investigate persistence and change; the postscript says Darwin’s note of the previous day has arrived and that Falconer has sent for the book. The accompanying note had remained undespatched until the address was completed, so the postscript cannot be treated as proof that the October letter was previously received.",
+      "source_paths": {
+        "html": "data/raw/dcp/1858-1859/pages/DCP-LETT-2511.html",
+        "xml": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2511.xml"
+      },
+      "source_hashes": {
+        "html_sha256": "7f7e31141808848305f67816192fad1b93d77e2231cb64b112c16b21ced00795",
+        "xml_sha256": "b8dfe5012b51b95803d263b5f0ecda1c8ab8cdbb891ded4361697290355162ea"
+      },
+      "xml_date_range": {
+        "earliest": "1859-10-25",
+        "latest": "1859-11-12",
+        "date_structure": "multiple_recorded_dates",
+        "exact_order_needs_review": true
+      },
+      "authority": [
+        {
+          "label": "Hugh Falconer"
+        }
+      ],
+      "apparatus_checked": true,
+      "scholarly_sections_checked": true,
+      "bibliography_checked": true,
+      "figures_checked": true,
+      "figure_note": "No inline figure was present in the preserved HTML."
+    },
+    {
+      "letter_id": "DCP-LETT-2526",
+      "title": "From Richard Owen 12 November 1859",
+      "role": "incoming_target",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "summary": "Owen’s one-page autograph draft thanks Darwin in advance for the promised work, accepts close reading of it, and states his belief in existing influences in species change. It is explicitly an ADraft in the source metadata; its substantive agreement is not evidence of transmission or Darwin access by 24 November.",
+      "source_paths": {
+        "html": "data/raw/dcp/1858-1859/pages/DCP-LETT-2526.html",
+        "xml": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2526.xml"
+      },
+      "source_hashes": {
+        "html_sha256": "fa733d85fb3cf2d8a610b6248d081eb393653c3cd6d654c083b2429c91aca973",
+        "xml_sha256": "05e70b654448fe7ffda4737fca6d227e08901b6f789e0aa6e8b8a3169206545a"
+      },
+      "xml_date_range": {
+        "earliest": "1859-11-12",
+        "latest": "1859-11-12",
+        "date_structure": "single_xml_day",
+        "exact_order_needs_review": false
+      },
+      "authority": [
+        {
+          "label": "Richard Owen"
+        }
+      ],
+      "apparatus_checked": true,
+      "scholarly_sections_checked": true,
+      "bibliography_checked": true,
+      "figures_checked": true,
+      "figure_note": "No inline figure was present in the preserved HTML."
+    },
+    {
+      "letter_id": "DCP-LETT-2524",
+      "title": "To Hugh Falconer 11 November [1859]",
+      "role": "outgoing_witness",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "summary": "Darwin’s 11 November note tells Falconer that Murray will send an abstract of Origin and insists it must be read straight through. This is the note Falconer identifies in 2511’s 12 November postscript, but its earlier date means it cannot establish that Darwin had received Falconer’s newly dispatched 2511 content.",
+      "source_paths": {
+        "html": "data/raw/dcp/1858-1859/pages/DCP-LETT-2524.html",
+        "xml": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2524.xml"
+      },
+      "source_hashes": {
+        "html_sha256": "3413fd50cd5786c18854c1199271155bef185ab2414487f2391eb3dc8bada341",
+        "xml_sha256": "fec7981d89409e2b63766c1fe95c5fef6c38f280ae296a07c360f23822b154b4"
+      },
+      "xml_date_range": {
+        "earliest": "1859-11-11",
+        "latest": "1859-11-11",
+        "date_structure": "single_xml_day",
+        "exact_order_needs_review": false
+      },
+      "authority": [
+        {
+          "label": "Charles Darwin"
+        }
+      ],
+      "apparatus_checked": true,
+      "scholarly_sections_checked": true,
+      "bibliography_checked": true,
+      "figures_checked": true,
+      "figure_note": "No inline figure was present in the preserved HTML."
+    },
+    {
+      "letter_id": "DCP-LETT-2515",
+      "title": "To Richard Owen 11 November [1859]",
+      "role": "outgoing_witness",
+      "body_read_in_full": true,
+      "paragraphs_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "summary": "Darwin’s 11 November letter tells Owen that Murray will send the abstract of Origin, asks him to read it straight through, and offers to answer objections. It is a direct outgoing invitation that could explain Owen’s 12 November draft, but the draft status leaves transmission and receipt unresolved.",
+      "source_paths": {
+        "html": "data/raw/dcp/1858-1859/pages/DCP-LETT-2515.html",
+        "xml": "data/raw/epsilon/ab0d973bae05b54d68d82d068211015996cfec06/expansions/1858-1859/letters/DCP-LETT-2515.xml"
+      },
+      "source_hashes": {
+        "html_sha256": "ace6760333efd331d3713b58c789d6a698e4f8703e01a7be33b83ba28ca47132",
+        "xml_sha256": "3601f80b651438fcfe94ca291c721605172cdf7eca08c82bcbc297f3b9242663"
+      },
+      "xml_date_range": {
+        "earliest": "1859-11-11",
+        "latest": "1859-11-11",
+        "date_structure": "single_xml_day",
+        "exact_order_needs_review": false
+      },
+      "authority": [
+        {
+          "label": "Charles Darwin"
+        }
+      ],
+      "apparatus_checked": true,
+      "scholarly_sections_checked": true,
+      "bibliography_checked": true,
+      "figures_checked": true,
+      "figure_note": "No inline figure was present in the preserved HTML."
+    }
+  ],
+  "knowledge_probes": [
+    {
+      "source_id": "DCP-LETT-2511",
+      "status": "bounded_negative",
+      "finding": "No confirmed Darwin knowledge or receipt of Falconer’s October 25 / November 12 letter by the cutoff. Its P8 says Darwin’s note of yesterday arrived and P9 says the accompanying note had remained undespatched; this identifies the reverse note 2524, whose 11 November date precedes Falconer’s dispatch.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2511",
+          "body_paragraph": 8,
+          "quote": "Your note of yesterday just came to hand, & I have sent for the book",
+          "dom_path": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[8]"
+        },
+        {
+          "letter_id": "DCP-LETT-2511",
+          "body_paragraph": 9,
+          "quote": "The accompanying note has remained undespatched—to complete the address.",
+          "dom_path": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div[1]/div[2]/p[9]"
+        }
+      ],
+      "alternative": "2524 is the identifiable note Falconer received; it demonstrates Darwin’s outgoing book offer, not Darwin’s receipt of 2511. No later pre-cutoff Darwin body explicitly cites Falconer’s antler case."
+    },
+    {
+      "source_id": "DCP-LETT-2526",
+      "status": "bounded_negative",
+      "finding": "No confirmed Darwin receipt or use of Owen’s 12 November draft by the cutoff. The draft expresses a response to Darwin’s promised work, but its ADraft status does not prove dispatch; later December evidence is excluded.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-2526",
+          "body_paragraph": 1,
+          "quote": "I thank you in advance for your kind recollection of me, and shall welcome your work with the close & continuous perusal you recommend",
+          "dom_path": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[1]"
+        },
+        {
+          "letter_id": "DCP-LETT-2526",
+          "body_paragraph": 2,
+          "quote": "No attempt, therefore, to demonstrate the nature of such continuously operative creating forces can be ‘heterodox’",
+          "dom_path": "/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[1]/div[2]/p[2]"
+        }
+      ],
+      "alternative": "2515 is a likely preceding invitation, but the relationship remains a draft-response hold rather than a confirmed knowledge edge."
+    }
+  ],
+  "findings": [
+    "Falconer 2511 contains a genuine scientific prompt about the antler series, but it was not shown to have reached Darwin by 24 November.",
+    "Owen 2526 is a substantive draft response to Darwin’s book invitation, but draft status blocks a confirmed transmission or Darwin-access claim.",
+    "2524 and 2515 are explicit outgoing book invitations dated 11 November; they are witnesses to Darwin’s sending intentions, not evidence that he had read 2511 or 2526."
+  ],
+  "limitations": [
+    "Excluded post-cutoff 17 December Falconer and oral Owen evidence. No missing text was reconstructed and no draft was promoted to a sent letter."
+  ]
+}

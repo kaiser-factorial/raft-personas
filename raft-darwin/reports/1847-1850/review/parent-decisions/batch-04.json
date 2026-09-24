@@ -1,0 +1,178 @@
+{
+  "batch_id": "batch-04",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-1203",
+      "disposition": "incoming_scoped_reverse_reply",
+      "source_kind": "letter",
+      "voice": "Hooker with P13–22 explicitly attributed to Hodgson",
+      "date_assessment": "13 Oct 1848; no inferred delivery day.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1219",
+      "disposition": "incoming_travel_report_no_identified_Darwin_prompt",
+      "source_kind": "letter with diagrams",
+      "voice": "Hooker; separate Darwin annotations where present",
+      "date_assessment": "3 Feb 1849; no inferred delivery day.",
+      "training_export_ready": false
+    },
+    {
+      "letter_id": "DCP-LETT-1220",
+      "disposition": "incoming_scoped_reverse_reply",
+      "source_kind": "letter",
+      "voice": "Hooker; separate Darwin annotations where present",
+      "date_assessment": "3 Feb 1849; no inferred delivery day.",
+      "training_export_ready": false
+    }
+  ],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-1203",
+      "target_id": "DCP-LETT-1174",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_scoped_reverse_reply",
+      "reason": "1174 P3 requests domestic quadruped, bird and silkworm origins; 1193 explicitly acknowledges that letter and promises Hodgson answers; 1203 now introduces those answers. This is a continued inquiry, not proof of an immediate October prompt."
+    },
+    {
+      "source_id": "DCP-LETT-1220",
+      "target_id": "DCP-LETT-1202",
+      "relationship": "replies_to",
+      "parent_decision": "accepted_scoped_reverse_reply",
+      "reason": "Express October 6 identification is reinforced by previously unidentified cattle-hunt author, ornamental poultry, supplemental males and specific-name controversy."
+    }
+  ],
+  "direct_reply_pairs": [],
+  "correspondent_replies": [
+    {
+      "response_id": "DCP-LETT-1203",
+      "antecedent_id": "DCP-LETT-1174",
+      "status": "accepted_scoped_continued_answer",
+      "response_scope": "1203 P12–22 reported Hodgson answers, with Hooker framing; independent Himalayan narrative is not asserted to answer every May question.",
+      "rationale": "1174 P3 requests domestic quadruped, bird and silkworm origins; 1193 explicitly acknowledges that letter and promises Hodgson answers; 1203 now introduces those answers. This is a continued inquiry, not proof of an immediate October prompt.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1174",
+          "body_paragraph": 3,
+          "quote": "Do not forget to make enquiries about origin, even if only traditionally known of any vars. of domestic quadrupeds, birds, silkworms &c.",
+          "char_start": 138,
+          "char_end": 274,
+          "source_sha256": "ae42e43a4851206adccc91b60faa44e1a9f6ea9a847d2d378e2c9c23164303cc"
+        },
+        {
+          "letter_id": "DCP-LETT-1193",
+          "body_paragraph": 1,
+          "quote": "will prepare an answer embodying much news on the points you direct attention to, from Hodgson",
+          "char_start": 106,
+          "char_end": 200,
+          "source_sha256": "3b6d39f8b2e88df7d03d2507bf562bf1784284ede56859b91483b84867dc7f17"
+        },
+        {
+          "letter_id": "DCP-LETT-1203",
+          "body_paragraph": 12,
+          "quote": "The following answers to your queries are all His not mine",
+          "char_start": 407,
+          "char_end": 465,
+          "source_sha256": "d4c3f873e76e77852d84437e5f2f733dd34398e4b968b560fc91a27e369158f6"
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    },
+    {
+      "response_id": "DCP-LETT-1220",
+      "antecedent_id": "DCP-LETT-1202",
+      "status": "accepted",
+      "response_scope": "1220 P2–7 explicitly responds to October 6 letter; later Falconer and altitude narrative adds information. Companion 1219 remains a separate source.",
+      "rationale": "Express October 6 identification is reinforced by previously unidentified cattle-hunt author, ornamental poultry, supplemental males and specific-name controversy.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-1220",
+          "body_paragraph": 2,
+          "quote": "On my return I received your’s of Oct. 6th. for which very many thanks.",
+          "char_start": 0,
+          "char_end": 71,
+          "source_sha256": "ce38e5f442488ef74edcc5d601f4f8cc5ba4d9002779320bf1f0f35c1e01395d"
+        },
+        {
+          "letter_id": "DCP-LETT-1220",
+          "body_paragraph": 4,
+          "quote": "I am vastly amused with your not recognizing the author of the cattle hunt in Ross Voy",
+          "char_start": 0,
+          "char_end": 86,
+          "source_sha256": "ce38e5f442488ef74edcc5d601f4f8cc5ba4d9002779320bf1f0f35c1e01395d"
+        },
+        {
+          "letter_id": "DCP-LETT-1202",
+          "body_paragraph": 3,
+          "quote": "Whoever the officer was, to my taste he is a first-rate describer",
+          "char_start": 497,
+          "char_end": 562,
+          "source_sha256": "8485f5863ecfc792fd9e7edf51aa95445f22cfc3a7b540c2d0ef9684d80e2714"
+        },
+        {
+          "letter_id": "DCP-LETT-1220",
+          "body_paragraph": 7,
+          "quote": "Do my dear Darwin take a fools advice & drop the battle about perpetuity of names",
+          "char_start": 0,
+          "char_end": 81,
+          "source_sha256": "ce38e5f442488ef74edcc5d601f4f8cc5ba4d9002779320bf1f0f35c1e01395d"
+        }
+      ],
+      "is_Darwin_response": false,
+      "creates_Darwin_known_by": false
+    }
+  ],
+  "cross_correspondent_knowledge": [],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-1203",
+      "kind": "attributed_answers",
+      "description": "P13–22 attributed to Hodgson; Hooker reporting does not make him originator or Darwin author. Pamphlet dispatch through father is future."
+    },
+    {
+      "letter_id": "DCP-LETT-1219",
+      "kind": "figure_dependent_source",
+      "description": "All six image nodes carry source evidence. Captions and schematic geometry require preservation; no text-only export approved."
+    },
+    {
+      "letter_id": "DCP-LETT-1220",
+      "kind": "accompanying_documents",
+      "related_id": "DCP-LETT-1219",
+      "description": "Explicit long one accompanying this establishes paired dispatch intention, not a reply edge between same-day letters or an actual dispatch/receipt date."
+    },
+    {
+      "letter_id": "DCP-LETT-1220",
+      "kind": "seen_vs_reported",
+      "description": "Printed letters received this day; critical review not seen. October pamphlets went I hope, which is uncertain dispatch rather than receipt."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "letter_id": "DCP-LETT-1219",
+      "description": "Separate Nepal narrative to Lyell intended for forwarding and exchange; no preserved endpoint or completed transfer established here."
+    },
+    {
+      "letter_id": "DCP-LETT-1203",
+      "description": "Enclosed message to Kew and proposed explanatory letter from mother."
+    },
+    {
+      "letter_id": "DCP-LETT-1220",
+      "description": "Colvile letter yesterday and other Falconer correspondence; distinct from preserved Darwin antecedent."
+    }
+  ],
+  "date_evidence": [
+    {
+      "letter_id": "DCP-LETT-1220",
+      "description": "Receipt on return demonstrates availability to Hooker by February 3, but no independently established exact physical delivery date. Four days writing is not a per-document or per-paragraph dateline."
+    }
+  ],
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-1219",
+      "description": "Preserved HTML has six visual nodes, all read; do not limit preservation to XML phrase three sketches."
+    }
+  ]
+}

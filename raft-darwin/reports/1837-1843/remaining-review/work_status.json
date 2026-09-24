@@ -1,0 +1,212 @@
+{
+  "status": "complete",
+  "objective": "Luna full readings and parent adjudication of all remaining 1837\u20131843 candidate records",
+  "dispatched_at": "2026-09-16T10:56:13.047529+00:00",
+  "target_records": 363,
+  "queues": {
+    "luna_verify_kemp_1843": [
+      1,
+      4,
+      7,
+      10,
+      16
+    ],
+    "luna_verify_family_1837": [
+      2,
+      5,
+      8,
+      11,
+      14
+    ],
+    "luna_pre_voyage": [
+      3,
+      6,
+      9,
+      12,
+      13,
+      15,
+      17,
+      18,
+      19
+    ]
+  },
+  "packets": [
+    {
+      "batch_id": "batch-01",
+      "target_count": 15,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-01.json"
+    },
+    {
+      "batch_id": "batch-02",
+      "target_count": 10,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-02.json"
+    },
+    {
+      "batch_id": "batch-03",
+      "target_count": 17,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-03.json"
+    },
+    {
+      "batch_id": "batch-04",
+      "target_count": 12,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-04.json"
+    },
+    {
+      "batch_id": "batch-05",
+      "target_count": 23,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-05.json"
+    },
+    {
+      "batch_id": "batch-06",
+      "target_count": 12,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-06.json"
+    },
+    {
+      "batch_id": "batch-07",
+      "target_count": 18,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-07.json"
+    },
+    {
+      "batch_id": "batch-08",
+      "target_count": 21,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-08.json"
+    },
+    {
+      "batch_id": "batch-09",
+      "target_count": 18,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-09.json"
+    },
+    {
+      "batch_id": "batch-10",
+      "target_count": 19,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-10.json"
+    },
+    {
+      "batch_id": "batch-11",
+      "target_count": 23,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-11.json"
+    },
+    {
+      "batch_id": "batch-12",
+      "target_count": 22,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-12.json"
+    },
+    {
+      "batch_id": "batch-13",
+      "target_count": 24,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-13.json"
+    },
+    {
+      "batch_id": "batch-14",
+      "target_count": 24,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-14.json"
+    },
+    {
+      "batch_id": "batch-15",
+      "target_count": 24,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-15.json"
+    },
+    {
+      "batch_id": "batch-16",
+      "target_count": 24,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-16.json"
+    },
+    {
+      "batch_id": "batch-17",
+      "target_count": 24,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-17.json"
+    },
+    {
+      "batch_id": "batch-18",
+      "target_count": 24,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-18.json"
+    },
+    {
+      "batch_id": "batch-19",
+      "target_count": 9,
+      "review_status": "full_read_complete",
+      "parent_status": "adjudicated",
+      "ledger": "data/annotations/remaining_1837_1843/batch-19.json"
+    }
+  ],
+  "completion_rule": "All 363 target source records must have Luna source review plus parent disposition, all proposed relationships must be adjudicated, and cumulative maps/counts and evidence verification must be updated. Missing transcripts are source inspections, not full-read bodies.",
+  "quality_control_notes": [
+    "Initial reports for batches 03,06,09,12,15,18 incorrectly equated XML metadata lacking transcription with absent HTML bodies. All were preserved as initial versions, rejected and replaced with full readings.",
+    "Batch02 serialization and batch08 catalogue synopsis coverage were corrected with initial versions retained. Coverage and quote checks do not substitute for parent full-source adjudication."
+  ],
+  "completed_at": "2026-09-16T11:59:38.612771+00:00",
+  "new_reviewed_records": 363,
+  "new_available_transcriptions_read": 362,
+  "total_reviewed_records": 476,
+  "total_available_transcriptions_read": 474,
+  "remaining_unreviewed_records": 0,
+  "validation": {
+    "path": "reports/1837-1843/remaining-review/validation.json",
+    "sha256": "d5c41d6f6bcfda799fc8049d2c54c4ace76974d047fe2c95685181e731adba67",
+    "tests_passed": 88
+  },
+  "final_outputs": [
+    {
+      "path": "reports/1837-1843/remaining-review/README.md",
+      "sha256": "efadf2bfdd1ba764160224e76ce218c5a80d0a2c3e4cf2339399a9fd6763712d"
+    },
+    {
+      "path": "reports/1837-1843/remaining-review/parent_review.json",
+      "sha256": "01d961ffd85891af81abd6e408b845577cb54657a64f9e9e5f19f791f3f90f47"
+    },
+    {
+      "path": "reports/1837-1843/remaining-review/reconciliation.json",
+      "sha256": "741f1eafd87c2f92f62fef4c3593e5319bdc2368c523ea73aaaa1fe21791bd4b"
+    },
+    {
+      "path": "reports/1837-1843/correspondence-map/graph.json",
+      "sha256": "5328c33d6af9881fcccdb118143082735e0e6f01893f11222f97dc3a418d44b3"
+    },
+    {
+      "path": "reports/1837-1843/correspondence-map/summary.json",
+      "sha256": "3a1b3ff909a2931b7b4fbd0f0c5d111cf98129c2cbc9309881311a3eeb92ee76"
+    },
+    {
+      "path": "reports/corpus-status.json",
+      "sha256": "51c1c4abe205215f7eb0137efc039e53472fc0b8d53e95e092402cc52ec006a9"
+    }
+  ],
+  "earlier_baselines_unchanged": true,
+  "training_export_performed": false
+}

@@ -1,0 +1,94 @@
+{
+  "batch_id": "batch-14",
+  "status": "parent_adjudicated",
+  "body_unavailable_ids": [],
+  "record_dispositions": [
+    {
+      "letter_id": "DCP-LETT-839",
+      "disposition": "incoming_context_only",
+      "source_kind": "incomplete letter",
+      "voice": "incoming",
+      "date_assessment": "1845-03-15 composition; no demonstrated Darwin reading date",
+      "text_rendering_review": "Flattened mixed fractions must be restored from source markup before prompt use."
+    },
+    {
+      "letter_id": "DCP-LETT-918",
+      "disposition": "incoming_context_only",
+      "source_kind": "letter with tabular estimate",
+      "voice": "incoming",
+      "date_assessment": "1845-10-02 composition; promised October10 closing is not letter receipt",
+      "text_rendering_review": "Broken diagram label across P1/P3 and flattened mixed fractions; source HTML retained."
+    },
+    {
+      "letter_id": "DCP-LETT-980",
+      "disposition": "grounding_candidate_missing_input",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "1846-05-27, supported by account entry"
+    },
+    {
+      "letter_id": "DCP-LETT-1037",
+      "disposition": "grounding_candidate_missing_input",
+      "source_kind": "letter",
+      "voice": "individual_darwin",
+      "date_assessment": "1846-12-12, supported by December9/12 account entries"
+    }
+  ],
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-980",
+      "target_id": "DCP-LETT-839",
+      "relationship": "references_own_letter",
+      "parent_decision": "rejected",
+      "reason": "839 is Higgins incoming prose, not Darwin own letter. Farm purchase continuity does not identify a textual reference."
+    },
+    {
+      "source_id": "DCP-LETT-980",
+      "target_id": "DCP-LETT-918",
+      "relationship": "replies_to",
+      "parent_decision": "rejected",
+      "reason": "980 answers a contemporary rent draft and direct-bank-payment proposal absent from the October1845 estimate. Building continuity cannot establish this pair."
+    },
+    {
+      "source_id": "DCP-LETT-1037",
+      "target_id": "DCP-LETT-918",
+      "relationship": "references_own_letter",
+      "parent_decision": "rejected",
+      "reason": "918 is incoming Higgins prose; 1037 acknowledges a new £185 draft and account, not that estimate."
+    }
+  ],
+  "corrections": [
+    {
+      "letter_id": "DCP-LETT-918",
+      "reason": "Reviewer calls the son letter embedded; body only mentions it and editorial note says it has not been found. Do not attribute absent enclosure text."
+    }
+  ],
+  "unlocated_references": [
+    {
+      "mentioned_in": [
+        "DCP-LETT-918"
+      ],
+      "description": "Son letter on liquid manure is missing."
+    },
+    {
+      "mentioned_in": [
+        "DCP-LETT-980"
+      ],
+      "description": "Incoming rent draft/proposal concerning direct banking and current building progress."
+    },
+    {
+      "mentioned_in": [
+        "DCP-LETT-1037"
+      ],
+      "description": "Incoming note with new rent draft and farmhouse report."
+    }
+  ],
+  "reference_observations": [
+    {
+      "letter_id": "DCP-LETT-1037",
+      "other_id": "DCP-LETT-980",
+      "status": "own_outgoing_continuity_not_a_pair",
+      "reason": "Repeated bank instruction is visible in980; 1037 attributes proposal to Higgins six months earlier, so do not label it an explicit reference to980."
+    }
+  ]
+}

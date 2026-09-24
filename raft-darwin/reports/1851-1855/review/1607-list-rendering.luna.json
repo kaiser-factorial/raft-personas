@@ -1,0 +1,72 @@
+{
+  "source_id": "DCP-LETT-1607",
+  "status": "read_only_rendering_probe",
+  "snapshot": "2026-09-16",
+  "source": {
+    "path": "data/raw/dcp/1851-1855/pages/DCP-LETT-1607.html",
+    "sha256": "24813d63b54534ed2f8f8d91f0fd74892cf00d0793a6c384ad08c9adccfccc57",
+    "bytes": 122916,
+    "date": "[15 November 1854]",
+    "direction": "to_darwin",
+    "source_kind": "incomplete two-page manuscript, with CD note"
+  },
+  "body_and_table": {
+    "body_container": "div#letter div.body-content",
+    "narrative_paragraphs": [
+      {"css_locator":"div#letter div.body-content > p:nth-of-type(2)","content":"Hooker says a list of 80 anomalous genera was selected by Bentham, appends two species counts (Steudel versus Bentham/Hooker knowledge), and gives a provisional 1:8 or 1:6 estimate."},
+      {"css_locator":"div#letter div.body-content > p:nth-of-type(3)","content":"Hooker discusses Tasmanian/Australian floras, a hypothetical longitudinal split of Australia, climate, geological change and obliteration/new creation."},
+      {"css_locator":"div#letter div.body-content > p:nth-of-type(4)","content":"Signature line: Ever yrs | J D Hooker. diag Steudel Self."}
+    ],
+    "claimed_rows": 80,
+    "preserved_rows": 40,
+    "row_structure": {
+      "css_locator_range":"div#letter div.body-content > p:nth-of-type(5) through p:nth-of-type(12)",
+      "html_structure":"Each displayed row is a paragraph, not a semantic HTML table row or table element. Rows 9–40 are collapsed into the final paragraph (p:nth-of-type(12)) as ordinary text separated by spaces; there are no <table>, <tr>, or <td> elements in the preserved body.",
+      "columns":"Literal visual pattern is number, genus, Steudel count, and Bentham/Hooker count separated by em dashes; column labels are not preserved as separate DOM tokens.",
+      "row_numbers_observed":"1 through 40, ending Diclidanthera — 2 — 2",
+      "literal_examples":[
+        {"locator":"div#letter div.body-content > p:nth-of-type(5)","text":"1 Ceratophyllum — 8 — 2"},
+        {"locator":"div#letter div.body-content > p:nth-of-type(8)","text":"4 Gyrostemon — 3 — 3"},
+        {"locator":"div#letter div.body-content > p:nth-of-type(12)","text":"39 Gunnera — 8 — 10 40 Diclidanthera — 2 — 2 ————————"}
+      ]
+    }
+  },
+  "ratio_and_math": {
+    "ratio_paragraph_locator":"div#letter div.body-content > p:nth-of-type(13)",
+    "literal_text":"1161 1132 Ratio of species to genera in Steudel 672278005 ramme",
+    "mathml_locator":"div#letter div.body-content > p:nth-of-type(13) > math",
+    "mathml_tokens": {
+      "element":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>6722</mn><mn>78005</mn></mfrac></math>",
+      "mfrac_locator":"div#letter div.body-content > p:nth-of-type(13) > math > mfrac",
+      "numerator_locator":"div#letter div.body-content > p:nth-of-type(13) > math > mfrac > mn:nth-of-type(1)",
+      "numerator_literal":"6722",
+      "denominator_locator":"div#letter div.body-content > p:nth-of-type(13) > math > mfrac > mn:nth-of-type(2)",
+      "denominator_literal":"78005"
+    },
+    "displayed_ratio_issue":"The rendered MathML fraction is 6722/78005 (about 0.0862 if read numerator over denominator), while CD’s footnote calculation flattens the same tokens as 672278005=11.6 and the prose apparently intends a species-per-genus ratio. The reciprocal 78005/6722 is about 11.60, but this probe records the literal DOM and does not silently repair or reverse it.",
+    "adjacent_flattened_totals":"The paragraph literally displays 1161 1132 before the ratio label. These are not marked with semantic labels or operators in the DOM; retain them as two adjacent text tokens, not as a corrected sum or equation."
+  },
+  "superscripts_and_footnotes": {
+    "body_date_sup_locator":"div#letter div.body-content > p:nth-of-type(2) > sup#back-mark-Lfoot.f2",
+    "row_superscripts":"There are no superscript footnote nodes in the 40 row paragraphs.",
+    "footnote_ids_and_locators":[
+      {"id":"Lfoot.f1","xpath":"//*[@id='Lfoot.f1']","role":"editorial date note; says date is inferred from CD’s Nov. 20/54 note and Wednesday 15 November"},
+      {"id":"Lfoot.f2","xpath":"//*[@id='Lfoot.f2']","role":"editorial count discrepancy; says Hooker’s list contains only 40 items and may have had a further enclosed list"},
+      {"id":"Lfoot.f3","xpath":"//*[@id='Lfoot.f3']","role":"Steudel catalogue identification"},
+      {"id":"Lfoot.f4","xpath":"//*[@id='Lfoot.f4']","role":"long CD pinned note and calculations; contains the later interpretation of 6722/78005 and 11.6"},
+      {"id":"Lfoot.f5","xpath":"//*[@id='Lfoot.f5']","role":"Hooker bibliography pointer"},
+      {"id":"Lfoot.f6","xpath":"//*[@id='Lfoot.f6']","role":"editorial discussion of Hooker’s geological-change argument"}
+    ],
+    "footnote_section_locator":"/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[3]",
+    "scholarly_annotation_section_locator":"/html/body/div[7]/div/div/div/div/div[2]/div/div[3]/div[1]/div/div[2]",
+    "distinction":"Superscript markers in the body link to editorial footnotes. CD’s pinned calculations inside footnote 4 are quoted scholarly material, not silently merged into Hooker’s list or the body’s authorial arithmetic."
+  },
+  "inconsistencies_and_holds": [
+    "Hooker’s body claims 80 anomalous genera, but only 40 numbered entries survive in the preserved HTML; footnote 2 explicitly records the discrepancy and possible additional enclosure. Do not invent rows 41–80.",
+    "The literal totals 1161 and 1132 have no semantic operator or labels in the DOM.",
+    "MathML preserves numerator 6722 and denominator 78005; CD’s footnote calculation writes the tokens flattened as 672278005=11.6. The reciprocal would approximate 11.6, but no normalization is applied here.",
+    "The body’s final word is literal ‘ramme’, following the MathML node; this probe retains it as source text and does not infer a missing word or arithmetic symbol."
+  ],
+  "visual_or_rendering_boundary":"This is a DOM/token rendering audit. No additional image interpretation is claimed; the preserved inline text/math and footnote structures are reported literally.",
+  "validation": {"json_syntax":"passed via bundled Python json parser", "accepted_evidence_mutated":false}
+}

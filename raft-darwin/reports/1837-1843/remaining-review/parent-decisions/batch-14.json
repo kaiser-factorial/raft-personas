@@ -1,0 +1,107 @@
+{
+  "batch_id": "batch-14",
+  "status": "parent_adjudicated",
+  "proposal_adjudications": [
+    {
+      "source_id": "DCP-LETT-683",
+      "target_id": "DCP-LETT-671",
+      "relationship": "replies_to",
+      "parent_decision": "rejected_as_reply_pair_topic_continuity_only",
+      "reason": "671 and683 are both Hinds incoming letters. 683 explicitly refers to a Darwin note that is unlocated; same subject does not supply its actual prompt."
+    }
+  ],
+  "voice_held_ids": [
+    "DCP-LETT-677"
+  ],
+  "additional_exact_date_review_ids": [
+    "DCP-LETT-607"
+  ],
+  "source_kind_corrections": {
+    "DCP-LETT-677": "disputed copy or possible forgery",
+    "DCP-LETT-607": "published letter with draft-based header date",
+    "DCP-LETT-632": "copied extract",
+    "DCP-LETT-661": "postscript on annotated reprint",
+    "DCP-LETT-693": "published letter with separately excluded editorial replies"
+  },
+  "text_scope_overrides": {
+    "DCP-LETT-677": {
+      "voice_eligible_text": false,
+      "authenticity_status": "disputed_copy_or_possible_forgery",
+      "quarantine_reason": "Catalogue warns of interpolated inaccurate copy or forgery; no uncontested Darwin text can be isolated."
+    }
+  },
+  "date_evidence": [
+    {
+      "letter_id": "DCP-LETT-607",
+      "locator": "editorial_footnotes",
+      "quote": "date of the draft of the letter",
+      "assessment": "August16 dates the draft, whereas this text was published August21. Do not assume all published wording was fixed onAugust16."
+    }
+  ],
+  "rejected_or_candidate_links": [
+    {
+      "source_id": "DCP-LETT-683",
+      "target_id": "DCP-LETT-671",
+      "status": "topic_continuation_only_not_direct_reply",
+      "reason": "Both incoming; actual Darwin note absent.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-683",
+          "body_paragraph": 1,
+          "quote": "Soon after the receipt of your note",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-683.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-683.xml",
+            "retrieved_at": "2026-09-16T10:54:27.654469+00:00",
+            "sha256": "144c2f08a1bbc3615b0f8a7a1c4f7aeb7a5e6863b78db8e6a7dc1266d27b009d",
+            "bytes": 112857,
+            "http_status": 200,
+            "etag": "\"4b611e2202f44972e900c0bd2c07c007\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-683"
+          }
+        },
+        {
+          "letter_id": "DCP-LETT-671",
+          "body_paragraph": 1,
+          "quote": "your letter of the 9th. Inst",
+          "locator": "div#letter div.body-content; retained body block 1",
+          "source": {
+            "path": "data/raw/dcp/remaining-review-1837-1843/DCP-LETT-671.html",
+            "url": "https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-671.xml",
+            "retrieved_at": "2026-09-16T10:54:27.634351+00:00",
+            "sha256": "0449f1075cb567f7295afdaaaf5044ec80a2584bc6be11c9d7d824a7f63cfbb5",
+            "bytes": 117625,
+            "http_status": 200,
+            "etag": "\"5cf4bed50f5bc81b2b09a6d3026bea27\"",
+            "content_type": "text/html",
+            "id": "DCP-LETT-671"
+          }
+        }
+      ]
+    }
+  ],
+  "reference_observations": [
+    {
+      "id": "REF-R14-677-AUTH",
+      "witness_id": "DCP-LETT-677",
+      "type": "authenticity_hold",
+      "description": "Preserved as a source record but excluded from Darwin voice due to explicit catalogue warning.",
+      "evidence": [
+        {
+          "letter_id": "DCP-LETT-677",
+          "locator": "editorial_footnotes",
+          "quote": "either a copy made by an inaccurate copyist who interpolated details or a forged CD letter"
+        }
+      ],
+      "creates_prompt": false,
+      "invented_text": null
+    }
+  ],
+  "corrections": [
+    "677 is not safe voice grounding despite its period-safe XML date.",
+    "Hinds same-subject incoming letters are not a direct conversation pair; missing Darwin note remains unlocated.",
+    "607 draft date and printed-text date are separately retained."
+  ]
+}

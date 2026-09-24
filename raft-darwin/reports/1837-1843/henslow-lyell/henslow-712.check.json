@@ -1,0 +1,76 @@
+{
+  "model": "independent relationship adjudication",
+  "full_read_ids": ["DCP-LETT-701", "DCP-LETT-707", "DCP-LETT-712", "DCP-LETT-710F"],
+  "recommendation": {
+    "status": "confirmed_direct_reply_to_henslow_but_unlocated_prompt",
+    "relationship": "replies_to",
+    "source_id": "DCP-LETT-712",
+    "target_id": null,
+    "reason": "712 is an extant Darwin letter addressed to Henslow and explicitly says that Henslow's last note supplied information Darwin had not previously heard. That establishes a direct reply to a Henslow communication, but the referenced last note is not among the four records and cannot be uniquely identified as 701 or 707. The latest surviving Henslow letter is therefore not automatically the prompt.",
+    "evidence": [
+      {"letter_id":"DCP-LETT-712","body_paragraph":1,"quote":"Until your last note I had not heard that Mr Kemp’s seeds had produced 2 Polygonums."},
+      {"letter_id":"DCP-LETT-712","body_paragraph":1,"quote":"He informs me he saw each plant bring up the husk of the individual seed which he planted"},
+      {"letter_id":"DCP-LETT-712","body_paragraph":1,"quote":"as you suggested"},
+      {"letter_id":"DCP-LETT-701","body_paragraph":1,"quote":"His other two are equally common viz. Polygonum convolvulus & aviculare"},
+      {"letter_id":"DCP-LETT-707","body_paragraph":1,"quote":"The odd Atriplex came from Lindley alone — Mr K’s was clearly only A. patula"},
+      {"letter_id":"DCP-LETT-710F","body_paragraph":2,"quote":"two species of Polygonum. P. aviculare & P. convolvulus (as Henslow informs me)"}
+    ]
+  },
+  "candidate_links": [
+    {
+      "source_id": "DCP-LETT-701",
+      "target_id": "DCP-LETT-712",
+      "relationship": "knowledge_before",
+      "status": "candidate_only",
+      "reason": "701 is the surviving Henslow letter that explicitly names both Polygonum species, and 712 repeats that information. However, 712 attributes the information to Henslow's last note, while 701 is dated 9 October and cannot be proved to be the last note received before 4 November.",
+      "evidence": [
+        {"letter_id":"DCP-LETT-701","body_paragraph":1,"quote":"His other two are equally common viz. Polygonum convolvulus & aviculare"},
+        {"letter_id":"DCP-LETT-712","body_paragraph":1,"quote":"Until your last note I had not heard that Mr Kemp’s seeds had produced 2 Polygonums."}
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-707",
+      "target_id": "DCP-LETT-712",
+      "relationship": "knowledge_before",
+      "status": "candidate_only",
+      "reason": "707 is the later surviving Henslow letter before 712 and could be part of the referenced last-note context, but its surviving body discusses Atriplex and the Roman tomb and does not name the two Polygonums. It cannot alone explain the specific Polygonum disclosure.",
+      "evidence": [
+        {"letter_id":"DCP-LETT-707","body_paragraph":1,"quote":"The odd Atriplex came from Lindley alone — Mr K’s was clearly only A. patula"},
+        {"letter_id":"DCP-LETT-712","body_paragraph":1,"quote":"Until your last note I had not heard that Mr Kemp’s seeds had produced 2 Polygonums."}
+      ]
+    },
+    {
+      "source_id": "DCP-LETT-710F",
+      "target_id": "DCP-LETT-712",
+      "relationship": "knowledge_before",
+      "status": "candidate_only",
+      "reason": "Darwin's 1 November letter to Kemp independently records that Henslow supplied the Polygonum identifications, supporting the information channel before 712. It is a letter to Kemp, not a prompt to 712, and does not establish which Henslow note Darwin meant.",
+      "evidence": [
+        {"letter_id":"DCP-LETT-710F","body_paragraph":2,"quote":"two species of Polygonum. P. aviculare & P. convolvulus (as Henslow informs me)"},
+        {"letter_id":"DCP-LETT-712","body_paragraph":1,"quote":"Until your last note I had not heard that Mr Kemp’s seeds had produced 2 Polygonums."}
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "unlocated_henslow_last_note",
+      "severity": "medium",
+      "description": "712's direct prompt is a Henslow note that is not present in the inspected packet. 701 and 707 are surviving candidates only; neither can be promoted to the unique prompt from chronology alone."
+    },
+    {
+      "id": "707_taxonomic_mismatch",
+      "severity": "low",
+      "description": "707 discusses Atriplex patula and does not mention Polygonum convolvulus or P. aviculare, so its later date does not make it the taxonomic source for 712's Polygonum sentence."
+    },
+    {
+      "id": "710F_channel_distinction",
+      "severity": "low",
+      "description": "710F confirms Darwin had received Henslow's Polygonum identifications by 1 November, but it is addressed to Kemp and should remain a knowledge witness rather than a direct prompt for 712."
+    }
+  ],
+  "limitations": [
+    "Only the specified Henslow 701, 707, 712 and Darwin 710F records were adjudicated here.",
+    "A same-correspondent date sequence does not prove that 707 was the last note received, and repeated content may derive from an unlocated communication or an earlier exchange."
+  ],
+  "verdict": "Retain 712 as a confirmed surviving direct reply to an unlocated Henslow note. Keep 701→712, 707→712, and 710F→712 as candidate knowledge links only; do not force a unique direct pair or treat 707 as the prompt solely because it is the latest surviving Henslow record."
+}
