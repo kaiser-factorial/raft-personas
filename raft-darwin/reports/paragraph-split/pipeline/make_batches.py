@@ -5,15 +5,26 @@ two kinds of known-bad control so each adjudicator can be scored before its verd
   SAME   - reply paragraph from the SAME letter that the aligner did NOT link to this
            incoming paragraph (hard negative: shares subject, wrong answer)
 """
-import json, os, random, glob, collections
-ROOT="/Users/corinakaiser/Projects/personas/raft-darwin"
-SPLIT=os.path.join(ROOT,"reports/paragraph-split")
-cands=[json.loads(l) for l in open(os.path.join(SPLIT,"candidates.jsonl"))]
-TDIR=os.path.join(ROOT,"darwin_thinking/conversations")
-import re
-def paras(t): return [" ".join(p.split()) for p in re.split(r"\n\s*\n", t) if len(p.split())>=8]
+import argparse, json, os, random, glob, collections
+from common import add_project_args, resolve, paras
 
-random.seed(41)
+ap=argparse.ArgumentParser(description="Stage 2 prep: candidates -> adjudication batches + control key")
+add_project_args(ap)
+g=ap.add_mutually_exclusive_group()
+g.add_argument("--batches", type=int, default=6, help="number of batches (default %(default)s)")
+g.add_argument("--per-batch", type=int, help="target candidates per batch; sets the batch count "
+               "instead of --batches. The original run was ~40, so scale --batches with the corpus.")
+ap.add_argument("--seed", type=int, default=41)
+ap.add_argument("--overlap", type=float, default=0.20,
+                help="fraction of each batch also given to the next adjudicator (default %(default)s)")
+ap.add_argument("--controls", type=int, default=3,
+                help="CROSS and SAME controls planted per batch, each (default %(default)s)")
+cfg=resolve(ap.parse_args())
+SPLIT=cfg.work
+TDIR=os.path.join(cfg.src,"conversations")
+cands=[json.loads(l) for l in open(os.path.join(SPLIT,"candidates.jsonl"))]
+
+random.seed(cfg.seed)
 by_src=collections.defaultdict(list)
 for c in cands: by_src[c["source_transcript"]].append(c)
 
@@ -44,16 +55,16 @@ for i,c in enumerate(cands):
         "answer_words":o["answer_words"],"status":"derived_unadjudicated"})
 
 random.shuffle(same_neg); random.shuffle(cross_neg)
-NB=6                                   # number of subagent batches
+NB=-(-len(cands)//cfg.per_batch) if cfg.per_batch else cfg.batches   # number of subagent batches
 per=(len(cands)+NB-1)//NB
-overlap=max(1,int(0.20*per))           # ~20% of each batch also given to the next agent
+overlap=max(1,int(cfg.overlap*per))    # ~20% of each batch also given to the next agent
 batches=[]
 for b in range(NB):
     core=cands[b*per:(b+1)*per]
     if not core: continue
     nxt=cands[(b+1)*per:(b+1)*per+overlap]           # shared with the following agent
     items=[dict(x, control="none") for x in core+nxt]
-    items += [same_neg[b::NB][:3]][0] + [cross_neg[b::NB][:3]][0]
+    items += [same_neg[b::NB][:cfg.controls]][0] + [cross_neg[b::NB][:cfg.controls]][0]
     random.shuffle(items)
     for n,it in enumerate(items,1): it["item_id"]=f"b{b+1}-{n:03d}"
     batches.append(items)

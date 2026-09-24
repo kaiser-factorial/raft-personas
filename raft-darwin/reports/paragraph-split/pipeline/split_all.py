@@ -1,18 +1,29 @@
-"""Stage 1: derive paragraph-aligned pairs across all 162 transcripts.
-Emits candidates + provenance. Nothing here is adjudicated -- stage 2 does that."""
-import json, glob, os, re, urllib.request, collections
+"""Stage 1: derive paragraph-aligned pairs across every transcript in --src.
+Emits candidates + provenance. Nothing here is adjudicated -- stage 2 does that.
+
+  python pipeline/split_all.py [--src darwin_1] [--work DIR] [--model gpt-4o-mini]
+
+Resumable: transcripts already present in <work>/candidates.jsonl are skipped.
+Needs OPENAI_API_KEY."""
+import argparse, json, glob, os, re, urllib.request, collections
+from common import add_project_args, resolve, paras
+
+ap=argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+add_project_args(ap)
+ap.add_argument("--model", default="gpt-4o-mini", help="aligner/verifier model (default %(default)s)")
+cfg=resolve(ap.parse_args())
+
 OAI="https://api.openai.com/v1/chat/completions"; KEY=os.environ["OPENAI_API_KEY"]
-OUT="/Users/corinakaiser/Projects/personas/raft-darwin/reports/paragraph-split"
+OUT=cfg.work
 os.makedirs(OUT, exist_ok=True)
 CAND=os.path.join(OUT,"candidates.jsonl")
 
-def ask(p, model="gpt-4o-mini", maxtok=1400):
-    b={"model":model,"max_tokens":maxtok,"temperature":0,"messages":[{"role":"user","content":p}]}
+def ask(p, model=None, maxtok=1400):
+    b={"model":model or cfg.model,"max_tokens":maxtok,"temperature":0,"messages":[{"role":"user","content":p}]}
     r=urllib.request.Request(OAI,data=json.dumps(b).encode(),
         headers={"Content-Type":"application/json","Authorization":f"Bearer {KEY}"})
     with urllib.request.urlopen(r,timeout=300) as f:
         return json.load(f)["choices"][0]["message"]["content"].strip()
-def paras(t): return [" ".join(p.split()) for p in re.split(r"\n\s*\n", t) if len(p.split())>=8]
 
 ALIGN="""An incoming letter to Charles Darwin and his reply, both split into numbered paragraphs.
 
@@ -44,8 +55,8 @@ if os.path.exists(CAND):
         except Exception: pass
     print(f"resuming: {len(done)} transcripts already processed")
 
-TDIR="/Users/corinakaiser/Projects/personas/raft-darwin/darwin_thinking/conversations"
-files=sorted(glob.glob(TDIR+"/transcript-*.json"))
+files=sorted(glob.glob(os.path.join(cfg.src,"conversations","transcript-*.json")))
+print(f"{cfg.src_name}: {len(files)} transcripts -> {CAND}")
 stats=collections.Counter()
 with open(CAND,"a") as fh:
     for n,f in enumerate(files,1):

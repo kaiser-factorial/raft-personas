@@ -27,6 +27,7 @@ letter and are never a training target in any mode, so adding them is not a
 reservation leak. Letter-mode letters contribute nothing: their whole reply is
 the target.
 """
+import argparse
 import collections
 import datetime
 import glob
@@ -36,22 +37,21 @@ import re
 import shutil
 import subprocess
 
-ROOT = "/Users/corinakaiser/Projects/personas/raft-darwin"
-SPLIT = os.path.join(ROOT, "reports/paragraph-split")
-SRC = os.path.join(ROOT, "darwin_thinking")
-DST = os.path.join(ROOT, "darwin_split")
+from common import ROOT as ROOT_DIR, add_project_args, paras, resolve
 
-#: Letters held back from splitting to serve as letter-mode examples. 15 takes
-#: letter mode to 49 examples / ~22k words / 24 multi-paragraph replies at a
-#: cost of 36 derived pairs.
-RESERVE = int(os.environ.get("SPLIT_RESERVE", "15"))
+ap = argparse.ArgumentParser(description="Stage 3: emit the split RAFT project from adjudicated verdicts")
+add_project_args(ap)
+#: Letters held back from splitting to serve as letter-mode examples. On the
+#: original 162-letter corpus, 15 took letter mode to 49 examples / ~22k words /
+#: 24 multi-paragraph replies at a cost of 36 derived pairs. That is a count
+#: chosen for that corpus, not a ratio: rescale it for a larger one.
+ap.add_argument("--reserve", type=int, default=int(os.environ.get("SPLIT_RESERVE", "15")),
+                help="richest-reply letters kept whole (default %(default)s; env SPLIT_RESERVE)")
+cfg = resolve(ap.parse_args())
+SPLIT, SRC, DST, RESERVE = cfg.work, cfg.src, cfg.dst, cfg.reserve
 
 LETTER_CONTEXT = "a letter from {q}, which you are answering"
 PASSAGE_CONTEXT = "a single passage from a letter by {q}, which you are answering on its own"
-
-
-def paras(text):
-    return [" ".join(p.split()) for p in re.split(r"\n\s*\n", text) if len(p.split()) >= 8]
 
 
 # ---------------------------------------------------------------- verdicts
@@ -82,6 +82,16 @@ for f in sorted(glob.glob(os.path.join(SRC, "conversations", "transcript-*.json"
                                     "n_paras": len(paras(reply)),
                                     "n_words": len(reply.split())}
 
+# Transcript numbers collide across corpora (transcript-0015 exists in every one),
+# so verdicts from another --work dir would otherwise be applied to the wrong
+# letters without a murmur. Every verdict carries its letter's URL: check it.
+_stale = [it["item_id"] for it in uniq
+          if it["source_transcript"] not in letters
+          or letters[it["source_transcript"]]["doc"].get("url", "") != it.get("url", "")]
+if _stale:
+    raise SystemExit(f"{len(_stale)} adjudicated pairs (e.g. {_stale[:3]}) do not match the letters in "
+                     f"--src {SRC}; --work {SPLIT} was built from a different source project")
+
 # A plain dict, deliberately: probing a defaultdict here would mint a key for
 # every letter, and the no-pair letters would then join split mode as well as
 # letter mode -- their whole reply a training target while their paragraphs sat
@@ -108,6 +118,11 @@ print(f"split mode : {len(split_mode)} letters -> {len(emitted_pairs)} pairs "
       f"({len(uniq) - len(emitted_pairs)} dropped with the reserved letters)")
 
 # ----------------------------------------------------------------- rebuild
+# The rebuild below deletes DST outright, so never let it be (or contain, or sit
+# inside) the source project.
+_d, _s = os.path.realpath(DST), os.path.realpath(SRC)
+if _d == _s or _s.startswith(_d + os.sep) or _d.startswith(_s + os.sep):
+    raise SystemExit(f"--dst {DST} overlaps --src {SRC}; refusing to delete and rebuild it")
 if os.path.exists(DST):
     if subprocess.run(["pgrep", "-f", "[r]aft embed"], capture_output=True).returncode == 0:
         raise SystemExit("a `raft embed` is running against this project; stop it before "
@@ -115,11 +130,13 @@ if os.path.exists(DST):
     shutil.rmtree(DST)
 for d in ("conversations", "corpus", "metadata", "blobs", "fetch"):
     os.makedirs(os.path.join(DST, d))
-json.dump({"format": "raft.project.v1", "name": "darwin_split",
-           "collection": "darwin_split", "target": "Charles Darwin"},
+json.dump({"format": "raft.project.v1", "name": cfg.dst_name,
+           "collection": cfg.dst_name, "target": "Charles Darwin"},
           open(os.path.join(DST, "raft.json"), "w"), indent=2)
-shutil.copy(os.path.join(SRC, "metadata", "state.json"), os.path.join(DST, "metadata", "state.json"))
-readme = os.path.join(SPLIT, "darwin_split_README.md")
+state = os.path.join(SRC, "metadata", "state.json")
+if os.path.exists(state):   # darwin_thinking has one; darwin_1 does not
+    shutil.copy(state, os.path.join(DST, "metadata", "state.json"))
+readme = os.path.join(SPLIT, f"{cfg.dst_name}_README.md")
 if os.path.exists(readme):
     shutil.copy(readme, os.path.join(DST, "README.md"))
 
@@ -214,7 +231,8 @@ print(f"grounding: {len(docs)} original + {added} unprompted = {len(docs) + adde
 print("  paragraphs withheld:", dict(held))
 
 json.dump({
-    "created_from": "reports/paragraph-split",
+    "created_from": os.path.relpath(SPLIT, ROOT_DIR),
+    "source_project": cfg.src_name,
     "reserve": RESERVE,
     "note_transcript_field": "`transcript` is the CURRENT filename and is rewritten whenever "
                              "select_kind.py renumbers. Join on `url`, which is stable.",
@@ -253,4 +271,4 @@ both = [s for s, k in kinds.items() if len(k) > 1]
 print(f"validation: {len(nums)} transcripts, gapless={nums == list(range(1, len(nums) + 1))}, "
       f"malformed={bad}, letters in both modes={len(both)}")
 print(f"  context framings: {dict(ctx)}")
-print("next: cd darwin_split && raft chunk && raft embed")
+print(f"next: cd {cfg.dst_name} && raft chunk && raft embed")

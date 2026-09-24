@@ -1,7 +1,10 @@
 """Score the adjudicators against their blind controls BEFORE counting any verdict.
 An adjudicator that cannot reject planted bad pairs is not adjudicating."""
-import json, os, glob, collections
-ROOT="/Users/corinakaiser/Projects/personas/raft-darwin/reports/paragraph-split"
+import argparse, json, os, glob, collections
+from common import add_project_args, resolve
+ap=argparse.ArgumentParser(description=__doc__)
+add_project_args(ap)
+ROOT=resolve(ap.parse_args()).work
 key=json.load(open(os.path.join(ROOT,"control-key.json")))
 verdicts={}
 for f in sorted(glob.glob(os.path.join(ROOT,"verdicts","batch-*.json"))):
@@ -54,7 +57,7 @@ def sig(i):
     return (it["source_transcript"], tuple(it["incoming_paras"]), tuple(it["reply_paras"]))
 
 bysig=collections.defaultdict(list)
-for b in usable:
+for b in sorted(usable):   # sorted: set order varies with PYTHONHASHSEED, changing which item id represents a pair
     for i,(v,r) in verdicts[b].items():
         if key.get(i)!="none" or i not in batch_items: continue
         bysig[sig(i)].append((b,i,v,r))
