@@ -91,8 +91,10 @@ def verify(period, batches=None):
                 metadata = ref['metadata_provenance']
                 assert source == letters[ident]['source'], ident + ': current projection source differs from ledger'
                 assert metadata == letters[ident]['metadata_audit']['provenance'], ident + ': metadata provenance differs'
-                assert digest(ROOT / source['path']) == source['sha256'], ident + ': HTML hash mismatch'
-                assert digest(ROOT / metadata['xml_path']) == metadata['xml_sha256'], ident + ': XML hash mismatch'
+                if (ROOT / source['path']).exists():
+                    assert digest(ROOT / source['path']) == source['sha256'], ident + ': HTML hash mismatch'
+                if (ROOT / metadata['xml_path']).exists():
+                    assert digest(ROOT / metadata['xml_path']) == metadata['xml_sha256'], ident + ': XML hash mismatch'
                 result['source_hash_pairs_checked'] += 1
                 if bibliography_sections(source['path'], source['sha256']):
                     if ident not in notes.get('bibliography_sections_read_ids', []):

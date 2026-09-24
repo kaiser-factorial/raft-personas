@@ -46,14 +46,27 @@ def load_letters():
     paths = [BASE / "pilot/letters.jsonl", REVIEW / "letters.jsonl", REVIEW / "seed-context.letters.jsonl"]
     if EXTENSION.exists():
         paths.extend([NEXT_REVIEW / "letters.jsonl", NEXT_REVIEW / "context.letters.jsonl"])
-    if remaining_sources():
+    if remaining_sources() and (REMAINING / "letters.jsonl").exists():
         paths.append(REMAINING / "letters.jsonl")
     for path in paths:
+        if not path.exists():
+            continue
         for row in map(json.loads, path.read_text().splitlines()):
             if row["id"] in letters:
                 assert letters[row["id"]]["source"]["sha256"] == row["source"]["sha256"]
                 assert letters[row["id"]]["paragraphs"] == row["paragraphs"]
             letters[row["id"]] = row
+    db_path = ROOT / "data/letters.sqlite"
+    if db_path.exists():
+        import sqlite3
+        import zlib
+        conn = sqlite3.connect(db_path)
+        cur = conn.cursor()
+        cur.execute("SELECT id, record_blob FROM letters WHERE periods_json LIKE ?", ('%"1837-1843"%',))
+        for lid, blob in cur.fetchall():
+            if lid not in letters:
+                letters[lid] = json.loads(zlib.decompress(blob).decode("utf-8"))
+        conn.close()
     return letters
 
 

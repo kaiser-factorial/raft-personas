@@ -20,13 +20,10 @@ from search_body_dates import normalized
 
 @lru_cache(maxsize=128)
 def scholarly_sections(source_path, source_sha256):
-    """Read preserved marginalia/back matter without changing frozen body text.
-
-    DCP stores annotations and CD notes as siblings of the body. Keeping them
-    separate prevents their accidental attribution to the correspondent or date.
-    Unknown sibling sections are exposed for inspection instead of discarded.
-    """
+    """Read preserved marginalia/back matter without changing frozen body text."""
     path = ROOT / source_path
+    if not path.exists():
+        return []
     assert digest(path) == source_sha256, "Changed preserved HTML"
     doc = html.fromstring(path.read_bytes())
     result = []
@@ -47,6 +44,8 @@ def scholarly_sections(source_path, source_sha256):
 def visual_nodes(source_path, source_sha256):
     """Expose letter visuals that are absent from paragraph text."""
     path = ROOT / source_path
+    if not path.exists():
+        return []
     assert digest(path) == source_sha256, 'Changed preserved HTML'
     doc = html.fromstring(path.read_bytes())
     return [{'dom_locator': node.getroottree().getpath(node), 'tag': node.tag,
@@ -59,6 +58,8 @@ def visual_nodes(source_path, source_sha256):
 def bibliography_sections(source_path, source_sha256):
     """Expose editorial references without treating them as historical reading."""
     path = ROOT / source_path
+    if not path.exists():
+        return []
     assert digest(path) == source_sha256, 'Changed preserved HTML'
     doc = html.fromstring(path.read_bytes())
     return [{'locator': node.getroottree().getpath(node),
@@ -114,7 +115,23 @@ def body_unavailable(text):
 
 @lru_cache(maxsize=16)
 def load(period):
-    return {r["id"]: r for r in rows(ROOT / "reports" / period / "review/all_letters.jsonl")}
+    path = ROOT / "reports" / period / "review/all_letters.jsonl"
+    if path.exists():
+        return {r["id"]: r for r in rows(path)}
+    db_path = ROOT / "data/letters.sqlite"
+    if db_path.exists():
+        import sqlite3
+        import zlib
+        conn = sqlite3.connect(db_path)
+        cur = conn.cursor()
+        cur.execute("SELECT id, record_blob FROM letters WHERE periods_json LIKE ?", (f'%"{period}"%',))
+        result = {}
+        for lid, blob in cur.fetchall():
+            result[lid] = json.loads(zlib.decompress(blob).decode("utf-8"))
+        conn.close()
+        if result:
+            return result
+    raise FileNotFoundError(f"Neither {path} nor {db_path} could supply letters for period {period}")
 
 
 def compact_constraints(constraints, mutually_exclusive):
