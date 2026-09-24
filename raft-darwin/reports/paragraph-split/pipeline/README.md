@@ -53,6 +53,37 @@ Things that do **not** carry over automatically:
 - **`select_kind.py` and `run_arms.sh`** are still hardcoded to `darwin_split`.
   They are not part of stages 1-4 and were left alone.
 
+## Running stage 1 on a local model instead of the OpenAI API
+
+`split_all.py --base-url <endpoint> --model <name>` works with any
+OpenAI-compatible server (Ollama, `mlx_lm.server`, `llama-server`); the key is
+needed only for the default OpenAI endpoint. `--limit N` and `--only a.json,b.json`
+restrict a trial run. The script reports the largest prompt the server saw:
+compare it to the server's context window, because Ollama silently truncates at
+4096 tokens by default (prompts here reach ~3.3k).
+
+**Calibrate before trusting a model.** `calibrate_aligner.py` scores an aligner on
+a mixed set of letters whose answers are already adjudicated (evenly spread KEEP
+letters, the longest letters, and letters that yielded nothing):
+
+```bash
+python pipeline/calibrate_aligner.py select > letters.txt
+python pipeline/split_all.py --base-url ... --model ... --work /tmp/cal --only "$(cat letters.txt)"
+python pipeline/calibrate_aligner.py compare --cand /tmp/cal/candidates.jsonl
+```
+
+Recall is measured against the 219 adjudicated KEEP pairs. It is a floor, not a
+ceiling: the baseline splitter itself missed real links (see the SAME-control
+finding), so candidates it never proposed are listed as NEW for a human to read.
+
+Result for `qwen2.5:14b` (Ollama on bigmac, 22 letters, 3 min): 34 candidates;
+recall of adjudicated KEEP pairs **6/28 exact, 18/28 (64%) by overlap**; none of
+the 4 adjudicated-DROP pairs on these letters were re-proposed; 15 NEW candidates,
+several visibly bad on a skim (a signature paired with a signature; a reply about
+the East coast's scenery paired with a "sight of your hand" opening). Not run on
+the full corpus. Since a missed link is lost and a bad candidate is merely
+rejected at adjudication, recall is the number that matters here.
+
 ## Safeguards
 
 - `emit_split.py` **deletes and rebuilds `--dst`** (including `corpus/chroma`, so

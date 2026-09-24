@@ -2,18 +2,27 @@
 Emits candidates + provenance. Nothing here is adjudicated -- stage 2 does that.
 
   python pipeline/split_all.py [--src darwin_1] [--work DIR] [--model gpt-4o-mini]
+  python pipeline/split_all.py --base-url http://localhost:11435/v1 --model qwen2.5:14b   # local, no key
 
 Resumable: transcripts already present in <work>/candidates.jsonl are skipped.
-Needs OPENAI_API_KEY."""
+Any OpenAI-compatible endpoint works (OpenAI, Ollama, mlx_lm.server, llama-server).
+OPENAI_API_KEY is required only for the default OpenAI endpoint."""
 import argparse, json, glob, os, re, urllib.request, collections
 from common import add_project_args, resolve, paras
 
 ap=argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 add_project_args(ap)
 ap.add_argument("--model", default="gpt-4o-mini", help="aligner/verifier model (default %(default)s)")
+ap.add_argument("--base-url", default=os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1"),
+                help="OpenAI-compatible endpoint (default %(default)s; env OPENAI_BASE_URL)")
+ap.add_argument("--limit", type=int, help="process only the first N transcripts (for trial runs)")
+ap.add_argument("--only", help="comma-separated transcript filenames to process (for calibration)")
 cfg=resolve(ap.parse_args())
 
-OAI="https://api.openai.com/v1/chat/completions"; KEY=os.environ["OPENAI_API_KEY"]
+OAI=cfg.base_url.rstrip("/")+"/chat/completions"
+KEY=os.environ.get("OPENAI_API_KEY") or ("" if "api.openai.com" in cfg.base_url else "x")
+if not KEY: raise SystemExit("OPENAI_API_KEY is required for the OpenAI endpoint")
+max_prompt_tokens=0   # largest prompt the server reports; compare with its context window
 OUT=cfg.work
 os.makedirs(OUT, exist_ok=True)
 CAND=os.path.join(OUT,"candidates.jsonl")
@@ -22,8 +31,11 @@ def ask(p, model=None, maxtok=1400):
     b={"model":model or cfg.model,"max_tokens":maxtok,"temperature":0,"messages":[{"role":"user","content":p}]}
     r=urllib.request.Request(OAI,data=json.dumps(b).encode(),
         headers={"Content-Type":"application/json","Authorization":f"Bearer {KEY}"})
-    with urllib.request.urlopen(r,timeout=300) as f:
-        return json.load(f)["choices"][0]["message"]["content"].strip()
+    global max_prompt_tokens
+    with urllib.request.urlopen(r,timeout=900) as f:
+        d=json.load(f)
+    max_prompt_tokens=max(max_prompt_tokens,(d.get("usage") or {}).get("prompt_tokens",0))
+    return d["choices"][0]["message"]["content"].strip()
 
 ALIGN="""An incoming letter to Charles Darwin and his reply, both split into numbered paragraphs.
 
@@ -55,7 +67,10 @@ if os.path.exists(CAND):
         except Exception: pass
     print(f"resuming: {len(done)} transcripts already processed")
 
-files=sorted(glob.glob(os.path.join(cfg.src,"conversations","transcript-*.json")))
+files=sorted(glob.glob(os.path.join(cfg.src,"conversations","transcript-*.json")))[:cfg.limit]
+if cfg.only:
+    _want=set(cfg.only.split(","))
+    files=[f for f in files if os.path.basename(f) in _want]
 print(f"{cfg.src_name}: {len(files)} transcripts -> {CAND}")
 stats=collections.Counter()
 with open(CAND,"a") as fh:
@@ -114,4 +129,4 @@ with open(CAND,"a") as fh:
             stats["pairs"]+=1
         stats["letters"]+=1
         if n%20==0: print(f"  {n}/{len(files)} letters | {stats['pairs']} pairs so far", flush=True)
-print("\nstage 1 complete:", dict(stats))
+print("\nstage 1 complete:", dict(stats), "| max prompt tokens seen:", max_prompt_tokens)
