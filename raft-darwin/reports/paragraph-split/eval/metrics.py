@@ -179,8 +179,11 @@ MODERN_RE = re.compile(r"\b(" + "|".join(sorted(map(re.escape, MODERN), key=len,
 
 def modern_hits(text, question=""):
     """Modern terms in `text` that the question itself did not supply."""
-    q = {m.group(0).lower() for m in MODERN_RE.finditer(question)}
-    return [m.group(0).lower() for m in MODERN_RE.finditer(text) if m.group(0).lower() not in q]
+    # stem on a trailing 's' so "computer" in the question also excuses "computers"
+    # (an exact match scored the mod-computer reply as a leak: a false positive)
+    stem = lambda w: w[:-1] if w.endswith("s") else w
+    q = {stem(m.group(0).lower()) for m in MODERN_RE.finditer(question)}
+    return [m.group(0).lower() for m in MODERN_RE.finditer(text) if stem(m.group(0).lower()) not in q]
 
 
 # ---------------------------------------------------------------- controls
@@ -284,7 +287,9 @@ def score_arm(arm, docs_idx, train_idx, vocab):
                     "repeat": repeat_share(t),
                     "mem_run_fed": run_vs_memories(t, r.get("memories", [])),
                     "n_memories": len(r.get("memories", [])),
-                    "oov": vocab.oov(t),
+                    # boilerplate stripped: most thinking traces are only that sentence
+                    "oov": vocab.oov(BOILER.sub("", t)),
+                    "substantive": bool(words(BOILER.sub("", t))),
                     "modern": modern_hits(t, r["question"]),
                     "boilerplate": part == "thinking" and t.strip().lower().startswith("nothing i have written"),
                     "capit": bool(CAPIT.search(t)) if part == "reply" else None,
@@ -319,8 +324,10 @@ def main():
     # memorisation is scored per part: think against training think, reply against reply.
     train = {arm: load_train(arm) for arm in ARMS}
     train_idx = {arm: {"thinking": RunIndex(train[arm][0]), "reply": RunIndex(train[arm][1])} for arm in ARMS}
-    # controls use the arm-agnostic reply index of the summary arm (reply text is
-    # identical across arms up to sampling of memories; verified below).
+    # controls use the summary arm's reply index; that is valid only if the reply
+    # text is identical across arms, so check rather than assume.
+    assert train["summary"][1] == train["source"][1] == train["register"][1], \
+        "training replies differ across arms: controls must be run per arm"
     ctl_lines, ok = controls(docs, train_idx["summary"]["reply"], max(train["summary"][1], key=len), vocab)
     print("CONTROLS (ground truth first)")
     print("\n".join(ctl_lines))
@@ -343,8 +350,9 @@ def main():
                           mean(r["mem_run_train"] for r in rs), max(r["mem_run_train"] for r in rs),
                           mean(r["mem_run_fed"] for r in rs if r["n_memories"]),
                           mean(r["oov"] for r in rs), mean(r["repeat"] for r in rs),
-                          sum(bool(r["modern"]) for r in rs)] + ([sum(r["boilerplate"] for r in rs)] if part == "thinking" else []))
-        hdr = ["arm", "words", "run/train", "max", "run/fed*", "oov", "repeat5", "modern-hit n"] + (["boilerplate n"] if part == "thinking" else [])
+                          sum(bool(r["modern"]) for r in rs)]
+                         + ([sum(r["boilerplate"] for r in rs), sum(r["substantive"] for r in rs)] if part == "thinking" else []))
+        hdr = ["arm", "words", "run/train", "max", "run/fed*", "oov", "repeat5", "modern-hit n"] + (["boilerplate n", "n substantive"] if part == "thinking" else [])
         table(f"[{part.upper()}]  run/train = mean longest verbatim run vs training; run/fed* = vs fed memories "
               f"(probes with memories only)", hdr, lines)
 

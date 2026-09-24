@@ -66,10 +66,19 @@ What it says, at one seed:
   words (summary / source / register) against a real-Darwin shared-idiom floor of
   median 5, p90 7, max 10. Thinking is the same once the boilerplate sentence is
   stripped. The ablation's specific worry does not show up.
-- **No period-register or modern-leak signal.** Out-of-vocabulary share 0.02–0.03
-  against real Darwin 0.015. One leak hit in 57 items (`computers`, register arm
-  on `mod-computer`). The four modern-leak probes are otherwise clean in reply
-  *and* thinking.
+- **No modern-leak signal.** 0 hits across all 57 items (19 probes × 3 arms, reply
+  and thinking). *Retraction:* a first run reported one hit (`computers`, register
+  arm, `mod-computer`); that was a false positive — the question itself says
+  "computer" and the exclusion matched exact strings, so the plural slipped
+  through. Fixed by stemming. The detector is lexical: it cannot see anachronistic
+  *ideas* in period vocabulary.
+- **Register is uninformative so far.** Out-of-vocabulary share is 0.017–0.031
+  against real Darwin 0.015, but the only negative control is one modern-pastiche
+  sentence (0.044) and the arms differ by 0.014 — at one seed that is noise. Metric
+  2 needs a *set* of modern paraphrases as its negative control before it can rank
+  anything. Thinking OOV is computed on only **4–5 substantive traces per arm**
+  (the rest are the boilerplate sentence alone), so 0.065–0.127 there is not a
+  comparison.
 - **The real finding is degeneration, and it is not in the plan.** `letter-full`
   — the positive control for long-form — is a **repetition loop in the source
   arm** (558 words, repeat-5gram share 0.70, "in which the air is exhausted,
@@ -85,9 +94,11 @@ What it says, at one seed:
 - **Thinking barely engages the memories.** "Nothing I have written before bears
   on this directly" opens 14/19 summary, **18/19 source**, 15/19 register
   thinking traces, including 7/7 source probes where verbatim memories *were*
-  fed. Training thinking runs to ~100 words; generated thinking is ~40.
+  fed. Training thinking, boilerplate stripped, averages 90 / 104 / 90 words
+  (summary / source / register; 44–53 of 232 are empty after stripping);
+  generated thinking averages 31–41 words *including* the boilerplate.
 
-Open, in order of value: (a) find out whether the loops and role-bleed are
+Open, in order of value: (a) **first, and it gates the rest:** find out whether the loops and role-bleed are
 generation settings (repetition penalty, stop tokens, max_new_tokens on
 bigmac) rather than training — an arm ranking is meaningless until they are
 ruled out; (b) multi-seed; (c) memory-stripped collapse control; (d) a judge for
