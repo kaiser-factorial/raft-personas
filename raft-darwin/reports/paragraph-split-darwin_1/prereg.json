@@ -1,0 +1,12 @@
+{
+  "_note": "Written BEFORE any verdicts/batch-N.json existed for darwin_1 (see this file's first commit). Fixes the rules by which adjudicators and batches are judged, so they cannot be adjusted after seeing results.",
+  "source": "darwin_1",
+  "candidates": 1715,
+  "batches": "43 batches of ~40 candidates, +8 shared with the next batch; make_batches.py --src darwin_1 --per-batch 40 --seed 41",
+  "controls_per_batch": {"CROSS": 3, "SAME": 3},
+  "gate": "A batch is usable only if its adjudicator rejects (verdict != KEEP) at least 2 of its 3 CROSS controls. CROSS answers are lifted from a different letter, so rejecting them is ground truth by construction. A batch that fails is discarded and re-run with a fresh adjudicator; it is not re-scored under a looser rule.",
+  "same_controls": "Diagnostic only, never a gate. In the darwin_thinking run all five SAME controls an adjudicator 'missed' were real links the splitter had failed to find. Every SAME control an adjudicator KEEPs is read by hand after scoring and recorded as either an adjudicator error or a splitter miss (a candidate for the stage 3b re-match pass).",
+  "agreement": "Overlap agreement is reported as computed by score_verdicts.py. Below 85% on double-judged pairs, adjudication pauses and the prompt or batch size is revisited before further batches are run.",
+  "merge": "Verdicts merge on the pair (source, incoming_paras, reply_paras). Any DROP or UNCERTAIN vetoes; a disagreement resolves to DROP.",
+  "prompt": "pipeline/ADJUDICATOR_PROMPT.md at the commit that adds this file. Any change to it is recorded here before the batches it affects are run."
+}
