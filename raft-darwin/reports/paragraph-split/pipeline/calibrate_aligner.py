@@ -74,10 +74,11 @@ def jaccard(a, b):
     return len(a & b) / len(a | b) if a | b else 0.0
 
 
-def compare(cand_path, only):
+def compare(cand_paths, only):
     truth = load_truth()
     base = load_baseline()
-    local = [json.loads(l) for l in open(cand_path)]
+    runs = [[json.loads(l) for l in open(p)] for p in cand_paths]
+    local = [c for r in runs for c in r]   # several runs are UNIONED; duplicates are harmless here
     kinds = {}
     for tag, names in only.items():
         for n in names:
@@ -94,6 +95,16 @@ def compare(cand_path, only):
 
     print(f"{len(only['keep'])} keep + {len(only['long'])} long + {len(only['nopair'])} no-pair letters; "
           f"{len(local)} local candidates\n")
+    kept = [(s, i, r) for (s, i, r), (v, _) in truth.items() if v == "KEEP" and s in kinds]
+    if len(runs) > 1:
+        print("recall of adjudicated KEEP pairs (overlap), per run and unioned:")
+        for p, r in zip(cand_paths + ["UNION"], runs + [local]):
+            rb = collections.defaultdict(list)
+            for c in r:
+                rb[c["source_transcript"]].append(c)
+            hit = sum(1 for s, i, rr in kept if any(matches(c, i, rr) for c in rb[s]))
+            print(f"  {hit:2d}/{len(kept)}  {len(r):3d} candidates  {p}")
+        print()
 
     # RECALL: adjudicated KEEP pairs on the calibration letters
     rows = [(s, i, r) for (s, i, r), (v, _) in truth.items() if v == "KEEP" and s in kinds]
@@ -117,7 +128,7 @@ def compare(cand_path, only):
         if not any(matches(b, c["incoming_paras"], c["reply_paras"]) for b in base_by[s]):
             new.append(c)
     print(f"\nNEW (matching no baseline candidate; needs a human read): {len(new)}")
-    for c in new:
+    for c in new[:30]:
         print(f"  [{kinds.get(c['source_transcript'])}] {c['source_transcript']} in={c['incoming_paras']} reply={c['reply_paras']}")
         print(f"      Q: {c['question'][:160]}")
         print(f"      A: {c['answer'][:160]}")
@@ -137,7 +148,7 @@ if __name__ == "__main__":
     ap.add_argument("--n-keep", type=int, default=16)
     ap.add_argument("--n-long", type=int, default=4)
     ap.add_argument("--n-nopair", type=int, default=6)
-    ap.add_argument("--cand", help="candidates.jsonl written by the aligner under test")
+    ap.add_argument("--cand", nargs="+", help="candidates.jsonl from the aligner(s) under test; several are unioned")
     ap.add_argument("--only", help="the list printed by `select`")
     a = ap.parse_args()
     keep, long_, nopair = select(a.n_keep, a.n_long, a.n_nopair)

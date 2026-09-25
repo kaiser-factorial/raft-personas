@@ -76,13 +76,33 @@ Recall is measured against the 219 adjudicated KEEP pairs. It is a floor, not a
 ceiling: the baseline splitter itself missed real links (see the SAME-control
 finding), so candidates it never proposed are listed as NEW for a human to read.
 
-Result for `qwen2.5:14b` (Ollama on bigmac, 22 letters, 3 min): 34 candidates;
-recall of adjudicated KEEP pairs **6/28 exact, 18/28 (64%) by overlap**; none of
-the 4 adjudicated-DROP pairs on these letters were re-proposed; 15 NEW candidates,
-several visibly bad on a skim (a signature paired with a signature; a reply about
-the East coast's scenery paired with a "sight of your hand" opening). Not run on
-the full corpus. Since a missed link is lost and a bad candidate is merely
-rejected at adjudication, recall is the number that matters here.
+Results, 22 letters (16 with adjudicated KEEP pairs, the 4 longest, 2 no-pair),
+all on bigmac; the baseline `gpt-4o-mini` proposed 32 candidates on these letters.
+"Recall" is adjudicated KEEP pairs recovered by overlap, out of 28 (a small sample:
+treat gaps of a few pairs as noise). "Distinct" counts exact-distinct candidates,
+which is what adjudication would have to read; near-duplicates inflate it.
+
+| aligner | recall | distinct candidates | time / 22 letters |
+|---|---|---|---|
+| `qwen2.5:14b`, T=0 | 18/28 | 34 | 3 min |
+| `qwen2.5:14b`, T=0.7, seeds 1/2/3 (each) | 16 / 18 / 15 | ~30 | ~3 min each |
+| 14B union of the four runs | 23/28 | 83 | ~13 min |
+| `Qwen3.8-27B`, T=0, thinking off | 22/28 | 49 | 11 min 45 s |
+| 27B + the four 14B runs | 27/28 | 118 | ~25 min |
+
+Only 1 of the 4 adjudicated-DROP pairs on these letters was re-proposed by any union,
+and none by a single run. The one KEEP pair every run missed is `transcript-0092`
+(in 2-5 / reply 2-4). Missed pairs are mostly large many-to-many groupings. Several
+NEW candidates look wrong on a skim (a signature paired with a signature; an "East
+coast scenery" reply paired with a "sight of your hand" opening) and several look
+like real links the baseline never proposed; neither is adjudicated. Since a missed
+link is lost and a bad candidate is merely rejected at adjudication, recall is the
+number that matters, at the price of more adjudication.
+
+The 27B needs `--extra-body '{"chat_template_kwargs":{"enable_thinking":false}}'`
+(a Qwen3.5-family template otherwise emits `<think>` and breaks the JSON and YES/NO
+parsing) and a server new enough to know `qwen3_5` (`~/raft/env` on bigmac has
+`mlx_lm` 0.31.3; `~/mlx-env` has 0.29.1 and cannot load it).
 
 ## Safeguards
 

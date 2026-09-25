@@ -15,6 +15,11 @@ add_project_args(ap)
 ap.add_argument("--model", default="gpt-4o-mini", help="aligner/verifier model (default %(default)s)")
 ap.add_argument("--base-url", default=os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1"),
                 help="OpenAI-compatible endpoint (default %(default)s; env OPENAI_BASE_URL)")
+ap.add_argument("--extra-body", type=json.loads, default={},
+                help='JSON merged into every request, e.g. \'{"chat_template_kwargs":{"enable_thinking":false}}\' '
+                     "to stop a Qwen3.5-family model emitting <think> before its answer")
+ap.add_argument("--temperature", type=float, default=0.0, help="default 0 (deterministic)")
+ap.add_argument("--seed", type=int, help="sampling seed, for reproducible non-zero temperature runs")
 ap.add_argument("--limit", type=int, help="process only the first N transcripts (for trial runs)")
 ap.add_argument("--only", help="comma-separated transcript filenames to process (for calibration)")
 cfg=resolve(ap.parse_args())
@@ -28,7 +33,8 @@ os.makedirs(OUT, exist_ok=True)
 CAND=os.path.join(OUT,"candidates.jsonl")
 
 def ask(p, model=None, maxtok=1400):
-    b={"model":model or cfg.model,"max_tokens":maxtok,"temperature":0,"messages":[{"role":"user","content":p}]}
+    b={"model":model or cfg.model,"max_tokens":maxtok,"temperature":cfg.temperature,"messages":[{"role":"user","content":p}],
+       **({"seed":cfg.seed} if cfg.seed is not None else {}),**cfg.extra_body}
     r=urllib.request.Request(OAI,data=json.dumps(b).encode(),
         headers={"Content-Type":"application/json","Authorization":f"Bearer {KEY}"})
     global max_prompt_tokens
